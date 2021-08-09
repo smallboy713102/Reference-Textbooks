@@ -19,9 +19,9 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Data Structures and Algorithms Annotated Reference, Granville Barnett and Luca Del Tongo
+### Data Structures and Algorithms Annotated Reference, Granville Barnett
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Structures-and-Algorithms-Annotated-Reference.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Structures-and-Algorithms-Annotated-Reference-Granville-Barnett.jpg">
 
 #### `Chapter 01` 
 #### `Chapter 02` 
