@@ -1,12 +1,11 @@
-# Data Structures and Algorithms Analysis Textbooks
+# Discrete Mathematics Textbooks
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-structures.jpg">
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/algorithms-analysis.jpg">
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/discrete-mathematics.jpg">
 <br>
 
-## :books: `Data Structures and Algorithms Analysis` Textbooks
+## :books: `Discrete Mathematics` Textbooks
 
-### Introduction to Algorithms, Thomas H. Cormen
+### Discrete Mathematics and Its Applications, Kenneth Rosen
 #### `Chapter 01` 
 #### `Chapter 02` 
 #### `Chapter 03` 
@@ -16,7 +15,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Data Structures and Algorithms Annotated Reference, Granville Barnett and Luca Del Tongo
+### Discrete Mathematics: An Open Introduction, Oscar Levin
 #### `Chapter 01` 
 #### `Chapter 02` 
 #### `Chapter 03` 
@@ -26,7 +25,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Analysis of Algorithms An Active Learning Approach, Jeffrey J. McConnell
+### Elements of Discrete Mathematics, Richard H. Hammack
 #### `Chapter 01` 
 #### `Chapter 02` 
 #### `Chapter 03` 
@@ -36,7 +35,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Competitive Programming 3, Steven Halim
+### Schaum's Outline of Discrete Mathematics, Seymour Lipschutz
 #### `Chapter 01` 
 #### `Chapter 02` 
 #### `Chapter 03` 
@@ -46,7 +45,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Fundamental of Algorithms, Gilles Brassard and Paul Bartley
+### Discrete Mathematics Using a Computer, John O'Donnell
 #### `Chapter 01` 
 #### `Chapter 02` 
 #### `Chapter 03` 
@@ -56,7 +55,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### The Algorithm Design Manual, Steven S. Skiena
+### Discrete Math for Computer Science Students, Ken Bogart
 #### `Chapter 01` 
 #### `Chapter 02` 
 #### `Chapter 03` 
@@ -66,7 +65,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Grokking Algorithms: An illustrated guide for programmers and other curious people, Aditya Y. Bhargava
+### Fundamentals of Discrete Math for Computer Science, Tom Jenkyns
 #### `Chapter 01` 
 #### `Chapter 02` 
 #### `Chapter 03` 
@@ -76,7 +75,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Data Structures and Algorithms Made Easy: Data Structures and Algorithmic Puzzles, Narasimha Karumanchi
+### Notes on Discrete Mathematics, James Aspnes
 #### `Chapter 01` 
 #### `Chapter 02` 
 #### `Chapter 03` 
