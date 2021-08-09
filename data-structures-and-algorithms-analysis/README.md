@@ -84,7 +84,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Grokking Algorithms: An illustrated guide for programmers and other curious people, Aditya Y. Bhargava
+### Grokking Algorithms, Aditya Y. Bhargava
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Grokking-Algorithms-Aditya-Y.-Bhargava.jpg">
 
