@@ -60,7 +60,7 @@
 
 ### Guide to Competitive Programming, Antti Laaksonen
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Guide-to-Competitive-Programming-Antti-Laaksonen.pdf.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Guide-to-Competitive-Programming-Antti-Laaksonen.jpg">
 
 #### `Chapter 01` 
 #### `Chapter 02` 
@@ -71,7 +71,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Fundamental of Algorithms, Gilles Brassard and Paul Bartley
+### Fundamental of Algorithmics, Gilles Brassard and Paul Bartley
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Fundamental-of-Algorithmics-Gilles-Brassard-and-Paul-Bartley.jpg">
 
