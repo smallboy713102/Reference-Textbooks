@@ -7,7 +7,7 @@
 
 ### Schaum's Outline of Discrete Mathematics, Seymour Lipschutz
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Schaum's-Outline-of-Discrete-Mathematics-Seymour-Lipschutz.jpg.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Schaum's-Outline-of-Discrete-Mathematics-Seymour-Lipschutz.jpg">
 
 #### `Chapter 01` 
 #### `Chapter 02` 
@@ -20,7 +20,7 @@
 
 ### Discrete Mathematics and Its Applications, Kenneth Rosen
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Discrete-Mathematics-and-Its-Applications-Kenneth-Rosen.jpg.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Discrete-Mathematics-and-Its-Applications-Kenneth-Rosen.jpg">
 
 #### `Chapter 01` 
 #### `Chapter 02` 
@@ -44,7 +44,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Discrete Mathematics An Open Introduction Oscar Levin
+### Discrete Mathematics An Open Introduction, Oscar Levin
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Discrete-Mathematics-An-Open-Introduction-Oscar-Levin.jpg">
 
