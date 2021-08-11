@@ -6,6 +6,8 @@ Computer Science Textbooks for computer science students.
 
 <br>
 
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/discrete-mathematics.jpg">
+
 ## :books: [`Discrete Mathematics`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md) Textbooks
 
 <details>
@@ -100,6 +102,9 @@ Computer Science Textbooks for computer science students.
 </table>
 
 </details>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-structures.jpg">
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/algorithms-analysis.jpg">
 
 ## :books: [`Data Structures and Algorithms Analysis`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md) Textbooks
 
