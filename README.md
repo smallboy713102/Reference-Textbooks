@@ -137,21 +137,6 @@ Computer Science Textbooks for computer science students.
     </tbody>
 </table>
 
-<table>
-    <tbody>
-        <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Elements of Discrete Mathematics, Richard H. Hammack</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Discrete Math for Computer Science Students Ken Bogart</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Notes on Discrete Mathematics, James Aspnes</a></td>
-        </tr>
-        <tr>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Elements-of-Discrete-Mathematics-Richard-H.-Hammack.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Discrete-Math-for-Computer-Science-Students-Ken-Bogart.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Notes-on-Discrete-Mathematics-James-Aspnes.jpg"></td>
-        </tr>
-    </tbody>
-</table>
-
 <br>
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-structures.jpg"></img>
