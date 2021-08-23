@@ -4,11 +4,11 @@
 
 Computer Science Textbooks for computer science students.
 
-## `Python Programming Language and Object Oriented` Textbooks
-
 <br>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/python.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/object-oriented.jpg"></img>
+
+## `Python Programming Language and Object Oriented` Textbooks
 
 <table>
     <tbody>
@@ -39,12 +39,13 @@ Computer Science Textbooks for computer science students.
         </tr>
     </tbody>
 </table>
+
 <br>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/cpp.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/object-oriented.jpg"></img>
 
 ## `Cpp Programming Language and Object Oriented` Textbooks
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/cpp.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/object-oriented.jpg"></img>
 
 <table>
     <tbody>
