@@ -1,9 +1,12 @@
-# Discrete Mathematics Textbooks
-
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/discrete-mathematics.jpg">
+<img align="right" width="80" height="120" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/textbooks.jpg"></img>
 <br>
 
-## :books: `Discrete Mathematics` Textbooks
+# Discrete Mathematics Textbooks
+
+<br><br>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/discrete-mathematics.jpg">
+
+## `Discrete Mathematics` Textbooks
 
 ### Schaum's Outline of Discrete Mathematics, Seymour Lipschutz
 
