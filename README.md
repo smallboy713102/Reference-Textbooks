@@ -6,6 +6,14 @@ Computer Science Textbooks for computer science students.
 
 <br>
 
+## Table of Contents
+  * [Python Programming Language and Object Oriented Textbooks](#Python-Programming-Language-and-Object-Oriented-Textbooks)
+  * [Cpp Programming Language and Object Oriented Textbooks](#Cpp-Programming-Language-and-Object-Oriented-Textbooks)
+  * [Discrete Mathematics Textbooks](#Discrete-Mathematics-Textbooks)
+  * [Data Structures and Algorithms Analysis Textbooks](#Data-Structures-and-Algorithms-Analysis-Textbooks)
+
+<br>
+
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/python.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/object-oriented.jpg"></img>
 
