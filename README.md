@@ -48,7 +48,6 @@ Computer Science Textbooks for computer science students.
 
 ## `Cpp Programming Language and Object Oriented` Textbooks
 
-
 <table>
     <tbody>
         <tr>
