@@ -5,6 +5,7 @@
 Computer Science Textbooks for computer science students.
 
 <br>
+
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/python.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/object-oriented.jpg"></img>
 
@@ -41,6 +42,7 @@ Computer Science Textbooks for computer science students.
 </table>
 
 <br>
+
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/cpp.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/object-oriented.jpg"></img>
 
@@ -78,6 +80,7 @@ Computer Science Textbooks for computer science students.
 </table>
 
 <br>
+
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/discrete-mathematics.jpg"></img>
 
 ## `Discrete Mathematics` Textbooks
@@ -141,6 +144,7 @@ Computer Science Textbooks for computer science students.
         </tr>
     </tbody>
 </table>
+
 <br>
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-structures.jpg"></img>
