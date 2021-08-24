@@ -11,6 +11,8 @@ Computer Science Textbooks for computer science students.
   * [Cpp Programming Language and Object Oriented Textbooks](#Cpp-Programming-Language-and-Object-Oriented-Textbooks)
   * [Discrete Mathematics Textbooks](#Discrete-Mathematics-Textbooks)
   * [Data Structures and Algorithms Analysis Textbooks](#Data-Structures-and-Algorithms-Analysis-Textbooks)
+  * [Computer Graphics Textbooks](#Computer-Graphics-Textbooks)
+  * [Data Compression Textbooks](#Data-Compression-Textbooks)
 
 <br>
 
