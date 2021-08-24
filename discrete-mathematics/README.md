@@ -3,12 +3,7 @@
 
 # Discrete Mathematics Textbooks
 
-<br><br>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/discrete-mathematics.jpg">
-
-## `Discrete Mathematics` Textbooks
-
-### Schaum's Outline of Discrete Mathematics, Seymour Lipschutz
+## Schaum's Outline of Discrete Mathematics, Seymour Lipschutz
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Schaum's-Outline-of-Discrete-Mathematics-Seymour-Lipschutz.jpg">
 
@@ -21,7 +16,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Discrete Mathematics and Its Applications, Kenneth Rosen
+## Discrete Mathematics and Its Applications, Kenneth Rosen
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Discrete-Mathematics-and-Its-Applications-Kenneth-Rosen.jpg">
 
@@ -34,7 +29,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Fundamentals of Discrete Math for Computer Science, Tom Jenkyns
+## Fundamentals of Discrete Math for Computer Science, Tom Jenkyns
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Fundamentals-of-Discrete-Math-for-Computer-Science-Tom-Jenkyns.jpg">
 
@@ -47,7 +42,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Discrete Mathematics An Open Introduction, Oscar Levin
+## Discrete Mathematics An Open Introduction, Oscar Levin
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Discrete-Mathematics-An-Open-Introduction-Oscar-Levin.jpg">
 
@@ -60,7 +55,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Mathematics for Computer Science, Eric Lehman
+## Mathematics for Computer Science, Eric Lehman
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Mathematics-for-Computer-Science-Eric-Lehman.jpg">
 
@@ -73,7 +68,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Discrete Mathematics Using a Computer, John O'Donnell
+## Discrete Mathematics Using a Computer, John O'Donnell
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Discrete-Mathematics-Using-a-Computer-John-O'Donnell.jpg">
 
@@ -86,7 +81,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Discrete Mathematics for Computer Science, Gary Haggard
+## Discrete Mathematics for Computer Science, Gary Haggard
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Discrete-Mathematics-for-Computer-Science-Gary-Haggard.jpg">
 
@@ -99,7 +94,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Discrete Mathematics for Computer Scientists, Clifford Stein
+## Discrete Mathematics for Computer Scientists, Clifford Stein
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Discrete-Mathematics-for-Computer-Scientists-Clifford-Stein.jpg">
 
@@ -112,7 +107,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Discrete Mathematics TutorialsPoint
+## Discrete Mathematics TutorialsPoint
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Discrete-Mathematics-TutorialsPoint.jpg">
 
