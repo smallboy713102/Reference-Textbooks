@@ -3,13 +3,7 @@
 
 # Data Structures and Algorithms Analysis Textbooks
 
-<br><br>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-structures.jpg">
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/algorithms-analysis.jpg">
-
-## `Data Structures and Algorithms Analysis` Textbooks
-
-### Introduction to Algorithms, Thomas H. Cormen
+## Introduction to Algorithms, Thomas H. Cormen
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Introduction-to-Algorithms-Thomas-H.-Cormen.jpg">
 
@@ -22,7 +16,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Data Structures and Algorithms Annotated Reference, Granville Barnett
+## Data Structures and Algorithms Annotated Reference, Granville Barnett
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Structures-and-Algorithms-Annotated-Reference-Granville-Barnett.jpg">
 
@@ -35,7 +29,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Analysis of Algorithms An Active Learning Approach, Jeffrey J. McConnell
+## Analysis of Algorithms An Active Learning Approach, Jeffrey J. McConnell
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Analysis-of-Algorithms-An-Active-Learning-Approach-Jeffrey-J.-McConnell.jpg">
 
@@ -48,7 +42,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Competitive Programming 3, Steven Halim
+## Competitive Programming 3, Steven Halim
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Competitive-Programming-3-Steven-Halim.jpg">
 
@@ -61,7 +55,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Guide to Competitive Programming, Antti Laaksonen
+## Guide to Competitive Programming, Antti Laaksonen
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Guide-to-Competitive-Programming-Antti-Laaksonen.jpg">
 
@@ -74,7 +68,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Fundamental of Algorithmics, Gilles Brassard and Paul Bartley
+## Fundamental of Algorithmics, Gilles Brassard and Paul Bartley
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Fundamental-of-Algorithmics-Gilles-Brassard-and-Paul-Bartley.jpg">
 
@@ -87,7 +81,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Grokking Algorithms, Aditya Y. Bhargava
+## Grokking Algorithms, Aditya Y. Bhargava
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Grokking-Algorithms-Aditya-Y.-Bhargava.jpg">
 
@@ -100,7 +94,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Introduction to the Design and Analysis of Algorithms, Anany V. Levitin
+## Introduction to the Design and Analysis of Algorithms, Anany V. Levitin
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Introduction-to-the-Design-and-Analysis-of-Algorithms-Anany-V.-Levitin.jpg">
 
@@ -113,7 +107,7 @@
 #### `Chapter 07` 
 #### `Chapter 08` 
 
-### Data Structures and Algorithms TutorialsPoint
+## Data Structures and Algorithms TutorialsPoint
 
 <img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Structures-and-Algorithms-TutorialsPoint.jpg">
 
