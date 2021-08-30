@@ -24,9 +24,9 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Effective Python Brett Slatkin</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Python Programming John Zelle</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Python Tutorial Guido van Rossum</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Effective Python, Brett Slatkin</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Python Programming, John Zelle</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Python Tutorial, Guido van Rossum</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Effective-Python-Brett-Slatkin.jpg"></td>
@@ -40,8 +40,8 @@ Computer Science Textbooks for computer science students.
     <tbody>
         <tr>
 <td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Python3 TutorialsPoint</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Think Python Allen B. Downey</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Python for Everybody Charles R. Severance</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Think Python, Allen B. Downey</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Python for Everybody, Charles R. Severance</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python3-TutorialsPoint.jpg"></td>
@@ -61,9 +61,9 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">A Complete Guide to Programming in Cpp Ulla Kirch Prinz</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Accelerated Cpp Andrew Koenig and Barbara E. Moo</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Cpp How to Program Paul Deitel</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">A Complete Guide to Programming in Cpp, Ulla Kirch Prinz</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Accelerated Cpp, Andrew Koenig and Barbara E. Moo</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Cpp How to Program, Paul Deitel</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/A-Complete-Guide-to-Programming-in-Cpp-Ulla-Kirch-Prinz.jpg"></td>
@@ -76,9 +76,9 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Cpp The Complete Reference Herbert Schildt</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Cpp The Complete Reference, Herbert Schildt</a></td>
 <td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Cpp TutorialsPoint</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Effective Modern Cpp Scott Meyers</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Effective Modern Cpp, Scott Meyers</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Cpp-The-Complete-Reference-Herbert-Schildt.jpg"></td>
@@ -199,9 +199,9 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-compression/README.md">Data Compression David Salomon</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-compression/README.md">The Data Compression Book Mark Nelson</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-compression/README.md">Understanding Compression Data Compression for Modern Developers Colt McAnlis</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-compression/README.md">Data Compression, David Salomon</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-compression/README.md">The Data Compression Book, Mark Nelson</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-compression/README.md">Understanding Compression Data Compression for Modern Developers, Colt McAnlis</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Compression-David-Salomon.jpg"></td>
