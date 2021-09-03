@@ -223,6 +223,7 @@ Computer Science Textbooks for computer science students.
 </table>
 
 <br>
+
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-compression.jpg"></img>
 
 ## `Data Compression` Textbooks
@@ -244,6 +245,97 @@ Computer Science Textbooks for computer science students.
 
 <br>
 
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-analysis.jpg"></img>
+
+## `Data Analysis` Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Head First Statistics: A Brain-Friendly Guide, Dawn Griffiths</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Practical Statistics for Data Scientists, Peter Bruce</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Python for Data Analysis, Wes McKinney</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Head-First-Statistics-A-Brain-Friendly-Guide-Dawn-Griffiths.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Practical-Statistics-for-Data-Scientists-Peter-Bruce.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-for-Data-Analysis-Wes-McKinney.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Python Data Science Handbook: Essential Tools for Working with Data, Jake VanderPlas</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Data Science for Business, Foster Provost</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Data Science from Scratch: First Principles with Python, Joel Grus</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-Data-Science-Handbook-Essential-Tools-for-Working-with-Data-Jake-VanderPlas.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Science-for-Business-Foster-Provost.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Science-from-Scratch-First-Principles-with-Python-Joel-Grus.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Data Smart: Using Data Science to Transform Information into Insight, John W. Foreman</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Designing Data Intensive Applications, Martin Kleppmann</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Doing Data Science: Straight Talk from the Frontline, Rachel Schutt</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Smart-Using-Data-Science-to-Transform-Information-into-Insight-John-W.-Foreman.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Designing-Data-Intensive-Applications-Martin-Kleppmann.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Doing-Data-Science-Straight-Talk-from-the-Frontline-Rachel-Schutt.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Machine Learning for Hackers: Case Studies and Algorithms to Get You Started, Drew Conway</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Machine Learning in Action, Peter Harrington</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Learning R: A Step-by-Step Function Guide to Data Analysis, Ricbard Cotton</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-for-Hackers-Case-Studies-and-Algorithms-to-Get-You-Started-Drew-Conway.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-in-Action-Peter-Harrington.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Learning-R-A-Step-by-Step-Function-Guide-to-Data-Analysis-Ricbard-Cotton.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Practical Data Science with R, Nina Zumel</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">R for Data Science, Hadley Wickham</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">The Art of R Programming, Norman Matloff</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Practical-Data-Science-with-R-Nina-Zumel.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/R-for-Data-Science-Hadley-Wickham.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Art-of-R-Programming-Norman-Matloff.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Storytelling with Data A Data Visualization Guide for Business Professionals, Wiley</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">The Data Science Handbook, Jake Klamka</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">The Elements of Statistical Learning, Trevor Hastie</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Storytelling-with-Data-A-Data-Visualization-Guide-for-Business-Professionals-Wiley.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Data-Science-Handbook-Jake-Klamka.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Elements-of-Statistical-Learning-Trevor-Hastie.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/machine-learning.jpg"></img>
 
 ## `Machine Learning` Textbooks
@@ -251,84 +343,84 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Trevor Hastie</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Pattern Recognition and Machine Learning - Christopher M. Bishop</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems - Aurélien Géron</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">An Introduction to Statistical Learning, Gareth James</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Applied Predictive Modeling, Max Kuhn</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Pattern Recognition and Machine Learning, Christopher M. Bishop</a></td>
         </tr>
         <tr>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Elements-of-Statistical-Learning-Data-Mining-Inference-and-Prediction-Trevor-Hastie.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Pattern-Recognition-and-Machine-Learning-Christopher-M.-Bishop.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Hands-On-Machine-Learning-with-Scikit-Learn-and-TensorFlow-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-Aurelien-Geron.jpg"></td>
-        </tr>
-    </tbody>
-</table>
-<table>
-    <tbody>
-        <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning in Action - Peter Harrington</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Introduction to Machine Learning with Python: A Guide for Data Scientists - Andreas C. Müller & Sarah Guido</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">An Introduction to Statistical Learning: with Applications in R - Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani</a></td>
-        </tr>
-        <tr>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-in-Action-Peter-Harrington.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Introduction-to-Machine-Learning-with-Python-A-Guide-for-Data-Scientists-Andreas-C.-Muller.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/An-Introduction-to-Statistical-Learning-with-Applications-in-R-Gareth-James.jpg"></td>
-        </tr>
-    </tbody>
-</table>
-<table>
-    <tbody>
-        <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Learning From Data - Yaser S. Abu-Mostafa, Malik Magdon-Ismail, Hsuan-Tien Lin</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">The Hundred-Page Machine Learning Book - Andriy Burkov</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Mathematics for Machine Learning - Marc Peter Deisenroth</a></td>
-        </tr>
-        <tr>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Learning-From-Data-Yaser-S.-Abu-Mostafa.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Hundred-Page-Machine-Learning-Book-Andriy-Burkov.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Mathematics-for-Machine-Learning-Marc-Peter-Deisenroth.jpg"></td>
-        </tr>
-    </tbody>
-</table>
-<table>
-    <tbody>
-        <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Applied Predictive Modeling - Max Kuhn and Kjell Johnson</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning - Tom M. Mitchell</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Python Machine Learning - Sebastian Raschka and Vahid Mirjalili</a></td>
-        </tr>
-        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/An-Introduction-to-Statistical-Learning-Gareth-James.jpg"></td>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Applied-Predictive-Modeling-Max-Kuhn.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-Tom-M.-Mitchell.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-Machine-Learning-Sebastian-Raschka.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Pattern-Recognition-and-Machine-Learning-Christopher-M.-Bishop.jpg"></td>
         </tr>
     </tbody>
 </table>
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Understanding Machine Learning - Shai Shalev-Shwartz and Shai Ben-David</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Absolute Beginners: A Plain English Introduction - Oliver Theobald</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Dummies - John Paul Mueller and Luca Massaron</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Fundamentals of Machine Learning for Predictive Data Analytics, John D. Kelleher</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Introduction to Machine Learning with Python, Andreas C. Müller</a></td>
         </tr>
         <tr>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Understanding-Machine-Learning-Shai-Shalev-Shwartz.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-for-Absolute-Beginners-A-Plain-English-Introduction-Oliver-Theobald.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Fundamentals-of-Machine-Learning-for-Predictive-Data-Analytics-John-D.-Kelleher.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Hands-On-Machine-Learning-with-Scikit-Learn-and-TensorFlow-Aurelien-Geron.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Introduction-to-Machine-Learning-with-Python-Andreas-C.-Muller.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Absolute Beginners, Oliver Theobald</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Dummies, John Paul Mueller</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning, Tom M. Mitchell</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-for-Absolute-Beginners-Oliver-Theobald.jpg"></td>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-for-Dummies-John-Paul-Mueller.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-Tom-M.-Mitchell.jpg"></td>
         </tr>
     </tbody>
 </table>
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Data Mining: Practical Machine Learning Tools and Techniques - Ian H. Witten, Eibe Frank, and Mark A. Hall</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Grokking Machine Learning - Luis G. Serrano</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning with Python TutorialsPoint</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Mathematics for Machine Learning, Marc Peter Deisenroth</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Practical Machine Learning with Python, Dipanjan Sarkar</a></td>
         </tr>
         <tr>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Fundamentals-of-Machine-Learning-for-Predictive-Data-Analytics-Algorithms-Worked-Examples-and-Case-Studies.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-with-Python-TutorialsPoint.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Mathematics-for-Machine-Learning-Marc-Peter-Deisenroth.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Practical-Machine-Learning-with-Python-Dipanjan-Sarkar.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Python Machine Learning, Sebastian Raschka</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">The Hundred-Page Machine Learning Book, Andriy Burkov</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Understanding Machine Learning, Shai Shalev-Shwartz</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-Machine-Learning-Sebastian-Raschka.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Hundred-Page-Machine-Learning-Book-Andriy-Burkov.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Understanding-Machine-Learning-Shai-Shalev-Shwartz.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Data Mining Concepts and Techniques, Jiawei Han</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Data Mining: Practical Machine Learning Tools and Techniques, Ian H. Witten</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Learning From Data, Yaser S. Abu-Mostafa</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Mining-Concepts-and-Techniques-Jiawei-Han.jpg"></td>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Mining-Practical-Machine-Learning-Tools-and-Techniques-Ian-H.-Witten.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Grokking-Machine-Learning-Luis-G.-Serrano.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Learning-From-Data-Yaser-S.-Abu-Mostafa.jpg"></td>
         </tr>
     </tbody>
 </table>
