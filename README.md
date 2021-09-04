@@ -246,8 +246,10 @@ Computer Science Textbooks for computer science students.
 <br>
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-analysis.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-visualization.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-analytics.jpg"></img>
 
-## `Data Analysis` Textbooks
+## `Data Analysis and Visualization` Textbooks
 
 <table>
     <tbody>
@@ -337,6 +339,8 @@ Computer Science Textbooks for computer science students.
 <br>
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/machine-learning.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/supervised-learning.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/unsupervised-learning.jpg"></img>
 
 ## `Machine Learning` Textbooks
 
