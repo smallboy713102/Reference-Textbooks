@@ -243,6 +243,21 @@ Computer Science Textbooks for computer science students.
     </tbody>
 </table>
 
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Handbook of Data Compression, David Salomon</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Image and Video Compression for Multimedia Engineering, Yun Q. Shi</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Introduction to Data Compression, Khalid Sayood</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Handbook-of-Data-Compression-David-Salomon.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Image-and-Video-Compression-for-Multimedia-Engineering-Yun-Q.-Shi.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Introduction-to-Data-Compression-Khalid-Sayood.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
 <br>
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-analysis.jpg"></img>
