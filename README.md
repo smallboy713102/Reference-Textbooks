@@ -12,7 +12,7 @@ Computer Science Textbooks for computer science students.
   * [Discrete Mathematics Textbooks](#Discrete-Mathematics-Textbooks)
   * [Data Structures and Algorithms Analysis Textbooks](#Data-Structures-and-Algorithms-Analysis-Textbooks)
   * [Computer Graphics Textbooks](#Computer-Graphics-Textbooks)
-  * [Data Compression Textbooks](#Data-Compression-Textbooks)
+  * [Multimedia Data Compression Textbooks](#Multimedia-Data-Compression-Textbooks)
   * [Machine Learning Textbooks](#Machine-Learning-Textbooks)
 
 <br>
@@ -226,14 +226,14 @@ Computer Science Textbooks for computer science students.
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/data-compression.jpg"></img>
 
-## `Data Compression` Textbooks
+## `Multimedia Data Compression` Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-compression/README.md">Data Compression, David Salomon</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-compression/README.md">The Data Compression Book, Mark Nelson</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-compression/README.md">Understanding Compression Data Compression for Modern Developers, Colt McAnlis</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Data Compression, David Salomon</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">The Data Compression Book, Mark Nelson</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Understanding Compression Data Compression for Modern Developers, Colt McAnlis</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Compression-David-Salomon.jpg"></td>
