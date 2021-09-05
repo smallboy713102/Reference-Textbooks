@@ -12,8 +12,9 @@ Computer Science Textbooks for computer science students.
   * [Discrete Mathematics Textbooks](#Discrete-Mathematics-Textbooks)
   * [Data Structures and Algorithms Analysis Textbooks](#Data-Structures-and-Algorithms-Analysis-Textbooks)
   * [Computer Graphics Textbooks](#Computer-Graphics-Textbooks)
-  * [Multimedia Data Compression Textbooks](#Multimedia-Data-Compression-Textbooks)
+  * [Data Analysis and Visualization Textbooks](#Data-Analysis-and-Visualization-Textbooks)
   * [Machine Learning Textbooks](#Machine-Learning-Textbooks)
+  * [Multimedia Data Compression Textbooks](#Multimedia-Data-Compression-Textbooks)
 
 <br>
 
@@ -36,7 +37,6 @@ Computer Science Textbooks for computer science students.
         </tr>
     </tbody>
 </table>
-
 <table>
     <tbody>
         <tr>
@@ -51,7 +51,6 @@ Computer Science Textbooks for computer science students.
         </tr>
     </tbody>
 </table>
-
 <table>
     <tbody>
         <tr>
@@ -88,7 +87,6 @@ Computer Science Textbooks for computer science students.
         </tr>
     </tbody>
 </table>
-
 <table>
     <tbody>
         <tr>
@@ -103,7 +101,6 @@ Computer Science Textbooks for computer science students.
         </tr>
     </tbody>
 </table>
-
 <table>
     <tbody>
         <tr>
@@ -139,7 +136,6 @@ Computer Science Textbooks for computer science students.
         </tr>
     </tbody>
 </table>
-
 <table>
     <tbody>
         <tr>
@@ -154,7 +150,6 @@ Computer Science Textbooks for computer science students.
         </tr>
     </tbody>
 </table>
-
 <table>
     <tbody>
         <tr>
@@ -191,7 +186,6 @@ Computer Science Textbooks for computer science students.
         </tr>
     </tbody>
 </table>
-
 <table>
     <tbody>
         <tr>
@@ -206,7 +200,6 @@ Computer Science Textbooks for computer science students.
         </tr>
     </tbody>
 </table>
-
 <table>
     <tbody>
         <tr>
@@ -224,36 +217,77 @@ Computer Science Textbooks for computer science students.
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/multimedia-data-compression.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/computer-graphics.jpg"></img>
 
-## `Multimedia Data Compression` Textbooks
+## `Computer Graphics` Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Data Compression, David Salomon</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">The Data Compression Book, Mark Nelson</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Understanding Compression Data Compression for Modern Developers, Colt McAnlis</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Computer Graphics Principles and Practice, John F. Hughes</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">OpenGL Programming Guide, Dave Shreiner</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Fundamentals of Computer Graphics, Peter Shirley</a></td>
         </tr>
         <tr>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Compression-David-Salomon.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Data-Compression-Book-Mark-Nelson.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Understanding-Compression-Data-Compression-for-Modern-Developers-Colt-McAnlis.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Computer-Graphics-Principles-and-Practice-John-F.-Hughes.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/OpenGL-Programming-Guide-Dave-Shreiner.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Fundamentals-of-Computer-Graphics-Peter-Shirley.jpg"></td>
         </tr>
     </tbody>
 </table>
-
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Handbook of Data Compression, David Salomon</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Image and Video Compression for Multimedia Engineering, Yun Q. Shi</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Introduction to Data Compression, Khalid Sayood</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Algorithms and Data Structures with Applications to Graphics and Geometry, Jurg Nievergelt</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">3D Math Primer for Graphics and Game Development, Ian Parberry</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">3D Math Primer for Graphics and Game Development, Fletcher Dunn</a></td>
         </tr>
         <tr>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Handbook-of-Data-Compression-David-Salomon.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Image-and-Video-Compression-for-Multimedia-Engineering-Yun-Q.-Shi.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Introduction-to-Data-Compression-Khalid-Sayood.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Algorithms-and-Data-Structures-with-Applications-to-Graphics-and-Geometry-Jurg-Nievergelt.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/3D-Math-Primer-for-Graphics-and-Game-Development-Ian-Parberry.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/3D-Math-Primer-for-Graphics-and-Game-Development-Fletcher-Dunn.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Computer Graphics Lecture Notes</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Computer Graphics and Geometric Modeling, Max K. Agoston</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Fundamentals of Computer Graphics, John Collomosse</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Computer-Graphics-Lecture-Notes.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Computer-Graphics-and-Geometric-Modeling-Max-K.-Agoston.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Fundamentals-of-Computer-Graphics-John-Collomosse.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Computer Graphics Programming in OpenGL with Cpp, V. Scott Gordon</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Mathematics for 3D-Game Programming and Computer Graphics, Eric Lengyel</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Computer Graphics C Version, Donald Hearn</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Computer-Graphics-Programming-in-OpenGL-with-Cpp-V.-Scott-Gordon.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Mathematics-for-3D-Game-Programming-and-Computer-Graphics-Eric-Lengyel.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Computer-Graphics-C-Version-Donald-Hearn.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Geometry for Computer Graphics, John Vince</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Graphics Shaders Theory and Practice, Mike Bailey</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Introduction to Computer Graphics, David J. Eck</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Geometry-for-Computer-Graphics-John-Vince.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Graphics-Shaders-Theory-and-Practice-Mike-Bailey.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Introduction-to-Computer-Graphics-David-J.-Eck.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -440,6 +474,41 @@ Computer Science Textbooks for computer science students.
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Mining-Concepts-and-Techniques-Jiawei-Han.jpg"></td>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Mining-Practical-Machine-Learning-Tools-and-Techniques-Ian-H.-Witten.jpg"></td>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Learning-From-Data-Yaser-S.-Abu-Mostafa.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/multimedia-data-compression.jpg"></img>
+
+## `Multimedia Data Compression` Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Data Compression, David Salomon</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">The Data Compression Book, Mark Nelson</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Understanding Compression Data Compression for Modern Developers, Colt McAnlis</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Compression-David-Salomon.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Data-Compression-Book-Mark-Nelson.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Understanding-Compression-Data-Compression-for-Modern-Developers-Colt-McAnlis.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Handbook of Data Compression, David Salomon</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Image and Video Compression for Multimedia Engineering, Yun Q. Shi</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/multimedia-data-compression/README.md">Introduction to Data Compression, Khalid Sayood</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Handbook-of-Data-Compression-David-Salomon.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Image-and-Video-Compression-for-Multimedia-Engineering-Yun-Q.-Shi.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Introduction-to-Data-Compression-Khalid-Sayood.jpg"></td>
         </tr>
     </tbody>
 </table>
