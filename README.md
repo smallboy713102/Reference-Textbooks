@@ -14,6 +14,7 @@ Computer Science Textbooks for computer science students.
   * [Computer Graphics Textbooks](#Computer-Graphics-Textbooks)
   * [Data Analysis and Visualization Textbooks](#Data-Analysis-and-Visualization-Textbooks)
   * [Machine Learning Textbooks](#Machine-Learning-Textbooks)
+  * [Deep Learning Textbooks](#Deep-Learning-Textbooks)
   * [Multimedia Data Compression Textbooks](#Multimedia-Data-Compression-Textbooks)
 
 <br>
@@ -396,9 +397,9 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">An Introduction to Statistical Learning, Gareth James</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Applied Predictive Modeling, Max Kuhn</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Pattern Recognition and Machine Learning, Christopher M. Bishop</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">An Introduction to Statistical Learning, Gareth James</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Applied Predictive Modeling, Max Kuhn</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Pattern Recognition and Machine Learning, Christopher M. Bishop</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/An-Introduction-to-Statistical-Learning-Gareth-James.jpg"></td>
@@ -410,9 +411,9 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Fundamentals of Machine Learning for Predictive Data Analytics, John D. Kelleher</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Introduction to Machine Learning with Python, Andreas C. Müller</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Fundamentals of Machine Learning for Predictive Data Analytics, John D. Kelleher</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Introduction to Machine Learning with Python, Andreas C. Müller</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Fundamentals-of-Machine-Learning-for-Predictive-Data-Analytics-John-D.-Kelleher.jpg"></td>
@@ -424,9 +425,9 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Absolute Beginners, Oliver Theobald</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Dummies, John Paul Mueller</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning, Tom M. Mitchell</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Machine Learning for Absolute Beginners, Oliver Theobald</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Machine Learning for Dummies, John Paul Mueller</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Machine Learning, Tom M. Mitchell</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-for-Absolute-Beginners-Oliver-Theobald.jpg"></td>
@@ -438,9 +439,9 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning with Python TutorialsPoint</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Mathematics for Machine Learning, Marc Peter Deisenroth</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Practical Machine Learning with Python, Dipanjan Sarkar</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Machine Learning with Python TutorialsPoint</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Mathematics for Machine Learning, Marc Peter Deisenroth</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Practical Machine Learning with Python, Dipanjan Sarkar</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-with-Python-TutorialsPoint.jpg"></td>
@@ -452,9 +453,9 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Python Machine Learning, Sebastian Raschka</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">The Hundred-Page Machine Learning Book, Andriy Burkov</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Understanding Machine Learning, Shai Shalev-Shwartz</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Python Machine Learning, Sebastian Raschka</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">The Hundred-Page Machine Learning Book, Andriy Burkov</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Understanding Machine Learning, Shai Shalev-Shwartz</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-Machine-Learning-Sebastian-Raschka.jpg"></td>
@@ -466,9 +467,9 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Data Mining Concepts and Techniques, Jiawei Han</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Data Mining: Practical Machine Learning Tools and Techniques, Ian H. Witten</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Learning From Data, Yaser S. Abu-Mostafa</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Data Mining Concepts and Techniques, Jiawei Han</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Data Mining: Practical Machine Learning Tools and Techniques, Ian H. Witten</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Learning From Data, Yaser S. Abu-Mostafa</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Mining-Concepts-and-Techniques-Jiawei-Han.jpg"></td>
@@ -477,6 +478,88 @@ Computer Science Textbooks for computer science students.
         </tr>
     </tbody>
 </table>
+
+<br>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/neural-networks.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/deep-learning.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/generative-adversarial-network.jpg"></img>
+
+## `Deep Learning` Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Python Machine Learning, Sebastian Raschka</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning, Ian Goodfellow</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Hands-On-Machine-Learning-with-Scikit-Learn-and-TensorFlow-Aurelien-Geron.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-Machine-Learning-Sebastian-Raschka.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Deep-Learning-Ian-Goodfellow.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning with Python: A Hands-on Introduction, Nikhil Ketkar</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Grokking Deep Learning, Andrew W. Trask</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning with Python, Francois Chollet</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Deep-Learning-with-Python-A-Hands-on-Introduction-Nikhil-Ketkar.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Grokking-Deep-Learning-Andrew-W.-Trask.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Deep-Learning-With-Python-Chollet.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Python Machine Learning: A Technical Approach to Machine Learning for Beginners, Sebastian Raschka</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Neural Networks and Deep Learning, Michael Nielsen</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Machine Learning: A Probabilistic Perspective, Kevin P. Murphy</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-Machine-Learning-A-Technical-Approach-to-Machine-Learning-for-Beginners-Sebastian-Raschka.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Neural-Networks-and-Deep-Learning-Michael-Nielsen.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-A-Probabilistic-Perspective-Kevin-P.-Murphy.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning: A Practitioners Approach, Josh Patterson</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">The Deep Learning Revolution, Terrence J. Sejnowski</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Practical Convolutional Neural Networks, Mohit Sewak</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Deep-Learning-A-Practitioners-Approach-Josh-Patterson.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Deep-Learning-Revolution-Terrence-J.-Sejnowski.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Practical-Convolutional-Neural-Networks-Mohit-Sewak.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning with PyTorch, Eli Stevens</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Advanced Deep Learning with Keras, Rowel Atienza</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Learning Generative Adversarial Networks, Kuntal Ganguly</a></td>
+        </tr>
+        <tr>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Deep-Learning-with-PyTorch-Eli-Stevens.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Advanced-Deep-Learning-with-Keras-Rowel-Atienza.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Learning-Generative-Adversarial-Networks-Kuntal-Ganguly.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+
+
 
 <br>
 
