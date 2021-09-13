@@ -307,12 +307,12 @@ Computer Science Textbooks for computer science students.
         </tr>
         <tr>
 <td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Storytelling with Data A Data Visualization Guide for Business Professionals, Wiley</a></td>
-<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">The Data Science Handbook, Jake Klamka</a></td>
+<td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Lean Analytics Use Data to Build a Better Startup, Eric Ries</a></td>
 <td align=center width="350"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">The Elements of Statistical Learning, Trevor Hastie</a></td>
         </tr>
         <tr>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Storytelling-with-Data-A-Data-Visualization-Guide-for-Business-Professionals-Wiley.jpg"></td>
-<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Data-Science-Handbook-Jake-Klamka.jpg"></td>
+<td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Lean-Analytics-Use-Data-to-Build-a-Better-Startup-Eric-Ries.jpg"></td>
 <td align=center width="350"><img align="center" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Elements-of-Statistical-Learning-Trevor-Hastie.jpg"></td>
         </tr>
     </tbody>
