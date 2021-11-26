@@ -169,10 +169,10 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Computer Graphics Principles and Practice, John F. Hughes</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">OpenGL Programming Guide, Dave Shreiner</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Fundamentals of Computer Graphics, Peter Shirley</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Algorithms and Data Structures with Applications to Graphics and Geometry, Jurg Nievergelt</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics Principles and Practice, John F. Hughes</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">OpenGL Programming Guide, Dave Shreiner</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Fundamentals of Computer Graphics, Peter Shirley</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Algorithms and Data Structures with Applications to Graphics and Geometry, Jurg Nievergelt</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Computer-Graphics-Principles-and-Practice-John-F.-Hughes.jpg"></td>
@@ -181,10 +181,10 @@ Computer Science Textbooks for computer science students.
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Algorithms-and-Data-Structures-with-Applications-to-Graphics-and-Geometry-Jurg-Nievergelt.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">3D Math Primer for Graphics and Game Development, Ian Parberry</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">3D Math Primer for Graphics and Game Development, Fletcher Dunn</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Computer Graphics and Geometric Modeling, Max K. Agoston</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Computer Graphics Programming in OpenGL with Cpp, V. Scott Gordon</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">3D Math Primer for Graphics and Game Development, Ian Parberry</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">3D Math Primer for Graphics and Game Development, Fletcher Dunn</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics and Geometric Modeling, Max K. Agoston</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics Programming in OpenGL with Cpp, V. Scott Gordon</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/3D-Math-Primer-for-Graphics-and-Game-Development-Ian-Parberry.jpg"></td>
@@ -193,10 +193,10 @@ Computer Science Textbooks for computer science students.
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Computer-Graphics-Programming-in-OpenGL-with-Cpp-V.-Scott-Gordon.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Mathematics for 3D-Game Programming and Computer Graphics, Eric Lengyel</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Computer Graphics C Version, Donald Hearn</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Geometry for Computer Graphics, John Vince</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Graphics Shaders Theory and Practice, Mike Bailey</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Mathematics for 3D-Game Programming and Computer Graphics, Eric Lengyel</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics C Version, Donald Hearn</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Geometry for Computer Graphics, John Vince</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Graphics Shaders Theory and Practice, Mike Bailey</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Mathematics-for-3D-Game-Programming-and-Computer-Graphics-Eric-Lengyel.jpg"></td>
@@ -279,10 +279,10 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Machine Learning for Hackers: Case Studies and Algorithms to Get You Started, Drew Conway</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">An Introduction to Statistical Learning, Gareth James</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Applied Predictive Modeling, Max Kuhn</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Pattern Recognition and Machine Learning, Christopher M. Bishop</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Hackers: Case Studies and Algorithms to Get You Started, Drew Conway</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">An Introduction to Statistical Learning, Gareth James</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Applied Predictive Modeling, Max Kuhn</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Pattern Recognition and Machine Learning, Christopher M. Bishop</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-for-Hackers-Case-Studies-and-Algorithms-to-Get-You-Started-Drew-Conway.jpg"></td>
@@ -291,10 +291,10 @@ Computer Science Textbooks for computer science students.
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Pattern-Recognition-and-Machine-Learning-Christopher-M.-Bishop.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Machine Learning in Action, Peter Harrington</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Fundamentals of Machine Learning for Predictive Data Analytics, John D. Kelleher</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Introduction to Machine Learning with Python, Andreas C. Müller</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning in Action, Peter Harrington</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Fundamentals of Machine Learning for Predictive Data Analytics, John D. Kelleher</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Introduction to Machine Learning with Python, Andreas C. Müller</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-in-Action-Peter-Harrington.jpg"></td>
@@ -303,10 +303,10 @@ Computer Science Textbooks for computer science students.
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Introduction-to-Machine-Learning-with-Python-Andreas-C.-Muller.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Machine Learning for Absolute Beginners, Oliver Theobald</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Machine Learning for Dummies, John Paul Mueller</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Machine Learning, Tom M. Mitchell</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Machine Learning with Python TutorialsPoint</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Absolute Beginners, Oliver Theobald</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Dummies, John Paul Mueller</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning, Tom M. Mitchell</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning with Python TutorialsPoint</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-for-Absolute-Beginners-Oliver-Theobald.jpg"></td>
@@ -315,10 +315,10 @@ Computer Science Textbooks for computer science students.
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-with-Python-TutorialsPoint.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Mathematics for Machine Learning, Marc Peter Deisenroth</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Practical Machine Learning with Python, Dipanjan Sarkar</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Python Machine Learning, Sebastian Raschka</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">The Hundred-Page Machine Learning Book, Andriy Burkov</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Mathematics for Machine Learning, Marc Peter Deisenroth</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Practical Machine Learning with Python, Dipanjan Sarkar</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Python Machine Learning, Sebastian Raschka</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">The Hundred-Page Machine Learning Book, Andriy Burkov</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Mathematics-for-Machine-Learning-Marc-Peter-Deisenroth.jpg"></td>
@@ -327,10 +327,10 @@ Computer Science Textbooks for computer science students.
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Hundred-Page-Machine-Learning-Book-Andriy-Burkov.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Understanding Machine Learning, Shai Shalev-Shwartz</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Data Mining Concepts and Techniques, Jiawei Han</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Data Mining: Practical Machine Learning Tools and Techniques, Ian H. Witten</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Learning From Data, Yaser S. Abu-Mostafa</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Understanding Machine Learning, Shai Shalev-Shwartz</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Data Mining Concepts and Techniques, Jiawei Han</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Data Mining: Practical Machine Learning Tools and Techniques, Ian H. Witten</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Learning From Data, Yaser S. Abu-Mostafa</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Understanding-Machine-Learning-Shai-Shalev-Shwartz.jpg"></td>
