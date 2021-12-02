@@ -218,10 +218,10 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Head First Statistics: A Brain-Friendly Guide, Dawn Griffiths</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Practical Statistics for Data Scientists, Peter Bruce</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Python for Data Analysis, Wes McKinney</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Python Data Science Handbook: Essential Tools for Working with Data, Jake VanderPlas</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Head First Statistics: A Brain-Friendly Guide, Dawn Griffiths</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Practical Statistics for Data Scientists, Peter Bruce</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Python for Data Analysis, Wes McKinney</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Python Data Science Handbook: Essential Tools for Working with Data, Jake VanderPlas</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Head-First-Statistics-A-Brain-Friendly-Guide-Dawn-Griffiths.jpg"></td>
@@ -230,10 +230,10 @@ Computer Science Textbooks for computer science students.
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-Data-Science-Handbook-Essential-Tools-for-Working-with-Data-Jake-VanderPlas.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Data Science for Business, Foster Provost</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Data Science from Scratch: First Principles with Python, Joel Grus</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Data Smart: Using Data Science to Transform Information into Insight, John W. Foreman</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Designing Data Intensive Applications, Martin Kleppmann</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Data Science for Business, Foster Provost</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Data Science from Scratch: First Principles with Python, Joel Grus</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Data Smart: Using Data Science to Transform Information into Insight, John W. Foreman</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Designing Data Intensive Applications, Martin Kleppmann</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Science-for-Business-Foster-Provost.jpg"></td>
@@ -242,10 +242,10 @@ Computer Science Textbooks for computer science students.
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Designing-Data-Intensive-Applications-Martin-Kleppmann.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Doing Data Science: Straight Talk from the Frontline, Rachel Schutt</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Storytelling with Data A Data Visualization Guide for Business Professionals, Wiley</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Lean Analytics Use Data to Build a Better Startup, Eric Ries</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">The Elements of Statistical Learning, Trevor Hastie</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Doing Data Science: Straight Talk from the Frontline, Rachel Schutt</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Storytelling with Data A Data Visualization Guide for Business Professionals, Wiley</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Lean Analytics Use Data to Build a Better Startup, Eric Ries</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">The Elements of Statistical Learning, Trevor Hastie</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Doing-Data-Science-Straight-Talk-from-the-Frontline-Rachel-Schutt.jpg"></td>
