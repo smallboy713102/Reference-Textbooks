@@ -267,13 +267,13 @@ Computer Science Textbooks for computer science students.
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Hackers: Case Studies and Algorithms to Get You Started, Drew Conway</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Hackers, Drew Conway</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">An Introduction to Statistical Learning, Gareth James</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Applied Predictive Modeling, Max Kuhn</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Pattern Recognition and Machine Learning, Christopher M. Bishop</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-for-Hackers-Case-Studies-and-Algorithms-to-Get-You-Started-Drew-Conway.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Machine-Learning-for-Hackers-Drew-Conway.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/An-Introduction-to-Statistical-Learning-Gareth-James.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Applied-Predictive-Modeling-Max-Kuhn.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Pattern-Recognition-and-Machine-Learning-Christopher-M.-Bishop.jpg"></td>
