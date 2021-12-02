@@ -364,14 +364,28 @@ Computer Science Textbooks for computer science students.
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Practical-Convolutional-Neural-Networks-Mohit-Sewak.jpg"></td>
         </tr>
         <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Python Deep Learning Exploring, Ivan Vasilev, Daniel Slater</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Programming PyTorch for Deep Learning, Ian Pointer</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Pro Deep Learning with TensorFlow, Santanu Pattanayak</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">TensorFlow in 1 Day, Krishna Rungta</a></td>
+        </tr>
+        <tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-Deep-Learning-Exploring-Ivan-Vasilev-Daniel-Slater.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Programming-PyTorch-for-Deep-Learning-Ian-Pointer.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Pro-Deep-Learning-with-TensorFlow-Santanu-Pattanayak.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/TensorFlow-in-1-Day-Krishna-Rungta.jpg"></td>
+        </tr>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning with PyTorch, Eli Stevens</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Advanced Deep Learning with Keras, Rowel Atienza</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Learning Generative Adversarial Networks, Kuntal Ganguly</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Dive-into-Deep-Learning-Aston-Zhang</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Deep-Learning-with-PyTorch-Eli-Stevens.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Advanced-Deep-Learning-with-Keras-Rowel-Atienza.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Learning-Generative-Adversarial-Networks-Kuntal-Ganguly.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Dive-into-Deep-Learning-Aston-Zhang.jpg"></td>
         </tr>
     </tbody>
 </table>
