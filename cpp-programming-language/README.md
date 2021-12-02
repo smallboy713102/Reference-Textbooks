@@ -1,7 +1,7 @@
 <img align="right" width="80" height="120" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/textbooks.jpg"></img>
 <br>
 
-# Cpp Programming Language and Object Oriented Textbooks
+# Cpp and Object Oriented Textbooks
 
 ## A Complete Guide to Programming in Cpp, Ulla Kirch Prinz
 
