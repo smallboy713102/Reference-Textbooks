@@ -33,7 +33,7 @@ Computer Science Textbooks for computer science students.
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Effective Python, Brett Slatkin</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" height="250" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-for-Kids-Jason-R.-Briggs.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-for-Kids-Jason-R.-Briggs.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Quick-Python-Book-Naomi-R.-Ceder.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Think-Python-Allen-B.-Downey.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Effective-Python-Brett-Slatkin.jpg"></td>
@@ -243,24 +243,12 @@ Computer Science Textbooks for computer science students.
         </tr>
         <tr>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Doing Data Science: Straight Talk from the Frontline, Rachel Schutt</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Learning R: A Step-by-Step Function Guide to Data Analysis, Ricbard Cotton</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Practical Data Science with R, Nina Zumel</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">R for Data Science, Hadley Wickham</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Doing-Data-Science-Straight-Talk-from-the-Frontline-Rachel-Schutt.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Learning-R-A-Step-by-Step-Function-Guide-to-Data-Analysis-Ricbard-Cotton.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Practical-Data-Science-with-R-Nina-Zumel.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/R-for-Data-Science-Hadley-Wickham.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">The Art of R Programming, Norman Matloff</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Storytelling with Data A Data Visualization Guide for Business Professionals, Wiley</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">Lean Analytics Use Data to Build a Better Startup, Eric Ries</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis/README.md">The Elements of Statistical Learning, Trevor Hastie</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Art-of-R-Programming-Norman-Matloff.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Doing-Data-Science-Straight-Talk-from-the-Frontline-Rachel-Schutt.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Storytelling-with-Data-A-Data-Visualization-Guide-for-Business-Professionals-Wiley.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Lean-Analytics-Use-Data-to-Build-a-Better-Startup-Eric-Ries.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Elements-of-Statistical-Learning-Trevor-Hastie.jpg"></td>
