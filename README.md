@@ -15,7 +15,7 @@ Computer Science Textbooks for computer science students.
   * [Data Analysis and Visualization Textbooks](#Data-Analysis-and-Visualization-Textbooks)
   * [Machine Learning Textbooks](#Machine-Learning-Textbooks)
   * [Deep Learning Textbooks](#Deep-Learning-Textbooks)
-  * [Multimedia Data Compression Textbooks](#Multimedia-Data-Compression-Textbooks)
+  * [Digital Signal Processing and Multimedia Data Compression Textbooks](#Digital-Signal-Processing-and-Multimedia-Data-Compression-Textbooks)
 
 <br>
 
