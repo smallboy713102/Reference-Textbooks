@@ -392,9 +392,11 @@ Computer Science Textbooks for computer science students.
 
 <br>
 
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/differential-equations.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/digital-signal-processing.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/multimedia-data-compression.jpg"></img>
 
-## `Multimedia Data Compression` Textbooks
+## `Digital Signal Processing and Multimedia Data Compression` Textbooks
 
 <table>
     <tbody>
