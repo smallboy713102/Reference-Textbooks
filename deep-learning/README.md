@@ -250,9 +250,9 @@
 ### `Chapter 07` 
 ### `Chapter 08` 
 
-## Dive-into-Deep-Learning-Aston-Zhang
+## Deep Learning From Scratch Building with Python from First Principles, Seth Weidman
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Dive-into-Deep-Learning-Aston-Zhang.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Deep-Learning-From-Scratch-Building-with-Python-from-First-Principles-Seth-Weidman.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
