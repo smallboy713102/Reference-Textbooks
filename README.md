@@ -4,7 +4,7 @@
 Computer Science Textbooks for computer science students.
 
 <br>
-<img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/agenda.jpg">
+<img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/agenda.jpg">
 
 ## Table of Contents
   * [Python Programming Language and Object Oriented Textbooks](#Python-Programming-Language-and-Object-Oriented-Textbooks)
@@ -15,12 +15,13 @@ Computer Science Textbooks for computer science students.
   * [Data Analysis and Visualization Textbooks](#Data-Analysis-and-Visualization-Textbooks)
   * [Machine Learning Textbooks](#Machine-Learning-Textbooks)
   * [Deep Learning Textbooks](#Deep-Learning-Textbooks)
-  * [Digital Signal Processing and Multimedia Data Compression Textbooks](#Digital-Signal-Processing-and-Multimedia-Data-Compression-Textbooks)
+  * [Digital Signal Processing Textbooks](#Digital-Signal-Processing-Textbooks)
+  * [Multimedia Data Compression Textbooks](#Multimedia-Data-Compression-Textbooks)
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/python.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/object-oriented.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/python.jpg"></img>
 <br><br><br><br>
 
 ## `Python Programming Language and Object Oriented` Textbooks
@@ -56,8 +57,8 @@ Computer Science Textbooks for computer science students.
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/cpp.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/object-oriented.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/cpp.jpg"></img>
 <br><br><br><br>
 
 ## `Cpp Programming Language and Object Oriented` Textbooks
@@ -129,8 +130,8 @@ Computer Science Textbooks for computer science students.
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-structures.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/algorithms-analysis.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-structures.jpg"></img>
 <br><br><br><br>
 
 ## `Data Structures and Algorithms Analysis` Textbooks
@@ -214,9 +215,9 @@ Computer Science Textbooks for computer science students.
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-analysis.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-visualization.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-analytics.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-visualization.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-analysis.jpg"></img>
 <br><br><br><br>
 
 ## `Data Analysis and Visualization` Textbooks
@@ -264,9 +265,9 @@ Computer Science Textbooks for computer science students.
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/machine-learning.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/supervised-learning.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/unsupervised-learning.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/supervised-learning.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/machine-learning.jpg"></img>
 <br><br><br><br>
 
 ## `Machine Learning` Textbooks
@@ -326,9 +327,9 @@ Computer Science Textbooks for computer science students.
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/neural-networks.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/deep-learning.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/generative-adversarial-network.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/deep-learning.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/neural-networks.jpg"></img>
 <br><br><br><br>
 
 ## `Deep Learning` Textbooks
@@ -372,40 +373,48 @@ Computer Science Textbooks for computer science students.
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Practical-Convolutional-Neural-Networks-Mohit-Sewak.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Python Deep Learning Exploring, Ivan Vasilev, Daniel Slater</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Programming PyTorch for Deep Learning, Ian Pointer</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Pro Deep Learning with TensorFlow, Santanu Pattanayak</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">TensorFlow in 1 Day, Krishna Rungta</a></td>
-        </tr>
-        <tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-Deep-Learning-Exploring-Ivan-Vasilev-Daniel-Slater.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Programming-PyTorch-for-Deep-Learning-Ian-Pointer.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Pro-Deep-Learning-with-TensorFlow-Santanu-Pattanayak.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/TensorFlow-in-1-Day-Krishna-Rungta.jpg"></td>
-        </tr>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning with PyTorch, Eli Stevens</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Advanced Deep Learning with Keras, Rowel Atienza</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Learning Generative Adversarial Networks, Kuntal Ganguly</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Dive-into-Deep-Learning-Aston-Zhang</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning From Scratch Building with Python from First Principles, Seth Weidman</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Deep-Learning-with-PyTorch-Eli-Stevens.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Advanced-Deep-Learning-with-Keras-Rowel-Atienza.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Learning-Generative-Adversarial-Networks-Kuntal-Ganguly.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Dive-into-Deep-Learning-Aston-Zhang.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Deep-Learning-From-Scratch-Building-with-Python-from-First-Principles-Seth-Weidman.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Programming PyTorch for Deep Learning, Ian Pointer</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Python Deep Learning Exploring, Ivan Vasilev, Daniel Slater</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Pro Deep Learning with TensorFlow, Santanu Pattanayak</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">TensorFlow in 1 Day, Krishna Rungta</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Programming-PyTorch-for-Deep-Learning-Ian-Pointer.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-Deep-Learning-Exploring-Ivan-Vasilev-Daniel-Slater.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Pro-Deep-Learning-with-TensorFlow-Santanu-Pattanayak.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/TensorFlow-in-1-Day-Krishna-Rungta.jpg"></td>
         </tr>
     </tbody>
 </table>
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/differential-equations.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/digital-signal-processing.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/differential-equations.jpg"></img>
+<br><br><br><br>
+
+## `Digital Signal Processing` Textbooks
+
+
+
+<br>
+
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/multimedia-data-compression.jpg"></img>
 <br><br><br><br>
 
-## `Digital Signal Processing and Multimedia Data Compression` Textbooks
+## `Multimedia Data Compression` Textbooks
 
 <table>
     <tbody>
