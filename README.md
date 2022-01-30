@@ -7,16 +7,35 @@ Computer Science Textbooks for computer science students.
 <img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/agenda.jpg">
 
 ## Table of Contents
-  * [Python Programming Language and Object Oriented Textbooks](#Python-Programming-Language-and-Object-Oriented-Textbooks)
-  * [Cpp Programming Language and Object Oriented Textbooks](#Cpp-Programming-Language-and-Object-Oriented-Textbooks)
+  * [Python Programming Language Textbooks](#Python-Programming-Language-Textbooks)
+  * [Cpp Programming Language Textbooks](#Cpp-Programming-Language-Textbooks)
   * [Discrete Mathematics Textbooks](#Discrete-Mathematics-Textbooks)
-  * [Data Structures and Algorithms Analysis Textbooks](#Data-Structures-and-Algorithms-Analysis-Textbooks)
+  * [Data Structures and Algorithms Textbooks](#Data-Structures-and-Algorithms-Textbooks)
   * [Computer Graphics Textbooks](#Computer-Graphics-Textbooks)
+  * [Operating Systems Textbooks](#Operating-Systems-Textbooks)
+  * [Parallel Computing Textbooks](#Parallel-Computing-Textbooks)
+  * [Software Engineering Textbooks](#Software-Engineering-Textbooks)
+  * [Distributed Systems Textbooks](#Distributed-Systems-Textbooks)
+  * [Cloud Computing Textbooks](#Cloud-Computing-Textbooks)
+  * [Database Systems Textbooks](#Database-Systems-Textbooks)
+  * [Data Warehousing Textbooks](#Data-Warehousing-Textbooks)
+  * [Continuous Delivery and DevOps Textbooks](#Continuous-Delivery-and-DevOps-Textbooks)
   * [Data Analysis and Visualization Textbooks](#Data-Analysis-and-Visualization-Textbooks)
   * [Machine Learning Textbooks](#Machine-Learning-Textbooks)
   * [Deep Learning Textbooks](#Deep-Learning-Textbooks)
   * [Digital Signal Processing Textbooks](#Digital-Signal-Processing-Textbooks)
   * [Multimedia Data Compression Textbooks](#Multimedia-Data-Compression-Textbooks)
+  * [Image Processing Textbooks](#Image-Processing-Textbooks)
+  * [Computer Vision Textbooks](#Computer-Vision-Textbooks)
+  * [Natural Language Processing Textbooks](#Natural-Language-Processing-Textbooks)
+  * [Business Intelligence Textbooks](#Business-Intelligence-Textbooks)
+  * [Data Storage and Retrieval Textbooks](#Data-Storage-and-Retrieval-Textbooks)
+  * [Linear and Nonlinear Programming Textbooks](#Linear-and-Nonlinear-Programming-Textbooks)
+  * [Operation Research and Decision Theory Textbooks](#Operation-Research-and-Decision-Theory-Textbooks)
+  * [Network Modeling and Optimization Textbooks](#Network-Modeling-and-Optimization-Textbooks)
+  * [Stochastic Models Textbooks](#Stochastic-Models-Textbooks)
+  * [Reinforcement Learning Textbooks](#Reinforcement-Learning-Textbooks)
+  * [Project Management Textbooks](#Project-Management-Textbooks)
 
 <br>
 
@@ -24,7 +43,7 @@ Computer Science Textbooks for computer science students.
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/python.jpg"></img>
 <br><br><br><br>
 
-## `Python Programming Language and Object Oriented` Textbooks
+## `Python Programming Language` Textbooks
 
 <table>
     <tbody>
@@ -61,7 +80,7 @@ Computer Science Textbooks for computer science students.
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/cpp.jpg"></img>
 <br><br><br><br>
 
-## `Cpp Programming Language and Object Oriented` Textbooks
+## `Cpp Programming Language` Textbooks
 
 <table>
     <tbody>
@@ -134,7 +153,7 @@ Computer Science Textbooks for computer science students.
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-structures.jpg"></img>
 <br><br><br><br>
 
-## `Data Structures and Algorithms Analysis` Textbooks
+## `Data Structures and Algorithms` Textbooks
 
 <table>
     <tbody>
