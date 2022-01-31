@@ -29,8 +29,8 @@ Computer Science Textbooks for computer science students.
     * [Systems Development Methodologies Textbooks](#Systems-Development-Methodologies-Textbooks)
   * Artificial Intelligence Textbooks
     * [Artificial Intelligence Textbooks](#Artificial-Intelligence-Textbooks)
-    * [Machine Learning Textbooks](#Machine-Learning-Textbooks)
-    * [Deep Learning Textbooks](#Deep-Learning-Textbooks)
+    * [Machine Learning and Data Mining Textbooks](#Machine-Learning-and-data-mining-Textbooks)
+    * [Deep Learning and Neural Networks Textbooks](#Deep-Learning-and-Neural-Networks-Textbooks)
     * [Digital Signal Processing Textbooks](#Digital-Signal-Processing-Textbooks)
     * [Multimedia Data Compression Textbooks](#Multimedia-Data-Compression-Textbooks)
     * [Image Processing Textbooks](#Image-Processing-Textbooks)
@@ -55,7 +55,7 @@ Computer Science Textbooks for computer science students.
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/object-oriented.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/python.jpg"></img>
-<br><br><br><br>
+<br><br><br>
 
 ## `Python Programming Language` Textbooks
 
@@ -92,7 +92,7 @@ Computer Science Textbooks for computer science students.
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/object-oriented.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/cpp.jpg"></img>
-<br><br><br><br>
+<br><br><br>
 
 ## `Cpp Programming Language` Textbooks
 
@@ -128,7 +128,7 @@ Computer Science Textbooks for computer science students.
 <br>
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/discrete-mathematics.jpg"></img>
-<br><br><br><br>
+<br><br><br>
 
 ## `Discrete Mathematics` Textbooks
 
@@ -165,7 +165,7 @@ Computer Science Textbooks for computer science students.
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/algorithms-analysis.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-structures.jpg"></img>
-<br><br><br><br>
+<br><br><br>
 
 ## `Data Structures and Algorithms` Textbooks
 
@@ -201,7 +201,7 @@ Computer Science Textbooks for computer science students.
 <br>
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/computer-graphics.jpg"></img>
-<br><br><br><br>
+<br><br><br>
 
 ## `Computer Graphics` Textbooks
 
@@ -251,7 +251,7 @@ Computer Science Textbooks for computer science students.
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-analytics.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-visualization.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-analysis.jpg"></img>
-<br><br><br><br>
+<br><br><br>
 
 ## `Data Analysis and Visualization` Textbooks
 
@@ -301,9 +301,9 @@ Computer Science Textbooks for computer science students.
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/unsupervised-learning.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/supervised-learning.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/machine-learning.jpg"></img>
-<br><br><br><br>
+<br><br><br>
 
-## `Machine Learning` Textbooks
+## `Machine Learning and Data Mining` Textbooks
 
 <table>
     <tbody>
@@ -363,9 +363,9 @@ Computer Science Textbooks for computer science students.
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/generative-adversarial-network.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/deep-learning.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/neural-networks.jpg"></img>
-<br><br><br><br>
+<br><br><br>
 
-## `Deep Learning` Textbooks
+## `Deep Learning and Neural Networks` Textbooks
 
 <table>
     <tbody>
@@ -436,7 +436,7 @@ Computer Science Textbooks for computer science students.
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/digital-signal-processing.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/differential-equations.jpg"></img>
-<br><br><br><br>
+<br><br><br>
 
 ## `Digital Signal Processing` Textbooks
 
@@ -445,7 +445,7 @@ Computer Science Textbooks for computer science students.
 <br>
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/multimedia-data-compression.jpg"></img>
-<br><br><br><br>
+<br><br><br>
 
 ## `Multimedia Data Compression` Textbooks
 
