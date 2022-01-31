@@ -16,8 +16,6 @@ Computer Science Textbooks for computer science students.
     * [Operating Systems Textbooks](#Operating-Systems-Textbooks)
     * [Parallel Computing Textbooks](#Parallel-Computing-Textbooks)
     * [Theory of Computation Textbooks](#Theory-of-Computation-Textbooks)
-    * [Concepts of Programming Languages Textbooks](#Concepts-of-Programming-Languages-Textbooks)
-    * [Compiler Design Textbooks](#Compiler-Design-Textbooks)
   * Software Engineering Textbooks
     * [Software Engineering Textbooks](#Software-Engineering-Textbooks)
     * [Computer Networks Technology Textbooks](#Computer-Networks-Technology-Textbooks)
