@@ -445,7 +445,7 @@ Computer Science Textbooks for computer science students.
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-compression.jpg"></img>
 <br><br><br>
 
-## `Multimedia Data Compression` Textbooks
+## `Data Compression` Textbooks
 
 <table>
     <tbody>
