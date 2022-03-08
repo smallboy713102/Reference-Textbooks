@@ -70,8 +70,10 @@ Computer Science Textbooks for computer science students.
     * [Nonlinear Programming Textbooks](#Nonlinear-Programming-Textbooks)
     * [Operation Research Textbooks](#Operation-Research-Textbooks)
     * [Decision Theory Textbooks](#Decision-Theory-Textbooks)
+    * [Forecasting and Predictive Analytics Textbooks](#Forecasting-and-Predictive-Analytics-Textbooks)
     * [Network Modeling and Optimization Textbooks](#Network-Modeling-and-Optimization-Textbooks)
     * [Stochastic Models Textbooks](#Stochastic-Models-Textbooks)
+    * [Game Theory Textbooks](#Game-Theory-Textbooks)
     * [Reinforcement Learning Textbooks](#Reinforcement-Learning-Textbooks)
     * [Project Management Textbooks](#Project-Management-Textbooks)
 
