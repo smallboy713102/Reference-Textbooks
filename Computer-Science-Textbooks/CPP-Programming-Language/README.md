@@ -5,7 +5,7 @@
 
 ## A Complete Guide to Programming in Cpp, Ulla Kirch Prinz
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/A-Complete-Guide-to-Programming-in-Cpp-Ulla-Kirch-Prinz.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/A-Complete-Guide-to-Programming-in-Cpp-Ulla-Kirch-Prinz.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -18,7 +18,7 @@
 
 ## Accelerated Cpp, Andrew Koenig and Barbara E. Moo
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Accelerated-Cpp-Andrew-Koenig-and-Barbara-E.-Moo.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Accelerated-Cpp-Andrew-Koenig-and-Barbara-E.-Moo.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -31,7 +31,7 @@
 
 ## Cpp How to Program, Paul Deitel
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Cpp-How-to-Program-Paul-Deitel.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Cpp-How-to-Program-Paul-Deitel.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -44,7 +44,7 @@
 
 ## Cpp The Complete Reference, Herbert Schildt
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Cpp-The-Complete-Reference-Herbert-Schildt.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Cpp-The-Complete-Reference-Herbert-Schildt.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -57,7 +57,7 @@
 
 ## Object-Oriented Programming in C++, Robert Lafore
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Object-Oriented-Programming-in-C++-Robert-Lafore.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Object-Oriented-Programming-in-C++-Robert-Lafore.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -70,7 +70,7 @@
 
 ## Effective Modern Cpp, Scott Meyers
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Effective-Modern-Cpp-Scott-Meyers.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Effective-Modern-Cpp-Scott-Meyers.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -83,7 +83,7 @@
 
 ## Cpp Primer, Stanley B. Lippman
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Cpp-Primer-Stanley-B.-Lippman.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Cpp-Primer-Stanley-B.-Lippman.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -96,7 +96,7 @@
 
 ## The Cpp Programming Language, Bjarne Stroustrup
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Cpp-Programming-Language-Bjarne-Stroustrup.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/The-Cpp-Programming-Language-Bjarne-Stroustrup.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
