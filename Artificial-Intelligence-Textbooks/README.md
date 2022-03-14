@@ -1,24 +1,24 @@
 <img align="right" width="80" height="120" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/textbooks.jpg">
 
-# Computer Science Textbooks
+# Artificial Intelligence Textbooks
 
-<br>
+<br><br>
 <img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/agenda.jpg">
 
 ## Table of Contents
-  * [Fundamentals of Computer Science Textbooks](#Fundamentals-of-Computer-Science-Textbooks)
-  * [Calculus and Linear Algebra Textbooks](#Calculus-and-Linear-Algebra-Textbooks)
-  * [Probability and Statistics Textbooks](#Probability-and-Statistics-Textbooks)
-  * [Python Programming Language Textbooks](#Python-Programming-Language-Textbooks)
-  * [Cpp Programming Language Textbooks](#Cpp-Programming-Language-Textbooks)
-  * [Discrete Mathematics Textbooks](#Discrete-Mathematics-Textbooks)
-  * [Data Structures and Algorithms Textbooks](#Data-Structures-and-Algorithms-Textbooks)
-  * [Computer Graphics Textbooks](#Computer-Graphics-Textbooks)
-  * [Operating Systems Textbooks](#Operating-Systems-Textbooks)
-  * [Concurrency and Parallel Computing Textbooks](#Concurrency-and-Parallel-Computing-Textbooks)
-  * [High Performance Computing Computing Textbooks](#High-Performance-Computing-Textbooks)
-  * [Concepts of Programming Languages Textbooks](#Concepts-of-Programming-Languages-Textbooks)
-  * [Theory of Computation Textbooks](#Theory-of-Computation-Textbooks)
-  * [Compiler Design Textbooks](#Compiler-Design-Textbooks)
+  * [Artificial Intelligence Textbooks](#Artificial-Intelligence-Textbooks)
+  * [Soft Computing Textbooks](#Soft-Computing-Textbooks)
+  * [Machine Learning Textbooks](#Machine-Learning-Textbooks)
+  * [Neural Networks Textbooks](#Neural-Networks-Textbooks)
+  * [Deep Learning Textbooks](#Deep-Learning-Textbooks)
+  * [Generative Adversarial Networks Textbooks](#Generative-Adversarial-Networks-Textbooks)
+  * [Differential Equations Textbooks](#Differential-Equations-Textbooks)
+  * [Signal Processing Textbooks](#Signal-Processing-Textbooks)
+  * [Data Compression Textbooks](#Data-Compression-Textbooks)
+  * [Image Processing Textbooks](#Image-Processing-Textbooks)
+  * [Computer Vision Textbooks](#Computer-Vision-Textbooks)
+  * [Speech Processing Textbooks](#Speech-Processing-Textbooks)
+  * [Virtual Reality Textbooks](#Virtual-Reality-Textbooks)
+  * [Multimedia Mining Textbooks](#Multimedia-Mining-Textbooks)
 
 <br><br>
