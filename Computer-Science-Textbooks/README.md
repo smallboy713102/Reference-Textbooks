@@ -96,3 +96,124 @@
 </table>
 
 <br>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/discrete-mathematics.jpg"></img>
+<br><br><br>
+
+## `Discrete Mathematics` Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Schaum's Outline of Discrete Mathematics, Seymour Lipschutz</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Discrete Mathematics and Its Applications, Kenneth Rosen</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Fundamentals of Discrete Math for Computer Science, Tom Jenkyns</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Discrete Mathematics An Open Introduction, Oscar Levin</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Schaum's-Outline-of-Discrete-Mathematics-Seymour-Lipschutz.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Discrete-Mathematics-and-Its-Applications-Kenneth-Rosen.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Fundamentals-of-Discrete-Math-for-Computer-Science-Tom-Jenkyns.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Discrete-Mathematics-An-Open-Introduction-Oscar-Levin.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Mathematics for Computer Science, Eric Lehman</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Discrete Mathematics Using a Computer, John O'Donnell</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Discrete Mathematics for Computer Science, Gary Haggard</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Discrete Mathematics for Computer Scientists, Clifford Stein</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Mathematics-for-Computer-Science-Eric-Lehman.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Discrete-Mathematics-Using-a-Computer-John-O'Donnell.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Discrete-Mathematics-for-Computer-Science-Gary-Haggard.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Discrete-Mathematics-for-Computer-Scientists-Clifford-Stein.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/algorithms-analysis.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-structures.jpg"></img>
+<br><br><br>
+
+## `Data Structures and Algorithms` Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Introduction to Algorithms, Thomas H. Cormen</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Data Structures and Algorithms Annotated Reference, Granville Barnett</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Analysis of Algorithms An Active Learning Approach, Jeffrey J. McConnell</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Competitive Programming 3, Steven Halim</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Introduction-to-Algorithms-Thomas-H.-Cormen.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Structures-and-Algorithms-Annotated-Reference-Granville-Barnett.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Analysis-of-Algorithms-An-Active-Learning-Approach-Jeffrey-J.-McConnell.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Competitive-Programming-3-Steven-Halim.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Guide to Competitive Programming, Antti Laaksonen</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Fundamental of Algorithmics, Gilles Brassard and Paul Bartley</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Grokking Algorithms, Aditya Y. Bhargava</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Introduction to the Design and Analysis of Algorithms, Anany V. Levitin</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Guide-to-Competitive-Programming-Antti-Laaksonen.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Fundamental-of-Algorithmics-Gilles-Brassard-and-Paul-Bartley.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Grokking-Algorithms-Aditya-Y.-Bhargava.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Introduction-to-the-Design-and-Analysis-of-Algorithms-Anany-V.-Levitin.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/computer-graphics.jpg"></img>
+<br><br><br>
+
+## `Computer Graphics` Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics Principles and Practice, John F. Hughes</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">OpenGL Programming Guide, Dave Shreiner</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Fundamentals of Computer Graphics, Peter Shirley</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Algorithms and Data Structures with Applications to Graphics and Geometry, Jurg Nievergelt</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-Principles-and-Practice-John-F.-Hughes.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/OpenGL-Programming-Guide-Dave-Shreiner.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Fundamentals-of-Computer-Graphics-Peter-Shirley.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Algorithms-and-Data-Structures-with-Applications-to-Graphics-and-Geometry-Jurg-Nievergelt.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">3D Math Primer for Graphics and Game Development, Ian Parberry</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">3D Math Primer for Graphics and Game Development, Fletcher Dunn</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics and Geometric Modeling, Max K. Agoston</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics Programming in OpenGL with Cpp, V. Scott Gordon</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/3D-Math-Primer-for-Graphics-and-Game-Development-Ian-Parberry.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/3D-Math-Primer-for-Graphics-and-Game-Development-Fletcher-Dunn.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-and-Geometric-Modeling-Max-K.-Agoston.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-Programming-in-OpenGL-with-Cpp-V.-Scott-Gordon.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Mathematics for 3D-Game Programming and Computer Graphics, Eric Lengyel</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics C Version, Donald Hearn</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Geometry for Computer Graphics, John Vince</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Graphics Shaders Theory and Practice, Mike Bailey</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Mathematics-for-3D-Game-Programming-and-Computer-Graphics-Eric-Lengyel.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-C-Version-Donald-Hearn.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Geometry-for-Computer-Graphics-John-Vince.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Graphics-Shaders-Theory-and-Practice-Mike-Bailey.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
