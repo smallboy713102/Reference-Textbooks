@@ -5,7 +5,7 @@
 
 ## Head First Statistics: A Brain-Friendly Guide, Dawn Griffiths
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Head-First-Statistics-A-Brain-Friendly-Guide-Dawn-Griffiths.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Head-First-Statistics-A-Brain-Friendly-Guide-Dawn-Griffiths.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -18,7 +18,7 @@
 
 ## Practical Statistics for Data Scientists, Peter Bruce
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Practical-Statistics-for-Data-Scientists-Peter-Bruce.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Practical-Statistics-for-Data-Scientists-Peter-Bruce.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -31,7 +31,7 @@
 
 ## Python for Data Analysis, Wes McKinney
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-for-Data-Analysis-Wes-McKinney.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-for-Data-Analysis-Wes-McKinney.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -44,7 +44,7 @@
 
 ## Python Data Science Handbook: Essential Tools for Working with Data, Jake VanderPlas
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Python-Data-Science-Handbook-Essential-Tools-for-Working-with-Data-Jake-VanderPlas.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-Data-Science-Handbook-Essential-Tools-for-Working-with-Data-Jake-VanderPlas.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -57,7 +57,7 @@
 
 ## Data Science for Business, Foster Provost
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Science-for-Business-Foster-Provost.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Science-for-Business-Foster-Provost.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -70,7 +70,7 @@
 
 ## Data Science from Scratch: First Principles with Python, Joel Grus
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Science-from-Scratch-First-Principles-with-Python-Joel-Grus.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Science-from-Scratch-First-Principles-with-Python-Joel-Grus.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -83,7 +83,7 @@
 
 ## Data Smart: Using Data Science to Transform Information into Insight, John W. Foreman
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Data-Smart-Using-Data-Science-to-Transform-Information-into-Insight-John-W.-Foreman.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Smart-Using-Data-Science-to-Transform-Information-into-Insight-John-W.-Foreman.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -96,7 +96,7 @@
 
 ## Designing Data Intensive Applications, Martin Kleppmann
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Designing-Data-Intensive-Applications-Martin-Kleppmann.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Designing-Data-Intensive-Applications-Martin-Kleppmann.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -109,7 +109,7 @@
 
 ## Doing Data Science: Straight Talk from the Frontline, Rachel Schutt
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Doing-Data-Science-Straight-Talk-from-the-Frontline-Rachel-Schutt.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Doing-Data-Science-Straight-Talk-from-the-Frontline-Rachel-Schutt.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -122,7 +122,7 @@
 
 ## Storytelling with Data A Data Visualization Guide for Business Professionals, Wiley
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Storytelling-with-Data-A-Data-Visualization-Guide-for-Business-Professionals-Wiley.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Storytelling-with-Data-A-Data-Visualization-Guide-for-Business-Professionals-Wiley.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -135,7 +135,7 @@
 
 ## Lean Analytics Use Data to Build a Better Startup, Eric Ries
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Lean-Analytics-Use-Data-to-Build-a-Better-Startup-Eric-Ries.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Lean-Analytics-Use-Data-to-Build-a-Better-Startup-Eric-Ries.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -148,7 +148,7 @@
 
 ## The Elements of Statistical Learning, Trevor Hastie
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/The-Elements-of-Statistical-Learning-Trevor-Hastie.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/The-Elements-of-Statistical-Learning-Trevor-Hastie.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
