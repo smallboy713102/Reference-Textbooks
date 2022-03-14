@@ -28,7 +28,7 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/machine-learning.jpg"></img>
 <br><br><br>
 
-## [Machine Learning and Data Mining](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Machine-Learning/README.md) Textbooks
+## [Machine Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Machine-Learning/README.md) Textbooks
 
 <table>
     <tbody>
@@ -90,7 +90,7 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/neural-networks.jpg"></img>
 <br><br><br>
 
-## [Deep Learning and Neural Networks](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Deep-Learning/README.md) Textbooks
+## [Deep Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Deep-Learning/README.md) Textbooks
 
 <table>
     <tbody>
