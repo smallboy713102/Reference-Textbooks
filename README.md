@@ -4,498 +4,110 @@
 Computer Science Textbooks for computer science students.
 
 <br>
-<img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/agenda.jpg">
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/computer-science-department.jpg">
 
-## Table of Contents
-  * Computer Science Textbooks
-    * [Fundamentals of Computer Science Textbooks](#Fundamentals-of-Computer-Science-Textbooks)
-    * [Calculus and Linear Algebra Textbooks](#Calculus-and-Linear-Algebra-Textbooks)
-    * [Probability and Statistics Textbooks](#Probability-and-Statistics-Textbooks)
-    * [Python Programming Language Textbooks](#Python-Programming-Language-Textbooks)
-    * [Cpp Programming Language Textbooks](#Cpp-Programming-Language-Textbooks)
-    * [Discrete Mathematics Textbooks](#Discrete-Mathematics-Textbooks)
-    * [Data Structures and Algorithms Textbooks](#Data-Structures-and-Algorithms-Textbooks)
-    * [Computer Graphics Textbooks](#Computer-Graphics-Textbooks)
-    * [Operating Systems Textbooks](#Operating-Systems-Textbooks)
-    * [Concurrency and Parallel Computing Textbooks](#Concurrency-and-Parallel-Computing-Textbooks)
-    * [High Performance Computing Computing Textbooks](#High-Performance-Computing-Textbooks)
-    * [Concepts of Programming Languages Textbooks](#Concepts-of-Programming-Languages-Textbooks)
-    * [Theory of Computation Textbooks](#Theory-of-Computation-Textbooks)
-    * [Compiler Design Textbooks](#Compiler-Design-Textbooks)
-  * Software Engineering Textbooks
-    * [Java Programming Language Textbooks](#Java-Programming-Language-Textbooks)
-    * [Software Engineering Textbooks](#Software-Engineering-Textbooks)
-    * [Systems Analysis and Design Textbooks](#Systems-Analysis-and-Design-Textbooks)
-    * [Computer Networks Technology Textbooks](#Computer-Networks-Technology-Textbooks)
-    * [Distributed Systems Textbooks](#Distributed-Systems-Textbooks)
-    * [Cloud Computing Textbooks](#Cloud-Computing-Textbooks)
-    * [Database Systems Textbooks](#Database-Systems-Textbooks)
-    * [Data Warehousing Textbooks](#Data-Warehousing-Textbooks)
-    * [Database Design Textbooks](#Database-Design-Textbooks)
-    * [Systems Development Methodologies Textbooks](#Systems-Development-Methodologies-Textbooks)
-    * [Continuous Delivery and DevOps Textbooks](#Continuous-Delivery-and-DevOps-Textbooks)
-    * [Software Testing and Quality Assurance Textbooks](#Software-Testing-and-Quality-Assurance-Textbooks)
-    * [User Interface and User Experience Textbooks](#User-Interface-and-User-Experience-Textbooks)
-    * [Software Design and Architecture Textbooks](#Software-Design-and-Architecture-Textbooks)
-  * Artificial Intelligence Textbooks
-    * [Artificial Intelligence Textbooks](#Artificial-Intelligence-Textbooks)
-    * [Soft Computing Textbooks](#Soft-Computing-Textbooks)
-    * [Machine Learning Textbooks](#Machine-Learning-Textbooks)
-    * [Neural Networks Textbooks](#Neural-Networks-Textbooks)
-    * [Deep Learning Textbooks](#Deep-Learning-Textbooks)
-    * [Generative Adversarial Networks Textbooks](#Generative-Adversarial-Networks-Textbooks)
-    * [Differential Equations Textbooks](#Differential-Equations-Textbooks)
-    * [Signal Processing Textbooks](#Signal-Processing-Textbooks)
-    * [Data Compression Textbooks](#Data-Compression-Textbooks)
-    * [Image Processing Textbooks](#Image-Processing-Textbooks)
-    * [Computer Vision Textbooks](#Computer-Vision-Textbooks)
-    * [Speech Processing Textbooks](#Speech-Processing-Textbooks)
-    * [Virtual Reality Textbooks](#Virtual-Reality-Textbooks)
-    * [Multimedia Mining Textbooks](#Multimedia-Mining-Textbooks)
-  * Data Science Textbooks
-    * [Data Analysis Textbooks](#Data-Analysis-Textbooks)
-    * [Data Visualization Textbooks](#Data-Visualization-Textbooks)
-    * [Natural Language Processing Textbooks](#Natural-Language-Processing-Textbooks)
-    * [Data Mining Textbooks](#Data-Mining-Textbooks)
-    * [Business Intelligence Textbooks](#Business-Intelligence-Textbooks)
-    * [Data Management Textbooks](#Data-Management-Textbooks)
-    * [Big Data Textbooks](#Big-Data-Textbooks)
-    * [Data Engineering Textbooks](#Data-Engineering-Textbooks)
-    * [Data Governance Textbooks](#Data-Governance-Textbooks)
-    * [Distributed Database Systems Textbooks](#Distributed-Database-Systems-Textbooks)
-    * [File Organization and Processing Textbooks](#File-Organization-and-Processing-Textbooks)
-    * [Data Storage and Retrieval Textbooks](#Data-Storage-and-Retrieval-Textbooks)
-  * Operation Research Textbooks
-    * [Linear and Integer Programming Textbooks](#Linear-and-Integer-Programming-Textbooks)
-    * [Nonlinear Programming Textbooks](#Nonlinear-Programming-Textbooks)
-    * [Operation Research Textbooks](#Operation-Research-Textbooks)
-    * [Decision Theory Textbooks](#Decision-Theory-Textbooks)
-    * [Forecasting and Predictive Analytics Textbooks](#Forecasting-and-Predictive-Analytics-Textbooks)
-    * [Network Modeling and Optimization Textbooks](#Network-Modeling-and-Optimization-Textbooks)
-    * [Stochastic Models Textbooks](#Stochastic-Models-Textbooks)
-    * [Game Theory Textbooks](#Game-Theory-Textbooks)
-    * [Reinforcement Learning Textbooks](#Reinforcement-Learning-Textbooks)
-    * [Project Management Textbooks](#Project-Management-Textbooks)
+## [`Computer Science`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+Computer Science Textbooks for computer science students, which including the following main topics:
 
-<br><br>
+#### - [Fundamentals of Computer Science](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Calculus and Linear Algebra](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Probability and Statistics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Python Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Cpp Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Discrete Mathematics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Data Structures and Algorithms](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Computer Graphics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Operating Systems](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Concurrency and Parallel Computing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [High Performance Computing Computing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Concepts of Programming Languages](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Theory of Computation](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Compiler Design](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/object-oriented.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/python.jpg"></img>
-<br><br><br>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/software-engineering-department.jpg">
 
-## `Python Programming Language` Textbooks
+## [`Software Engineering`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+Software Engineering Textbooks for computer science students, which including the following main topics:
 
-<table>
-    <tbody>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Python for Kids, Jason R. Briggs</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">The Quick Python Book Naomi R. Ceder</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Think Python, Allen B. Downey</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Effective Python, Brett Slatkin</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-for-Kids-Jason-R.-Briggs.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/The-Quick-Python-Book-Naomi-R.-Ceder.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Think-Python-Allen-B.-Downey.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Effective-Python-Brett-Slatkin.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Python Programming, John Zelle</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Learning to Program Using Python, Cody Jackson</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Python Tutorial, Guido van Rossum</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/python-programming-language/README.md">Python for Everybody, Charles R. Severance</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-Programming-John-Zelle.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Learning-to-Program-Using-Python-Cody-Jackson.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-Tutorial-Guido-van-Rossum.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-for-Everybody-Charles-R.-Severance.jpg"></td>
-        </tr>
-    </tbody>
-</table>
+#### - [Java Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Software Engineering](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Systems Analysis and Design](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Computer Networks Technology](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Distributed Systems](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Cloud Computing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Database Systems](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Data Warehousing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Database Design](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Systems Development Methodologies](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Continuous Delivery and DevOps](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Software Testing and Quality Assurance](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [User Interface and User Experience](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Software Design and Architecture](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
 
-<br>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/artificial-intelligence-department.jpg">
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/object-oriented.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/cpp.jpg"></img>
-<br><br><br>
+## [`Artificial Intelligence`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+Artificial Intelligence Textbooks for computer science students, which including the following main topics:
 
-## `Cpp Programming Language` Textbooks
+#### - [Artificial Intelligence](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Soft Computing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Machine Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Neural Networks](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Deep Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Generative Adversarial Networks](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Differential Equations](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Signal Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Data Compression](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Image Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Computer Vision](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Speech Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Virtual Reality](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
+#### - [Multimedia Mining](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
 
-<table>
-    <tbody>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">A Complete Guide to Programming in Cpp, Ulla Kirch Prinz</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Accelerated Cpp, Andrew Koenig and Barbara E. Moo</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Cpp How to Program, Paul Deitel</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Cpp The Complete Reference, Herbert Schildt</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/A-Complete-Guide-to-Programming-in-Cpp-Ulla-Kirch-Prinz.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Accelerated-Cpp-Andrew-Koenig-and-Barbara-E.-Moo.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Cpp-How-to-Program-Paul-Deitel.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Cpp-The-Complete-Reference-Herbert-Schildt.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Object-Oriented Programming in C++, Robert Lafore</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Effective Modern Cpp, Scott Meyers</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">Cpp Primer, Stanley B. Lippman</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/cpp-programming-language/README.md">The Cpp Programming Language, Bjarne Stroustrup</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Object-Oriented-Programming-in-C++-Robert-Lafore.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Effective-Modern-Cpp-Scott-Meyers.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Cpp-Primer-Stanley-B.-Lippman.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/The-Cpp-Programming-Language-Bjarne-Stroustrup.jpg"></td>
-        </tr>
-    </tbody>
-</table>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-science-department.jpg">
 
-<br>
+## [`Data Science`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+Data Science Textbooks for computer science students, which including the following main topics:
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/discrete-mathematics.jpg"></img>
-<br><br><br>
+#### - [Data Analysis](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Data Visualization](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Natural Language Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Data Mining](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Business Intelligence](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Data Management](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Big Data](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Data Engineering](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Data Governance](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Distributed Database Systems](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [File Organization and Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 
-## `Discrete Mathematics` Textbooks
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/operation-research-department.jpg">
 
-<table>
-    <tbody>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Schaum's Outline of Discrete Mathematics, Seymour Lipschutz</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Discrete Mathematics and Its Applications, Kenneth Rosen</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Fundamentals of Discrete Math for Computer Science, Tom Jenkyns</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Discrete Mathematics An Open Introduction, Oscar Levin</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Schaum's-Outline-of-Discrete-Mathematics-Seymour-Lipschutz.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Discrete-Mathematics-and-Its-Applications-Kenneth-Rosen.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Fundamentals-of-Discrete-Math-for-Computer-Science-Tom-Jenkyns.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Discrete-Mathematics-An-Open-Introduction-Oscar-Levin.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Mathematics for Computer Science, Eric Lehman</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Discrete Mathematics Using a Computer, John O'Donnell</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Discrete Mathematics for Computer Science, Gary Haggard</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/discrete-mathematics/README.md">Discrete Mathematics for Computer Scientists, Clifford Stein</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Mathematics-for-Computer-Science-Eric-Lehman.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Discrete-Mathematics-Using-a-Computer-John-O'Donnell.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Discrete-Mathematics-for-Computer-Science-Gary-Haggard.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Discrete-Mathematics-for-Computer-Scientists-Clifford-Stein.jpg"></td>
-        </tr>
-    </tbody>
-</table>
+## [`Operation Research`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+Operation Research Textbooks for computer science students, which including the following main topics:
 
-<br>
+#### - [Linear and Integer Programming](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Nonlinear Programming](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Operation Research](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Decision Theory](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Forecasting and Predictive Analytics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Network Modeling and Optimization](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Stochastic Models](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Game Theory](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Reinforcement Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Project Management](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/algorithms-analysis.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-structures.jpg"></img>
-<br><br><br>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/bioinformatics-department.jpg">
 
-## `Data Structures and Algorithms` Textbooks
+## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
+Bioinformatics Textbooks for computer science students, which including the following main topics:
 
-<table>
-    <tbody>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Introduction to Algorithms, Thomas H. Cormen</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Data Structures and Algorithms Annotated Reference, Granville Barnett</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Analysis of Algorithms An Active Learning Approach, Jeffrey J. McConnell</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Competitive Programming 3, Steven Halim</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Introduction-to-Algorithms-Thomas-H.-Cormen.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Structures-and-Algorithms-Annotated-Reference-Granville-Barnett.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Analysis-of-Algorithms-An-Active-Learning-Approach-Jeffrey-J.-McConnell.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Competitive-Programming-3-Steven-Halim.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Guide to Competitive Programming, Antti Laaksonen</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Fundamental of Algorithmics, Gilles Brassard and Paul Bartley</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Grokking Algorithms, Aditya Y. Bhargava</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-structures-and-algorithms-analysis/README.md">Introduction to the Design and Analysis of Algorithms, Anany V. Levitin</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Guide-to-Competitive-Programming-Antti-Laaksonen.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Fundamental-of-Algorithmics-Gilles-Brassard-and-Paul-Bartley.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Grokking-Algorithms-Aditya-Y.-Bhargava.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Introduction-to-the-Design-and-Analysis-of-Algorithms-Anany-V.-Levitin.jpg"></td>
-        </tr>
-    </tbody>
-</table>
-
-<br>
-
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/computer-graphics.jpg"></img>
-<br><br><br>
-
-## `Computer Graphics` Textbooks
-
-<table>
-    <tbody>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics Principles and Practice, John F. Hughes</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">OpenGL Programming Guide, Dave Shreiner</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Fundamentals of Computer Graphics, Peter Shirley</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Algorithms and Data Structures with Applications to Graphics and Geometry, Jurg Nievergelt</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-Principles-and-Practice-John-F.-Hughes.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/OpenGL-Programming-Guide-Dave-Shreiner.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Fundamentals-of-Computer-Graphics-Peter-Shirley.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Algorithms-and-Data-Structures-with-Applications-to-Graphics-and-Geometry-Jurg-Nievergelt.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">3D Math Primer for Graphics and Game Development, Ian Parberry</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">3D Math Primer for Graphics and Game Development, Fletcher Dunn</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics and Geometric Modeling, Max K. Agoston</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics Programming in OpenGL with Cpp, V. Scott Gordon</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/3D-Math-Primer-for-Graphics-and-Game-Development-Ian-Parberry.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/3D-Math-Primer-for-Graphics-and-Game-Development-Fletcher-Dunn.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-and-Geometric-Modeling-Max-K.-Agoston.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-Programming-in-OpenGL-with-Cpp-V.-Scott-Gordon.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Mathematics for 3D-Game Programming and Computer Graphics, Eric Lengyel</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Computer Graphics C Version, Donald Hearn</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Geometry for Computer Graphics, John Vince</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/computer-graphics/README.md">Graphics Shaders Theory and Practice, Mike Bailey</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Mathematics-for-3D-Game-Programming-and-Computer-Graphics-Eric-Lengyel.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-C-Version-Donald-Hearn.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Geometry-for-Computer-Graphics-John-Vince.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Graphics-Shaders-Theory-and-Practice-Mike-Bailey.jpg"></td>
-        </tr>
-    </tbody>
-</table>
-
-<br>
-
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-analytics.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-visualization.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-analysis.jpg"></img>
-<br><br><br>
-
-## `Data Analysis and Visualization` Textbooks
-
-<table>
-    <tbody>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Head First Statistics: A Brain-Friendly Guide, Dawn Griffiths</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Practical Statistics for Data Scientists, Peter Bruce</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Python for Data Analysis, Wes McKinney</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Python Data Science Handbook: Essential Tools for Working with Data, Jake VanderPlas</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Head-First-Statistics-A-Brain-Friendly-Guide-Dawn-Griffiths.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Practical-Statistics-for-Data-Scientists-Peter-Bruce.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-for-Data-Analysis-Wes-McKinney.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-Data-Science-Handbook-Essential-Tools-for-Working-with-Data-Jake-VanderPlas.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Data Science for Business, Foster Provost</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Data Science from Scratch: First Principles with Python, Joel Grus</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Data Smart: Using Data Science to Transform Information into Insight, John W. Foreman</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Designing Data Intensive Applications, Martin Kleppmann</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Science-for-Business-Foster-Provost.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Science-from-Scratch-First-Principles-with-Python-Joel-Grus.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Smart-Using-Data-Science-to-Transform-Information-into-Insight-John-W.-Foreman.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Designing-Data-Intensive-Applications-Martin-Kleppmann.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Doing Data Science: Straight Talk from the Frontline, Rachel Schutt</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Storytelling with Data A Data Visualization Guide for Business Professionals, Wiley</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">Lean Analytics Use Data to Build a Better Startup, Eric Ries</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/data-analysis-and-visualization/README.md">The Elements of Statistical Learning, Trevor Hastie</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Doing-Data-Science-Straight-Talk-from-the-Frontline-Rachel-Schutt.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Storytelling-with-Data-A-Data-Visualization-Guide-for-Business-Professionals-Wiley.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Lean-Analytics-Use-Data-to-Build-a-Better-Startup-Eric-Ries.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/The-Elements-of-Statistical-Learning-Trevor-Hastie.jpg"></td>
-        </tr>
-    </tbody>
-</table>
-
-<br>
-
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/unsupervised-learning.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/supervised-learning.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/machine-learning.jpg"></img>
-<br><br><br>
-
-## `Machine Learning and Data Mining` Textbooks
-
-<table>
-    <tbody>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Hackers, Drew Conway</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">An Introduction to Statistical Learning, Gareth James</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Applied Predictive Modeling, Max Kuhn</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Pattern Recognition and Machine Learning, Christopher M. Bishop</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Machine-Learning-for-Hackers-Drew-Conway.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/An-Introduction-to-Statistical-Learning-Gareth-James.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Applied-Predictive-Modeling-Max-Kuhn.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Pattern-Recognition-and-Machine-Learning-Christopher-M.-Bishop.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning in Action, Peter Harrington</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Fundamentals of Machine Learning for Predictive Data Analytics, John D. Kelleher</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Introduction to Machine Learning with Python, Andreas C. Müller</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Machine-Learning-in-Action-Peter-Harrington.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Fundamentals-of-Machine-Learning-for-Predictive-Data-Analytics-John-D.-Kelleher.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Hands-On-Machine-Learning-with-Scikit-Learn-and-TensorFlow-Aurelien-Geron.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Introduction-to-Machine-Learning-with-Python-Andreas-C.-Muller.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning for Dummies, John Paul Mueller</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Mathematics for Machine Learning, Marc Peter Deisenroth</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Practical Machine Learning with Python, Dipanjan Sarkar</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Python Machine Learning, Sebastian Raschka</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Machine-Learning-for-Dummies-John-Paul-Mueller.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Mathematics-for-Machine-Learning-Marc-Peter-Deisenroth.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Practical-Machine-Learning-with-Python-Dipanjan-Sarkar.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-Machine-Learning-Sebastian-Raschka.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Machine Learning, Tom M. Mitchell</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Understanding Machine Learning, Shai Shalev-Shwartz</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Data Mining Concepts and Techniques, Jiawei Han</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/machine-learning/README.md">Data Mining: Practical Machine Learning Tools and Techniques, Ian H. Witten</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Machine-Learning-Tom-M.-Mitchell.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Understanding-Machine-Learning-Shai-Shalev-Shwartz.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Mining-Concepts-and-Techniques-Jiawei-Han.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Mining-Practical-Machine-Learning-Tools-and-Techniques-Ian-H.-Witten.jpg"></td>
-        </tr>
-    </tbody>
-</table>
-
-<br>
-
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/generative-adversarial-network.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/deep-learning.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/neural-networks.jpg"></img>
-<br><br><br>
-
-## `Deep Learning and Neural Networks` Textbooks
-
-<table>
-    <tbody>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Python Machine Learning, Sebastian Raschka</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning, Ian Goodfellow</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning with Python: A Hands-on Introduction, Nikhil Ketkar</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Hands-On-Machine-Learning-with-Scikit-Learn-and-TensorFlow-Aurelien-Geron.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-Machine-Learning-Sebastian-Raschka.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Deep-Learning-Ian-Goodfellow.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Deep-Learning-with-Python-A-Hands-on-Introduction-Nikhil-Ketkar.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Grokking Deep Learning, Andrew W. Trask</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Python Machine Learning: A Technical Approach to Machine Learning for Beginners, Sebastian Raschka</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Neural Networks and Deep Learning, Michael Nielsen</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Machine Learning: A Probabilistic Perspective, Kevin P. Murphy</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Grokking-Deep-Learning-Andrew-W.-Trask.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-Machine-Learning-A-Technical-Approach-to-Machine-Learning-for-Beginners-Sebastian-Raschka.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Neural-Networks-and-Deep-Learning-Michael-Nielsen.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Machine-Learning-A-Probabilistic-Perspective-Kevin-P.-Murphy.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning with Python, Francois Chollet</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning: A Practitioners Approach, Josh Patterson</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">The Deep Learning Revolution, Terrence J. Sejnowski</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Practical Convolutional Neural Networks, Mohit Sewak</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Deep-Learning-With-Python-Chollet.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Deep-Learning-A-Practitioners-Approach-Josh-Patterson.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/The-Deep-Learning-Revolution-Terrence-J.-Sejnowski.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Practical-Convolutional-Neural-Networks-Mohit-Sewak.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning with PyTorch, Eli Stevens</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Advanced Deep Learning with Keras, Rowel Atienza</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Learning Generative Adversarial Networks, Kuntal Ganguly</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Deep Learning From Scratch Building with Python from First Principles, Seth Weidman</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Deep-Learning-with-PyTorch-Eli-Stevens.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Advanced-Deep-Learning-with-Keras-Rowel-Atienza.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Learning-Generative-Adversarial-Networks-Kuntal-Ganguly.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Deep-Learning-From-Scratch-Building-with-Python-from-First-Principles-Seth-Weidman.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Programming PyTorch for Deep Learning, Ian Pointer</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Python Deep Learning Exploring, Ivan Vasilev, Daniel Slater</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">Pro Deep Learning with TensorFlow, Santanu Pattanayak</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/deep-learning/README.md">TensorFlow in 1 Day, Krishna Rungta</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Programming-PyTorch-for-Deep-Learning-Ian-Pointer.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-Deep-Learning-Exploring-Ivan-Vasilev-Daniel-Slater.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Pro-Deep-Learning-with-TensorFlow-Santanu-Pattanayak.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/TensorFlow-in-1-Day-Krishna-Rungta.jpg"></td>
-        </tr>
-    </tbody>
-</table>
-
-<br>
-
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/signal-processing.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/differential-equations.jpg"></img>
-<br><br><br>
-
-## `Signal Processing` Textbooks
-
-
-
-<br>
-
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-compression.jpg"></img>
-<br><br><br>
-
-## `Data Compression` Textbooks
-
-<table>
-    <tbody>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/signal-processing-and-data-compression/README.md">Data Compression, David Salomon</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/signal-processing-and-data-compression/README.md">The Data Compression Book, Mark Nelson</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/signal-processing-and-data-compression/README.md">Understanding Compression Data Compression for Modern Developers, Colt McAnlis</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/signal-processing-and-data-compression/README.md">Handbook of Data Compression, David Salomon</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Compression-David-Salomon.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/The-Data-Compression-Book-Mark-Nelson.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Understanding-Compression-Data-Compression-for-Modern-Developers-Colt-McAnlis.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Handbook-of-Data-Compression-David-Salomon.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/signal-processing-and-data-compression/README.md">Image and Video Compression for Multimedia Engineering, Yun Q. Shi</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/signal-processing-and-data-compression/README.md">Introduction to Data Compression, Khalid Sayood</a></td>
-        </tr>
-        <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Image-and-Video-Compression-for-Multimedia-Engineering-Yun-Q.-Shi.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Introduction-to-Data-Compression-Khalid-Sayood.jpg"></td>
-        </tr>
-    </tbody>
-</table>
+#### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
+#### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
+#### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
+#### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
+#### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
+#### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
+#### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
+#### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
