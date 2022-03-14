@@ -5,7 +5,7 @@
 
 ## Computer Graphics Principles and Practice, John F. Hughes
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Computer-Graphics-Principles-and-Practice-John-F.-Hughes.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-Principles-and-Practice-John-F.-Hughes.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -18,7 +18,7 @@
 
 ## OpenGL Programming Guide, Dave Shreiner
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/OpenGL-Programming-Guide-Dave-Shreiner.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/OpenGL-Programming-Guide-Dave-Shreiner.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -31,7 +31,7 @@
 
 ## Fundamentals of Computer Graphics, Peter Shirley
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Fundamentals-of-Computer-Graphics-Peter-Shirley.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Fundamentals-of-Computer-Graphics-Peter-Shirley.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -44,7 +44,7 @@
 
 ## Algorithms and Data Structures with Applications to Graphics and Geometry, Jurg Nievergelt
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Algorithms-and-Data-Structures-with-Applications-to-Graphics-and-Geometry-Jurg-Nievergelt.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Algorithms-and-Data-Structures-with-Applications-to-Graphics-and-Geometry-Jurg-Nievergelt.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -57,7 +57,7 @@
 
 ## 3D Math Primer for Graphics and Game Development, Ian Parberry
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/3D-Math-Primer-for-Graphics-and-Game-Development-Ian-Parberry.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/3D-Math-Primer-for-Graphics-and-Game-Development-Ian-Parberry.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -70,7 +70,7 @@
 
 ## 3D Math Primer for Graphics and Game Development, Fletcher Dunn
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/3D-Math-Primer-for-Graphics-and-Game-Development-Fletcher-Dunn.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/3D-Math-Primer-for-Graphics-and-Game-Development-Fletcher-Dunn.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -83,7 +83,7 @@
 
 ## Computer Graphics and Geometric Modeling, Max K. Agoston
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Computer-Graphics-and-Geometric-Modeling-Max-K.-Agoston.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-and-Geometric-Modeling-Max-K.-Agoston.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -96,7 +96,7 @@
 
 ## Computer Graphics Programming in OpenGL with Cpp, V. Scott Gordon
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Computer-Graphics-Programming-in-OpenGL-with-Cpp-V.-Scott-Gordon.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-Programming-in-OpenGL-with-Cpp-V.-Scott-Gordon.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -109,7 +109,7 @@
 
 ## Mathematics for 3D-Game Programming and Computer Graphics, Eric Lengyel
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Mathematics-for-3D-Game-Programming-and-Computer-Graphics-Eric-Lengyel.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Mathematics-for-3D-Game-Programming-and-Computer-Graphics-Eric-Lengyel.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -122,7 +122,7 @@
 
 ## Computer Graphics C Version, Donald Hearn
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Computer-Graphics-C-Version-Donald-Hearn.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Computer-Graphics-C-Version-Donald-Hearn.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -135,7 +135,7 @@
 
 ## Geometry for Computer Graphics, John Vince
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Geometry-for-Computer-Graphics-John-Vince.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Geometry-for-Computer-Graphics-John-Vince.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
@@ -148,7 +148,7 @@
 
 ## Graphics Shaders Theory and Practice, Mike Bailey
 
-<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/covers/Graphics-Shaders-Theory-and-Practice-Mike-Bailey.jpg">
+<img align="right" width="250" height="320" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Graphics-Shaders-Theory-and-Practice-Mike-Bailey.jpg">
 
 ### `Chapter 01` 
 ### `Chapter 02` 
