@@ -6,8 +6,12 @@
 <img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/agenda.jpg">
 
 ## Table of Contents
+  * [Data Science Textbooks](#Data-Analysis-Textbooks)
+  * [R Programming Language Textbooks](#R-Programming-Language-Textbooks)
+  * [Business Analytics Textbooks](#Business-Analytics-Textbooks)
   * [Data Analysis Textbooks](#Data-Analysis-Textbooks)
   * [Data Visualization Textbooks](#Data-Visualization-Textbooks)
+  * [Data Analytics Textbooks](#Data-Analytics-Textbooks)
   * [Natural Language Processing Textbooks](#Natural-Language-Processing-Textbooks)
   * [Data Mining Textbooks](#Data-Mining-Textbooks)
   * [Business Intelligence Textbooks](#Business-Intelligence-Textbooks)
@@ -15,9 +19,9 @@
   * [Big Data Textbooks](#Big-Data-Textbooks)
   * [Data Engineering Textbooks](#Data-Engineering-Textbooks)
   * [Data Governance Textbooks](#Data-Governance-Textbooks)
-  * [Distributed Database Systems Textbooks](#Distributed-Database-Systems-Textbooks)
   * [File Organization and Processing Textbooks](#File-Organization-and-Processing-Textbooks)
   * [Data Storage and Retrieval Textbooks](#Data-Storage-and-Retrieval-Textbooks)
+  * [Distributed Database Systems Textbooks](#Distributed-Database-Systems-Textbooks)
 
 <br><br>
 
