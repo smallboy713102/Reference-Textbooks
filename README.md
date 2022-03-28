@@ -20,7 +20,7 @@ Computer Science Textbooks for computer science students, which including the fo
 #### - [Operating Systems](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 #### - [Concurrency and Parallel Computing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 #### - [High Performance Computing Computing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
-#### - [Concepts of Programming Languages](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [Programming Languages Concepts](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 #### - [Theory of Computation](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 #### - [Compiler Design](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 
