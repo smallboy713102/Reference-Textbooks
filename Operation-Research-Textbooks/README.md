@@ -8,13 +8,19 @@
 ## Table of Contents
   * [Linear and Integer Programming Textbooks](#Linear-and-Integer-Programming-Textbooks)
   * [Nonlinear Programming Textbooks](#Nonlinear-Programming-Textbooks)
+  * [Multi-objective Programming Textbooks](#Nonlinear-Programming-Textbooks)
   * [Operation Research Textbooks](#Operation-Research-Textbooks)
+  * [Probabilistic Reasoning Theory Textbooks](#Decision-Theory-Textbooks)
   * [Decision Theory Textbooks](#Decision-Theory-Textbooks)
   * [Forecasting and Predictive Analytics Textbooks](#Forecasting-and-Predictive-Analytics-Textbooks)
   * [Network Modeling and Optimization Textbooks](#Network-Modeling-and-Optimization-Textbooks)
   * [Stochastic Models Textbooks](#Stochastic-Models-Textbooks)
-  * [Game Theory Textbooks](#Game-Theory-Textbooks)
   * [Reinforcement Learning Textbooks](#Reinforcement-Learning-Textbooks)
+  * [Game Theory Textbooks](#Game-Theory-Textbooks)
+  * [Strategic Planning Textbooks](#Game-Theory-Textbooks)
+  * [Decision Support Systems Textbooks](#Game-Theory-Textbooks)
+  * [Inventory Management Textbooks](#Game-Theory-Textbooks)
+  * [Advanced Simulations Textbooks](#Game-Theory-Textbooks)
   * [Project Management Textbooks](#Project-Management-Textbooks)
 
 <br><br>
