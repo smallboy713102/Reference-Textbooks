@@ -103,10 +103,12 @@ Operation Research Textbooks for computer science students, which including the 
 #### - [Operation Research](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 #### - [Probabilistic Reasoning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 #### - [Decision Theory](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Forecasting and Predictive Analytics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 #### - [Network Modeling and Optimization](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 #### - [Stochastic Models](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
-#### - [Game Theory](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 #### - [Reinforcement Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Game Theory](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Strategic Planning Theory](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 #### - [Decision Support Systems](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 #### - [Inventory Management](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 #### - [Advanced Simulations](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
@@ -117,6 +119,8 @@ Operation Research Textbooks for computer science students, which including the 
 ## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
 Bioinformatics Textbooks for computer science students, which including the following main topics:
 
+#### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
+#### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
 #### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
 #### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
 #### - [](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
