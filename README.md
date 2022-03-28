@@ -32,6 +32,7 @@ Computer Science Textbooks for computer science students, which including the fo
 Software Engineering Textbooks for computer science students, which including the following main topics:
 
 #### - [Java Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [C# Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
 #### - [Software Engineering](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
 #### - [Systems Analysis and Design](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
 #### - [Computer Networks Technology](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
@@ -43,6 +44,7 @@ Software Engineering Textbooks for computer science students, which including th
 #### - [Systems Development Methodologies](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
 #### - [Continuous Delivery and DevOps](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
 #### - [Software Testing and Quality Assurance](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
+#### - [Web/Mobile/Game Development](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
 #### - [User Interface and User Experience](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
 #### - [Software Design and Architecture](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
 
