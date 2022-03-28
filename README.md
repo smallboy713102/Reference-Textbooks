@@ -13,7 +13,7 @@ Computer Science Textbooks for computer science students, which including the fo
 #### - [Calculus and Linear Algebra](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 #### - [Probability and Statistics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 #### - [Python Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
-#### - [Cpp Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
+#### - [C/CPP Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 #### - [Discrete Mathematics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 #### - [Data Structures and Algorithms](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 #### - [Computer Graphics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
