@@ -17,14 +17,14 @@
   * [Data Compression Textbooks](#Data-Compression-Textbooks)
   * [Image Processing Textbooks](#Image-Processing-Textbooks)
   * [Computer Vision Textbooks](#Computer-Vision-Textbooks)
-  * [Speech Processing Textbooks](#Speech-Processing-Textbooks)
+  * [Pattern Recognition Textbooks](#Computer-Vision-Textbooks)
   * [Virtual Reality Textbooks](#Virtual-Reality-Textbooks)
+  * [Computer Animation Textbooks](#Virtual-Reality-Textbooks)
+  * [Speech Processing Textbooks](#Speech-Processing-Textbooks)
   * [Multimedia Mining Textbooks](#Multimedia-Mining-Textbooks)
 
 <br><br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/unsupervised-learning.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/supervised-learning.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/machine-learning.jpg"></img>
 <br><br><br>
 
