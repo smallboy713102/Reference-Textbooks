@@ -10,14 +10,14 @@
   * [Calculus and Linear Algebra Textbooks](#Calculus-and-Linear-Algebra-Textbooks)
   * [Probability and Statistics Textbooks](#Probability-and-Statistics-Textbooks)
   * [Python Programming Language Textbooks](#Python-Programming-Language-Textbooks)
-  * [Cpp Programming Language Textbooks](#Cpp-Programming-Language-Textbooks)
+  * [C/CPP Programming Language Textbooks](#CCPP-Programming-Language-Textbooks)
   * [Discrete Mathematics Textbooks](#Discrete-Mathematics-Textbooks)
   * [Data Structures and Algorithms Textbooks](#Data-Structures-and-Algorithms-Textbooks)
   * [Computer Graphics Textbooks](#Computer-Graphics-Textbooks)
   * [Operating Systems Textbooks](#Operating-Systems-Textbooks)
   * [Concurrency and Parallel Computing Textbooks](#Concurrency-and-Parallel-Computing-Textbooks)
   * [High Performance Computing Computing Textbooks](#High-Performance-Computing-Textbooks)
-  * [Concepts of Programming Languages Textbooks](#Concepts-of-Programming-Languages-Textbooks)
+  * [Programming Languages Concepts Textbooks](#Programming-Languages-Concepts-Textbooks)
   * [Theory of Computation Textbooks](#Theory-of-Computation-Textbooks)
   * [Compiler Design Textbooks](#Compiler-Design-Textbooks)
 
@@ -64,7 +64,7 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/cpp.jpg"></img>
 <br><br><br>
 
-## [Cpp Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/CPP-Programming-Language/README.md) Textbooks
+## [C/CPP Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/CPP-Programming-Language/README.md) Textbooks
 
 <table>
     <tbody>
