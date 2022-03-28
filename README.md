@@ -75,17 +75,19 @@ Artificial Intelligence Textbooks for computer science students, which including
 ## [`Data Science`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 Data Science Textbooks for computer science students, which including the following main topics:
 
+#### - [Data Science](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [R Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Business Analytics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Data Analysis](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Data Visualization](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
+#### - [Data Analytics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Natural Language Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Data Mining](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
-#### - [Business Analytics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Business Intelligence](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Data Management](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Big Data](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Data Engineering](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Data Governance](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
-#### - [Distributed Database Systems](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [File Organization and Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Distributed Database Systems](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
