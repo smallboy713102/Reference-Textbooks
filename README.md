@@ -48,7 +48,7 @@ Computer Science Textbooks for computer science students, which including the fo
 <td align=center width="25%"><img src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/parallel-computing.jpg" width="70%"></img></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md">High Performance Computing Computing Textbooks</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md">High Performance Computing Textbooks</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md">Programming Languages Concepts Textbooks</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md">Theory of Computation Textbooks</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md">Compiler Design Textbooks</a></td>
