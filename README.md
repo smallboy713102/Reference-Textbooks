@@ -228,7 +228,7 @@ Data Science Textbooks for computer science students, which including the follow
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md">Distributed Database Systems Textbooks</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-goverance.jpg" width="70%"></img></td>
+<td align=center width="25%"><img src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-governance.jpg" width="70%"></img></td>
 <td align=center width="25%"><img src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/file-organization.jpg" width="70%"></img></td>
 <td align=center width="25%"><img src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-storage.jpg" width="70%"></img></td>
 <td align=center width="25%"><img src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/distributed-database.jpg" width="70%"></img></td>
