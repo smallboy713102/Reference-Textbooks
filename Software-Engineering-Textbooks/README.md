@@ -7,6 +7,7 @@
 
 ## Table of Contents
   * [Java Programming Language Textbooks](#Java-Programming-Language-Textbooks)
+  * [C# Programming Language Textbooks](#C#-Programming-Language-Textbooks)
   * [Software Engineering Textbooks](#Software-Engineering-Textbooks)
   * [Systems Analysis and Design Textbooks](#Systems-Analysis-and-Design-Textbooks)
   * [Computer Networks Technology Textbooks](#Computer-Networks-Technology-Textbooks)
@@ -18,6 +19,7 @@
   * [Systems Development Methodologies Textbooks](#Systems-Development-Methodologies-Textbooks)
   * [Continuous Delivery and DevOps Textbooks](#Continuous-Delivery-and-DevOps-Textbooks)
   * [Software Testing and Quality Assurance Textbooks](#Software-Testing-and-Quality-Assurance-Textbooks)
+  * [Web/Mobile/Game Development Textbooks](#WebMobileGame-Development-Textbooks)
   * [User Interface and User Experience Textbooks](#User-Interface-and-User-Experience-Textbooks)
   * [Software Design and Architecture Textbooks](#Software-Design-and-Architecture-Textbooks)
 
