@@ -3,7 +3,7 @@
 # Computer Science Textbooks
 
 <br><br>
-<img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/agenda.jpg">
+<img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/agenda.jpg">
 
 ## Table of Contents
   * [Fundamentals of Computer Science Textbooks](#Fundamentals-of-Computer-Science-Textbooks)
@@ -25,7 +25,7 @@
 
 <br><br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/python.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/python.jpg"></img>
 <br><br><br>
 
 ## [Python Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Python-Programming-Language/README.md) Textbooks
@@ -61,7 +61,7 @@
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/cpp.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/cpp.jpg"></img>
 <br><br><br>
 
 ## [C/CPP Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/CPP-Programming-Language/README.md) Textbooks
@@ -97,7 +97,7 @@
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/discrete-mathematics.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/discrete-mathematics.jpg"></img>
 <br><br><br>
 
 ## [Discrete Mathematics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Discrete-Mathematics/README.md) Textbooks
@@ -133,7 +133,7 @@
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-structures.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-structures.jpg"></img>
 <br><br><br>
 
 ## [Data Structures](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Data-Structures-and-Algorithms/README.md) Textbooks
@@ -169,7 +169,7 @@
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/computer-graphics.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-graphics.jpg"></img>
 <br><br><br>
 
 ## [Computer Graphics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Computer-Graphics/README.md) Textbooks

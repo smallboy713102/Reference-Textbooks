@@ -3,7 +3,7 @@
 # Software Engineering Textbooks
 
 <br><br>
-<img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/agenda.jpg">
+<img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/agenda.jpg">
 
 ## Table of Contents
   * [Java Programming Language Textbooks](#Java-Programming-Language-Textbooks)

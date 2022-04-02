@@ -3,7 +3,7 @@
 # Artificial Intelligence Textbooks
 
 <br><br>
-<img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/agenda.jpg">
+<img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/agenda.jpg">
 
 ## Table of Contents
   * [Artificial Intelligence Textbooks](#Artificial-Intelligence-Textbooks)
@@ -25,7 +25,7 @@
 
 <br><br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/machine-learning.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/machine-learning.jpg"></img>
 <br><br><br>
 
 ## [Machine Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Machine-Learning/README.md) Textbooks
@@ -85,9 +85,9 @@
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/generative-adversarial-network.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/deep-learning.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/neural-networks.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/generative-adversarial-network.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/deep-learning.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/neural-networks.jpg"></img>
 <br><br><br>
 
 ## [Deep Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Deep-Learning/README.md) Textbooks
@@ -159,8 +159,8 @@
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/signal-processing.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/differential-equations.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/signal-processing.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/differential-equations.jpg"></img>
 <br><br><br>
 
 ## [Signal Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Signal-Processing/README.md) Textbooks
@@ -169,7 +169,7 @@
 
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/logos/data-compression.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-compression.jpg"></img>
 <br><br><br>
 
 ## [Data Compression](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Data-Compression/README.md) Textbooks
