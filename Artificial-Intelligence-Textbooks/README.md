@@ -234,7 +234,7 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/generative-adversarial-network.jpg"></img>
 <br>
 
-## [Generative Adversarial Network](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/generative-adversarial-network/README.md) Textbooks
+## [Generative Adversarial Networks](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/generative-adversarial-network/README.md) Textbooks
 
 <table>
     <tbody>
