@@ -209,7 +209,7 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/object-oriented.jpg"></img>
 <br>
 
-## [Object Oriented](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Object-Oriented/README.md) Textbooks
+## [Object Oriented Programming](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Object-Oriented-Programming/README.md) Textbooks
 
 <table>
     <tbody>
