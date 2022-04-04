@@ -6,7 +6,7 @@
 <img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/agenda.jpg">
 
 ## Table of Contents
-  * [Artificial Intelligence Textbooks](#Artificial-Intelligence-Textbooks)
+  * [Artificial Intelligence Textbooks](#Artificial-Intelligence-Textbooks-1)
   * [Soft Computing Textbooks](#Soft-Computing-Textbooks)
   * [Machine Learning Textbooks](#Machine-Learning-Textbooks)
   * [Neural Networks Textbooks](#Neural-Networks-Textbooks)
