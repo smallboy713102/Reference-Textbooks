@@ -26,7 +26,7 @@
 <br><br>
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/fundamentals-of-computer-science.jpg"></img>
-<br><br>
+<br>
 
 ## [Fundamentals of Computer Science](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Fundamentals-of-Computer-Science/README.md) Textbooks
 
@@ -59,10 +59,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/mathematics.jpg"></img>
-<br><br>
+<br>
 
 ## [Calculus and Linear Algebra](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Calculus-and-Linear-Algebra/README.md) Textbooks
 
@@ -95,10 +93,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/probability-statistics.jpg"></img>
-<br><br>
+<br>
 
 ## [Probability and Statistics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Probability-and-Statistics/README.md) Textbooks
 
@@ -131,10 +127,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/python.jpg"></img>
-<br><br>
+<br>
 
 ## [Python Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Python-Programming-Language/README.md) Textbooks
 
@@ -167,11 +161,9 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/cpp.jpg"></img>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/c.jpg"></img>
-<br><br>
+<br>
 
 ## [C/CPP Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/CPP-Programming-Language/README.md) Textbooks
 
@@ -204,10 +196,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/object-oriented.jpg"></img>
-<br><br>
+<br>
 
 ## [Object Oriented Programming](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Object-Oriented-Programming/README.md) Textbooks
 
@@ -240,10 +230,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/discrete-mathematics.jpg"></img>
-<br><br>
+<br>
 
 ## [Discrete Mathematics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Discrete-Mathematics/README.md) Textbooks
 
@@ -276,10 +264,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-structures.jpg"></img>
-<br><br>
+<br>
 
 ## [Data Structures](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Data-Structures-and-Algorithms/README.md) Textbooks
 
@@ -312,10 +298,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/algorithms-analysis.jpg"></img>
-<br><br>
+<br>
 
 ## [Algorithms Analysis and Design](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Algorithms-Analysis-and-Design/README.md) Textbooks
 
@@ -348,10 +332,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-graphics.jpg"></img>
-<br><br>
+<br>
 
 ## [Computer Graphics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Computer-Graphics/README.md) Textbooks
 
@@ -396,10 +378,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operating-systems.jpg"></img>
-<br><br>
+<br>
 
 ## [Operating Systems](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Operating-Systems/README.md) Textbooks
 
@@ -432,10 +412,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/parallel-computing.jpg"></img>
-<br><br>
+<br>
 
 ## [Concurrency and Parallel Computing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Parallel-Computing/README.md) Textbooks
 
@@ -468,10 +446,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/high-performance-computing.jpg"></img>
-<br><br>
+<br>
 
 ## [High Performance Computing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/High-Performance-Computing/README.md) Textbooks
 
@@ -504,10 +480,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/programming-languages-concepts.jpg"></img>
-<br><br>
+<br>
 
 ## [Programming Languages Concepts](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Programming-Languages-Concepts/README.md) Textbooks
 
@@ -540,10 +514,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/theory-of-computation.jpg"></img>
-<br><br>
+<br>
 
 ## [Theory of Computation](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Theory-of-Computation/README.md) Textbooks
 
@@ -576,10 +548,8 @@
     </tbody>
 </table>
 
-<br>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/compiler-design.jpg"></img>
-<br><br>
+<br>
 
 ## [Compiler Design](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Compiler-Design/README.md) Textbooks
 
