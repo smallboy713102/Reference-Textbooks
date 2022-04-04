@@ -25,8 +25,76 @@
 
 <br><br>
 
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence.jpg"></img>
+<br>
+
+## [Artificial Intelligence](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Artificial-Intelligence/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/soft-computing.jpg"></img>
+<br>
+
+## [Soft Computing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Soft-Computing/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/machine-learning.jpg"></img>
-<br><br><br>
+<br>
 
 ## [Machine Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Machine-Learning/README.md) Textbooks
 
@@ -83,14 +151,10 @@
     </tbody>
 </table>
 
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/neural-networks.jpg"></img>
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/generative-adversarial-network.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/deep-learning.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/neural-networks.jpg"></img>
-<br><br><br>
-
-## [Deep Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Deep-Learning/README.md) Textbooks
+## [Neural Networks](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Neural-Networks/README.md) Textbooks
 
 <table>
     <tbody>
@@ -118,6 +182,16 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Neural-Networks-and-Deep-Learning-Michael-Nielsen.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Machine-Learning-A-Probabilistic-Perspective-Kevin-P.-Murphy.jpg"></td>
         </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/deep-learning.jpg"></img>
+<br>
+
+## [Deep Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Deep-Learning/README.md) Textbooks
+
+<table>
+    <tbody>
         <tr>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Deep-Learning/README.md">Deep Learning with Python, Francois Chollet</a></td>
 <td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Deep-Learning/README.md">Deep Learning: A Practitioners Approach, Josh Patterson</a></td>
@@ -157,20 +231,110 @@
     </tbody>
 </table>
 
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/generative-adversarial-network.jpg"></img>
 <br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/signal-processing.jpg"></img>
+## [Generative Adversarial Network](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/generative-adversarial-network/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/differential-equations.jpg"></img>
-<br><br><br>
+<br>
+
+## [Differential Equations](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Differential-Equations/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/signal-processing.jpg"></img>
+<br>
 
 ## [Signal Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Signal-Processing/README.md) Textbooks
 
-
-
-<br>
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-compression.jpg"></img>
-<br><br><br>
+<br>
 
 ## [Data Compression](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Data-Compression/README.md) Textbooks
 
@@ -195,6 +359,244 @@
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Image-and-Video-Compression-for-Multimedia-Engineering-Yun-Q.-Shi.jpg"></td>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Introduction-to-Data-Compression-Khalid-Sayood.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/image-processing.jpg"></img>
+<br>
+
+## [Image Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Image-Processing/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-vision.jpg"></img>
+<br>
+
+## [Computer Vision](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Computer-Vision/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/pattern-recognition.jpg"></img>
+<br>
+
+## [Pattern Recognition](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Pattern-Recognition/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/virtual-reality.jpg"></img>
+<br>
+
+## [Virtual Reality](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/virtual-reality/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-animation.jpg"></img>
+<br>
+
+## [Computer Animation](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Computer-Animation/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/speech-processing.jpg"></img>
+<br>
+
+## [Speech Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Speech-Processing/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/multimedia-mining.jpg"></img>
+<br>
+
+## [Multimedia Mining](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/Multimedia-Mining/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/title/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
