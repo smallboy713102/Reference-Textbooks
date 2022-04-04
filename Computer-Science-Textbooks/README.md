@@ -317,7 +317,7 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/algorithms-analysis.jpg"></img>
 <br>
 
-## [Algorithms Analysis](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Data-Structures-and-Algorithms/README.md) Textbooks
+## [Algorithms Analysis and Design](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/Algorithms-Analysis-and-Design/README.md) Textbooks
 
 <table>
     <tbody>
