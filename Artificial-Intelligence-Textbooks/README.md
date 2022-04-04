@@ -17,7 +17,7 @@
   * [Data Compression Textbooks](#Data-Compression-Textbooks)
   * [Image Processing Textbooks](#Image-Processing-Textbooks)
   * [Computer Vision Textbooks](#Computer-Vision-Textbooks)
-  * [Pattern Recognition Textbooks](#Computer-Vision-Textbooks)
+  * [Pattern Recognition Textbooks](#Pattern-Recognition-Textbooks)
   * [Virtual Reality Textbooks](#Virtual-Reality-Textbooks)
   * [Computer Animation Textbooks](#Virtual-Reality-Textbooks)
   * [Speech Processing Textbooks](#Speech-Processing-Textbooks)
