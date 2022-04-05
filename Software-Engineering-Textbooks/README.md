@@ -8,7 +8,7 @@
 ## Table of Contents
   * [Java Programming Language Textbooks](#Java-Programming-Language-Textbooks)
   * [C# Programming Language Textbooks](#C-Programming-Language-Textbooks)
-  * [Software Engineering Textbooks](#Software-Engineering-Textbooks)
+  * [Software Engineering Textbooks](#Software-Engineering-Textbooks-1)
   * [Systems Analysis and Design Textbooks](#Systems-Analysis-and-Design-Textbooks)
   * [Computer Networks Technology Textbooks](#Computer-Networks-Technology-Textbooks)
   * [Distributed Systems Textbooks](#Distributed-Systems-Textbooks)
