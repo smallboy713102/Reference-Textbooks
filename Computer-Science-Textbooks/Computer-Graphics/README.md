@@ -1,7 +1,8 @@
-<img align="right" width="80" height="120" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/logos/textbooks.jpg"></img>
-<br>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/textbooks.jpg">
 
 # Computer Graphics Textbooks
+
+<br><br><br>
 
 ## Computer Graphics Principles and Practice, John F. Hughes
 
