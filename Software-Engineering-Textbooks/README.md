@@ -18,7 +18,7 @@
   * [Database Design Textbooks](#Database-Design-Textbooks)
   * [Systems Development Methodologies Textbooks](#Systems-Development-Methodologies-Textbooks)
   * [Continuous Delivery and DevOps Textbooks](#Continuous-Delivery-and-DevOps-Textbooks)
-  * [Web/Mobile/Game Development Textbooks](#WebMobileGame-Development-Textbooks)
+  * [Web/Mobile Development Textbooks](#WebMobile-Development-Textbooks)
   * [Software Testing and Quality Assurance Textbooks](#Software-Testing-and-Quality-Assurance-Textbooks)
   * [User Interface and User Experience Textbooks](#User-Interface-and-User-Experience-Textbooks)
   * [Software Design and Architecture Textbooks](#Software-Design-and-Architecture-Textbooks)
@@ -433,10 +433,10 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/web-mobile-game-development.jpg"></img>
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/web-mobile-development.jpg"></img>
 <br>
 
-## [Web/Mobile/Game Development](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/Web-Mobile-Game-Development/README.md) Textbooks
+## [Web/Mobile Development](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/Web-Mobile-Development/README.md) Textbooks
 
 <table>
     <tbody>
