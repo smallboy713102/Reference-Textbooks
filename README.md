@@ -15,7 +15,6 @@ Computer Science Textbooks for computer science students, which including the fo
 #### - [Operating Systems and Parallel Computing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 #### - [Theory of Computation and Compiler Design](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Computer-Science-Textbooks/README.md) Textbooks
 
-<br><br>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering-department.jpg">
 
 ## [`Software Engineering`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
@@ -27,7 +26,6 @@ Software Engineering Textbooks for computer science students, which including th
 #### - [Continuous Delivery and DevOps](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
 #### - [Web/Mobile Development](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Software-Engineering-Textbooks/README.md) Textbooks
 
-<br><br>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence-department.jpg">
 
 ## [`Artificial Intelligence`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
@@ -39,7 +37,6 @@ Artificial Intelligence Textbooks for computer science students, which including
 #### - [Signal Processing and Data Compression](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
 #### - [Image Processing and Computer Vision](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Artificial-Intelligence-Textbooks/README.md) Textbooks
 
-<br><br>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
 
 ## [`Data Science`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
@@ -51,7 +48,6 @@ Data Science Textbooks for computer science students, which including the follow
 #### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 #### - [Data Engineering and Big Data](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/README.md) Textbooks
 
-<br><br>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
 
 ## [`Operation Research`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
@@ -63,7 +59,6 @@ Operation Research Textbooks for computer science students, which including the 
 #### - [Reinforcement Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 #### - [Project Management](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 
-<br><br>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
 
 ## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Bioinformatics-Textbooks/README.md) Textbooks
