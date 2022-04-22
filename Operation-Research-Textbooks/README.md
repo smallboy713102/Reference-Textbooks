@@ -21,6 +21,6 @@
   * [Decision Support Systems Textbooks](#Game-Theory-Textbooks)
   * [Inventory Management Textbooks](#Game-Theory-Textbooks)
   * [Advanced Simulations Textbooks](#Game-Theory-Textbooks)
-  * [Project Management Textbooks](#Project-Management-Textbooks)
+  * [Systems Project Management Textbooks](#Project-Management-Textbooks)
 
 <br><br>
