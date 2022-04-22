@@ -56,8 +56,8 @@ Operation Research Textbooks for computer science students, which including the 
 #### - [Linear and Nonlinear Programming](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 #### - [Operation Research and Decision Theory](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 #### - [Dynamic Programming and Stochastic Models](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
-#### - [Reinforcement Learning](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
-#### - [Project Management](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Reinforcement Learning and Game Theory](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
+#### - [Systems Project Management](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Operation-Research-Textbooks/README.md) Textbooks
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
 
