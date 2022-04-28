@@ -1,7 +1,7 @@
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/textbooks.jpg">
 
-# Computer Science Textbooks
-Computer Science Textbooks for computer science students.
+# Reference Textbooks
+Reference Textbooks for computer science students.
 
 <br><br>
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
