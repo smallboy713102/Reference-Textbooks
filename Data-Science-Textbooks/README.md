@@ -1,4 +1,4 @@
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/textbooks.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/textbooks.jpg">
 
 # Data Science Textbooks
 
@@ -28,33 +28,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science.jpg"></img>
 <br>
 
-## [Data Science](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Science/README.md) Textbooks
+## [Data Science](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Science/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -62,33 +62,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/r.jpg"></img>
 <br>
 
-## [R Programming Language](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/R-Programming-Language/README.md) Textbooks
+## [R Programming Language](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/R-Programming-Language/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -96,33 +96,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/business-analytics.jpg"></img>
 <br>
 
-## [Business Analytics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Business-Analytics/README.md) Textbooks
+## [Business Analytics](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Business-Analytics/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -130,45 +130,45 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-analysis.jpg"></img>
 <br>
 
-## [Data Analysis](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md) Textbooks
+## [Data Analysis](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Head First Statistics: A Brain-Friendly Guide, Dawn Griffiths</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Practical Statistics for Data Scientists, Peter Bruce</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Python for Data Analysis, Wes McKinney</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Python Data Science Handbook: Essential Tools for Working with Data, Jake VanderPlas</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Head First Statistics: A Brain-Friendly Guide, Dawn Griffiths</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Practical Statistics for Data Scientists, Peter Bruce</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Python for Data Analysis, Wes McKinney</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Python Data Science Handbook: Essential Tools for Working with Data, Jake VanderPlas</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Head-First-Statistics-A-Brain-Friendly-Guide-Dawn-Griffiths.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Practical-Statistics-for-Data-Scientists-Peter-Bruce.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-for-Data-Analysis-Wes-McKinney.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Python-Data-Science-Handbook-Essential-Tools-for-Working-with-Data-Jake-VanderPlas.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/Head-First-Statistics-A-Brain-Friendly-Guide-Dawn-Griffiths.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/Practical-Statistics-for-Data-Scientists-Peter-Bruce.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/Python-for-Data-Analysis-Wes-McKinney.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/Python-Data-Science-Handbook-Essential-Tools-for-Working-with-Data-Jake-VanderPlas.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Data Science for Business, Foster Provost</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Data Science from Scratch: First Principles with Python, Joel Grus</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Data Smart: Using Data Science to Transform Information into Insight, John W. Foreman</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Designing Data Intensive Applications, Martin Kleppmann</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Data Science for Business, Foster Provost</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Data Science from Scratch: First Principles with Python, Joel Grus</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Data Smart: Using Data Science to Transform Information into Insight, John W. Foreman</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Designing Data Intensive Applications, Martin Kleppmann</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Science-for-Business-Foster-Provost.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Science-from-Scratch-First-Principles-with-Python-Joel-Grus.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Data-Smart-Using-Data-Science-to-Transform-Information-into-Insight-John-W.-Foreman.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Designing-Data-Intensive-Applications-Martin-Kleppmann.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/Data-Science-for-Business-Foster-Provost.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/Data-Science-from-Scratch-First-Principles-with-Python-Joel-Grus.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/Data-Smart-Using-Data-Science-to-Transform-Information-into-Insight-John-W.-Foreman.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/Designing-Data-Intensive-Applications-Martin-Kleppmann.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Doing Data Science: Straight Talk from the Frontline, Rachel Schutt</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Storytelling with Data A Data Visualization Guide for Business Professionals, Wiley</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Lean Analytics Use Data to Build a Better Startup, Eric Ries</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">The Elements of Statistical Learning, Trevor Hastie</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Doing Data Science: Straight Talk from the Frontline, Rachel Schutt</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Storytelling with Data A Data Visualization Guide for Business Professionals, Wiley</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">Lean Analytics Use Data to Build a Better Startup, Eric Ries</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analysis/README.md">The Elements of Statistical Learning, Trevor Hastie</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Doing-Data-Science-Straight-Talk-from-the-Frontline-Rachel-Schutt.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Storytelling-with-Data-A-Data-Visualization-Guide-for-Business-Professionals-Wiley.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/Lean-Analytics-Use-Data-to-Build-a-Better-Startup-Eric-Ries.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/The-Elements-of-Statistical-Learning-Trevor-Hastie.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/Doing-Data-Science-Straight-Talk-from-the-Frontline-Rachel-Schutt.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/Storytelling-with-Data-A-Data-Visualization-Guide-for-Business-Professionals-Wiley.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/Lean-Analytics-Use-Data-to-Build-a-Better-Startup-Eric-Ries.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/The-Elements-of-Statistical-Learning-Trevor-Hastie.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -176,33 +176,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-visualization.jpg"></img>
 <br>
 
-## [Data Visualization](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Visualization/README.md) Textbooks
+## [Data Visualization](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Visualization/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -210,33 +210,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-analytics.jpg"></img>
 <br>
 
-## [Data Analytics](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Analytics/README.md) Textbooks
+## [Data Analytics](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Analytics/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -244,33 +244,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/natural-language-processing.jpg"></img>
 <br>
 
-## [Natural Language Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Natural-Language-Processing/README.md) Textbooks
+## [Natural Language Processing](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Natural-Language-Processing/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -278,33 +278,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-mining.jpg"></img>
 <br>
 
-## [Data Mining](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Mining/README.md) Textbooks
+## [Data Mining](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Mining/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -312,33 +312,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/business-intelligence.jpg"></img>
 <br>
 
-## [Business Intelligence](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Business-Intelligence/README.md) Textbooks
+## [Business Intelligence](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Business-Intelligence/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -346,33 +346,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-management.jpg"></img>
 <br>
 
-## [Data Management](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Management/README.md) Textbooks
+## [Data Management](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Management/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -380,33 +380,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/file-organization.jpg"></img>
 <br>
 
-## [File Organization and Processing](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/File-Organization-and-Processing/README.md) Textbooks
+## [File Organization and Processing](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/File-Organization-and-Processing/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -414,33 +414,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-storage.jpg"></img>
 <br>
 
-## [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Storage-and-Retrieval/README.md) Textbooks
+## [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Storage-and-Retrieval/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -448,33 +448,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/distributed-database.jpg"></img>
 <br>
 
-## [Distributed Database Systems](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Distributed-Database-Systems/README.md) Textbooks
+## [Distributed Database Systems](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Distributed-Database-Systems/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -482,33 +482,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-engineering.jpg"></img>
 <br>
 
-## [Data Engineering](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Engineering/README.md) Textbooks
+## [Data Engineering](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Engineering/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -516,33 +516,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-governance.jpg"></img>
 <br>
 
-## [Data Governance](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Data-Governance/README.md) Textbooks
+## [Data Governance](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Data-Governance/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -550,33 +550,33 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/big-data.jpg"></img>
 <br>
 
-## [Big Data](https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/Big-Data/README.md) Textbooks
+## [Big Data](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/Big-Data/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science-Textbooks/title/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
-<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Computer-Science-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
+<td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
