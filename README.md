@@ -44,7 +44,7 @@ Data Science Textbooks for computer science students, which including the follow
 
 #### - [Data Science and Business Analytics](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/README.md) Textbooks
 #### - [Data Analysis and Visualization](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/README.md) Textbooks
-#### - [Business Intelligence](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/README.md) Textbooks
+#### - [Business Intelligence and Data Management](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/README.md) Textbooks
 #### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/README.md) Textbooks
 #### - [Data Engineering and Big Data](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/README.md) Textbooks
 
