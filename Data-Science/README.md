@@ -244,7 +244,7 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/natural-language-processing.jpg"></img>
 <br>
 
-## [Natural Language Processing](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/Natural-Language-Processing-and-Text-Mining/README.md) Textbooks
+## [Natural Language Processing](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/Natural-Language-Processing/README.md) Textbooks
 
 <table>
     <tbody>
