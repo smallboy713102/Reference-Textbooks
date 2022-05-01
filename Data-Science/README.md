@@ -312,7 +312,7 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/business-intelligence.jpg"></img>
 <br>
 
-## [Business Intelligence](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/Business-Intelligence-and-Data-Management/README.md) Textbooks
+## [Business Intelligence](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/Business-Intelligence/README.md) Textbooks
 
 <table>
     <tbody>
