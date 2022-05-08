@@ -1,9 +1,10 @@
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/textbooks-covers/textbooks.jpg">
+<img align="right" width="200" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/reference-textbooks.jpg"></img>
 
 # Reference Textbooks
 Reference Textbooks for computer science students.
 
-<br><br>
+<br><br><br>
+
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
 
 ## [`Computer Science`](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Computer-Science/README.md) Textbooks
