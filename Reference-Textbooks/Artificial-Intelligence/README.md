@@ -7,7 +7,7 @@
 <img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/agenda.jpg">
 
 ## Table of Contents
-  * [Artificial Intelligence Textbooks](#Artificial-Intelligence-Textbooks-1)
+  * [Artificial Intelligence Algorithms Textbooks](#Artificial-Intelligence-Algorithms-Textbooks)
   * [Soft Computing Textbooks](#Soft-Computing-Textbooks)
   * [Machine Learning Textbooks](#Machine-Learning-Textbooks)
   * [Neural Networks Textbooks](#Neural-Networks-Textbooks)
@@ -29,7 +29,7 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence.jpg"></img>
 <br>
 
-## [Artificial Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence/README.md) Textbooks
+## [Artificial Intelligence Algorithms](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence/README.md) Textbooks
 
 <table>
     <tbody>
