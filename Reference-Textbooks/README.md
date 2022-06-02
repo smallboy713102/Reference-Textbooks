@@ -21,7 +21,7 @@ Computer Science Textbooks for computer science students, which including the fo
 ## [`Software Engineering`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
 Software Engineering Textbooks for computer science students, which including the following main topics:
 
-#### - [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
+#### - [Fundamentals of Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
 #### - [Distributed Systems and Cloud Computing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
 #### - [Database Systems and Warehousing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
 #### - [Continuous Delivery and DevOps](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
@@ -32,7 +32,7 @@ Software Engineering Textbooks for computer science students, which including th
 ## [`Artificial Intelligence`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
 Artificial Intelligence Textbooks for computer science students, which including the following main topics:
 
-#### - [Artificial Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
+#### - [Artificial Intelligence Algorithms](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
 #### - [Machine Learning and Data Mining](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
 #### - [Neural Networks and Deep Learning](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
 #### - [Signal Processing and Data Compression](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
