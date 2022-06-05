@@ -9,7 +9,7 @@
 ## Table of Contents
   * [Java Programming Language Lectures](#Java-Programming-Language-Lectures)
   * [C# Programming Language Lectures](#C-Programming-Language-Lectures)
-  * [Software Engineering Lectures](#Software-Engineering-Lectures-1)
+  * [Fundamentals of Software Engineering Lectures](#Fundamentals-of-Software-Engineering-Lectures)
   * [Systems Analysis and Design Lectures](#Systems-Analysis-and-Design-Lectures)
   * [Computer Networks Technology Lectures](#Computer-Networks-Technology-Lectures)
   * [Distributed Systems Lectures](#Distributed-Systems-Lectures)
@@ -133,7 +133,7 @@
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering.jpg"></img>
 <br>
 
-## [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md) Lectures
+## [Fundamentals of Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md) Lectures
 
 <table>
     <tbody>
