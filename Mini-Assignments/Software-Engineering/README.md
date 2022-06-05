@@ -9,7 +9,7 @@
 ## Table of Contents
   * [Java Programming Language Assignments](#Java-Programming-Language-Assignments)
   * [C# Programming Language Assignments](#C-Programming-Language-Assignments)
-  * [Software Engineering Assignments](#Software-Engineering-Assignments-1)
+  * [Fundamentals of Software Engineering Assignments](#Fundamentals-of-Software-Engineering-Assignments)
   * [Systems Analysis and Design Assignments](#Systems-Analysis-and-Design-Assignments)
   * [Computer Networks Technology Assignments](#Computer-Networks-Technology-Assignments)
   * [Distributed Systems Assignments](#Distributed-Systems-Assignments)
@@ -133,7 +133,7 @@
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering.jpg"></img>
 <br>
 
-## [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Software-Engineering/Fundamentals-of-Software-Engineering/README.md) Assignments
+## [Fundamentals of Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Software-Engineering/Fundamentals-of-Software-Engineering/README.md) Assignments
 
 <table>
     <tbody>
