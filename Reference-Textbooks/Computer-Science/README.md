@@ -166,15 +166,15 @@
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/c.jpg"></img>
 <br>
 
-## [C/CPP Programming Language](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/CPP-Programming-Language/README.md) Textbooks
+## [C/CPP Programming Language](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/C-CPP-Programming-Language/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/CPP-Programming-Language/README.md">A Complete Guide to Programming in Cpp, Ulla Kirch Prinz</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/CPP-Programming-Language/README.md">Accelerated Cpp, Andrew Koenig and Barbara E. Moo</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/CPP-Programming-Language/README.md">Cpp How to Program, Paul Deitel</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/CPP-Programming-Language/README.md">Cpp The Complete Reference, Herbert Schildt</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/C-CPP-Programming-Language/README.md">A Complete Guide to Programming in Cpp, Ulla Kirch Prinz</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/C-CPP-Programming-Language/README.md">Accelerated Cpp, Andrew Koenig and Barbara E. Moo</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/C-CPP-Programming-Language/README.md">Cpp How to Program, Paul Deitel</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/C-CPP-Programming-Language/README.md">Cpp The Complete Reference, Herbert Schildt</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/A-Complete-Guide-to-Programming-in-Cpp-Ulla-Kirch-Prinz.jpg"></td>
@@ -183,10 +183,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Cpp-The-Complete-Reference-Herbert-Schildt.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/CPP-Programming-Language/README.md">Object-Oriented Programming in C++, Robert Lafore</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/CPP-Programming-Language/README.md">Effective Modern Cpp, Scott Meyers</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/CPP-Programming-Language/README.md">Cpp Primer, Stanley B. Lippman</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/CPP-Programming-Language/README.md">The Cpp Programming Language, Bjarne Stroustrup</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/C-CPP-Programming-Language/README.md">Object-Oriented Programming in C++, Robert Lafore</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/C-CPP-Programming-Language/README.md">Effective Modern Cpp, Scott Meyers</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/C-CPP-Programming-Language/README.md">Cpp Primer, Stanley B. Lippman</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/C-CPP-Programming-Language/README.md">The Cpp Programming Language, Bjarne Stroustrup</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Object-Oriented-Programming-in-C++-Robert-Lafore.jpg"></td>
