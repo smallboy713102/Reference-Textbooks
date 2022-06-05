@@ -9,7 +9,7 @@
 ## Table of Contents
   * [Java Programming Language Textbooks](#Java-Programming-Language-Textbooks)
   * [C# Programming Language Textbooks](#C-Programming-Language-Textbooks)
-  * [Software Engineering Textbooks](#Software-Engineering-Textbooks-1)
+  * [Fundamentals of Software Engineering Textbooks](#Fundamentals-of-Software-Engineering-Textbooks)
   * [Systems Analysis and Design Textbooks](#Systems-Analysis-and-Design-Textbooks)
   * [Computer Networks Technology Textbooks](#Computer-Networks-Technology-Textbooks)
   * [Distributed Systems Textbooks](#Distributed-Systems-Textbooks)
@@ -97,7 +97,7 @@
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering.jpg"></img>
 <br>
 
-## [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Fundamentals-of-Software-Engineering/README.md) Textbooks
+## [Fundamentals of Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Fundamentals-of-Software-Engineering/README.md) Textbooks
 
 <table>
     <tbody>
