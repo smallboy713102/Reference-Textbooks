@@ -29,7 +29,7 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence.jpg"></img>
 <br>
 
-## [Artificial Intelligence Algorithms](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence/README.md) Textbooks
+## [Artificial Intelligence Algorithms](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md) Textbooks
 
 <table>
     <tbody>
