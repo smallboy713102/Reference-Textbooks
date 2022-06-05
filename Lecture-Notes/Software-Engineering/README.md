@@ -41,39 +41,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Java-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Java-Programming-Language/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -93,39 +93,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C%23-Programming-Language/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/C%23-Programming-Language/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -145,39 +145,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Fundamentals-of-Software-Engineering/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -197,39 +197,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Analysis-and-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Analysis-and-Design/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -249,39 +249,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Networks-Technology/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Computer-Networks-Technology/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -301,39 +301,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Distributed-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Distributed-Systems/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -353,39 +353,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Cloud-Computing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Cloud-Computing/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -405,39 +405,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Systems/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Systems/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -457,39 +457,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Warehousing/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Data-Warehousing/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -509,39 +509,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Database-Design/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Database-Design/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -561,39 +561,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Systems-Development-Methodologies/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Systems-Development-Methodologies/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -613,39 +613,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Continuous-Delivery-and-DevOps/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -665,39 +665,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Web-Mobile-Development/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Web-Mobile-Development/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -717,39 +717,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -769,39 +769,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/User-Interface-and-User-Experience/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/User-Interface-and-User-Experience/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -821,39 +821,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Software-Design-and-Architecture/README.md">LectureName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/Software-Design-and-Architecture/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
