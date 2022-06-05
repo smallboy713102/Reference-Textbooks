@@ -9,7 +9,7 @@
 ## Table of Contents
   * [Java Programming Language Labs](#Java-Programming-Language-Labs)
   * [C# Programming Language Labs](#C-Programming-Language-Labs)
-  * [Software Engineering Labs](#Software-Engineering-Labs-1)
+  * [Fundamentals of Software Engineering Labs](#Fundamentals-of-Software-Engineering-Labs-1)
   * [Systems Analysis and Design Labs](#Systems-Analysis-and-Design-Labs)
   * [Computer Networks Technology Labs](#Computer-Networks-Technology-Labs)
   * [Distributed Systems Labs](#Distributed-Systems-Labs)
@@ -133,7 +133,7 @@
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering.jpg"></img>
 <br>
 
-## [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Fundamentals-of-Software-Engineering/README.md) Labs
+## [Fundamentals of Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Fundamentals-of-Software-Engineering/README.md) Labs
 
 <table>
     <tbody>
