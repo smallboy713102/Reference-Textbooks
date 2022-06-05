@@ -4,7 +4,7 @@
 
 <br><br><br><br>
 
-<img align="right" width="90" height="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/agenda.jpg">
+<img align="right" width="90" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/agenda.jpg">
 
 ## Table of Contents
   * [Java Programming Language Textbooks](#Java-Programming-Language-Textbooks)
@@ -26,7 +26,7 @@
 
 <br><br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/java.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/java.jpg"></img>
 <br>
 
 ## [Java Programming Language](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Java-Programming-Language/README.md) Textbooks
@@ -60,7 +60,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/csharp.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/csharp.jpg"></img>
 <br>
 
 ## [C# Programming Language](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/C#-Programming-Language/README.md) Textbooks
@@ -94,7 +94,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering.jpg"></img>
 <br>
 
 ## [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Software-Engineering/README.md) Textbooks
@@ -128,7 +128,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/system-analysis.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/system-analysis.jpg"></img>
 <br>
 
 ## [Systems Analysis and Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Systems-Analysis-and-Design/README.md) Textbooks
@@ -162,7 +162,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-networks.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-networks.jpg"></img>
 <br>
 
 ## [Computer Networks Technology](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Computer-Networks-Technology/README.md) Textbooks
@@ -196,7 +196,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/distributed-systems.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/distributed-systems.jpg"></img>
 <br>
 
 ## [Distributed Systems](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Distributed-Systems/README.md) Textbooks
@@ -230,7 +230,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/cloud-computing.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/cloud-computing.jpg"></img>
 <br>
 
 ## [Cloud Computing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Cloud-Computing/README.md) Textbooks
@@ -264,7 +264,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/database-systems.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/database-systems.jpg"></img>
 <br>
 
 ## [Database Systems](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Database-Systems/README.md) Textbooks
@@ -298,7 +298,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-warehousing.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-warehousing.jpg"></img>
 <br>
 
 ## [Data Warehousing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Data-Warehousing/README.md) Textbooks
@@ -332,7 +332,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/database-design.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/database-design.jpg"></img>
 <br>
 
 ## [Database Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Database-Design/README.md) Textbooks
@@ -366,7 +366,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/systems-development-methodologies.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/systems-development-methodologies.jpg"></img>
 <br>
 
 ## [Systems Development Methodologies](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Systems-Development-Methodologies/README.md) Textbooks
@@ -400,7 +400,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/continuous-delivery.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/continuous-delivery.jpg"></img>
 <br>
 
 ## [Continuous Delivery and DevOps](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Continuous-Delivery-and-DevOps/README.md) Textbooks
@@ -434,7 +434,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/web-mobile-development.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/web-mobile-development.jpg"></img>
 <br>
 
 ## [Web/Mobile Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Web-Mobile-Development/README.md) Textbooks
@@ -468,7 +468,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-testing.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-testing.jpg"></img>
 <br>
 
 ## [Software Testing and Quality Assurance](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Software-Testing-and-Quality-Assurance/README.md) Textbooks
@@ -502,7 +502,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/ui-ux.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/ui-ux.jpg"></img>
 <br>
 
 ## [User Interface and User Experience](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/User-Interface-and-User-Experience/README.md) Textbooks
@@ -536,7 +536,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-design.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-design.jpg"></img>
 <br>
 
 ## [Software Design and Architecture](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/Software-Design-and-Architecture/README.md) Textbooks
