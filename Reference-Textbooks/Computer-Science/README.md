@@ -268,7 +268,7 @@
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-structures.jpg"></img>
 <br>
 
-## [Data Structures](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Data-Structures-and-Algorithms/README.md) Textbooks
+## [Data Structures](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Data-Structures/README.md) Textbooks
 
 <table>
     <tbody>
