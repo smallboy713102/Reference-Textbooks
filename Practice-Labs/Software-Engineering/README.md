@@ -9,7 +9,7 @@
 ## Table of Contents
   * [Java Programming Language Labs](#Java-Programming-Language-Labs)
   * [C# Programming Language Labs](#C-Programming-Language-Labs)
-  * [Fundamentals of Software Engineering Labs](#Fundamentals-of-Software-Engineering-Labs-1)
+  * [Fundamentals of Software Engineering Labs](#Fundamentals-of-Software-Engineering-Labs)
   * [Systems Analysis and Design Labs](#Systems-Analysis-and-Design-Labs)
   * [Computer Networks Technology Labs](#Computer-Networks-Technology-Labs)
   * [Distributed Systems Labs](#Distributed-Systems-Labs)
