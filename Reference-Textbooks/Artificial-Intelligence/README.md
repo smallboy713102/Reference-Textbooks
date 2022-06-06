@@ -34,10 +34,10 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -46,10 +46,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -68,10 +68,10 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Soft-Computing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Soft-Computing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Soft-Computing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Soft-Computing/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -80,10 +80,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Soft-Computing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Soft-Computing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Soft-Computing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Soft-Computing/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -235,15 +235,15 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/generative-adversarial-network.jpg"></img>
 <br>
 
-## [Generative Adversarial Networks](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/generative-adversarial-network/README.md) Textbooks
+## [Generative Adversarial Networks](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -252,10 +252,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -274,10 +274,10 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Differential-Equations/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Differential-Equations/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Differential-Equations/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Differential-Equations/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -286,10 +286,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Differential-Equations/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Differential-Equations/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Differential-Equations/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Differential-Equations/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -308,10 +308,10 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Signal-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Signal-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Signal-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Signal-Processing/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -320,10 +320,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Signal-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Signal-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Signal-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Signal-Processing/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -372,10 +372,10 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Image-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Image-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Image-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Image-Processing/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -384,10 +384,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Image-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Image-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Image-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Image-Processing/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -406,10 +406,10 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Vision/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Vision/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Vision/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Vision/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -418,10 +418,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Vision/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Vision/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Vision/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Vision/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -440,10 +440,10 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Pattern-Recognition/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Pattern-Recognition/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Pattern-Recognition/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Pattern-Recognition/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -452,10 +452,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Pattern-Recognition/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Pattern-Recognition/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Pattern-Recognition/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Pattern-Recognition/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -469,15 +469,15 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/virtual-reality.jpg"></img>
 <br>
 
-## [Virtual Reality](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/virtual-reality/README.md) Textbooks
+## [Virtual Reality](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Virtual-Reality/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Virtual-Reality/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Virtual-Reality/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Virtual-Reality/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Virtual-Reality/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -486,10 +486,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Virtual-Reality/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Virtual-Reality/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Virtual-Reality/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Virtual-Reality/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -508,10 +508,10 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Animation/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Animation/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Animation/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Animation/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -520,10 +520,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Animation/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Animation/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Animation/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Computer-Animation/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -542,10 +542,10 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Speech-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Speech-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Speech-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Speech-Processing/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -554,10 +554,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Speech-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Speech-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Speech-Processing/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Speech-Processing/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -576,10 +576,10 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Multimedia-Mining/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Multimedia-Mining/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Multimedia-Mining/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Multimedia-Mining/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -588,10 +588,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/title/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Multimedia-Mining/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Multimedia-Mining/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Multimedia-Mining/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Multimedia-Mining/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
