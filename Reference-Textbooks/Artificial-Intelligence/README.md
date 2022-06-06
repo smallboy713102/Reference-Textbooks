@@ -235,15 +235,15 @@
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/generative-adversarial-network.jpg"></img>
 <br>
 
-## [Generative Adversarial Networks](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md) Textbooks
+## [Generative Adversarial Networks](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -252,10 +252,10 @@
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
-<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Network/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">BookName</a></td>
+<td align=center width="25%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="25%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
