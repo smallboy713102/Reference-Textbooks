@@ -22,7 +22,7 @@
   * [Web/Mobile Development Labs](#WebMobile-Development-Labs)
   * [Software Testing and Quality Assurance Labs](#Software-Testing-and-Quality-Assurance-Labs)
   * [User Interface and User Experience Labs](#User-Interface-and-User-Experience-Labs)
-  * [Software Design and Architecture Labs](#Software-Design-and-Architecture-Labs)
+  * [Game Development Labs](#Game-Development-Labs)
 
 <br><br>
 
@@ -806,10 +806,10 @@
     </tbody>
 </table>
 
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-design.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/game-development.jpg"></img>
 <br>
 
-## [Software Design and Architecture](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md) Labs
+## [Game Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md) Labs
 
 <table>
     <tbody>
@@ -821,39 +821,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
 <td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Software-Design-and-Architecture/README.md">LabName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/Game-Development/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
