@@ -58,12 +58,12 @@ Data Science Lectures for computer science students, which including the followi
 ## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
 Bioinformatics Lectures for computer science students, which including the following main topics:
 
-#### - [Template](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-#### - [Template](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-#### - [Template](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-#### - [Template](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-#### - [Template](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-#### - [Template](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
+#### - [Fundamentals of Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
+#### - [Computational Drug Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
+#### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
+#### - [Data Analysis and Visualization in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
+#### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
+#### - [Machine Learning in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
 
