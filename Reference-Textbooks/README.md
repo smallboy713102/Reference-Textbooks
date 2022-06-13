@@ -56,9 +56,9 @@ Bioinformatics Textbooks for computer science students, which including the foll
 
 #### - [Fundamentals of Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
 #### - [Computational Drug Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
-#### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
-#### - [Data Analysis and Visualization in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
+#### - [Software Engineering in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
 #### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
+#### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
 
