@@ -60,10 +60,10 @@ Bioinformatics Labs for computer science students, which including the following
 
 #### - [Fundamentals of Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
 #### - [Computational Drug Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
-#### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
-#### - [Data Analysis and Visualization in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
+#### - [Software Engineering in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
+#### - [Database Systems and Warehousing in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
 #### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
-#### - [Machine Learning in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
+#### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
 
