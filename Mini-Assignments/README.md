@@ -60,10 +60,10 @@ Bioinformatics Assignments for computer science students, which including the fo
 
 #### - [Fundamentals of Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
 #### - [Computational Drug Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
-#### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
-#### - [Data Analysis and Visualization in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
+#### - [Software Engineering in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
+#### - [Database Systems and Warehousing in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
 #### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
-#### - [Machine Learning in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
+#### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
 
