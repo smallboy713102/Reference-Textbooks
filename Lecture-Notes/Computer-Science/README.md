@@ -509,45 +509,45 @@
 <td align=center width="400px">3D Computer Graphics</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 01</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Introduction to 2D Computer Graphics</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 08</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Introduction to 3D Computer Graphics</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 02</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Line Generating Algorithms</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 09</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Parametric Surfaces</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 03</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Circle Generating Algorithms</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 10</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">3D Transformations</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 04</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Viewing and Clipping</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 11</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Camera Models</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 05</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Parametric Curves</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 12</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Ray Tracing and Reflection</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 06</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">2D Transformations</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 13</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Lighting and Reflection</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 07</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Fractals</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 14</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Computer-Graphics/README.md">Texture Mapping</a></td>
         </tr>
     </tbody>
