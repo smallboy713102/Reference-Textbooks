@@ -16,6 +16,8 @@
   * [Discrete Mathematics Labs](#Discrete-Mathematics-Labs)
   * [Data Structures Labs](#Data-Structures-Labs)
   * [Algorithms Analysis and Design Labs](#Algorithms-Analysis-and-Design-Labs)
+  * [Advanced Data Structures Labs](#Advanced-Data-Structures-Labs)
+  * [Advanced Algorithms Analysis and Design Labs](#Advanced-Algorithms-Analysis-and-Design-Labs)
   * [Computer Graphics Labs](#Computer-Graphics-Labs)
   * [Operating Systems Labs](#Operating-Systems-Labs)
   * [Concurrency and Parallel Computing Labs](#Concurrency-and-Parallel-Computing-Labs)
@@ -491,6 +493,110 @@
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Algorithms-Analysis-and-Design/README.md">LabName</a></td>
 <td align=center width="125px">Lab #</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-structures.jpg"></img>
+<br>
+
+## [Advanced Data Structures](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md) Labs
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">ModuleName</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">ModuleName</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Data-Structures/README.md">LabName</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/algorithms-analysis.jpg"></img>
+<br>
+
+## [Advanced Algorithms Analysis and Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md) Labs
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">ModuleName</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">ModuleName</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
