@@ -16,6 +16,8 @@
   * [Discrete Mathematics Lectures](#Discrete-Mathematics-Lectures)
   * [Data Structures Lectures](#Data-Structures-Lectures)
   * [Algorithms Analysis and Design Lectures](#Algorithms-Analysis-and-Design-Lectures)
+  * [Advanced Data Structures Lectures](#Advanced-Data-Structures-Lectures)
+  * [Advanced Algorithms Analysis and Design Lectures](#Advanced-Algorithms-Analysis-and-Design-Lectures)
   * [Computer Graphics Lectures](#Computer-Graphics-Lectures)
   * [Operating Systems Lectures](#Operating-Systems-Lectures)
   * [Concurrency and Parallel Computing Lectures](#Concurrency-and-Parallel-Computing-Lectures)
@@ -412,13 +414,13 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture 03</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">	Linked List</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Linked List</a></td>
 <td align=center width="125px">Lecture 10</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">AVL Tree</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 04</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">	Stack</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Stack</a></td>
 <td align=center width="125px">Lecture 11</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Red Black Tree</a></td>
         </tr>
@@ -491,6 +493,116 @@
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Algorithms-Analysis-and-Design/README.md">Transform and Conquer</a></td>
 <td align=center width="125px">Lecture 12</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Algorithms-Analysis-and-Design/README.md">Dynamic Programming</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-structures.jpg"></img>
+<br>
+
+## [Advanced Data Structures](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md) Lectures
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">Advanced Data Structures</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">Advanced Data Structures</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 01</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Disjoint Set</a></td>
+<td align=center width="125px">Lecture 08</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">AA Tree</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 02</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Skip List</a></td>
+<td align=center width="125px">Lecture 09</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">K-Dimensional Tree</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 03</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Trie</a></td>
+<td align=center width="125px">Lecture 10</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">B/B+ Tree</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 04</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Segment Tree</a></td>
+<td align=center width="125px">Lecture 11</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Sparse Tables</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 05</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Binary Indexed Tree</a></td>
+<td align=center width="125px">Lecture 12</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Suffix Array</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 06</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Treap</a></td>
+<td align=center width="125px">Lecture 13</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Suffix Tree</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 07</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Splay Tree</a></td>
+<td align=center width="125px">Lecture 14</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Advanced Trees</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/algorithms-analysis.jpg"></img>
+<br>
+
+## [Advanced Algorithms Analysis and Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md) Lectures
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">Mathematical and Geometric Algorithms</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">String Algorithms</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 01</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Mathematical Algorithms I</a></td>
+<td align=center width="125px">Lecture 07</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">String Compression Algorithms I</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 02</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Mathematical Algorithms II</a></td>
+<td align=center width="125px">Lecture 08</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">String Compression Algorithms II</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 03</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Geometric Algorithms I</a></td>
+<td align=center width="125px">Lecture 09</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Pattern Searching Algorithms I</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 04</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Geometric Algorithms II</a></td>
+<td align=center width="125px">Lecture 10</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Pattern Searching Algorithms II</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 05</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Advanced Graph Algorithms I</a></td>
+<td align=center width="125px">Lecture 11</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Advanced Dynamic Programming I</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture 06</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Advanced Graph Algorithms II</a></td>
+<td align=center width="125px">Lecture 12</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Advanced Dynamic Programming II</a></td>
         </tr>
     </tbody>
 </table>
