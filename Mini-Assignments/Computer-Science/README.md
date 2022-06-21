@@ -14,6 +14,8 @@
   * [Discrete Mathematics Assignments](#Discrete-Mathematics-Assignments)
   * [Data Structures Assignments](#Data-Structures-Assignments)
   * [Algorithms Analysis and Design Assignments](#Algorithms-Analysis-and-Design-Assignments)
+  * [Advanced Data Structures Assignments](#Advanced-Data-Structures-Assignments)
+  * [Advanced Algorithms Analysis and Design Assignments](#Advanced-Algorithms-Analysis-and-Design-Assignments)
   * [Computer Graphics Assignments](#Computer-Graphics-Assignments)
   * [Operating Systems Assignments](#Operating-Systems-Assignments)
   * [Concurrency and Parallel Computing Assignments](#Concurrency-and-Parallel-Computing-Assignments)
@@ -489,6 +491,110 @@
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
 <td align=center width="125px">Assignment #</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-structures.jpg"></img>
+<br>
+
+## [Advanced Data Structures](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md) Assignments
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">ModuleName</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">ModuleName</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/algorithms-analysis.jpg"></img>
+<br>
+
+## [Advanced Algorithms Analysis and Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md) Assignments
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">ModuleName</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">ModuleName</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
