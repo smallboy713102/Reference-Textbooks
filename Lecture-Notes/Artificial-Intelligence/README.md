@@ -453,45 +453,45 @@
     <tbody>
         <tr>
 <td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
+<td align=center width="400px">Lossless Data Compression</td>
 <td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align=center width="400px">Lossy Data Compression</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 01</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Introduction to Lossless Data Compression</a></td>
+<td align=center width="125px">Lecture 07</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Introduction to Lossy Data Compression</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 02</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Fixed Length and Variable Length Codes</a></td>
+<td align=center width="125px">Lecture 08</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Image Compression I</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 03</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Statistical Encoding</a></td>
+<td align=center width="125px">Lecture 09</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Image Compression II</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 04</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Adaptive Statistical Encoding</a></td>
+<td align=center width="125px">Lecture 10</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Video Compression</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 05</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Dictionary Transforms</a></td>
+<td align=center width="125px">Lecture 11</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Audio Compression</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 06</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Evaluating Lossless Compression</a></td>
+<td align=center width="125px">Lecture 12</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Signal-Processing/README.md">Evaluating Lossy Compression</a></td>
         </tr>
     </tbody>
 </table>
