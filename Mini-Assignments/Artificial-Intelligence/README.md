@@ -9,6 +9,7 @@
 ## Table of Contents
   * [Artificial Intelligence Algorithms Assignments](#Artificial-Intelligence-Algorithms-Assignments)
   * [Soft Computing Assignments](#Soft-Computing-Assignments)
+  * [Computational Cognitive Science Assignments](#Computational-Cognitive-Science-Assignments)
   * [Machine Learning Assignments](#Machine-Learning-Assignments)
   * [Neural Networks Assignments](#Neural-Networks-Assignments)
   * [Deep Learning Assignments](#Deep-Learning-Assignments)
@@ -19,6 +20,7 @@
   * [Image Processing Assignments](#Image-Processing-Assignments)
   * [Computer Vision Assignments](#Computer-Vision-Assignments)
   * [Pattern Recognition Assignments](#Pattern-Recognition-Assignments)
+  * [Machine Vision Assignments](#Machine-Vision-Assignments)
   * [Virtual Reality Assignments](#Virtual-Reality-Assignments)
   * [Computer Animation Assignments](#Computer-Animation-Assignments)
   * [Speech Processing Assignments](#Speech-Processing-Assignments)
@@ -82,6 +84,58 @@
 <br>
 
 ## [Soft Computing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md) Assignments
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">ModuleName</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">ModuleName</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computational-cognitive-science.jpg"></img>
+<br>
+
+## [Computational Cognitive Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Computational-Cognitive-Science/README.md) Assignments
 
 <table>
     <tbody>
@@ -654,6 +708,58 @@
 <br>
 
 ## [Virtual Reality](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md) Assignments
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">ModuleName</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">ModuleName</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+<td align=center width="125px">Assignment #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Virtual-Reality/README.md">AssignmentName</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/machine-vision.jpg"></img>
+<br>
+
+## [Machine Vision](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Machine-Vision/README.md) Assignments
 
 <table>
     <tbody>
