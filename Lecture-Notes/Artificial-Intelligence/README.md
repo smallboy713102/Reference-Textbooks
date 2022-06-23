@@ -235,7 +235,7 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture 07</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Support Vector Machine & Neural Networks</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Support Vector Machine</a></td>
 <td align=center width="125px">Lecture 15</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Association Rule Learning Algorithms</a></td>
         </tr>
