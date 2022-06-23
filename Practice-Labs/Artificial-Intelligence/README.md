@@ -9,6 +9,7 @@
 ## Table of Contents
   * [Artificial Intelligence Algorithms Labs](#Artificial-Intelligence-Algorithms-Labs)
   * [Soft Computing Labs](#Soft-Computing-Labs)
+  * [Computational Cognitive Science Labs](#Computational-Cognitive-Science-Labs)
   * [Machine Learning Labs](#Machine-Learning-Labs)
   * [Neural Networks Labs](#Neural-Networks-Labs)
   * [Deep Learning Labs](#Deep-Learning-Labs)
@@ -19,6 +20,7 @@
   * [Image Processing Labs](#Image-Processing-Labs)
   * [Computer Vision Labs](#Computer-Vision-Labs)
   * [Pattern Recognition Labs](#Pattern-Recognition-Labs)
+  * [Machine Vision Labs](#Machine-Vision-Labs)
   * [Virtual Reality Labs](#Virtual-Reality-Labs)
   * [Computer Animation Labs](#Computer-Animation-Labs)
   * [Speech Processing Labs](#Speech-Processing-Labs)
@@ -82,6 +84,58 @@
 <br>
 
 ## [Soft Computing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md) Labs
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">ModuleName</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">ModuleName</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computational-cognitive-science.jpg"></img>
+<br>
+
+## [Computational Cognitive Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computational-Cognitive-Science/README.md) Labs
 
 <table>
     <tbody>
@@ -646,6 +700,58 @@
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
 <td align=center width="125px">Lab #</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/machine-vision.jpg"></img>
+<br>
+
+## [Machine Vision](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Vision/README.md) Labs
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">ModuleName</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">ModuleName</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
+<td align=center width="125px">Lab #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
