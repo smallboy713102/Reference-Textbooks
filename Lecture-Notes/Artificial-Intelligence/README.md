@@ -241,9 +241,9 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture 08</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Evaluating Supervised Learning Models</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Evaluating Supervised Learning Algorithms</a></td>
 <td align=center width="125px">Lecture 16</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Evaluating Unsupervised Learning Models</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Evaluating Unsupervised Learning Algorithms</a></td>
         </tr>
     </tbody>
 </table>
