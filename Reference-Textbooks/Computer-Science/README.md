@@ -136,12 +136,12 @@
         <tr>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Python-Programming-Language/README.md">Effective Python, Brett Slatkin</a></td>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Python-Programming-Language/README.md">Python Programming, John Zelle</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Python-Programming-Language/README.md">Python Tutorial, Guido van Rossum</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Python-Programming-Language/README.md">Python Cookbook, David Beazley</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Effective-Python-Brett-Slatkin.jpg"></td>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Python-Programming-John-Zelle.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Python-Tutorial-Guido-van-Rossum.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Python-Cookbook-David-Beazley.jpg"></td>
         </tr>
     </tbody>
 </table>
