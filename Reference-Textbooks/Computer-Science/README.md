@@ -196,12 +196,12 @@
         </tr>
         <tr>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Python-Programming-Language/README.md">Learn to Program with Cpp, John Smiley</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Python-Programming-Language/README.md">Python for Everybody, Charles R. Severance</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Python-Programming-Language/README.md">Object Oriented Programming C++ Simplified, Hari Mohan-Pandey</a></td>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Object-Oriented-Programming/README.md">The Python3 Standard Library by Example, Doug Hellmann</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Learn-to-Program-with-Cpp-John-Smiley.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Python-for-Everybody-Charles-R.-Severance.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Object-Oriented-Programming-C++-Simplified-Hari-Mohan-Pandey.jpg"></td>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/The-Python3-Standard-Library-by-Example-Doug-Hellmann.jpg"></td>
         </tr>
     </tbody>
