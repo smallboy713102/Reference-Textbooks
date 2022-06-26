@@ -144,9 +144,9 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Deep-Learning/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Deep-Learning/README.md">Python Machine Learning, Sebastian Raschka</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Deep-Learning/README.md">Deep Learning with Python: A Hands-on Introduction, Nikhil Ketkar</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Neural-Networks/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Neural-Networks/README.md">Python Machine Learning, Sebastian Raschka</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Neural-Networks/README.md">Deep Learning with Python: A Hands-on Introduction, Nikhil Ketkar</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Hands-On-Machine-Learning-with-Scikit-Learn-and-TensorFlow-Aurelien-Geron.jpg"></td>
@@ -154,9 +154,9 @@
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Deep-Learning-with-Python-A-Hands-on-Introduction-Nikhil-Ketkar.jpg"></td>
         </tr>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Deep-Learning/README.md">Grokking Deep Learning, Andrew W. Trask</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Deep-Learning/README.md">Python Machine Learning: A Technical Approach to Machine Learning for Beginners, Sebastian Raschka</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Deep-Learning/README.md">Neural Networks and Deep Learning, Michael Nielsen</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Neural-Networks/README.md">Grokking Deep Learning, Andrew W. Trask</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Neural-Networks/README.md">Python Machine Learning: A Technical Approach to Machine Learning for Beginners, Sebastian Raschka</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Neural-Networks/README.md">Neural Networks and Deep Learning, Michael Nielsen</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Grokking-Deep-Learning-Andrew-W.-Trask.jpg"></td>
@@ -164,9 +164,9 @@
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Neural-Networks-and-Deep-Learning-Michael-Nielsen.jpg"></td>
         </tr>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Deep-Learning/README.md">Machine Learning: A Probabilistic Perspective, Kevin P. Murphy</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Machine-Learning/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Machine-Learning/README.md">Understanding Machine Learning, Shai Shalev-Shwartz</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Neural-Networks/README.md">Machine Learning: A Probabilistic Perspective, Kevin P. Murphy</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Neural-Networks/README.md">Hands-On Machine Learning with Scikit-Learn and TensorFlow, Aurelien Geron</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Neural-Networks/README.md">Understanding Machine Learning, Shai Shalev-Shwartz</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Machine-Learning-A-Probabilistic-Perspective-Kevin-P.-Murphy.jpg"></td>
@@ -234,7 +234,7 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Deep-Learning/README.md">Learning Generative Adversarial Networks, Kuntal Ganguly</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">Learning Generative Adversarial Networks, Kuntal Ganguly</a></td>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">BookName</a></td>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">BookName</a></td>
         </tr>

@@ -34,9 +34,9 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Analysis/README.md">Data Science for Business, Foster Provost</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Analysis/README.md">Python Data Science Handbook: Essential Tools for Working with Data, Jake VanderPlas</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Analysis/README.md">Data Science from Scratch: First Principles with Python, Joel Grus</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Science/README.md">Data Science for Business, Foster Provost</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Science/README.md">Python Data Science Handbook: Essential Tools for Working with Data, Jake VanderPlas</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Science/README.md">Data Science from Scratch: First Principles with Python, Joel Grus</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Data-Science-for-Business-Foster-Provost.jpg"></td>
@@ -44,8 +44,8 @@
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Data-Science-from-Scratch-First-Principles-with-Python-Joel-Grus.jpg"></td>
         </tr>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Analysis/README.md">Doing Data Science: Straight Talk from the Frontline, Rachel Schutt</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Analysis/README.md">Data Smart: Using Data Science to Transform Information into Insight, John W. Foreman</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Science/README.md">Doing Data Science: Straight Talk from the Frontline, Rachel Schutt</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Science/README.md">Data Smart: Using Data Science to Transform Information into Insight, John W. Foreman</a></td>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Science/README.md">BookName</a></td>
         </tr>
         <tr>
@@ -154,7 +154,7 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Analysis/README.md">Storytelling with Data A Data Visualization Guide for Business Professionals, Wiley</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Visualization/README.md">Storytelling with Data A Data Visualization Guide for Business Professionals, Wiley</a></td>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Visualization/README.md">BookName</a></td>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Visualization/README.md">BookName</a></td>
         </tr>
@@ -244,8 +244,8 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Machine-Learning/README.md">Data Mining Concepts and Techniques, Jiawei Han</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Machine-Learning/README.md">Data Mining: Practical Machine Learning Tools and Techniques, Ian H. Witten</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Mining/README.md">Data Mining Concepts and Techniques, Jiawei Han</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Mining/README.md">Data Mining: Practical Machine Learning Tools and Techniques, Ian H. Witten</a></td>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Mining/README.md">BookName</a></td>
         </tr>
         <tr>
