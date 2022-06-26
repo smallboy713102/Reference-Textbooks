@@ -64,12 +64,12 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Calculus-and-Linear-Algebra/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Calculus-and-Linear-Algebra/README.md">Mathematics for Computer Science, Eric Lehman</a></td>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Calculus-and-Linear-Algebra/README.md">BookName</a></td>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Calculus-and-Linear-Algebra/README.md">BookName</a></td>
         </tr>
         <tr>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Mathematics-for-Computer-Science-Eric-Lehman.jpg"></td>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
@@ -226,23 +226,13 @@
         </tr>
         <tr>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Discrete-Mathematics/README.md">Discrete Mathematics An Open Introduction, Oscar Levin</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Discrete-Mathematics/README.md">Mathematics for Computer Science, Eric Lehman</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Discrete-Mathematics/README.md">Discrete Mathematics Using a Computer, John O'Donnell</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Discrete-Mathematics/README.md">Discrete Mathematics for Computer Science, Gary Haggard</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Discrete-Mathematics/README.md">Discrete Mathematics for Computer Scientists, Clifford Stein</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Discrete-Mathematics-An-Open-Introduction-Oscar-Levin.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Mathematics-for-Computer-Science-Eric-Lehman.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Discrete-Mathematics-Using-a-Computer-John-O'Donnell.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Discrete-Mathematics/README.md">Discrete Mathematics for Computer Science, Gary Haggard</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Discrete-Mathematics/README.md">Discrete Mathematics for Computer Scientists, Clifford Stein</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Discrete-Mathematics/README.md">Template</a></td>
-        </tr>
-        <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Discrete-Mathematics-for-Computer-Science-Gary-Haggard.jpg"></td>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Discrete-Mathematics-for-Computer-Scientists-Clifford-Stein.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
     </tbody>
 </table>
