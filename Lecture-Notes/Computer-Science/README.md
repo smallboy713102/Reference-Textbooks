@@ -403,44 +403,38 @@
         <tr>
 <td align=center width="125px">Lecture 01</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Complexity Analysis</a></td>
-<td align=center width="125px">Lecture 08</a></td>
+<td align=center width="125px">Lecture 07</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Binary Tree</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 02</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Array</a></td>
-<td align=center width="125px">Lecture 09</a></td>
+<td align=center width="125px">Lecture 08</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Binary Search Tree</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 03</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Linked List</a></td>
-<td align=center width="125px">Lecture 10</a></td>
+<td align=center width="125px">Lecture 09</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">AVL Tree</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 04</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Stack</a></td>
-<td align=center width="125px">Lecture 11</a></td>
+<td align=center width="125px">Lecture 10</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Red Black Tree</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 05</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Queue</a></td>
-<td align=center width="125px">Lecture 12</a></td>
+<td align=center width="125px">Lecture 11</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Binary Heap Tree</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 06</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Deque</a></td>
-<td align=center width="125px">Lecture 13</a></td>
+<td align=center width="125px">Lecture 12</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Hash Table</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture 07</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">	Built-in Linear Data Structures</a></td>
-<td align=center width="125px">Lecture 14</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Data-Structures/README.md">Built-in Non-Linear Data Structures</a></td>
         </tr>
     </tbody>
 </table>
