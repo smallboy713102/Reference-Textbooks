@@ -9,8 +9,9 @@
 ## Table of Contents
   * [Artificial Intelligence Algorithms Lectures](#Artificial-Intelligence-Algorithms-Lectures)
   * [Soft Computing Lectures](#Soft-Computing-Lectures)
-  * [Computational Cognitive Science Lectures](#Computational-Cognitive-Science-Lectures)
   * [Machine Learning Lectures](#Machine-Learning-Lectures)
+  * [Supervised Learning Lectures](#Supervised-Learning-Lectures)
+  * [Unsupervised Learning Lectures](#Unsupervised-Learning-Lectures)
   * [Neural Networks Lectures](#Neural-Networks-Lectures)
   * [Deep Learning Lectures](#Deep-Learning-Lectures)
   * [Generative Adversarial Networks Lectures](#Generative-Adversarial-Networks-Lectures)
@@ -22,7 +23,6 @@
   * [Pattern Recognition Lectures](#Pattern-Recognition-Lectures)
   * [Machine Vision Lectures](#Machine-Vision-Lectures)
   * [Virtual Reality Lectures](#Virtual-Reality-Lectures)
-  * [Computer Animation Lectures](#Computer-Animation-Lectures)
   * [Speech Processing Lectures](#Speech-Processing-Lectures)
   * [Multimedia Mining Lectures](#Multimedia-Mining-Lectures)
 
@@ -132,58 +132,6 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computational-cognitive-science.jpg"></img>
-<br>
-
-## [Computational Cognitive Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computational-Cognitive-Science/README.md) Lectures
-
-<table>
-    <tbody>
-        <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">LectureName</a></td>
-        </tr>
-    </tbody>
-</table>
-
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/machine-learning.jpg"></img>
 <br>
 
@@ -193,9 +141,9 @@
     <tbody>
         <tr>
 <td align=center width="125px">Module 1</td>
-<td align=center width="400px">Supervised Learning Algorithms</td>
+<td align=center width="400px">Supervised Learning</td>
 <td align=center width="125px">Module 2</td>
-<td align=center width="400px">Unsupervised Learning Algorithms</td>
+<td align=center width="400px">Unsupervised Learning</td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 01</a></td>
@@ -241,9 +189,113 @@
         </tr>
         <tr>
 <td align=center width="125px">Lecture 08</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Evaluating Supervised Learning Algorithms</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Evaluating Supervised Learning</a></td>
 <td align=center width="125px">Lecture 16</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Evaluating Unsupervised Learning Algorithms</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Evaluating Unsupervised Learning</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/supervised-learning.jpg"></img>
+<br>
+
+## [Supervised Learning](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md) Lectures
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">ModuleName</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">ModuleName</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">LectureName</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/unsupervised-learning.jpg"></img>
+<br>
+
+## [Unsupervised Learning](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md) Lectures
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="125px">Module 1</td>
+<td align=center width="400px">ModuleName</td>
+<td align=center width="125px">Module 2</td>
+<td align=center width="400px">ModuleName</td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+        </tr>
+        <tr>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture #</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -816,58 +868,6 @@
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Virtual-Reality/README.md">LectureName</a></td>
 <td align=center width="125px">Lecture #</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Virtual-Reality/README.md">LectureName</a></td>
-        </tr>
-    </tbody>
-</table>
-
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-animation.jpg"></img>
-<br>
-
-## [Computer Animation](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md) Lectures
-
-<table>
-    <tbody>
-        <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Computer-Animation/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
