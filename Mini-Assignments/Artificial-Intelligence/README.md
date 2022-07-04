@@ -95,39 +95,39 @@
         </tr>
         <tr>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
 <td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Supervised-Learning/README.md">AssignmentName</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/Soft-Computing/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
