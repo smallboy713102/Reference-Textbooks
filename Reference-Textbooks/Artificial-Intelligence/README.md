@@ -21,8 +21,8 @@
   * [Image Processing Textbooks](#Image-Processing-Textbooks)
   * [Computer Vision Textbooks](#Computer-Vision-Textbooks)
   * [Pattern Recognition Textbooks](#Pattern-Recognition-Textbooks)
+  * [Machine Vision Textbooks](#Machine-Vision-Textbooks)
   * [Virtual Reality Textbooks](#Virtual-Reality-Textbooks)
-  * [Computer Animation Textbooks](#Computer-Animation-Textbooks)
   * [Speech Processing Textbooks](#Speech-Processing-Textbooks)
   * [Multimedia Mining Textbooks](#Multimedia-Mining-Textbooks)
 
