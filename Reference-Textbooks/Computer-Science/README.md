@@ -16,6 +16,8 @@
   * [Discrete Mathematics Textbooks](#Discrete-Mathematics-Textbooks)
   * [Data Structures Textbooks](#Data-Structures-Textbooks)
   * [Algorithms Analysis and Design Textbooks](#Algorithms-Analysis-and-Design-Textbooks)
+  * [Advanced Data Structures Textbooks](#Advanced-Data-Structures-Textbooks)
+  * [Advanced Algorithms Analysis and Design Textbooks](#Advanced-Algorithms-Analysis-and-Design-Textbooks)
   * [Computer Graphics Textbooks](#Computer-Graphics-Textbooks)
   * [Operating Systems Textbooks](#Operating-Systems-Textbooks)
   * [Concurrency and Parallel Computing Textbooks](#Concurrency-and-Parallel-Computing-Textbooks)
@@ -264,16 +266,6 @@
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Data-Structures-and-Algorithms-in-Python-Michael-Goodrich.jpg"></td>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Data-Structure-and-Algorithmic-Thinking-with-Python-Narasimha-Karumanchi.jpg"></td>
         </tr>
-        <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Data-Structures/README.md">Data Structures and Algorithms and Applications in C++, Sartaj Sahni</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Data-Structures/README.md">Principles of Data Structures using C and C++, Vinu Das</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Data-Structures/README.md">Guide to Competitive Programming, Antti Laaksonen</a></td>
-        </tr>
-        <tr>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Data-Structures-and-Algorithms-and-Applications-in-C++-Sartaj-Sahni.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Principles-of-Data-Structures-using-C-and-C++-Vinu-Das.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Guide-to-Competitive-Programming-Antti-Laaksonen.jpg"></td>
-        </tr>
     </tbody>
 </table>
 
@@ -304,10 +296,40 @@
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Grokking-Algorithms-Aditya-Y.-Bhargava.jpg"></td>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Introduction-to-the-Design-and-Analysis-of-Algorithms-Anany-V.-Levitin.jpg"></td>
         </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-structures.jpg"></img>
+<br>
+
+## [Advanced Data Structures](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Advanced-Data-Structures/README.md) Textbooks
+
+<table>
+    <tbody>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Algorithms-Analysis-and-Design/README.md">Python Algorithms Mastering Basic Algorithms in the Python Language, Magnus Hetland</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Algorithms-Analysis-and-Design/README.md">Cracking the Coding Interview, Gayle McDowell</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Algorithms-Analysis-and-Design/README.md">Problem Solving in Data Structures and Algorithms Using C++, Hemant Jain</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Advanced-Data-Structures/README.md">Data Structures and Algorithms and Applications in C++, Sartaj Sahni</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Advanced-Data-Structures/README.md">Principles of Data Structures using C and C++, Vinu Das</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Advanced-Data-Structures/README.md">Guide to Competitive Programming, Antti Laaksonen</a></td>
+        </tr>
+        <tr>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Data-Structures-and-Algorithms-and-Applications-in-C++-Sartaj-Sahni.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Principles-of-Data-Structures-using-C-and-C++-Vinu-Das.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Guide-to-Competitive-Programming-Antti-Laaksonen.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/algorithms-analysis.jpg"></img>
+<br>
+
+## [Advanced Algorithms Analysis and Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Python Algorithms Mastering Basic Algorithms in the Python Language, Magnus Hetland</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Cracking the Coding Interview, Gayle McDowell</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">Problem Solving in Data Structures and Algorithms Using C++, Hemant Jain</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Python-Algorithms-Mastering-Basic-Algorithms-in-the-Python-Language-Magnus-Hetland.jpg"></td>
