@@ -148,38 +148,38 @@
         <tr>
 <td align=center width="125px">Lecture 01</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Intro to Supervised Learning</a></td>
-<td align=center width="125px">Lecture 09</a></td>
+<td align=center width="125px">Lecture 07</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Intro to Unsupervised Learning</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 02</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Regression I</a></td>
-<td align=center width="125px">Lecture 10</a></td>
+<td align=center width="125px">Lecture 08</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Clustering I</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 03</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Regression II</a></td>
-<td align=center width="125px">Lecture 11</a></td>
+<td align=center width="125px">Lecture 09</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Clustering II</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 04</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Classification I</a></td>
-<td align=center width="125px">Lecture 12</a></td>
+<td align=center width="125px">Lecture 10</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Association Rule I</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 05</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Classification II</a></td>
-<td align=center width="125px">Lecture 13</a></td>
+<td align=center width="125px">Lecture 11</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Association Rule II</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 06</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Enhancements in Supervised Learning</a></td>
-<td align=center width="125px">Lecture 14</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Enhancements in Unsupervised Learning</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Supervised Learning Models Enhancements</a></td>
+<td align=center width="125px">Lecture 12</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Machine-Learning/README.md">Unsupervised Learning Models Enhancements</a></td>
         </tr>
     </tbody>
 </table>
@@ -193,44 +193,44 @@
     <tbody>
         <tr>
 <td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
+<td align=center width="400px">Regression</td>
 <td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align=center width="400px">Classification</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 01</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Intro to Supervised Learning</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 07</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Decision Tree</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 02</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Linear Regression</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 08</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Random Forest</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 03</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Polynomial Regression</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 09</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">K-Nearest Neighbors</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Logistic Regression</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 04</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Lasso Regression</a></td>
+<td align=center width="125px">Lecture 10</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Naive Bayes</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Lasso Regression</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 05</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Ridge Regression</a></td>
+<td align=center width="125px">Lecture 11</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Support Vector Machine</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Ridge Regression</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 06</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Logistic Regression</a></td>
+<td align=center width="125px">Lecture 12</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Supervised-Learning/README.md">Evaluating Supervised Learning</a></td>
         </tr>
     </tbody>
@@ -245,44 +245,44 @@
     <tbody>
         <tr>
 <td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
+<td align=center width="400px">Clustering</td>
 <td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align=center width="400px">Association</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 01</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Intro to Unsupervised Learning</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Association Rule Learning Algorithms</a></td>
+<td align=center width="125px">Lecture 07</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Apriori Algorithm</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 02</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Connectivity-Based Clustering</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 08</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Eclat Algorithm</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 03</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Centroids-Based Clustering</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 09</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">FP-growth Algorithm</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 04</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Distribution-Based Clustering</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 10</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Anomaly Detection</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 05</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Density-Based Clustering</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 11</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Dimensionality Reduction</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 06</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Constraint-Based Clustering</a></td>
-<td align=center width="125px">Lecture #</a></td>
+<td align=center width="125px">Lecture 12</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Unsupervised-Learning/README.md">Evaluating Unsupervised Learning</a></td>
         </tr>
     </tbody>
