@@ -14,7 +14,7 @@
 # ## Tools
 # You will utilize the function developed in previous labs as well as matplotlib and NumPy. 
 
-# In[2]:
+# In[1]:
 
 
 import numpy as np
@@ -38,7 +38,7 @@ np.set_printoptions(precision=2)  # reduced display precision on numpy arrays
 # 
 # You're familiar with all the routines we're using. They are available in the lab_utils.py file for review. We'll use [`np.c_[..]`](https://numpy.org/doc/stable/reference/generated/numpy.c_.html) which is a NumPy routine to concatenate along the column boundary.
 
-# In[3]:
+# In[ ]:
 
 
 # create target data
@@ -55,7 +55,7 @@ plt.plot(x,X@model_w + model_b, label="Predicted Value");  plt.xlabel("X"); plt.
 # Well, as expected, not a great fit. What is needed is something like $y= w_0x_0^2 + b$, or a **polynomial feature**.
 # To accomplish this, you can modify the *input data* to *engineer* the needed features. If you swap the original data with a version that squares the $x$ value, then you can achieve $y= w_0x_0^2 + b$. Let's try it. Swap `X` for `X**2` below:
 
-# In[4]:
+# In[ ]:
 
 
 # create target data
@@ -66,7 +66,7 @@ y = 1 + x**2
 X = x**2      #<-- added engineered feature
 
 
-# In[5]:
+# In[ ]:
 
 
 X = X.reshape(-1, 1)  #X should be a 2-D Matrix
@@ -84,7 +84,7 @@ plt.plot(x, np.dot(X,model_w) + model_b, label="Predicted Value"); plt.xlabel("x
 # 
 # Run the next cells. 
 
-# In[6]:
+# In[ ]:
 
 
 # create target data
@@ -95,7 +95,7 @@ y = x**2
 X = np.c_[x, x**2, x**3]   #<-- added engineered feature
 
 
-# In[7]:
+# In[ ]:
 
 
 model_w,model_b = run_gradient_descent_feng(X, y, iterations=10000, alpha=1e-7)
@@ -117,7 +117,7 @@ plt.plot(x, X@model_w + model_b, label="Predicted Value"); plt.xlabel("x"); plt.
 # ### An Alternate View
 # Above, polynomial features were chosen based on how well they matched the target data. Another way to think about this is to note that we are still using linear regression once we have created new features. Given that, the best features will be linear relative to the target. This is best understood with an example. 
 
-# In[8]:
+# In[ ]:
 
 
 # create target data
@@ -129,7 +129,7 @@ X = np.c_[x, x**2, x**3]   #<-- added engineered feature
 X_features = ['x','x^2','x^3']
 
 
-# In[9]:
+# In[ ]:
 
 
 fig,ax=plt.subplots(1, 3, figsize=(12, 3), sharey=True)
@@ -145,7 +145,7 @@ plt.show()
 # ### Scaling features
 # As described in the last lab, if the data set has features with significantly different scales, one should apply feature scaling to speed gradient descent. In the example above, there is $x$, $x^2$ and $x^3$ which will naturally have very different scales. Let's apply Z-score normalization to our example.
 
-# In[10]:
+# In[ ]:
 
 
 # create target data
@@ -160,7 +160,7 @@ print(f"Peak to Peak range by column in Normalized X:{np.ptp(X,axis=0)}")
 
 # Now we can try again with a more aggressive value of alpha:
 
-# In[11]:
+# In[ ]:
 
 
 x = np.arange(0,20,1)
@@ -181,7 +181,7 @@ plt.plot(x,X@model_w + model_b, label="Predicted Value"); plt.xlabel("x"); plt.y
 # ### Complex Functions
 # With feature engineering, even quite complex functions can be modeled:
 
-# In[12]:
+# In[ ]:
 
 
 x = np.arange(0,20,1)

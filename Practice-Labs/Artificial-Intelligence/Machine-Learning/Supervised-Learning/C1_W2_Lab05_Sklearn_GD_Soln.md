@@ -44,10 +44,6 @@ print(f"Peak to Peak range by column in Raw        X:{np.ptp(X_train,axis=0)}")
 print(f"Peak to Peak range by column in Normalized X:{np.ptp(X_norm,axis=0)}")
 ```
 
-    Peak to Peak range by column in Raw        X:[2.41e+03 4.00e+00 1.00e+00 9.50e+01]
-    Peak to Peak range by column in Normalized X:[5.85 6.14 2.06 3.69]
-
-
 ### Create and fit the regression model
 
 
@@ -57,15 +53,6 @@ sgdr.fit(X_norm, y_train)
 print(sgdr)
 print(f"number of iterations completed: {sgdr.n_iter_}, number of weight updates: {sgdr.t_}")
 ```
-
-    SGDRegressor(alpha=0.0001, average=False, early_stopping=False, epsilon=0.1,
-                 eta0=0.01, fit_intercept=True, l1_ratio=0.15,
-                 learning_rate='invscaling', loss='squared_loss', max_iter=1000,
-                 n_iter_no_change=5, penalty='l2', power_t=0.25, random_state=None,
-                 shuffle=True, tol=0.001, validation_fraction=0.1, verbose=0,
-                 warm_start=False)
-    number of iterations completed: 129, number of weight updates: 12772.0
-
 
 ### View parameters
 Note, the parameters are associated with the *normalized* input data. The fit parameters are very close to those found in the previous lab with this data.
@@ -77,10 +64,6 @@ w_norm = sgdr.coef_
 print(f"model parameters:                   w: {w_norm}, b:{b_norm}")
 print( "model parameters from previous lab: w: [110.56 -21.27 -32.71 -37.97], b: 363.16")
 ```
-
-    model parameters:                   w: [110.19 -21.09 -32.52 -38.  ], b:[363.14]
-    model parameters from previous lab: w: [110.56 -21.27 -32.71 -37.97], b: 363.16
-
 
 ### Make predictions
 Predict the targets of the training data. Use both the `predict` routine and compute using $w$ and $b$.
@@ -97,13 +80,6 @@ print(f"Prediction on training set:\n{y_pred[:4]}" )
 print(f"Target values \n{y_train[:4]}")
 ```
 
-    prediction using np.dot() and sgdr.predict match: True
-    Prediction on training set:
-    [295.22 485.83 389.55 491.99]
-    Target values 
-    [300.  509.8 394.  540. ]
-
-
 ### Plot Results
 Let's plot the predictions versus the target values.
 
@@ -119,10 +95,6 @@ ax[0].set_ylabel("Price"); ax[0].legend();
 fig.suptitle("target versus prediction using z-score normalized model")
 plt.show()
 ```
-
-
-![png](output_17_0.png)
-
 
 ## Congratulations!
 In this lab you:

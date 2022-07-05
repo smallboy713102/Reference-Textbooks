@@ -14,7 +14,7 @@
 # ## Tools
 # You will utilize functions from scikit-learn as well as matplotlib and NumPy. 
 
-# In[1]:
+# In[ ]:
 
 
 import numpy as np
@@ -32,7 +32,7 @@ plt.style.use('./deeplearning.mplstyle')
 
 # ### Load the data set
 
-# In[4]:
+# In[ ]:
 
 
 X_train, y_train = load_house_data()
@@ -41,7 +41,7 @@ X_features = ['size(sqft)','bedrooms','floors','age']
 
 # ### Scale/normalize the training data
 
-# In[5]:
+# In[ ]:
 
 
 scaler = StandardScaler()
@@ -52,7 +52,7 @@ print(f"Peak to Peak range by column in Normalized X:{np.ptp(X_norm,axis=0)}")
 
 # ### Create and fit the regression model
 
-# In[6]:
+# In[ ]:
 
 
 sgdr = SGDRegressor(max_iter=1000)
@@ -64,7 +64,7 @@ print(f"number of iterations completed: {sgdr.n_iter_}, number of weight updates
 # ### View parameters
 # Note, the parameters are associated with the *normalized* input data. The fit parameters are very close to those found in the previous lab with this data.
 
-# In[7]:
+# In[ ]:
 
 
 b_norm = sgdr.intercept_
@@ -76,7 +76,7 @@ print( "model parameters from previous lab: w: [110.56 -21.27 -32.71 -37.97], b:
 # ### Make predictions
 # Predict the targets of the training data. Use both the `predict` routine and compute using $w$ and $b$.
 
-# In[8]:
+# In[ ]:
 
 
 # make a prediction using sgdr.predict()
@@ -92,7 +92,7 @@ print(f"Target values \n{y_train[:4]}")
 # ### Plot Results
 # Let's plot the predictions versus the target values.
 
-# In[9]:
+# In[ ]:
 
 
 # plot predictions and targets vs original features    

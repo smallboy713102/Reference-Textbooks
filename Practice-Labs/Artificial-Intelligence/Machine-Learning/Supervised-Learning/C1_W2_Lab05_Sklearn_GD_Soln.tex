@@ -392,7 +392,7 @@ You will utilize functions from scikit-learn as well as matplotlib and
 NumPy.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{1}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
 \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
@@ -420,7 +420,7 @@ referred to as `standard score'.
 \subsubsection{Load the data set}\label{load-the-data-set}}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{4}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train} \PY{o}{=} \PY{n}{load\PYZus{}house\PYZus{}data}\PY{p}{(}\PY{p}{)}
 \PY{n}{X\PYZus{}features} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{size(sqft)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{bedrooms}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{floors}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{age}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
@@ -432,7 +432,7 @@ referred to as `standard score'.
 data}\label{scalenormalize-the-training-data}}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{5}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{scaler} \PY{o}{=} \PY{n}{StandardScaler}\PY{p}{(}\PY{p}{)}
 \PY{n}{X\PYZus{}norm} \PY{o}{=} \PY{n}{scaler}\PY{o}{.}\PY{n}{fit\PYZus{}transform}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{)}
@@ -441,18 +441,12 @@ data}\label{scalenormalize-the-training-data}}
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Peak to Peak range by column in Raw        X:[2.41e+03 4.00e+00 1.00e+00
-9.50e+01]
-Peak to Peak range by column in Normalized X:[5.85 6.14 2.06 3.69]
-    \end{Verbatim}
-
     \hypertarget{create-and-fit-the-regression-model}{%
 \subsubsection{Create and fit the regression
 model}\label{create-and-fit-the-regression-model}}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{6}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{sgdr} \PY{o}{=} \PY{n}{SGDRegressor}\PY{p}{(}\PY{n}{max\PYZus{}iter}\PY{o}{=}\PY{l+m+mi}{1000}\PY{p}{)}
 \PY{n}{sgdr}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{X\PYZus{}norm}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{)}
@@ -460,16 +454,6 @@ model}\label{create-and-fit-the-regression-model}}
 \PY{n+nb}{print}\PY{p}{(}\PY{l+s+sa}{f}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{number of iterations completed: }\PY{l+s+si}{\PYZob{}}\PY{n}{sgdr}\PY{o}{.}\PY{n}{n\PYZus{}iter\PYZus{}}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{, number of weight updates: }\PY{l+s+si}{\PYZob{}}\PY{n}{sgdr}\PY{o}{.}\PY{n}{t\PYZus{}}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-SGDRegressor(alpha=0.0001, average=False, early\_stopping=False, epsilon=0.1,
-             eta0=0.01, fit\_intercept=True, l1\_ratio=0.15,
-             learning\_rate='invscaling', loss='squared\_loss', max\_iter=1000,
-             n\_iter\_no\_change=5, penalty='l2', power\_t=0.25, random\_state=None,
-             shuffle=True, tol=0.001, validation\_fraction=0.1, verbose=0,
-             warm\_start=False)
-number of iterations completed: 129, number of weight updates: 12772.0
-    \end{Verbatim}
 
     \hypertarget{view-parameters}{%
 \subsubsection{View parameters}\label{view-parameters}}
@@ -479,7 +463,7 @@ data. The fit parameters are very close to those found in the previous
 lab with this data.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{7}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{b\PYZus{}norm} \PY{o}{=} \PY{n}{sgdr}\PY{o}{.}\PY{n}{intercept\PYZus{}}
 \PY{n}{w\PYZus{}norm} \PY{o}{=} \PY{n}{sgdr}\PY{o}{.}\PY{n}{coef\PYZus{}}
@@ -488,11 +472,6 @@ lab with this data.
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-model parameters:                   w: [110.19 -21.09 -32.52 -38.  ], b:[363.14]
-model parameters from previous lab: w: [110.56 -21.27 -32.71 -37.97], b: 363.16
-    \end{Verbatim}
-
     \hypertarget{make-predictions}{%
 \subsubsection{Make predictions}\label{make-predictions}}
 
@@ -500,7 +479,7 @@ Predict the targets of the training data. Use both the \texttt{predict}
 routine and compute using \(w\) and \(b\).
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{8}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{} make a prediction using sgdr.predict()}
 \PY{n}{y\PYZus{}pred\PYZus{}sgd} \PY{o}{=} \PY{n}{sgdr}\PY{o}{.}\PY{n}{predict}\PY{p}{(}\PY{n}{X\PYZus{}norm}\PY{p}{)}
@@ -513,21 +492,13 @@ routine and compute using \(w\) and \(b\).
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-prediction using np.dot() and sgdr.predict match: True
-Prediction on training set:
-[295.22 485.83 389.55 491.99]
-Target values
-[300.  509.8 394.  540. ]
-    \end{Verbatim}
-
     \hypertarget{plot-results}{%
 \subsubsection{Plot Results}\label{plot-results}}
 
 Let's plot the predictions versus the target values.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{9}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{} plot predictions and targets vs original features    }
 \PY{n}{fig}\PY{p}{,}\PY{n}{ax}\PY{o}{=}\PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{4}\PY{p}{,}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{)}\PY{p}{,}\PY{n}{sharey}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
@@ -541,11 +512,6 @@ Let's plot the predictions versus the target values.
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_17_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     \hypertarget{congratulations}{%
 \subsection{Congratulations!}\label{congratulations}}
 

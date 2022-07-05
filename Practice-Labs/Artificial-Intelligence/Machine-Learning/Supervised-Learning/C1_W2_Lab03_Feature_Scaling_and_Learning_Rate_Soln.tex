@@ -390,7 +390,7 @@ You will utilize the functions developed in the last lab as well as
 matplotlib and NumPy.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{1}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
 \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
@@ -514,7 +514,7 @@ Price (1000s dollars)\strut
 \end{longtable}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{2}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{} load the dataset}
 \PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train} \PY{o}{=} \PY{n}{load\PYZus{}house\PYZus{}data}\PY{p}{(}\PY{p}{)}
@@ -526,7 +526,7 @@ Price (1000s dollars)\strut
 price.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{3}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{fig}\PY{p}{,}\PY{n}{ax}\PY{o}{=}\PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{4}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}\PY{p}{,} \PY{n}{sharey}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
 \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{ax}\PY{p}{)}\PY{p}{)}\PY{p}{:}
@@ -537,11 +537,6 @@ price.
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_8_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     Plotting each feature vs.~the target, price, provides some indication of
 which features have the strongest influence on price. Above, increasing
 size also increases price. Bedrooms and floors don't seem to have a
@@ -589,57 +584,24 @@ data set
 9.9e-7}{\textbackslash alpha = 9.9e-7}}\label{alpha-9.9e-7}}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{4}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{}set alpha to 9.9e\PYZhy{}7}
 \PY{n}{\PYZus{}}\PY{p}{,} \PY{n}{\PYZus{}}\PY{p}{,} \PY{n}{hist} \PY{o}{=} \PY{n}{run\PYZus{}gradient\PYZus{}descent}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{,} \PY{n}{alpha} \PY{o}{=} \PY{l+m+mf}{9.9e\PYZhy{}7}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Iteration Cost          w0       w1       w2       w3       b       djdw0
-djdw1    djdw2    djdw3    djdb
----------------------|--------|--------|--------|--------|--------|--------|----
-----|--------|--------|--------|
-        0 9.55884e+04  5.5e-01  1.0e-03  5.1e-04  1.2e-02  3.6e-04 -5.5e+05
--1.0e+03 -5.2e+02 -1.2e+04 -3.6e+02
-        1 1.28213e+05 -8.8e-02 -1.7e-04 -1.0e-04 -3.4e-03 -4.8e-05  6.4e+05
-1.2e+03  6.2e+02  1.6e+04  4.1e+02
-        2 1.72159e+05  6.5e-01  1.2e-03  5.9e-04  1.3e-02  4.3e-04 -7.4e+05
--1.4e+03 -7.0e+02 -1.7e+04 -4.9e+02
-        3 2.31358e+05 -2.1e-01 -4.0e-04 -2.3e-04 -7.5e-03 -1.2e-04  8.6e+05
-1.6e+03  8.3e+02  2.1e+04  5.6e+02
-        4 3.11100e+05  7.9e-01  1.4e-03  7.1e-04  1.5e-02  5.3e-04 -1.0e+06
--1.8e+03 -9.5e+02 -2.3e+04 -6.6e+02
-        5 4.18517e+05 -3.7e-01 -7.1e-04 -4.0e-04 -1.3e-02 -2.1e-04  1.2e+06
-2.1e+03  1.1e+03  2.8e+04  7.5e+02
-        6 5.63212e+05  9.7e-01  1.7e-03  8.7e-04  1.8e-02  6.6e-04 -1.3e+06
--2.5e+03 -1.3e+03 -3.1e+04 -8.8e+02
-        7 7.58122e+05 -5.8e-01 -1.1e-03 -6.2e-04 -1.9e-02 -3.4e-04  1.6e+06
-2.9e+03  1.5e+03  3.8e+04  1.0e+03
-        8 1.02068e+06  1.2e+00  2.2e-03  1.1e-03  2.3e-02  8.3e-04 -1.8e+06
--3.3e+03 -1.7e+03 -4.2e+04 -1.2e+03
-        9 1.37435e+06 -8.7e-01 -1.7e-03 -9.1e-04 -2.7e-02 -5.2e-04  2.1e+06
-3.9e+03  2.0e+03  5.1e+04  1.4e+03
-w,b found by gradient descent: w: [-0.87 -0.   -0.   -0.03], b: -0.00
-    \end{Verbatim}
-
     It appears the learning rate is too high. The solution does not
 converge. Cost is \emph{increasing} rather than decreasing. Let's plot
 the result:
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{5}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{plot\PYZus{}cost\PYZus{}i\PYZus{}w}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{hist}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_15_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     The plot on the right shows the value of one of the parameters, \(w_0\).
 At each iteration, it is overshooting the optimal value and as a result,
 cost ends up \emph{increasing} rather than approaching the minimum. Note
@@ -655,57 +617,23 @@ later plots you may notice the blue and orange lines being slightly off.
 Let's try a bit smaller value and see what happens.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{6}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{}set alpha to 9e\PYZhy{}7}
 \PY{n}{\PYZus{}}\PY{p}{,}\PY{n}{\PYZus{}}\PY{p}{,}\PY{n}{hist} \PY{o}{=} \PY{n}{run\PYZus{}gradient\PYZus{}descent}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{,} \PY{n}{alpha} \PY{o}{=} \PY{l+m+mf}{9e\PYZhy{}7}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Iteration Cost          w0       w1       w2       w3       b       djdw0
-djdw1    djdw2    djdw3    djdb
----------------------|--------|--------|--------|--------|--------|--------|----
-----|--------|--------|--------|
-        0 6.64616e+04  5.0e-01  9.1e-04  4.7e-04  1.1e-02  3.3e-04 -5.5e+05
--1.0e+03 -5.2e+02 -1.2e+04 -3.6e+02
-        1 6.18990e+04  1.8e-02  2.1e-05  2.0e-06 -7.9e-04  1.9e-05  5.3e+05
-9.8e+02  5.2e+02  1.3e+04  3.4e+02
-        2 5.76572e+04  4.8e-01  8.6e-04  4.4e-04  9.5e-03  3.2e-04 -5.1e+05
--9.3e+02 -4.8e+02 -1.1e+04 -3.4e+02
-        3 5.37137e+04  3.4e-02  3.9e-05  2.8e-06 -1.6e-03  3.8e-05  4.9e+05
-9.1e+02  4.8e+02  1.2e+04  3.2e+02
-        4 5.00474e+04  4.6e-01  8.2e-04  4.1e-04  8.0e-03  3.2e-04 -4.8e+05
--8.7e+02 -4.5e+02 -1.1e+04 -3.1e+02
-        5 4.66388e+04  5.0e-02  5.6e-05  2.5e-06 -2.4e-03  5.6e-05  4.6e+05
-8.5e+02  4.5e+02  1.2e+04  2.9e+02
-        6 4.34700e+04  4.5e-01  7.8e-04  3.8e-04  6.4e-03  3.2e-04 -4.4e+05
--8.1e+02 -4.2e+02 -9.8e+03 -2.9e+02
-        7 4.05239e+04  6.4e-02  7.0e-05  1.2e-06 -3.3e-03  7.3e-05  4.3e+05
-7.9e+02  4.2e+02  1.1e+04  2.7e+02
-        8 3.77849e+04  4.4e-01  7.5e-04  3.5e-04  4.9e-03  3.2e-04 -4.1e+05
--7.5e+02 -3.9e+02 -9.1e+03 -2.7e+02
-        9 3.52385e+04  7.7e-02  8.3e-05 -1.1e-06 -4.2e-03  8.9e-05  4.0e+05
-7.4e+02  3.9e+02  1.0e+04  2.5e+02
-w,b found by gradient descent: w: [ 7.74e-02  8.27e-05 -1.06e-06 -4.20e-03], b:
-0.00
-    \end{Verbatim}
-
     Cost is decreasing throughout the run showing that alpha is not too
 large.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{7}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{plot\PYZus{}cost\PYZus{}i\PYZus{}w}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{hist}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_20_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     On the left, you see that cost is decreasing as it should. On the right,
 you can see that \(w_0\) is still oscillating around the minimum, but it
 is decreasing each iteration rather than increasing. Note above that
@@ -720,56 +648,23 @@ converge. You can vary the number of iterations to see how it behaves.
 Let's try a bit smaller value for \(\alpha\) and see what happens.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{8}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{}set alpha to 1e\PYZhy{}7}
 \PY{n}{\PYZus{}}\PY{p}{,}\PY{n}{\PYZus{}}\PY{p}{,}\PY{n}{hist} \PY{o}{=} \PY{n}{run\PYZus{}gradient\PYZus{}descent}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{l+m+mi}{10}\PY{p}{,} \PY{n}{alpha} \PY{o}{=} \PY{l+m+mf}{1e\PYZhy{}7}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Iteration Cost          w0       w1       w2       w3       b       djdw0
-djdw1    djdw2    djdw3    djdb
----------------------|--------|--------|--------|--------|--------|--------|----
-----|--------|--------|--------|
-        0 4.42313e+04  5.5e-02  1.0e-04  5.2e-05  1.2e-03  3.6e-05 -5.5e+05
--1.0e+03 -5.2e+02 -1.2e+04 -3.6e+02
-        1 2.76461e+04  9.8e-02  1.8e-04  9.2e-05  2.2e-03  6.5e-05 -4.3e+05
--7.9e+02 -4.0e+02 -9.5e+03 -2.8e+02
-        2 1.75102e+04  1.3e-01  2.4e-04  1.2e-04  2.9e-03  8.7e-05 -3.4e+05
--6.1e+02 -3.1e+02 -7.3e+03 -2.2e+02
-        3 1.13157e+04  1.6e-01  2.9e-04  1.5e-04  3.5e-03  1.0e-04 -2.6e+05
--4.8e+02 -2.4e+02 -5.6e+03 -1.8e+02
-        4 7.53002e+03  1.8e-01  3.3e-04  1.7e-04  3.9e-03  1.2e-04 -2.1e+05
--3.7e+02 -1.9e+02 -4.2e+03 -1.4e+02
-        5 5.21639e+03  2.0e-01  3.5e-04  1.8e-04  4.2e-03  1.3e-04 -1.6e+05
--2.9e+02 -1.5e+02 -3.1e+03 -1.1e+02
-        6 3.80242e+03  2.1e-01  3.8e-04  1.9e-04  4.5e-03  1.4e-04 -1.3e+05
--2.2e+02 -1.1e+02 -2.3e+03 -8.6e+01
-        7 2.93826e+03  2.2e-01  3.9e-04  2.0e-04  4.6e-03  1.4e-04 -9.8e+04
--1.7e+02 -8.6e+01 -1.7e+03 -6.8e+01
-        8 2.41013e+03  2.3e-01  4.1e-04  2.1e-04  4.7e-03  1.5e-04 -7.7e+04
--1.3e+02 -6.5e+01 -1.2e+03 -5.4e+01
-        9 2.08734e+03  2.3e-01  4.2e-04  2.1e-04  4.8e-03  1.5e-04 -6.0e+04
--1.0e+02 -4.9e+01 -7.5e+02 -4.3e+01
-w,b found by gradient descent: w: [2.31e-01 4.18e-04 2.12e-04 4.81e-03], b: 0.00
-    \end{Verbatim}
-
     Cost is decreasing throughout the run showing that \(\alpha\) is not too
 large.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{9}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{plot\PYZus{}cost\PYZus{}i\PYZus{}w}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,}\PY{n}{y\PYZus{}train}\PY{p}{,}\PY{n}{hist}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_25_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     On the left, you see that cost is decreasing as it should. On the right
 you can see that \(w_0\) is decreasing without crossing the minimum.
 Note above that \texttt{dj\_w0} is negative throughout the run. This
@@ -860,7 +755,7 @@ set.
 \textbf{Implementation}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{10}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{k}{def} \PY{n+nf}{zscore\PYZus{}normalize\PYZus{}features}\PY{p}{(}\PY{n}{X}\PY{p}{)}\PY{p}{:}
     \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}}
@@ -893,7 +788,7 @@ set.
 below shows the transformation step by step.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{11}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{mu}     \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,}\PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}   
 \PY{n}{sigma}  \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{std}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,}\PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)} 
@@ -921,11 +816,6 @@ below shows the transformation step by step.
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_33_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     The plot above shows the relationship between two of the training set
 parameters, ``age'' and ``size(sqft)''. \emph{These are plotted with
 equal scale}. - Left: Unnormalized: The range of values or the variance
@@ -939,7 +829,7 @@ features centered at zero with a similar scale.
     Let's normalize the data and compare it to the original data.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{12}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{} normalize the original features}
 \PY{n}{X\PYZus{}norm}\PY{p}{,} \PY{n}{X\PYZus{}mu}\PY{p}{,} \PY{n}{X\PYZus{}sigma} \PY{o}{=} \PY{n}{zscore\PYZus{}normalize\PYZus{}features}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{)}
@@ -949,19 +839,11 @@ features centered at zero with a similar scale.
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-X\_mu = [1.42e+03 2.72e+00 1.38e+00 3.84e+01],
-X\_sigma = [411.62   0.65   0.49  25.78]
-Peak to Peak range by column in Raw        X:[2.41e+03 4.00e+00 1.00e+00
-9.50e+01]
-Peak to Peak range by column in Normalized X:[5.85 6.14 2.06 3.69]
-    \end{Verbatim}
-
     The peak to peak range of each column is reduced from a factor of
 thousands to a factor of 2-3 by normalization.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{13}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{fig}\PY{p}{,}\PY{n}{ax}\PY{o}{=}\PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{4}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}\PY{p}{)}
 \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{ax}\PY{p}{)}\PY{p}{)}\PY{p}{:}
@@ -981,16 +863,6 @@ thousands to a factor of 2-3 by normalization.
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_38_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_38_1.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     Notice, above, the range of the normalized data (x-axis) is centered
 around zero and roughly +/- 2. Most importantly, the range is similar
 for each feature.
@@ -1000,39 +872,11 @@ the \textbf{vastly larger value of alpha}. This will speed up gradient
 descent.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{14}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{w\PYZus{}norm}\PY{p}{,} \PY{n}{b\PYZus{}norm}\PY{p}{,} \PY{n}{hist} \PY{o}{=} \PY{n}{run\PYZus{}gradient\PYZus{}descent}\PY{p}{(}\PY{n}{X\PYZus{}norm}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{l+m+mi}{1000}\PY{p}{,} \PY{l+m+mf}{1.0e\PYZhy{}1}\PY{p}{,} \PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-Iteration Cost          w0       w1       w2       w3       b       djdw0
-djdw1    djdw2    djdw3    djdb
----------------------|--------|--------|--------|--------|--------|--------|----
-----|--------|--------|--------|
-        0 5.76170e+04  8.9e+00  3.0e+00  3.3e+00 -6.0e+00  3.6e+01 -8.9e+01
--3.0e+01 -3.3e+01  6.0e+01 -3.6e+02
-      100 2.21086e+02  1.1e+02 -2.0e+01 -3.1e+01 -3.8e+01  3.6e+02 -9.2e-01
-4.5e-01  5.3e-01 -1.7e-01 -9.6e-03
-      200 2.19209e+02  1.1e+02 -2.1e+01 -3.3e+01 -3.8e+01  3.6e+02 -3.0e-02
-1.5e-02  1.7e-02 -6.0e-03 -2.6e-07
-      300 2.19207e+02  1.1e+02 -2.1e+01 -3.3e+01 -3.8e+01  3.6e+02 -1.0e-03
-5.1e-04  5.7e-04 -2.0e-04 -6.9e-12
-      400 2.19207e+02  1.1e+02 -2.1e+01 -3.3e+01 -3.8e+01  3.6e+02 -3.4e-05
-1.7e-05  1.9e-05 -6.6e-06 -2.7e-13
-      500 2.19207e+02  1.1e+02 -2.1e+01 -3.3e+01 -3.8e+01  3.6e+02 -1.1e-06
-5.6e-07  6.2e-07 -2.2e-07 -2.6e-13
-      600 2.19207e+02  1.1e+02 -2.1e+01 -3.3e+01 -3.8e+01  3.6e+02 -3.7e-08
-1.9e-08  2.1e-08 -7.3e-09 -2.6e-13
-      700 2.19207e+02  1.1e+02 -2.1e+01 -3.3e+01 -3.8e+01  3.6e+02 -1.2e-09
-6.2e-10  6.9e-10 -2.4e-10 -2.6e-13
-      800 2.19207e+02  1.1e+02 -2.1e+01 -3.3e+01 -3.8e+01  3.6e+02 -4.1e-11
-2.1e-11  2.3e-11 -8.1e-12 -2.7e-13
-      900 2.19207e+02  1.1e+02 -2.1e+01 -3.3e+01 -3.8e+01  3.6e+02 -1.4e-12
-7.0e-13  7.6e-13 -2.7e-13 -2.6e-13
-w,b found by gradient descent: w: [110.56 -21.27 -32.71 -37.97], b: 363.16
-    \end{Verbatim}
 
     The scaled features get very accurate results \textbf{much, much
 faster!}. Notice the gradient of each parameter is tiny by the end of
@@ -1042,7 +886,7 @@ the target values. Note, the prediction is made using the normalized
 feature while the plot is shown using the original feature values.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{15}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{}predict target using normalized features}
 \PY{n}{m} \PY{o}{=} \PY{n}{X\PYZus{}norm}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
@@ -1062,11 +906,6 @@ feature while the plot is shown using the original feature values.
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_43_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     The results look good. A few points to note: - with multiple features,
 we can no longer have a single plot showing results versus features. -
 when generating the plot, the normalized features were used. Any
@@ -1080,7 +919,7 @@ Recall, that you must normalize the data with the mean and standard
 deviation derived when the training data was normalized.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{16}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{} First, normalize out example.}
 \PY{n}{x\PYZus{}house} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{p}{[}\PY{l+m+mi}{1200}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{40}\PY{p}{]}\PY{p}{)}
@@ -1090,12 +929,6 @@ deviation derived when the training data was normalized.
 \PY{n+nb}{print}\PY{p}{(}\PY{l+s+sa}{f}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ predicted price of a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old = \PYZdl{}}\PY{l+s+si}{\PYZob{}}\PY{n}{x\PYZus{}house\PYZus{}predict}\PY{o}{*}\PY{l+m+mi}{1000}\PY{l+s+si}{:}\PY{l+s+s2}{0.0f}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
-
-    \begin{Verbatim}[commandchars=\\\{\}]
-[-0.53  0.43 -0.79  0.06]
- predicted price of a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old =
-\$318709
-    \end{Verbatim}
 
     \textbf{Cost Contours}\\
 Another way to view feature scaling is in terms of the cost contours.
@@ -1111,17 +944,12 @@ more symmetric. The result is that updates to parameters during gradient
 descent can make equal progress for each parameter.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{17}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{plt\PYZus{}equal\PYZus{}scale}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{X\PYZus{}norm}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{)}
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_48_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     \hypertarget{congratulations}{%
 \subsection{Congratulations!}\label{congratulations}}
 

@@ -13,7 +13,7 @@
 # ## Tools
 # You will utilize the functions developed in the last lab as well as matplotlib and NumPy. 
 
-# In[1]:
+# In[ ]:
 
 
 import numpy as np
@@ -59,7 +59,7 @@ plt.style.use('./deeplearning.mplstyle')
 # | ...             | ...                 | ...              | ...          | ...                    |
 # 
 
-# In[2]:
+# In[ ]:
 
 
 # load the dataset
@@ -69,7 +69,7 @@ X_features = ['size(sqft)','bedrooms','floors','age']
 
 # Let's view the dataset and its features by plotting each feature versus price.
 
-# In[3]:
+# In[ ]:
 
 
 fig,ax=plt.subplots(1, 4, figsize=(12, 3), sharey=True)
@@ -115,7 +115,7 @@ plt.show()
 
 # ### $\alpha$ = 9.9e-7
 
-# In[4]:
+# In[ ]:
 
 
 #set alpha to 9.9e-7
@@ -124,7 +124,7 @@ _, _, hist = run_gradient_descent(X_train, y_train, 10, alpha = 9.9e-7)
 
 # It appears the learning rate is too high.  The solution does not converge. Cost is *increasing* rather than decreasing. Let's plot the result:
 
-# In[5]:
+# In[ ]:
 
 
 plot_cost_i_w(X_train, y_train, hist)
@@ -136,7 +136,7 @@ plot_cost_i_w(X_train, y_train, hist)
 # ### $\alpha$ = 9e-7
 # Let's try a bit smaller value and see what happens.
 
-# In[6]:
+# In[ ]:
 
 
 #set alpha to 9e-7
@@ -145,7 +145,7 @@ _,_,hist = run_gradient_descent(X_train, y_train, 10, alpha = 9e-7)
 
 # Cost is decreasing throughout the run showing that alpha is not too large. 
 
-# In[7]:
+# In[ ]:
 
 
 plot_cost_i_w(X_train, y_train, hist)
@@ -157,7 +157,7 @@ plot_cost_i_w(X_train, y_train, hist)
 # ### $\alpha$ = 1e-7
 # Let's try a bit smaller value for $\alpha$ and see what happens.
 
-# In[8]:
+# In[ ]:
 
 
 #set alpha to 1e-7
@@ -166,7 +166,7 @@ _,_,hist = run_gradient_descent(X_train, y_train, 10, alpha = 1e-7)
 
 # Cost is decreasing throughout the run showing that $\alpha$ is not too large. 
 
-# In[9]:
+# In[ ]:
 
 
 plot_cost_i_w(X_train,y_train,hist)
@@ -242,7 +242,7 @@ plot_cost_i_w(X_train,y_train,hist)
 # 
 # **Implementation**
 
-# In[10]:
+# In[ ]:
 
 
 def zscore_normalize_features(X):
@@ -273,7 +273,7 @@ def zscore_normalize_features(X):
 
 # Let's look at the steps involved in Z-score normalization. The plot below shows the transformation step by step.
 
-# In[11]:
+# In[ ]:
 
 
 mu     = np.mean(X_train,axis=0)   
@@ -308,7 +308,7 @@ plt.show()
 
 # Let's normalize the data and compare it to the original data.
 
-# In[12]:
+# In[ ]:
 
 
 # normalize the original features
@@ -320,7 +320,7 @@ print(f"Peak to Peak range by column in Normalized X:{np.ptp(X_norm,axis=0)}")
 
 # The peak to peak range of each column is reduced from a factor of thousands to a factor of 2-3 by normalization.
 
-# In[13]:
+# In[ ]:
 
 
 fig,ax=plt.subplots(1, 4, figsize=(12, 3))
@@ -345,7 +345,7 @@ plt.show()
 # Let's re-run our gradient descent algorithm with normalized data.
 # Note the **vastly larger value of alpha**. This will speed up gradient descent.
 
-# In[14]:
+# In[ ]:
 
 
 w_norm, b_norm, hist = run_gradient_descent(X_norm, y_train, 1000, 1.0e-1, )
@@ -354,7 +354,7 @@ w_norm, b_norm, hist = run_gradient_descent(X_norm, y_train, 1000, 1.0e-1, )
 # The scaled features get very accurate results **much, much faster!**. Notice the gradient of each parameter is tiny by the end of this fairly short run. A learning rate of 0.1 is a good start for regression with normalized features.
 # Let's plot our predictions versus the target values. Note, the prediction is made using the normalized feature while the plot is shown using the original feature values.
 
-# In[15]:
+# In[ ]:
 
 
 #predict target using normalized features
@@ -381,7 +381,7 @@ plt.show()
 # **Prediction**
 # The point of generating our model is to use it to predict housing prices that are not in the data set. Let's predict the price of a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old. Recall, that you must normalize the data with the mean and standard deviation derived when the training data was normalized. 
 
-# In[16]:
+# In[ ]:
 
 
 # First, normalize out example.
@@ -398,7 +398,7 @@ print(f" predicted price of a house with 1200 sqft, 3 bedrooms, 1 floor, 40 year
 # In the plot below, the scale of the parameters is matched. The left plot is the cost contour plot of w[0], the square feet versus w[1], the number of bedrooms before normalizing the features. The plot is so asymmetric, the curves completing the contours are not visible. In contrast, when the features are normalized, the cost contour is much more symmetric. The result is that updates to parameters during gradient descent can make equal progress for each parameter. 
 # 
 
-# In[17]:
+# In[ ]:
 
 
 plt_equal_scale(X_train, X_norm, y_train)

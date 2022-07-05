@@ -390,7 +390,7 @@ You will utilize the function developed in previous labs as well as
 matplotlib and NumPy.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{2}{\boxspacing}
+\prompt{In}{incolor}{1}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
 \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
@@ -426,7 +426,7 @@ the lab\_utils.py file for review. We'll use
 which is a NumPy routine to concatenate along the column boundary.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{3}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{} create target data}
 \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}
@@ -440,25 +440,6 @@ which is a NumPy routine to concatenate along the column boundary.
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Iteration         0, Cost: 1.65756e+03
-Iteration       100, Cost: 6.94549e+02
-Iteration       200, Cost: 5.88475e+02
-Iteration       300, Cost: 5.26414e+02
-Iteration       400, Cost: 4.90103e+02
-Iteration       500, Cost: 4.68858e+02
-Iteration       600, Cost: 4.56428e+02
-Iteration       700, Cost: 4.49155e+02
-Iteration       800, Cost: 4.44900e+02
-Iteration       900, Cost: 4.42411e+02
-w,b found by gradient descent: w: [18.7], b: -52.0834
-    \end{Verbatim}
-
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_6_1.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     Well, as expected, not a great fit. What is needed is something like
 \(y= w_0x_0^2 + b\), or a \textbf{polynomial feature}. To accomplish
 this, you can modify the \emph{input data} to \emph{engineer} the needed
@@ -467,7 +448,7 @@ features. If you swap the original data with a version that squares the
 Swap \texttt{X} for \texttt{X**2} below:
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{4}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{} create target data}
 \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}
@@ -479,7 +460,7 @@ Swap \texttt{X} for \texttt{X**2} below:
 \end{tcolorbox}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{5}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{X} \PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}  \PY{c+c1}{\PYZsh{}X should be a 2\PYZhy{}D Matrix}
 \PY{n}{model\PYZus{}w}\PY{p}{,}\PY{n}{model\PYZus{}b} \PY{o}{=} \PY{n}{run\PYZus{}gradient\PYZus{}descent\PYZus{}feng}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{iterations}\PY{o}{=}\PY{l+m+mi}{10000}\PY{p}{,} \PY{n}{alpha} \PY{o}{=} \PY{l+m+mf}{1e\PYZhy{}5}\PY{p}{)}
@@ -489,25 +470,6 @@ Swap \texttt{X} for \texttt{X**2} below:
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Iteration         0, Cost: 7.32922e+03
-Iteration      1000, Cost: 2.24844e-01
-Iteration      2000, Cost: 2.22795e-01
-Iteration      3000, Cost: 2.20764e-01
-Iteration      4000, Cost: 2.18752e-01
-Iteration      5000, Cost: 2.16758e-01
-Iteration      6000, Cost: 2.14782e-01
-Iteration      7000, Cost: 2.12824e-01
-Iteration      8000, Cost: 2.10884e-01
-Iteration      9000, Cost: 2.08962e-01
-w,b found by gradient descent: w: [1.], b: 0.0490
-    \end{Verbatim}
-
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_9_1.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     Great! near perfect fit. Notice the values of \(\mathbf{w}\) and b
 printed right above the graph:
 \texttt{w,b\ found\ by\ gradient\ descent:\ w:\ {[}1.{]},\ b:\ 0.0490}.
@@ -526,7 +488,7 @@ we had instead tried : \(y=w_0x_0 + w_1x_1^2 + w_2x_2^3+b\) ?
 Run the next cells.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{6}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{} create target data}
 \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}
@@ -538,7 +500,7 @@ Run the next cells.
 \end{tcolorbox}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{7}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{model\PYZus{}w}\PY{p}{,}\PY{n}{model\PYZus{}b} \PY{o}{=} \PY{n}{run\PYZus{}gradient\PYZus{}descent\PYZus{}feng}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{iterations}\PY{o}{=}\PY{l+m+mi}{10000}\PY{p}{,} \PY{n}{alpha}\PY{o}{=}\PY{l+m+mf}{1e\PYZhy{}7}\PY{p}{)}
 
@@ -547,25 +509,6 @@ Run the next cells.
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Iteration         0, Cost: 1.14029e+03
-Iteration      1000, Cost: 3.28539e+02
-Iteration      2000, Cost: 2.80443e+02
-Iteration      3000, Cost: 2.39389e+02
-Iteration      4000, Cost: 2.04344e+02
-Iteration      5000, Cost: 1.74430e+02
-Iteration      6000, Cost: 1.48896e+02
-Iteration      7000, Cost: 1.27100e+02
-Iteration      8000, Cost: 1.08495e+02
-Iteration      9000, Cost: 9.26132e+01
-w,b found by gradient descent: w: [0.08 0.54 0.03], b: 0.0106
-    \end{Verbatim}
-
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_13_1.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     Note the value of \(\mathbf{w}\), \texttt{{[}0.08\ 0.54\ 0.03{]}} and b
 is \texttt{0.0106}.This implies the model after fitting/training is:
 \[ 0.08x + 0.54x^2 + 0.03x^3 + 0.0106 \] Gradient descent has emphasized
@@ -593,7 +536,7 @@ that, the best features will be linear relative to the target. This is
 best understood with an example.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{8}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{} create target data}
 \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}
@@ -606,7 +549,7 @@ best understood with an example.
 \end{tcolorbox}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{9}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{fig}\PY{p}{,}\PY{n}{ax}\PY{o}{=}\PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}\PY{p}{,} \PY{n}{sharey}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}
 \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{ax}\PY{p}{)}\PY{p}{)}\PY{p}{:}
@@ -617,11 +560,6 @@ best understood with an example.
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_17_0.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     Above, it is clear that the \(x^2\) feature mapped against the target
 value \(y\) is linear. Linear regression can then easily generate a
 model using that feature.
@@ -636,7 +574,7 @@ and \(x^3\) which will naturally have very different scales. Let's apply
 Z-score normalization to our example.
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{10}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{c+c1}{\PYZsh{} create target data}
 \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{20}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}
@@ -649,15 +587,10 @@ Z-score normalization to our example.
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Peak to Peak range by column in Raw        X:[  19  361 6859]
-Peak to Peak range by column in Normalized X:[3.3  3.18 3.28]
-    \end{Verbatim}
-
     Now we can try again with a more aggressive value of alpha:
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{11}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{20}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}
 \PY{n}{y} \PY{o}{=} \PY{n}{x}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}
@@ -672,25 +605,6 @@ Peak to Peak range by column in Normalized X:[3.3  3.18 3.28]
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Iteration         0, Cost: 9.42147e+03
-Iteration     10000, Cost: 3.90938e-01
-Iteration     20000, Cost: 2.78389e-02
-Iteration     30000, Cost: 1.98242e-03
-Iteration     40000, Cost: 1.41169e-04
-Iteration     50000, Cost: 1.00527e-05
-Iteration     60000, Cost: 7.15855e-07
-Iteration     70000, Cost: 5.09763e-08
-Iteration     80000, Cost: 3.63004e-09
-Iteration     90000, Cost: 2.58497e-10
-w,b found by gradient descent: w: [5.27e-05 1.13e+02 8.43e-05], b: 123.5000
-    \end{Verbatim}
-
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_22_1.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     Feature scaling allows this to converge much faster.\\
 Note again the values of \(\mathbf{w}\). The \(w_1\) term, which is the
 \(x^2\) term is the most emphasized. Gradient descent has all but
@@ -702,7 +616,7 @@ eliminated the \(x^3\) term.
 With feature engineering, even quite complex functions can be modeled:
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{12}{\boxspacing}
+\prompt{In}{incolor}{ }{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{20}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}
 \PY{n}{y} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{cos}\PY{p}{(}\PY{n}{x}\PY{o}{/}\PY{l+m+mi}{2}\PY{p}{)}
@@ -717,27 +631,6 @@ With feature engineering, even quite complex functions can be modeled:
 \end{Verbatim}
 \end{tcolorbox}
 
-    \begin{Verbatim}[commandchars=\\\{\}]
-Iteration         0, Cost: 2.20188e-01
-Iteration    100000, Cost: 1.70074e-02
-Iteration    200000, Cost: 1.27603e-02
-Iteration    300000, Cost: 9.73032e-03
-Iteration    400000, Cost: 7.56440e-03
-Iteration    500000, Cost: 6.01412e-03
-Iteration    600000, Cost: 4.90251e-03
-Iteration    700000, Cost: 4.10351e-03
-Iteration    800000, Cost: 3.52730e-03
-Iteration    900000, Cost: 3.10989e-03
-w,b found by gradient descent: w: [ -1.34 -10.    24.78   5.96 -12.49 -16.26
--9.51   0.59   8.7   11.94
-   9.27   0.79 -12.82], b: -0.0073
-    \end{Verbatim}
-
-    \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_25_1.png}
-    \end{center}
-    { \hspace*{\fill} \\}
-    
     \hypertarget{congratulations}{%
 \subsection{Congratulations!}\label{congratulations}}
 
