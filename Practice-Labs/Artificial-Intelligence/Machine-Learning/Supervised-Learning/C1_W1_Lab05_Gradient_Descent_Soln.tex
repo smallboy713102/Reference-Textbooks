@@ -1,0 +1,869 @@
+\documentclass[11pt]{article}
+
+    \usepackage[breakable]{tcolorbox}
+    \usepackage{parskip} % Stop auto-indenting (to mimic markdown behaviour)
+    
+    \usepackage{iftex}
+    \ifPDFTeX
+    	\usepackage[T1]{fontenc}
+    	\usepackage{mathpazo}
+    \else
+    	\usepackage{fontspec}
+    \fi
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % Maintain compatibility with old templates. Remove in nbconvert 6.0
+    \let\Oldincludegraphics\includegraphics
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionFormat{nocaption}{}
+    \captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+
+    \usepackage[Export]{adjustbox} % Used to constrain images to a maximum size
+    \adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+    \usepackage{float}
+    \floatplacement{figure}{H} % forces figures to be placed at the correct location
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range
+    \makeatletter % fix for grffile with XeLaTeX
+    \def\Gread@@xetex#1{%
+      \IfFileExists{"\Gin@base".bb}%
+      {\Gread@eps{\Gin@base.bb}}%
+      {\Gread@@xetex@aux#1}%
+    }
+    \makeatother
+
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    % The default LaTeX title has an obnoxious amount of whitespace. By default,
+    % titling removes some of it. It also provides customization options.
+    \usepackage{titling}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    \usepackage{mathrsfs}
+    
+
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+    \definecolor{ansi-default-inverse-fg}{HTML}{FFFFFF}
+    \definecolor{ansi-default-inverse-bg}{HTML}{000000}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatibility definitions
+    \def\gt{>}
+    \def\lt{<}
+    \let\Oldtex\TeX
+    \let\Oldlatex\LaTeX
+    \renewcommand{\TeX}{\textrm{\Oldtex}}
+    \renewcommand{\LaTeX}{\textrm{\Oldlatex}}
+    % Document parameters
+    % Document title
+    \title{C1\_W1\_Lab05\_Gradient\_Descent\_Soln}
+    
+    
+    
+    
+    
+% Pygments definitions
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % For linebreaks inside Verbatim environment from package fancyvrb. 
+    \makeatletter
+        \newbox\Wrappedcontinuationbox 
+        \newbox\Wrappedvisiblespacebox 
+        \newcommand*\Wrappedvisiblespace {\textcolor{red}{\textvisiblespace}} 
+        \newcommand*\Wrappedcontinuationsymbol {\textcolor{red}{\llap{\tiny$\m@th\hookrightarrow$}}} 
+        \newcommand*\Wrappedcontinuationindent {3ex } 
+        \newcommand*\Wrappedafterbreak {\kern\Wrappedcontinuationindent\copy\Wrappedcontinuationbox} 
+        % Take advantage of the already applied Pygments mark-up to insert 
+        % potential linebreaks for TeX processing. 
+        %        {, <, #, %, $, ' and ": go to next line. 
+        %        _, }, ^, &, >, - and ~: stay at end of broken line. 
+        % Use of \textquotesingle for straight quote. 
+        \newcommand*\Wrappedbreaksatspecials {% 
+            \def\PYGZus{\discretionary{\char`\_}{\Wrappedafterbreak}{\char`\_}}% 
+            \def\PYGZob{\discretionary{}{\Wrappedafterbreak\char`\{}{\char`\{}}% 
+            \def\PYGZcb{\discretionary{\char`\}}{\Wrappedafterbreak}{\char`\}}}% 
+            \def\PYGZca{\discretionary{\char`\^}{\Wrappedafterbreak}{\char`\^}}% 
+            \def\PYGZam{\discretionary{\char`\&}{\Wrappedafterbreak}{\char`\&}}% 
+            \def\PYGZlt{\discretionary{}{\Wrappedafterbreak\char`\<}{\char`\<}}% 
+            \def\PYGZgt{\discretionary{\char`\>}{\Wrappedafterbreak}{\char`\>}}% 
+            \def\PYGZsh{\discretionary{}{\Wrappedafterbreak\char`\#}{\char`\#}}% 
+            \def\PYGZpc{\discretionary{}{\Wrappedafterbreak\char`\%}{\char`\%}}% 
+            \def\PYGZdl{\discretionary{}{\Wrappedafterbreak\char`\$}{\char`\$}}% 
+            \def\PYGZhy{\discretionary{\char`\-}{\Wrappedafterbreak}{\char`\-}}% 
+            \def\PYGZsq{\discretionary{}{\Wrappedafterbreak\textquotesingle}{\textquotesingle}}% 
+            \def\PYGZdq{\discretionary{}{\Wrappedafterbreak\char`\"}{\char`\"}}% 
+            \def\PYGZti{\discretionary{\char`\~}{\Wrappedafterbreak}{\char`\~}}% 
+        } 
+        % Some characters . , ; ? ! / are not pygmentized. 
+        % This macro makes them "active" and they will insert potential linebreaks 
+        \newcommand*\Wrappedbreaksatpunct {% 
+            \lccode`\~`\.\lowercase{\def~}{\discretionary{\hbox{\char`\.}}{\Wrappedafterbreak}{\hbox{\char`\.}}}% 
+            \lccode`\~`\,\lowercase{\def~}{\discretionary{\hbox{\char`\,}}{\Wrappedafterbreak}{\hbox{\char`\,}}}% 
+            \lccode`\~`\;\lowercase{\def~}{\discretionary{\hbox{\char`\;}}{\Wrappedafterbreak}{\hbox{\char`\;}}}% 
+            \lccode`\~`\:\lowercase{\def~}{\discretionary{\hbox{\char`\:}}{\Wrappedafterbreak}{\hbox{\char`\:}}}% 
+            \lccode`\~`\?\lowercase{\def~}{\discretionary{\hbox{\char`\?}}{\Wrappedafterbreak}{\hbox{\char`\?}}}% 
+            \lccode`\~`\!\lowercase{\def~}{\discretionary{\hbox{\char`\!}}{\Wrappedafterbreak}{\hbox{\char`\!}}}% 
+            \lccode`\~`\/\lowercase{\def~}{\discretionary{\hbox{\char`\/}}{\Wrappedafterbreak}{\hbox{\char`\/}}}% 
+            \catcode`\.\active
+            \catcode`\,\active 
+            \catcode`\;\active
+            \catcode`\:\active
+            \catcode`\?\active
+            \catcode`\!\active
+            \catcode`\/\active 
+            \lccode`\~`\~ 	
+        }
+    \makeatother
+
+    \let\OriginalVerbatim=\Verbatim
+    \makeatletter
+    \renewcommand{\Verbatim}[1][1]{%
+        %\parskip\z@skip
+        \sbox\Wrappedcontinuationbox {\Wrappedcontinuationsymbol}%
+        \sbox\Wrappedvisiblespacebox {\FV@SetupFont\Wrappedvisiblespace}%
+        \def\FancyVerbFormatLine ##1{\hsize\linewidth
+            \vtop{\raggedright\hyphenpenalty\z@\exhyphenpenalty\z@
+                \doublehyphendemerits\z@\finalhyphendemerits\z@
+                \strut ##1\strut}%
+        }%
+        % If the linebreak is at a space, the latter will be displayed as visible
+        % space at end of first line, and a continuation symbol starts next line.
+        % Stretch/shrink are however usually zero for typewriter font.
+        \def\FV@Space {%
+            \nobreak\hskip\z@ plus\fontdimen3\font minus\fontdimen4\font
+            \discretionary{\copy\Wrappedvisiblespacebox}{\Wrappedafterbreak}
+            {\kern\fontdimen2\font}%
+        }%
+        
+        % Allow breaks at special characters using \PYG... macros.
+        \Wrappedbreaksatspecials
+        % Breaks at punctuation characters . , ; ? ! and / need catcode=\active 	
+        \OriginalVerbatim[#1,codes*=\Wrappedbreaksatpunct]%
+    }
+    \makeatother
+
+    % Exact colors from NB
+    \definecolor{incolor}{HTML}{303F9F}
+    \definecolor{outcolor}{HTML}{D84315}
+    \definecolor{cellborder}{HTML}{CFCFCF}
+    \definecolor{cellbackground}{HTML}{F7F7F7}
+    
+    % prompt
+    \makeatletter
+    \newcommand{\boxspacing}{\kern\kvtcb@left@rule\kern\kvtcb@boxsep}
+    \makeatother
+    \newcommand{\prompt}[4]{
+        \ttfamily\llap{{\color{#2}[#3]:\hspace{3pt}#4}}\vspace{-\baselineskip}
+    }
+    
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+\begin{document}
+    
+    \maketitle
+    
+    
+
+    
+    \hypertarget{optional-lab-gradient-descent-for-linear-regression}{%
+\section{Optional Lab: Gradient Descent for Linear
+Regression}\label{optional-lab-gradient-descent-for-linear-regression}}
+
+    \hypertarget{goals}{%
+\subsection{Goals}\label{goals}}
+
+In this lab, you will: - automate the process of optimizing \(w\) and
+\(b\) using gradient descent.
+
+    \hypertarget{tools}{%
+\subsection{Tools}\label{tools}}
+
+In this lab, we will make use of: - NumPy, a popular library for
+scientific computing - Matplotlib, a popular library for plotting data -
+plotting routines in the lab\_utils.py file in the local directory
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{1}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k+kn}{import} \PY{n+nn}{math}\PY{o}{,} \PY{n+nn}{copy}
+\PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
+\PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
+\PY{n}{plt}\PY{o}{.}\PY{n}{style}\PY{o}{.}\PY{n}{use}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{./deeplearning.mplstyle}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\PY{k+kn}{from} \PY{n+nn}{lab\PYZus{}utils\PYZus{}uni} \PY{k+kn}{import} \PY{n}{plt\PYZus{}house\PYZus{}x}\PY{p}{,} \PY{n}{plt\PYZus{}contour\PYZus{}wgrad}\PY{p}{,} \PY{n}{plt\PYZus{}divergence}\PY{p}{,} \PY{n}{plt\PYZus{}gradients}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \# Problem Statement
+
+Let's use the same two data points as before - a house with 1000 square
+feet sold for \textbackslash\$300,000 and a house with 2000 square feet
+sold for \textbackslash\$500,000.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Size (1000 sqft) & Price (1000s of dollars)\tabularnewline
+\midrule
+\endhead
+1 & 300\tabularnewline
+2 & 500\tabularnewline
+\bottomrule
+\end{longtable}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{2}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{c+c1}{\PYZsh{} Load our data set}
+\PY{n}{x\PYZus{}train} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{p}{[}\PY{l+m+mf}{1.0}\PY{p}{,} \PY{l+m+mf}{2.0}\PY{p}{]}\PY{p}{)}   \PY{c+c1}{\PYZsh{}features}
+\PY{n}{y\PYZus{}train} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{p}{[}\PY{l+m+mf}{300.0}\PY{p}{,} \PY{l+m+mf}{500.0}\PY{p}{]}\PY{p}{)}   \PY{c+c1}{\PYZsh{}target value}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \#\#\# Compute\_Cost This was developed in the last lab. We'll need it
+again here.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{3}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{c+c1}{\PYZsh{}Function to calculate the cost}
+\PY{k}{def} \PY{n+nf}{compute\PYZus{}cost}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{w}\PY{p}{,} \PY{n}{b}\PY{p}{)}\PY{p}{:}
+   
+    \PY{n}{m} \PY{o}{=} \PY{n}{x}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} 
+    \PY{n}{cost} \PY{o}{=} \PY{l+m+mi}{0}
+    
+    \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{m}\PY{p}{)}\PY{p}{:}
+        \PY{n}{f\PYZus{}wb} \PY{o}{=} \PY{n}{w} \PY{o}{*} \PY{n}{x}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{+} \PY{n}{b}
+        \PY{n}{cost} \PY{o}{=} \PY{n}{cost} \PY{o}{+} \PY{p}{(}\PY{n}{f\PYZus{}wb} \PY{o}{\PYZhy{}} \PY{n}{y}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}
+    \PY{n}{total\PYZus{}cost} \PY{o}{=} \PY{l+m+mi}{1} \PY{o}{/} \PY{p}{(}\PY{l+m+mi}{2} \PY{o}{*} \PY{n}{m}\PY{p}{)} \PY{o}{*} \PY{n}{cost}
+
+    \PY{k}{return} \PY{n}{total\PYZus{}cost}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \#\# Gradient descent summary So far in this course, you have developed
+a linear model that predicts \(f_{w,b}(x^{(i)})\):
+\[f_{w,b}(x^{(i)}) = wx^{(i)} + b \tag{1}\] In linear regression, you
+utilize input training data to fit the parameters \(w\),\(b\) by
+minimizing a measure of the error between our predictions
+\(f_{w,b}(x^{(i)})\) and the actual data \(y^{(i)}\). The measure is
+called the \(cost\), \(J(w,b)\). In training you measure the cost over
+all of our training samples \(x^{(i)},y^{(i)}\)
+\[J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2\tag{2}\]
+
+    In lecture, \emph{gradient descent} was described as:
+
+\[\begin{align*} \text{repeat}&\text{ until convergence:} \; \lbrace \newline
+\;  w &= w -  \alpha \frac{\partial J(w,b)}{\partial w} \tag{3}  \; \newline 
+ b &= b -  \alpha \frac{\partial J(w,b)}{\partial b}  \newline \rbrace
+\end{align*}\] where, parameters \(w\), \(b\) are updated
+simultaneously.\\
+The gradient is defined as: \[
+\begin{align}
+\frac{\partial J(w,b)}{\partial w}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})x^{(i)} \tag{4}\\
+  \frac{\partial J(w,b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)}) \tag{5}\\
+\end{align}
+\]
+
+Here \emph{simultaniously} means that you calculate the partial
+derivatives for all the parameters before updating any of the
+parameters.
+
+    \#\# Implement Gradient Descent You will implement gradient descent
+algorithm for one feature. You will need three functions. -
+\texttt{compute\_gradient} implementing equation (4) and (5) above -
+\texttt{compute\_cost} implementing equation (2) above (code from
+previous lab) - \texttt{gradient\_descent}, utilizing compute\_gradient
+and compute\_cost
+
+Conventions: - The naming of python variables containing partial
+derivatives follows this pattern,\(\frac{\partial J(w,b)}{\partial b}\)
+will be \texttt{dj\_db}. - w.r.t is With Respect To, as in partial
+derivative of \(J(wb)\) With Respect To \(b\).
+
+    \#\#\# compute\_gradient \texttt{compute\_gradient} implements (4) and
+(5) above and returns
+\(\frac{\partial J(w,b)}{\partial w}\),\(\frac{\partial J(w,b)}{\partial b}\).
+The embedded comments describe the operations.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{4}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{def} \PY{n+nf}{compute\PYZus{}gradient}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{w}\PY{p}{,} \PY{n}{b}\PY{p}{)}\PY{p}{:} 
+    \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}}
+\PY{l+s+sd}{    Computes the gradient for linear regression }
+\PY{l+s+sd}{    Args:}
+\PY{l+s+sd}{      x (ndarray (m,)): Data, m examples }
+\PY{l+s+sd}{      y (ndarray (m,)): target values}
+\PY{l+s+sd}{      w,b (scalar)    : model parameters  }
+\PY{l+s+sd}{    Returns}
+\PY{l+s+sd}{      dj\PYZus{}dw (scalar): The gradient of the cost w.r.t. the parameters w}
+\PY{l+s+sd}{      dj\PYZus{}db (scalar): The gradient of the cost w.r.t. the parameter b     }
+\PY{l+s+sd}{     \PYZdq{}\PYZdq{}\PYZdq{}}
+    
+    \PY{c+c1}{\PYZsh{} Number of training examples}
+    \PY{n}{m} \PY{o}{=} \PY{n}{x}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}    
+    \PY{n}{dj\PYZus{}dw} \PY{o}{=} \PY{l+m+mi}{0}
+    \PY{n}{dj\PYZus{}db} \PY{o}{=} \PY{l+m+mi}{0}
+    
+    \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{m}\PY{p}{)}\PY{p}{:}  
+        \PY{n}{f\PYZus{}wb} \PY{o}{=} \PY{n}{w} \PY{o}{*} \PY{n}{x}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{+} \PY{n}{b} 
+        \PY{n}{dj\PYZus{}dw\PYZus{}i} \PY{o}{=} \PY{p}{(}\PY{n}{f\PYZus{}wb} \PY{o}{\PYZhy{}} \PY{n}{y}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{p}{)} \PY{o}{*} \PY{n}{x}\PY{p}{[}\PY{n}{i}\PY{p}{]} 
+        \PY{n}{dj\PYZus{}db\PYZus{}i} \PY{o}{=} \PY{n}{f\PYZus{}wb} \PY{o}{\PYZhy{}} \PY{n}{y}\PY{p}{[}\PY{n}{i}\PY{p}{]} 
+        \PY{n}{dj\PYZus{}db} \PY{o}{+}\PY{o}{=} \PY{n}{dj\PYZus{}db\PYZus{}i}
+        \PY{n}{dj\PYZus{}dw} \PY{o}{+}\PY{o}{=} \PY{n}{dj\PYZus{}dw\PYZus{}i} 
+    \PY{n}{dj\PYZus{}dw} \PY{o}{=} \PY{n}{dj\PYZus{}dw} \PY{o}{/} \PY{n}{m} 
+    \PY{n}{dj\PYZus{}db} \PY{o}{=} \PY{n}{dj\PYZus{}db} \PY{o}{/} \PY{n}{m} 
+        
+    \PY{k}{return} \PY{n}{dj\PYZus{}dw}\PY{p}{,} \PY{n}{dj\PYZus{}db}
+\end{Verbatim}
+\end{tcolorbox}
+
+    
+
+    The lectures described how gradient descent utilizes the partial
+derivative of the cost with respect to a parameter at a point to update
+that parameter.\\
+Let's use our \texttt{compute\_gradient} function to find and plot some
+partial derivatives of our cost function relative to one of the
+parameters, \(w_0\).
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{ }{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{plt\PYZus{}gradients}\PY{p}{(}\PY{n}{x\PYZus{}train}\PY{p}{,}\PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{compute\PYZus{}cost}\PY{p}{,} \PY{n}{compute\PYZus{}gradient}\PY{p}{)}
+\PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    Above, the left plot shows \(\frac{\partial J(w,b)}{\partial w}\) or the
+slope of the cost curve relative to \(w\) at three points. On the right
+side of the plot, the derivative is positive, while on the left it is
+negative. Due to the `bowl shape', the derivatives will always lead
+gradient descent toward the bottom where the gradient is zero.
+
+The left plot has fixed \(b=100\). Gradient descent will utilize both
+\(\frac{\partial J(w,b)}{\partial w}\) and
+\(\frac{\partial J(w,b)}{\partial b}\) to update parameters. The `quiver
+plot' on the right provides a means of viewing the gradient of both
+parameters. The arrow sizes reflect the magnitude of the gradient at
+that point. The direction and slope of the arrow reflects the ratio of
+\(\frac{\partial J(w,b)}{\partial w}\) and
+\(\frac{\partial J(w,b)}{\partial b}\) at that point. Note that the
+gradient points \emph{away} from the minimum. Review equation (3) above.
+The scaled gradient is \emph{subtracted} from the current value of \(w\)
+or \(b\). This moves the parameter in a direction that will reduce cost.
+
+    \#\#\# Gradient Descent Now that gradients can be computed, gradient
+descent, described in equation (3) above can be implemented below in
+\texttt{gradient\_descent}. The details of the implementation are
+described in the comments. Below, you will utilize this function to find
+optimal values of \(w\) and \(b\) on the training data.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{5}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{def} \PY{n+nf}{gradient\PYZus{}descent}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{w\PYZus{}in}\PY{p}{,} \PY{n}{b\PYZus{}in}\PY{p}{,} \PY{n}{alpha}\PY{p}{,} \PY{n}{num\PYZus{}iters}\PY{p}{,} \PY{n}{cost\PYZus{}function}\PY{p}{,} \PY{n}{gradient\PYZus{}function}\PY{p}{)}\PY{p}{:} 
+    \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}}
+\PY{l+s+sd}{    Performs gradient descent to fit w,b. Updates w,b by taking }
+\PY{l+s+sd}{    num\PYZus{}iters gradient steps with learning rate alpha}
+\PY{l+s+sd}{    }
+\PY{l+s+sd}{    Args:}
+\PY{l+s+sd}{      x (ndarray (m,))  : Data, m examples }
+\PY{l+s+sd}{      y (ndarray (m,))  : target values}
+\PY{l+s+sd}{      w\PYZus{}in,b\PYZus{}in (scalar): initial values of model parameters  }
+\PY{l+s+sd}{      alpha (float):     Learning rate}
+\PY{l+s+sd}{      num\PYZus{}iters (int):   number of iterations to run gradient descent}
+\PY{l+s+sd}{      cost\PYZus{}function:     function to call to produce cost}
+\PY{l+s+sd}{      gradient\PYZus{}function: function to call to produce gradient}
+\PY{l+s+sd}{      }
+\PY{l+s+sd}{    Returns:}
+\PY{l+s+sd}{      w (scalar): Updated value of parameter after running gradient descent}
+\PY{l+s+sd}{      b (scalar): Updated value of parameter after running gradient descent}
+\PY{l+s+sd}{      J\PYZus{}history (List): History of cost values}
+\PY{l+s+sd}{      p\PYZus{}history (list): History of parameters [w,b] }
+\PY{l+s+sd}{      \PYZdq{}\PYZdq{}\PYZdq{}}
+    
+    \PY{n}{w} \PY{o}{=} \PY{n}{copy}\PY{o}{.}\PY{n}{deepcopy}\PY{p}{(}\PY{n}{w\PYZus{}in}\PY{p}{)} \PY{c+c1}{\PYZsh{} avoid modifying global w\PYZus{}in}
+    \PY{c+c1}{\PYZsh{} An array to store cost J and w\PYZsq{}s at each iteration primarily for graphing later}
+    \PY{n}{J\PYZus{}history} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+    \PY{n}{p\PYZus{}history} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+    \PY{n}{b} \PY{o}{=} \PY{n}{b\PYZus{}in}
+    \PY{n}{w} \PY{o}{=} \PY{n}{w\PYZus{}in}
+    
+    \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{num\PYZus{}iters}\PY{p}{)}\PY{p}{:}
+        \PY{c+c1}{\PYZsh{} Calculate the gradient and update the parameters using gradient\PYZus{}function}
+        \PY{n}{dj\PYZus{}dw}\PY{p}{,} \PY{n}{dj\PYZus{}db} \PY{o}{=} \PY{n}{gradient\PYZus{}function}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{w} \PY{p}{,} \PY{n}{b}\PY{p}{)}     
+
+        \PY{c+c1}{\PYZsh{} Update Parameters using equation (3) above}
+        \PY{n}{b} \PY{o}{=} \PY{n}{b} \PY{o}{\PYZhy{}} \PY{n}{alpha} \PY{o}{*} \PY{n}{dj\PYZus{}db}                            
+        \PY{n}{w} \PY{o}{=} \PY{n}{w} \PY{o}{\PYZhy{}} \PY{n}{alpha} \PY{o}{*} \PY{n}{dj\PYZus{}dw}                            
+
+        \PY{c+c1}{\PYZsh{} Save cost J at each iteration}
+        \PY{k}{if} \PY{n}{i}\PY{o}{\PYZlt{}}\PY{l+m+mi}{100000}\PY{p}{:}      \PY{c+c1}{\PYZsh{} prevent resource exhaustion }
+            \PY{n}{J\PYZus{}history}\PY{o}{.}\PY{n}{append}\PY{p}{(} \PY{n}{cost\PYZus{}function}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{w} \PY{p}{,} \PY{n}{b}\PY{p}{)}\PY{p}{)}
+            \PY{n}{p\PYZus{}history}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{p}{[}\PY{n}{w}\PY{p}{,}\PY{n}{b}\PY{p}{]}\PY{p}{)}
+        \PY{c+c1}{\PYZsh{} Print cost every at intervals 10 times or as many iterations if \PYZlt{} 10}
+        \PY{k}{if} \PY{n}{i}\PY{o}{\PYZpc{}} \PY{n}{math}\PY{o}{.}\PY{n}{ceil}\PY{p}{(}\PY{n}{num\PYZus{}iters}\PY{o}{/}\PY{l+m+mi}{10}\PY{p}{)} \PY{o}{==} \PY{l+m+mi}{0}\PY{p}{:}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+sa}{f}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Iteration }\PY{l+s+si}{\PYZob{}}\PY{n}{i}\PY{l+s+si}{:}\PY{l+s+s2}{4}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{: Cost }\PY{l+s+si}{\PYZob{}}\PY{n}{J\PYZus{}history}\PY{p}{[}\PY{o}{\PYZhy{}}\PY{l+m+mi}{1}\PY{p}{]}\PY{l+s+si}{:}\PY{l+s+s2}{0.2e}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{ }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                  \PY{l+s+sa}{f}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{dj\PYZus{}dw: }\PY{l+s+si}{\PYZob{}}\PY{n}{dj\PYZus{}dw}\PY{l+s+si}{:}\PY{l+s+s2}{ 0.3e}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{, dj\PYZus{}db: }\PY{l+s+si}{\PYZob{}}\PY{n}{dj\PYZus{}db}\PY{l+s+si}{:}\PY{l+s+s2}{ 0.3e}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{  }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}
+                  \PY{l+s+sa}{f}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{w: }\PY{l+s+si}{\PYZob{}}\PY{n}{w}\PY{l+s+si}{:}\PY{l+s+s2}{ 0.3e}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{, b:}\PY{l+s+si}{\PYZob{}}\PY{n}{b}\PY{l+s+si}{:}\PY{l+s+s2}{ 0.5e}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+ 
+    \PY{k}{return} \PY{n}{w}\PY{p}{,} \PY{n}{b}\PY{p}{,} \PY{n}{J\PYZus{}history}\PY{p}{,} \PY{n}{p\PYZus{}history} \PY{c+c1}{\PYZsh{}return w and J,w history for graphing}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{6}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{c+c1}{\PYZsh{} initialize parameters}
+\PY{n}{w\PYZus{}init} \PY{o}{=} \PY{l+m+mi}{0}
+\PY{n}{b\PYZus{}init} \PY{o}{=} \PY{l+m+mi}{0}
+\PY{c+c1}{\PYZsh{} some gradient descent settings}
+\PY{n}{iterations} \PY{o}{=} \PY{l+m+mi}{10000}
+\PY{n}{tmp\PYZus{}alpha} \PY{o}{=} \PY{l+m+mf}{1.0e\PYZhy{}2}
+\PY{c+c1}{\PYZsh{} run gradient descent}
+\PY{n}{w\PYZus{}final}\PY{p}{,} \PY{n}{b\PYZus{}final}\PY{p}{,} \PY{n}{J\PYZus{}hist}\PY{p}{,} \PY{n}{p\PYZus{}hist} \PY{o}{=} \PY{n}{gradient\PYZus{}descent}\PY{p}{(}\PY{n}{x\PYZus{}train} \PY{p}{,}\PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{w\PYZus{}init}\PY{p}{,} \PY{n}{b\PYZus{}init}\PY{p}{,} \PY{n}{tmp\PYZus{}alpha}\PY{p}{,} 
+                                                    \PY{n}{iterations}\PY{p}{,} \PY{n}{compute\PYZus{}cost}\PY{p}{,} \PY{n}{compute\PYZus{}gradient}\PY{p}{)}
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+sa}{f}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{(w,b) found by gradient descent: (}\PY{l+s+si}{\PYZob{}}\PY{n}{w\PYZus{}final}\PY{l+s+si}{:}\PY{l+s+s2}{8.4f}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{,}\PY{l+s+si}{\PYZob{}}\PY{n}{b\PYZus{}final}\PY{l+s+si}{:}\PY{l+s+s2}{8.4f}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{)}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Iteration    0: Cost 7.93e+04  dj\_dw: -6.500e+02, dj\_db: -4.000e+02   w:
+6.500e+00, b: 4.00000e+00
+Iteration 1000: Cost 3.41e+00  dj\_dw: -3.712e-01, dj\_db:  6.007e-01   w:
+1.949e+02, b: 1.08228e+02
+Iteration 2000: Cost 7.93e-01  dj\_dw: -1.789e-01, dj\_db:  2.895e-01   w:
+1.975e+02, b: 1.03966e+02
+Iteration 3000: Cost 1.84e-01  dj\_dw: -8.625e-02, dj\_db:  1.396e-01   w:
+1.988e+02, b: 1.01912e+02
+Iteration 4000: Cost 4.28e-02  dj\_dw: -4.158e-02, dj\_db:  6.727e-02   w:
+1.994e+02, b: 1.00922e+02
+Iteration 5000: Cost 9.95e-03  dj\_dw: -2.004e-02, dj\_db:  3.243e-02   w:
+1.997e+02, b: 1.00444e+02
+Iteration 6000: Cost 2.31e-03  dj\_dw: -9.660e-03, dj\_db:  1.563e-02   w:
+1.999e+02, b: 1.00214e+02
+Iteration 7000: Cost 5.37e-04  dj\_dw: -4.657e-03, dj\_db:  7.535e-03   w:
+1.999e+02, b: 1.00103e+02
+Iteration 8000: Cost 1.25e-04  dj\_dw: -2.245e-03, dj\_db:  3.632e-03   w:
+2.000e+02, b: 1.00050e+02
+Iteration 9000: Cost 2.90e-05  dj\_dw: -1.082e-03, dj\_db:  1.751e-03   w:
+2.000e+02, b: 1.00024e+02
+(w,b) found by gradient descent: (199.9929,100.0116)
+    \end{Verbatim}
+
+    Take a moment and note some characteristics of the gradient descent
+process printed above.
+
+\begin{itemize}
+\tightlist
+\item
+  The cost starts large and rapidly declines as described in the slide
+  from the lecture.
+\item
+  The partial derivatives, \texttt{dj\_dw}, and \texttt{dj\_db} also get
+  smaller, rapidly at first and then more slowly. As shown in the
+  diagram from the lecture, as the process nears the `bottom of the
+  bowl' progress is slower due to the smaller value of the derivative at
+  that point.
+\item
+  progress slows though the learning rate, alpha, remains fixed
+\end{itemize}
+
+    \hypertarget{cost-versus-iterations-of-gradient-descent}{%
+\subsubsection{Cost versus iterations of gradient
+descent}\label{cost-versus-iterations-of-gradient-descent}}
+
+A plot of cost versus iterations is a useful measure of progress in
+gradient descent. Cost should always decrease in successful runs. The
+change in cost is so rapid initially, it is useful to plot the initial
+decent on a different scale than the final descent. In the plots below,
+note the scale of cost on the axes and the iteration step.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{7}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{c+c1}{\PYZsh{} plot cost versus iteration  }
+\PY{n}{fig}\PY{p}{,} \PY{p}{(}\PY{n}{ax1}\PY{p}{,} \PY{n}{ax2}\PY{p}{)} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{,} \PY{n}{constrained\PYZus{}layout}\PY{o}{=}\PY{k+kc}{True}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,}\PY{l+m+mi}{4}\PY{p}{)}\PY{p}{)}
+\PY{n}{ax1}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{J\PYZus{}hist}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{100}\PY{p}{]}\PY{p}{)}
+\PY{n}{ax2}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{l+m+mi}{1000} \PY{o}{+} \PY{n}{np}\PY{o}{.}\PY{n}{arange}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{J\PYZus{}hist}\PY{p}{[}\PY{l+m+mi}{1000}\PY{p}{:}\PY{p}{]}\PY{p}{)}\PY{p}{)}\PY{p}{,} \PY{n}{J\PYZus{}hist}\PY{p}{[}\PY{l+m+mi}{1000}\PY{p}{:}\PY{p}{]}\PY{p}{)}
+\PY{n}{ax1}\PY{o}{.}\PY{n}{set\PYZus{}title}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Cost vs. iteration(start)}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{;}  \PY{n}{ax2}\PY{o}{.}\PY{n}{set\PYZus{}title}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Cost vs. iteration (end)}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\PY{n}{ax1}\PY{o}{.}\PY{n}{set\PYZus{}ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cost}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}            \PY{p}{;}  \PY{n}{ax2}\PY{o}{.}\PY{n}{set\PYZus{}ylabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Cost}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} 
+\PY{n}{ax1}\PY{o}{.}\PY{n}{set\PYZus{}xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{iteration step}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}  \PY{p}{;}  \PY{n}{ax2}\PY{o}{.}\PY{n}{set\PYZus{}xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{iteration step}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} 
+\PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_22_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \hypertarget{predictions}{%
+\subsubsection{Predictions}\label{predictions}}
+
+Now that you have discovered the optimal values for the parameters \(w\)
+and \(b\), you can now use the model to predict housing values based on
+our learned parameters. As expected, the predicted values are nearly the
+same as the training values for the same housing. Further, the value not
+in the prediction is in line with the expected value.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{8}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+sa}{f}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{1000 sqft house prediction }\PY{l+s+si}{\PYZob{}}\PY{n}{w\PYZus{}final}\PY{o}{*}\PY{l+m+mf}{1.0} \PY{o}{+} \PY{n}{b\PYZus{}final}\PY{l+s+si}{:}\PY{l+s+s2}{0.1f}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{ Thousand dollars}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+sa}{f}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{1200 sqft house prediction }\PY{l+s+si}{\PYZob{}}\PY{n}{w\PYZus{}final}\PY{o}{*}\PY{l+m+mf}{1.2} \PY{o}{+} \PY{n}{b\PYZus{}final}\PY{l+s+si}{:}\PY{l+s+s2}{0.1f}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{ Thousand dollars}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+sa}{f}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{2000 sqft house prediction }\PY{l+s+si}{\PYZob{}}\PY{n}{w\PYZus{}final}\PY{o}{*}\PY{l+m+mf}{2.0} \PY{o}{+} \PY{n}{b\PYZus{}final}\PY{l+s+si}{:}\PY{l+s+s2}{0.1f}\PY{l+s+si}{\PYZcb{}}\PY{l+s+s2}{ Thousand dollars}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+1000 sqft house prediction 300.0 Thousand dollars
+1200 sqft house prediction 340.0 Thousand dollars
+2000 sqft house prediction 500.0 Thousand dollars
+    \end{Verbatim}
+
+    \#\# Plotting You can show the progress of gradient descent during its
+execution by plotting the cost over iterations on a contour plot of the
+cost(w,b).
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{9}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{fig}\PY{p}{,} \PY{n}{ax} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,} \PY{l+m+mi}{6}\PY{p}{)}\PY{p}{)}
+\PY{n}{plt\PYZus{}contour\PYZus{}wgrad}\PY{p}{(}\PY{n}{x\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{p\PYZus{}hist}\PY{p}{,} \PY{n}{ax}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_26_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    Above, the contour plot shows the \(cost(w,b)\) over a range of \(w\)
+and \(b\). Cost levels are represented by the rings. Overlayed, using
+red arrows, is the path of gradient descent. Here are some things to
+note: - The path makes steady (monotonic) progress toward its goal. -
+initial steps are much larger than the steps near the goal.
+
+    \textbf{Zooming in}, we can see that final steps of gradient descent.
+Note the distance between steps shrinks as the gradient approaches zero.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{10}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{fig}\PY{p}{,} \PY{n}{ax} \PY{o}{=} \PY{n}{plt}\PY{o}{.}\PY{n}{subplots}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,} \PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{12}\PY{p}{,} \PY{l+m+mi}{4}\PY{p}{)}\PY{p}{)}
+\PY{n}{plt\PYZus{}contour\PYZus{}wgrad}\PY{p}{(}\PY{n}{x\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{p\PYZus{}hist}\PY{p}{,} \PY{n}{ax}\PY{p}{,} \PY{n}{w\PYZus{}range}\PY{o}{=}\PY{p}{[}\PY{l+m+mi}{180}\PY{p}{,} \PY{l+m+mi}{220}\PY{p}{,} \PY{l+m+mf}{0.5}\PY{p}{]}\PY{p}{,} \PY{n}{b\PYZus{}range}\PY{o}{=}\PY{p}{[}\PY{l+m+mi}{80}\PY{p}{,} \PY{l+m+mi}{120}\PY{p}{,} \PY{l+m+mf}{0.5}\PY{p}{]}\PY{p}{,}
+            \PY{n}{contours}\PY{o}{=}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{5}\PY{p}{,}\PY{l+m+mi}{10}\PY{p}{,}\PY{l+m+mi}{20}\PY{p}{]}\PY{p}{,}\PY{n}{resolution}\PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_29_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    \#\#\# Increased Learning Rate
+
+\textless img align=``left'',
+src=``./images/C1\_W1\_Lab03\_alpha\_too\_big.PNG''
+style=``width:340px;height:240px;'' \textgreater{}
+
+In the lecture, there was a discussion related to the proper value of
+the learning rate, \(\alpha\) in equation(3). The larger \(\alpha\) is,
+the faster gradient descent will converge to a solution. But, if it is
+too large, gradient descent will diverge. Above you have an example of a
+solution which converges nicely.
+
+Let's try increasing the value of \(\alpha\) and see what happens:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{11}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{c+c1}{\PYZsh{} initialize parameters}
+\PY{n}{w\PYZus{}init} \PY{o}{=} \PY{l+m+mi}{0}
+\PY{n}{b\PYZus{}init} \PY{o}{=} \PY{l+m+mi}{0}
+\PY{c+c1}{\PYZsh{} set alpha to a large value}
+\PY{n}{iterations} \PY{o}{=} \PY{l+m+mi}{10}
+\PY{n}{tmp\PYZus{}alpha} \PY{o}{=} \PY{l+m+mf}{8.0e\PYZhy{}1}
+\PY{c+c1}{\PYZsh{} run gradient descent}
+\PY{n}{w\PYZus{}final}\PY{p}{,} \PY{n}{b\PYZus{}final}\PY{p}{,} \PY{n}{J\PYZus{}hist}\PY{p}{,} \PY{n}{p\PYZus{}hist} \PY{o}{=} \PY{n}{gradient\PYZus{}descent}\PY{p}{(}\PY{n}{x\PYZus{}train} \PY{p}{,}\PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{w\PYZus{}init}\PY{p}{,} \PY{n}{b\PYZus{}init}\PY{p}{,} \PY{n}{tmp\PYZus{}alpha}\PY{p}{,} 
+                                                    \PY{n}{iterations}\PY{p}{,} \PY{n}{compute\PYZus{}cost}\PY{p}{,} \PY{n}{compute\PYZus{}gradient}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Iteration    0: Cost 2.58e+05  dj\_dw: -6.500e+02, dj\_db: -4.000e+02   w:
+5.200e+02, b: 3.20000e+02
+Iteration    1: Cost 7.82e+05  dj\_dw:  1.130e+03, dj\_db:  7.000e+02   w:
+-3.840e+02, b:-2.40000e+02
+Iteration    2: Cost 2.37e+06  dj\_dw: -1.970e+03, dj\_db: -1.216e+03   w:
+1.192e+03, b: 7.32800e+02
+Iteration    3: Cost 7.19e+06  dj\_dw:  3.429e+03, dj\_db:  2.121e+03   w:
+-1.551e+03, b:-9.63840e+02
+Iteration    4: Cost 2.18e+07  dj\_dw: -5.974e+03, dj\_db: -3.691e+03   w:
+3.228e+03, b: 1.98886e+03
+Iteration    5: Cost 6.62e+07  dj\_dw:  1.040e+04, dj\_db:  6.431e+03   w:
+-5.095e+03, b:-3.15579e+03
+Iteration    6: Cost 2.01e+08  dj\_dw: -1.812e+04, dj\_db: -1.120e+04   w:
+9.402e+03, b: 5.80237e+03
+Iteration    7: Cost 6.09e+08  dj\_dw:  3.156e+04, dj\_db:  1.950e+04   w:
+-1.584e+04, b:-9.80139e+03
+Iteration    8: Cost 1.85e+09  dj\_dw: -5.496e+04, dj\_db: -3.397e+04   w:
+2.813e+04, b: 1.73730e+04
+Iteration    9: Cost 5.60e+09  dj\_dw:  9.572e+04, dj\_db:  5.916e+04   w:
+-4.845e+04, b:-2.99567e+04
+    \end{Verbatim}
+
+    Above, \(w\) and \(b\) are bouncing back and forth between positive and
+negative with the absolute value increasing with each iteration.
+Further, each iteration \(\frac{\partial J(w,b)}{\partial w}\) changes
+sign and cost is increasing rather than decreasing. This is a clear sign
+that the \emph{learning rate is too large} and the solution is
+diverging. Let's visualize this with a plot.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{12}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{plt\PYZus{}divergence}\PY{p}{(}\PY{n}{p\PYZus{}hist}\PY{p}{,} \PY{n}{J\PYZus{}hist}\PY{p}{,}\PY{n}{x\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{)}
+\PY{n}{plt}\PY{o}{.}\PY{n}{show}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{center}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_33_0.png}
+    \end{center}
+    { \hspace*{\fill} \\}
+    
+    Above, the left graph shows \(w\)'s progression over the first few steps
+of gradient descent. \(w\) oscillates from positive to negative and cost
+grows rapidly. Gradient Descent is operating on both \(w\) and \(b\)
+simultaneously, so one needs the 3-D plot on the right for the complete
+picture.
+
+    \hypertarget{congratulations}{%
+\subsection{Congratulations!}\label{congratulations}}
+
+In this lab you: - delved into the details of gradient descent for a
+single variable. - developed a routine to compute the gradient -
+visualized what the gradient is - completed a gradient descent routine -
+utilized gradient descent to find parameters - examined the impact of
+sizing the learning rate
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{ }{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+
+\end{Verbatim}
+\end{tcolorbox}
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+\end{document}
