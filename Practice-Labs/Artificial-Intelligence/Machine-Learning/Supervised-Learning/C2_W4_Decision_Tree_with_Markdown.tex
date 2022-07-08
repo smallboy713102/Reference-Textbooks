@@ -1,0 +1,1423 @@
+\documentclass[11pt]{article}
+
+    \usepackage[breakable]{tcolorbox}
+    \usepackage{parskip} % Stop auto-indenting (to mimic markdown behaviour)
+    
+    \usepackage{iftex}
+    \ifPDFTeX
+    	\usepackage[T1]{fontenc}
+    	\usepackage{mathpazo}
+    \else
+    	\usepackage{fontspec}
+    \fi
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % Maintain compatibility with old templates. Remove in nbconvert 6.0
+    \let\Oldincludegraphics\includegraphics
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionFormat{nocaption}{}
+    \captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+
+    \usepackage[Export]{adjustbox} % Used to constrain images to a maximum size
+    \adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+    \usepackage{float}
+    \floatplacement{figure}{H} % forces figures to be placed at the correct location
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range
+    \makeatletter % fix for grffile with XeLaTeX
+    \def\Gread@@xetex#1{%
+      \IfFileExists{"\Gin@base".bb}%
+      {\Gread@eps{\Gin@base.bb}}%
+      {\Gread@@xetex@aux#1}%
+    }
+    \makeatother
+
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    % The default LaTeX title has an obnoxious amount of whitespace. By default,
+    % titling removes some of it. It also provides customization options.
+    \usepackage{titling}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    \usepackage{mathrsfs}
+    
+
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+    \definecolor{ansi-default-inverse-fg}{HTML}{FFFFFF}
+    \definecolor{ansi-default-inverse-bg}{HTML}{000000}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatibility definitions
+    \def\gt{>}
+    \def\lt{<}
+    \let\Oldtex\TeX
+    \let\Oldlatex\LaTeX
+    \renewcommand{\TeX}{\textrm{\Oldtex}}
+    \renewcommand{\LaTeX}{\textrm{\Oldlatex}}
+    % Document parameters
+    % Document title
+    \title{C2\_W4\_Decision\_Tree\_with\_Markdown}
+    
+    
+    
+    
+    
+% Pygments definitions
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % For linebreaks inside Verbatim environment from package fancyvrb. 
+    \makeatletter
+        \newbox\Wrappedcontinuationbox 
+        \newbox\Wrappedvisiblespacebox 
+        \newcommand*\Wrappedvisiblespace {\textcolor{red}{\textvisiblespace}} 
+        \newcommand*\Wrappedcontinuationsymbol {\textcolor{red}{\llap{\tiny$\m@th\hookrightarrow$}}} 
+        \newcommand*\Wrappedcontinuationindent {3ex } 
+        \newcommand*\Wrappedafterbreak {\kern\Wrappedcontinuationindent\copy\Wrappedcontinuationbox} 
+        % Take advantage of the already applied Pygments mark-up to insert 
+        % potential linebreaks for TeX processing. 
+        %        {, <, #, %, $, ' and ": go to next line. 
+        %        _, }, ^, &, >, - and ~: stay at end of broken line. 
+        % Use of \textquotesingle for straight quote. 
+        \newcommand*\Wrappedbreaksatspecials {% 
+            \def\PYGZus{\discretionary{\char`\_}{\Wrappedafterbreak}{\char`\_}}% 
+            \def\PYGZob{\discretionary{}{\Wrappedafterbreak\char`\{}{\char`\{}}% 
+            \def\PYGZcb{\discretionary{\char`\}}{\Wrappedafterbreak}{\char`\}}}% 
+            \def\PYGZca{\discretionary{\char`\^}{\Wrappedafterbreak}{\char`\^}}% 
+            \def\PYGZam{\discretionary{\char`\&}{\Wrappedafterbreak}{\char`\&}}% 
+            \def\PYGZlt{\discretionary{}{\Wrappedafterbreak\char`\<}{\char`\<}}% 
+            \def\PYGZgt{\discretionary{\char`\>}{\Wrappedafterbreak}{\char`\>}}% 
+            \def\PYGZsh{\discretionary{}{\Wrappedafterbreak\char`\#}{\char`\#}}% 
+            \def\PYGZpc{\discretionary{}{\Wrappedafterbreak\char`\%}{\char`\%}}% 
+            \def\PYGZdl{\discretionary{}{\Wrappedafterbreak\char`\$}{\char`\$}}% 
+            \def\PYGZhy{\discretionary{\char`\-}{\Wrappedafterbreak}{\char`\-}}% 
+            \def\PYGZsq{\discretionary{}{\Wrappedafterbreak\textquotesingle}{\textquotesingle}}% 
+            \def\PYGZdq{\discretionary{}{\Wrappedafterbreak\char`\"}{\char`\"}}% 
+            \def\PYGZti{\discretionary{\char`\~}{\Wrappedafterbreak}{\char`\~}}% 
+        } 
+        % Some characters . , ; ? ! / are not pygmentized. 
+        % This macro makes them "active" and they will insert potential linebreaks 
+        \newcommand*\Wrappedbreaksatpunct {% 
+            \lccode`\~`\.\lowercase{\def~}{\discretionary{\hbox{\char`\.}}{\Wrappedafterbreak}{\hbox{\char`\.}}}% 
+            \lccode`\~`\,\lowercase{\def~}{\discretionary{\hbox{\char`\,}}{\Wrappedafterbreak}{\hbox{\char`\,}}}% 
+            \lccode`\~`\;\lowercase{\def~}{\discretionary{\hbox{\char`\;}}{\Wrappedafterbreak}{\hbox{\char`\;}}}% 
+            \lccode`\~`\:\lowercase{\def~}{\discretionary{\hbox{\char`\:}}{\Wrappedafterbreak}{\hbox{\char`\:}}}% 
+            \lccode`\~`\?\lowercase{\def~}{\discretionary{\hbox{\char`\?}}{\Wrappedafterbreak}{\hbox{\char`\?}}}% 
+            \lccode`\~`\!\lowercase{\def~}{\discretionary{\hbox{\char`\!}}{\Wrappedafterbreak}{\hbox{\char`\!}}}% 
+            \lccode`\~`\/\lowercase{\def~}{\discretionary{\hbox{\char`\/}}{\Wrappedafterbreak}{\hbox{\char`\/}}}% 
+            \catcode`\.\active
+            \catcode`\,\active 
+            \catcode`\;\active
+            \catcode`\:\active
+            \catcode`\?\active
+            \catcode`\!\active
+            \catcode`\/\active 
+            \lccode`\~`\~ 	
+        }
+    \makeatother
+
+    \let\OriginalVerbatim=\Verbatim
+    \makeatletter
+    \renewcommand{\Verbatim}[1][1]{%
+        %\parskip\z@skip
+        \sbox\Wrappedcontinuationbox {\Wrappedcontinuationsymbol}%
+        \sbox\Wrappedvisiblespacebox {\FV@SetupFont\Wrappedvisiblespace}%
+        \def\FancyVerbFormatLine ##1{\hsize\linewidth
+            \vtop{\raggedright\hyphenpenalty\z@\exhyphenpenalty\z@
+                \doublehyphendemerits\z@\finalhyphendemerits\z@
+                \strut ##1\strut}%
+        }%
+        % If the linebreak is at a space, the latter will be displayed as visible
+        % space at end of first line, and a continuation symbol starts next line.
+        % Stretch/shrink are however usually zero for typewriter font.
+        \def\FV@Space {%
+            \nobreak\hskip\z@ plus\fontdimen3\font minus\fontdimen4\font
+            \discretionary{\copy\Wrappedvisiblespacebox}{\Wrappedafterbreak}
+            {\kern\fontdimen2\font}%
+        }%
+        
+        % Allow breaks at special characters using \PYG... macros.
+        \Wrappedbreaksatspecials
+        % Breaks at punctuation characters . , ; ? ! and / need catcode=\active 	
+        \OriginalVerbatim[#1,codes*=\Wrappedbreaksatpunct]%
+    }
+    \makeatother
+
+    % Exact colors from NB
+    \definecolor{incolor}{HTML}{303F9F}
+    \definecolor{outcolor}{HTML}{D84315}
+    \definecolor{cellborder}{HTML}{CFCFCF}
+    \definecolor{cellbackground}{HTML}{F7F7F7}
+    
+    % prompt
+    \makeatletter
+    \newcommand{\boxspacing}{\kern\kvtcb@left@rule\kern\kvtcb@boxsep}
+    \makeatother
+    \newcommand{\prompt}[4]{
+        \ttfamily\llap{{\color{#2}[#3]:\hspace{3pt}#4}}\vspace{-\baselineskip}
+    }
+    
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+\begin{document}
+    
+    \maketitle
+    
+    
+
+    
+    \hypertarget{practice-lab-decision-trees}{%
+\section{Practice Lab: Decision
+Trees}\label{practice-lab-decision-trees}}
+
+In this exercise, you will implement a decision tree from scratch and
+apply it to the task of classifying whether a mushroom is edible or
+poisonous.
+
+\hypertarget{outline}{%
+\section{Outline}\label{outline}}
+
+\begin{itemize}
+\tightlist
+\item
+  Section \ref{1}
+\item
+  Section \ref{2}
+\item
+  Section \ref{3}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Section \ref{31}
+  \end{itemize}
+\item
+  Section \ref{4}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Section \ref{41}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Section \ref{ex01}
+    \end{itemize}
+  \item
+    Section \ref{42}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Section \ref{ex02}
+    \end{itemize}
+  \item
+    Section \ref{43}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Section \ref{ex03}
+    \end{itemize}
+  \item
+    Section \ref{44}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Section \ref{ex04}
+    \end{itemize}
+  \end{itemize}
+\item
+  Section \ref{5}
+\end{itemize}
+
+    \#\# 1 - Packages
+
+First, let's run the cell below to import all the packages that you will
+need during this assignment. - \href{www.numpy.org}{numpy} is the
+fundamental package for working with matrices in Python. -
+\href{http://matplotlib.org}{matplotlib} is a famous library to plot
+graphs in Python. - \texttt{utils.py} contains helper functions for this
+assignment. You do not need to modify code in this file.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{1}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
+\PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
+\PY{k+kn}{from} \PY{n+nn}{public\PYZus{}tests} \PY{k+kn}{import} \PY{o}{*}
+
+\PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
+\end{Verbatim}
+\end{tcolorbox}
+
+    \#\# 2 - Problem Statement
+
+Suppose you are starting a company that grows and sells wild mushrooms.
+- Since not all mushrooms are edible, you'd like to be able to tell
+whether a given mushroom is edible or poisonous based on it's physical
+attributes - You have some existing data that you can use for this task.
+
+Can you use the data to help you identify which mushrooms can be sold
+safely?
+
+Note: The dataset used is for illustrative purposes only. It is not
+meant to be a guide on identifying edible mushrooms.
+
+\#\# 3 - Dataset
+
+You will start by loading the dataset for this task. The dataset you
+have collected is as follows:
+
+\begin{longtable}[]{@{}cccc@{}}
+\toprule
+Cap Color & Stalk Shape & Solitary & Edible\tabularnewline
+\midrule
+\endhead
+Brown & Tapering & Yes & 1\tabularnewline
+Brown & Enlarging & Yes & 1\tabularnewline
+Brown & Enlarging & No & 0\tabularnewline
+Brown & Enlarging & No & 0\tabularnewline
+Brown & Tapering & Yes & 1\tabularnewline
+Red & Tapering & Yes & 0\tabularnewline
+Red & Enlarging & No & 0\tabularnewline
+Brown & Enlarging & Yes & 1\tabularnewline
+Red & Tapering & No & 1\tabularnewline
+Brown & Enlarging & No & 0\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{itemize}
+\tightlist
+\item
+  You have 10 examples of mushrooms. For each example, you have
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Three features
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Cap Color (\texttt{Brown} or \texttt{Red}),
+    \item
+      Stalk Shape (\texttt{Tapering} or \texttt{Enlarging}), and
+    \item
+      Solitary (\texttt{Yes} or \texttt{No})
+    \end{itemize}
+  \item
+    Label
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Edible (\texttt{1} indicating yes or \texttt{0} indicating
+      poisonous)
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\#\#\# 3.1 One hot encoded dataset For ease of implementation, we have
+one-hot encoded the features (turned them into 0 or 1 valued features)
+
+\begin{longtable}[]{@{}cccc@{}}
+\toprule
+Brown Cap & Tapering Stalk Shape & Solitary & Edible\tabularnewline
+\midrule
+\endhead
+1 & 1 & 1 & 1\tabularnewline
+1 & 0 & 1 & 1\tabularnewline
+1 & 0 & 0 & 0\tabularnewline
+1 & 0 & 0 & 0\tabularnewline
+1 & 1 & 1 & 1\tabularnewline
+0 & 1 & 1 & 0\tabularnewline
+0 & 0 & 0 & 0\tabularnewline
+1 & 0 & 1 & 1\tabularnewline
+0 & 1 & 0 & 1\tabularnewline
+1 & 0 & 0 & 0\tabularnewline
+\bottomrule
+\end{longtable}
+
+Therefore, - \texttt{X\_train} contains three features for each example
+- Brown Color (A value of \texttt{1} indicates ``Brown'' cap color and
+\texttt{0} indicates ``Red'' cap color) - Tapering Shape (A value of
+\texttt{1} indicates ``Tapering Stalk Shape'' and \texttt{0} indicates
+``Enlarging'' stalk shape) - Solitary (A value of \texttt{1} indicates
+``Yes'' and \texttt{0} indicates ``No'')
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{y\_train} is whether the mushroom is edible
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{y\ =\ 1} indicates edible
+  \item
+    \texttt{y\ =\ 0} indicates poisonous
+  \end{itemize}
+\end{itemize}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{2}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{X\PYZus{}train} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{p}{[}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{]}\PY{p}{)}
+\PY{n}{y\PYZus{}train} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \hypertarget{view-the-variables}{%
+\paragraph{View the variables}\label{view-the-variables}}
+
+Let's get more familiar with your dataset.\\
+- A good place to start is to just print out each variable and see what
+it contains.
+
+The code below prints the first few elements of \texttt{X\_train} and
+the type of the variable.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{3}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{First few elements of X\PYZus{}train:}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{X\PYZus{}train}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{5}\PY{p}{]}\PY{p}{)}
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Type of X\PYZus{}train:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n+nb}{type}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+First few elements of X\_train:
+ [[1 1 1]
+ [1 0 1]
+ [1 0 0]
+ [1 0 0]
+ [1 1 1]]
+Type of X\_train: <class 'numpy.ndarray'>
+    \end{Verbatim}
+
+    Now, let's do the same for \texttt{y\_train}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{4}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{First few elements of y\PYZus{}train:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{[}\PY{p}{:}\PY{l+m+mi}{5}\PY{p}{]}\PY{p}{)}
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Type of y\PYZus{}train:}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{n+nb}{type}\PY{p}{(}\PY{n}{y\PYZus{}train}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+First few elements of y\_train: [1 1 0 0 1]
+Type of y\_train: <class 'numpy.ndarray'>
+    \end{Verbatim}
+
+    \hypertarget{check-the-dimensions-of-your-variables}{%
+\paragraph{Check the dimensions of your
+variables}\label{check-the-dimensions-of-your-variables}}
+
+Another useful way to get familiar with your data is to view its
+dimensions.
+
+Please print the shape of \texttt{X\_train} and \texttt{y\_train} and
+see how many training examples you have in your dataset.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{5}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n+nb}{print} \PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{The shape of X\PYZus{}train is:}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{X\PYZus{}train}\PY{o}{.}\PY{n}{shape}\PY{p}{)}
+\PY{n+nb}{print} \PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{The shape of y\PYZus{}train is: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{o}{.}\PY{n}{shape}\PY{p}{)}
+\PY{n+nb}{print} \PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Number of training examples (m):}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n+nb}{len}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+The shape of X\_train is: (10, 3)
+The shape of y\_train is:  (10,)
+Number of training examples (m): 10
+    \end{Verbatim}
+
+    \#\# 4 - Decision Tree Refresher
+
+In this practice lab, you will build a decision tree based on the
+dataset provided.
+
+\begin{itemize}
+\tightlist
+\item
+  Recall that the steps for building a decision tree are as follows:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Start with all examples at the root node
+  \item
+    Calculate information gain for splitting on all possible features,
+    and pick the one with the highest information gain
+  \item
+    Split dataset according to the selected feature, and create left and
+    right branches of the tree
+  \item
+    Keep repeating splitting process until stopping criteria is met
+  \end{itemize}
+\item
+  In this lab, you'll implement the following functions, which will let
+  you split a node into left and right branches using the feature with
+  the highest information gain
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Calculate the entropy at a node
+  \item
+    Split the dataset at a node into left and right branches based on a
+    given feature
+  \item
+    Calculate the information gain from splitting on a given feature
+  \item
+    Choose the feature that maximizes information gain
+  \end{itemize}
+\item
+  We'll then use the helper functions you've implemented to build a
+  decision tree by repeating the splitting process until the stopping
+  criteria is met
+
+  \begin{itemize}
+  \tightlist
+  \item
+    For this lab, the stopping criteria we've chosen is setting a
+    maximum depth of 2
+  \end{itemize}
+\end{itemize}
+
+    \#\#\# 4.1 Calculate entropy
+
+First, you'll write a helper function called \texttt{compute\_entropy}
+that computes the entropy (measure of impurity) at a node. - The
+function takes in a numpy array (\texttt{y}) that indicates whether the
+examples in that node are edible (\texttt{1}) or poisonous(\texttt{0})
+
+Complete the \texttt{compute\_entropy()} function below to: * Compute
+\(p_1\), which is the fraction of examples that are edible (i.e.~have
+value = \texttt{1} in \texttt{y}) * The entropy is then calculated as
+
+\[H(p_1) = -p_1 \text{log}_2(p_1) - (1- p_1) \text{log}_2(1- p_1)\] *
+Note * The log is calculated with base \(2\) * For implementation
+purposes, \(0\text{log}_2(0) = 0\). That is, if \texttt{p\_1\ =\ 0} or
+\texttt{p\_1\ =\ 1}, set the entropy to \texttt{0} * Make sure to check
+that the data at a node is not empty (i.e.~\texttt{len(y)\ !=\ 0}).
+Return \texttt{0} if it is
+
+\#\#\# Exercise 1
+
+Please complete the \texttt{compute\_entropy()} function using the
+previous instructions.
+
+If you get stuck, you can check out the hints presented after the cell
+below to help you with the implementation.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{16}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{c+c1}{\PYZsh{} UNQ\PYZus{}C1}
+\PY{c+c1}{\PYZsh{} GRADED FUNCTION: compute\PYZus{}entropy}
+
+\PY{k}{def} \PY{n+nf}{compute\PYZus{}entropy}\PY{p}{(}\PY{n}{y}\PY{p}{)}\PY{p}{:}
+    \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}}
+\PY{l+s+sd}{    Computes the entropy for }
+\PY{l+s+sd}{    }
+\PY{l+s+sd}{    Args:}
+\PY{l+s+sd}{       y (ndarray): Numpy array indicating whether each example at a node is}
+\PY{l+s+sd}{           edible (`1`) or poisonous (`0`)}
+\PY{l+s+sd}{       }
+\PY{l+s+sd}{    Returns:}
+\PY{l+s+sd}{        entropy (float): Entropy at that node}
+\PY{l+s+sd}{        }
+\PY{l+s+sd}{    \PYZdq{}\PYZdq{}\PYZdq{}}
+    \PY{c+c1}{\PYZsh{} You need to return the following variables correctly}
+    \PY{n}{entropy} \PY{o}{=} \PY{l+m+mf}{0.}
+    
+    \PY{c+c1}{\PYZsh{}\PYZsh{}\PYZsh{} START CODE HERE \PYZsh{}\PYZsh{}\PYZsh{}}
+    \PY{k}{if} \PY{n+nb}{len}\PY{p}{(}\PY{n}{y}\PY{p}{)}\PY{p}{:}
+        \PY{c+c1}{\PYZsh{} Your code here to calculate the fraction of edible examples (i.e with value = 1 in y)}
+        \PY{n}{p1} \PY{o}{=} \PY{n+nb}{len}\PY{p}{(}\PY{n}{y}\PY{p}{[}\PY{n}{y} \PY{o}{==} \PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{/} \PY{n+nb}{len}\PY{p}{(}\PY{n}{y}\PY{p}{)}
+
+        \PY{c+c1}{\PYZsh{} For p1 = 0 and 1, set the entropy to 0 (to handle 0log0)}
+        \PY{k}{if} \PY{n}{p1} \PY{o}{!=} \PY{l+m+mi}{0} \PY{o+ow}{and} \PY{n}{p1} \PY{o}{!=} \PY{l+m+mi}{1}\PY{p}{:}
+            \PY{c+c1}{\PYZsh{} Your code here to calculate the entropy using the formula provided above}
+            \PY{n}{entropy} \PY{o}{=} \PY{o}{\PYZhy{}}\PY{n}{p1} \PY{o}{*} \PY{n}{np}\PY{o}{.}\PY{n}{log2}\PY{p}{(}\PY{n}{p1}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{p}{(}\PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{n}{p1}\PY{p}{)} \PY{o}{*} \PY{n}{np}\PY{o}{.}\PY{n}{log2}\PY{p}{(}\PY{l+m+mi}{1} \PY{o}{\PYZhy{}} \PY{n}{p1}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+            \PY{n}{entropy} \PY{o}{=} \PY{l+m+mi}{0}
+    \PY{c+c1}{\PYZsh{}\PYZsh{}\PYZsh{} END CODE HERE \PYZsh{}\PYZsh{}\PYZsh{}        }
+    
+    \PY{k}{return} \PY{n}{entropy}
+\end{Verbatim}
+\end{tcolorbox}
+
+    Click for hints
+
+\begin{itemize}
+\item
+  To calculate \texttt{p1} * You can get the subset of examples in
+  \texttt{y} that have the value \texttt{1} as \texttt{y{[}y\ ==\ 1{]}}
+  * You can use \texttt{len(y)} to get the number of examples in
+  \texttt{y}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    To calculate \texttt{entropy}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      np.log2 let's you calculate the logarithm to base 2 for a numpy
+      array
+    \item
+      If the value of \texttt{p1} is 0 or 1, make sure to set the
+      entropy to \texttt{0}
+    \end{itemize}
+  \end{itemize}
+
+  Click for more hints
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Here's how you can structure the overall implementation for this
+    function
+  \end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+ \KeywordTok{def}\NormalTok{ compute\_entropy(y):}
+
+     \CommentTok{\# You need to return the following variables correctly}
+\NormalTok{     entropy }\OperatorTok{=} \FloatTok{0.}
+
+     \CommentTok{\#\#\# START CODE HERE }\AlertTok{\#\#\#}
+     \ControlFlowTok{if} \BuiltInTok{len}\NormalTok{(y) }\OperatorTok{!=} \DecValTok{0}\NormalTok{:}
+         \CommentTok{\# Your code here to calculate the fraction of edible examples (i.e with value = 1 in y)}
+\NormalTok{         p1 }\OperatorTok{=}
+
+         \CommentTok{\# For p1 = 0 and 1, set the entropy to 0 (to handle 0log0)}
+         \ControlFlowTok{if}\NormalTok{ p1 }\OperatorTok{!=} \DecValTok{0} \KeywordTok{and}\NormalTok{ p1 }\OperatorTok{!=} \DecValTok{1}\NormalTok{:}
+             \CommentTok{\# Your code here to calculate the entropy using the formula provided above}
+\NormalTok{             entropy }\OperatorTok{=} 
+         \ControlFlowTok{else}\NormalTok{:}
+\NormalTok{             entropy }\OperatorTok{=} \FloatTok{0.} 
+     \CommentTok{\#\#\# }\RegionMarkerTok{END}\CommentTok{ CODE HERE }\AlertTok{\#\#\#}\CommentTok{        }
+
+     \ControlFlowTok{return}\NormalTok{ entropy}
+\end{Highlighting}
+\end{Shaded}
+
+  If you're still stuck, you can check the hints presented below to
+  figure out how to calculate \texttt{p1} and \texttt{entropy}.
+
+  Hint to calculate p1     You can compute p1 as p1 = len(y{[}y == 1{]})
+  / len(y)
+
+  Hint to calculate entropy     You can compute entropy as entropy = -p1
+  * np.log2(p1) - (1 - p1) * np.log2(1 - p1)
+\end{itemize}
+
+    You can check if your implementation was correct by running the
+following test code:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{17}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{c+c1}{\PYZsh{} Compute entropy at the root node (i.e. with all examples)}
+\PY{c+c1}{\PYZsh{} Since we have 5 edible and 5 non\PYZhy{}edible mushrooms, the entropy should be 1\PYZdq{}}
+
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Entropy at root node: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{compute\PYZus{}entropy}\PY{p}{(}\PY{n}{y\PYZus{}train}\PY{p}{)}\PY{p}{)} 
+
+\PY{c+c1}{\PYZsh{} UNIT TESTS}
+\PY{n}{compute\PYZus{}entropy\PYZus{}test}\PY{p}{(}\PY{n}{compute\PYZus{}entropy}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Entropy at root node:  1.0
+\textcolor{ansi-green-intense}{ All tests passed.}
+    \end{Verbatim}
+
+    \textbf{Expected Output}:
+
+Entropy at root node: 1.0
+
+    \#\#\# 4.2 Split dataset
+
+Next, you'll write a helper function called \texttt{split\_dataset} that
+takes in the data at a node and a feature to split on and splits it into
+left and right branches. Later in the lab, you'll implement code to
+calculate how good the split is.
+
+\begin{itemize}
+\tightlist
+\item
+  The function takes in the training data, the list of indices of data
+  points at that node, along with the feature to split on.
+\item
+  It splits the data and returns the subset of indices at the left and
+  the right branch.
+\item
+  For example, say we're starting at the root node (so
+  \texttt{node\_indices\ =\ {[}0,1,2,3,4,5,6,7,8,9{]}}), and we chose to
+  split on feature \texttt{0}, which is whether or not the example has a
+  brown cap.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The output of the function is then,
+    \texttt{left\_indices\ =\ {[}0,1,2,3,4,7,9{]}} and
+    \texttt{right\_indices\ =\ {[}5,6,8{]}}
+  \end{itemize}
+\end{itemize}
+
+\begin{longtable}[]{@{}ccccc@{}}
+\toprule
+Index & Brown Cap & Tapering Stalk Shape & Solitary &
+Edible\tabularnewline
+\midrule
+\endhead
+0 & 1 & 1 & 1 & 1\tabularnewline
+1 & 1 & 0 & 1 & 1\tabularnewline
+2 & 1 & 0 & 0 & 0\tabularnewline
+3 & 1 & 0 & 0 & 0\tabularnewline
+4 & 1 & 1 & 1 & 1\tabularnewline
+5 & 0 & 1 & 1 & 0\tabularnewline
+6 & 0 & 0 & 0 & 0\tabularnewline
+7 & 1 & 0 & 1 & 1\tabularnewline
+8 & 0 & 1 & 0 & 1\tabularnewline
+9 & 1 & 0 & 0 & 0\tabularnewline
+\bottomrule
+\end{longtable}
+
+\#\#\# Exercise 2
+
+Please complete the \texttt{split\_dataset()} function shown below
+
+\begin{itemize}
+\tightlist
+\item
+  For each index in \texttt{node\_indices}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If the value of \texttt{X} at that index for that feature is
+    \texttt{1}, add the index to \texttt{left\_indices}
+  \item
+    If the value of \texttt{X} at that index for that feature is
+    \texttt{0}, add the index to \texttt{right\_indices}
+  \end{itemize}
+\end{itemize}
+
+If you get stuck, you can check out the hints presented after the cell
+below to help you with the implementation.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{18}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{c+c1}{\PYZsh{} UNQ\PYZus{}C2}
+\PY{c+c1}{\PYZsh{} GRADED FUNCTION: split\PYZus{}dataset}
+
+\PY{k}{def} \PY{n+nf}{split\PYZus{}dataset}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{node\PYZus{}indices}\PY{p}{,} \PY{n}{feature}\PY{p}{)}\PY{p}{:}
+    \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}}
+\PY{l+s+sd}{    Splits the data at the given node into}
+\PY{l+s+sd}{    left and right branches}
+\PY{l+s+sd}{    }
+\PY{l+s+sd}{    Args:}
+\PY{l+s+sd}{        X (ndarray):             Data matrix of shape(n\PYZus{}samples, n\PYZus{}features)}
+\PY{l+s+sd}{        node\PYZus{}indices (ndarray):  List containing the active indices. I.e, the samples being considered at this step.}
+\PY{l+s+sd}{        feature (int):           Index of feature to split on}
+\PY{l+s+sd}{    }
+\PY{l+s+sd}{    Returns:}
+\PY{l+s+sd}{        left\PYZus{}indices (ndarray): Indices with feature value == 1}
+\PY{l+s+sd}{        right\PYZus{}indices (ndarray): Indices with feature value == 0}
+\PY{l+s+sd}{    \PYZdq{}\PYZdq{}\PYZdq{}}
+    
+    \PY{c+c1}{\PYZsh{} You need to return the following variables correctly}
+    \PY{n}{left\PYZus{}indices} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+    \PY{n}{right\PYZus{}indices} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+    
+    \PY{c+c1}{\PYZsh{}\PYZsh{}\PYZsh{} START CODE HERE \PYZsh{}\PYZsh{}\PYZsh{}}
+    \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n}{node\PYZus{}indices}\PY{p}{:}   
+        \PY{k}{if} \PY{n}{X}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{p}{[}\PY{n}{feature}\PY{p}{]} \PY{o}{==} \PY{l+m+mi}{1}\PY{p}{:}
+            \PY{n}{left\PYZus{}indices}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{i}\PY{p}{)}
+        \PY{k}{else}\PY{p}{:}
+            \PY{n}{right\PYZus{}indices}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{i}\PY{p}{)}  
+    \PY{c+c1}{\PYZsh{}\PYZsh{}\PYZsh{} END CODE HERE \PYZsh{}\PYZsh{}\PYZsh{}}
+        
+    \PY{k}{return} \PY{n}{left\PYZus{}indices}\PY{p}{,} \PY{n}{right\PYZus{}indices}
+\end{Verbatim}
+\end{tcolorbox}
+
+    Click for hints
+
+\begin{itemize}
+\item
+  Here's how you can structure the overall implementation for this
+  function ```python def split\_dataset(X, node\_indices, feature):
+
+\begin{verbatim}
+ # You need to return the following variables correctly
+ left_indices = []
+ right_indices = []
+
+ ### START CODE HERE ###
+ # Go through the indices of examples at that node
+ for i in node_indices:   
+     if # Your code here to check if the value of X at that index for the feature is 1
+         left_indices.append(i)
+     else:
+         right_indices.append(i)
+ ### END CODE HERE ###
+\end{verbatim}
+
+  return left\_indices, right\_indices ```
+
+  Click for more hints
+
+  The condition is if X{[}i{]}{[}feature{]} == 1:.
+\end{itemize}
+
+    Now, let's check your implementation using the code blocks below. Let's
+try splitting the dataset at the root node, which contains all examples
+at feature 0 (Brown Cap) as we'd discussed above
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{19}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{root\PYZus{}indices} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{,} \PY{l+m+mi}{4}\PY{p}{,} \PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{6}\PY{p}{,} \PY{l+m+mi}{7}\PY{p}{,} \PY{l+m+mi}{8}\PY{p}{,} \PY{l+m+mi}{9}\PY{p}{]}
+
+\PY{c+c1}{\PYZsh{} Feel free to play around with these variables}
+\PY{c+c1}{\PYZsh{} The dataset only has three features, so this value can be 0 (Brown Cap), 1 (Tapering Stalk Shape) or 2 (Solitary)}
+\PY{n}{feature} \PY{o}{=} \PY{l+m+mi}{0}
+
+\PY{n}{left\PYZus{}indices}\PY{p}{,} \PY{n}{right\PYZus{}indices} \PY{o}{=} \PY{n}{split\PYZus{}dataset}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{root\PYZus{}indices}\PY{p}{,} \PY{n}{feature}\PY{p}{)}
+
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Left indices: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{left\PYZus{}indices}\PY{p}{)}
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Right indices: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{right\PYZus{}indices}\PY{p}{)}
+
+\PY{c+c1}{\PYZsh{} UNIT TESTS    }
+\PY{n}{split\PYZus{}dataset\PYZus{}test}\PY{p}{(}\PY{n}{split\PYZus{}dataset}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Left indices:  [0, 1, 2, 3, 4, 7, 9]
+Right indices:  [5, 6, 8]
+\textcolor{ansi-green-intense}{ All tests passed.}
+    \end{Verbatim}
+
+    \textbf{Expected Output}:
+
+\begin{verbatim}
+Left indices:  [0, 1, 2, 3, 4, 7, 9]
+Right indices:  [5, 6, 8]
+\end{verbatim}
+
+    \#\#\# 4.3 Calculate information gain
+
+Next, you'll write a function called \texttt{information\_gain} that
+takes in the training data, the indices at a node and a feature to split
+on and returns the information gain from the split.
+
+\#\#\# Exercise 3
+
+Please complete the \texttt{compute\_information\_gain()} function shown
+below to compute
+
+\[\text{Information Gain} = H(p_1^\text{node})- (w^{\text{left}}H(p_1^\text{left}) + w^{\text{right}}H(p_1^\text{right}))\]
+
+where - \(H(p_1^\text{node})\) is entropy at the node -
+\(H(p_1^\text{left})\) and \(H(p_1^\text{right})\) are the entropies at
+the left and the right branches resulting from the split -
+\(w^{\text{left}}\) and \(w^{\text{right}}\) are the proportion of
+examples at the left and right branch respectively
+
+Note: - You can use the \texttt{compute\_entropy()} function that you
+implemented above to calculate the entropy - We've provided some starter
+code that uses the \texttt{split\_dataset()} function you implemented
+above to split the dataset
+
+If you get stuck, you can check out the hints presented after the cell
+below to help you with the implementation.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{20}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{c+c1}{\PYZsh{} UNQ\PYZus{}C3}
+\PY{c+c1}{\PYZsh{} GRADED FUNCTION: compute\PYZus{}information\PYZus{}gain}
+
+\PY{k}{def} \PY{n+nf}{compute\PYZus{}information\PYZus{}gain}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{node\PYZus{}indices}\PY{p}{,} \PY{n}{feature}\PY{p}{)}\PY{p}{:}
+    
+    \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}}
+\PY{l+s+sd}{    Compute the information of splitting the node on a given feature}
+\PY{l+s+sd}{    }
+\PY{l+s+sd}{    Args:}
+\PY{l+s+sd}{        X (ndarray):            Data matrix of shape(n\PYZus{}samples, n\PYZus{}features)}
+\PY{l+s+sd}{        y (array like):         list or ndarray with n\PYZus{}samples containing the target variable}
+\PY{l+s+sd}{        node\PYZus{}indices (ndarray): List containing the active indices. I.e, the samples being considered in this step.}
+\PY{l+s+sd}{   }
+\PY{l+s+sd}{    Returns:}
+\PY{l+s+sd}{        cost (float):        Cost computed}
+\PY{l+s+sd}{    }
+\PY{l+s+sd}{    \PYZdq{}\PYZdq{}\PYZdq{}}    
+    \PY{c+c1}{\PYZsh{} Split dataset}
+    \PY{n}{left\PYZus{}indices}\PY{p}{,} \PY{n}{right\PYZus{}indices} \PY{o}{=} \PY{n}{split\PYZus{}dataset}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{node\PYZus{}indices}\PY{p}{,} \PY{n}{feature}\PY{p}{)}
+    
+    \PY{c+c1}{\PYZsh{} Some useful variables}
+    \PY{n}{X\PYZus{}node}\PY{p}{,} \PY{n}{y\PYZus{}node} \PY{o}{=} \PY{n}{X}\PY{p}{[}\PY{n}{node\PYZus{}indices}\PY{p}{]}\PY{p}{,} \PY{n}{y}\PY{p}{[}\PY{n}{node\PYZus{}indices}\PY{p}{]}
+    \PY{n}{X\PYZus{}left}\PY{p}{,} \PY{n}{y\PYZus{}left} \PY{o}{=} \PY{n}{X}\PY{p}{[}\PY{n}{left\PYZus{}indices}\PY{p}{]}\PY{p}{,} \PY{n}{y}\PY{p}{[}\PY{n}{left\PYZus{}indices}\PY{p}{]}
+    \PY{n}{X\PYZus{}right}\PY{p}{,} \PY{n}{y\PYZus{}right} \PY{o}{=} \PY{n}{X}\PY{p}{[}\PY{n}{right\PYZus{}indices}\PY{p}{]}\PY{p}{,} \PY{n}{y}\PY{p}{[}\PY{n}{right\PYZus{}indices}\PY{p}{]}
+    
+    \PY{c+c1}{\PYZsh{} You need to return the following variables correctly}
+    \PY{n}{information\PYZus{}gain} \PY{o}{=} \PY{l+m+mi}{0}
+    
+    \PY{c+c1}{\PYZsh{}\PYZsh{}\PYZsh{} START CODE HERE \PYZsh{}\PYZsh{}\PYZsh{}}
+    \PY{c+c1}{\PYZsh{} Your code here to compute the entropy at the node using compute\PYZus{}entropy()}
+    \PY{n}{node\PYZus{}entropy} \PY{o}{=} \PY{n}{compute\PYZus{}entropy}\PY{p}{(}\PY{n}{y\PYZus{}node}\PY{p}{)}
+    \PY{c+c1}{\PYZsh{} Your code here to compute the entropy at the left branch}
+    \PY{n}{left\PYZus{}entropy} \PY{o}{=} \PY{n}{compute\PYZus{}entropy}\PY{p}{(}\PY{n}{y\PYZus{}left}\PY{p}{)}
+    \PY{c+c1}{\PYZsh{} Your code here to compute the entropy at the right branch}
+    \PY{n}{right\PYZus{}entropy} \PY{o}{=} \PY{n}{compute\PYZus{}entropy}\PY{p}{(}\PY{n}{y\PYZus{}right}\PY{p}{)}
+
+    \PY{c+c1}{\PYZsh{} Your code here to compute the proportion of examples at the left branch}
+    \PY{n}{w\PYZus{}left} \PY{o}{=} \PY{n+nb}{len}\PY{p}{(}\PY{n}{X\PYZus{}left}\PY{p}{)} \PY{o}{/} \PY{n+nb}{len}\PY{p}{(}\PY{n}{X\PYZus{}node}\PY{p}{)}
+    \PY{c+c1}{\PYZsh{} Your code here to compute the proportion of examples at the right branch}
+    \PY{n}{w\PYZus{}right} \PY{o}{=} \PY{n+nb}{len}\PY{p}{(}\PY{n}{X\PYZus{}right}\PY{p}{)} \PY{o}{/} \PY{n+nb}{len}\PY{p}{(}\PY{n}{X\PYZus{}node}\PY{p}{)}
+
+    \PY{c+c1}{\PYZsh{} Your code here to compute weighted entropy from the split using }
+    \PY{c+c1}{\PYZsh{} w\PYZus{}left, w\PYZus{}right, left\PYZus{}entropy and right\PYZus{}entropy}
+    \PY{n}{weighted\PYZus{}entropy} \PY{o}{=} \PY{n}{w\PYZus{}left} \PY{o}{*} \PY{n}{left\PYZus{}entropy} \PY{o}{+} \PY{n}{w\PYZus{}right} \PY{o}{*} \PY{n}{right\PYZus{}entropy}
+
+    \PY{c+c1}{\PYZsh{} Your code here to compute the information gain as the entropy at the node}
+    \PY{c+c1}{\PYZsh{} minus the weighted entropy}
+    \PY{n}{information\PYZus{}gain} \PY{o}{=} \PY{n}{node\PYZus{}entropy} \PY{o}{\PYZhy{}} \PY{n}{weighted\PYZus{}entropy}
+    \PY{c+c1}{\PYZsh{}\PYZsh{}\PYZsh{} END CODE HERE \PYZsh{}\PYZsh{}\PYZsh{}  }
+    
+    \PY{k}{return} \PY{n}{information\PYZus{}gain}
+\end{Verbatim}
+\end{tcolorbox}
+
+    Click for hints
+
+\begin{itemize}
+\item
+  Here's how you can structure the overall implementation for this
+  function ```python def compute\_information\_gain(X, y, node\_indices,
+  feature): \# Split dataset left\_indices, right\_indices =
+  split\_dataset(X, node\_indices, feature)
+
+\begin{verbatim}
+ # Some useful variables
+ X_node, y_node = X[node_indices], y[node_indices]
+ X_left, y_left = X[left_indices], y[left_indices]
+ X_right, y_right = X[right_indices], y[right_indices]
+
+ # You need to return the following variables correctly
+ information_gain = 0
+
+ ### START CODE HERE ###
+ # Your code here to compute the entropy at the node using compute_entropy()
+ node_entropy = 
+ # Your code here to compute the entropy at the left branch
+ left_entropy = 
+ # Your code here to compute the entropy at the right branch
+ right_entropy = 
+
+ # Your code here to compute the proportion of examples at the left branch
+ w_left = 
+
+ # Your code here to compute the proportion of examples at the right branch
+ w_right = 
+
+ # Your code here to compute weighted entropy from the split using 
+ # w_left, w_right, left_entropy and right_entropy
+ weighted_entropy = 
+
+ # Your code here to compute the information gain as the entropy at the node
+ # minus the weighted entropy
+ information_gain = 
+ ### END CODE HERE ###  
+
+ return information_gain
+\end{verbatim}
+
+  ``` If you're still stuck, check out the hints below.
+
+  Hint to calculate the entropies
+
+  node\_entropy = compute\_entropy(y\_node) left\_entropy =
+  compute\_entropy(y\_left) right\_entropy = compute\_entropy(y\_right)
+
+  Hint to calculate w\_left and w\_right w\_left = len(X\_left) /
+  len(X\_node) w\_right = len(X\_right) / len(X\_node)
+
+  Hint to calculate weighted\_entropy weighted\_entropy = w\_left *
+  left\_entropy + w\_right * right\_entropy
+
+  Hint to calculate information\_gain information\_gain = node\_entropy
+  - weighted\_entropy
+\end{itemize}
+
+    You can now check your implementation using the cell below and calculate
+what the information gain would be from splitting on each of the featues
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{21}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{info\PYZus{}gain0} \PY{o}{=} \PY{n}{compute\PYZus{}information\PYZus{}gain}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{root\PYZus{}indices}\PY{p}{,} \PY{n}{feature}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Information Gain from splitting the root on brown cap: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{info\PYZus{}gain0}\PY{p}{)}
+    
+\PY{n}{info\PYZus{}gain1} \PY{o}{=} \PY{n}{compute\PYZus{}information\PYZus{}gain}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{root\PYZus{}indices}\PY{p}{,} \PY{n}{feature}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Information Gain from splitting the root on tapering stalk shape: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{info\PYZus{}gain1}\PY{p}{)}
+
+\PY{n}{info\PYZus{}gain2} \PY{o}{=} \PY{n}{compute\PYZus{}information\PYZus{}gain}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{root\PYZus{}indices}\PY{p}{,} \PY{n}{feature}\PY{o}{=}\PY{l+m+mi}{2}\PY{p}{)}
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Information Gain from splitting the root on solitary: }\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{info\PYZus{}gain2}\PY{p}{)}
+
+\PY{c+c1}{\PYZsh{} UNIT TESTS}
+\PY{n}{compute\PYZus{}information\PYZus{}gain\PYZus{}test}\PY{p}{(}\PY{n}{compute\PYZus{}information\PYZus{}gain}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Information Gain from splitting the root on brown cap:  0.034851554559677034
+Information Gain from splitting the root on tapering stalk shape:
+0.12451124978365313
+Information Gain from splitting the root on solitary:  0.2780719051126377
+\textcolor{ansi-green-intense}{ All tests passed.}
+    \end{Verbatim}
+
+    \textbf{Expected Output}:
+
+\begin{verbatim}
+Information Gain from splitting the root on brown cap:  0.034851554559677034
+Information Gain from splitting the root on tapering stalk shape:  0.12451124978365313
+Information Gain from splitting the root on solitary:  0.2780719051126377
+\end{verbatim}
+
+    Splitting on ``Solitary'' (feature = 2) at the root node gives the
+maximum information gain. Therefore, it's the best feature to split on
+at the root node.
+
+    \#\#\# 4.4 Get best split Now let's write a function to get the best
+feature to split on by computing the information gain from each feature
+as we did above and returning the feature that gives the maximum
+information gain
+
+\#\#\# Exercise 4 Please complete the \texttt{get\_best\_split()}
+function shown below. - The function takes in the training data, along
+with the indices of datapoint at that node - The output of the function
+the feature that gives the maximum information gain - You can use the
+\texttt{compute\_information\_gain()} function to iterate through the
+features and calculate the information for each feature If you get
+stuck, you can check out the hints presented after the cell below to
+help you with the implementation.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{22}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{c+c1}{\PYZsh{} UNQ\PYZus{}C4}
+\PY{c+c1}{\PYZsh{} GRADED FUNCTION: get\PYZus{}best\PYZus{}split}
+
+\PY{k}{def} \PY{n+nf}{get\PYZus{}best\PYZus{}split}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{node\PYZus{}indices}\PY{p}{)}\PY{p}{:}   
+    \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}}
+\PY{l+s+sd}{    Returns the optimal feature and threshold value}
+\PY{l+s+sd}{    to split the node data }
+\PY{l+s+sd}{    }
+\PY{l+s+sd}{    Args:}
+\PY{l+s+sd}{        X (ndarray):            Data matrix of shape(n\PYZus{}samples, n\PYZus{}features)}
+\PY{l+s+sd}{        y (array like):         list or ndarray with n\PYZus{}samples containing the target variable}
+\PY{l+s+sd}{        node\PYZus{}indices (ndarray): List containing the active indices. I.e, the samples being considered in this step.}
+
+\PY{l+s+sd}{    Returns:}
+\PY{l+s+sd}{        best\PYZus{}feature (int):     The index of the best feature to split}
+\PY{l+s+sd}{    \PYZdq{}\PYZdq{}\PYZdq{}}    
+    
+    \PY{c+c1}{\PYZsh{} Some useful variables}
+    \PY{n}{num\PYZus{}features} \PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}
+    
+    \PY{c+c1}{\PYZsh{} You need to return the following variables correctly}
+    \PY{n}{best\PYZus{}feature} \PY{o}{=} \PY{o}{\PYZhy{}}\PY{l+m+mi}{1}
+    
+    \PY{c+c1}{\PYZsh{}\PYZsh{}\PYZsh{} START CODE HERE \PYZsh{}\PYZsh{}\PYZsh{}}
+    \PY{n}{max\PYZus{}info\PYZus{}gain} \PY{o}{=} \PY{l+m+mi}{0}
+
+    \PY{c+c1}{\PYZsh{} Iterate through all features}
+    \PY{k}{for} \PY{n}{feature} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n}{num\PYZus{}features}\PY{p}{)}\PY{p}{:} 
+        \PY{c+c1}{\PYZsh{} Your code here to compute the information gain from splitting on this feature}
+        \PY{n}{info\PYZus{}gain} \PY{o}{=} \PY{n}{compute\PYZus{}information\PYZus{}gain}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{node\PYZus{}indices}\PY{p}{,} \PY{n}{feature}\PY{p}{)}
+
+        \PY{c+c1}{\PYZsh{} If the information gain is larger than the max seen so far}
+        \PY{k}{if} \PY{n}{info\PYZus{}gain} \PY{o}{\PYZgt{}} \PY{n}{max\PYZus{}info\PYZus{}gain}\PY{p}{:}  
+            \PY{c+c1}{\PYZsh{} Your code here to set the max\PYZus{}info\PYZus{}gain and best\PYZus{}feature}
+            \PY{n}{max\PYZus{}info\PYZus{}gain} \PY{o}{=} \PY{n}{info\PYZus{}gain}
+            \PY{n}{best\PYZus{}feature} \PY{o}{=} \PY{n}{feature}  
+    \PY{c+c1}{\PYZsh{}\PYZsh{}\PYZsh{} END CODE HERE \PYZsh{}\PYZsh{}    }
+   
+    \PY{k}{return} \PY{n}{best\PYZus{}feature}
+\end{Verbatim}
+\end{tcolorbox}
+
+    Click for hints
+
+\begin{itemize}
+\item
+  Here's how you can structure the overall implementation for this
+  function
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{def}\NormalTok{ get\_best\_split(X, y, node\_indices):   }
+
+    \CommentTok{\# Some useful variables}
+\NormalTok{    num\_features }\OperatorTok{=}\NormalTok{ X.shape[}\DecValTok{1}\NormalTok{]}
+
+    \CommentTok{\# You need to return the following variables correctly}
+\NormalTok{    best\_feature }\OperatorTok{=} \OperatorTok{{-}}\DecValTok{1}
+
+    \CommentTok{\#\#\# START CODE HERE }\AlertTok{\#\#\#}
+\NormalTok{    max\_info\_gain }\OperatorTok{=} \DecValTok{0}
+
+    \CommentTok{\# Iterate through all features}
+    \ControlFlowTok{for}\NormalTok{ feature }\KeywordTok{in} \BuiltInTok{range}\NormalTok{(num\_features): }
+
+        \CommentTok{\# Your code here to compute the information gain from splitting on this feature}
+\NormalTok{        info\_gain }\OperatorTok{=} 
+
+        \CommentTok{\# If the information gain is larger than the max seen so far}
+        \ControlFlowTok{if}\NormalTok{ info\_gain }\OperatorTok{\textgreater{}}\NormalTok{ max\_info\_gain:  }
+            \CommentTok{\# Your code here to set the max\_info\_gain and best\_feature}
+\NormalTok{            max\_info\_gain }\OperatorTok{=} 
+\NormalTok{            best\_feature }\OperatorTok{=} 
+    \CommentTok{\#\#\# }\RegionMarkerTok{END}\CommentTok{ CODE HERE \#\#    }
+
+\ControlFlowTok{return}\NormalTok{ best\_feature}
+\end{Highlighting}
+\end{Shaded}
+
+  If you're still stuck, check out the hints below.
+
+  Hint to calculate info\_gain
+
+  info\_gain = compute\_information\_gain(X, y, node\_indices, feature)
+
+  Hint to update the max\_info\_gain and best\_feature max\_info\_gain =
+  info\_gain best\_feature = feature
+\end{itemize}
+
+    Now, let's check the implementation of your function using the cell
+below.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{23}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{best\PYZus{}feature} \PY{o}{=} \PY{n}{get\PYZus{}best\PYZus{}split}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{root\PYZus{}indices}\PY{p}{)}
+\PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Best feature to split on: }\PY{l+s+si}{\PYZpc{}d}\PY{l+s+s2}{\PYZdq{}} \PY{o}{\PYZpc{}} \PY{n}{best\PYZus{}feature}\PY{p}{)}
+
+\PY{c+c1}{\PYZsh{} UNIT TESTS}
+\PY{n}{get\PYZus{}best\PYZus{}split\PYZus{}test}\PY{p}{(}\PY{n}{get\PYZus{}best\PYZus{}split}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Best feature to split on: 2
+\textcolor{ansi-green-intense}{ All tests passed.}
+    \end{Verbatim}
+
+    As we saw above, the function returns that the best feature to split on
+at the root node is feature 2 (``Solitary'')
+
+    \#\# 5 - Building the tree
+
+In this section, we use the functions you implemented above to generate
+a decision tree by successively picking the best feature to split on
+until we reach the stopping criteria (maximum depth is 2).
+
+You do not need to implement anything for this part.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{24}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{c+c1}{\PYZsh{} Not graded}
+\PY{n}{tree} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+
+\PY{k}{def} \PY{n+nf}{build\PYZus{}tree\PYZus{}recursive}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{node\PYZus{}indices}\PY{p}{,} \PY{n}{branch\PYZus{}name}\PY{p}{,} \PY{n}{max\PYZus{}depth}\PY{p}{,} \PY{n}{current\PYZus{}depth}\PY{p}{)}\PY{p}{:}
+    \PY{l+s+sd}{\PYZdq{}\PYZdq{}\PYZdq{}}
+\PY{l+s+sd}{    Build a tree using the recursive algorithm that split the dataset into 2 subgroups at each node.}
+\PY{l+s+sd}{    This function just prints the tree.}
+\PY{l+s+sd}{    }
+\PY{l+s+sd}{    Args:}
+\PY{l+s+sd}{        X (ndarray):            Data matrix of shape(n\PYZus{}samples, n\PYZus{}features)}
+\PY{l+s+sd}{        y (array like):         list or ndarray with n\PYZus{}samples containing the target variable}
+\PY{l+s+sd}{        node\PYZus{}indices (ndarray): List containing the active indices. I.e, the samples being considered in this step.}
+\PY{l+s+sd}{        branch\PYZus{}name (string):   Name of the branch. [\PYZsq{}Root\PYZsq{}, \PYZsq{}Left\PYZsq{}, \PYZsq{}Right\PYZsq{}]}
+\PY{l+s+sd}{        max\PYZus{}depth (int):        Max depth of the resulting tree. }
+\PY{l+s+sd}{        current\PYZus{}depth (int):    Current depth. Parameter used during recursive call.}
+\PY{l+s+sd}{   }
+\PY{l+s+sd}{    \PYZdq{}\PYZdq{}\PYZdq{}} 
+
+    \PY{c+c1}{\PYZsh{} Maximum depth reached \PYZhy{} stop splitting}
+    \PY{k}{if} \PY{n}{current\PYZus{}depth} \PY{o}{==} \PY{n}{max\PYZus{}depth}\PY{p}{:}
+        \PY{n}{formatting} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{ }\PY{l+s+s2}{\PYZdq{}}\PY{o}{*}\PY{n}{current\PYZus{}depth} \PY{o}{+} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{*}\PY{n}{current\PYZus{}depth}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{formatting}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+si}{\PYZpc{}s}\PY{l+s+s2}{ leaf node with indices}\PY{l+s+s2}{\PYZdq{}} \PY{o}{\PYZpc{}} \PY{n}{branch\PYZus{}name}\PY{p}{,} \PY{n}{node\PYZus{}indices}\PY{p}{)}
+        \PY{k}{return}
+   
+    \PY{c+c1}{\PYZsh{} Otherwise, get best split and split the data}
+    \PY{c+c1}{\PYZsh{} Get the best feature and threshold at this node}
+    \PY{n}{best\PYZus{}feature} \PY{o}{=} \PY{n}{get\PYZus{}best\PYZus{}split}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{node\PYZus{}indices}\PY{p}{)} 
+    \PY{n}{tree}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{p}{(}\PY{n}{current\PYZus{}depth}\PY{p}{,} \PY{n}{branch\PYZus{}name}\PY{p}{,} \PY{n}{best\PYZus{}feature}\PY{p}{,} \PY{n}{node\PYZus{}indices}\PY{p}{)}\PY{p}{)}
+    
+    \PY{n}{formatting} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZhy{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{*}\PY{n}{current\PYZus{}depth}
+    \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+si}{\PYZpc{}s}\PY{l+s+s2}{ Depth }\PY{l+s+si}{\PYZpc{}d}\PY{l+s+s2}{, }\PY{l+s+si}{\PYZpc{}s}\PY{l+s+s2}{: Split on feature: }\PY{l+s+si}{\PYZpc{}d}\PY{l+s+s2}{\PYZdq{}} \PY{o}{\PYZpc{}} \PY{p}{(}\PY{n}{formatting}\PY{p}{,} \PY{n}{current\PYZus{}depth}\PY{p}{,} \PY{n}{branch\PYZus{}name}\PY{p}{,} \PY{n}{best\PYZus{}feature}\PY{p}{)}\PY{p}{)}
+    
+    \PY{c+c1}{\PYZsh{} Split the dataset at the best feature}
+    \PY{n}{left\PYZus{}indices}\PY{p}{,} \PY{n}{right\PYZus{}indices} \PY{o}{=} \PY{n}{split\PYZus{}dataset}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{node\PYZus{}indices}\PY{p}{,} \PY{n}{best\PYZus{}feature}\PY{p}{)}
+    
+    \PY{c+c1}{\PYZsh{} continue splitting the left and the right child. Increment current depth}
+    \PY{n}{build\PYZus{}tree\PYZus{}recursive}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{left\PYZus{}indices}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Left}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{max\PYZus{}depth}\PY{p}{,} \PY{n}{current\PYZus{}depth}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)}
+    \PY{n}{build\PYZus{}tree\PYZus{}recursive}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{right\PYZus{}indices}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Right}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{max\PYZus{}depth}\PY{p}{,} \PY{n}{current\PYZus{}depth}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{25}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{build\PYZus{}tree\PYZus{}recursive}\PY{p}{(}\PY{n}{X\PYZus{}train}\PY{p}{,} \PY{n}{y\PYZus{}train}\PY{p}{,} \PY{n}{root\PYZus{}indices}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Root}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{max\PYZus{}depth}\PY{o}{=}\PY{l+m+mi}{2}\PY{p}{,} \PY{n}{current\PYZus{}depth}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+ Depth 0, Root: Split on feature: 2
+- Depth 1, Left: Split on feature: 0
+  -- Left leaf node with indices [0, 1, 4, 7]
+  -- Right leaf node with indices [5]
+- Depth 1, Right: Split on feature: 1
+  -- Left leaf node with indices [8]
+  -- Right leaf node with indices [2, 3, 6, 9]
+    \end{Verbatim}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{ }{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+
+\end{Verbatim}
+\end{tcolorbox}
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+\end{document}
