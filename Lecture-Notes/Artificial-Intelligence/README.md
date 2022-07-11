@@ -297,45 +297,45 @@
     <tbody>
         <tr>
 <td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
+<td align=center width="400px">Neural Networks Basics</td>
 <td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align=center width="400px">Advanced Neural Networks Techniques</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 01</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Introduction to Neural Networks</a></td>
+<td align=center width="125px">Lecture 07</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Convolutional Neural Networks</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 02</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Shallow Neural Networks</a></td>
+<td align=center width="125px">Lecture 08</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Deep Convolutional Models</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 03</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Deep Neural Networks</a></td>
+<td align=center width="125px">Lecture 09</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Recurrent Neural Networks</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 04</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Optimization Algorithms</a></td>
+<td align=center width="125px">Lecture 10</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Attention Mechanism and Transformer Network</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 05</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Improving Deep Neural Networks I</a></td>
+<td align=center width="125px">Lecture 11</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Advice for Applying Machine Learning I</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">LectureName</a></td>
+<td align=center width="125px">Lecture 06</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Improving Deep Neural Networks II</a></td>
+<td align=center width="125px">Lecture 12</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Neural-Networks/README.md">Advice for Applying Machine Learning II</a></td>
         </tr>
     </tbody>
 </table>
