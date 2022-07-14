@@ -23,7 +23,7 @@
   * [Inventory Management Textbooks](#Game-Theory-Textbooks)
   * [Advanced Simulations Textbooks](#Game-Theory-Textbooks)
   * [Systems Project Management Textbooks](#Project-Management-Textbooks)
-  * [Crisis Management Lectures](#Crisis-Management-Lectures)
-  * [Service Management Lectures](#Service-Management-Lectures)
+  * [Crisis Management Textbooks](#Crisis-Management-Textbooks)
+  * [Service Management Textbooks](#Service-Management-Textbooks)
 
 <br><br>
