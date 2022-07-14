@@ -5,7 +5,7 @@ Mini Assignments for computer science students.
 
 <br><br><br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
 
 ## [`Computer Science`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/README.md) Assignments
 Computer Science Assignments for computer science students, which including the following main topics:
@@ -17,7 +17,7 @@ Computer Science Assignments for computer science students, which including the 
 #### - [Operating Systems and Parallel Computing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/README.md) Assignments
 #### - [Theory of Computation and Compiler Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/README.md) Assignments
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering-department.jpg">
 
 ## [`Software Engineering`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Software-Engineering/README.md) Assignments
 Software Engineering Assignments for computer science students, which including the following main topics:
@@ -29,7 +29,7 @@ Software Engineering Assignments for computer science students, which including 
 #### - [Web/Mobile Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Software-Engineering/README.md) Assignments
 #### - [Game Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Software-Engineering/README.md) Assignments
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence-department.jpg">
 
 ## [`Artificial Intelligence`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/README.md) Assignments
 Artificial Intelligence Assignments for computer science students, which including the following main topics:
@@ -41,7 +41,7 @@ Artificial Intelligence Assignments for computer science students, which includi
 #### - [Image Processing and Computer Vision](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/README.md) Assignments
 #### - [Machine Vision and Speech Processing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/README.md) Assignments
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
 
 ## [`Data Science`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Data-Science/README.md) Assignments
 Data Science Assignments for computer science students, which including the following main topics:
@@ -53,7 +53,7 @@ Data Science Assignments for computer science students, which including the foll
 #### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Data-Science/README.md) Assignments
 #### - [Data Engineering and Big Data](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Data-Science/README.md) Assignments
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
 
 ## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
 Bioinformatics Assignments for computer science students, which including the following main topics:
@@ -65,7 +65,7 @@ Bioinformatics Assignments for computer science students, which including the fo
 #### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
 #### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
 
 ## [`Operation Research`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Operation-Research/README.md) Assignments
 Operation Research Assignments for computer science students, which including the following main topics:

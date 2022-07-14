@@ -219,7 +219,7 @@
 <td align=center width="125px">Lecture 04</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Python-Programming-Language/README.md">Conditions</a></td>
 <td align=center width="125px">Lecture 10</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Python-Programming-Language/README.md">	Dictionaries</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Python-Programming-Language/README.md">Dictionaries</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 05</a></td>
@@ -254,7 +254,7 @@
 <td align=center width="125px">Lecture 01</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C-CPP-Programming-Language/README.md">C/Cpp Overview</a></td>
 <td align=center width="125px">Lecture 07</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C-CPP-Programming-Language/README.md">	Arrays</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/C-CPP-Programming-Language/README.md">Arrays</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 02</a></td>

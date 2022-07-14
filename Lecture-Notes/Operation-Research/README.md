@@ -23,5 +23,7 @@
   * [Inventory Management Lectures](#Game-Theory-Lectures)
   * [Advanced Simulations Lectures](#Game-Theory-Lectures)
   * [Systems Project Management Lectures](#Project-Management-Lectures)
+  * [Crisis Management Lectures](#Crisis-Management-Lectures)
+  * [Service Management Lectures](#Service-Management-Lectures)
 
 <br><br>

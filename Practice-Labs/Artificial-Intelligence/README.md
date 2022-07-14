@@ -28,7 +28,7 @@
 
 <br><br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence.jpg"></img>
 <br>
 
 ## [Artificial Intelligence Algorithms](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md) Labs
@@ -80,7 +80,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/soft-computing.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/soft-computing.jpg"></img>
 <br>
 
 ## [Soft Computing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md) Labs
@@ -132,7 +132,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/machine-learning.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/machine-learning.jpg"></img>
 <br>
 
 ## [Machine Learning](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md) Labs
@@ -184,7 +184,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/supervised-learning.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/supervised-learning.jpg"></img>
 <br>
 
 ## [Supervised Learning](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md) Labs
@@ -236,7 +236,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/unsupervised-learning.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/unsupervised-learning.jpg"></img>
 <br>
 
 ## [Unsupervised Learning](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md) Labs
@@ -288,7 +288,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/neural-networks.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/neural-networks.jpg"></img>
 <br>
 
 ## [Neural Networks](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md) Labs
@@ -340,7 +340,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/deep-learning.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/deep-learning.jpg"></img>
 <br>
 
 ## [Deep Learning](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md) Labs
@@ -392,7 +392,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/generative-adversarial-network.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/generative-adversarial-network.jpg"></img>
 <br>
 
 ## [Generative Adversarial Networks](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md) Labs
@@ -444,7 +444,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/differential-equations.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/differential-equations.jpg"></img>
 <br>
 
 ## [Differential Equations](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md) Labs
@@ -496,7 +496,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/signal-processing.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/signal-processing.jpg"></img>
 <br>
 
 ## [Signal Processing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md) Labs
@@ -548,7 +548,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-compression.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-compression.jpg"></img>
 <br>
 
 ## [Data Compression](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md) Labs
@@ -600,7 +600,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/image-processing.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/image-processing.jpg"></img>
 <br>
 
 ## [Image Processing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md) Labs
@@ -652,7 +652,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-vision.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-vision.jpg"></img>
 <br>
 
 ## [Computer Vision](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md) Labs
@@ -704,7 +704,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/pattern-recognition.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/pattern-recognition.jpg"></img>
 <br>
 
 ## [Pattern Recognition](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md) Labs
@@ -756,7 +756,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/machine-vision.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/machine-vision.jpg"></img>
 <br>
 
 ## [Machine Vision](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Vision/README.md) Labs
@@ -808,7 +808,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/virtual-reality.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/virtual-reality.jpg"></img>
 <br>
 
 ## [Virtual Reality](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Virtual-Reality/README.md) Labs
@@ -860,7 +860,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/speech-processing.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/speech-processing.jpg"></img>
 <br>
 
 ## [Speech Processing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md) Labs
@@ -912,7 +912,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/multimedia-mining.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/multimedia-mining.jpg"></img>
 <br>
 
 ## [Multimedia Mining](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md) Labs

@@ -5,7 +5,7 @@ Lectures Notes for computer science students.
 
 <br><br><br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
 
 ## [`Computer Science`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/README.md) Lectures
 Computer Science Lectures for computer science students, which including the following main topics:
@@ -17,7 +17,7 @@ Computer Science Lectures for computer science students, which including the fol
 #### - [Operating Systems and Parallel Computing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/README.md) Lectures
 #### - [Theory of Computation and Compiler Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/README.md) Lectures
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering-department.jpg">
 
 ## [`Software Engineering`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/README.md) Lectures
 Software Engineering Lectures for computer science students, which including the following main topics:
@@ -29,7 +29,7 @@ Software Engineering Lectures for computer science students, which including the
 #### - [Web/Mobile Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/README.md) Lectures
 #### - [Game Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Software-Engineering/README.md) Lectures
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence-department.jpg">
 
 ## [`Artificial Intelligence`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/README.md) Lectures
 Artificial Intelligence Lectures for computer science students, which including the following main topics:
@@ -41,7 +41,7 @@ Artificial Intelligence Lectures for computer science students, which including 
 #### - [Image Processing and Computer Vision](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/README.md) Lectures
 #### - [Machine Vision and Speech Processing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/README.md) Lectures
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
 
 ## [`Data Science`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/README.md) Lectures
 Data Science Lectures for computer science students, which including the following main topics:
@@ -53,7 +53,7 @@ Data Science Lectures for computer science students, which including the followi
 #### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/README.md) Lectures
 #### - [Data Engineering and Big Data](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/README.md) Lectures
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
 
 ## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
 Bioinformatics Lectures for computer science students, which including the following main topics:
@@ -65,7 +65,7 @@ Bioinformatics Lectures for computer science students, which including the follo
 #### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
 #### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
 
 ## [`Operation Research`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Operation-Research/README.md) Lectures
 Operation Research Lectures for computer science students, which including the following main topics:

@@ -23,5 +23,7 @@
   * [Inventory Management Assignments](#Game-Theory-Assignments)
   * [Advanced Simulations Assignments](#Game-Theory-Assignments)
   * [Systems Project Management Assignments](#Project-Management-Assignments)
+  * [Crisis Management Lectures](#Crisis-Management-Lectures)
+  * [Service Management Lectures](#Service-Management-Lectures)
 
 <br><br>

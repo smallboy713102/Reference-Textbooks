@@ -16,17 +16,19 @@
   * [Natural Language Processing Textbooks](#Natural-Language-Processing-Textbooks)
   * [Data Mining Textbooks](#Data-Mining-Textbooks)
   * [Text Mining Textbooks](#Text-Mining-Textbooks)
-  * [Business Intelligence Textbooks](#Business-Intelligence-Textbooks)
+  * [Data Modeling and Design Textbooks](#Data-Modeling-and-Design-Textbooks)
   * [Data Management Textbooks](#Data-Management-Textbooks)
+  * [Business Intelligence Textbooks](#Business-Intelligence-Textbooks)
   * [File Organization and Processing Textbooks](#File-Organization-and-Processing-Textbooks)
   * [Data Storage and Retrieval Textbooks](#Data-Storage-and-Retrieval-Textbooks)
   * [Distributed Database Systems Textbooks](#Distributed-Database-Systems-Textbooks)
   * [Data Engineering Textbooks](#Data-Engineering-Textbooks)
-  * [Big Data Textbooks](#Big-Data-Textbooks)
+  * [Big Data Analytics Textbooks](#Big-Data-Analytics-Textbooks)
+  * [Big Data Modeling Textbooks](#Big-Data-Modeling-Textbooks)
 
 <br><br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science.jpg"></img>
 <br>
 
 ## [Data Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Science/README.md) Textbooks
@@ -56,7 +58,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/r.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/r.jpg"></img>
 <br>
 
 ## [R Programming Language](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/R-Programming-Language/README.md) Textbooks
@@ -86,7 +88,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/business-analytics.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/business-analytics.jpg"></img>
 <br>
 
 ## [Business Analytics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Analytics/README.md) Textbooks
@@ -116,7 +118,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-analysis.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-analysis.jpg"></img>
 <br>
 
 ## [Data Analysis](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Analysis/README.md) Textbooks
@@ -146,7 +148,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-visualization.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-visualization.jpg"></img>
 <br>
 
 ## [Data Visualization](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Visualization/README.md) Textbooks
@@ -176,7 +178,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-analytics.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-analytics.jpg"></img>
 <br>
 
 ## [Data Analytics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Analytics/README.md) Textbooks
@@ -206,7 +208,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/natural-language-processing.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/natural-language-processing.jpg"></img>
 <br>
 
 ## [Natural Language Processing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Natural-Language-Processing/README.md) Textbooks
@@ -236,7 +238,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-mining.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-mining.jpg"></img>
 <br>
 
 ## [Data Mining](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Mining/README.md) Textbooks
@@ -266,7 +268,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/text-mining.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/text-mining.jpg"></img>
 <br>
 
 ## [Text Mining](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Text-Mining/README.md) Textbooks
@@ -296,17 +298,17 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/business-intelligence.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-modeling.jpg"></img>
 <br>
 
-## [Business Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md) Textbooks
+## [Data Modeling and Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Modeling-and-Design/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Modeling-and-Design/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Modeling-and-Design/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Modeling-and-Design/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -314,9 +316,9 @@
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Modeling-and-Design/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Modeling-and-Design/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Modeling-and-Design/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -326,7 +328,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-management.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-management.jpg"></img>
 <br>
 
 ## [Data Management](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Management/README.md) Textbooks
@@ -356,7 +358,37 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/file-organization.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/business-intelligence.jpg"></img>
+<br>
+
+## [Business Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Business-Intelligence/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/file-organization.jpg"></img>
 <br>
 
 ## [File Organization and Processing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/File-Organization-and-Processing/README.md) Textbooks
@@ -386,7 +418,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-storage.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-storage.jpg"></img>
 <br>
 
 ## [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Storage-and-Retrieval/README.md) Textbooks
@@ -416,7 +448,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/distributed-database.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/distributed-database.jpg"></img>
 <br>
 
 ## [Distributed Database Systems](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Distributed-Database-Systems/README.md) Textbooks
@@ -446,7 +478,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-engineering.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-engineering.jpg"></img>
 <br>
 
 ## [Data Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Data-Engineering/README.md) Textbooks
@@ -476,18 +508,17 @@
     </tbody>
 </table>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/big-data-modeling.jpg"></img>
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/big-data-analytics.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/big-data-analytics.jpg"></img>
 <br>
 
-## [Big Data](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data/README.md) Textbooks
+## [Big Data Analytics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Analytics/README.md) Textbooks
 
 <table>
     <tbody>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data/README.md">BookName</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data/README.md">BookName</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Analytics/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Analytics/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Analytics/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
@@ -495,9 +526,39 @@
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data/README.md">BookName</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data/README.md">BookName</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Analytics/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Analytics/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Analytics/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+        </tr>
+    </tbody>
+</table>
+
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/big-data-modeling.jpg"></img>
+<br>
+
+## [Big Data Modeling](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Modeling/README.md) Textbooks
+
+<table>
+    <tbody>
+        <tr>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Modeling/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Modeling/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Modeling/README.md">BookName</a></td>
+        </tr>
+        <tr>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Modeling/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Modeling/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/Big-Data-Modeling/README.md">BookName</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>

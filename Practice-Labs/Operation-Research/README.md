@@ -23,5 +23,7 @@
   * [Inventory Management Labs](#Game-Theory-Labs)
   * [Advanced Simulations Labs](#Game-Theory-Labs)
   * [Systems Project Management Labs](#Project-Management-Labs)
+  * [Crisis Management Lectures](#Crisis-Management-Lectures)
+  * [Service Management Lectures](#Service-Management-Lectures)
 
 <br><br>
