@@ -5,7 +5,7 @@ Practice Labs for computer science students.
 
 <br><br><br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
 
 ## [`Computer Science`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/README.md) Labs
 Computer Science Labs for computer science students, which including the following main topics:
@@ -17,7 +17,7 @@ Computer Science Labs for computer science students, which including the followi
 #### - [Operating Systems and Parallel Computing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/README.md) Labs
 #### - [Theory of Computation and Compiler Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Computer-Science/README.md) Labs
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering-department.jpg">
 
 ## [`Software Engineering`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/README.md) Labs
 Software Engineering Labs for computer science students, which including the following main topics:
@@ -29,7 +29,7 @@ Software Engineering Labs for computer science students, which including the fol
 #### - [Web/Mobile Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/README.md) Labs
 #### - [Game Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Software-Engineering/README.md) Labs
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence-department.jpg">
 
 ## [`Artificial Intelligence`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/README.md) Labs
 Artificial Intelligence Labs for computer science students, which including the following main topics:
@@ -41,7 +41,7 @@ Artificial Intelligence Labs for computer science students, which including the 
 #### - [Image Processing and Computer Vision](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/README.md) Labs
 #### - [Machine Vision and Speech Processing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/README.md) Labs
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
 
 ## [`Data Science`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Data-Science/README.md) Labs
 Data Science Labs for computer science students, which including the following main topics:
@@ -53,7 +53,7 @@ Data Science Labs for computer science students, which including the following m
 #### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Data-Science/README.md) Labs
 #### - [Data Engineering and Big Data](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Data-Science/README.md) Labs
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
 
 ## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
 Bioinformatics Labs for computer science students, which including the following main topics:
@@ -65,7 +65,7 @@ Bioinformatics Labs for computer science students, which including the following
 #### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
 #### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
 
 ## [`Operation Research`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Operation-Research/README.md) Labs
 Operation Research Labs for computer science students, which including the following main topics:

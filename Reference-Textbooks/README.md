@@ -5,7 +5,7 @@ Reference Textbooks for computer science students.
 
 <br><br><br>
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
 
 ## [`Computer Science`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/README.md) Textbooks
 Computer Science Textbooks for computer science students, which including the following main topics:
@@ -17,7 +17,7 @@ Computer Science Textbooks for computer science students, which including the fo
 #### - [Operating Systems and Parallel Computing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/README.md) Textbooks
 #### - [Theory of Computation and Compiler Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/README.md) Textbooks
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering-department.jpg">
 
 ## [`Software Engineering`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
 Software Engineering Textbooks for computer science students, which including the following main topics:
@@ -29,7 +29,7 @@ Software Engineering Textbooks for computer science students, which including th
 #### - [Web/Mobile Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
 #### - [Game Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence-department.jpg">
 
 ## [`Artificial Intelligence`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
 Artificial Intelligence Textbooks for computer science students, which including the following main topics:
@@ -41,7 +41,7 @@ Artificial Intelligence Textbooks for computer science students, which including
 #### - [Image Processing and Computer Vision](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
 #### - [Machine Vision and Speech Processing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
 
 ## [`Data Science`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
 Data Science Textbooks for computer science students, which including the following main topics:
@@ -53,7 +53,7 @@ Data Science Textbooks for computer science students, which including the follow
 #### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
 #### - [Data Engineering and Big Data](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
 
 ## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
 Bioinformatics Textbooks for computer science students, which including the following main topics:
@@ -65,7 +65,7 @@ Bioinformatics Textbooks for computer science students, which including the foll
 #### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
 #### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
 
-<img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
 
 ## [`Operation Research`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Operation-Research/README.md) Textbooks
 Operation Research Textbooks for computer science students, which including the following main topics:
