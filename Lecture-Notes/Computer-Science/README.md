@@ -507,44 +507,38 @@
         <tr>
 <td align=center width="125px">Lecture 01</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Disjoint Set</a></td>
-<td align=center width="125px">Lecture 08</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">AA Tree</a></td>
+<td align=center width="125px">Lecture 07</a></td>
+<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Splay Tree</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 02</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Skip List</a></td>
-<td align=center width="125px">Lecture 09</a></td>
+<td align=center width="125px">Lecture 08</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">K-Dimensional Tree</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 03</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Trie</a></td>
-<td align=center width="125px">Lecture 10</a></td>
+<td align=center width="125px">Lecture 09</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">B/B+ Tree</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 04</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Segment Tree</a></td>
-<td align=center width="125px">Lecture 11</a></td>
+<td align=center width="125px">Lecture 10</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Sparse Tables</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 05</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Binary Indexed Tree</a></td>
-<td align=center width="125px">Lecture 12</a></td>
+<td align=center width="125px">Lecture 11</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Suffix Array</a></td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 06</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Treap</a></td>
-<td align=center width="125px">Lecture 13</a></td>
+<td align=center width="125px">Lecture 12</a></td>
 <td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Suffix Tree</a></td>
-        </tr>
-        <tr>
-<td align=center width="125px">Lecture 07</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Splay Tree</a></td>
-<td align=center width="125px">Lecture 14</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Computer-Science/Advanced-Data-Structures/README.md">Advanced Trees</a></td>
         </tr>
     </tbody>
 </table>
