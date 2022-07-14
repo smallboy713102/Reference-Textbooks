@@ -39,7 +39,7 @@ Artificial Intelligence Labs for computer science students, which including the 
 #### - [Neural Networks and Deep Learning](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/README.md) Labs
 #### - [Signal Processing and Data Compression](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/README.md) Labs
 #### - [Image Processing and Computer Vision](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/README.md) Labs
-#### - [Machine Vision and Virtual Reality](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/README.md) Labs
+#### - [Machine Vision and Speech Processing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/README.md) Labs
 
 <img align="right" width="100" height="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
 
