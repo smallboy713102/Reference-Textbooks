@@ -76,14 +76,14 @@
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
         </tr>
         <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Calculus-and-Linear-Algebra/README.md">BookName</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Calculus-and-Linear-Algebra/README.md">BookName</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Calculus-and-Linear-Algebra/README.md">BookName</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Calculus-and-Linear-Algebra/README.md">3D Math Primer for Graphics and Game Development, Ian Parberry</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Calculus-and-Linear-Algebra/README.md">3D Math Primer for Graphics and Game Development, Fletcher Dunn</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Calculus-and-Linear-Algebra/README.md">Mathematics for 3D-Game Programming and Computer Graphics, Eric Lengyel</a></td>
         </tr>
         <tr>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/image.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/3D-Math-Primer-for-Graphics-and-Game-Development-Ian-Parberry.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/3D-Math-Primer-for-Graphics-and-Game-Development-Fletcher-Dunn.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Mathematics-for-3D-Game-Programming-and-Computer-Graphics-Eric-Lengyel.jpg"></td>
         </tr>
     </tbody>
 </table>
@@ -349,32 +349,32 @@
         <tr>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Computer Graphics Principles and Practice, John F. Hughes</a></td>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">OpenGL Programming Guide, Dave Shreiner</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Fundamentals of Computer Graphics, Peter Shirley</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Principles of Computer Graphics, Shalini Govil Pai</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/OpenGL-Programming-Guide-Dave-Shreiner.jpg"></td>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Fundamentals-of-Computer-Graphics-Peter-Shirley.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Algorithms-and-Data-Structures-with-Applications-to-Graphics-and-Geometry-Jurg-Nievergelt.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Principles-of-Computer-Graphics-Shalini-Govil-Pai.jpg"></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Algorithms and Data Structures with Applications to Graphics and Geometry, Jurg Nievergelt</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">3D Math Primer for Graphics and Game Development, Ian Parberry</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">3D Math Primer for Graphics and Game Development, Fletcher Dunn</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Computer Graphics and Geometric Modeling, Max K. Agoston</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Computer Graphics Programming in OpenGL with Cpp, V. Scott Gordon</a></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Computer-Graphics-Principles-and-Practice-John-F.-Hughes.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/3D-Math-Primer-for-Graphics-and-Game-Development-Ian-Parberry.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/3D-Math-Primer-for-Graphics-and-Game-Development-Fletcher-Dunn.jpg"></td>
-        </tr>
-        <tr>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Computer Graphics and Geometric Modeling, Max K. Agoston</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Computer Graphics Programming in OpenGL with Cpp, V. Scott Gordon</a></td>
-<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Mathematics for 3D-Game Programming and Computer Graphics, Eric Lengyel</a></td>
-        </tr>
-        <tr>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Computer-Graphics-and-Geometric-Modeling-Max-K.-Agoston.jpg"></td>
 <td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Computer-Graphics-Programming-in-OpenGL-with-Cpp-V.-Scott-Gordon.jpg"></td>
-<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Mathematics-for-3D-Game-Programming-and-Computer-Graphics-Eric-Lengyel.jpg"></td>
+        </tr>
+        <tr>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Computer Graphics Through OpenGL, Sumanta Guha</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Interactive Computer Graphics, Edward Angel</a></td>
+<td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">OpenGL Development Cookbook, Muhammad Mobeen Movania</a></td>
+        </tr>
+        <tr>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Computer-Graphics-Through-OpenGL-Sumanta-Guha.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/Interactive-Computer-Graphics-Edward-Angel.jpg"></td>
+<td align=center width="33.3%"><img align="center" width="90%" src="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/textbooks-covers/OpenGL-Development-Cookbook-Muhammad-Mobeen-Movania.jpg"></td>
         </tr>
         <tr>
 <td align=center width="33.3%"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/Computer-Graphics/README.md">Computer Graphics C Version, Donald Hearn</a></td>
