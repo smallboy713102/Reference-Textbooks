@@ -299,7 +299,7 @@
 <td align=center width="125px">Module 1</td>
 <td align=center width="400px">Neural Networks Basics</td>
 <td align=center width="125px">Module 2</td>
-<td align=center width="400px">Advanced Neural Networks Techniques</td>
+<td align=center width="400px">Advanced Techniques</td>
         </tr>
         <tr>
 <td align=center width="125px">Lecture 01</a></td>
