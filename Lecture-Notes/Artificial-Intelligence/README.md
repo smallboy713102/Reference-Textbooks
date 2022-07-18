@@ -756,7 +756,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/machine-vision.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/systems-development-methodologies.jpg"></img>
 <br>
 
 ## [Systems Development Methodologies](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Systems-Development-Methodologies/README.md) Lectures
@@ -808,7 +808,7 @@
     </tbody>
 </table>
 
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/virtual-reality.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/mlops.jpg"></img>
 <br>
 
 ## [Continuous Delivery and MLOps](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md) Lectures
