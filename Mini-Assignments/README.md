@@ -39,7 +39,7 @@ Artificial Intelligence Assignments for computer science students, which includi
 #### - [Neural Networks and Deep Learning](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/README.md) Assignments
 #### - [Signal Processing and Data Compression](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/README.md) Assignments
 #### - [Image Processing and Computer Vision](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/README.md) Assignments
-#### - [Machine Vision and Speech Processing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/README.md) Assignments
+#### - [Machine Learning Engineering for Production](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Artificial-Intelligence/README.md) Assignments
 
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
 
