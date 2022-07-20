@@ -36,46 +36,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Artificial-Intelligence-Algorithms/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -88,46 +88,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Soft-Computing/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -140,46 +140,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Machine-Learning/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -192,46 +192,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Supervised-Learning/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -244,46 +244,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Unsupervised-Learning/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -296,46 +296,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Neural-Networks/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -348,46 +348,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Deep-Learning/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -400,46 +400,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Generative-Adversarial-Networks/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -452,46 +452,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Differential-Equations/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -504,46 +504,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Signal-Processing/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -556,46 +556,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Data-Compression/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -608,46 +608,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Image-Processing/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -660,46 +660,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Computer-Vision/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -712,46 +712,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Pattern-Recognition/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -764,46 +764,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -816,46 +816,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Continuous-Delivery-and-MLOps/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -868,46 +868,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Speech-Processing/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>
@@ -920,46 +920,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
-<td align=center width="125px">Lab #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
+<td align="center" width="125px">Lab #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Artificial-Intelligence/Multimedia-Mining/README.md">LabName</a></td>
         </tr>
     </tbody>
 </table>

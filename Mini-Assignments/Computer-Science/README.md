@@ -36,46 +36,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Fundamentals-of-Computer-Science/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -88,46 +88,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Calculus-and-Linear-Algebra/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -140,46 +140,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Probability-and-Statistics/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -192,46 +192,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Python-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -245,46 +245,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/C-CPP-Programming-Language/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -297,46 +297,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Object-Oriented-Programming/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -349,46 +349,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Discrete-Mathematics/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -401,46 +401,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Data-Structures/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -453,46 +453,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -505,46 +505,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Data-Structures/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -557,46 +557,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Advanced-Algorithms-Analysis-and-Design/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -609,46 +609,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Computer-Graphics/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -661,46 +661,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Operating-Systems/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -713,46 +713,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Concurrency-and-Parallel-Computing/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -765,46 +765,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/High-Performance-Computing/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -817,46 +817,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Programming-Languages-Concepts/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -869,46 +869,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Theory-of-Computation/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>
@@ -921,46 +921,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
-<td align=center width="125px">Assignment #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
+<td align="center" width="125px">Assignment #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Computer-Science/Compiler-Design/README.md">AssignmentName</a></td>
         </tr>
     </tbody>
 </table>

@@ -36,46 +36,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Science/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -88,46 +88,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/R-Programming-Language/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -140,46 +140,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Analytics/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -192,46 +192,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analysis/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -244,46 +244,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Visualization/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -296,46 +296,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Analytics/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -348,46 +348,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Natural-Language-Processing/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -400,46 +400,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Mining/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -452,46 +452,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Text-Mining/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -504,46 +504,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Modeling-and-Design/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -556,46 +556,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Business-Intelligence/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -608,46 +608,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Management/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -660,46 +660,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/File-Organization-and-Processing/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -712,46 +712,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Data-Storage-and-Retrieval/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -764,46 +764,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Distributed-Database-Systems/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -816,46 +816,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Speech-Processing/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -868,46 +868,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Analytics/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
@@ -920,46 +920,46 @@
 <table>
     <tbody>
         <tr>
-<td align=center width="125px">Module 1</td>
-<td align=center width="400px">ModuleName</td>
-<td align=center width="125px">Module 2</td>
-<td align=center width="400px">ModuleName</td>
+<td align="center" width="125px">Module 1</td>
+<td align="center" width="400px">ModuleName</td>
+<td align="center" width="125px">Module 2</td>
+<td align="center" width="400px">ModuleName</td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
         </tr>
         <tr>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
-<td align=center width="125px">Lecture #</a></td>
-<td align=left width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
+<td align="center" width="125px">Lecture #</a></td>
+<td align="left" width="400px"><a href="https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/Big-Data-Modeling/README.md">LectureName</a></td>
         </tr>
     </tbody>
 </table>
