@@ -4,11 +4,11 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C3/W1/ungraded_labs/C3_W1_Lab_3_sarcasm.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Tokenizing the Sarcasm Dataset
-# 
+#
 # In this lab, you will be applying what you've learned in the past two exercises to preprocess the [News Headlines Dataset for Sarcasm Detection](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection/home). This contains news headlines which are labeled as sarcastic or not. You will revisit this dataset in later labs so it is good to be acquainted with it now.
 
 # ## Download and inspect the dataset
-# 
+#
 # First, you will fetch the dataset and preview some of its elements.
 
 # In[ ]:
@@ -48,7 +48,7 @@ print(datastore[20000])
 
 
 # Initialize lists
-sentences = [] 
+sentences = []
 labels = []
 urls = []
 
@@ -60,7 +60,7 @@ for item in datastore:
 
 
 # ## Preprocessing the headlines
-# 
+#
 # You can convert the `sentences` list above into padded sequences by using the same methods you've been using in the past exercises. The cell below generates the `word_index` dictionary and generates the list of padded sequences for each of the 26,709 headlines.
 
 # In[ ]:

@@ -2,9 +2,9 @@
 # coding: utf-8
 
 # # Week 2: Predicting time series
-# 
+#
 # Welcome! In the previous assignment you got some exposure to working with time series data, but you didn't use machine learning techniques for your forecasts. This week you will be using a deep neural network to create forecasts to see how this technique compares with the ones you already tried out. Once again all of the data is going to be generated.
-# 
+#
 # Let's get started!
 
 # In[ ]:
@@ -17,8 +17,8 @@ from dataclasses import dataclass
 
 
 # ## Generating the data
-# 
-# 
+#
+#
 # The next cell includes a bunch of helper functions to generate and plot the time series:
 
 # In[ ]:
@@ -36,7 +36,7 @@ def trend(time, slope=0):
 def seasonal_pattern(season_time):
     """Just an arbitrary pattern, you can change it if you wish"""
     return np.where(season_time < 0.1,
-                    np.cos(season_time * 6 * np.pi), 
+                    np.cos(season_time * 6 * np.pi),
                     2 / np.exp(9 * season_time))
 
 def seasonality(time, period, amplitude=1, phase=0):
@@ -50,10 +50,10 @@ def noise(time, noise_level=1, seed=None):
 
 
 # You will be generating time series data that greatly resembles the one from last week but with some differences.
-# 
+#
 # **Notice that this time all the generation is done within a function and global variables are saved within a dataclass. This is done to avoid using global scope as it was done in during the previous week.**
-# 
-# If you haven't used dataclasses before, they are just Python classes that provide a convenient syntax for storing data. You can read more about them in the [docs](https://docs.python.org/3/library/dataclasses.html). 
+#
+# If you haven't used dataclasses before, they are just Python classes that provide a convenient syntax for storing data. You can read more about them in the [docs](https://docs.python.org/3/library/dataclasses.html).
 
 # In[ ]:
 
@@ -74,7 +74,7 @@ def generate_time_series():
     # Adding some noise
     noise_level = 3
     series += noise(time, noise_level, seed=51)
-    
+
     return time, series
 
 
@@ -86,7 +86,7 @@ class G:
     WINDOW_SIZE = 20
     BATCH_SIZE = 32
     SHUFFLE_BUFFER_SIZE = 1000
-    
+
 
 # Plot the generated series
 plt.figure(figsize=(10, 6))
@@ -95,7 +95,7 @@ plt.show()
 
 
 # ## Splitting the data
-# 
+#
 # Since you already coded the `train_val_split` function during last week's assignment, this time it is provided for you:
 
 # In[ ]:
@@ -116,45 +116,45 @@ time_train, series_train, time_valid, series_valid = train_val_split(G.TIME, G.S
 
 
 # ## Processing the data
-# 
+#
 # As you saw on the lectures you can feed the data for training by creating a dataset with the appropiate processing steps such as `windowing`, `flattening`, `batching` and `shuffling`. To do so complete the `windowed_dataset` function below.
-# 
+#
 # Notice that this function receives a `series`, `window_size`, `batch_size` and `shuffle_buffer` and the last three of these default to the "global" values defined earlier.
-# 
+#
 # Be sure to check out the [docs](https://www.tensorflow.org/api_docs/python/tf/data/Dataset) about `TF Datasets` if you need any help.
 
 # In[ ]:
 
 
 def windowed_dataset(series, window_size=G.WINDOW_SIZE, batch_size=G.BATCH_SIZE, shuffle_buffer=G.SHUFFLE_BUFFER_SIZE):
-    
+
     ### START CODE HERE
-    
+
     # Create dataset from the series
     dataset = None
-    
+
     # Slice the dataset into the appropriate windows
     dataset = None
-    
+
     # Flatten the dataset
     dataset = None
-    
+
     # Shuffle it
     dataset = None
-    
+
     # Split it into the features and labels
     dataset = None
-    
+
     # Batch it
     dataset = None
-    
+
     ### END CODE HERE
-    
+
     return dataset
 
 
 # To test your function you will be using a `window_size` of 1 which means that you will use each value to predict the next one. This for 5 elements since a `batch_size` of 5 is used and no shuffle since `shuffle_buffer` is set to 1.
-# 
+#
 # Given this, the batch of features should be identical to the first 5 elements of the `series_train` and the batch of labels should be equal to elements 2 through 6 of the `series_train`.
 
 # In[ ]:
@@ -175,27 +175,27 @@ print(f"batch_of_labels is equal to first five labels: {np.allclose(batch_of_lab
 
 
 # **Expected Output:**
-# 
+#
 # ```
 # batch_of_features has type: <class 'tensorflow.python.framework.ops.EagerTensor'>
-# 
+#
 # batch_of_labels has type: <class 'tensorflow.python.framework.ops.EagerTensor'>
-# 
+#
 # batch_of_features has shape: (5, 1)
-# 
+#
 # batch_of_labels has shape: (5,)
-# 
+#
 # batch_of_features is equal to first five elements in the series: True
-# 
+#
 # batch_of_labels is equal to first five labels: True
 # ```
 
 # ## Defining the model architecture
-# 
+#
 # Now that you have a function that will process the data before it is fed into your neural network for training, it is time to define you layer architecture.
-# 
+#
 # Complete the `create_model` function below. Notice that this function receives the `window_size` since this will be an important parameter for the first layer of your network.
-# 
+#
 # Hint:
 # - You will only need `Dense` layers.
 # - The training should be really quick so if you notice that each epoch is taking more than a few seconds, consider trying a different architecture.
@@ -207,13 +207,13 @@ def create_model(window_size=G.WINDOW_SIZE):
 
     ### START CODE HERE
 
-    model = tf.keras.models.Sequential([ 
-        
-    ]) 
+    model = tf.keras.models.Sequential([
+
+    ])
 
     model.compile(loss=None,
                   optimizer=None)
-    
+
     ### END CODE HERE
 
     return model
@@ -233,22 +233,22 @@ model.fit(dataset, epochs=100)
 
 
 # ## Evaluating the forecast
-# 
+#
 # Now it is time to evaluate the performance of the forecast. For this you can use the `compute_metrics` function that you coded in the previous assignment:
 
 # In[ ]:
 
 
 def compute_metrics(true_series, forecast):
-    
+
     mse = tf.keras.metrics.mean_squared_error(true_series, forecast).numpy()
     mae = tf.keras.metrics.mean_absolute_error(true_series, forecast).numpy()
 
     return mse, mae
 
 
-# At this point only the model that will perform the forecast is ready but you still need to compute the actual forecast. 
-# 
+# At this point only the model that will perform the forecast is ready but you still need to compute the actual forecast.
+#
 # For this, run the cell below which uses the `generate_forecast` function to compute the forecast. This function generates the next value given a set of the previous `window_size` points for every point in the validation set.
 
 # In[ ]:
@@ -274,9 +274,9 @@ plot_series(time_valid, dnn_forecast)
 
 
 # **Expected Output:**
-# 
+#
 # A series similar to this one:
-# 
+#
 # <div>
 # <img src="images/forecast.png" width="500"/>
 # </div>
@@ -290,13 +290,13 @@ print(f"mse: {mse:.2f}, mae: {mae:.2f} for forecast")
 
 
 # **To pass this assignment your forecast should achieve an MSE of 30 or less.**
-# 
+#
 # - If your forecast didn't achieve this threshold try re-training your model with a different architecture or tweaking the optimizer's parameters.
-# 
-# 
+#
+#
 # - If your forecast did achieve this threshold run the following cell to save your model in a HDF5 file file which will be used for grading and after doing so, submit your assigment for grading.
-# 
-# 
+#
+#
 # - This environment includes a dummy `my_model.h5` file which is just a dummy model trained for one epoch. **To replace this file with your actual model you need to run the next cell before submitting for grading.**
 
 # In[ ]:
@@ -307,7 +307,7 @@ model.save('my_model.h5')
 
 
 # **Congratulations on finishing this week's assignment!**
-# 
+#
 # You have successfully implemented a neural network capable of forecasting time series while also learning how to leverage Tensorflow's Dataset class to process time series data!
-# 
+#
 # **Keep it up!**

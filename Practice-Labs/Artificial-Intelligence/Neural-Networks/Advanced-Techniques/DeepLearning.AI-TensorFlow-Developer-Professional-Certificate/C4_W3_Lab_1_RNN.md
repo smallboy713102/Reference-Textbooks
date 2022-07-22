@@ -38,7 +38,7 @@ def plot_series(time, series, format="-", start=0, end=None):
 
     # Setup dimensions of the graph figure
     plt.figure(figsize=(10, 6))
-    
+
     if type(series) is tuple:
 
       for series_num in series:
@@ -81,12 +81,12 @@ def trend(time, slope=0):
 def seasonal_pattern(season_time):
     """
     Just an arbitrary pattern, you can change it if you wish
-    
+
     Args:
       season_time (array of float) - contains the measurements per time step
 
     Returns:
-      data_pattern (array of float) -  contains revised measurement values according 
+      data_pattern (array of float) -  contains revised measurement values according
                                   to the defined pattern
     """
 
@@ -94,7 +94,7 @@ def seasonal_pattern(season_time):
     data_pattern = np.where(season_time < 0.4,
                     np.cos(season_time * 2 * np.pi),
                     1 / np.exp(3 * season_time))
-    
+
     return data_pattern
 
 def seasonality(time, period, amplitude=1, phase=0):
@@ -110,7 +110,7 @@ def seasonality(time, period, amplitude=1, phase=0):
     Returns:
       data_pattern (array of float) - seasonal data scaled by the defined amplitude
     """
-    
+
     # Define the measured values per period
     season_time = ((time + phase) % period) / period
 
@@ -136,7 +136,7 @@ def noise(time, noise_level=1, seed=None):
 
     # Generate a random number for each time step and scale by the noise level
     noise = rnd.randn(len(time)) * noise_level
-    
+
     return noise
 ```
 
@@ -168,7 +168,7 @@ plot_series(time, series)
 # Define the split time
 split_time = 1000
 
-# Get the train set 
+# Get the train set
 time_train = time[:split_time]
 x_train = series[:split_time]
 
@@ -201,25 +201,25 @@ def windowed_dataset(series, window_size, batch_size, shuffle_buffer):
     Returns:
       dataset (TF Dataset) - TF Dataset containing time windows
     """
-  
+
     # Generate a TF Dataset from the series values
     dataset = tf.data.Dataset.from_tensor_slices(series)
-    
+
     # Window the data but only take those with the specified size
     dataset = dataset.window(window_size + 1, shift=1, drop_remainder=True)
-    
+
     # Flatten the windows by putting its elements in a single batch
     dataset = dataset.flat_map(lambda window: window.batch(window_size + 1))
 
-    # Create tuples with features and labels 
+    # Create tuples with features and labels
     dataset = dataset.map(lambda window: (window[:-1], window[-1]))
 
     # Shuffle the windows
     dataset = dataset.shuffle(shuffle_buffer)
-    
+
     # Create batches of windows
     dataset = dataset.batch(batch_size).prefetch(1)
-    
+
     return dataset
 ```
 
@@ -239,7 +239,7 @@ for window in dataset.take(1):
 
 ## Build the Model
 
-Your model is composed mainly of [SimpleRNN](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SimpleRNN) layers. As mentioned in the lectures, this type of RNN simply routs its output back to the input. You will stack two of these layers in your model so the first one should have `return_sequences` set to `True`. 
+Your model is composed mainly of [SimpleRNN](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SimpleRNN) layers. As mentioned in the lectures, this type of RNN simply routs its output back to the input. You will stack two of these layers in your model so the first one should have `return_sequences` set to `True`.
 
 As mentioned in the [documentation](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SimpleRNN#call_arguments), `SimpleRNN` layers expect a 3-dimensional tensor input with the shape `[batch, timesteps, feature`]. With that, you need to reshape your window from `(32, 20)` to `(32, 20, 1)`. This means the 20 datapoints in the window will be mapped to 20 timesteps of the RNN. You can do this reshaping in a separate cell but you can also do this within the model itself by using [Lambda](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Lambda) layers. Notice the first layer below. It defines a lambda function that adds a dimension at the last axis of the input. That's exactly the transformation you need. For the `input_shape`, you can specify `None` (like in the lecture video) if you want to be the model to be more flexible with the number of timesteps. Alternatively, you can set it to `window_size` as shown below if you want to set the `timesteps` dimension to the expected size of your data windows.
 
@@ -343,7 +343,7 @@ model = tf.keras.models.Sequential([
 # Set the learning rate
 learning_rate = 1e-6
 
-# Set the optimizer 
+# Set the optimizer
 optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=0.9)
 
 # Set the training parameters
@@ -405,13 +405,13 @@ def model_forecast(model, series, window_size, batch_size):
 
     # Flatten the windows by putting its elements in a single batch
     dataset = dataset.flat_map(lambda w: w.batch(window_size))
-    
+
     # Create batches of windows
     dataset = dataset.batch(batch_size).prefetch(1)
-    
+
     # Get predictions on the entire dataset
     forecast = model.predict(dataset)
-    
+
     return forecast
 ```
 

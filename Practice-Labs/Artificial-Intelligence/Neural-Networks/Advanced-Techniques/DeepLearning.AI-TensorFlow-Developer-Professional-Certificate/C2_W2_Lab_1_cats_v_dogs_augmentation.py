@@ -4,15 +4,15 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C2/W2/ungraded_labs/C2_W2_Lab_1_cats_v_dogs_augmentation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Data Augmentation
-# 
+#
 # In the previous lessons, you saw that having a high training accuracy does not automatically mean having a good predictive model. It can still perform poorly on new data because it has overfit to the training set. In this lab, you will see how to avoid that using _data augmentation_. This increases the amount of training data by modifying the existing training data's properties. For example, in image data, you can apply different preprocessing techniques such as rotate, flip, shear, or zoom on your existing images so you can simulate other data that the model should also learn from. This way, the model would see more variety in the images during training so it will infer better on new, previously unseen data.
-# 
+#
 # Let's see how you can do this in the following sections.
 
 # ## Baseline Performance
-# 
+#
 # You will start with a model that's very effective at learning `Cats vs Dogs` without data augmentation. It's similar to the previous models that you have used. Note that there are four convolutional layers with 32, 64, 128 and 128 convolutions respectively. The code is basically the same from the previous lab so we won't go over the details step by step since you've already seen it before.
-# 
+#
 # You will train only for 20 epochs to save time but feel free to increase this if you want.
 
 # In[ ]:
@@ -78,7 +78,7 @@ def create_model():
   model.compile(loss='binary_crossentropy',
                 optimizer=RMSprop(learning_rate=1e-4),
                 metrics=['accuracy'])
-  
+
   return model
 
 
@@ -164,16 +164,16 @@ plot_loss_acc(history)
 
 
 # From the results above, you'll see the training accuracy is more than 90%, and the validation accuracy is in the 70%-80% range. This is a great example of _overfitting_ -- which in short means that it can do very well with images it has seen before, but not so well with images it hasn't.
-# 
+#
 
 # ## Data augmentation
-# 
-# One simple method to avoid overfitting is to augment the images a bit. If you think about it, most pictures of a cat are very similar -- the ears are at the top, then the eyes, then the mouth etc. Things like the distance between the eyes and ears will always be quite similar too. 
-# 
+#
+# One simple method to avoid overfitting is to augment the images a bit. If you think about it, most pictures of a cat are very similar -- the ears are at the top, then the eyes, then the mouth etc. Things like the distance between the eyes and ears will always be quite similar too.
+#
 # What if you tweak with the images a bit -- rotate the image, squash it, etc.  That's what image augementation is all about. And there's an API that makes it easy!
-# 
-# Take a look at the [ImageDataGenerator](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator) which you have been using to rescale the image. There are other properties on it that you can use to augment the image. 
-# 
+#
+# Take a look at the [ImageDataGenerator](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator) which you have been using to rescale the image. There are other properties on it that you can use to augment the image.
+#
 # ```
 # # Updated to do image augmentation
 # train_datagen = ImageDataGenerator(
@@ -185,19 +185,19 @@ plot_loss_acc(history)
 #       horizontal_flip=True,
 #       fill_mode='nearest')
 # ```
-# 
+#
 # These are just a few of the options available. Let's quickly go over it:
-# 
+#
 # * `rotation_range` is a value in degrees (0–180) within which to randomly rotate pictures.
 # * `width_shift` and `height_shift` are ranges (as a fraction of total width or height) within which to randomly translate pictures vertically or horizontally.
 # * `shear_range` is for randomly applying shearing transformations.
 # * `zoom_range` is for randomly zooming inside pictures.
 # * `horizontal_flip` is for randomly flipping half of the images horizontally. This is relevant when there are no assumptions of horizontal assymmetry (e.g. real-world pictures).
 # * `fill_mode` is the strategy used for filling in newly created pixels, which can appear after a rotation or a width/height shift.
-# 
-# 
+#
+#
 # Run the next cells to see the impact on the results. The code is similar to the baseline but the definition of `train_datagen` has been updated to use the parameters described above.
-# 
+#
 
 # In[ ]:
 
@@ -251,13 +251,13 @@ history_with_aug = model_for_aug.fit(
 plot_loss_acc(history_with_aug)
 
 
-# As you can see, the training accuracy has gone down compared to the baseline. This is expected because (as a result of data augmentation) there are more variety in the images so the model will need more runs to learn from them. The good thing is the validation accuracy is no longer stalling and is more in line with the training results. This means that the model is now performing better on unseen data. 
-# 
-# 
-# 
+# As you can see, the training accuracy has gone down compared to the baseline. This is expected because (as a result of data augmentation) there are more variety in the images so the model will need more runs to learn from them. The good thing is the validation accuracy is no longer stalling and is more in line with the training results. This means that the model is now performing better on unseen data.
+#
+#
+#
 
 # ## Wrap Up
-# 
+#
 # This exercise showed a simple trick to avoid overfitting. You can improve your baseline results by simply tweaking the same images you have already. The `ImageDataGenerator` class has built-in parameters to do just that. Try to modify the values some more in the `train_datagen` and see what results you get.
-# 
+#
 # Take note that this will not work for all cases. In the next lesson, Laurence will show a scenario where data augmentation will not help improve your validation accuracy.

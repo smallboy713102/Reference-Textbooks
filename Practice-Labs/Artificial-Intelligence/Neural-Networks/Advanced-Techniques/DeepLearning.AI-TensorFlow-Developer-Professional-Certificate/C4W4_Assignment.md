@@ -21,7 +21,7 @@ Begin by looking at the structure of the csv that contains the data:
 TEMPERATURES_CSV = './data/daily-min-temperatures.csv'
 
 with open(TEMPERATURES_CSV, 'r') as csvfile:
-    print(f"Header looks like this:\n\n{csvfile.readline()}")    
+    print(f"Header looks like this:\n\n{csvfile.readline()}")
     print(f"First data point looks like this:\n\n{csvfile.readline()}")
     print(f"Second data point looks like this:\n\n{csvfile.readline()}")
 ```
@@ -55,18 +55,18 @@ A couple of things to note:
 
 ```python
 def parse_data_from_file(filename):
-    
+
     times = []
     temperatures = []
 
     with open(filename) as csvfile:
-        
+
         ### START CODE HERE
-        
+
         reader = csv.reader(None, delimiter=None)
-        
+
         ### END CODE HERE
-            
+
     return times, temperatures
 
 ```
@@ -150,11 +150,11 @@ Hint:
 def create_uncompiled_model():
 
     ### START CODE HERE
-    
+
     model = tf.keras.models.Sequential([
-        
-    ]) 
-    
+
+    ])
+
     ### END CODE HERE
 
     return model
@@ -187,25 +187,25 @@ For the optimizers you can try out:
 
 ```python
 def adjust_learning_rate(dataset):
-    
+
     model = create_uncompiled_model()
-    
+
     lr_schedule = tf.keras.callbacks.LearningRateScheduler(lambda epoch: 1e-4 * 10**(epoch / 20))
-    
+
     ### START CODE HERE
-    
+
     # Select your optimizer
     optimizer = None
-    
+
     # Compile the model passing in the appropriate loss
     model.compile(loss=None,
-                  optimizer=optimizer, 
-                  metrics=["mae"]) 
-    
+                  optimizer=optimizer,
+                  metrics=["mae"])
+
     ### END CODE HERE
-    
+
     history = model.fit(dataset, epochs=100, callbacks=[lr_schedule])
-    
+
     return history
 ```
 
@@ -237,15 +237,15 @@ Hints:
 ```python
 def create_model():
 
-    
+
     model = create_uncompiled_model()
 
     ### START CODE HERE
 
     model.compile(loss=None,
                   optimizer=None,
-                  metrics=["mae"])  
-    
+                  metrics=["mae"])
+
 
     ### END CODE HERE
 
@@ -268,7 +268,7 @@ Now it is time to evaluate the performance of the forecast. For this you can use
 
 ```python
 def compute_metrics(true_series, forecast):
-    
+
     mse = tf.keras.metrics.mean_squared_error(true_series, forecast).numpy()
     mae = tf.keras.metrics.mean_absolute_error(true_series, forecast).numpy()
 
@@ -281,7 +281,7 @@ At this point only the model that will perform the forecast is ready but you sti
 
 ## Faster model forecasts
 
-In the previous week you saw a faster approach compared to using a for loop to compute the forecasts for every point in the sequence. Remember that this faster approach uses batches of data. 
+In the previous week you saw a faster approach compared to using a for loop to compute the forecasts for every point in the sequence. Remember that this faster approach uses batches of data.
 
 The code to implement this is provided in the `model_forecast` below. Notice that the code is very similar to the one in the `windowed_dataset` function with the differences that:
 - The dataset is windowed using `window_size` rather than `window_size + 1`

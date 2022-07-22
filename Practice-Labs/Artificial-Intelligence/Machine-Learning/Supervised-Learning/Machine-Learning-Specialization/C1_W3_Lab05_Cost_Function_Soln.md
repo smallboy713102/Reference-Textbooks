@@ -13,7 +13,7 @@ from lab_utils_common import  plot_data, sigmoid, dlc
 plt.style.use('./deeplearning.mplstyle')
 ```
 
-## Dataset 
+## Dataset
 Let's start with the same dataset as was used in the decision boundary lab.
 
 
@@ -45,7 +45,7 @@ plt.show()
 In a previous lab, you developed the *logistic loss* function. Recall, loss is defined to apply to one example. Here you combine the losses to form the **cost**, which includes all the examples.
 
 
-Recall that for logistic regression, the cost function is of the form 
+Recall that for logistic regression, the cost function is of the form
 
 $$ J(\mathbf{w},b) = \frac{1}{m} \sum_{i=0}^{m-1} \left[ loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) \right] \tag{1}$$
 
@@ -53,16 +53,16 @@ where
 * $loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)})$ is the cost for a single data point, which is:
 
     $$loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) = -y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) \tag{2}$$
-    
+
 *  where m is the number of training examples in the data set and:
 $$
 \begin{align}
   f_{\mathbf{w},b}(\mathbf{x^{(i)}}) &= g(z^{(i)})\tag{3} \\
   z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\tag{4} \\
-  g(z^{(i)}) &= \frac{1}{1+e^{-z^{(i)}}}\tag{5} 
+  g(z^{(i)}) &= \frac{1}{1+e^{-z^{(i)}}}\tag{5}
 \end{align}
 $$
- 
+
 
 <a name='ex-02'></a>
 #### Code Description
@@ -81,9 +81,9 @@ def compute_cost_logistic(X, y, w, b):
     Args:
       X (ndarray (m,n)): Data, m examples with n features
       y (ndarray (m,)) : target values
-      w (ndarray (n,)) : model parameters  
+      w (ndarray (n,)) : model parameters
       b (scalar)       : model parameter
-      
+
     Returns:
       cost (scalar): cost
     """
@@ -94,7 +94,7 @@ def compute_cost_logistic(X, y, w, b):
         z_i = np.dot(X[i],w) + b
         f_wb_i = sigmoid(z_i)
         cost +=  -y[i]*np.log(f_wb_i) - (1-y[i])*np.log(1-f_wb_i)
-             
+
     cost = cost / m
     return cost
 
@@ -115,7 +115,7 @@ print(compute_cost_logistic(X_train, y_train, w_tmp, b_tmp))
 **Expected output**: 0.3668667864055175
 
 ## Example
-Now, let's see what the cost function output is for a different value of $w$. 
+Now, let's see what the cost function output is for a different value of $w$.
 
 * In a previous lab, you plotted the decision boundary for  $b = -3, w_0 = 1, w_1 = 1$. That is, you had `b = -3, w = np.array([1,1])`.
 

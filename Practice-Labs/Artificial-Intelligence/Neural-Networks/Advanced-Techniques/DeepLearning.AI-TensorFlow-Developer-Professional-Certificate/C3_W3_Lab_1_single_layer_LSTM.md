@@ -9,7 +9,7 @@ So far in this course, you've been using mostly basic dense layers and embedding
 2: My friends don't like the movie but I do. --> positive review
 ```
 
-The first layer you will be looking at is the [*LSTM (Long Short-Term Memory)*](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM). In a nutshell, it computes the state of a current timestep and passes it on to the next timesteps where this state is also updated. The process repeats until the final timestep where the output computation is affected by all previous states. Not only that, it can be configured to be bidirectional so you can get the relationship of later words to earlier ones. If you want to go in-depth of how these processes work, you can look at the [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models) course of the Deep Learning Specialization. For this lab, you can take advantage of Tensorflow's APIs that implements the complexities of these layers for you. This makes it easy to just plug it in to your model. Let's see how to do that in the next sections below. 
+The first layer you will be looking at is the [*LSTM (Long Short-Term Memory)*](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM). In a nutshell, it computes the state of a current timestep and passes it on to the next timesteps where this state is also updated. The process repeats until the final timestep where the output computation is affected by all previous states. Not only that, it can be configured to be bidirectional so you can get the relationship of later words to earlier ones. If you want to go in-depth of how these processes work, you can look at the [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models) course of the Deep Learning Specialization. For this lab, you can take advantage of Tensorflow's APIs that implements the complexities of these layers for you. This makes it easy to just plug it in to your model. Let's see how to do that in the next sections below.
 
 ## Download the dataset
 
@@ -28,7 +28,7 @@ tokenizer = info.features['text'].encoder
 
 ## Prepare the dataset
 
-You can then get the train and test splits and generate padded batches. 
+You can then get the train and test splits and generate padded batches.
 
 *Note: To make the training go faster in this lab, you will increase the batch size that Laurence used in the lecture. In particular, you will use `256` and this takes roughly a minute to train per epoch. In the video, Laurence used `16` which takes around 4 minutes per epoch.*
 
@@ -38,7 +38,7 @@ BUFFER_SIZE = 10000
 BATCH_SIZE = 256
 
 # Get the train and test splits
-train_data, test_data = dataset['train'], dataset['test'], 
+train_data, test_data = dataset['train'], dataset['test'],
 
 # Shuffle the training data
 train_dataset = train_data.shuffle(BUFFER_SIZE)
@@ -103,7 +103,7 @@ def plot_graphs(history, string):
   plt.legend([string, 'val_'+string])
   plt.show()
 
-# Plot the accuracy and results 
+# Plot the accuracy and results
 plot_graphs(history, "accuracy")
 plot_graphs(history, "loss")
 ```

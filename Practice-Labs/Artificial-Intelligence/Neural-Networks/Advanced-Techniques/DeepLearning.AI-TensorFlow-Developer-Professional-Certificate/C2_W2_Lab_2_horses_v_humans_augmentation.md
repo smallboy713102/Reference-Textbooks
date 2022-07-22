@@ -2,7 +2,7 @@
 
 # Ungraded Lab: Data Augmentation on the Horses or Humans Dataset
 
-In the previous lab, you saw how data augmentation helped improve the model's performance on unseen data. By tweaking the cat and dog training images, the model was able to learn features that are also representative of the validation data. However, applying data augmentation requires good understanding of your dataset. Simply transforming it randomly will not always yield good results. 
+In the previous lab, you saw how data augmentation helped improve the model's performance on unseen data. By tweaking the cat and dog training images, the model was able to learn features that are also representative of the validation data. However, applying data augmentation requires good understanding of your dataset. Simply transforming it randomly will not always yield good results.
 
 In the next cells, you will apply the same techniques to the `Horses or Humans` dataset and analyze the results.
 
@@ -128,7 +128,7 @@ EPOCHS = 20
 # Train the model
 history = model.fit(
       train_generator,
-      steps_per_epoch=8,  
+      steps_per_epoch=8,
       epochs=EPOCHS,
       verbose=1,
       validation_data = validation_generator,

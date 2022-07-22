@@ -16,7 +16,7 @@ import os
 
 Begin by taking a look at some images of the dataset.
 
-Notice that all the images are contained within the `./data/` directory. 
+Notice that all the images are contained within the `./data/` directory.
 
 This directory contains two subdirectories `happy/` and `sad/` and each image is saved under the subdirectory related to the class it belongs to.
 
@@ -38,7 +38,7 @@ plt.show()
 
 ```
 
-It is cool to be able to see examples of the images to better understand the problem-space you are dealing with. 
+It is cool to be able to see examples of the images to better understand the problem-space you are dealing with.
 
 However there is still some relevant information that is missing such as the resolution of the image (although matplotlib renders the images in a grid providing a good idea of these values) and the maximum pixel value (this is important for normalizing these values). For this you can use Keras as shown in the next cell:
 
@@ -57,7 +57,7 @@ print(f"Each image has shape: {sample_array.shape}")
 print(f"The maximum pixel value used is: {np.max(sample_array)}")
 ```
 
-Looks like the images have a resolution of 150x150. **This is very important because this will be the input size of the first layer in your network.** 
+Looks like the images have a resolution of 150x150. **This is very important because this will be the input size of the first layer in your network.**
 
 **The last dimension refers to each one of the 3 RGB channels that are used to represent colored images.**
 
@@ -74,7 +74,7 @@ class myCallback(tf.keras.callbacks.Callback):
             self.model.stop_training = True
 ```
 
-A quick note on callbacks: 
+A quick note on callbacks:
 
 So far you have used only the `on_epoch_end` callback but there are many more. For example you might want to check out the [EarlyStopping](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping) callback, which allows you to save the best weights for your model.
 
@@ -107,7 +107,7 @@ def image_generator():
     ### END CODE HERE
 
     return train_generator
-    
+
 ```
 
 
@@ -128,7 +128,7 @@ Finally, complete the `train_happy_sad_model` function below. This function shou
 **Your model should achieve an accuracy of 99.9% or more before 15 epochs to pass this assignment.**
 
 **Hints:**
-- You can try any architecture for the network but keep in mind that the model will work best with 3 convolutional layers. 
+- You can try any architecture for the network but keep in mind that the model will work best with 3 convolutional layers.
 
 
 - In case you need extra help you can check out some tips at the end of this notebook.
@@ -154,8 +154,8 @@ def train_happy_sad_model(train_generator):
     # Select a loss function compatible with the last layer of your network
     model.compile(loss=losses.None,
                   optimizer=optimizers.None,
-                  metrics=['accuracy']) 
-    
+                  metrics=['accuracy'])
+
 
 
     # Train the model
@@ -164,8 +164,8 @@ def train_happy_sad_model(train_generator):
     history = model.fit(x=None,
                         epochs=None,
                         callbacks=[None]
-                       ) 
-    
+                       )
+
     ### END CODE HERE
     return history
 ```

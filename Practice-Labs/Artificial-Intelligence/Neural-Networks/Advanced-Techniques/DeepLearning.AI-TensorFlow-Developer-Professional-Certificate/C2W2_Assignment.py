@@ -2,11 +2,11 @@
 # coding: utf-8
 
 # # Week 2: Tackle Overfitting with Data Augmentation
-# 
+#
 # Welcome to this assignment! As in the previous week, you will be using the famous `cats vs dogs` dataset to train a model that can classify images of dogs from images of cats. For this, you will create your own Convolutional Neural Network in Tensorflow and leverage Keras' image preprocessing utilities, more so this time around since Keras provides excellent support for augmenting image data.
-# 
+#
 # You will also need to create the helper functions to move the images around the filesystem as you did last week, so if you need to refresh your memory with the `os` module be sure to take a look a the [docs](https://docs.python.org/3/library/os.html).
-# 
+#
 # Let's get started!
 
 # In[ ]:
@@ -22,8 +22,8 @@ from shutil import copyfile
 import matplotlib.pyplot as plt
 
 
-# Download the dataset from its original source by running the cell below. 
-# 
+# Download the dataset from its original source by running the cell below.
+#
 # Note that the `zip` file that contains the images is unzipped under the `/tmp` directory.
 
 # In[ ]:
@@ -61,7 +61,7 @@ print(f"There are {len(os.listdir(source_path_cats))} images of cats.")
 
 
 # **Expected Output:**
-# 
+#
 # ```
 # There are 12501 images of dogs.
 # There are 12501 images of cats.
@@ -84,13 +84,13 @@ if os.path.exists(root_dir):
 def create_train_val_dirs(root_path):
   """
   Creates directories for the train and test sets
-  
+
   Args:
     root_path (string) - the base directory path to create subdirectories from
-  
+
   Returns:
     None
-  """  
+  """
 
   ### START CODE HERE
 
@@ -99,10 +99,10 @@ def create_train_val_dirs(root_path):
   # Don't hardcode the paths. Use os.path.join to append the new directories to the root_path parameter
 
   pass
-  
+
   ### END CODE HERE
 
-  
+
 try:
   create_train_val_dirs(root_path=root_dir)
 except FileExistsError:
@@ -120,7 +120,7 @@ for rootdir, dirs, files in os.walk(root_dir):
 
 
 # **Expected Output (directory order might vary):**
-# 
+#
 # ``` txt
 # /tmp/cats-v-dogs/training
 # /tmp/cats-v-dogs/validation
@@ -128,34 +128,34 @@ for rootdir, dirs, files in os.walk(root_dir):
 # /tmp/cats-v-dogs/training/dogs
 # /tmp/cats-v-dogs/validation/cats
 # /tmp/cats-v-dogs/validation/dogs
-# 
+#
 # ```
 
 # Code the `split_data` function which takes in the following arguments:
 # - SOURCE_DIR: directory containing the files
-# 
+#
 # - TRAINING_DIR: directory that a portion of the files will be copied to (will be used for training)
-# 
+#
 # - VALIDATION_DIR: directory that a portion of the files will be copied to (will be used for validation)
-# 
+#
 # - SPLIT_SIZE: determines the portion of images used for training.
-# 
+#
 # The files should be randomized, so that the training set is a random sample of the files, and the validation set is made up of the remaining files.
-# 
+#
 # For example, if `SOURCE_DIR` is `PetImages/Cat`, and `SPLIT_SIZE` is .9 then 90% of the images in `PetImages/Cat` will be copied to the `TRAINING_DIR` directory
 # and 10% of the images will be copied to the `VALIDATION_DIR` directory.
-# 
+#
 # All images should be checked before the copy, so if they have a zero file length, they will be omitted from the copying process. If this is the case then your function should print out a message such as `"filename is zero length, so ignoring."`. **You should perform this check before the split so that only non-zero images are considered when doing the actual split.**
-# 
-# 
+#
+#
 # Hints:
-# 
+#
 # - `os.listdir(DIRECTORY)` returns a list with the contents of that directory.
-# 
+#
 # - `os.path.getsize(PATH)` returns the size of the file
-# 
+#
 # - `copyfile(source, destination)` copies a file from source to destination
-# 
+#
 # - `random.sample(list, len(list))` shuffles a list
 
 # In[ ]:
@@ -166,13 +166,13 @@ def split_data(SOURCE_DIR, TRAINING_DIR, VALIDATION_DIR, SPLIT_SIZE):
 
   """
   Splits the data into train and test sets
-  
+
   Args:
     SOURCE_DIR (string): directory path containing the images
     TRAINING_DIR (string): directory path to be used for training
     VALIDATION_DIR (string): directory path to be used for validation
     SPLIT_SIZE (float): proportion of the dataset to be used for training
-    
+
   Returns:
     None
   """
@@ -239,15 +239,15 @@ print(f"There are {len(os.listdir(VALIDATION_DOGS_DIR))} images of dogs for vali
 
 
 # **Expected Output:**
-# 
+#
 # ```
 # 666.jpg is zero length, so ignoring.
 # 11702.jpg is zero length, so ignoring.
-# 
-# 
+#
+#
 # Original cat's directory has 12500 images
 # Original dog's directory has 12500 images
-# 
+#
 # There are 11249 images of cats for training
 # There are 11249 images of dogs for training
 # There are 1250 images of cats for validation
@@ -255,7 +255,7 @@ print(f"There are {len(os.listdir(VALIDATION_DOGS_DIR))} images of dogs for vali
 # ```
 
 # Now that you have successfully organized the data in a way that can be easily fed to Keras' `ImageDataGenerator`, it is time for you to code the generators that will yield batches of images, both for training and validation. For this, complete the `train_val_generators` function below.
-# 
+#
 # Something important to note is that the images in this dataset come in a variety of resolutions. Luckily, the `flow_from_directory` method allows you to standarize this by defining a tuple called `target_size` that will be used to convert each image to this target resolution. **For this exercise use a `target_size` of (150, 150)**.
 
 # In[ ]:
@@ -265,11 +265,11 @@ print(f"There are {len(os.listdir(VALIDATION_DOGS_DIR))} images of dogs for vali
 def train_val_generators(TRAINING_DIR, VALIDATION_DIR):
   """
   Creates the training and validation data generators
-  
+
   Args:
     TRAINING_DIR (string): directory path containing the training images
     VALIDATION_DIR (string): directory path containing the testing/validation images
-    
+
   Returns:
     train_generator, validation_generator - tuple containing the generators
   """
@@ -311,19 +311,19 @@ train_generator, validation_generator = train_val_generators(TRAINING_DIR, VALID
 
 
 # **Expected Output:**
-# 
+#
 # ```
 # Found 22498 images belonging to 2 classes.
 # Found 2500 images belonging to 2 classes.
 # ```
-# 
+#
 
 # One last step before training is to define the architecture of the model that will be trained.
-# 
+#
 # Complete the `create_model` function below which should return a Keras' `Sequential` model.
-# 
+#
 # Aside from defining the architecture of the model, you should also compile it so make sure to use a `loss` function that is compatible with the `class_mode` you defined in the previous exercise, which should also be compatible with the output of your network. You can tell if they aren't compatible if you get an error during training.
-# 
+#
 # **Note that you should use at least 3 convolution layers to achieve the desired performance.**
 
 # In[ ]:
@@ -336,22 +336,22 @@ def create_model():
 
   ### START CODE HERE
 
-  model = tf.keras.models.Sequential([ 
+  model = tf.keras.models.Sequential([
       None,
   ])
 
-  
+
   model.compile(optimizer=None,
                 loss=None,
-                metrics=['accuracy']) 
-    
+                metrics=['accuracy'])
+
   ### END CODE HERE
 
   return model
 
 
 # Now it is time to train your model!
-# 
+#
 # Note: You can ignore the `UserWarning: Possibly corrupt EXIF data.` warnings.
 
 # In[ ]:
@@ -369,11 +369,11 @@ history = model.fit(train_generator,
 
 
 # Once training has finished, you can run the following cell to check the training and validation accuracy achieved at the end of each epoch.
-# 
+#
 # **To pass this assignment, your model should achieve a training and validation accuracy of at least 80% and the final testing accuracy should be either higher than the training one or have a 5% difference at maximum**. If your model didn't achieve these thresholds, try training again with a different model architecture, remember to use at least 3 convolutional layers or try tweaking the image augmentation process.
-# 
-# You might wonder why the training threshold to pass this assignment is significantly lower compared to last week's assignment. Image augmentation does help with overfitting but usually this comes at the expense of requiring more training time. To keep the training time reasonable, the same number of epochs as in the previous assignment are kept. 
-# 
+#
+# You might wonder why the training threshold to pass this assignment is significantly lower compared to last week's assignment. Image augmentation does help with overfitting but usually this comes at the expense of requiring more training time. To keep the training time reasonable, the same number of epochs as in the previous assignment are kept.
+#
 # However, as an optional exercise you are encouraged to try training for more epochs and to achieve really good training and validation accuracies.
 
 # In[ ]:
@@ -408,7 +408,7 @@ plt.show()
 
 
 # You will probably encounter that the model is overfitting, which means that it is doing a great job at classifying the images in the training set but struggles with new data. This is perfectly fine and you will learn how to mitigate this issue in the upcomming week.
-# 
+#
 # Before closing the assignment, be sure to also download the `history.pkl` file which contains the information of the training history of your model. You can download this file by running the cell below:
 
 # In[ ]:
@@ -429,7 +429,7 @@ download_history()
 # You will also need to submit this notebook for grading. To download it, click on the `File` tab in the upper left corner of the screen then click on `Download` -> `Download .ipynb`. You can name it anything you want as long as it is a valid `.ipynb` (jupyter notebook) file.
 
 # **Congratulations on finishing this week's assignment!**
-# 
+#
 # You have successfully implemented a convolutional neural network that classifies images of cats and dogs, along with the helper functions needed to pre-process the images!
-# 
+#
 # **Keep it up!**

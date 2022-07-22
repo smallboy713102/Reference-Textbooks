@@ -19,7 +19,7 @@ from tensorflow.keras.preprocessing.image import img_to_array, load_img
 
 ## Dataset
 
-For this assignment, you will use the `Horse or Human dataset`, which contains images of horses and humans. 
+For this assignment, you will use the `Horse or Human dataset`, which contains images of horses and humans.
 
 Download the `training` and `validation` sets by running the cell below:
 
@@ -106,23 +106,23 @@ Now that you know the images you are dealing with, it is time for you to code th
 def train_val_generators(TRAINING_DIR, VALIDATION_DIR):
   """
   Creates the training and validation data generators
-  
+
   Args:
     TRAINING_DIR (string): directory path containing the training images
     VALIDATION_DIR (string): directory path containing the testing/validation images
-    
+
   Returns:
     train_generator, validation_generator: tuple containing the generators
   """
   ### START CODE HERE
 
-  # Instantiate the ImageDataGenerator class 
-  # Don't forget to normalize pixel values and set arguments to augment the images 
+  # Instantiate the ImageDataGenerator class
+  # Don't forget to normalize pixel values and set arguments to augment the images
   train_datagen = None
 
   # Pass in the appropriate arguments to the flow_from_directory method
   train_generator = train_datagen.flow_from_directory(directory=None,
-                                                      batch_size=32, 
+                                                      batch_size=32,
                                                       class_mode=None,
                                                       target_size=(None, None))
 
@@ -132,7 +132,7 @@ def train_val_generators(TRAINING_DIR, VALIDATION_DIR):
 
   # Pass in the appropriate arguments to the flow_from_directory method
   validation_generator = validation_datagen.flow_from_directory(directory=None,
-                                                                batch_size=32, 
+                                                                batch_size=32,
                                                                 class_mode=None,
                                                                 target_size=(None, None))
   ### END CODE HERE
@@ -168,7 +168,7 @@ Now load the `InceptionV3` model and save the path to the weights you just downl
 
 
 ```python
-# Import the inception model  
+# Import the inception model
 from tensorflow.keras.applications.inception_v3 import InceptionV3
 
 # Create an instance of the inception model from the local pre-trained weights
@@ -183,17 +183,17 @@ Complete the `create_pre_trained_model` function below. You should specify the c
 def create_pre_trained_model(local_weights_file):
   """
   Initializes an InceptionV3 model.
-  
+
   Args:
     local_weights_file (string): path pointing to a pretrained weights H5 file
-    
+
   Returns:
     pre_trained_model: the initialized InceptionV3 model
   """
   ### START CODE HERE
   pre_trained_model = InceptionV3(input_shape = (None, None, None),
-                                  include_top = False, 
-                                  weights = None) 
+                                  include_top = False,
+                                  weights = None)
 
   pre_trained_model.load_weights(local_weights_file)
 
@@ -204,7 +204,7 @@ def create_pre_trained_model(local_weights_file):
   ### END CODE HERE
 
   return pre_trained_model
-  
+
 ```
 
 Check that everything went well by comparing the last few rows of the model summary to the expected output:
@@ -219,22 +219,22 @@ pre_trained_model.summary()
 
 **Expected Output:**
 ```
-batch_normalization_v1_281 (Bat (None, 3, 3, 192)    576         conv2d_281[0][0]                 
+batch_normalization_v1_281 (Bat (None, 3, 3, 192)    576         conv2d_281[0][0]
 __________________________________________________________________________________________________
-activation_273 (Activation)     (None, 3, 3, 320)    0           batch_normalization_v1_273[0][0] 
+activation_273 (Activation)     (None, 3, 3, 320)    0           batch_normalization_v1_273[0][0]
 __________________________________________________________________________________________________
-mixed9_1 (Concatenate)          (None, 3, 3, 768)    0           activation_275[0][0]             
-                                                                activation_276[0][0]             
+mixed9_1 (Concatenate)          (None, 3, 3, 768)    0           activation_275[0][0]
+                                                                activation_276[0][0]
 __________________________________________________________________________________________________
-concatenate_5 (Concatenate)     (None, 3, 3, 768)    0           activation_279[0][0]             
-                                                                activation_280[0][0]             
+concatenate_5 (Concatenate)     (None, 3, 3, 768)    0           activation_279[0][0]
+                                                                activation_280[0][0]
 __________________________________________________________________________________________________
-activation_281 (Activation)     (None, 3, 3, 192)    0           batch_normalization_v1_281[0][0] 
+activation_281 (Activation)     (None, 3, 3, 192)    0           batch_normalization_v1_281[0][0]
 __________________________________________________________________________________________________
-mixed10 (Concatenate)           (None, 3, 3, 2048)   0           activation_273[0][0]             
-                                                                mixed9_1[0][0]                   
-                                                                concatenate_5[0][0]              
-                                                                activation_281[0][0]             
+mixed10 (Concatenate)           (None, 3, 3, 2048)   0           activation_273[0][0]
+                                                                mixed9_1[0][0]
+                                                                concatenate_5[0][0]
+                                                                activation_281[0][0]
 ==================================================================================================
 Total params: 21,802,784
 Trainable params: 0
@@ -288,12 +288,12 @@ For this you will need the last output of the pre-trained model, since this will
 def output_of_last_layer(pre_trained_model):
   """
   Gets the last layer output of a model
-  
+
   Args:
     pre_trained_model (tf.keras Model): model to get the last layer output from
-    
+
   Returns:
-    last_output: output of the model's last layer 
+    last_output: output of the model's last layer
   """
   ### START CODE HERE
   last_desired_layer = None
@@ -321,7 +321,7 @@ last layer output:  KerasTensor(type_spec=TensorSpec(shape=(None, 7, 7, 768), dt
 
 Now you will create the final model by adding some additional layers on top of the pre-trained model.
 
-Complete the `create_final_model` function below. You will need to use Tensorflow's [Functional API](https://www.tensorflow.org/guide/keras/functional) for this since the pretrained model has been created using it. 
+Complete the `create_final_model` function below. You will need to use Tensorflow's [Functional API](https://www.tensorflow.org/guide/keras/functional) for this since the pretrained model has been created using it.
 
 Let's double check this first:
 
@@ -341,11 +341,11 @@ Note that you can get the input from any existing model by using its `input` att
 def create_final_model(pre_trained_model, last_output):
   """
   Appends a custom model to a pre-trained model
-  
+
   Args:
     pre_trained_model (tf.keras Model): model that will accept the train/test inputs
     last_output (tensor): last layer output of the pre-trained model
-    
+
   Returns:
     model: the combined model
   """
@@ -357,20 +357,20 @@ def create_final_model(pre_trained_model, last_output):
   # Add a fully connected layer with 1024 hidden units and ReLU activation
   x = None
   # Add a dropout rate of 0.2
-  x = None  
+  x = None
   # Add a final sigmoid layer for classification
-  x = None        
+  x = None
 
   # Create the complete model by using the Model class
   model = Model(inputs=None, outputs=None)
 
   # Compile the model
-  model.compile(optimizer = RMSprop(learning_rate=0.0001), 
+  model.compile(optimizer = RMSprop(learning_rate=0.0001),
                 loss = None,
                 metrics = [None])
 
   ### END CODE HERE
-  
+
   return model
 
 ```

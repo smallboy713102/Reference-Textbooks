@@ -4,7 +4,7 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/main/C4/W4/ungraded_labs/C4_W4_Lab_3_Sunspots_CNN_RNN_DNN.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Predicting Sunspots with Neural Networks
-# 
+#
 # At this point in the course, you should be able to explore different network architectures for forecasting. In the previous weeks, you've used DNNs, RNNs, and CNNs to build these different models. In the final practice lab for this course, you'll try one more configuration and that is a combination of all these types of networks: the data windows will pass through a convolution, followed by stacked LSTMs, followed by stacked dense layers. See if this improves results or you can just opt for simpler models.
 
 # ## Imports
@@ -23,7 +23,7 @@ import csv
 # In[ ]:
 
 
-def plot_series(x, y, format="-", start=0, end=None, 
+def plot_series(x, y, format="-", start=0, end=None,
                 title=None, xlabel=None, ylabel=None, legend=None ):
     """
     Visualizes time series data
@@ -42,7 +42,7 @@ def plot_series(x, y, format="-", start=0, end=None,
 
     # Setup dimensions of the graph figure
     plt.figure(figsize=(10, 6))
-    
+
     # Check if there are more than two series to plot
     if type(y) is tuple:
 
@@ -94,13 +94,13 @@ sunspots = []
 
 # Open CSV file
 with open('./Sunspots.csv') as csvfile:
-  
+
   # Initialize reader
   reader = csv.reader(csvfile, delimiter=',')
-  
+
   # Skip the first line
   next(reader)
-  
+
   # Append row and sunspot number to lists
   for row in reader:
     time_step.append(int(row[0]))
@@ -122,7 +122,7 @@ plot_series(time, series, xlabel='Month', ylabel='Monthly Mean Total Sunspot Num
 # Define the split time
 split_time = 3000
 
-# Get the train set 
+# Get the train set
 time_train = time[:split_time]
 x_train = series[:split_time]
 
@@ -148,25 +148,25 @@ def windowed_dataset(series, window_size, batch_size, shuffle_buffer):
     Returns:
       dataset (TF Dataset) - TF Dataset containing time windows
     """
-  
+
     # Generate a TF Dataset from the series values
     dataset = tf.data.Dataset.from_tensor_slices(series)
-    
+
     # Window the data but only take those with the specified size
     dataset = dataset.window(window_size + 1, shift=1, drop_remainder=True)
-    
+
     # Flatten the windows by putting its elements in a single batch
     dataset = dataset.flat_map(lambda window: window.batch(window_size + 1))
 
-    # Create tuples with features and labels 
+    # Create tuples with features and labels
     dataset = dataset.map(lambda window: (window[:-1], window[-1]))
 
     # Shuffle the windows
     dataset = dataset.shuffle(shuffle_buffer)
-    
+
     # Create batches of windows
     dataset = dataset.batch(batch_size).prefetch(1)
-    
+
     return dataset
 
 
@@ -185,7 +185,7 @@ train_set = windowed_dataset(x_train, window_size, batch_size, shuffle_buffer_si
 
 
 # ## Build the Model
-# 
+#
 # You've seen these layers before and here is how it's looks like when combined.
 
 # In[ ]:
@@ -206,12 +206,12 @@ model = tf.keras.models.Sequential([
   tf.keras.layers.Lambda(lambda x: x * 400)
 ])
 
- # Print the model summary 
+ # Print the model summary
 model.summary()
 
 
 # ## Tune the Learning Rate
-# 
+#
 # As usual, you will want to pick an optimal learning rate.
 
 # In[ ]:
@@ -261,7 +261,7 @@ plt.axis([1e-8, 1e-3, 0, 100])
 
 
 # ## Train the Model
-# 
+#
 # Now you can proceed to reset and train the model. It is set for 100 epochs in the cell below but feel free to increase it if you want. Laurence got his results in the lectures after 500.
 
 # In[ ]:
@@ -280,7 +280,7 @@ model.set_weights(init_weights)
 # Set the learning rate
 learning_rate = 8e-7
 
-# Set the optimizer 
+# Set the optimizer
 optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=0.9)
 
 # Set the training parameters
@@ -306,13 +306,13 @@ mae=history.history['mae']
 loss=history.history['loss']
 
 # Get number of epochs
-epochs=range(len(loss)) 
+epochs=range(len(loss))
 
 # Plot mae and loss
 plot_series(
-    x=epochs, 
-    y=(mae, loss), 
-    title='MAE and Loss', 
+    x=epochs,
+    y=(mae, loss),
+    title='MAE and Loss',
     xlabel='MAE',
     ylabel='Loss',
     legend=['MAE', 'Loss']
@@ -326,9 +326,9 @@ loss_zoom = loss[zoom_split:]
 
 # Plot zoomed mae and loss
 plot_series(
-    x=epochs_zoom, 
-    y=(mae_zoom, loss_zoom), 
-    title='MAE and Loss', 
+    x=epochs_zoom,
+    y=(mae_zoom, loss_zoom),
+    title='MAE and Loss',
     xlabel='MAE',
     ylabel='Loss',
     legend=['MAE', 'Loss']
@@ -336,7 +336,7 @@ plot_series(
 
 
 # ## Model Prediction
-# 
+#
 # As before, you can get the predictions for the validation set time range and compute the metrics.
 
 # In[ ]:
@@ -363,13 +363,13 @@ def model_forecast(model, series, window_size, batch_size):
 
     # Flatten the windows by putting its elements in a single batch
     dataset = dataset.flat_map(lambda w: w.batch(window_size))
-    
+
     # Create batches of windows
     dataset = dataset.batch(batch_size).prefetch(1)
-    
+
     # Get predictions on the entire dataset
     forecast = model.predict(dataset)
-    
+
     return forecast
 
 
@@ -397,11 +397,11 @@ print(tf.keras.metrics.mean_absolute_error(x_valid, results).numpy())
 
 
 # ## Wrap Up
-# 
+#
 # This concludes the final practice lab for this course! You implemented a deep and complex architecture composed of CNNs, RNNs, and DNNs. You'll be using the skills you developed throughout this course to complete the final assignment. Keep it up!
 
 # ## Optional
-# 
+#
 # In this optional section, you will look at another way to dynamically set the learning rate. As you may have noticed, training for a long time generates less and less changes to the loss and metrics. You can run the cell below to observe that again.
 
 # In[ ]:
@@ -420,12 +420,12 @@ history = model.fit(train_set,epochs=10)
 
 
 # At some point, the static learning rate you set might no longer be the optimal one when the model has been learning for some time. You may want to decrease it some more to see better improvements. One way to do that is to have your training loop gradually decay the learning rate per epoch. You can pass in a lambda function similar like the one you did for the learning rate scheduler earlier, or use [ExponentialDecay()](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/schedules/ExponentialDecay). This is a built in scheduler from the Keras API. This decays the learning rate defined by this function:
-# 
+#
 # ```
 # def decayed_learning_rate(step):
 #   return initial_learning_rate * decay_rate ^ (step / decay_steps)
 # ```
-# 
+#
 # See how it is used below.
 
 # In[ ]:

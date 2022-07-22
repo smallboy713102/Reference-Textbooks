@@ -1,4 +1,4 @@
-# Optional  Lab: Cost Function 
+# Optional  Lab: Cost Function
 <figure>
     <center> <img src="./images/C1_W1_L3_S2_Lecture_b.png"  style="width:1000px;height:200px;" ></center>
 </figure>
@@ -7,11 +7,11 @@
 
 ## Goals
 In this lab you will:
-- you will implement and explore the `cost` function for linear regression with one variable. 
+- you will implement and explore the `cost` function for linear regression with one variable.
 
 
 ## Tools
-In this lab we will make use of: 
+In this lab we will make use of:
 - NumPy, a popular library for scientific computing
 - Matplotlib, a popular library for plotting data
 - local plotting routines in the lab_utils_uni.py file in the local directory
@@ -27,7 +27,7 @@ plt.style.use('./deeplearning.mplstyle')
 
 ## Problem Statement
 
-You would like a model which can predict housing prices given the size of the house.  
+You would like a model which can predict housing prices given the size of the house.
 Let's use the same two data points as before the previous lab- a house with 1000 square feet sold for \\$300,000 and a house with 2000 square feet sold for \\$500,000.
 
 
@@ -47,14 +47,14 @@ y_train = np.array([300.0, 500.0])           #(price in 1000s of dollars)
 The term 'cost' in this assignment might be a little confusing since the data is housing cost. Here, cost is a measure how well our model is predicting the target price of the house. The term 'price' is used for housing data.
 
 The equation for cost with one variable is:
-  $$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2 \tag{1}$$ 
- 
-where 
+  $$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2 \tag{1}$$
+
+where
   $$f_{w,b}(x^{(i)}) = wx^{(i)} + b \tag{2}$$
-  
-- $f_{w,b}(x^{(i)})$ is our prediction for example $i$ using parameters $w,b$.  
-- $(f_{w,b}(x^{(i)}) -y^{(i)})^2$ is the squared difference between the target value and the prediction.   
-- These differences are summed over all the $m$ examples and divided by `2m` to produce the cost, $J(w,b)$.  
+
+- $f_{w,b}(x^{(i)})$ is our prediction for example $i$ using parameters $w,b$.
+- $(f_{w,b}(x^{(i)}) -y^{(i)})^2$ is the squared difference between the target value and the prediction.
+- These differences are summed over all the $m$ examples and divided by `2m` to produce the cost, $J(w,b)$.
 >Note, in lecture summation ranges are typically from 1 to m, while code will be from 0 to m-1.
 
 
@@ -65,28 +65,28 @@ The code below calculates cost by looping over each example. In each loop:
 
 
 ```python
-def compute_cost(x, y, w, b): 
+def compute_cost(x, y, w, b):
     """
     Computes the cost function for linear regression.
-    
+
     Args:
-      x (ndarray (m,)): Data, m examples 
+      x (ndarray (m,)): Data, m examples
       y (ndarray (m,)): target values
-      w,b (scalar)    : model parameters  
-    
+      w,b (scalar)    : model parameters
+
     Returns
         total_cost (float): The cost of using w,b as the parameters for linear regression
                to fit the data points in x and y
     """
     # number of training examples
-    m = x.shape[0] 
-    
-    cost_sum = 0 
-    for i in range(m): 
-        f_wb = w * x[i] + b   
-        cost = (f_wb - y[i]) ** 2  
-        cost_sum = cost_sum + cost  
-    total_cost = (1 / (2 * m)) * cost_sum  
+    m = x.shape[0]
+
+    cost_sum = 0
+    for i in range(m):
+        f_wb = w * x[i] + b
+        cost = (f_wb - y[i]) ** 2
+        cost_sum = cost_sum + cost
+    total_cost = (1 / (2 * m)) * cost_sum
 
     return total_cost
 ```
@@ -118,11 +118,11 @@ The plot contains a few points that are worth mentioning.
 
 ## Cost Function Visualization- 3D
 
-You can see how cost varies with respect to *both* `w` and `b` by plotting in 3D or using a contour plot.   
+You can see how cost varies with respect to *both* `w` and `b` by plotting in 3D or using a contour plot.
 It is worth noting that some of the plotting in this course can become quite involved. The plotting routines are provided and while it can be instructive to read through the code to become familiar with the methods, it is not needed to complete the course successfully. The routines are in lab_utils_uni.py in the local directory.
 
 ### Larger Data Set
-It's use instructive to view a scenario with a few more data points. This data set includes data points that do not fall on the same line. What does that mean for the cost equation? Can we find $w$, and $b$ that will give us a cost of 0? 
+It's use instructive to view a scenario with a few more data points. This data set includes data points that do not fall on the same line. What does that mean for the cost equation? Can we find $w$, and $b$ that will give us a cost of 0?
 
 
 ```python
@@ -130,11 +130,11 @@ x_train = np.array([1.0, 1.7, 2.0, 2.5, 3.0, 3.2])
 y_train = np.array([250, 300, 480,  430,   630, 730,])
 ```
 
-In the contour plot, click on a point to select `w` and `b` to achieve the lowest cost. Use the contours to guide your selections. Note, it can take a few seconds to update the graph. 
+In the contour plot, click on a point to select `w` and `b` to achieve the lowest cost. Use the contours to guide your selections. Note, it can take a few seconds to update the graph.
 
 
 ```python
-plt.close('all') 
+plt.close('all')
 fig, ax, dyn_items = plt_stationary(x_train, y_train)
 updater = plt_update_onclick(fig, ax, x_train, y_train, dyn_items)
 ```

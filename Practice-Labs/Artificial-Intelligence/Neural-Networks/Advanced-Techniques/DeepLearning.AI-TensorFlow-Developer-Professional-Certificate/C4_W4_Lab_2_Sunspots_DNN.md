@@ -24,7 +24,7 @@ You will only have the `plot_series()` dataset here because you no longer need t
 
 
 ```python
-def plot_series(x, y, format="-", start=0, end=None, 
+def plot_series(x, y, format="-", start=0, end=None,
                 title=None, xlabel=None, ylabel=None, legend=None ):
     """
     Visualizes time series data
@@ -44,7 +44,7 @@ def plot_series(x, y, format="-", start=0, end=None,
 
     # Setup dimensions of the graph figure
     plt.figure(figsize=(10, 6))
-    
+
     # Check if there are more than two series to plot
     if type(y) is tuple:
 
@@ -109,13 +109,13 @@ sunspots = []
 
 # Open CSV file
 with open('./Sunspots.csv') as csvfile:
-  
+
   # Initialize reader
   reader = csv.reader(csvfile, delimiter=',')
-  
+
   # Skip the first line
   next(reader)
-  
+
   # Append row and sunspot number to lists
   for row in reader:
     time_step.append(int(row[0]))
@@ -138,7 +138,7 @@ Next, you will split the dataset into training and validation sets. There are 32
 # Define the split time
 split_time = 3000
 
-# Get the train set 
+# Get the train set
 time_train = time[:split_time]
 x_train = series[:split_time]
 
@@ -165,25 +165,25 @@ def windowed_dataset(series, window_size, batch_size, shuffle_buffer):
     Returns:
       dataset (TF Dataset) - TF Dataset containing time windows
     """
-  
+
     # Generate a TF Dataset from the series values
     dataset = tf.data.Dataset.from_tensor_slices(series)
-    
+
     # Window the data but only take those with the specified size
     dataset = dataset.window(window_size + 1, shift=1, drop_remainder=True)
-    
+
     # Flatten the windows by putting its elements in a single batch
     dataset = dataset.flat_map(lambda window: window.batch(window_size + 1))
 
-    # Create tuples with features and labels 
+    # Create tuples with features and labels
     dataset = dataset.map(lambda window: (window[:-1], window[-1]))
 
     # Shuffle the windows
     dataset = dataset.shuffle(shuffle_buffer)
-    
+
     # Create batches of windows
     dataset = dataset.batch(batch_size).prefetch(1)
-    
+
     return dataset
 ```
 
@@ -206,7 +206,7 @@ The model will be 3-layer dense network as shown below.
 ```python
 # Build the model
 model = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(30, input_shape=[window_size], activation="relu"), 
+    tf.keras.layers.Dense(30, input_shape=[window_size], activation="relu"),
     tf.keras.layers.Dense(10, activation="relu"),
     tf.keras.layers.Dense(1)
 ])
@@ -267,7 +267,7 @@ tf.keras.backend.clear_session()
 
 # Build the Model
 model = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(30, input_shape=[window_size], activation="relu"), 
+    tf.keras.layers.Dense(30, input_shape=[window_size], activation="relu"),
     tf.keras.layers.Dense(10, activation="relu"),
     tf.keras.layers.Dense(1)
 ])
@@ -278,7 +278,7 @@ model = tf.keras.models.Sequential([
 # Set the learning rate
 learning_rate = 2e-5
 
-# Set the optimizer 
+# Set the optimizer
 optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=0.9)
 
 # Set the training parameters
@@ -292,7 +292,7 @@ history = model.fit(train_set,epochs=100)
 
 ## Model Prediction
 
-Now see if the model generates good results. If you used the default parameters of this notebook, you should see the predictions follow the shape of the ground truth with an MAE of around 15. 
+Now see if the model generates good results. If you used the default parameters of this notebook, you should see the predictions follow the shape of the ground truth with an MAE of around 15.
 
 
 ```python
@@ -317,13 +317,13 @@ def model_forecast(model, series, window_size, batch_size):
 
     # Flatten the windows by putting its elements in a single batch
     dataset = dataset.flat_map(lambda w: w.batch(window_size))
-    
+
     # Create batches of windows
     dataset = dataset.batch(batch_size).prefetch(1)
-    
+
     # Get predictions on the entire dataset
     forecast = model.predict(dataset)
-    
+
     return forecast
 ```
 

@@ -69,7 +69,7 @@ def generate_time_series():
     # Adding some noise
     noise_level = 3
     series += noise(time, noise_level, seed=51)
-    
+
     return time, series
 
 
@@ -81,7 +81,7 @@ class G:
     WINDOW_SIZE = 20
     BATCH_SIZE = 32
     SHUFFLE_BUFFER_SIZE = 1000
-    
+
 
 # Plot the generated series
 plt.figure(figsize=(10, 6))
@@ -128,7 +128,7 @@ dataset = windowed_dataset(series_train)
 
 ## Defining the model architecture
 
-Now that you have a function that will process the data before it is fed into your neural network for training, it is time to define you layer architecture. Unlike previous weeks or courses in which you define your layers and compile the model in the same function, here you will first need to complete the `create_uncompiled_model` function below. 
+Now that you have a function that will process the data before it is fed into your neural network for training, it is time to define you layer architecture. Unlike previous weeks or courses in which you define your layers and compile the model in the same function, here you will first need to complete the `create_uncompiled_model` function below.
 
 This is done so you can reuse your model's layers for the learning rate adjusting and the actual training.
 
@@ -142,13 +142,13 @@ Hint:
 def create_uncompiled_model():
 
     ### START CODE HERE
-    
-    model = tf.keras.models.Sequential([ 
+
+    model = tf.keras.models.Sequential([
         tf.keras.layers.Lambda(),
-        
+
         tf.keras.layers.Lambda()
-    ]) 
-    
+    ])
+
     ### END CODE HERE
 
     return model
@@ -180,25 +180,25 @@ For the optimizers you can try out:
 
 ```python
 def adjust_learning_rate():
-    
+
     model = create_uncompiled_model()
-    
+
     lr_schedule = tf.keras.callbacks.LearningRateScheduler(lambda epoch: 1e-6 * 10**(epoch / 20))
-    
+
     ### START CODE HERE
-    
+
     # Select your optimizer
     optimizer = None
-    
+
     # Compile the model passing in the appropriate loss
     model.compile(loss=None,
-                  optimizer=optimizer, 
-                  metrics=["mae"]) 
-    
+                  optimizer=optimizer,
+                  metrics=["mae"])
+
     ### END CODE HERE
-    
+
     history = model.fit(dataset, epochs=100, callbacks=[lr_schedule])
-    
+
     return history
 ```
 
@@ -232,15 +232,15 @@ Hint:
 def create_model():
 
     tf.random.set_seed(51)
-    
+
     model = create_uncompiled_model()
 
     ### START CODE HERE
 
     model.compile(loss=None,
                   optimizer=None,
-                  metrics=["mae"])  
-    
+                  metrics=["mae"])
+
     ### END CODE HERE
 
     return model
@@ -262,14 +262,14 @@ Now it is time to evaluate the performance of the forecast. For this you can use
 
 ```python
 def compute_metrics(true_series, forecast):
-    
+
     mse = tf.keras.metrics.mean_squared_error(true_series, forecast).numpy()
     mae = tf.keras.metrics.mean_absolute_error(true_series, forecast).numpy()
 
     return mse, mae
 ```
 
-At this point only the model that will perform the forecast is ready but you still need to compute the actual forecast. 
+At this point only the model that will perform the forecast is ready but you still need to compute the actual forecast.
 
 ## Faster model forecasts
 

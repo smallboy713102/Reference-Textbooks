@@ -2,9 +2,9 @@
 # coding: utf-8
 
 # # Week 3: Using RNNs to predict time series
-# 
+#
 # Welcome! In the previous assignment you used a vanilla deep neural network to create forecasts for generated time series. This time you will be using Tensorflow's layers for processing sequence data such as Recurrent layers or LSTMs to see how these two approaches compare.
-# 
+#
 # Let's get started!
 
 # In[ ]:
@@ -17,7 +17,7 @@ from dataclasses import dataclass
 
 
 # ## Generating the data
-# 
+#
 # The next cell includes a bunch of helper functions to generate and plot the time series:
 
 # In[ ]:
@@ -49,12 +49,12 @@ def noise(time, noise_level=1, seed=None):
 
 
 # You will be generating the same time series data as in last week's assignment.
-# 
+#
 # **Notice that this time all the generation is done within a function and global variables are saved within a dataclass. This is done to avoid using global scope as it was done in during the first week of the course.**
-# 
+#
 # If you haven't used dataclasses before, they are just Python classes that provide a convenient syntax for storing data. You can read more about them in the [docs](https://docs.python.org/3/library/dataclasses.html).
-# 
-# 
+#
+#
 
 # In[ ]:
 
@@ -75,7 +75,7 @@ def generate_time_series():
     # Adding some noise
     noise_level = 3
     series += noise(time, noise_level, seed=51)
-    
+
     return time, series
 
 
@@ -87,7 +87,7 @@ class G:
     WINDOW_SIZE = 20
     BATCH_SIZE = 32
     SHUFFLE_BUFFER_SIZE = 1000
-    
+
 
 # Plot the generated series
 plt.figure(figsize=(10, 6))
@@ -96,10 +96,10 @@ plt.show()
 
 
 # ## Processing the data
-# 
+#
 # Since you already coded the `train_val_split` and `windowed_dataset` functions during past week's assignments, this time they are provided for you:
-# 
-# 
+#
+#
 
 # In[ ]:
 
@@ -135,11 +135,11 @@ dataset = windowed_dataset(series_train)
 
 
 # ## Defining the model architecture
-# 
-# Now that you have a function that will process the data before it is fed into your neural network for training, it is time to define you layer architecture. Unlike previous weeks or courses in which you define your layers and compile the model in the same function, here you will first need to complete the `create_uncompiled_model` function below. 
-# 
+#
+# Now that you have a function that will process the data before it is fed into your neural network for training, it is time to define you layer architecture. Unlike previous weeks or courses in which you define your layers and compile the model in the same function, here you will first need to complete the `create_uncompiled_model` function below.
+#
 # This is done so you can reuse your model's layers for the learning rate adjusting and the actual training.
-# 
+#
 # Hint:
 # - Fill in the `Lambda` layers at the beginning and end of the network with the correct lamda functions.
 # - You should use `SimpleRNN` or `Bidirectional(LSTM)` as intermediate layers.
@@ -151,13 +151,13 @@ dataset = windowed_dataset(series_train)
 def create_uncompiled_model():
 
     ### START CODE HERE
-    
-    model = tf.keras.models.Sequential([ 
+
+    model = tf.keras.models.Sequential([
         tf.keras.layers.Lambda(),
-        
+
         tf.keras.layers.Lambda()
-    ]) 
-    
+    ])
+
     ### END CODE HERE
 
     return model
@@ -178,11 +178,11 @@ else:
 
 
 # ## Adjusting the learning rate - (Optional Exercise)
-# 
+#
 # As you saw in the lecture you can leverage Tensorflow's callbacks to dinamically vary the learning rate during training. This can be helpful to get a better sense of which learning rate better acommodates to the problem at hand.
-# 
+#
 # **Notice that this is only changing the learning rate during the training process to give you an idea of what a reasonable learning rate is and should not be confused with selecting the best learning rate, this is known as hyperparameter optimization and it is outside the scope of this course.**
-# 
+#
 # For the optimizers you can try out:
 # - [`tf.keras.optimizers.Adam`](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam)
 # - [`tf.keras.optimizers.SGD`](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/SGD) with a momentum of 0.9
@@ -191,25 +191,25 @@ else:
 
 
 def adjust_learning_rate():
-    
+
     model = create_uncompiled_model()
-    
+
     lr_schedule = tf.keras.callbacks.LearningRateScheduler(lambda epoch: 1e-6 * 10**(epoch / 20))
-    
+
     ### START CODE HERE
-    
+
     # Select your optimizer
     optimizer = None
-    
+
     # Compile the model passing in the appropriate loss
     model.compile(loss=None,
-                  optimizer=optimizer, 
-                  metrics=["mae"]) 
-    
+                  optimizer=optimizer,
+                  metrics=["mae"])
+
     ### END CODE HERE
-    
+
     history = model.fit(dataset, epochs=100, callbacks=[lr_schedule])
-    
+
     return history
 
 
@@ -229,15 +229,15 @@ plt.axis([1e-6, 1, 0, 30])
 
 
 # ## Compiling the model
-# 
+#
 # Now that you have trained the model while varying the learning rate, it is time to do the actual training that will be used to forecast the time series. For this complete the `create_model` function below.
-# 
+#
 # Notice that you are reusing the architecture you defined in the `create_uncompiled_model` earlier. Now you only need to compile this model using the appropriate loss, optimizer (and learning rate).
-# 
+#
 # Hint:
 # - The training should be really quick so if you notice that each epoch is taking more than a few seconds, consider trying a different architecture.
-# 
-# 
+#
+#
 # - If after the first epoch you get an output like this: `loss: nan - mae: nan` it is very likely that your network is suffering from exploding gradients. This is a common problem if you used `SGD` as optimizer and set a learning rate that is too high. **If you encounter this problem consider lowering the learning rate or using Adam with the default learning rate.**
 
 # In[ ]:
@@ -246,15 +246,15 @@ plt.axis([1e-6, 1, 0, 30])
 def create_model():
 
     tf.random.set_seed(51)
-    
+
     model = create_uncompiled_model()
 
     ### START CODE HERE
 
     model.compile(loss=None,
                   optimizer=None,
-                  metrics=["mae"])  
-    
+                  metrics=["mae"])
+
     ### END CODE HERE
 
     return model
@@ -271,26 +271,26 @@ history = model.fit(dataset, epochs=50)
 
 
 # ## Evaluating the forecast
-# 
+#
 # Now it is time to evaluate the performance of the forecast. For this you can use the `compute_metrics` function that you coded in a previous assignment:
 
 # In[ ]:
 
 
 def compute_metrics(true_series, forecast):
-    
+
     mse = tf.keras.metrics.mean_squared_error(true_series, forecast).numpy()
     mae = tf.keras.metrics.mean_absolute_error(true_series, forecast).numpy()
 
     return mse, mae
 
 
-# At this point only the model that will perform the forecast is ready but you still need to compute the actual forecast. 
-# 
+# At this point only the model that will perform the forecast is ready but you still need to compute the actual forecast.
+#
 # ## Faster model forecasts
-# 
+#
 # In the previous week you used a for loop to compute the forecasts for every point in the sequence. This approach is valid but there is a more efficient way of doing the same thing by using batches of data. The code to implement this is provided in the `model_forecast` below. Notice that the code is very similar to the one in the `windowed_dataset` function with the differences that:
-# 
+#
 # - The dataset is windowed using `window_size` rather than `window_size + 1`
 # - No shuffle should be used
 # - No need to split the data into features and labels
@@ -325,9 +325,9 @@ plot_series(time_valid, rnn_forecast)
 
 
 # **Expected Output:**
-# 
+#
 # A series similar to this one:
-# 
+#
 # <div>
 # <img src="images/expected.png" width="500"/>
 # </div>
@@ -341,16 +341,16 @@ print(f"mse: {mse:.2f}, mae: {mae:.2f} for forecast")
 
 
 # **To pass this assignment your forecast should achieve an MAE of 4.5 or less.**
-# 
+#
 # - If your forecast didn't achieve this threshold try re-training your model with a different architecture (you will need to re-run both `create_uncompiled_model` and `create_model` functions) or tweaking the optimizer's parameters.
-# 
-# 
+#
+#
 # - If your forecast did achieve this threshold run the following cell to save your model in a `tar` file which will be used for grading and after doing so, submit your assigment for grading.
-# 
-# 
+#
+#
 # - This environment includes a dummy `SavedModel` directory which contains a dummy model trained for one epoch. **To replace this file with your actual model you need to run the next cell before submitting for grading.**
-# 
-# 
+#
+#
 # - Unlike last week, this time the model is saved using the `SavedModel` format. This is done because the HDF5 format does not fully support `Lambda` layers.
 
 # In[ ]:
@@ -364,7 +364,7 @@ get_ipython().system(' tar -czvf saved_model.tar.gz saved_model/')
 
 
 # **Congratulations on finishing this week's assignment!**
-# 
+#
 # You have successfully implemented a neural network capable of forecasting time series leveraging Tensorflow's layers for sequence modelling such as `RNNs` and `LSTMs`! **This resulted in a forecast that matches (or even surpasses) the one from last week while training for half of the epochs.**
-# 
+#
 # **Keep it up!**

@@ -38,14 +38,14 @@ Next you will define some global variables that will be used throughout the assi
 
 
 - `OOV_TOKEN`: Token to replace out-of-vocabulary words during text_to_sequence calls. Defaults to \"\\<OOV>\".
-    
-    
+
+
 - `MAX_EXAMPLES`: Max number of examples to use. Defaults to 160000 (10% of the original number of examples)
-    
-    
+
+
 - `TRAINING_SPLIT`: Proportion of data used for training. Defaults to 0.9
-    
-    
+
+
 **For now leave them unchanged but after submitting your assignment for grading you are encouraged to come back here and play with these parameters to see the impact they have in the classification process.**
 
 
@@ -61,7 +61,7 @@ TRAINING_SPLIT = 0.9
 
 ## Explore the dataset
 
-The dataset is provided in a csv file. 
+The dataset is provided in a csv file.
 
 Each row of this file contains the following values separated by commas:
 
@@ -91,7 +91,7 @@ with open(SENTIMENT_CSV, 'r') as csvfile:
 
 **Notice that this file does not have a header so you won't need to skip the first row when parsing the file.**
 
-For the task at hand you will only need the information of the target and the text, which are the first and last element of each row. 
+For the task at hand you will only need the information of the target and the text, which are the first and last element of each row.
 
 ## Parsing the raw data
 
@@ -111,24 +111,24 @@ A couple of things to note:
 def parse_data_from_file(filename):
     """
     Extracts sentences and labels from a CSV file
-    
+
     Args:
         filename (string): path to the CSV file
-    
+
     Returns:
         sentences, labels (list of string, list of string): tuple containing lists of sentences and labels
     """
-    
+
     sentences = []
     labels = []
-    
+
     with open(filename, 'r') as csvfile:
         ### START CODE HERE
         reader = csv.reader(None, delimiter=None)
-        
-        
+
+
         ### END CODE HERE
-        
+
     return sentences, labels
 ```
 
@@ -154,7 +154,7 @@ Text of second example should look like this:
 is upset that he can't update his Facebook by texting it... and might cry as a result  School today also. Blah!
 
 Text of fourth example should look like this:
-my whole body feels itchy and like its on fire 
+my whole body feels itchy and like its on fire
 
 Labels of last 5 examples should look like this:
 [1, 1, 1, 1, 1]
@@ -194,17 +194,17 @@ Now you will code the `train_val_split`, which given the list of sentences, the 
 def train_val_split(sentences, labels, training_split):
     """
     Splits the dataset into training and validation sets
-    
+
     Args:
         sentences (list of string): lower-cased sentences without stopwords
         labels (list of string): list of labels
         training split (float): proportion of the dataset to convert to include in the train set
-    
+
     Returns:
         train_sentences, validation_sentences, train_labels, validation_labels - lists containing the data splits
-    """    
+    """
     ### START CODE HERE
-    
+
     # Compute the number of sentences that will be used for training (should be an integer)
     train_size = None
 
@@ -214,9 +214,9 @@ def train_val_split(sentences, labels, training_split):
 
     validation_sentences = None
     validation_labels = None
-    
+
     ### END CODE HERE
-    
+
     return train_sentences, validation_sentences, train_labels, validation_labels
 ```
 
@@ -255,24 +255,24 @@ Begin by completing the `fit_tokenizer` function below. This function should ret
 def fit_tokenizer(train_sentences, oov_token):
     """
     Instantiates the Tokenizer class on the training sentences
-    
+
     Args:
         train_sentences (list of string): lower-cased sentences without stopwords to be used for training
         oov_token (string) - symbol for the out-of-vocabulary token
-    
+
     Returns:
         tokenizer (object): an instance of the Tokenizer class containing the word-index dictionary
     """
     ### START CODE HERE
-    
+
     # Instantiate the Tokenizer class, passing in the correct value for oov_token
     tokenizer = None
-    
+
     # Fit the tokenizer to the training sentences
-    
-    
+
+
     ### END CODE HERE
-    
+
     return tokenizer
 ```
 
@@ -305,27 +305,27 @@ index of word 'i' should be 2
 def seq_pad_and_trunc(sentences, tokenizer, padding, truncating, maxlen):
     """
     Generates an array of token sequences and pads them to the same length
-    
+
     Args:
         sentences (list of string): list of sentences to tokenize and pad
         tokenizer (object): Tokenizer instance containing the word-index dictionary
         padding (string): type of padding to use
         truncating (string): type of truncating to use
         maxlen (int): maximum length of the token sequence
-    
+
     Returns:
         pad_trunc_sequences (array of int): tokenized sentences padded to the same length
-    """        
+    """
     ### START CODE HERE
-       
+
     # Convert sentences to sequences
     sequences = None
-    
+
     # Pad the sequences using the correct padding, truncating and maxlen
     pad_trunc_sequences = None
-    
+
     ### END CODE HERE
-    
+
     return pad_trunc_sequences
 ```
 
@@ -416,7 +416,7 @@ A couple of things to notice:
 # Initialize an empty numpy array with the appropriate size
 EMBEDDINGS_MATRIX = np.zeros((VOCAB_SIZE+1, EMBEDDING_DIM))
 
-# Iterate all of the words in the vocabulary and if the vector representation for 
+# Iterate all of the words in the vocabulary and if the vector representation for
 # each word exists within GloVe's representations, save it in the EMBEDDINGS_MATRIX array
 for word, i in word_index.items():
     embedding_vector = GLOVE_EMBEDDINGS.get(word)
@@ -438,9 +438,9 @@ A couple of things to note / hints:
 - You can try different combinations of layers covered in previous ungraded labs such as:
     - `Conv1D`
     - `Dropout`
-    - `GlobalMaxPooling1D`    
-    - `MaxPooling1D`    
-    - `LSTM`    
+    - `GlobalMaxPooling1D`
+    - `MaxPooling1D`
+    - `LSTM`
     - `Bidirectional(LSTM)`
 
 
@@ -461,26 +461,26 @@ A couple of things to note / hints:
 def create_model(vocab_size, embedding_dim, maxlen, embeddings_matrix):
     """
     Creates a binary sentiment classifier model
-    
+
     Args:
         vocab_size (int): size of the vocabulary for the Embedding layer input
         embedding_dim (int): dimensionality of the Embedding layer output
         maxlen (int): length of the input sequences
         embeddings_matrix (array): predefined weights of the embeddings
-    
+
     Returns:
         model (tf.keras Model): the sentiment classifier model
     """
     ### START CODE HERE
-    
-    model = tf.keras.Sequential([ 
+
+    model = tf.keras.Sequential([
         # This is how you need to set the Embedding layer when using pre-trained embeddings
-        tf.keras.layers.Embedding(vocab_size+1, embedding_dim, input_length=maxlen, weights=[embeddings_matrix], trainable=False), 
+        tf.keras.layers.Embedding(vocab_size+1, embedding_dim, input_length=maxlen, weights=[embeddings_matrix], trainable=False),
     ])
-    
+
     model.compile(loss=None,
                   optimizer=None,
-                  metrics=['accuracy']) 
+                  metrics=['accuracy'])
 
     ### END CODE HERE
 
@@ -496,7 +496,7 @@ model = create_model(VOCAB_SIZE, EMBEDDING_DIM, MAXLEN, EMBEDDINGS_MATRIX)
 history = model.fit(train_pad_trunc_seq, train_labels, epochs=20, validation_data=(val_pad_trunc_seq, val_labels))
 ```
 
-**To pass this assignment your `val_loss` (validation loss) should either be flat or decreasing.** 
+**To pass this assignment your `val_loss` (validation loss) should either be flat or decreasing.**
 
 Although a flat `val_loss` and a lowering `train_loss` (or just `loss`) also indicate some overfitting what you really want to avoid is having a lowering `train_loss` and an increasing `val_loss`.
 

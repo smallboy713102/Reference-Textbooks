@@ -4,12 +4,12 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C3/W3/ungraded_labs/C3_W3_Lab_5_sarcasm_with_bi_LSTM.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Training a Sarcasm Detection Model using Bidirectional LSTMs
-# 
+#
 # In this lab, you will revisit the [News Headlines Dataset for Sarcasm Detection](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection/home) dataset and use it to train a Bi-LSTM Model.
-# 
+#
 
 # ## Download the Dataset
-# 
+#
 # First, you will download the JSON file and extract the contents into lists.
 
 # In[ ]:
@@ -39,7 +39,7 @@ for item in datastore:
 
 
 # ## Split the Dataset
-# 
+#
 # You will then split the lists into train and test sets.
 
 # In[ ]:
@@ -57,7 +57,7 @@ testing_labels = labels[training_size:]
 
 
 # ## Data preprocessing
-# 
+#
 # Next, you will generate the vocabulary and padded sequences.
 
 # In[ ]:
@@ -94,7 +94,7 @@ testing_labels = np.array(testing_labels)
 
 
 # ## Build and Compile the Model
-# 
+#
 # The architecture here is almost identical to the one you used in the previous lab with the IMDB Reviews. Try to tweak the parameters and see how it affects the training time and accuracy (both training and validation).
 
 # In[ ]:

@@ -5,7 +5,7 @@ from scipy.stats import norm
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import axes3d
 from matplotlib.ticker import MaxNLocator
-dlblue = '#0096ff'; dlorange = '#FF9300'; dldarkred='#C00000'; dlmagenta='#FF40FF'; dlpurple='#7030A0'; 
+dlblue = '#0096ff'; dlorange = '#FF9300'; dldarkred='#C00000'; dlmagenta='#FF40FF'; dlpurple='#7030A0';
 plt.style.use('./deeplearning.mplstyle')
 
 def load_data_multi():
@@ -30,7 +30,7 @@ def plt_house_x(X, y,f_wb=None, ax=None):
     if f_wb is not None:
         ax.plot(X, f_wb,  c=dlblue, label="Our Prediction")
     ax.legend()
-    
+
 
 def mk_cost_lines(x,y,w,b, ax):
     ''' makes vertical cost lines'''
@@ -44,15 +44,15 @@ def mk_cost_lines(x,y,w,b, ax):
         ax.vlines(p[0], p[1],f_wb_p, lw=3, color=dlpurple, ls='dotted', label=label)
         label='' #just one
         cxy = [p[0], p[1] + (f_wb_p-p[1])/2]
-        ax.annotate(f'{c_p_txt:0.0f}', xy=cxy, xycoords='data',color=dlpurple, 
+        ax.annotate(f'{c_p_txt:0.0f}', xy=cxy, xycoords='data',color=dlpurple,
             xytext=(5, 0), textcoords='offset points')
         cstr += f"{c_p_txt:0.0f} +"
         ctot += c_p
     ctot = ctot/(len(x))
     cstr = cstr[:-1] + f") = {ctot:0.0f}"
     ax.text(0.15,0.02,cstr, transform=ax.transAxes, color=dlpurple)
-    
-    
+
+
 def inbounds(a,b,xlim,ylim):
     xlow,xhigh = xlim
     ylow,yhigh = ylim
@@ -65,8 +65,8 @@ def inbounds(a,b,xlim,ylim):
         return(False)
 
 from mpl_toolkits.mplot3d import axes3d
-def plt_contour_wgrad(x, y, hist, ax, w_range=[-100, 500, 5], b_range=[-500, 500, 5], 
-                contours = [0.1,50,1000,5000,10000,25000,50000], 
+def plt_contour_wgrad(x, y, hist, ax, w_range=[-100, 500, 5], b_range=[-500, 500, 5],
+                contours = [0.1,50,1000,5000,10000,25000,50000],
                       resolution=5, w_final=200, b_final=100,step=10 ):
     b0,w0 = np.meshgrid(np.arange(*b_range),np.arange(*w_range))
     z=np.zeros_like(b0)
@@ -74,9 +74,9 @@ def plt_contour_wgrad(x, y, hist, ax, w_range=[-100, 500, 5], b_range=[-500, 500
     for i in range(w0.shape[0]):
         for j in range(w0.shape[1]):
             z[i][j] = compute_cost(x, y, w0[i][j], b0[i][j] )
-   
+
     CS = ax.contour(w0, b0, z, contours, linewidths=2,
-                   colors=[dlblue, dlorange, dldarkred, dlmagenta, dlpurple]) 
+                   colors=[dlblue, dlorange, dldarkred, dlmagenta, dlpurple])
     ax.clabel(CS, inline=1, fmt='%1.0f', fontsize=10)
     ax.set_xlabel("w");  ax.set_ylabel("b")
     ax.set_title('Contour plot of cost J(w,b), vs b,w with path of gradient descent')
@@ -97,7 +97,7 @@ def plt_contour_wgrad(x, y, hist, ax, w_range=[-100, 500, 5], b_range=[-500, 500
 
 
 # plots p1 vs p2. Prange is an array of entries [min, max, steps]. In feature scaling lab.
-def plt_contour_multi(x, y, w, b, ax, prange, p1, p2, title="", xlabel="", ylabel=""): 
+def plt_contour_multi(x, y, w, b, ax, prange, p1, p2, title="", xlabel="", ylabel=""):
     contours = [1e2, 2e2,3e2,4e2, 5e2, 6e2, 7e2,8e2,1e3, 1.25e3,1.5e3, 1e4, 1e5, 1e6, 1e7]
     px,py = np.meshgrid(np.linspace(*(prange[p1])),np.linspace(*(prange[p2])))
     z=np.zeros_like(px)
@@ -110,10 +110,10 @@ def plt_contour_multi(x, y, w, b, ax, prange, p1, p2, title="", xlabel="", ylabe
             if p1 == 4: b_ij = px[i,j]
             if p2 <= 3: w_ij[p2] = py[i,j]
             if p2 == 4: b_ij = py[i,j]
-                
+
             z[i][j] = compute_cost(x, y, w_ij, b_ij )
     CS = ax.contour(px, py, z, contours, linewidths=2,
-                   colors=[dlblue, dlorange, dldarkred, dlmagenta, dlpurple]) 
+                   colors=[dlblue, dlorange, dldarkred, dlmagenta, dlpurple])
     ax.clabel(CS, inline=1, fmt='%1.2e', fontsize=10)
     ax.set_xlabel(xlabel);  ax.set_ylabel(ylabel)
     ax.set_title(title, fontsize=14)
@@ -129,7 +129,7 @@ def plt_equal_scale(X_train, X_norm, y_train):
               [0, 200000, 50]]
     w_best = np.array([0.23844318, -25.77326319, -58.11084634,  -1.57727192])
     b_best = 235
-    plt_contour_multi(X_train, y_train, w_best, b_best, ax[0], prange, 0, 1, 
+    plt_contour_multi(X_train, y_train, w_best, b_best, ax[0], prange, 0, 1,
                       title='Unnormalized, J(w,b), vs w[0],w[1]',
                       xlabel= "w[0] (size(sqft))", ylabel="w[1] (# bedrooms)")
     #
@@ -140,14 +140,14 @@ def plt_equal_scale(X_train, X_norm, y_train):
               [-28.5-8, -28.5+8,  50],
               [-37.1-16,-37.1+16, 50],
               [376-150, 376+150, 50]]
-    plt_contour_multi(X_norm, y_train, w_best, b_best, ax[1], prange, 0, 1, 
+    plt_contour_multi(X_norm, y_train, w_best, b_best, ax[1], prange, 0, 1,
                       title='Normalized, J(w,b), vs w[0],w[1]',
                       xlabel= "w[0] (normalized size(sqft))", ylabel="w[1] (normalized # bedrooms)")
     fig.suptitle("Cost contour with equal scale", fontsize=18)
     #plt.tight_layout(rect=(0,0,1.05,1.05))
     fig.tight_layout(rect=(0,0,1,0.95))
     plt.show()
-    
+
 def plt_divergence(p_hist, J_hist, x_train,y_train):
 
     x=np.zeros(len(p_hist))
@@ -181,7 +181,7 @@ def plt_divergence(p_hist, J_hist, x_train,y_train):
     ax.set_title("Cost vs w, b set to 100")
     ax.set_ylabel('Cost')
     ax.set_xlabel('w')
-    ax.xaxis.set_major_locator(MaxNLocator(2)) 
+    ax.xaxis.set_major_locator(MaxNLocator(2))
 
     #===============
     # Second Subplot
@@ -195,17 +195,17 @@ def plt_divergence(p_hist, J_hist, x_train,y_train):
 
     ax = fig.add_subplot(gs[2:], projection='3d')
     ax.plot_surface(tmp_w, tmp_b, z,  alpha=0.3, color=dlblue)
-    ax.xaxis.set_major_locator(MaxNLocator(2)) 
-    ax.yaxis.set_major_locator(MaxNLocator(2)) 
+    ax.xaxis.set_major_locator(MaxNLocator(2))
+    ax.yaxis.set_major_locator(MaxNLocator(2))
 
     ax.set_xlabel('w', fontsize=16)
     ax.set_ylabel('b', fontsize=16)
     ax.set_zlabel('\ncost', fontsize=16)
     plt.title('Cost vs (b, w)')
-    # Customize the view angle 
+    # Customize the view angle
     ax.view_init(elev=20., azim=-65)
     ax.plot(x, y, v,c=dlmagenta)
-    
+
     return
 
 # draw derivative line
@@ -274,16 +274,16 @@ def norm_plot(ax, data):
     x = np.linspace(np.min(data)-scale,np.max(data)+scale,50)
     _,bins, _ = ax.hist(data, x, color="xkcd:azure")
     #ax.set_ylabel("Count")
-    
-    mu = np.mean(data); 
-    std = np.std(data); 
+
+    mu = np.mean(data);
+    std = np.std(data);
     dist = norm.pdf(bins, loc=mu, scale = std)
-    
+
     axr = ax.twinx()
     axr.plot(bins,dist, color = "orangered", lw=2)
     axr.set_ylim(bottom=0)
     axr.axis('off')
-    
+
 def plot_cost_i_w(X,y,hist):
     ws = np.array([ p[0] for p in hist["params"]])
     rng = max(abs(ws[:,0].min()),abs(ws[:,0].max()))
@@ -298,111 +298,111 @@ def plot_cost_i_w(X,y,hist):
     ax[1].plot(ws[:,0],hist["cost"])
     plt.show()
 
- 
+
 ##########################################################
 # Regression Routines
 ##########################################################
 
-def compute_gradient_matrix(X, y, w, b): 
+def compute_gradient_matrix(X, y, w, b):
     """
-    Computes the gradient for linear regression 
- 
+    Computes the gradient for linear regression
+
     Args:
-      X : (array_like Shape (m,n)) variable such as house size 
-      y : (array_like Shape (m,1)) actual value 
-      w : (array_like Shape (n,1)) Values of parameters of the model      
-      b : (scalar )                Values of parameter of the model      
+      X : (array_like Shape (m,n)) variable such as house size
+      y : (array_like Shape (m,1)) actual value
+      w : (array_like Shape (n,1)) Values of parameters of the model
+      b : (scalar )                Values of parameter of the model
     Returns
-      dj_dw: (array_like Shape (n,1)) The gradient of the cost w.r.t. the parameters w. 
-      dj_db: (scalar)                The gradient of the cost w.r.t. the parameter b. 
-                                  
+      dj_dw: (array_like Shape (n,1)) The gradient of the cost w.r.t. the parameters w.
+      dj_db: (scalar)                The gradient of the cost w.r.t. the parameter b.
+
     """
     m,n = X.shape
-    f_wb = X @ w + b              
-    e   = f_wb - y                
-    dj_dw  = (1/m) * (X.T @ e)    
-    dj_db  = (1/m) * np.sum(e)    
-        
+    f_wb = X @ w + b
+    e   = f_wb - y
+    dj_dw  = (1/m) * (X.T @ e)
+    dj_db  = (1/m) * np.sum(e)
+
     return dj_db,dj_dw
 
 #Function to calculate the cost
 def compute_cost_matrix(X, y, w, b, verbose=False):
     """
-    Computes the gradient for linear regression 
+    Computes the gradient for linear regression
      Args:
-      X : (array_like Shape (m,n)) variable such as house size 
-      y : (array_like Shape (m,)) actual value 
-      w : (array_like Shape (n,)) parameters of the model 
-      b : (scalar               ) parameter of the model 
+      X : (array_like Shape (m,n)) variable such as house size
+      y : (array_like Shape (m,)) actual value
+      w : (array_like Shape (n,)) parameters of the model
+      b : (scalar               ) parameter of the model
       verbose : (Boolean) If true, print out intermediate value f_wb
     Returns
-      cost: (scalar)                      
-    """ 
+      cost: (scalar)
+    """
     m,n = X.shape
 
     # calculate f_wb for all examples.
-    f_wb = X @ w + b  
+    f_wb = X @ w + b
     # calculate cost
     total_cost = (1/(2*m)) * np.sum((f_wb-y)**2)
 
     if verbose: print("f_wb:")
     if verbose: print(f_wb)
-        
+
     return total_cost
 
 # Loop version of multi-variable compute_cost
-def compute_cost(X, y, w, b): 
+def compute_cost(X, y, w, b):
     """
     compute cost
     Args:
       X : (ndarray): Shape (m,n) matrix of examples with multiple features
-      w : (ndarray): Shape (n)   parameters for prediction   
-      b : (scalar):              parameter  for prediction   
+      w : (ndarray): Shape (n)   parameters for prediction
+      b : (scalar):              parameter  for prediction
     Returns
       cost: (scalar)             cost
     """
     m = X.shape[0]
     cost = 0.0
-    for i in range(m):                                
-        f_wb_i = np.dot(X[i],w) + b       
-        cost = cost + (f_wb_i - y[i])**2              
-    cost = cost/(2*m)                                 
-    return(np.squeeze(cost)) 
+    for i in range(m):
+        f_wb_i = np.dot(X[i],w) + b
+        cost = cost + (f_wb_i - y[i])**2
+    cost = cost/(2*m)
+    return(np.squeeze(cost))
 
-def compute_gradient(X, y, w, b): 
+def compute_gradient(X, y, w, b):
     """
-    Computes the gradient for linear regression 
+    Computes the gradient for linear regression
     Args:
-      X : (ndarray Shape (m,n)) matrix of examples 
+      X : (ndarray Shape (m,n)) matrix of examples
       y : (ndarray Shape (m,))  target value of each example
-      w : (ndarray Shape (n,))  parameters of the model      
-      b : (scalar)              parameter of the model      
+      w : (ndarray Shape (n,))  parameters of the model
+      b : (scalar)              parameter of the model
     Returns
-      dj_dw : (ndarray Shape (n,)) The gradient of the cost w.r.t. the parameters w. 
-      dj_db : (scalar)             The gradient of the cost w.r.t. the parameter b. 
+      dj_dw : (ndarray Shape (n,)) The gradient of the cost w.r.t. the parameters w.
+      dj_db : (scalar)             The gradient of the cost w.r.t. the parameter b.
     """
     m,n = X.shape           #(number of examples, number of features)
     dj_dw = np.zeros((n,))
     dj_db = 0.
 
-    for i in range(m):                             
-        err = (np.dot(X[i], w) + b) - y[i]   
-        for j in range(n):                         
-            dj_dw[j] = dj_dw[j] + err * X[i,j]    
-        dj_db = dj_db + err                        
-    dj_dw = dj_dw/m                                
-    dj_db = dj_db/m                                
-        
+    for i in range(m):
+        err = (np.dot(X[i], w) + b) - y[i]
+        for j in range(n):
+            dj_dw[j] = dj_dw[j] + err * X[i,j]
+        dj_db = dj_db + err
+    dj_dw = dj_dw/m
+    dj_db = dj_db/m
+
     return dj_db,dj_dw
 
 #This version saves more values and is more verbose than the assigment versons
-def gradient_descent_houses(X, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters): 
+def gradient_descent_houses(X, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters):
     """
-    Performs batch gradient descent to learn theta. Updates theta by taking 
+    Performs batch gradient descent to learn theta. Updates theta by taking
     num_iters gradient steps with learning rate alpha
-    
+
     Args:
-      X : (array_like Shape (m,n)    matrix of examples 
+      X : (array_like Shape (m,n)    matrix of examples
       y : (array_like Shape (m,))    target value of each example
       w_in : (array_like Shape (n,)) Initial values of parameters of the model
       b_in : (scalar)                Initial value of parameter of the model
@@ -416,14 +416,14 @@ def gradient_descent_houses(X, y, w_in, b_in, cost_function, gradient_function, 
       b : (scalar)                Updated value of parameter of the model after
           running gradient descent
     """
-    
+
     # number of training examples
     m = len(X)
-    
+
     # An array to store values at each iteration primarily for graphing later
     hist={}
     hist["cost"] = []; hist["params"] = []; hist["grads"]=[]; hist["iter"]=[];
-    
+
     w = copy.deepcopy(w_in)  #avoid modifying global w within function
     b = b_in
     save_interval = np.ceil(num_iters/10000) # prevent resource exhaustion for long runs
@@ -434,14 +434,14 @@ def gradient_descent_houses(X, y, w_in, b_in, cost_function, gradient_function, 
     for i in range(num_iters):
 
         # Calculate the gradient and update the parameters
-        dj_db,dj_dw = gradient_function(X, y, w, b)   
+        dj_db,dj_dw = gradient_function(X, y, w, b)
 
         # Update Parameters using w, b, alpha and gradient
-        w = w - alpha * dj_dw               
-        b = b - alpha * dj_db               
-      
+        w = w - alpha * dj_dw
+        b = b - alpha * dj_db
+
         # Save cost J,w,b at each save interval for graphing
-        if i == 0 or i % save_interval == 0:     
+        if i == 0 or i % save_interval == 0:
             hist["cost"].append(cost_function(X, y, w, b))
             hist["params"].append([w,b])
             hist["grads"].append([dj_dw,dj_db])
@@ -452,7 +452,7 @@ def gradient_descent_houses(X, y, w_in, b_in, cost_function, gradient_function, 
             #print(f"Iteration {i:4d}: Cost {cost_function(X, y, w, b):8.2f}   ")
             cst = cost_function(X, y, w, b)
             print(f"{i:9d} {cst:0.5e} {w[0]: 0.1e} {w[1]: 0.1e} {w[2]: 0.1e} {w[3]: 0.1e} {b: 0.1e} {dj_dw[0]: 0.1e} {dj_dw[1]: 0.1e} {dj_dw[2]: 0.1e} {dj_dw[3]: 0.1e} {dj_db: 0.1e}")
-       
+
     return w, b, hist #return w,b and history for graphing
 
 def run_gradient_descent(X,y,iterations=1000, alpha = 1e-6):
@@ -465,7 +465,7 @@ def run_gradient_descent(X,y,iterations=1000, alpha = 1e-6):
     w_out, b_out, hist_out = gradient_descent_houses(X ,y, initial_w, initial_b,
                                                compute_cost, compute_gradient_matrix, alpha, iterations)
     print(f"w,b found by gradient descent: w: {w_out}, b: {b_out:0.2f}")
-    
+
     return(w_out, b_out, hist_out)
 
 # compact extaction of hist data
@@ -474,7 +474,7 @@ def run_gradient_descent(X,y,iterations=1000, alpha = 1e-6):
 #ws = np.array([ p[0] for p in hist["params"]])
 #dj_ws = np.array([ p[0] for p in hist["grads"]])
 
-#bs = np.array([ p[1] for p in hist["params"]]) 
+#bs = np.array([ p[1] for p in hist["params"]])
 
 def run_gradient_descent_feng(X,y,iterations=1000, alpha = 1e-6):
     m,n = X.shape
@@ -485,16 +485,16 @@ def run_gradient_descent_feng(X,y,iterations=1000, alpha = 1e-6):
     w_out, b_out, hist_out = gradient_descent(X ,y, initial_w, initial_b,
                                                compute_cost, compute_gradient_matrix, alpha, iterations)
     print(f"w,b found by gradient descent: w: {w_out}, b: {b_out:0.4f}")
-    
+
     return(w_out, b_out)
 
-def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters): 
+def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters):
     """
-    Performs batch gradient descent to learn theta. Updates theta by taking 
+    Performs batch gradient descent to learn theta. Updates theta by taking
     num_iters gradient steps with learning rate alpha
-    
+
     Args:
-      X : (array_like Shape (m,n)    matrix of examples 
+      X : (array_like Shape (m,n)    matrix of examples
       y : (array_like Shape (m,))    target value of each example
       w_in : (array_like Shape (n,)) Initial values of parameters of the model
       b_in : (scalar)                Initial value of parameter of the model
@@ -508,14 +508,14 @@ def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, 
       b : (scalar)                Updated value of parameter of the model after
           running gradient descent
     """
-    
+
     # number of training examples
     m = len(X)
-    
+
     # An array to store values at each iteration primarily for graphing later
     hist={}
     hist["cost"] = []; hist["params"] = []; hist["grads"]=[]; hist["iter"]=[];
-    
+
     w = copy.deepcopy(w_in)  #avoid modifying global w within function
     b = b_in
     save_interval = np.ceil(num_iters/10000) # prevent resource exhaustion for long runs
@@ -523,14 +523,14 @@ def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, 
     for i in range(num_iters):
 
         # Calculate the gradient and update the parameters
-        dj_db,dj_dw = gradient_function(X, y, w, b)   
+        dj_db,dj_dw = gradient_function(X, y, w, b)
 
         # Update Parameters using w, b, alpha and gradient
-        w = w - alpha * dj_dw               
-        b = b - alpha * dj_db               
-      
+        w = w - alpha * dj_dw
+        b = b - alpha * dj_db
+
         # Save cost J,w,b at each save interval for graphing
-        if i == 0 or i % save_interval == 0:     
+        if i == 0 or i % save_interval == 0:
             hist["cost"].append(cost_function(X, y, w, b))
             hist["params"].append([w,b])
             hist["grads"].append([dj_dw,dj_db])
@@ -553,17 +553,17 @@ def zscore_normalize_features(X,rtn_ms=False):
     """
     returns z-score normalized X by column
     Args:
-      X : (numpy array (m,n)) 
+      X : (numpy array (m,n))
     Returns
       X_norm: (numpy array (m,n)) input normalized by column
     """
-    mu     = np.mean(X,axis=0)  
+    mu     = np.mean(X,axis=0)
     sigma  = np.std(X,axis=0)
-    X_norm = (X - mu)/sigma      
+    X_norm = (X - mu)/sigma
 
     if rtn_ms:
         return(X_norm, mu, sigma)
     else:
         return(X_norm)
-    
-    
+
+

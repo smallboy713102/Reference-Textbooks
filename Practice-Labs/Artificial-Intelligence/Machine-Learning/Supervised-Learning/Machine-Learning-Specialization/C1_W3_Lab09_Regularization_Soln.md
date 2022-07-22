@@ -30,18 +30,18 @@ The slides above show the cost and gradient functions for both linear and logist
 ### Cost function for regularized linear regression
 
 The equation for the cost function regularized linear regression is:
-$$J(\mathbf{w},b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})^2  + \frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2 \tag{1}$$ 
+$$J(\mathbf{w},b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})^2  + \frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2 \tag{1}$$
 where:
-$$ f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = \mathbf{w} \cdot \mathbf{x}^{(i)} + b  \tag{2} $$ 
+$$ f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = \mathbf{w} \cdot \mathbf{x}^{(i)} + b  \tag{2} $$
 
 
 Compare this to the cost function without regularization (which you implemented in  a previous lab), which is of the form:
 
-$$J(\mathbf{w},b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})^2 $$ 
+$$J(\mathbf{w},b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})^2 $$
 
 The difference is the regularization term,  <span style="color:blue">
-    $\frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2$ </span> 
-    
+    $\frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2$ </span>
+
 Including this term encourages gradient descent to minimize the size of the parameters. Note, in this example, the parameter $b$ is not regularized. This is standard practice.
 
 Below is an implementation of equations (1) and (2). Note that this uses a *standard pattern for this course*,   a `for loop` over all `m` examples.
@@ -54,11 +54,11 @@ def compute_cost_linear_reg(X, y, w, b, lambda_ = 1):
     Args:
       X (ndarray (m,n): Data, m examples with n features
       y (ndarray (m,)): target values
-      w (ndarray (n,)): model parameters  
+      w (ndarray (n,)): model parameters
       b (scalar)      : model parameter
       lambda_ (scalar): Controls amount of regularization
     Returns:
-      total_cost (scalar):  cost 
+      total_cost (scalar):  cost
     """
 
     m  = X.shape[0]
@@ -66,14 +66,14 @@ def compute_cost_linear_reg(X, y, w, b, lambda_ = 1):
     cost = 0.
     for i in range(m):
         f_wb_i = np.dot(X[i], w) + b                                   #(n,)(n,)=scalar, see np.dot
-        cost = cost + (f_wb_i - y[i])**2                               #scalar             
-    cost = cost / (2 * m)                                              #scalar  
- 
+        cost = cost + (f_wb_i - y[i])**2                               #scalar
+    cost = cost / (2 * m)                                              #scalar
+
     reg_cost = 0
     for j in range(n):
         reg_cost += (w[j]**2)                                          #scalar
     reg_cost = (lambda_/(2*m)) * reg_cost                              #scalar
-    
+
     total_cost = cost + reg_cost                                       #scalar
     return total_cost                                                  #scalar
 ```
@@ -107,16 +107,16 @@ print("Regularized cost:", cost_tmp)
 For regularized **logistic** regression, the cost function is of the form
 $$J(\mathbf{w},b) = \frac{1}{m}  \sum_{i=0}^{m-1} \left[ -y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) \right] + \frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2 \tag{3}$$
 where:
-$$ f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = sigmoid(\mathbf{w} \cdot \mathbf{x}^{(i)} + b)  \tag{4} $$ 
+$$ f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = sigmoid(\mathbf{w} \cdot \mathbf{x}^{(i)} + b)  \tag{4} $$
 
 Compare this to the cost function without regularization (which you implemented in  a previous lab):
 
 $$ J(\mathbf{w},b) = \frac{1}{m}\sum_{i=0}^{m-1} \left[ (-y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right)\right] $$
 
 As was the case in linear regression above, the difference is the regularization term, which is    <span style="color:blue">
-    $\frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2$ </span> 
+    $\frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2$ </span>
 
-Including this term encourages gradient descent to minimize the size of the parameters. Note, in this example, the parameter $b$ is not regularized. This is standard practice. 
+Including this term encourages gradient descent to minimize the size of the parameters. Note, in this example, the parameter $b$ is not regularized. This is standard practice.
 
 
 ```python
@@ -127,11 +127,11 @@ def compute_cost_logistic_reg(X, y, w, b, lambda_ = 1):
     Args:
       X (ndarray (m,n): Data, m examples with n features
       y (ndarray (m,)): target values
-      w (ndarray (n,)): model parameters  
+      w (ndarray (n,)): model parameters
       b (scalar)      : model parameter
       lambda_ (scalar): Controls amount of regularization
     Returns:
-      total_cost (scalar):  cost 
+      total_cost (scalar):  cost
     """
 
     m,n  = X.shape
@@ -140,14 +140,14 @@ def compute_cost_logistic_reg(X, y, w, b, lambda_ = 1):
         z_i = np.dot(X[i], w) + b                                      #(n,)(n,)=scalar, see np.dot
         f_wb_i = sigmoid(z_i)                                          #scalar
         cost +=  -y[i]*np.log(f_wb_i) - (1-y[i])*np.log(1-f_wb_i)      #scalar
-             
+
     cost = cost/m                                                      #scalar
 
     reg_cost = 0
     for j in range(n):
         reg_cost += (w[j]**2)                                          #scalar
     reg_cost = (lambda_/(2*m)) * reg_cost                              #scalar
-    
+
     total_cost = cost + reg_cost                                       #scalar
     return total_cost                                                  #scalar
 ```
@@ -181,7 +181,7 @@ print("Regularized cost:", cost_tmp)
 The basic algorithm for running gradient descent does not change with regularization, it is:
 $$\begin{align*}
 &\text{repeat until convergence:} \; \lbrace \\
-&  \; \; \;w_j = w_j -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial w_j} \tag{1}  \; & \text{for j := 0..n-1} \\ 
+&  \; \; \;w_j = w_j -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial w_j} \tag{1}  \; & \text{for j := 0..n-1} \\
 &  \; \; \;  \; \;b = b -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial b} \\
 &\rbrace
 \end{align*}$$
@@ -193,53 +193,53 @@ What changes with regularization is computing the gradients.
 The gradient calculation for both linear and logistic regression are nearly identical, differing only in computation of $f_{\mathbf{w}b}$.
 $$\begin{align*}
 \frac{\partial J(\mathbf{w},b)}{\partial w_j}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})x_{j}^{(i)}  +  \frac{\lambda}{m} w_j \tag{2} \\
-\frac{\partial J(\mathbf{w},b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)}) \tag{3} 
+\frac{\partial J(\mathbf{w},b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)}) \tag{3}
 \end{align*}$$
 
-* m is the number of training examples in the data set      
+* m is the number of training examples in the data set
 * $f_{\mathbf{w},b}(x^{(i)})$ is the model's prediction, while $y^{(i)}$ is the target
 
-      
-* For a  <span style="color:blue"> **linear** </span> regression model  
-    $f_{\mathbf{w},b}(x) = \mathbf{w} \cdot \mathbf{x} + b$  
-* For a <span style="color:blue"> **logistic** </span> regression model  
-    $z = \mathbf{w} \cdot \mathbf{x} + b$  
-    $f_{\mathbf{w},b}(x) = g(z)$  
-    where $g(z)$ is the sigmoid function:  
-    $g(z) = \frac{1}{1+e^{-z}}$   
-    
+
+* For a  <span style="color:blue"> **linear** </span> regression model
+    $f_{\mathbf{w},b}(x) = \mathbf{w} \cdot \mathbf{x} + b$
+* For a <span style="color:blue"> **logistic** </span> regression model
+    $z = \mathbf{w} \cdot \mathbf{x} + b$
+    $f_{\mathbf{w},b}(x) = g(z)$
+    where $g(z)$ is the sigmoid function:
+    $g(z) = \frac{1}{1+e^{-z}}$
+
 The term which adds regularization is  the <span style="color:blue">$\frac{\lambda}{m} w_j $</span>.
 
 ### Gradient function for regularized linear regression
 
 
 ```python
-def compute_gradient_linear_reg(X, y, w, b, lambda_): 
+def compute_gradient_linear_reg(X, y, w, b, lambda_):
     """
-    Computes the gradient for linear regression 
+    Computes the gradient for linear regression
     Args:
       X (ndarray (m,n): Data, m examples with n features
       y (ndarray (m,)): target values
-      w (ndarray (n,)): model parameters  
+      w (ndarray (n,)): model parameters
       b (scalar)      : model parameter
       lambda_ (scalar): Controls amount of regularization
-      
+
     Returns:
-      dj_dw (ndarray (n,)): The gradient of the cost w.r.t. the parameters w. 
-      dj_db (scalar):       The gradient of the cost w.r.t. the parameter b. 
+      dj_dw (ndarray (n,)): The gradient of the cost w.r.t. the parameters w.
+      dj_db (scalar):       The gradient of the cost w.r.t. the parameter b.
     """
     m,n = X.shape           #(number of examples, number of features)
     dj_dw = np.zeros((n,))
     dj_db = 0.
 
-    for i in range(m):                             
-        err = (np.dot(X[i], w) + b) - y[i]                 
-        for j in range(n):                         
-            dj_dw[j] = dj_dw[j] + err * X[i, j]               
-        dj_db = dj_db + err                        
-    dj_dw = dj_dw / m                                
-    dj_db = dj_db / m   
-    
+    for i in range(m):
+        err = (np.dot(X[i], w) + b) - y[i]
+        for j in range(n):
+            dj_dw[j] = dj_dw[j] + err * X[i, j]
+        dj_db = dj_db + err
+    dj_dw = dj_dw / m
+    dj_db = dj_db / m
+
     for j in range(n):
         dj_dw[j] = dj_dw[j] + (lambda_/m) * w[j]
 
@@ -278,19 +278,19 @@ Regularized dj_dw:
 
 
 ```python
-def compute_gradient_logistic_reg(X, y, w, b, lambda_): 
+def compute_gradient_logistic_reg(X, y, w, b, lambda_):
     """
-    Computes the gradient for linear regression 
- 
+    Computes the gradient for linear regression
+
     Args:
       X (ndarray (m,n): Data, m examples with n features
       y (ndarray (m,)): target values
-      w (ndarray (n,)): model parameters  
+      w (ndarray (n,)): model parameters
       b (scalar)      : model parameter
       lambda_ (scalar): Controls amount of regularization
     Returns
-      dj_dw (ndarray Shape (n,)): The gradient of the cost w.r.t. the parameters w. 
-      dj_db (scalar)            : The gradient of the cost w.r.t. the parameter b. 
+      dj_dw (ndarray Shape (n,)): The gradient of the cost w.r.t. the parameters w.
+      dj_db (scalar)            : The gradient of the cost w.r.t. the parameter b.
     """
     m,n = X.shape
     dj_dw = np.zeros((n,))                            #(n,)
@@ -308,7 +308,7 @@ def compute_gradient_logistic_reg(X, y, w, b, lambda_):
     for j in range(n):
         dj_dw[j] = dj_dw[j] + (lambda_/m) * w[j]
 
-    return dj_db, dj_dw  
+    return dj_db, dj_dw
 
 ```
 

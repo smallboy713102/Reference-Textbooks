@@ -9,24 +9,24 @@ In this lab you will:
 - Learn to implement the model $f_{w,b}$ for linear regression with one variable
 
 ## Notation
-Here is a summary of some of the notation you will encounter.  
+Here is a summary of some of the notation you will encounter.
 
 |General <img width=70/> <br />  Notation  <img width=70/> | Description<img width=350/>| Python (if applicable) |
 |: ------------|: ------------------------------------------------------------||
 | $a$ | scalar, non bold                                                      ||
 | $\mathbf{a}$ | vector, bold                                                      ||
 | **Regression** |         |    |     |
-|  $\mathbf{x}$ | Training Example feature values (in this lab - Size (1000 sqft))  | `x_train` |   
-|  $\mathbf{y}$  | Training Example  targets (in this lab Price (1000s of dollars)).  | `y_train` 
+|  $\mathbf{x}$ | Training Example feature values (in this lab - Size (1000 sqft))  | `x_train` |
+|  $\mathbf{y}$  | Training Example  targets (in this lab Price (1000s of dollars)).  | `y_train`
 |  $x^{(i)}$, $y^{(i)}$ | $i_{th}$Training Example | `x_i`, `y_i`|
 | m | Number of training examples | `m`|
 |  $w$  |  parameter: weight,                                 | `w`    |
-|  $b$           |  parameter: bias                                           | `b`    |     
-| $f_{w,b}(x^{(i)})$ | The result of the model evaluation at $x^{(i)}$ parameterized by $w,b$: $f_{w,b}(x^{(i)}) = wx^{(i)}+b$  | `f_wb` | 
+|  $b$           |  parameter: bias                                           | `b`    |
+| $f_{w,b}(x^{(i)})$ | The result of the model evaluation at $x^{(i)}$ parameterized by $w,b$: $f_{w,b}(x^{(i)}) = wx^{(i)}+b$  | `f_wb` |
 
 
 ## Tools
-In this lab you will make use of: 
+In this lab you will make use of:
 - NumPy, a popular library for scientific computing
 - Matplotlib, a popular library for plotting data
 
@@ -38,9 +38,9 @@ plt.style.use('./deeplearning.mplstyle')
 ```
 
 # Problem Statement
-<img align="left" src="./images/C1_W1_L3_S1_trainingdata.png"    style=" width:380px; padding: 10px;  " /> 
+<img align="left" src="./images/C1_W1_L3_S1_trainingdata.png"    style=" width:380px; padding: 10px;  " />
 
-As in the lecture, you will use the motivating example of housing price prediction.  
+As in the lecture, you will use the motivating example of housing price prediction.
 This lab will use a simple data set with only two data points - a house with 1000 square feet(sqft) sold for \\$300,000 and a house with 2000 square feet sold for \\$500,000. These two points will constitute our *data or training set*. In this lab, the units of size are 1000 sqft and the units of price are 1000s of dollars.
 
 | Size (1000 sqft)     | Price (1000s of dollars) |
@@ -98,7 +98,7 @@ print(f"Number of training examples is: {m}")
 
 ### Training example `x_i, y_i`
 
-You will use (x$^{(i)}$, y$^{(i)}$) to denote the $i^{th}$ training example. Since Python is zero indexed, (x$^{(0)}$, y$^{(0)}$) is (1.0, 300.0) and (x$^{(1)}$, y$^{(1)}$) is (2.0, 500.0). 
+You will use (x$^{(i)}$, y$^{(i)}$) to denote the $i^{th}$ training example. Since Python is zero indexed, (x$^{(0)}$, y$^{(0)}$) is (1.0, 300.0) and (x$^{(1)}$, y$^{(1)}$) is (2.0, 500.0).
 
 To access a value in a Numpy array, one indexes the array with the desired offset. For example the syntax to access location zero of `x_train` is `x_train[0]`.
 Run the next code block below to get the $i^{th}$ training example.
@@ -117,7 +117,7 @@ print(f"(x^({i}), y^({i})) = ({x_i}, {y_i})")
 
 ### Plotting the data
 
-You can plot these two points using the `scatter()` function in the `matplotlib` library, as shown in the cell below. 
+You can plot these two points using the `scatter()` function in the `matplotlib` library, as shown in the cell below.
 - The function arguments `marker` and `c` show the points as red crosses (the default is blue dots).
 
 You can use other functions in the `matplotlib` library to set the title and labels to display
@@ -141,13 +141,13 @@ plt.show()
 
 ## Model function
 
-<img align="left" src="./images/C1_W1_L3_S1_model.png"     style=" width:380px; padding: 10px; " > As described in lecture, the model function for linear regression (which is a function that maps from `x` to `y`) is represented as 
+<img align="left" src="./images/C1_W1_L3_S1_model.png"     style=" width:380px; padding: 10px; " > As described in lecture, the model function for linear regression (which is a function that maps from `x` to `y`) is represented as
 
 $$ f_{w,b}(x^{(i)}) = wx^{(i)} + b \tag{1}$$
 
-The formula above is how you can represent straight lines - different values of $w$ and $b$ give you different straight lines on the plot. <br/> <br/> <br/> <br/> <br/> 
+The formula above is how you can represent straight lines - different values of $w$ and $b$ give you different straight lines on the plot. <br/> <br/> <br/> <br/> <br/>
 
-Let's try to get a better intuition for this through the code blocks below. Let's start with $w = 100$ and $b = 100$. 
+Let's try to get a better intuition for this through the code blocks below. Let's start with $w = 100$ and $b = 100$.
 
 **Note: You can come back to this cell to adjust the model's w and b parameters**
 
@@ -163,15 +163,15 @@ print(f"b: {b}")
     b: 100
 
 
-Now, let's compute the value of $f_{w,b}(x^{(i)})$ for your two data points. You can explicitly write this out for each data point as - 
+Now, let's compute the value of $f_{w,b}(x^{(i)})$ for your two data points. You can explicitly write this out for each data point as -
 
 for $x^{(0)}$, `f_wb = w * x[0] + b`
 
 for $x^{(1)}$, `f_wb = w * x[1] + b`
 
 For a large number of data points, this can get unwieldy and repetitive. So instead, you can calculate the function output in a `for` loop as shown in the `compute_model_output` function below.
-> **Note**: The argument description `(ndarray (m,))` describes a Numpy n-dimensional array of shape (m,). `(scalar)` describes an argument without dimensions, just a magnitude.  
-> **Note**: `np.zero(n)` will return a one-dimensional numpy array with $n$ entries   
+> **Note**: The argument description `(ndarray (m,))` describes a Numpy n-dimensional array of shape (m,). `(scalar)` describes an argument without dimensions, just a magnitude.
+> **Note**: `np.zero(n)` will return a one-dimensional numpy array with $n$ entries
 
 
 
@@ -180,8 +180,8 @@ def compute_model_output(x, w, b):
     """
     Computes the prediction of a linear model
     Args:
-      x (ndarray (m,)): Data, m examples 
-      w,b (scalar)    : model parameters  
+      x (ndarray (m,)): Data, m examples
+      w,b (scalar)    : model parameters
     Returns
       y (ndarray (m,)): target values
     """
@@ -189,7 +189,7 @@ def compute_model_output(x, w, b):
     f_wb = np.zeros(m)
     for i in range(m):
         f_wb[i] = w * x[i] + b
-        
+
     return f_wb
 ```
 
@@ -219,7 +219,7 @@ plt.show()
 ![png](output_23_0.png)
 
 
-As you can see, setting $w = 100$ and $b = 100$ does *not* result in a line that fits our data. 
+As you can see, setting $w = 100$ and $b = 100$ does *not* result in a line that fits our data.
 
 ### Challenge
 Try experimenting with different values of $w$ and $b$. What should the values be for a line that fits our data?
@@ -243,10 +243,10 @@ Now that we have a model, we can use it to make our original prediction. Let's p
 
 
 ```python
-w = 200                         
-b = 100    
+w = 200
+b = 100
 x_i = 1.2
-cost_1200sqft = w * x_i + b    
+cost_1200sqft = w * x_i + b
 
 print(f"${cost_1200sqft:.0f} thousand dollars")
 ```

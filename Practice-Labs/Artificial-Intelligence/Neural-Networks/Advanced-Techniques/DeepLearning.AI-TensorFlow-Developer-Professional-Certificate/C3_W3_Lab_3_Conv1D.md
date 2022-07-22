@@ -23,7 +23,7 @@ BUFFER_SIZE = 10000
 BATCH_SIZE = 256
 
 # Get the train and test splits
-train_data, test_data = dataset['train'], dataset['test'], 
+train_data, test_data = dataset['train'], dataset['test'],
 
 # Shuffle the training data
 train_dataset = train_data.shuffle(BUFFER_SIZE)
@@ -127,7 +127,7 @@ def plot_graphs(history, string):
   plt.legend([string, 'val_'+string])
   plt.show()
 
-# Plot the accuracy and results 
+# Plot the accuracy and results
 plot_graphs(history, "accuracy")
 plot_graphs(history, "loss")
 ```

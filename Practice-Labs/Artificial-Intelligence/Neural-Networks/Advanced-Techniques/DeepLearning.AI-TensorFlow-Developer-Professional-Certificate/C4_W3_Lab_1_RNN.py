@@ -4,14 +4,14 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/main/C4/W3/ungraded_labs/C4_W3_Lab_1_RNN.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Using a Simple RNN for forecasting
-# 
+#
 # In this lab, you will start to use recurrent neural networks (RNNs) to build a forecasting model. In particular, you will:
-# 
+#
 # * build a stacked RNN using `simpleRNN` layers
 # * use `Lambda` layers to reshape the input and scale the output
 # * use the Huber loss during training
 # * use batched data windows to generate model predictions
-# 
+#
 # You will train this on the same synthetic dataset from last week so the initial steps will be the same. Let's begin!
 
 # ## Imports
@@ -43,7 +43,7 @@ def plot_series(time, series, format="-", start=0, end=None):
 
     # Setup dimensions of the graph figure
     plt.figure(figsize=(10, 6))
-    
+
     if type(series) is tuple:
 
       for series_num in series:
@@ -86,12 +86,12 @@ def trend(time, slope=0):
 def seasonal_pattern(season_time):
     """
     Just an arbitrary pattern, you can change it if you wish
-    
+
     Args:
       season_time (array of float) - contains the measurements per time step
 
     Returns:
-      data_pattern (array of float) -  contains revised measurement values according 
+      data_pattern (array of float) -  contains revised measurement values according
                                   to the defined pattern
     """
 
@@ -99,7 +99,7 @@ def seasonal_pattern(season_time):
     data_pattern = np.where(season_time < 0.4,
                     np.cos(season_time * 2 * np.pi),
                     1 / np.exp(3 * season_time))
-    
+
     return data_pattern
 
 def seasonality(time, period, amplitude=1, phase=0):
@@ -115,7 +115,7 @@ def seasonality(time, period, amplitude=1, phase=0):
     Returns:
       data_pattern (array of float) - seasonal data scaled by the defined amplitude
     """
-    
+
     # Define the measured values per period
     season_time = ((time + phase) % period) / period
 
@@ -141,7 +141,7 @@ def noise(time, noise_level=1, seed=None):
 
     # Generate a random number for each time step and scale by the noise level
     noise = rnd.randn(len(time)) * noise_level
-    
+
     return noise
 
 
@@ -175,7 +175,7 @@ plot_series(time, series)
 # Define the split time
 split_time = 1000
 
-# Get the train set 
+# Get the train set
 time_train = time[:split_time]
 x_train = series[:split_time]
 
@@ -210,25 +210,25 @@ def windowed_dataset(series, window_size, batch_size, shuffle_buffer):
     Returns:
       dataset (TF Dataset) - TF Dataset containing time windows
     """
-  
+
     # Generate a TF Dataset from the series values
     dataset = tf.data.Dataset.from_tensor_slices(series)
-    
+
     # Window the data but only take those with the specified size
     dataset = dataset.window(window_size + 1, shift=1, drop_remainder=True)
-    
+
     # Flatten the windows by putting its elements in a single batch
     dataset = dataset.flat_map(lambda window: window.batch(window_size + 1))
 
-    # Create tuples with features and labels 
+    # Create tuples with features and labels
     dataset = dataset.map(lambda window: (window[:-1], window[-1]))
 
     # Shuffle the windows
     dataset = dataset.shuffle(shuffle_buffer)
-    
+
     # Create batches of windows
     dataset = dataset.batch(batch_size).prefetch(1)
-    
+
     return dataset
 
 
@@ -249,11 +249,11 @@ for window in dataset.take(1):
 
 
 # ## Build the Model
-# 
-# Your model is composed mainly of [SimpleRNN](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SimpleRNN) layers. As mentioned in the lectures, this type of RNN simply routs its output back to the input. You will stack two of these layers in your model so the first one should have `return_sequences` set to `True`. 
-# 
+#
+# Your model is composed mainly of [SimpleRNN](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SimpleRNN) layers. As mentioned in the lectures, this type of RNN simply routs its output back to the input. You will stack two of these layers in your model so the first one should have `return_sequences` set to `True`.
+#
 # As mentioned in the [documentation](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SimpleRNN#call_arguments), `SimpleRNN` layers expect a 3-dimensional tensor input with the shape `[batch, timesteps, feature`]. With that, you need to reshape your window from `(32, 20)` to `(32, 20, 1)`. This means the 20 datapoints in the window will be mapped to 20 timesteps of the RNN. You can do this reshaping in a separate cell but you can also do this within the model itself by using [Lambda](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Lambda) layers. Notice the first layer below. It defines a lambda function that adds a dimension at the last axis of the input. That's exactly the transformation you need. For the `input_shape`, you can specify `None` (like in the lecture video) if you want to be the model to be more flexible with the number of timesteps. Alternatively, you can set it to `window_size` as shown below if you want to set the `timesteps` dimension to the expected size of your data windows.
-# 
+#
 # Normally, you can just a have a `Dense` layer output as shown in the previous labs. However, you can help the training by scaling up the output to around the same figures as your labels. This will depend on the [activation functions](https://en.wikipedia.org/wiki/Activation_function#Table_of_activation_functions) you used in your model. `SimpleRNN` uses *tanh* by default and that has an output range of `[-1,1]`. You will use another `Lambda()` layer to scale the output by 100 before it adjusts the layer weights. Feel free to remove this layer later after this lab and see what results you get.
 
 # In[ ]:
@@ -274,7 +274,7 @@ model_tune.summary()
 
 
 # ## Tune the Learning Rate
-# 
+#
 # You will then tune the learning rate as before. You will define a learning rate schedule that changes this hyperparameter dynamically. You will use the [Huber Loss](https://en.wikipedia.org/wiki/Huber_loss) as your loss function to minimize sensitivity to outliers.
 
 # In[ ]:
@@ -340,7 +340,7 @@ plt.axis([1e-7, 1e-4, 0, 20])
 
 
 # ## Train the Model
-# 
+#
 # You can then declare the model again and train with the learning rate you picked. It is set to `1e-6`by default but feel free to change it.
 
 # In[ ]:
@@ -359,7 +359,7 @@ model = tf.keras.models.Sequential([
 # Set the learning rate
 learning_rate = 1e-6
 
-# Set the optimizer 
+# Set the optimizer
 optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate, momentum=0.9)
 
 # Set the training parameters
@@ -372,7 +372,7 @@ history = model.fit(dataset,epochs=100)
 
 
 # ## Model Prediction
-# 
+#
 # Now it's time to generate the model predictions for the validation set time range. The model is a lot bigger than the ones you used before and the sequential nature of RNNs (i.e. inputs go through a series of time steps as opposed to parallel processing) can make predictions a bit slow. You can observe this when using the code you ran in the previous lab. This will take about a minute to complete.
 
 # In[ ]:
@@ -396,7 +396,7 @@ plot_series(time_valid, (x_valid, results))
 
 
 # You can optimize this step by leveraging Tensorflow models' capability to process batches. Instead of running the for-loop above which processes a single window at a time, you can pass in an entire batch of windows and let the model process that in parallel.
-# 
+#
 # The function below does just that. You will notice that it almost mirrors the `windowed_dataset()` function but it does not shuffle the windows. That's because we want the output to be in its proper sequence so we can compare it properly to the validation set.
 
 # In[ ]:
@@ -423,18 +423,18 @@ def model_forecast(model, series, window_size, batch_size):
 
     # Flatten the windows by putting its elements in a single batch
     dataset = dataset.flat_map(lambda w: w.batch(window_size))
-    
+
     # Create batches of windows
     dataset = dataset.batch(batch_size).prefetch(1)
-    
+
     # Get predictions on the entire dataset
     forecast = model.predict(dataset)
-    
+
     return forecast
 
 
 # You can run the function below to use the function. Notice that the predictions are generated almost instantly.
-# 
+#
 # *Note: You might notice that the first line slices the `series` at `split_time - window_size:-1` which is a bit different from the slower for-loop code. That is because we want the model to have its last prediction to align with the last point of the validation set (i.e. `t=1460`). You were able to do that with the slower for-loop code by specifying the for-loop's `range()`. With the more efficient function above, you don't have that mechanism so you instead just remove the last point when slicing the `series`. If you don't, then the function will generate a prediction at `t=1461` which is outside the validation set range.*
 
 # In[ ]:

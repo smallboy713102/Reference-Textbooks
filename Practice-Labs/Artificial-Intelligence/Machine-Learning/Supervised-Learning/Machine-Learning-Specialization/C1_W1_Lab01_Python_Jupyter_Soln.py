@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # # Optional Lab:  Brief Introduction to Python and Jupyter Notebooks
-# Welcome to the first optional lab! 
+# Welcome to the first optional lab!
 # Optional labs are available to:
 # - provide information - like this notebook
 # - reinforce lecture material with hands-on examples
@@ -14,7 +14,7 @@
 # - Take a tour of Jupyter notebooks
 # - Learn the difference between markdown cells and code cells
 # - Practice some basic python
-# 
+#
 
 # The easiest way to become familiar with Jupyter notebooks is to take the tour available above in the Help menu:
 
@@ -38,19 +38,19 @@ print("This is  code cell")
 
 
 # ## Python
-# You can write your code in the code cells. 
+# You can write your code in the code cells.
 # To run the code, select the cell and either
 # - hold the shift-key down and hit 'enter' or 'return'
 # - click the 'run' arrow above
 # <figure>
 #     <img src="./images/C1W1L1_Run.PNG"  width="400"  >
 # <figure/>
-# 
-#  
+#
+#
 
 # ### Print statement
-# Print statements will generally use the python f-string style.  
-# Try creating your own print in the following cell.  
+# Print statements will generally use the python f-string style.
+# Try creating your own print in the following cell.
 # Try both methods of running the cell.
 
 # In[2]:

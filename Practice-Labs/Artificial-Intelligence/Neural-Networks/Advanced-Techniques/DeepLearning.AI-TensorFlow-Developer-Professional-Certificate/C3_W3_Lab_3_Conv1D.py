@@ -4,7 +4,7 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C3/W3/ungraded_labs/C3_W3_Lab_3_Conv1D.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Using Convolutional Neural Networks
-# 
+#
 # In this lab, you will look at another way of building your text classification model and this will be with a convolution layer. As you learned in Course 2 of this specialization, convolutions extract features by applying filters to the input. Let's see how you can use that for text data in the next sections.
 
 # ## Download and prepare the dataset
@@ -28,7 +28,7 @@ BUFFER_SIZE = 10000
 BATCH_SIZE = 256
 
 # Get the train and test splits
-train_data, test_data = dataset['train'], dataset['test'], 
+train_data, test_data = dataset['train'], dataset['test'],
 
 # Shuffle the training data
 train_dataset = train_data.shuffle(BUFFER_SIZE)
@@ -39,7 +39,7 @@ test_dataset = test_data.padded_batch(BATCH_SIZE)
 
 
 # ## Build the Model
-# 
+#
 # In Course 2, you were using 2D convolution layers because you were applying it on images. For temporal data such as text sequences, you will use [Conv1D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D) instead so the convolution will happen over a single dimension. You will also append a pooling layer to reduce the output of the convolution layer. For this lab, you will use [GlobalMaxPooling1D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/GlobalMaxPool1D) to get the max value across the time dimension. You can also use average pooling and you will do that in the next labs. See how these layers behave as standalone layers in the cell below.
 
 # In[ ]:
@@ -110,7 +110,7 @@ model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']
 
 
 # ## Train the model
-# 
+#
 # Training will take around 30 seconds per epoch and you will notice that it reaches higher accuracies than the previous models you've built.
 
 # In[ ]:
@@ -136,11 +136,11 @@ def plot_graphs(history, string):
   plt.legend([string, 'val_'+string])
   plt.show()
 
-# Plot the accuracy and results 
+# Plot the accuracy and results
 plot_graphs(history, "accuracy")
 plot_graphs(history, "loss")
 
 
 # ## Wrap Up
-# 
+#
 # In this lab, you explored another model architecture you can use for text classification. In the next lessons, you will revisit full word encoding of the IMDB reviews and compare which model works best when the data is prepared that way.

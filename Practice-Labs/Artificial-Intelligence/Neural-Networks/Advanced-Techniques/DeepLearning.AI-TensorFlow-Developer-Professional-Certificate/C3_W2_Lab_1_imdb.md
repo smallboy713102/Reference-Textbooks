@@ -2,7 +2,7 @@
 
 # Ungraded Lab: Training a binary classifier with the IMDB Reviews Dataset
 
-In this lab, you will be building a sentiment classification model to distinguish between positive and negative movie reviews. You will train it on the [IMDB Reviews](http://ai.stanford.edu/~amaas/data/sentiment/) dataset and visualize the word embeddings generated after training. 
+In this lab, you will be building a sentiment classification model to distinguish between positive and negative movie reviews. You will train it on the [IMDB Reviews](http://ai.stanford.edu/~amaas/data/sentiment/) dataset and visualize the word embeddings generated after training.
 
 Let's get started!
 
@@ -152,7 +152,7 @@ model.summary()
 
 ## Train the Model
 
-Next, of course, is to train your model. With the current settings, you will get near perfect training accuracy after just 5 epochs but the validation accuracy will plateau at around 83%. See if you can still improve this by adjusting some of the parameters earlier (e.g. the `vocab_size`, number of `Dense` neurons, number of epochs, etc.). 
+Next, of course, is to train your model. With the current settings, you will get near perfect training accuracy after just 5 epochs but the validation accuracy will plateau at around 83%. See if you can still improve this by adjusting some of the parameters earlier (e.g. the `vocab_size`, number of `Dense` neurons, number of epochs, etc.).
 
 
 ```python
@@ -175,7 +175,7 @@ embedding_layer = model.layers[0]
 embedding_weights = embedding_layer.get_weights()[0]
 
 # Print the shape. Expected is (vocab_size, embedding_dim)
-print(embedding_weights.shape) 
+print(embedding_weights.shape)
 ```
 
 You will need to generate two files:

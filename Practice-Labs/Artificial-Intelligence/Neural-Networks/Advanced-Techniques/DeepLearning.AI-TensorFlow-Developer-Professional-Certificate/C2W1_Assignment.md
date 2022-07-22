@@ -18,7 +18,7 @@ from shutil import copyfile
 import matplotlib.pyplot as plt
 ```
 
-Download the dataset from its original source by running the cell below. 
+Download the dataset from its original source by running the cell below.
 
 Note that the `zip` file that contains the images is unzipped under the `/tmp` directory.
 
@@ -79,13 +79,13 @@ if os.path.exists(root_dir):
 def create_train_val_dirs(root_path):
   """
   Creates directories for the train and test sets
-  
+
   Args:
     root_path (string) - the base directory path to create subdirectories from
-  
+
   Returns:
     None
-  """  
+  """
   ### START CODE HERE
 
   # HINT:
@@ -96,7 +96,7 @@ def create_train_val_dirs(root_path):
 
   ### END CODE HERE
 
-  
+
 try:
   create_train_val_dirs(root_path=root_dir)
 except FileExistsError:
@@ -155,13 +155,13 @@ Hints:
 def split_data(SOURCE_DIR, TRAINING_DIR, VALIDATION_DIR, SPLIT_SIZE):
   """
   Splits the data into train and test sets
-  
+
   Args:
     SOURCE_DIR (string): directory path containing the images
     TRAINING_DIR (string): directory path to be used for training
     VALIDATION_DIR (string): directory path to be used for validation
     SPLIT_SIZE (float): proportion of the dataset to be used for training
-    
+
   Returns:
     None
   """
@@ -245,7 +245,7 @@ Now that you have successfully organized the data in a way that can be easily fe
 
 Something important to note is that the images in this dataset come in a variety of resolutions. Luckily, the `flow_from_directory` method allows you to standarize this by defining a tuple called `target_size` that will be used to convert each image to this target resolution. **For this exercise, use a `target_size` of (150, 150)**.
 
-**Hint:** 
+**Hint:**
 
 Don't use data augmentation by setting extra parameters when you instantiate the `ImageDataGenerator` class. This will make the training of your model to take longer to reach the necessary accuracy threshold to pass this assignment and this topic will be covered in the next week.
 
@@ -255,11 +255,11 @@ Don't use data augmentation by setting extra parameters when you instantiate the
 def train_val_generators(TRAINING_DIR, VALIDATION_DIR):
   """
   Creates the training and validation data generators
-  
+
   Args:
     TRAINING_DIR (string): directory path containing the training images
     VALIDATION_DIR (string): directory path containing the testing/validation images
-    
+
   Returns:
     train_generator, validation_generator - tuple containing the generators
   """
@@ -318,15 +318,15 @@ def create_model():
 
   ### START CODE HERE
 
-  model = tf.keras.models.Sequential([ 
+  model = tf.keras.models.Sequential([
       None,
   ])
 
-  
+
   model.compile(optimizer=None,
                 loss=None,
-                metrics=['accuracy']) 
-    
+                metrics=['accuracy'])
+
   ### END CODE HERE
 
   return model

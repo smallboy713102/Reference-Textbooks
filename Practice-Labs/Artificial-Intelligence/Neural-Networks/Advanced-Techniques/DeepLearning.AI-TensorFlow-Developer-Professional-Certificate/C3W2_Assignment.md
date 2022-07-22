@@ -1,6 +1,6 @@
 # Week 2: Diving deeper into the BBC News archive
 
-Welcome! In this assignment you will be revisiting the [BBC News Classification Dataset](https://www.kaggle.com/c/learn-ai-bbc/overview), which contains 2225 examples of news articles with their respective labels. 
+Welcome! In this assignment you will be revisiting the [BBC News Classification Dataset](https://www.kaggle.com/c/learn-ai-bbc/overview), which contains 2225 examples of news articles with their respective labels.
 
 This time you will not only work with the tokenization process but you will also create a classifier using specialized layers for text data such as Embedding and GlobalAveragePooling1D.
 
@@ -30,7 +30,7 @@ As you can see, each data point is composed of the category of the news article 
 
 ## Defining useful global variables
 
-Next, you will define some global variables that will be used in the unit tests after your solutions. **Please do not use these in the function body of the graded functions.** 
+Next, you will define some global variables that will be used in the unit tests after your solutions. **Please do not use these in the function body of the graded functions.**
 
 - `NUM_WORDS`: The maximum number of words to keep, based on word frequency. Defaults to 1000.
 
@@ -46,7 +46,7 @@ Next, you will define some global variables that will be used in the unit tests 
 
 - `OOV_TOKEN`: Token to replace out-of-vocabulary words during text_to_sequence calls. Defaults to "\<OOV>".
 
-    
+
 - `TRAINING_SPLIT`: Proportion of data used for training. Defaults to 0.8
 
 **For now leave them unchanged but after submitting your assignment for grading you are encouraged to come back here and play with these parameters to see the impact they have in the classification process**
@@ -72,16 +72,16 @@ Since you already coded these functions for the previous week, these are provide
 def remove_stopwords(sentence):
     """
     Removes a list of stopwords
-    
+
     Args:
         sentence (string): sentence to remove the stopwords from
-    
+
     Returns:
         sentence (string): lowercase sentence without the stopwords
     """
     # List of stopwords
     stopwords = ["a", "about", "above", "after", "again", "against", "all", "am", "an", "and", "any", "are", "as", "at", "be", "because", "been", "before", "being", "below", "between", "both", "but", "by", "could", "did", "do", "does", "doing", "down", "during", "each", "few", "for", "from", "further", "had", "has", "have", "having", "he", "he'd", "he'll", "he's", "her", "here", "here's", "hers", "herself", "him", "himself", "his", "how", "how's", "i", "i'd", "i'll", "i'm", "i've", "if", "in", "into", "is", "it", "it's", "its", "itself", "let's", "me", "more", "most", "my", "myself", "nor", "of", "on", "once", "only", "or", "other", "ought", "our", "ours", "ourselves", "out", "over", "own", "same", "she", "she'd", "she'll", "she's", "should", "so", "some", "such", "than", "that", "that's", "the", "their", "theirs", "them", "themselves", "then", "there", "there's", "these", "they", "they'd", "they'll", "they're", "they've", "this", "those", "through", "to", "too", "under", "until", "up", "very", "was", "we", "we'd", "we'll", "we're", "we've", "were", "what", "what's", "when", "when's", "where", "where's", "which", "while", "who", "who's", "whom", "why", "why's", "with", "would", "you", "you'd", "you'll", "you're", "you've", "your", "yours", "yourself", "yourselves" ]
-    
+
     # Sentence converted to lowercase-only
     sentence = sentence.lower()
 
@@ -95,10 +95,10 @@ def remove_stopwords(sentence):
 def parse_data_from_file(filename):
     """
     Extracts sentences and labels from a CSV file
-    
+
     Args:
         filename (string): path to the CSV file
-    
+
     Returns:
         sentences, labels (list of string, list of string): tuple containing lists of sentences and labels
     """
@@ -151,18 +151,18 @@ Now you will code the `train_val_split()` function. Given the training split siz
 def train_val_split(sentences, labels, training_split):
     """
     Splits the dataset into training and validation sets
-    
+
     Args:
         sentences (list of string): lower-cased sentences without stopwords
         labels (list of string): list of labels
         training split (float): proportion of the dataset to convert to include in the train set
-    
+
     Returns:
         train_sentences, validation_sentences, train_labels, validation_labels - lists containing the data splits
     """
-    
+
     ### START CODE HERE
-    
+
     # Compute the number of sentences that will be used for training (should be an integer)
     train_size = None
 
@@ -172,9 +172,9 @@ def train_val_split(sentences, labels, training_split):
 
     validation_sentences = None
     validation_labels = None
-    
+
     ### END CODE HERE
-    
+
     return train_sentences, validation_sentences, train_labels, validation_labels
 ```
 
@@ -213,26 +213,26 @@ Begin by completing the `fit_tokenizer` function below. This function should ret
 def fit_tokenizer(train_sentences, num_words, oov_token):
     """
     Instantiates the Tokenizer class on the training sentences
-    
+
     Args:
         train_sentences (list of string): lower-cased sentences without stopwords to be used for training
         num_words (int) - number of words to keep when tokenizing
         oov_token (string) - symbol for the out-of-vocabulary token
-    
+
     Returns:
         tokenizer (object): an instance of the Tokenizer class containing the word-index dictionary
     """
-    
+
     ### START CODE HERE
-    
+
     # Instantiate the Tokenizer class, passing in the correct values for num_words and oov_token
     tokenizer = None
-    
+
     # Fit the tokenizer to the training sentences
-    
-    
+
+
     ### END CODE HERE
-    
+
     return tokenizer
 ```
 
@@ -262,26 +262,26 @@ Now that the tokenizer has been fitted to the training data, you need a function
 def seq_and_pad(sentences, tokenizer, padding, maxlen):
     """
     Generates an array of token sequences and pads them to the same length
-    
+
     Args:
         sentences (list of string): list of sentences to tokenize and pad
         tokenizer (object): Tokenizer instance containing the word-index dictionary
         padding (string): type of padding to use
         maxlen (int): maximum length of the token sequence
-    
+
     Returns:
         padded_sequences (array of int): tokenized sentences padded to the same length
-    """    
+    """
     ### START CODE HERE
-       
+
     # Convert sentences to sequences
     sequences = None
-    
+
     # Pad the sequences using the correct padding and maxlen
     padded_sequences = None
-    
+
     ### END CODE HERE
-    
+
     return padded_sequences
 ```
 
@@ -323,30 +323,30 @@ A couple of things to note:
 def tokenize_labels(all_labels, split_labels):
     """
     Tokenizes the labels
-    
+
     Args:
         all_labels (list of string): labels to generate the word-index from
         split_labels (list of string): labels to tokenize
-    
+
     Returns:
         label_seq_np (array of int): tokenized labels
     """
     ### START CODE HERE
-    
+
     # Instantiate the Tokenizer (no additional arguments needed)
     label_tokenizer = None
-    
+
     # Fit the tokenizer on all the labels
-    
-    
+
+
     # Convert labels to sequences
     label_seq = None
-    
+
     # Convert sequences to a numpy array. Don't forget to substact 1 from every entry in the array!
     label_seq_np = None
-    
+
     ### END CODE HERE
-    
+
     return label_seq_np
 ```
 
@@ -386,9 +386,9 @@ Tokenized labels of the validation set have shape: (445, 1)
 
 ## Selecting the model for text classification
 
-Now that the data is ready to be fed a Neural Network it is time for you to define the model that will classify each text as being part of a certain category. 
+Now that the data is ready to be fed a Neural Network it is time for you to define the model that will classify each text as being part of a certain category.
 
-For this complete the `create_model` below. 
+For this complete the `create_model` below.
 
 A couple of things to keep in mind:
 
@@ -412,27 +412,27 @@ A couple of things to keep in mind:
 def create_model(num_words, embedding_dim, maxlen):
     """
     Creates a text classifier model
-    
+
     Args:
         num_words (int): size of the vocabulary for the Embedding layer input
         embedding_dim (int): dimensionality of the Embedding layer output
         maxlen (int): length of the input sequences
-    
+
     Returns:
         model (tf.keras Model): the text classifier model
     """
-    
+
     tf.random.set_seed(123)
-    
+
     ### START CODE HERE
-    
-    model = tf.keras.Sequential([ 
+
+    model = tf.keras.Sequential([
         None,
     ])
-    
+
     model.compile(loss=None,
                   optimizer=None,
-                  metrics=['accuracy']) 
+                  metrics=['accuracy'])
 
     ### END CODE HERE
 
@@ -460,7 +460,7 @@ def plot_graphs(history, metric):
     plt.ylabel(metric)
     plt.legend([metric, f'val_{metric}'])
     plt.show()
-    
+
 plot_graphs(history, "accuracy")
 plot_graphs(history, "loss")
 ```
@@ -489,9 +489,9 @@ print(f"Weights of embedding layer have shape: {weights.shape}")
 ***Expected Output:***
 
 ```
-Weights of embedding layer have shape: (1000, 16) 
+Weights of embedding layer have shape: (1000, 16)
 
-The above is true if global variables are not modified. 
+The above is true if global variables are not modified.
 Notice that this shape will always be (NUM_WORDS, EMBEDDING_DIM).
 
 ```

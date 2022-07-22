@@ -45,8 +45,8 @@ local_weights_file = '/tmp/inception_v3_weights_tf_dim_ordering_tf_kernels_notop
 
 # Initialize the base model.
 # Set the input shape and remove the dense layers.
-pre_trained_model = InceptionV3(input_shape = (150, 150, 3), 
-                                include_top = False, 
+pre_trained_model = InceptionV3(input_shape = (150, 150, 3),
+                                include_top = False,
                                 weights = None)
 
 # Load the pre-trained weights you downloaded.
@@ -87,12 +87,12 @@ x = layers.Flatten()(last_output)
 # Add a fully connected layer with 1,024 hidden units and ReLU activation
 x = layers.Dense(1024, activation='relu')(x)
 # Add a dropout rate of 0.2
-x = layers.Dropout(0.2)(x)                  
+x = layers.Dropout(0.2)(x)
 # Add a final sigmoid layer for classification
-x = layers.Dense  (1, activation='sigmoid')(x)           
+x = layers.Dense  (1, activation='sigmoid')(x)
 
 # Append the dense network to the base model
-model = Model(pre_trained_model.input, x) 
+model = Model(pre_trained_model.input, x)
 
 # Print the model summary. See your dense network connected at the end.
 model.summary()
@@ -101,8 +101,8 @@ model.summary()
 
 ```python
 # Set the training parameters
-model.compile(optimizer = RMSprop(learning_rate=0.0001), 
-              loss = 'binary_crossentropy', 
+model.compile(optimizer = RMSprop(learning_rate=0.0001),
+              loss = 'binary_crossentropy',
               metrics = ['accuracy'])
 ```
 
@@ -134,13 +134,13 @@ train_dir = os.path.join( base_dir, 'train')
 validation_dir = os.path.join( base_dir, 'validation')
 
 # Directory with training cat pictures
-train_cats_dir = os.path.join(train_dir, 'cats') 
+train_cats_dir = os.path.join(train_dir, 'cats')
 
 # Directory with training dog pictures
-train_dogs_dir = os.path.join(train_dir, 'dogs') 
+train_dogs_dir = os.path.join(train_dir, 'dogs')
 
 # Directory with validation cat pictures
-validation_cats_dir = os.path.join(validation_dir, 'cats') 
+validation_cats_dir = os.path.join(validation_dir, 'cats')
 
 # Directory with validation dog pictures
 validation_dogs_dir = os.path.join(validation_dir, 'dogs')
@@ -160,13 +160,13 @@ test_datagen = ImageDataGenerator( rescale = 1.0/255. )
 # Flow training images in batches of 20 using train_datagen generator
 train_generator = train_datagen.flow_from_directory(train_dir,
                                                     batch_size = 20,
-                                                    class_mode = 'binary', 
-                                                    target_size = (150, 150))     
+                                                    class_mode = 'binary',
+                                                    target_size = (150, 150))
 
 # Flow validation images in batches of 20 using test_datagen generator
 validation_generator =  test_datagen.flow_from_directory( validation_dir,
                                                           batch_size  = 20,
-                                                          class_mode  = 'binary', 
+                                                          class_mode  = 'binary',
                                                           target_size = (150, 150))
 ```
 

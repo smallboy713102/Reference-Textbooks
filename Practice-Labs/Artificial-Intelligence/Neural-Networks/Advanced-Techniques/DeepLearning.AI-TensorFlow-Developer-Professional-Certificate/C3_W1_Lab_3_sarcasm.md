@@ -41,7 +41,7 @@ With that, you can collect all urls, headlines, and labels for easier processing
 
 ```python
 # Initialize lists
-sentences = [] 
+sentences = []
 labels = []
 urls = []
 

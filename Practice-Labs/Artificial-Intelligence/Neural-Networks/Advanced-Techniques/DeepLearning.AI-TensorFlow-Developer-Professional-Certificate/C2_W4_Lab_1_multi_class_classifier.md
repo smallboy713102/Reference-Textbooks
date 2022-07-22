@@ -15,7 +15,7 @@ You will be using the [Rock-Paper-Scissors dataset](http://www.laurencemoroney.c
 ```python
 # Download the train set
 !wget https://storage.googleapis.com/tensorflow-1-public/course2/week4/rps.zip
-    
+
 # Download the test set
 !wget https://storage.googleapis.com/tensorflow-1-public/course2/week4/rps-test-set.zip
 ```
@@ -73,11 +73,11 @@ import matplotlib.image as mpimg
 
 pic_index = 2
 
-next_rock = [os.path.join(rock_dir, fname) 
+next_rock = [os.path.join(rock_dir, fname)
                 for fname in rock_files[pic_index-2:pic_index]]
-next_paper = [os.path.join(paper_dir, fname) 
+next_paper = [os.path.join(paper_dir, fname)
                 for fname in paper_files[pic_index-2:pic_index]]
-next_scissors = [os.path.join(scissors_dir, fname) 
+next_scissors = [os.path.join(scissors_dir, fname)
                 for fname in scissors_files[pic_index-2:pic_index]]
 
 for i, img_path in enumerate(next_rock+next_paper+next_scissors):
@@ -142,7 +142,7 @@ from keras_preprocessing.image import ImageDataGenerator
 TRAINING_DIR = "tmp/rps-train/rps"
 training_datagen = ImageDataGenerator(
       rescale = 1./255,
-	    rotation_range=40,
+        rotation_range=40,
       width_shift_range=0.2,
       height_shift_range=0.2,
       shear_range=0.2,
@@ -154,16 +154,16 @@ VALIDATION_DIR = "tmp/rps-test/rps-test-set"
 validation_datagen = ImageDataGenerator(rescale = 1./255)
 
 train_generator = training_datagen.flow_from_directory(
-	TRAINING_DIR,
-	target_size=(150,150),
-	class_mode='categorical',
+    TRAINING_DIR,
+    target_size=(150,150),
+    class_mode='categorical',
   batch_size=126
 )
 
 validation_generator = validation_datagen.flow_from_directory(
-	VALIDATION_DIR,
-	target_size=(150,150),
-	class_mode='categorical',
+    VALIDATION_DIR,
+    target_size=(150,150),
+    class_mode='categorical',
   batch_size=126
 )
 ```
@@ -221,7 +221,7 @@ from keras.preprocessing import image
 uploaded = files.upload()
 
 for fn in uploaded.keys():
- 
+
   # predicting images
   path = fn
   img = image.load_img(path, target_size=(150, 150))
@@ -243,7 +243,7 @@ Instructions on how to upload image(s) manually in a Colab:
 3. Click on the `folder` named `tmp`.
 4. Inside of the `tmp` folder, `create a new folder` called `images`. You'll see the `New folder` option by clicking the `3 vertical dots` menu button next to the `tmp` folder.
 5. Inside of the new `images` folder, upload an image(s) of your choice. Drag and drop the images(s) on top of the `images` folder.
-6. Uncomment and run the code block below. 
+6. Uncomment and run the code block below.
 
 
 ```python
@@ -264,7 +264,7 @@ Instructions on how to upload image(s) manually in a Colab:
 #     img = image.load_img(path, target_size=(150, 150))
 #     x = image.img_to_array(img)
 #     x = np.expand_dims(x, axis=0)
-    
+
 #     images = np.vstack([x])
 #     classes = model.predict(images, batch_size=10)
 #     print(path)

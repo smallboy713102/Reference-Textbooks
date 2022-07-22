@@ -116,7 +116,7 @@ The cell above uses a `vocab_size` of 10000 but you'll find that it's easy to fi
 tokenizer_plaintext.sequences_to_texts(sequences[0:1])
 ```
 
-For binary classifiers, this might not have a big impact but you may have other applications that will benefit from avoiding OOV tokens when training the model (e.g. text generation). If you want the tokenizer above to not have OOVs, then the `vocab_size` will increase to more than 88k. This can slow down training and bloat the model size. The encoder also won't be robust when used on other datasets which may contain new words, thus resulting in OOVs again. 
+For binary classifiers, this might not have a big impact but you may have other applications that will benefit from avoiding OOV tokens when training the model (e.g. text generation). If you want the tokenizer above to not have OOVs, then the `vocab_size` will increase to more than 88k. This can slow down training and bloat the model size. The encoder also won't be robust when used on other datasets which may contain new words, thus resulting in OOVs again.
 
 
 ```python
@@ -196,7 +196,7 @@ BUFFER_SIZE = 10000
 BATCH_SIZE = 64
 
 # Get the train and test splits
-train_data, test_data = imdb_subwords['train'], imdb_subwords['test'], 
+train_data, test_data = imdb_subwords['train'], imdb_subwords['test'],
 
 # Shuffle the training data
 train_dataset = train_data.shuffle(BUFFER_SIZE)
@@ -206,7 +206,7 @@ train_dataset = train_dataset.padded_batch(BATCH_SIZE)
 test_dataset = test_data.padded_batch(BATCH_SIZE)
 ```
 
-Next, you will build the model. You can just use the architecture from the previous lab. 
+Next, you will build the model. You can just use the architecture from the previous lab.
 
 
 ```python
@@ -257,7 +257,7 @@ def plot_graphs(history, string):
   plt.legend([string, 'val_'+string])
   plt.show()
 
-# Plot the accuracy and results 
+# Plot the accuracy and results
 plot_graphs(history, "accuracy")
 plot_graphs(history, "loss")
 ```

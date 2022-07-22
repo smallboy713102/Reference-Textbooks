@@ -6,8 +6,8 @@ In this lab we will explore the inner workings of neurons/units and layers. In p
 
 
 ## Packages
-**Tensorflow and Keras**  
-Tensorflow is a machine learning package developed by Google. In 2019, Google integrated Keras into Tensorflow and released Tensorflow 2.0. Keras is a framework developed independently by François Chollet that creates a simple, layer-centric interface to Tensorflow. This course will be using the Keras interface. 
+**Tensorflow and Keras**
+Tensorflow is a machine learning package developed by Google. In 2019, Google integrated Keras into Tensorflow and released Tensorflow 2.0. Keras is a framework developed independently by François Chollet that creates a simple, layer-centric interface to Tensorflow. This course will be using the Keras interface.
 
 
 ```python
@@ -48,7 +48,7 @@ plt.show()
 ![png](output_5_0.png)
 
 
-### Regression/Linear Model 
+### Regression/Linear Model
 The function implemented by a neuron with no activation is the same as in Course 1, linear regression:
 $$ f_{\mathbf{w},b}(x^{(i)}) = \mathbf{w}\cdot x^{(i)} + b \tag{1}$$
 
@@ -86,7 +86,7 @@ print(a1)
     tf.Tensor([[-0.51]], shape=(1, 1), dtype=float32)
 
 
-The result is a tensor (another name for an array) with a shape of (1,1) or one entry.   
+The result is a tensor (another name for an array) with a shape of (1,1) or one entry.
 Now let's look at the weights and bias. These weights are randomly initialized to small numbers and the bias defaults to being initialized to zero.
 
 
@@ -98,7 +98,7 @@ print(f"w = {w}, b={b}")
     w = [[-0.51]], b=[0.]
 
 
-A linear regression model (1) with a single input feature will have a single weight and bias. This matches the dimensions of our `linear_layer` above.   
+A linear regression model (1) with a single input feature will have a single weight and bias. This matches the dimensions of our `linear_layer` above.
 
 The weights are initialized to random values so let's set them to some known values.
 
@@ -150,7 +150,7 @@ plt_linear(X_train, Y_train, prediction_tf, prediction_np)
 ## Neuron with Sigmoid activation
 The function implemented by a neuron/unit with a sigmoid activation is the same as in Course 1, logistic  regression:
 $$ f_{\mathbf{w},b}(x^{(i)}) = g(\mathbf{w}x^{(i)} + b) \tag{2}$$
-where $$g(x) = sigmoid(x)$$ 
+where $$g(x) = sigmoid(x)$$
 
 Let's set $w$ and $b$ to some known values and check the model.
 
@@ -185,7 +185,7 @@ neg = Y_train == 0
 
 fig,ax = plt.subplots(1,1,figsize=(4,3))
 ax.scatter(X_train[pos], Y_train[pos], marker='x', s=80, c = 'red', label="y=1")
-ax.scatter(X_train[neg], Y_train[neg], marker='o', s=100, label="y=0", facecolors='none', 
+ax.scatter(X_train[neg], Y_train[neg], marker='o', s=100, label="y=0", facecolors='none',
               edgecolors=dlc["dlblue"],lw=3)
 
 ax.set_ylim(-0.08,1.1)
@@ -201,7 +201,7 @@ plt.show()
 
 
 ### Logistic Neuron
-We can implement a 'logistic neuron' by adding a sigmoid activation. The function of the neuron is then described by (2) above.   
+We can implement a 'logistic neuron' by adding a sigmoid activation. The function of the neuron is then described by (2) above.
 This section will create a Tensorflow Model that contains our logistic layer to demonstrate an alternate method of creating models. Tensorflow is most often used to create multi-layer models. The [Sequential](https://keras.io/guides/sequential_model/) model is a convenient means of constructing these models.
 
 
@@ -222,10 +222,10 @@ model.summary()
 
     Model: "sequential"
     _________________________________________________________________
-     Layer (type)                Output Shape              Param #   
+     Layer (type)                Output Shape              Param #
     =================================================================
-     L1 (Dense)                  (None, 1)                 2         
-                                                                     
+     L1 (Dense)                  (None, 1)                 2
+
     =================================================================
     Total params: 2
     Trainable params: 2

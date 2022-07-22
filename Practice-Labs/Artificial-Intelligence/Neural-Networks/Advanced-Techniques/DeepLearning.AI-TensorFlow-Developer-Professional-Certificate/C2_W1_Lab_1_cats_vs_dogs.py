@@ -4,21 +4,21 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C2/W1/ungraded_lab/C2_W1_Lab_1_cats_vs_dogs.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Using more sophisticated images with Convolutional Neural Networks
-# 
+#
 # In Course 1 of this specialization, you saw how to use a CNN to make your recognition of computer generated images of horses and humans more efficient. In this lesson, you'll take that to the next level: building a model to classify real images of cats and dogs. Like the horses and humans dataset, real-world images also come in different shapes, aspect ratios, etc. and you will need to take this into account when preparing your data.
-# 
+#
 # In this lab, you will first review how to build CNNs, prepare your data with `ImageDataGenerator` and examine your results. You'll follow these steps:
-# 
+#
 # 1.   Explore the example data of `Dogs vs. Cats`
 # 2.   Build and train a neural network to classify between the two pets
 # 3.   Evaluate the training and validation accuracy
-# 
+#
 # You will build upon your results here in the next labs so you can improve it, particularly in avoiding overfitting. Let's begin!
 
 # **IMPORTANT NOTE:** This notebook is designed to run as a Colab. Running it on your local machine might result in some of the code blocks throwing errors.
 
 # ## Download and Inspect the Dataset
-# 
+#
 # You will start by downloading the dataset. This is a `.zip` of 2,000 JPG pictures of cats and dogs. It is a subset of the ["Dogs vs. Cats" dataset](https://www.kaggle.com/c/dogs-vs-cats/data) available on Kaggle, which contains 25,000 images. You will only use 2,000 of the full dataset to decrease training time for educational purposes.
 
 # In[ ]:
@@ -42,10 +42,10 @@ zip_ref.extractall()
 zip_ref.close()
 
 
-# The contents of the .zip are extracted to the base directory `./cats_and_dogs_filtered`, which contains `train` and `validation` subdirectories for the training and validation datasets (you can ignore `vectorize.py` in the output in the next cell). 
-# 
+# The contents of the .zip are extracted to the base directory `./cats_and_dogs_filtered`, which contains `train` and `validation` subdirectories for the training and validation datasets (you can ignore `vectorize.py` in the output in the next cell).
+#
 # If you recall, the **training set** is the data that is used to tell the neural network model that 'this is what a cat looks like' and 'this is what a dog looks like'. The **validation set** is images of cats and dogs that the neural network will not see as part of the training. You can use this to test how well or how badly it does in evaluating if an image contains a cat or a dog. (See the [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/validation/check-your-intuition) if you want a refresher on training, validation, and test sets.)
-# 
+#
 # These subdirectories in turn each contain `cats` and `dogs` subdirectories.
 
 # In[ ]:
@@ -109,7 +109,7 @@ print('total validation dog images :', len(os.listdir( validation_dogs_dir ) ))
 
 
 # For both cats and dogs, you have 1,000 training images and 500 validation images.
-# 
+#
 # Now take a look at a few pictures to get a better sense of what the cat and dog datasets look like. First, configure the `matplotlib` parameters:
 
 # In[ ]:
@@ -138,11 +138,11 @@ fig.set_size_inches(ncols*4, nrows*4)
 
 pic_index+=8
 
-next_cat_pix = [os.path.join(train_cats_dir, fname) 
-                for fname in train_cat_fnames[ pic_index-8:pic_index] 
+next_cat_pix = [os.path.join(train_cats_dir, fname)
+                for fname in train_cat_fnames[ pic_index-8:pic_index]
                ]
 
-next_dog_pix = [os.path.join(train_dogs_dir, fname) 
+next_dog_pix = [os.path.join(train_dogs_dir, fname)
                 for fname in train_dog_fnames[ pic_index-8:pic_index]
                ]
 
@@ -160,11 +160,11 @@ plt.show()
 # It may not be obvious from looking at the images in this grid but an important note here is that these images come in all shapes and sizes (just like the 'horses or humans' dataset). So before training a neural network with them, you'll need to tweak the images. You'll see that in the next sections.
 
 # ## Building a Small Model from Scratch to get to ~72% Accuracy
-# 
-# To train a neural network to handle the images, you'll need them to be in a uniform size. You will choose 150x150 pixels for this, and you'll see the code that preprocesses the images to that shape shortly. 
-# 
+#
+# To train a neural network to handle the images, you'll need them to be in a uniform size. You will choose 150x150 pixels for this, and you'll see the code that preprocesses the images to that shape shortly.
+#
 # You can define the model by importing Tensorflow and using the Keras API. Here is the entire code first then the discussion comes after. This is very similar to the models you have built in Course 1.
-# 
+#
 
 # In[ ]:
 
@@ -176,15 +176,15 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Conv2D(16, (3,3), activation='relu', input_shape=(150, 150, 3)),
     tf.keras.layers.MaxPooling2D(2,2),
     tf.keras.layers.Conv2D(32, (3,3), activation='relu'),
-    tf.keras.layers.MaxPooling2D(2,2), 
-    tf.keras.layers.Conv2D(64, (3,3), activation='relu'), 
+    tf.keras.layers.MaxPooling2D(2,2),
+    tf.keras.layers.Conv2D(64, (3,3), activation='relu'),
     tf.keras.layers.MaxPooling2D(2,2),
     # Flatten the results to feed into a DNN
-    tf.keras.layers.Flatten(), 
+    tf.keras.layers.Flatten(),
     # 512 neuron hidden layer
-    tf.keras.layers.Dense(512, activation='relu'), 
+    tf.keras.layers.Dense(512, activation='relu'),
     # Only 1 output neuron. It will contain a value from 0-1 where 0 for 1 class ('cats') and 1 for the other ('dogs')
-    tf.keras.layers.Dense(1, activation='sigmoid')  
+    tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 
 
@@ -192,7 +192,7 @@ model = tf.keras.models.Sequential([
 
 # Note that because you are facing a two-class classification problem, i.e. a *binary classification problem*, you will end the network with a [*sigmoid* activation](https://wikipedia.org/wiki/Sigmoid_function). The output of the network will be a single scalar between `0` and `1`, encoding the probability that the current image is class `1` (as opposed to class `0`).
 
-# You can review the architecture of the network with the `model.summary()` method: 
+# You can review the architecture of the network with the `model.summary()` method:
 
 # In[ ]:
 
@@ -203,7 +203,7 @@ model.summary()
 # The `output_shape` column shows how the size of your feature map evolves in each successive layer. The convolution operation removes the outermost pixels from the original dimensions, and each pooling layer halves it.
 
 # Next, you'll configure the specifications for model training. You will train our model with the `binary_crossentropy` loss, because it's a binary classification problem and your final activation is a sigmoid. We will use the `rmsprop` optimizer with a learning rate of `0.001`. During training, you will want to monitor classification accuracy.
-# 
+#
 # **NOTE**: In this case, using the [RMSprop optimization algorithm](https://wikipedia.org/wiki/Stochastic_gradient_descent#RMSProp) is preferable to [stochastic gradient descent](https://developers.google.com/machine-learning/glossary/#SGD) (SGD), because RMSprop automates learning-rate tuning for us. (Other optimizers, such as [Adam](https://wikipedia.org/wiki/Stochastic_gradient_descent#Adam) and [Adagrad](https://developers.google.com/machine-learning/glossary/#AdaGrad), also automatically adapt the learning rate during training, and would work equally well here.)
 
 # In[ ]:
@@ -217,11 +217,11 @@ model.compile(optimizer=RMSprop(learning_rate=0.001),
 
 
 # ### Data Preprocessing
-# 
+#
 # Next step is to set up the data generators that will read pictures in the source folders, convert them to `float32` tensors, and feed them (with their labels) to the model. You'll have one generator for the training images and one for the validation images. These generators will yield batches of images of size 150x150 and their labels (binary).
-# 
+#
 # As you may already know, data that goes into neural networks should usually be normalized in some way to make it more amenable to processing by the network (i.e. It is uncommon to feed raw pixels into a ConvNet.) In this case, you will preprocess the images by normalizing the pixel values to be in the `[0, 1]` range (originally all values are in the `[0, 255]` range).
-# 
+#
 # In Keras, this can be done via the `keras.preprocessing.image.ImageDataGenerator` class using the `rescale` parameter. This `ImageDataGenerator` class allows you to instantiate generators of augmented image batches (and their labels) via `.flow(data, labels)` or `.flow_from_directory(directory)`.
 
 # In[ ]:
@@ -239,7 +239,7 @@ test_datagen  = ImageDataGenerator( rescale = 1.0/255. )
 train_generator = train_datagen.flow_from_directory(train_dir,
                                                     batch_size=20,
                                                     class_mode='binary',
-                                                    target_size=(150, 150))     
+                                                    target_size=(150, 150))
 # --------------------
 # Flow validation images in batches of 20 using test_datagen generator
 # --------------------
@@ -251,13 +251,13 @@ validation_generator =  test_datagen.flow_from_directory(validation_dir,
 
 # ### Training
 # You will now train on all 2,000 images available, for 15 epochs, and monitor the accuracy as well on the 1,000 images in the validation set.
-# 
+#
 # Do note the values per epoch.
-# 
-# You'll see 4 values per epoch -- Loss, Accuracy, Validation Loss and Validation Accuracy. 
-# 
-# The `loss` and `accuracy` are great indicators of progress in training. `loss` measures the current model prediction against the known labels, calculating the result. `accuracy`, on the other hand, is the portion of correct guesses. 
-# 
+#
+# You'll see 4 values per epoch -- Loss, Accuracy, Validation Loss and Validation Accuracy.
+#
+# The `loss` and `accuracy` are great indicators of progress in training. `loss` measures the current model prediction against the known labels, calculating the result. `accuracy`, on the other hand, is the portion of correct guesses.
+#
 
 # In[ ]:
 
@@ -271,11 +271,11 @@ history = model.fit(
 
 
 # ### Model Prediction
-# 
+#
 # Now take a look at actually running a prediction using the model. This code will allow you to choose 1 or more files from your file system, upload them, and run them through the model, giving an indication of whether the object is a cat or a dog.
-# 
+#
 # **Important Note:** Due to some compatibility issues, the following code block will result in an error after you select the images(s) to upload if you are running this notebook as a `Colab` on the `Safari` browser. For all other browsers, continue with the next code block and ignore the next one after it.
-# 
+#
 # _For Safari users: please comment out or skip the code block below, uncomment the next code block and run it._
 
 # In[ ]:
@@ -292,37 +292,37 @@ from keras.preprocessing import image
 uploaded=files.upload()
 
 for fn in uploaded.keys():
- 
+
   # predicting images
   path='/content/' + fn
   img=image.load_img(path, target_size=(150, 150))
-  
+
   x=image.img_to_array(img)
   x /= 255
   x=np.expand_dims(x, axis=0)
   images = np.vstack([x])
-  
+
   classes = model.predict(images, batch_size=10)
-  
+
   print(classes[0])
-  
+
   if classes[0]>0.5:
     print(fn + " is a dog")
   else:
     print(fn + " is a cat")
- 
+
 
 
 # `Safari` users will need to upload the images(s) manually in their workspace. Please follow the instructions, uncomment the code block below and run it.
-# 
+#
 # Instructions on how to upload image(s) manually in a Colab:
-# 
+#
 # 1. Select the `folder` icon on the left `menu bar`.
 # 2. Click on the `folder with an arrow pointing upwards` named `..`
 # 3. Click on the `folder` named `tmp`.
 # 4. Inside of the `tmp` folder, `create a new folder` called `images`. You'll see the `New folder` option by clicking the `3 vertical dots` menu button next to the `tmp` folder.
 # 5. Inside of the new `images` folder, upload an image(s) of your choice, preferably of either a cat or a dog. Drag and drop the images(s) on top of the `images` folder.
-# 6. Uncomment and run the code block below. 
+# 6. Uncomment and run the code block below.
 
 # In[ ]:
 
@@ -356,9 +356,9 @@ for fn in uploaded.keys():
 
 
 # ### Visualizing Intermediate Representations
-# 
+#
 # To get a feel for what kind of features your CNN has learned, one fun thing to do is to visualize how an input gets transformed as it goes through the model.
-# 
+#
 # You can pick a random image from the training set, and then generate a figure where each row is the output of a layer, and each image in the row is a specific filter in that output feature map. Rerun this cell to generate intermediate representations for a variety of training images.
 
 # In[ ]:
@@ -393,18 +393,18 @@ layer_names = [layer.name for layer in model.layers]
 
 # Display the representations
 for layer_name, feature_map in zip(layer_names, successive_feature_maps):
-  
+
   if len(feature_map.shape) == 4:
-    
+
     #-------------------------------------------
     # Just do this for the conv / maxpool layers, not the fully-connected layers
     #-------------------------------------------
     n_features = feature_map.shape[-1]  # number of features in the feature map
     size       = feature_map.shape[ 1]  # feature map shape (1, size, size, n_features)
-    
+
     # Tile the images in this matrix
     display_grid = np.zeros((size, size * n_features))
-    
+
     #-------------------------------------------------
     # Postprocess the feature to be visually palatable
     #-------------------------------------------------
@@ -424,15 +424,15 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
     plt.figure( figsize=(scale * n_features, scale) )
     plt.title ( layer_name )
     plt.grid  ( False )
-    plt.imshow( display_grid, aspect='auto', cmap='viridis' ) 
+    plt.imshow( display_grid, aspect='auto', cmap='viridis' )
 
 
-# You can see above how the pixels highlighted turn to increasingly abstract and compact representations, especially at the bottom grid. 
-# 
+# You can see above how the pixels highlighted turn to increasingly abstract and compact representations, especially at the bottom grid.
+#
 # The representations downstream start highlighting what the network pays attention to, and they show fewer and fewer features being "activated"; most are set to zero. This is called _representation sparsity_ and is a key feature of deep learning. These representations carry increasingly less information about the original pixels of the image, but increasingly refined information about the class of the image. You can think of a convnet (or a deep network in general) as an information distillation pipeline wherein each layer filters out the most useful features.
 
 # ### Evaluating Accuracy and Loss for the Model
-# 
+#
 # You will plot the training/validation accuracy and loss as collected during training:
 
 # In[ ]:
@@ -466,15 +466,15 @@ plt.title ('Training and validation loss'   )
 
 
 # As you can see, the model is **overfitting** like it's getting out of fashion. The training accuracy (in blue) gets close to 100% while the validation accuracy (in orange) stalls as 70%. The validation loss reaches its minimum after only five epochs.
-# 
+#
 # Since you have a relatively small number of training examples (2000), overfitting should be the number one concern. Overfitting happens when a model exposed to too few examples learns patterns that do not generalize to new data, i.e. when the model starts using irrelevant features for making predictions. For instance, if you, as a human, only see three images of people who are lumberjacks, and three images of people who are sailors, and among them the only person wearing a cap is a lumberjack, you might start thinking that wearing a cap is a sign of being a lumberjack as opposed to a sailor. You would then make a pretty lousy lumberjack/sailor classifier.
-# 
+#
 # Overfitting is the central problem in machine learning: given that you are fitting the parameters of our model to a given dataset, how can you make sure that the representations learned by the model will be applicable to data it has never seen before? How do you avoid learning things that are specific to the training data?
-# 
+#
 # In the next exercise, you'll look at ways to prevent overfitting in this classification model.
 
 # ## Clean Up
-# 
+#
 # Before running the next exercise, run the following cell to terminate the kernel and free memory resources:
 
 # In[ ]:
@@ -482,7 +482,7 @@ plt.title ('Training and validation loss'   )
 
 import os, signal
 
-os.kill(     os.getpid() , 
+os.kill(     os.getpid() ,
          signal.SIGKILL
        )
 

@@ -30,7 +30,7 @@ print(X.shape, Y.shape)
     (200, 2) (200, 1)
 
 
-Let's plot the coffee roasting data below. The two features are Temperature in Celsius and Duration in minutes. [Coffee Roasting at Home](https://www.merchantsofgreencoffee.com/how-to-roast-green-coffee-in-your-oven/) suggests that the duration is best kept between 12 and 15 minutes while the temp should be between 175 and 260 degrees Celsius. Of course, as temperature rises, the duration should shrink. 
+Let's plot the coffee roasting data below. The two features are Temperature in Celsius and Duration in minutes. [Coffee Roasting at Home](https://www.merchantsofgreencoffee.com/how-to-roast-green-coffee-in-your-oven/) suggests that the duration is best kept between 12 and 15 minutes while the temp should be between 175 and 260 degrees Celsius. Of course, as temperature rises, the duration should shrink.
 
 
 ```python
@@ -42,11 +42,11 @@ plt_roast(X,Y)
 
 
 ### Normalize Data
-Fitting the weights to the data (back-propagation, covered in next week's lectures) will proceed more quickly if the data is normalized. This is the same procedure you used in Course 1 where features in the data are each normalized to have a similar range. 
+Fitting the weights to the data (back-propagation, covered in next week's lectures) will proceed more quickly if the data is normalized. This is the same procedure you used in Course 1 where features in the data are each normalized to have a similar range.
 The procedure below uses a Keras [normalization layer](https://keras.io/api/layers/preprocessing_layers/numerical/normalization/). It has the following steps:
 - create a "Normalization Layer". Note, as applied here, this is not a layer in your model.
 - 'adapt' the data. This learns the mean and variance of the data set and saves the values internally.
-- normalize the data.  
+- normalize the data.
 It is important to apply normalization to any future data that utilizes the learned model.
 
 
@@ -71,8 +71,8 @@ Tile/copy our data to increase the training set size and reduce the number of tr
 
 ```python
 Xt = np.tile(Xn,(1000,1))
-Yt= np.tile(Y,(1000,1))   
-print(Xt.shape, Yt.shape)   
+Yt= np.tile(Y,(1000,1))
+print(Xt.shape, Yt.shape)
 ```
 
     (200000, 2) (200000, 1)
@@ -81,7 +81,7 @@ print(Xt.shape, Yt.shape)
 ## Tensorflow Model
 
 ### Model
-   <center> <img  src="./images/C2_W1_RoastingNetwork.PNG" width="200" />   <center/>  
+   <center> <img  src="./images/C2_W1_RoastingNetwork.PNG" width="200" />   <center/>
 Let's build the "Coffee Roasting Network" described in lecture. There are two layers with sigmoid activations as shown below:
 
 
@@ -96,7 +96,7 @@ model = Sequential(
 )
 ```
 
->**Note 1:** The `tf.keras.Input(shape=(2,)),` specifies the expected shape of the input. This allows Tensorflow to size the weights and bias parameters at this point.  This is useful when exploring Tensorflow models. This statement can be omitted in practice and Tensorflow will size the network parameters when the input data is specified in the `model.fit` statement.  
+>**Note 1:** The `tf.keras.Input(shape=(2,)),` specifies the expected shape of the input. This allows Tensorflow to size the weights and bias parameters at this point.  This is useful when exploring Tensorflow models. This statement can be omitted in practice and Tensorflow will size the network parameters when the input data is specified in the `model.fit` statement.
 >**Note 2:** Including the sigmoid activation in the final layer is not considered best practice. It would instead be accounted for in the loss which improves numerical stability. This will be described in more detail in a later lab.
 
 The `model.summary()` provides a description of the network:
@@ -108,12 +108,12 @@ model.summary()
 
     Model: "sequential"
     _________________________________________________________________
-     Layer (type)                Output Shape              Param #   
+     Layer (type)                Output Shape              Param #
     =================================================================
-     layer1 (Dense)              (None, 3)                 9         
-                                                                     
-     layer2 (Dense)              (None, 1)                 4         
-                                                                     
+     layer1 (Dense)              (None, 3)                 9
+
+     layer2 (Dense)              (None, 1)                 4
+
     =================================================================
     Total params: 13
     Trainable params: 13
@@ -147,12 +147,12 @@ print(f"W2{W2.shape}:\n", W2, f"\nb2{b2.shape}:", b2)
 
     W1(2, 3):
      [[ 0.08 -0.3   0.18]
-     [-0.56 -0.15  0.89]] 
+     [-0.56 -0.15  0.89]]
     b1(3,): [0. 0. 0.]
     W2(3, 1):
      [[-0.43]
      [-0.88]
-     [ 0.36]] 
+     [ 0.36]]
     b2(1,): [0.]
 
 
@@ -168,7 +168,7 @@ model.compile(
 )
 
 model.fit(
-    Xt,Yt,            
+    Xt,Yt,
     epochs=10,
 )
 ```
@@ -203,7 +203,7 @@ model.fit(
 
 
 #### Updated Weights
-After fitting, the weights have been updated: 
+After fitting, the weights have been updated:
 
 
 ```python
@@ -215,12 +215,12 @@ print("W2:\n", W2, "\nb2:", b2)
 
     W1:
      [[ -0.13  14.3  -11.1 ]
-     [ -8.92  11.85  -0.25]] 
+     [ -8.92  11.85  -0.25]]
     b1: [-11.16   1.76 -12.1 ]
     W2:
      [[-45.71]
      [-42.95]
-     [-50.19]] 
+     [-50.19]]
     b2: [26.14]
 
 
@@ -247,7 +247,7 @@ model.get_layer("layer2").set_weights([W2,b2])
 Once you have a trained model, you can then use it to make predictions. Recall that the output of our model is a probability. In this case, the probability of a good roast. To make a decision, one must apply the probability to a threshold. In this case, we will use 0.5
 
 Let's start by creating input data. The model is expecting one or more examples where examples are in the rows of matrix. In this case, we have two features so the matrix will be (m,2) where m is the number of examples.
-Recall, we have normalized the input features so we must normalize our test data as well.   
+Recall, we have normalized the input features so we must normalize our test data as well.
 To make a prediction, you apply the `predict` method.
 
 
@@ -260,7 +260,7 @@ predictions = model.predict(X_testn)
 print("predictions = \n", predictions)
 ```
 
-    predictions = 
+    predictions =
      [[9.63e-01]
      [3.03e-08]]
 
@@ -286,7 +286,7 @@ for i in range(len(predictions)):
 print(f"decisions = \n{yhat}")
 ```
 
-    decisions = 
+    decisions =
     [[1.]
      [0.]]
 
@@ -299,7 +299,7 @@ yhat = (predictions >= 0.5).astype(int)
 print(f"decisions = \n{yhat}")
 ```
 
-    decisions = 
+    decisions =
     [[1]
      [0]]
 
@@ -330,9 +330,9 @@ plt_output_unit(W2,b2)
 ![png](output_37_0.png)
 
 
-The final graph shows the whole network in action.  
-The left graph is the raw output of the final layer represented by the blue shading. This is overlaid on the training data represented by the X's and O's.   
-The right graph is the output of the network after a decision threshold. The X's and O's here correspond to decisions made by the network.  
+The final graph shows the whole network in action.
+The left graph is the raw output of the final layer represented by the blue shading. This is overlaid on the training data represented by the X's and O's.
+The right graph is the output of the network after a decision threshold. The X's and O's here correspond to decisions made by the network.
 The following takes a moment to run
 
 
@@ -346,7 +346,7 @@ plt_network(X,Y,netf)
 
 
 ## Congratulations!
-You have built a small neural network in Tensorflow. 
+You have built a small neural network in Tensorflow.
 The network demonstrated the ability of neural networks to handle complex decisions by dividing the decisions between multiple units.
 
 

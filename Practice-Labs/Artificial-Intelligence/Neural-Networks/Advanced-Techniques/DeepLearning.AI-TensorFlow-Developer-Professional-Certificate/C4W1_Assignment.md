@@ -123,7 +123,7 @@ plt.show()
 
 ## Evaluation Metrics
 
-Now that you have successfully splitted the data into training and validation sets you will need a way of knowing how good your forecasts are. For this complete the `compute_metrics` below. This function receives the true series and the forecast and returns the `mse` and the `mae` between the two curves. These metrics should be numpy numeric types. 
+Now that you have successfully splitted the data into training and validation sets you will need a way of knowing how good your forecasts are. For this complete the `compute_metrics` below. This function receives the true series and the forecast and returns the `mse` and the `mae` between the two curves. These metrics should be numpy numeric types.
 
 **Notice that this function does not receive any time (x coordinate) data since it assumes that both series will have the same values for the x coordinate.**
 
@@ -131,7 +131,7 @@ Now that you have successfully splitted the data into training and validation se
 ```python
 # GRADED FUNCTION: compute_metrics
 def compute_metrics(true_series, forecast):
-    
+
     ### START CODE HERE
     mse = None
     mae = None
@@ -257,18 +257,18 @@ Complete the `moving_average_forecast` below. This function receives a `series` 
 def moving_average_forecast(series, window_size):
     """Forecasts the mean of the last few values.
         If window_size=1, then this is equivalent to naive forecast"""
-    
+
     forecast = []
-    
-    ### START CODE HERE  
+
+    ### START CODE HERE
     for time in range(len(series) - window_size):
         forecast.append(series[time:time + window_size].mean())
-        
+
     # Conver to a numpy array
     np_forecast = None
-    
+
     ### END CODE HERE
-    
+
     return np_forecast
 ```
 
@@ -327,7 +327,7 @@ print(f"mse: {mse:.2f}, mae: {mae:.2f} for moving average forecast")
 mse: 65.79, mae: 4.30 for moving average forecast
 ```
 
-That's worse than naive forecast! The moving average does not anticipate trend or seasonality, so let's try to remove them by using differencing. 
+That's worse than naive forecast! The moving average does not anticipate trend or seasonality, so let's try to remove them by using differencing.
 
 ## Differencing
 
@@ -365,7 +365,7 @@ x-coordinate of diff series has shape: (1096,)
 
 Great, the trend and seasonality seem to be gone, so now we can use the moving average.
 
-Define the `diff_moving_avg` variable. 
+Define the `diff_moving_avg` variable.
 
 **Notice that the `window_size` has already being defined and that you will need to perform the correct slicing for the series to match the validation period.**
 

@@ -4,7 +4,7 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/main/C4/W4/ungraded_labs/C4_W4_Lab_1_LSTM.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Using Convolutions with LSTMs
-# 
+#
 # Welcome to the final week of this course! In this lab, you will build upon the RNN models you built last week and append a convolution layer to it. As you saw in previous courses, convolution filters can also capture features from sequences so it's good to try them out when exploring model architectures. Let's begin!
 
 # ## Imports
@@ -18,13 +18,13 @@ import matplotlib.pyplot as plt
 
 
 # ## Utilities
-# 
+#
 # You will be plotting the MAE and loss later so the `plot_series()` is extended to have more labelling functionality. The utilities for generating the synthetic data is the same as the previous labs.
 
 # In[ ]:
 
 
-def plot_series(x, y, format="-", start=0, end=None, 
+def plot_series(x, y, format="-", start=0, end=None,
                 title=None, xlabel=None, ylabel=None, legend=None ):
     """
     Visualizes time series data
@@ -43,7 +43,7 @@ def plot_series(x, y, format="-", start=0, end=None,
 
     # Setup dimensions of the graph figure
     plt.figure(figsize=(10, 6))
-    
+
     # Check if there are more than two series to plot
     if type(y) is tuple:
 
@@ -96,12 +96,12 @@ def trend(time, slope=0):
 def seasonal_pattern(season_time):
     """
     Just an arbitrary pattern, you can change it if you wish
-    
+
     Args:
       season_time (array of float) - contains the measurements per time step
 
     Returns:
-      data_pattern (array of float) -  contains revised measurement values according 
+      data_pattern (array of float) -  contains revised measurement values according
                                   to the defined pattern
     """
 
@@ -109,7 +109,7 @@ def seasonal_pattern(season_time):
     data_pattern = np.where(season_time < 0.4,
                     np.cos(season_time * 2 * np.pi),
                     1 / np.exp(3 * season_time))
-    
+
     return data_pattern
 
 def seasonality(time, period, amplitude=1, phase=0):
@@ -125,7 +125,7 @@ def seasonality(time, period, amplitude=1, phase=0):
     Returns:
       data_pattern (array of float) - seasonal data scaled by the defined amplitude
     """
-    
+
     # Define the measured values per period
     season_time = ((time + phase) % period) / period
 
@@ -151,7 +151,7 @@ def noise(time, noise_level=1, seed=None):
 
     # Generate a random number for each time step and scale by the noise level
     noise = rnd.randn(len(time)) * noise_level
-    
+
     return noise
 
 
@@ -185,7 +185,7 @@ plot_series(time, series, xlabel='Time', ylabel='Value')
 # Define the split time
 split_time = 1000
 
-# Get the train set 
+# Get the train set
 time_train = time[:split_time]
 x_train = series[:split_time]
 
@@ -195,7 +195,7 @@ x_valid = series[split_time:]
 
 
 # ## Prepare Features and Labels
-# 
+#
 # As mentioned in the lectures, you can experiment with different batch sizing here and see how it affects your results.
 
 # In[ ]:
@@ -222,25 +222,25 @@ def windowed_dataset(series, window_size, batch_size, shuffle_buffer):
     Returns:
       dataset (TF Dataset) - TF Dataset containing time windows
     """
-  
+
     # Generate a TF Dataset from the series values
     dataset = tf.data.Dataset.from_tensor_slices(series)
-    
+
     # Window the data but only take those with the specified size
     dataset = dataset.window(window_size + 1, shift=1, drop_remainder=True)
-    
+
     # Flatten the windows by putting its elements in a single batch
     dataset = dataset.flat_map(lambda window: window.batch(window_size + 1))
 
-    # Create tuples with features and labels 
+    # Create tuples with features and labels
     dataset = dataset.map(lambda window: (window[:-1], window[-1]))
 
     # Shuffle the windows
     dataset = dataset.shuffle(shuffle_buffer)
-    
+
     # Create batches of windows
     dataset = dataset.batch(batch_size).prefetch(1)
-    
+
     return dataset
 
 
@@ -252,16 +252,16 @@ train_set = windowed_dataset(x_train, window_size, batch_size, shuffle_buffer_si
 
 
 # ## Build the Model
-# 
+#
 # Here is the model architecture you will be using. It is very similar to the last RNN you built but with the [Conv1D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D) layer at the input. One important [argument](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D#args) here is the `padding`. For time series data, it is good practice to not let computations for a particular time step to be affected by values into the future. Here is one way of looking at it:
-# 
+#
 # * Let's say you have a small time series window with these values: `[1, 2, 3, 4, 5]`. This means the value `1` is at `t=0`, `2` is at `t=1`, etc.
 # * If you have a 1D kernel of size `3`, then the first convolution will be for the values at `[1, 2, 3]` which are values for `t=0` to `t=2`.
 # * When you pass this to the first timestep of the `LSTM` after the convolution, it means that the value at `t=0` of the LSTM depends on `t=1` and `t=2` which are values into the future.
 # * For time series data, you want computations to only rely on current and previous time steps.
 # * One way to do that is to pad the array depending on the kernel size and stride. For a kernel size of 3 and stride of 1, the window can be padded as such: `[0, 0, 1, 2, 3, 4, 5]`. `1` is still at `t=0` and two zeroes are prepended to simulate values in the past.
 # * This way, the first stride will be at `[0, 0, 1]` and this does not contain any future values when it is passed on to subsequent layers.
-# 
+#
 # The `Conv1D` layer does this kind of padding by setting `padding=causal` and you'll see that below.
 
 # In[ ]:
@@ -287,7 +287,7 @@ model.summary()
 
 
 # ## Tune the Learning Rate
-# 
+#
 # In the previous labs, you are using different models for tuning and training. That is a valid approach but you can also use the same model for both. Before tuning, you can use the [`get_weights()`](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Layer#get_weights) method so you can reset it later.
 
 # In[ ]:
@@ -339,7 +339,7 @@ plt.axis([1e-8, 1e-3, 0, 50])
 
 
 # ## Train the Model
-# 
+#
 # To reset the weights, you can simply call the [`set_weights()`](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Layer#set_weights) and pass in the saved weights from earlier.
 
 # In[ ]:
@@ -386,13 +386,13 @@ mae=history.history['mae']
 loss=history.history['loss']
 
 # Get number of epochs
-epochs=range(len(loss)) 
+epochs=range(len(loss))
 
 # Plot mae and loss
 plot_series(
-    x=epochs, 
-    y=(mae, loss), 
-    title='MAE and Loss', 
+    x=epochs,
+    y=(mae, loss),
+    title='MAE and Loss',
     xlabel='Epochs',
     legend=['MAE', 'Loss']
     )
@@ -405,18 +405,18 @@ loss_zoom = loss[zoom_split:]
 
 # Plot zoomed mae and loss
 plot_series(
-    x=epochs_zoom, 
-    y=(mae_zoom, loss_zoom), 
-    title='MAE and Loss', 
+    x=epochs_zoom,
+    y=(mae_zoom, loss_zoom),
+    title='MAE and Loss',
     xlabel='Epochs',
     legend=['MAE', 'Loss']
     )
 
 
 # ## Model Prediction
-# 
+#
 # Once training is done, you can generate the model predictions and plot them against the validation set.
-# 
+#
 
 # In[ ]:
 
@@ -442,13 +442,13 @@ def model_forecast(model, series, window_size, batch_size):
 
     # Flatten the windows by putting its elements in a single batch
     dataset = dataset.flat_map(lambda w: w.batch(window_size))
-    
+
     # Create batches of windows
     dataset = dataset.batch(batch_size).prefetch(1)
-    
+
     # Get predictions on the entire dataset
     forecast = model.predict(dataset)
-    
+
     return forecast
 
 
@@ -479,11 +479,11 @@ print(tf.keras.metrics.mean_absolute_error(x_valid, results).numpy())
 
 
 # ## Wrap Up
-# 
+#
 # In this lab, you were able to build and train a CNN-RNN model for forecasting. This concludes the series of notebooks on training with synthetic data. In the next labs, you will be looking at a real world time series dataset, particularly sunspot cycles. See you there!
 
 # ## Optional - Adding a Callback for Early Stopping
-# 
+#
 # In this optional section, you will add a callback to stop training when a metric is met. You already did this in the first course of this specialization and now would be a good time to review.
 
 # First, you need to prepare a validation set that the model can use and monitor. As shown in the previous lab, you can use the `windowed_dataset()` function to prepare this.

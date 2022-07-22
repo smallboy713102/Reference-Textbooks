@@ -4,11 +4,11 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/main/C4/W1/ungraded_labs/C4_W1_Lab_2_forecasting.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Statistical Forecasting on Synthetic Data
-# 
-# In this lab, you will be doing some statistical forecasting so you can compare it with the machine learning models you will build later on. 
+#
+# In this lab, you will be doing some statistical forecasting so you can compare it with the machine learning models you will build later on.
 
 # ## Imports
-# 
+#
 # You will first import the packages you will need to execute all the code in this lab. You will use:
 # * [Tensorflow](https://www.tensorflow.org/api_docs/python/tf) to build your model and prepare data windows
 # * [Numpy](https://numpy.org/) for numerical processing
@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 
 
 # ## Utilities
-# 
+#
 # You will then define some utility functions to make the code more organized. First up is the plotting function you also used in the previous lab.
 
 # In[ ]:
@@ -44,7 +44,7 @@ def plot_series(time, series, format="-", start=0, end=None):
 
     # Setup dimensions of the graph figure
     plt.figure(figsize=(10, 6))
-    
+
     if type(series) is tuple:
 
       for series_num in series:
@@ -93,12 +93,12 @@ def trend(time, slope=0):
 def seasonal_pattern(season_time):
     """
     Just an arbitrary pattern, you can change it if you wish
-    
+
     Args:
       season_time (array of float) - contains the measurements per time step
 
     Returns:
-      data_pattern (array of float) -  contains revised measurement values according 
+      data_pattern (array of float) -  contains revised measurement values according
                                   to the defined pattern
     """
 
@@ -106,7 +106,7 @@ def seasonal_pattern(season_time):
     data_pattern = np.where(season_time < 0.4,
                     np.cos(season_time * 2 * np.pi),
                     1 / np.exp(3 * season_time))
-    
+
     return data_pattern
 
 def seasonality(time, period, amplitude=1, phase=0):
@@ -122,7 +122,7 @@ def seasonality(time, period, amplitude=1, phase=0):
     Returns:
       data_pattern (array of float) - seasonal data scaled by the defined amplitude
     """
-    
+
     # Define the measured values per period
     season_time = ((time + phase) % period) / period
 
@@ -148,12 +148,12 @@ def noise(time, noise_level=1, seed=None):
 
     # Generate a random number for each time step and scale by the noise level
     noise = rnd.randn(len(time)) * noise_level
-    
+
     return noise
 
 
 # ## Generate the synthetic data
-# 
+#
 # You can then use the utility functions above to generate the synthetic data. This will start at a baseline then trend upwards with a seasonal pattern every 365 steps. You will also add some noise because real world data is often noisy as well.
 
 # In[ ]:
@@ -177,7 +177,7 @@ plot_series(time, series)
 
 
 # ## Split the Dataset
-# 
+#
 # Next up, you will split the data above into training and validation sets. You will take the first 1,000 points for training while the rest is for validation.
 
 # In[ ]:
@@ -186,7 +186,7 @@ plot_series(time, series)
 # Define the split time
 split_time = 1000
 
-# Get the train set 
+# Get the train set
 time_train = time[:split_time]
 x_train = series[:split_time]
 
@@ -212,7 +212,7 @@ plot_series(time_valid, x_valid)
 
 
 # # Naive Forecast
-# 
+#
 # As a baseline, you can do a naive forecast where you assume that the next value will be the same as the previous time step. You can slice the original series like below and print some values as a sanity check. The next time step value should be identical to the ground truth at the previous time step.
 
 # In[ ]:
@@ -248,8 +248,8 @@ plot_series(time_valid, (x_valid, naive_forecast), start=0, end=150)
 
 
 # ### Computing Metrics
-# 
-# Now you will compute the [mean squared error](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/mean_squared_error) and the [mean absolute error](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/mean_absolute_error) between the forecasts and the predictions in the validation period. These are available via the [`tf.keras.metrics`](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/) API. 
+#
+# Now you will compute the [mean squared error](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/mean_squared_error) and the [mean absolute error](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/mean_absolute_error) between the forecasts and the predictions in the validation period. These are available via the [`tf.keras.metrics`](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/) API.
 
 # In[ ]:
 
@@ -261,9 +261,9 @@ print(tf.keras.metrics.mean_absolute_error(x_valid, naive_forecast).numpy())
 # The values above will be your baseline and you will see if you can use other methods to do better than naive forecasting.
 
 # ## Moving Average
-# 
+#
 # One technique you can use is to do a moving average. This sums up a series of time steps and the average will be the prediction for the next time step. For example, the average of the measurements at time steps 1 to 10 will be the forecast for time step 11, then the average for time steps 2 to 11 will be the forecast for time step 12, and so on.
-# 
+#
 # The function below does the moving average for the entire `series`. It takes a `window_size` argument to indicate the number of time steps to consider when computing the mean.
 
 # In[ ]:
@@ -282,11 +282,11 @@ def moving_average_forecast(series, window_size):
 
     # Initialize a list
     forecast = []
-    
+
     # Compute the moving average based on the window size
     for time in range(len(series) - window_size):
       forecast.append(series[time:time + window_size].mean())
-    
+
     # Convert to a numpy array
     forecast = np.array(forecast)
 
@@ -316,11 +316,11 @@ print(tf.keras.metrics.mean_absolute_error(x_valid, moving_avg).numpy())
 # That's worse than naive forecast! The moving average does not anticipate trend or seasonality. In particular, those huge spikes in the original series causes big deviations as shown in the plot above. You will try to remove these characteristics of the dataset with time differencing and see if you get better results.
 
 # ## Differencing
-# 
-# Since the seasonality period is 365 days, you will subtract the value at time *t* – 365 from the value at time *t*. That is done with the code below. 
-# 
+#
+# Since the seasonality period is 365 days, you will subtract the value at time *t* – 365 from the value at time *t*. That is done with the code below.
+#
 # In addition, you will need to align the result with the `time` array. Since you can only do time differencing for `t >= 365`, you will need to truncate the first 365 time steps of the `time` array.
-# 
+#
 # You can plot the result to visualize the values.
 
 # In[ ]:
@@ -376,13 +376,13 @@ print(tf.keras.metrics.mean_absolute_error(x_valid, diff_moving_avg_plus_past).n
 # It is a bit better than naive forecast. However, the forecasts look a bit too random because you're adding past values which are already noisy. Remember that the time differenced signal is also noisy so adding these raw past values can compound this problem. To remedy that, you can use a moving averaging on past values to smooth out some of this noise.
 
 # ## Smoothing
-# 
+#
 # You can use the same `moving_average_forecast()` function to smooth out past values before adding them back to the time differenced moving average. There are two ways to do this:
-# 
+#
 # * Trailing windows - This refers to getting the mean of past values to smooth out the value at the current time step. For example, getting the average of `t=0` to `t=6` to get the smoothed data point at **`t=6`**.
-# 
+#
 # * Centered windows - This refers to getting the mean of past *and future* values to smooth out the value at the current time step. For example, getting the average of `t=0` to `t=6` to get the smoothed data point at **`t=3`**.
-# 
+#
 # The code below will use the centered windows approach and you will notice it in the slicing of the `series` array. It is shifted by `370` steps and the window size is `11`. To get the smooth data point at `t=1000` (i.e. start of the validation set), it will average the measurements at `t=995` to `t=1005`.
 
 # In[ ]:
@@ -406,5 +406,5 @@ print(tf.keras.metrics.mean_absolute_error(x_valid, diff_moving_avg_plus_smooth_
 
 
 # ## Wrap Up
-# 
+#
 # This concludes a short exploration of statistical methods for time series forecasting. In the next labs, you will build neural networks for forecasting and see if you get comparable results to the techniques you just used in this lab.

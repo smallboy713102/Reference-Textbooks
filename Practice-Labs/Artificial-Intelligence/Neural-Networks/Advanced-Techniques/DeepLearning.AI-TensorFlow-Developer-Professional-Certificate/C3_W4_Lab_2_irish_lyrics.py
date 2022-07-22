@@ -4,7 +4,7 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C3/W4/ungraded_labs/C3_W4_Lab_2_irish_lyrics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Generating Text from Irish Lyrics
-# 
+#
 # In the previous lab, you trained a model on just a single song. You might have found that the output text can quickly become gibberish or repetitive. Even if you tweak the hyperparameters, the model will still be limited by its vocabulary of only 263 words. The model will be more flexible if you train it on a much larger corpus and that's what you'll be doing in this lab. You will use lyrics from more Irish songs then see how the generated text looks like. You will also see how this impacts the process from data preparation to model training. Let's get started!
 
 # ## Imports
@@ -13,7 +13,7 @@
 
 
 import tensorflow as tf
-import numpy as np 
+import numpy as np
 
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.layers import Embedding, LSTM, Dense, Bidirectional
@@ -23,8 +23,8 @@ from tensorflow.keras.optimizers import Adam
 
 
 # ## Building the Word Vocabulary
-# 
-# You will first download the lyrics dataset. These will be from a compilation of traditional Irish songs and you can see them [here](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C3/W4/misc/Laurences_generated_poetry.txt). 
+#
+# You will first download the lyrics dataset. These will be from a compilation of traditional Irish songs and you can see them [here](https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C3/W4/misc/Laurences_generated_poetry.txt).
 
 # In[ ]:
 
@@ -67,7 +67,7 @@ print(f'total words: {total_words}')
 
 
 # ## Preprocessing the Dataset
-# 
+#
 # Next, you will generate the inputs and labels for your model. The process will be identical to the previous lab. The `xs` or inputs to the model will be padded sequences, while the `ys` or labels are one-hot encoded arrays.
 
 # In[ ]:
@@ -79,17 +79,17 @@ input_sequences = []
 # Loop over every line
 for line in corpus:
 
-	# Tokenize the current line
-	token_list = tokenizer.texts_to_sequences([line])[0]
+    # Tokenize the current line
+    token_list = tokenizer.texts_to_sequences([line])[0]
 
-	# Loop over the line several times to generate the subphrases
-	for i in range(1, len(token_list)):
-		
-		# Generate the subphrase
-		n_gram_sequence = token_list[:i+1]
+    # Loop over the line several times to generate the subphrases
+    for i in range(1, len(token_list)):
 
-		# Append the subphrase to the sequences list
-		input_sequences.append(n_gram_sequence)
+        # Generate the subphrase
+        n_gram_sequence = token_list[:i+1]
+
+        # Append the subphrase to the sequences list
+        input_sequences.append(n_gram_sequence)
 
 # Get the length of the longest line
 max_sequence_len = max([len(x) for x in input_sequences])
@@ -117,7 +117,7 @@ print(f'sample sentence: {sentence}')
 token_list = []
 
 # Look up the indices of each word and append to the list
-for word in sentence: 
+for word in sentence:
   token_list.append(tokenizer.word_index[word])
 
 # Print the token list
@@ -155,7 +155,7 @@ print(f'index of label: {np.argmax(ys[elem_number])}')
 
 
 # ## Build and compile the Model
-# 
+#
 # Next, you will build and compile the model. We placed some of the hyperparameters at the top of the code cell so you can easily tweak it later if you want.
 
 # In[ ]:
@@ -175,8 +175,8 @@ model = Sequential([
 
 # Use categorical crossentropy because this is a multi-class problem
 model.compile(
-    loss='categorical_crossentropy', 
-    optimizer=tf.keras.optimizers.Adam(learning_rate=learning_rate), 
+    loss='categorical_crossentropy',
+    optimizer=tf.keras.optimizers.Adam(learning_rate=learning_rate),
     metrics=['accuracy']
     )
 
@@ -185,7 +185,7 @@ model.summary()
 
 
 # ## Train the model
-# 
+#
 # From the model summary above, you'll notice that the number of trainable params is much larger than the one in the previous lab. Consequently, that usually means a slower training time. It will take roughly 7 seconds per epoch with the GPU enabled in Colab and you'll reach around 76% accuracy after 100 epochs.
 
 # In[ ]:
@@ -216,7 +216,7 @@ plot_graphs(history, 'accuracy')
 
 
 # ## Generating Text
-# 
+#
 # Now you can let the model make its own songs or poetry! Because it is trained on a much larger corpus, the results below should contain less repetitions as before. The code below picks the next word based on the highest probability output.
 
 # In[ ]:
@@ -231,28 +231,28 @@ next_words = 100
 # Loop until desired length is reached
 for _ in range(next_words):
 
-	# Convert the seed text to a token sequence
-	token_list = tokenizer.texts_to_sequences([seed_text])[0]
+    # Convert the seed text to a token sequence
+    token_list = tokenizer.texts_to_sequences([seed_text])[0]
 
-	# Pad the sequence
-	token_list = pad_sequences([token_list], maxlen=max_sequence_len-1, padding='pre')
-	
-	# Feed to the model and get the probabilities for each index
-	probabilities = model.predict(token_list)
+    # Pad the sequence
+    token_list = pad_sequences([token_list], maxlen=max_sequence_len-1, padding='pre')
 
-	# Get the index with the highest probability
-	predicted = np.argmax(probabilities, axis=-1)[0]
+    # Feed to the model and get the probabilities for each index
+    probabilities = model.predict(token_list)
 
-	# Ignore if index is 0 because that is just the padding.
-	if predicted != 0:
-		
-		# Look up the word associated with the index. 
-		output_word = tokenizer.index_word[predicted]
+    # Get the index with the highest probability
+    predicted = np.argmax(probabilities, axis=-1)[0]
 
-		# Combine with the seed text
-		seed_text += " " + output_word
+    # Ignore if index is 0 because that is just the padding.
+    if predicted != 0:
 
-# Print the result	
+        # Look up the word associated with the index.
+        output_word = tokenizer.index_word[predicted]
+
+        # Combine with the seed text
+        seed_text += " " + output_word
+
+# Print the result
 print(seed_text)
 
 
@@ -270,35 +270,35 @@ next_words = 100
 # Loop until desired length is reached
 for _ in range(next_words):
 
-	# Convert the seed text to a token sequence
+    # Convert the seed text to a token sequence
   token_list = tokenizer.texts_to_sequences([seed_text])[0]
 
-	# Pad the sequence
+    # Pad the sequence
   token_list = pad_sequences([token_list], maxlen=max_sequence_len-1, padding='pre')
-	
-	# Feed to the model and get the probabilities for each index
+
+    # Feed to the model and get the probabilities for each index
   probabilities = model.predict(token_list)
 
   # Pick a random number from [1,2,3]
   choice = np.random.choice([1,2,3])
-	
-  # Sort the probabilities in ascending order 
+
+  # Sort the probabilities in ascending order
   # and get the random choice from the end of the array
   predicted = np.argsort(probabilities)[0][-choice]
 
-	# Ignore if index is 0 because that is just the padding.
+    # Ignore if index is 0 because that is just the padding.
   if predicted != 0:
-		
-		# Look up the word associated with the index. 
-	  output_word = tokenizer.index_word[predicted]
 
-		# Combine with the seed text
-	  seed_text += " " + output_word
+        # Look up the word associated with the index.
+      output_word = tokenizer.index_word[predicted]
 
-# Print the result	
+        # Combine with the seed text
+      seed_text += " " + output_word
+
+# Print the result
 print(seed_text)
 
 
 # ## Wrap Up
-# 
-# This lab shows the effect of having a larger dataset to train your text generation model. As expected, this will take a longer time to prepare and train but the output will less likely become repetitive or gibberish. Try to tweak the hyperparameters and see if you get better results. You can also find some other text datasets and use it to train the model here.  
+#
+# This lab shows the effect of having a larger dataset to train your text generation model. As expected, this will take a longer time to prepare and train but the output will less likely become repetitive or gibberish. Try to tweak the hyperparameters and see if you get better results. You can also find some other text datasets and use it to train the model here.

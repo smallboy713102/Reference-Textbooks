@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Ungraded Lab:  Overfitting 
-# 
+# # Ungraded Lab:  Overfitting
+#
 # <img align="left" src="./images/C1_W3_Overfitting_a.png"     style=" width:250px; padding: 10px; " >
 # <img align="left" src="./images/C1_W3_Overfitting_b.png"     style=" width:250px; padding: 10px; " >
 # <img align="left" src="./images/C1_W3_Overfitting_c.png"     style=" width:250px; padding: 10px; " >
@@ -37,8 +37,8 @@ ofit = overfit_example(False)
 # - switch between Regression and Categorization examples
 # - add data
 # - select the degree of the model
-# - fit the model to the data  
-# 
+# - fit the model to the data
+#
 # Here are some things you should try:
 # - Fit the data with degree = 1; Note 'underfitting'.
 # - Fit the data with degree = 6; Note 'overfitting'
@@ -47,12 +47,12 @@ ofit = overfit_example(False)
 #     - extreme examples can increase overfitting (assuming they are outliers).
 #     - nominal examples can reduce overfitting
 # - switch between `Regression` and `Categorical` to try both examples.
-# 
+#
 # To reset the plot, re-run the cell. Click slowly to allow the plot to update before receiving the next click.
-# 
+#
 # Notes on implementations:
 # - the 'ideal' curves represent the generator model to which noise was added to achieve the data set
-# - 'fit' does not use pure gradient descent to improve speed. These methods can be used on smaller data sets. 
+# - 'fit' does not use pure gradient descent to improve speed. These methods can be used on smaller data sets.
 
 # ## Congratulations!
 # You have developed some intuition about the causes and solutions to overfitting. In the next lab, you will explore a commonly used solution, Regularization.

@@ -21,28 +21,28 @@ import numpy as np
 # GRADED FUNCTION: house_model
 def house_model():
     ### START CODE HERE
-    
+
     # Define input and output tensors with the values for houses with 1 up to 6 bedrooms
     # Hint: Remember to explictly set the dtype as float
     xs = None
     ys = None
-    
+
     # Define your model (should be a model with 1 dense layer and 1 unit)
     model = None
-    
+
     # Compile your model
     # Set the optimizer to Stochastic Gradient Descent
     # and use Mean Squared Error as the loss function
     model.compile(optimizer=None, loss=None)
-    
+
     # Train your model for 1000 epochs by feeding the i/o tensors
     model.fit(None, None, epochs=None)
-    
+
     ### END CODE HERE
     return model
 ```
 
-Now that you have a function that returns a compiled and trained model when invoked, use it to get the model to predict the price of houses: 
+Now that you have a function that returns a compiled and trained model when invoked, use it to get the model to predict the price of houses:
 
 
 ```python

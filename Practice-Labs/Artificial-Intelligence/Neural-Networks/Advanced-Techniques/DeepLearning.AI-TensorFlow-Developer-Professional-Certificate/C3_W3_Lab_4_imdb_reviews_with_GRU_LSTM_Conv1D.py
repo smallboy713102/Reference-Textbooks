@@ -4,11 +4,11 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C3/W3/ungraded_labs/C3_W3_Lab_4_imdb_reviews_with_GRU_LSTM_Conv1D.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Building Models for the IMDB Reviews Dataset
-# 
+#
 # In this lab, you will build four models and train it on the [IMDB Reviews dataset](https://www.tensorflow.org/datasets/catalog/imdb_reviews) with full word encoding. These use different layers after the embedding namely `Flatten`, `LSTM`, `GRU`, and `Conv1D`. You will compare the performance and see which architecture might be best for this particular dataset. Let's begin!
 
 # ## Imports
-# 
+#
 # You will first import common libraries that will be used throughout the exercise.
 
 # In[ ]:
@@ -23,7 +23,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
 # ## Download and Prepare the Dataset
-# 
+#
 # Next, you will download the `plain_text` version of the `IMDB Reviews` dataset.
 
 # In[ ]:
@@ -89,7 +89,7 @@ testing_padded = pad_sequences(testing_sequences,maxlen=max_length)
 
 
 # ## Plot Utility
-# 
+#
 # Before you define the models, you will define the function below so you can easily visualize the accuracy and loss history after training.
 
 # In[ ]:
@@ -108,9 +108,9 @@ def plot_graphs(history, string):
 
 
 # ## Model 1: Flatten
-# 
+#
 # First up is simply using a `Flatten` layer after the embedding. Its main advantage is that it is very fast to train. Observe the results below.
-# 
+#
 # *Note: You might see a different graph in the lectures. This is because we adjusted the `BATCH_SIZE` for training so subsequent models will train faster.*
 
 # In[ ]:
@@ -154,7 +154,7 @@ plot_graphs(history_flatten, 'loss')
 
 
 # ## LSTM
-# 
+#
 # Next, you will use an LSTM. This is slower to train but useful in applications where the order of the tokens is important.
 
 # In[ ]:
@@ -199,7 +199,7 @@ plot_graphs(history_lstm, 'loss')
 
 
 # ## GRU
-# 
+#
 # The *Gated Recurrent Unit* or [GRU](https://www.tensorflow.org/api_docs/python/tf/keras/layers/GRU) is usually referred to as a simpler version of the LSTM. It can be used in applications where the sequence is important but you want faster results and can sacrifice some accuracy. You will notice in the model summary that it is a bit smaller than the LSTM and it also trains faster by a few seconds.
 
 # In[ ]:
@@ -246,7 +246,7 @@ plot_graphs(history_gru, 'loss')
 
 
 # ## Convolution
-# 
+#
 # Lastly, you will use a convolution layer to extract features from your dataset. You will append a [GlobalAveragePooling1d](https://www.tensorflow.org/api_docs/python/tf/keras/layers/GlobalAveragePooling1D) layer to reduce the results before passing it on to the dense layers. Like the model with `Flatten`, this also trains much faster than the ones using RNN layers like `LSTM` and `GRU`.
 
 # In[ ]:
@@ -293,5 +293,5 @@ plot_graphs(history_conv, 'loss')
 
 
 # ## Wrap Up
-# 
+#
 # Now that you've seen the results for each model, can you make a recommendation on what works best for this dataset? Do you still get the same results if you tweak some hyperparameters like the vocabulary size? Try tweaking some of the values some more so you can get more insight on what model performs best.

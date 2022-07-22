@@ -4,9 +4,9 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C1/W4/ungraded_labs/C1_W4_Lab_1_image_generator_no_validation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Training with ImageDataGenerator
-# 
+#
 # In this lab, you will build a train a model on the [Horses or Humans](https://www.tensorflow.org/datasets/catalog/horses_or_humans) dataset. This contains over a thousand images of horses and humans with varying poses and filesizes. You will use the [ImageDataGenerator](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator) class to prepare this dataset so it can be fed to a convolutional neural network.
-# 
+#
 # **IMPORTANT NOTE:** This notebook is designed to run as a Colab. Running it on your local machine might result in some of the code blocks throwing errors.
 
 # Run the code below to download the compressed dataset `horse-or-human.zip`.
@@ -32,11 +32,11 @@ zip_ref.close()
 
 
 # The contents of the .zip are extracted to the base directory `./horse-or-human`, which in turn each contain `horses` and `humans` subdirectories.
-# 
+#
 # In short: The training set is the data that is used to tell the neural network model that 'this is what a horse looks like' and 'this is what a human looks like'.
-# 
-# One thing to pay attention to in this sample: We do not explicitly label the images as horses or humans. You will use the ImageDataGenerator API instead -- and this is coded to automatically label images according to the directory names and structure. So, for example, you will have a 'training' directory containing a 'horses' directory and a 'humans' one. `ImageDataGenerator` will label the images appropriately for you, reducing a coding step. 
-# 
+#
+# One thing to pay attention to in this sample: We do not explicitly label the images as horses or humans. You will use the ImageDataGenerator API instead -- and this is coded to automatically label images according to the directory names and structure. So, for example, you will have a 'training' directory containing a 'horses' directory and a 'humans' one. `ImageDataGenerator` will label the images appropriately for you, reducing a coding step.
+#
 # You can now define each of these directories:
 
 # In[ ]:
@@ -100,9 +100,9 @@ fig = plt.gcf()
 fig.set_size_inches(ncols * 4, nrows * 4)
 
 pic_index += 8
-next_horse_pix = [os.path.join(train_horse_dir, fname) 
+next_horse_pix = [os.path.join(train_horse_dir, fname)
                 for fname in train_horse_names[pic_index-8:pic_index]]
-next_human_pix = [os.path.join(train_human_dir, fname) 
+next_human_pix = [os.path.join(train_human_dir, fname)
                 for fname in train_human_names[pic_index-8:pic_index]]
 
 for i, img_path in enumerate(next_horse_pix+next_human_pix):
@@ -117,9 +117,9 @@ plt.show()
 
 
 # ## Building a Small Model from Scratch
-# 
+#
 # Now you can define the model architecture that you will train.
-# 
+#
 # Step 1 will be to import tensorflow.
 
 # In[ ]:
@@ -170,7 +170,7 @@ model.summary()
 # The "output shape" column shows how the size of your feature map evolves in each successive layer. As you saw in an earlier lesson, the convolution layers removes the outermost pixels of the image, and each pooling layer halves the dimensions.
 
 # Next, you'll configure the specifications for model training. You will train the model with the [`binary_crossentropy`](https://www.tensorflow.org/api_docs/python/tf/keras/losses/BinaryCrossentropy) loss because it's a binary classification problem, and the final activation is a sigmoid. (For a refresher on loss metrics, see this [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/descending-into-ml/video-lecture).) You will use the `rmsprop` optimizer with a learning rate of `0.001`. During training, you will want to monitor classification accuracy.
-# 
+#
 # **NOTE**: In this case, using the [RMSprop optimization algorithm](https://wikipedia.org/wiki/Stochastic_gradient_descent#RMSProp) is preferable to [stochastic gradient descent](https://developers.google.com/machine-learning/glossary/#SGD) (SGD), because RMSprop automates learning-rate tuning for us. (Other optimizers, such as [Adam](https://wikipedia.org/wiki/Stochastic_gradient_descent#Adam) and [Adagrad](https://developers.google.com/machine-learning/glossary/#AdaGrad), also automatically adapt the learning rate during training, and would work equally well here.)
 
 # In[ ]:
@@ -184,11 +184,11 @@ model.compile(loss='binary_crossentropy',
 
 
 # ### Data Preprocessing
-# 
+#
 # Next step is to set up the data generators that will read pictures in the source folders, convert them to `float32` tensors, and feed them (with their labels) to the model. You'll have one generator for the training images and one for the validation images. These generators will yield batches of images of size 300x300 and their labels (binary).
-# 
+#
 # As you may already know, data that goes into neural networks should usually be normalized in some way to make it more amenable to processing by the network (i.e. It is uncommon to feed raw pixels into a ConvNet.) In this case, you will preprocess the images by normalizing the pixel values to be in the `[0, 1]` range (originally all values are in the `[0, 255]` range).
-# 
+#
 # In Keras, this can be done via the `keras.preprocessing.image.ImageDataGenerator` class using the `rescale` parameter. This `ImageDataGenerator` class allows you to instantiate generators of augmented image batches (and their labels) via `.flow(data, labels)` or `.flow_from_directory(directory)`.
 
 # In[ ]:
@@ -209,29 +209,29 @@ train_generator = train_datagen.flow_from_directory(
 
 
 # ### Training
-# 
+#
 # You can start training for 15 epochs -- this may take a few minutes to run.
-# 
+#
 # Do note the values per epoch.
-# 
-# The `loss` and `accuracy` are great indicators of progress in training. `loss` measures the current model prediction against the known labels, calculating the result. `accuracy`, on the other hand, is the portion of correct guesses. 
+#
+# The `loss` and `accuracy` are great indicators of progress in training. `loss` measures the current model prediction against the known labels, calculating the result. `accuracy`, on the other hand, is the portion of correct guesses.
 
 # In[ ]:
 
 
 history = model.fit(
       train_generator,
-      steps_per_epoch=8,  
+      steps_per_epoch=8,
       epochs=15,
       verbose=1)
 
 
 # ### Model Prediction
-# 
+#
 # Now take a look at actually running a prediction using the model. This code will allow you to choose 1 or more files from your file system, upload them, and run them through the model, giving an indication of whether the object is a horse or a human.
-# 
+#
 # **Important Note:** Due to some compatibility issues, the following code block will result in an error after you select the images(s) to upload if you are running this notebook as a `Colab` on the `Safari` browser. For all other browsers, continue with the next code block and ignore the next one after it.
-# 
+#
 # _For Safari users: please comment out or skip the code block below, uncomment the next code block and run it._
 
 # In[ ]:
@@ -247,7 +247,7 @@ from keras.preprocessing import image
 uploaded = files.upload()
 
 for fn in uploaded.keys():
- 
+
   # predicting images
   path = '/content/' + fn
   img = image.load_img(path, target_size=(300, 300))
@@ -258,24 +258,24 @@ for fn in uploaded.keys():
   images = np.vstack([x])
   classes = model.predict(images, batch_size=10)
   print(classes[0])
-    
+
   if classes[0]>0.5:
     print(fn + " is a human")
   else:
     print(fn + " is a horse")
- 
+
 
 
 # `Safari` users will need to upload the images(s) manually in their workspace. Please follow the instructions, uncomment the code block below and run it.
-# 
+#
 # Instructions on how to upload image(s) manually in a Colab:
-# 
+#
 # 1. Select the `folder` icon on the left `menu bar`.
 # 2. Click on the `folder with an arrow pointing upwards` named `..`
 # 3. Click on the `folder` named `tmp`.
 # 4. Inside of the `tmp` folder, `create a new folder` called `images`. You'll see the `New folder` option by clicking the `3 vertical dots` menu button next to the `tmp` folder.
 # 5. Inside of the new `images` folder, upload an image(s) of your choice, preferably of either a horse or a human. Drag and drop the images(s) on top of the `images` folder.
-# 6. Uncomment and run the code block below. 
+# 6. Uncomment and run the code block below.
 
 # In[ ]:
 
@@ -309,9 +309,9 @@ for fn in uploaded.keys():
 
 
 # ### Visualizing Intermediate Representations
-# 
+#
 # To get a feel for what kind of features your CNN has learned, one fun thing to do is to visualize how an input gets transformed as it goes through the model.
-# 
+#
 # You can pick a random image from the training set, and then generate a figure where each row is the output of a layer, and each image in the row is a specific filter in that output feature map. Rerun this cell to generate intermediate representations for a variety of training images.
 
 # In[ ]:
@@ -355,7 +355,7 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
 
     # The feature map has shape (1, size, size, n_features)
     size = feature_map.shape[1]
-    
+
     # Tile the images in this matrix
     display_grid = np.zeros((size, size * n_features))
     for i in range(n_features):
@@ -365,10 +365,10 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
       x *= 64
       x += 128
       x = np.clip(x, 0, 255).astype('uint8')
-    
+
       # Tile each filter into this big horizontal grid
       display_grid[:, i * size : (i + 1) * size] = x
-    
+
     # Display the grid
     scale = 20. / n_features
     plt.figure(figsize=(scale * n_features, scale))
@@ -377,12 +377,12 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
     plt.imshow(display_grid, aspect='auto', cmap='viridis')
 
 
-# You can see above how the pixels highlighted turn to increasingly abstract and compact representations, especially at the bottom grid. 
-# 
+# You can see above how the pixels highlighted turn to increasingly abstract and compact representations, especially at the bottom grid.
+#
 # The representations downstream start highlighting what the network pays attention to, and they show fewer and fewer features being "activated"; most are set to zero. This is called _representation sparsity_ and is a key feature of deep learning. These representations carry increasingly less information about the original pixels of the image, but increasingly refined information about the class of the image. You can think of a convnet (or a deep network in general) as an information distillation pipeline wherein each layer filters out the most useful features.
 
 # ## Clean Up
-# 
+#
 # You will continue with a similar exercise in the next lab but before that, run the following cell to terminate the kernel and free memory resources:
 
 # In[ ]:

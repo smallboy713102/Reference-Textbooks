@@ -30,7 +30,7 @@ The contents of the .zip are extracted to the base directory `./horse-or-human`,
 
 In short: The training set is the data that is used to tell the neural network model that 'this is what a horse looks like' and 'this is what a human looks like'.
 
-One thing to pay attention to in this sample: We do not explicitly label the images as horses or humans. You will use the ImageDataGenerator API instead -- and this is coded to automatically label images according to the directory names and structure. So, for example, you will have a 'training' directory containing a 'horses' directory and a 'humans' one. `ImageDataGenerator` will label the images appropriately for you, reducing a coding step. 
+One thing to pay attention to in this sample: We do not explicitly label the images as horses or humans. You will use the ImageDataGenerator API instead -- and this is coded to automatically label images according to the directory names and structure. So, for example, you will have a 'training' directory containing a 'horses' directory and a 'humans' one. `ImageDataGenerator` will label the images appropriately for you, reducing a coding step.
 
 You can now define each of these directories:
 
@@ -90,9 +90,9 @@ fig = plt.gcf()
 fig.set_size_inches(ncols * 4, nrows * 4)
 
 pic_index += 8
-next_horse_pix = [os.path.join(train_horse_dir, fname) 
+next_horse_pix = [os.path.join(train_horse_dir, fname)
                 for fname in train_horse_names[pic_index-8:pic_index]]
-next_human_pix = [os.path.join(train_human_dir, fname) 
+next_human_pix = [os.path.join(train_human_dir, fname)
                 for fname in train_human_names[pic_index-8:pic_index]]
 
 for i, img_path in enumerate(next_horse_pix+next_human_pix):
@@ -201,13 +201,13 @@ You can start training for 15 epochs -- this may take a few minutes to run.
 
 Do note the values per epoch.
 
-The `loss` and `accuracy` are great indicators of progress in training. `loss` measures the current model prediction against the known labels, calculating the result. `accuracy`, on the other hand, is the portion of correct guesses. 
+The `loss` and `accuracy` are great indicators of progress in training. `loss` measures the current model prediction against the known labels, calculating the result. `accuracy`, on the other hand, is the portion of correct guesses.
 
 
 ```python
 history = model.fit(
       train_generator,
-      steps_per_epoch=8,  
+      steps_per_epoch=8,
       epochs=15,
       verbose=1)
 ```
@@ -232,7 +232,7 @@ from keras.preprocessing import image
 uploaded = files.upload()
 
 for fn in uploaded.keys():
- 
+
   # predicting images
   path = '/content/' + fn
   img = image.load_img(path, target_size=(300, 300))
@@ -243,12 +243,12 @@ for fn in uploaded.keys():
   images = np.vstack([x])
   classes = model.predict(images, batch_size=10)
   print(classes[0])
-    
+
   if classes[0]>0.5:
     print(fn + " is a human")
   else:
     print(fn + " is a horse")
- 
+
 ```
 
 `Safari` users will need to upload the images(s) manually in their workspace. Please follow the instructions, uncomment the code block below and run it.
@@ -260,7 +260,7 @@ Instructions on how to upload image(s) manually in a Colab:
 3. Click on the `folder` named `tmp`.
 4. Inside of the `tmp` folder, `create a new folder` called `images`. You'll see the `New folder` option by clicking the `3 vertical dots` menu button next to the `tmp` folder.
 5. Inside of the new `images` folder, upload an image(s) of your choice, preferably of either a horse or a human. Drag and drop the images(s) on top of the `images` folder.
-6. Uncomment and run the code block below. 
+6. Uncomment and run the code block below.
 
 
 ```python
@@ -338,7 +338,7 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
 
     # The feature map has shape (1, size, size, n_features)
     size = feature_map.shape[1]
-    
+
     # Tile the images in this matrix
     display_grid = np.zeros((size, size * n_features))
     for i in range(n_features):
@@ -348,10 +348,10 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
       x *= 64
       x += 128
       x = np.clip(x, 0, 255).astype('uint8')
-    
+
       # Tile each filter into this big horizontal grid
       display_grid[:, i * size : (i + 1) * size] = x
-    
+
     # Display the grid
     scale = 20. / n_features
     plt.figure(figsize=(scale * n_features, scale))
@@ -360,7 +360,7 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
     plt.imshow(display_grid, aspect='auto', cmap='viridis')
 ```
 
-You can see above how the pixels highlighted turn to increasingly abstract and compact representations, especially at the bottom grid. 
+You can see above how the pixels highlighted turn to increasingly abstract and compact representations, especially at the bottom grid.
 
 The representations downstream start highlighting what the network pays attention to, and they show fewer and fewer features being "activated"; most are set to zero. This is called _representation sparsity_ and is a key feature of deep learning. These representations carry increasingly less information about the original pixels of the image, but increasingly refined information about the class of the image. You can think of a convnet (or a deep network in general) as an information distillation pipeline wherein each layer filters out the most useful features.
 

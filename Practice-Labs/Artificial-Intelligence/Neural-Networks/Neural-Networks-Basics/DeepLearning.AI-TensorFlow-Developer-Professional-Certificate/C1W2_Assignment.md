@@ -36,7 +36,7 @@ data_path = os.path.join(current_dir, "data/mnist.npz")
 
 # Discard test set
 (x_train, y_train), _ = tf.keras.datasets.mnist.load_data(path=data_path)
-        
+
 # Normalize pixel values
 x_train = x_train / 255.0
 ```
@@ -64,8 +64,8 @@ class myCallback():
         # Define the correct function signature for on_epoch_end
         def on_epoch_end(None, None, None=None):
             if logs.get('accuracy') is not None and logs.get('accuracy') > 0.99:
-                print("\nReached 99% accuracy so cancelling training!") 
-                
+                print("\nReached 99% accuracy so cancelling training!")
+
                 # Stop training once the above condition is met
                 None = None
 
@@ -75,7 +75,7 @@ class myCallback():
 
 ## Create and train your model
 
-Now that you have defined your callback it is time to complete the `train_mnist` function below. 
+Now that you have defined your callback it is time to complete the `train_mnist` function below.
 
 **You must set your model to train for 10 epochs and the callback should fire before the 9th epoch for you to pass this assignment.**
 
@@ -88,20 +88,20 @@ Now that you have defined your callback it is time to complete the `train_mnist`
 def train_mnist(x_train, y_train):
 
     ### START CODE HERE
-    
+
     # Instantiate the callback class
     callbacks = None
-    
+
     # Define the model
-    model = tf.keras.models.Sequential([ 
+    model = tf.keras.models.Sequential([
         None,
-    ]) 
+    ])
 
     # Compile the model
-    model.compile(optimizer='adam', 
-                  loss='sparse_categorical_crossentropy', 
-                  metrics=['accuracy']) 
-    
+    model.compile(optimizer='adam',
+                  loss='sparse_categorical_crossentropy',
+                  metrics=['accuracy'])
+
     # Fit the model for 10 epochs adding the callbacks
     # and save the training history
     history = model.fit(None, None, epochs=None, callbacks=[None])
@@ -118,7 +118,7 @@ Call the `train_mnist` passing in the appropiate parameters to get the training 
 hist = train_mnist(x_train, y_train)
 ```
 
-If you see the message `Reached 99% accuracy so cancelling training!` printed out after less than 9 epochs it means your callback worked as expected. 
+If you see the message `Reached 99% accuracy so cancelling training!` printed out after less than 9 epochs it means your callback worked as expected.
 
 ## Need more help?
 

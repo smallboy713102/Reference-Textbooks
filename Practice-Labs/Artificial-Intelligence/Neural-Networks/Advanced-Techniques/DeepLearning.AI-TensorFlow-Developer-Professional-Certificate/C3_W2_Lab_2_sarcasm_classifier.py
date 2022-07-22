@@ -4,12 +4,12 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C3/W2/ungraded_labs/C3_W2_Lab_2_sarcasm_classifier.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Training a binary classifier with the Sarcasm Dataset
-# 
+#
 # In this lab, you will revisit the [News Headlines Dataset for Sarcasm Detection](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection/home) from last week and proceed to build a train a model on it. The steps will be very similar to the previous lab with IMDB Reviews with just some minor modifications. You can tweak the hyperparameters and see how it affects the results. Let's begin!
 
 # ## Download the dataset
-# 
-# You will first download the JSON file, load it into your workspace and put the sentences and labels into lists. 
+#
+# You will first download the JSON file, load it into your workspace and put the sentences and labels into lists.
 
 # In[ ]:
 
@@ -38,7 +38,7 @@ for item in datastore:
 
 
 # ## Hyperparameters
-# 
+#
 # We placed the hyperparameters in the cell below so you can easily tweak it later:
 
 # In[ ]:
@@ -58,7 +58,7 @@ embedding_dim = 16
 
 
 # ## Split the dataset
-# 
+#
 # Next, you will generate your train and test datasets. You will use the `training_size` value you set above to slice the `sentences` and `labels` lists into two sublists: one fore training and another for testing.
 
 # In[ ]:
@@ -74,7 +74,7 @@ testing_labels = labels[training_size:]
 
 
 # ## Preprocessing the train and test sets
-# 
+#
 # Now you can preprocess the text and labels so it can be consumed by the model. You use the `Tokenizer` class to create the vocabulary and the `pad_sequences` method to generate padded token sequences. You will also need to set the labels to a numpy array so it can be a valid data type for `model.fit()`.
 
 # In[ ]:
@@ -110,7 +110,7 @@ testing_labels = np.array(testing_labels)
 
 
 # ## Build and Compile the Model
-# 
+#
 # Next, you will build the model. The architecture is similar to the previous lab but you will use a [GlobalAveragePooling1D](https://www.tensorflow.org/api_docs/python/tf/keras/layers/GlobalAveragePooling1D) layer instead of `Flatten` after the Embedding. This adds the task of averaging over the sequence dimension before connecting to the dense layers. See a short demo of how this works using the snippet below. Notice that it gets the average over 3 arrays (i.e. `(10 + 1 + 1) / 3` and `(2 + 3 + 1) / 3` to arrive at the final output.
 
 # In[ ]:
@@ -163,9 +163,9 @@ model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
 
 
 # ## Train the Model
-# 
+#
 # Now you will feed in the prepared datasets to train the model. If you used the default hyperparameters, you will get around 99% training accuracy and 80% validation accuracy.
-# 
+#
 # *Tip: You can set the `verbose` parameter of `model.fit()` to `2` to indicate that you want to print just the results per epoch. Setting it to `1` (default) displays a progress bar per epoch, while `0` silences all displays. It doesn't matter much in this Colab but when working in a production environment, you may want to set this to `2` as recommended in the [documentation](https://keras.io/api/models/model_training_apis/#fit-method).*
 
 # In[ ]:
@@ -178,7 +178,7 @@ history = model.fit(training_padded, training_labels, epochs=num_epochs, validat
 
 
 # ## Visualize the Results
-# 
+#
 # You can use the cell below to plot the training results. You may notice some overfitting because your validation accuracy is slowly dropping while the training accuracy is still going up. See if you can improve it by tweaking the hyperparameters. Some example values are shown in the lectures.
 
 # In[ ]:
@@ -194,14 +194,14 @@ def plot_graphs(history, string):
   plt.ylabel(string)
   plt.legend([string, 'val_'+string])
   plt.show()
-  
+
 # Plot the accuracy and loss
 plot_graphs(history, "accuracy")
 plot_graphs(history, "loss")
 
 
 # ## Visualize Word Embeddings
-# 
+#
 # As before, you can visualize the final weights of the embeddings using the [Tensorflow Embedding Projector](https://projector.tensorflow.org/).
 
 # In[ ]:
@@ -217,7 +217,7 @@ embedding_layer = model.layers[0]
 embedding_weights = embedding_layer.get_weights()[0]
 
 # Print the shape. Expected is (vocab_size, embedding_dim)
-print(embedding_weights.shape) 
+print(embedding_weights.shape)
 
 
 # In[ ]:
@@ -265,7 +265,7 @@ else:
 
 
 # ## Wrap Up
-# 
+#
 # In this lab, you were able to build a binary classifier to detect sarcasm. You saw some overfitting in the initial attempt and hopefully, you were able to arrive at a better set of hyperparameters.
-# 
+#
 # So far, you've been tokenizing datasets from scratch and you're treating the vocab size as a hyperparameter. Furthermore, you're tokenizing the texts by building a vocabulary of full words. In the next lab, you will make use of a pre-tokenized dataset that uses a vocabulary of *subwords*. For instance, instead of having a uniqe token for the word `Tensorflow`, it will instead have a token each for `Ten`, `sor`, and `flow`. You will see the motivation and implications of having this design in the next exercise. See you there!

@@ -28,7 +28,7 @@ print(X.shape, Y.shape)
     (200, 2) (200, 1)
 
 
-Let's plot the coffee roasting data below. The two features are Temperature in Celsius and Duration in minutes. [Coffee Roasting at Home](https://www.merchantsofgreencoffee.com/how-to-roast-green-coffee-in-your-oven/) suggests that the duration is best kept between 12 and 15 minutes while the temp should be between 175 and 260 degrees Celsius. Of course, as the temperature rises, the duration should shrink. 
+Let's plot the coffee roasting data below. The two features are Temperature in Celsius and Duration in minutes. [Coffee Roasting at Home](https://www.merchantsofgreencoffee.com/how-to-roast-green-coffee-in-your-oven/) suggests that the duration is best kept between 12 and 15 minutes while the temp should be between 175 and 260 degrees Celsius. Of course, as the temperature rises, the duration should shrink.
 
 
 ```python
@@ -60,10 +60,10 @@ print(f"Duration    Max, Min post normalization: {np.max(Xn[:,1]):0.2f}, {np.min
 
 
 ## Numpy Model (Forward Prop in NumPy)
-<center> <img  src="./images/C2_W1_RoastingNetwork.PNG" width="200" />   <center/>  
+<center> <img  src="./images/C2_W1_RoastingNetwork.PNG" width="200" />   <center/>
 Let's build the "Coffee Roasting Network" described in lecture. There are two layers with sigmoid activations.
 
-As described in lecture, it is possible to build your own dense layer using NumPy. This can then be utilized to build a multi-layer neural network. 
+As described in lecture, it is possible to build your own dense layer using NumPy. This can then be utilized to build a multi-layer neural network.
 
 <img src="images/C2_W1_dense2.PNG" width="600" height="450">
 
@@ -75,19 +75,19 @@ def my_dense(a_in, W, b, g):
     """
     Computes dense layer
     Args:
-      a_in (ndarray (n, )) : Data, 1 example 
+      a_in (ndarray (n, )) : Data, 1 example
       W    (ndarray (n,j)) : Weight matrix, n features per unit, j units
-      b    (ndarray (j, )) : bias vector, j units  
+      b    (ndarray (j, )) : bias vector, j units
       g    activation function (e.g. sigmoid, relu..)
     Returns
       a_out (ndarray (j,))  : j units|
     """
     units = W.shape[1]
     a_out = np.zeros(units)
-    for j in range(units):               
-        w = W[:,j]                                    
-        z = np.dot(w, a_in) + b[j]         
-        a_out[j] = g(z)               
+    for j in range(units):
+        w = W[:,j]
+        z = np.dot(w, a_in) + b[j]
+        a_out[j] = g(z)
     return(a_out)
 ```
 
@@ -152,7 +152,7 @@ for i in range(len(predictions)):
 print(f"decisions = \n{yhat}")
 ```
 
-    decisions = 
+    decisions =
     [[1.]
      [0.]]
 
@@ -165,7 +165,7 @@ yhat = (predictions >= 0.5).astype(int)
 print(f"decisions = \n{yhat}")
 ```
 
-    decisions = 
+    decisions =
     [[1]
      [0]]
 
@@ -173,8 +173,8 @@ print(f"decisions = \n{yhat}")
 ## Network function
 
 This graph shows the operation of the whole network and is identical to the Tensorflow result from the previous lab.
-The left graph is the raw output of the final layer represented by the blue shading. This is overlaid on the training data represented by the X's and O's.   
-The right graph is the output of the network after a decision threshold. The X's and O's here correspond to decisions made by the network.  
+The left graph is the raw output of the final layer represented by the blue shading. This is overlaid on the training data represented by the X's and O's.
+The right graph is the output of the network after a decision threshold. The X's and O's here correspond to decisions made by the network.
 
 
 ```python
@@ -187,8 +187,8 @@ plt_network(X,Y,netf)
 
 
 ## Congratulations!
-You have built a small neural network in NumPy. 
-Hopefully this lab revealed the fairly simple and familiar functions which make up a layer in a neural network. 
+You have built a small neural network in NumPy.
+Hopefully this lab revealed the fairly simple and familiar functions which make up a layer in a neural network.
 
 
 ```python

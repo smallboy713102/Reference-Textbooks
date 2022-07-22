@@ -81,13 +81,13 @@ test_images = test_images / 255.0
 
 Now you might be wondering why the dataset is split into two: training and testing? Remember we spoke about this in the intro? The idea is to have 1 set of data for training, and then another set of data that the model hasn't yet seen. This will be used to evaluate how good it would be at classifying values.
 
-Let's now design the model. There's quite a few new concepts here. But don't worry, you'll get the hang of them. 
+Let's now design the model. There's quite a few new concepts here. But don't worry, you'll get the hang of them.
 
 
 ```python
 # Build the classification model
-model = tf.keras.models.Sequential([tf.keras.layers.Flatten(), 
-                                    tf.keras.layers.Dense(128, activation=tf.nn.relu), 
+model = tf.keras.models.Sequential([tf.keras.layers.Flatten(),
+                                    tf.keras.layers.Dense(128, activation=tf.nn.relu),
                                     tf.keras.layers.Dense(10, activation=tf.nn.softmax)])
 ```
 
@@ -97,15 +97,15 @@ model = tf.keras.models.Sequential([tf.keras.layers.Flatten(),
 
 [Dense](https://keras.io/api/layers/core_layers/dense/): Adds a layer of neurons
 
-Each layer of neurons need an [activation function](https://keras.io/api/layers/activations/) to tell them what to do. There are a lot of options, but just use these for now: 
+Each layer of neurons need an [activation function](https://keras.io/api/layers/activations/) to tell them what to do. There are a lot of options, but just use these for now:
 
 [ReLU](https://keras.io/api/layers/activations/#relu-function) effectively means:
 
 ```
-if x > 0: 
+if x > 0:
   return x
 
-else: 
+else:
   return 0
 ```
 
@@ -155,14 +155,14 @@ But how would it work with unseen data? That's why we have the test images and l
 model.evaluate(test_images, test_labels)
 ```
 
-You can expect the accuracy here to be about `0.88` which means it was 88% accurate on the entire test set. As expected, it probably would not do as well with *unseen* data as it did with data it was trained on!  As you go through this course, you'll look at ways to improve this. 
+You can expect the accuracy here to be about `0.88` which means it was 88% accurate on the entire test set. As expected, it probably would not do as well with *unseen* data as it did with data it was trained on!  As you go through this course, you'll look at ways to improve this.
 
 # Exploration Exercises
 
 To explore further and deepen your understanding, try the below exercises:
 
 ### Exercise 1:
-For this first exercise run the below code: It creates a set of classifications for each of the test images, and then prints the first entry in the classifications. The output, after you run it is a list of numbers. Why do you think this is, and what do those numbers represent? 
+For this first exercise run the below code: It creates a set of classifications for each of the test images, and then prints the first entry in the classifications. The output, after you run it is a list of numbers. Why do you think this is, and what do those numbers represent?
 
 
 ```python
@@ -171,7 +171,7 @@ classifications = model.predict(test_images)
 print(classifications[0])
 ```
 
-**Hint:** try running `print(test_labels[0])` -- and you'll get a `9`. Does that help you understand why this list looks the way it does? 
+**Hint:** try running `print(test_labels[0])` -- and you'll get a `9`. Does that help you understand why this list looks the way it does?
 
 
 ```python
@@ -189,7 +189,7 @@ print(test_labels[0])
 <details><summary>Click for Answer</summary>
 <p>
 
-#### Answer: 
+#### Answer:
 The correct answer is (3)
 
 The output of the model is a list of 10 numbers. These numbers are a probability that the value being classified is the corresponding value (https://github.com/zalandoresearch/fashion-mnist#labels), i.e. the first value in the list is the probability that the image is of a '0' (T-shirt/top), the next is a '1' (Trouser) etc. Notice that they are all VERY LOW probabilities.
@@ -216,8 +216,8 @@ The correct answer is (2). Both the list and the labels are 0 based, so the ankl
 </p>
 </details>
 
-### Exercise 2: 
-Let's now look at the layers in your model. Experiment with different values for the dense layer with 512 neurons. What different results do you get for loss, training time etc? Why do you think that's the case? 
+### Exercise 2:
+Let's now look at the layers in your model. Experiment with different values for the dense layer with 512 neurons. What different results do you get for loss, training time etc? Why do you think that's the case?
 
 
 
@@ -262,9 +262,9 @@ The correct answer is (1) by adding more Neurons we have to do more calculations
 </p>
 </details>
 
-### Exercise 3: 
+### Exercise 3:
 
-### E3Q1: What would happen if you remove the Flatten() layer. Why do you think that's the case? 
+### E3Q1: What would happen if you remove the Flatten() layer. Why do you think that's the case?
 
 <details><summary>Click for Answer</summary>
 <p>
@@ -301,7 +301,7 @@ print(classifications[0])
 print(test_labels[0])
 ```
 
-### Exercise 4: 
+### Exercise 4:
 
 Consider the final (output) layers. Why are there 10 of them? What would happen if you had a different amount than 10? For example, try training the network with 5.
 
@@ -341,15 +341,15 @@ print(classifications[0])
 print(test_labels[0])
 ```
 
-### Exercise 5: 
+### Exercise 5:
 
-Consider the effects of additional layers in the network. What will happen if you add another layer between the one with 512 and the final layer with 10. 
+Consider the effects of additional layers in the network. What will happen if you add another layer between the one with 512 and the final layer with 10.
 
 <details><summary>Click for Answer</summary>
 <p>
 
-#### Answer 
-There isn't a significant impact -- because this is relatively simple data. For far more complex data (including color images to be classified as flowers that you'll see in the next lesson), extra layers are often necessary. 
+#### Answer
+There isn't a significant impact -- because this is relatively simple data. For far more complex data (including color images to be classified as flowers that you'll see in the next lesson), extra layers are often necessary.
 
 </p>
 </details>
@@ -382,9 +382,9 @@ print(classifications[0])
 print(test_labels[0])
 ```
 
-### Exercise 6: 
+### Exercise 6:
 
-### E6Q1: Consider the impact of training for more or less epochs. Why do you think that would be the case? 
+### E6Q1: Consider the impact of training for more or less epochs. Why do you think that would be the case?
 
 - Try 15 epochs -- you'll probably get a model with a much better loss than the one with 5
 - Try 30 epochs -- you might see the loss value stops decreasing, and sometimes increases.
@@ -417,9 +417,9 @@ print(classifications[34])
 print(test_labels[34])
 ```
 
-### Exercise 7: 
+### Exercise 7:
 
-Before you trained, you normalized the data, going from values that were 0-255 to values that were 0-1. What would be the impact of removing that? Here's the complete code to give it a try. Why do you think you get different results? 
+Before you trained, you normalized the data, going from values that were 0-255 to values that were 0-1. What would be the impact of removing that? Here's the complete code to give it a try. Why do you think you get different results?
 
 
 ```python
@@ -440,7 +440,7 @@ print(classifications[0])
 print(test_labels[0])
 ```
 
-### Exercise 8: 
+### Exercise 8:
 
 Earlier when you trained for extra epochs you had an issue where your loss might change. It might have taken a bit of time for you to wait for the training to do that, and you might have thought 'wouldn't it be nice if I could stop the training when I reach a desired value?' -- i.e. 95% accuracy might be enough for you, and if you reach that after 3 epochs, why sit around waiting for it to finish a lot more epochs....So how would you fix that? Like any other program...you have callbacks! Let's see them in action...
 

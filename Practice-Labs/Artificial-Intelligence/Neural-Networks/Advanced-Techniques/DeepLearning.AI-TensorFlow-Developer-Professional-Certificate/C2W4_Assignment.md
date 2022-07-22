@@ -1,6 +1,6 @@
 # Week 4: Multi-class Classification
 
-Welcome to this assignment! In this exercise, you will get a chance to work on a multi-class classification problem. You will be using the [Sign Language MNIST](https://www.kaggle.com/datamunge/sign-language-mnist) dataset, which contains 28x28 images of hands depicting the 26 letters of the english alphabet. 
+Welcome to this assignment! In this exercise, you will get a chance to work on a multi-class classification problem. You will be using the [Sign Language MNIST](https://www.kaggle.com/datamunge/sign-language-mnist) dataset, which contains 28x28 images of hands depicting the 26 letters of the english alphabet.
 
 You will need to pre-process the data so that it can be fed into your convolutional neural network to correctly classify each image as the letter it represents.
 
@@ -48,18 +48,18 @@ with open(TRAINING_FILE) as training_file:
   print(f"Each subsequent line (data points) look like this:\n{line}")
 ```
 
-As you can see, each file includes a header (the first line) and each subsequent data point is represented as a line that contains 785 values. 
+As you can see, each file includes a header (the first line) and each subsequent data point is represented as a line that contains 785 values.
 
 The first value is the label (the numeric representation of each letter) and the other 784 values are the value of each pixel of the image. Remember that the original images have a resolution of 28x28, which sums up to 784 pixels.
 
  ## Parsing the dataset
- 
+
  Now complete the `parse_data_from_input` below.
 
  This function should be able to read a file passed as input and return 2 numpy arrays, one containing the labels and one containing the 28x28 representation of each image within the file. These numpy arrays should have type `float64`.
 
  A couple of things to keep in mind:
- 
+
 - The first line contains the column headers, so you should ignore it.
 
 - Each successive line contains 785 comma-separated values between 0 and 255
@@ -67,11 +67,11 @@ The first value is the label (the numeric representation of each letter) and the
 
   - The rest are the pixel values for that picture
 
-  
+
 **Hint**:
 
-You have two options to solve this function. 
-  
+You have two options to solve this function.
+
    - 1. One is to use `csv.reader` and create a for loop that reads from it, if you take this approach take this into consideration:
 
         - `csv.reader` returns an iterable that returns a row of the csv file in each iteration.
@@ -83,8 +83,8 @@ You have two options to solve this function.
 
 
    - 2. The other one is to use `np.loadtxt`. You can find the documentation [here](https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html).
-   
-   
+
+
 Regardless of the method you chose, your function should finish its execution in under 1 minute. If you see that your function is taking a long time to run, try changing your implementation.
 
 
@@ -93,10 +93,10 @@ Regardless of the method you chose, your function should finish its execution in
 def parse_data_from_input(filename):
   """
   Parses the images and labels from a CSV file
-  
+
   Args:
     filename (string): path to the CSV file
-    
+
   Returns:
     images, labels: tuple of numpy arrays containing the images and labels
   """
@@ -106,11 +106,11 @@ def parse_data_from_input(filename):
     # Use csv.reader, passing in the appropriate delimiter
     # Remember that csv.reader can be iterated and returns one line in each iteration
     csv_reader = csv.reader(file, delimiter=None)
-    
+
     labels = None
     images = None
 
-    
+
     ### END CODE HERE
 
     return images, labels
@@ -178,13 +178,13 @@ Some important notes:
 def train_val_generators(training_images, training_labels, validation_images, validation_labels):
   """
   Creates the training and validation data generators
-  
+
   Args:
     training_images (array): parsed images from the train CSV file
     training_labels (array): parsed labels from the train CSV file
     validation_images (array): parsed images from the test CSV file
     validation_labels (array): parsed labels from the test CSV file
-    
+
   Returns:
     train_generator, validation_generator - tuple containing the generators
   """
@@ -197,8 +197,8 @@ def train_val_generators(training_images, training_labels, validation_images, va
   training_images = None
   validation_images = None
 
-  # Instantiate the ImageDataGenerator class 
-  # Don't forget to normalize pixel values 
+  # Instantiate the ImageDataGenerator class
+  # Don't forget to normalize pixel values
   # and set arguments to augment the images (if desired)
   train_datagen = None
 
@@ -206,9 +206,9 @@ def train_val_generators(training_images, training_labels, validation_images, va
   # Pass in the appropriate arguments to the flow method
   train_generator = train_datagen.flow(x=None,
                                        y=None,
-                                       batch_size=32) 
+                                       batch_size=32)
 
-  
+
   # Instantiate the ImageDataGenerator class (don't forget to set the rescale argument)
   # Remember that validation data should not be augmented
   validation_datagen = None
@@ -216,7 +216,7 @@ def train_val_generators(training_images, training_labels, validation_images, va
   # Pass in the appropriate arguments to the flow method
   validation_generator = validation_datagen.flow(x=None,
                                                  y=None,
-                                                 batch_size=32) 
+                                                 batch_size=32)
 
   ### END CODE HERE
 
@@ -258,19 +258,19 @@ Aside from defining the architecture of the model, you should also compile it so
 ```python
 def create_model():
 
-  ### START CODE HERE       
+  ### START CODE HERE
 
   # Define the model
   # Use no more than 2 Conv2D and 2 MaxPooling2D
   model = None
-  
+
 
   model.compile(optimizer = None,
                 loss = None,
                 metrics=[None])
 
-  ### END CODE HERE       
-  
+  ### END CODE HERE
+
   return model
 ```
 

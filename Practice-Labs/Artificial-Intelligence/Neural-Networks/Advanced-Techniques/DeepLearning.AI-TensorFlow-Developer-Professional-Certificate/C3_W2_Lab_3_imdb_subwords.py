@@ -4,16 +4,16 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C3/W2/ungraded_labs/C3_W2_Lab_3_imdb_subwords.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # ## Ungraded Lab: Subword Tokenization with the IMDB Reviews Dataset
-# 
+#
 # In this lab, you will look at a pre-tokenized dataset that is using subword text encoding. This is an alternative to word-based tokenization which you have been using in the previous labs. You will see how it works and its implications on preparing your data and training your model.
-# 
+#
 # Let's begin!
-# 
+#
 
 # ## Download the IMDB reviews plain text and tokenized datasets
-# 
+#
 # First, you will download the [IMDB Reviews](https://www.tensorflow.org/datasets/catalog/imdb_reviews) dataset from Tensorflow Datasets. You will get two configurations:
-# 
+#
 # * `plain_text` - this is the default and the one you used in Lab 1 of this week
 # * `subwords8k` - a pre-tokenized dataset (i.e. instead of sentences of type string, it will already give you the tokenized sequences). You will see how this looks in later sections.
 
@@ -30,7 +30,7 @@ imdb_subwords, info_subwords = tfds.load("imdb_reviews/subwords8k", with_info=Tr
 
 
 # ## Compare the two datasets
-# 
+#
 # As mentioned, the data types returned by the two datasets will be different. For the default, it will be strings as you also saw in Lab 1. Notice the description of the `text` key below and the sample sentences:
 
 # In[ ]:
@@ -83,7 +83,7 @@ for example in imdb_subwords['train'].take(2):
 # *Note: The documentation for the encoder can be found [here](https://www.tensorflow.org/datasets/api_docs/python/tfds/deprecated/text/SubwordTextEncoder) but don't worry if it's marked as deprecated. As mentioned, the objective of this exercise is just to show the characteristics of subword encoding.*
 
 # ## Subword Text Encoding
-# 
+#
 # From previous labs, the number of tokens in the sequence is the same as the number of words in the text (i.e. word tokenization). The following cells shows a review of this process.
 
 # In[ ]:
@@ -128,7 +128,7 @@ sequences = tokenizer_plaintext.texts_to_sequences(training_sentences)
 tokenizer_plaintext.sequences_to_texts(sequences[0:1])
 
 
-# For binary classifiers, this might not have a big impact but you may have other applications that will benefit from avoiding OOV tokens when training the model (e.g. text generation). If you want the tokenizer above to not have OOVs, then the `vocab_size` will increase to more than 88k. This can slow down training and bloat the model size. The encoder also won't be robust when used on other datasets which may contain new words, thus resulting in OOVs again. 
+# For binary classifiers, this might not have a big impact but you may have other applications that will benefit from avoiding OOV tokens when training the model (e.g. text generation). If you want the tokenizer above to not have OOVs, then the `vocab_size` will increase to more than 88k. This can slow down training and bloat the model size. The encoder also won't be robust when used on other datasets which may contain new words, thus resulting in OOVs again.
 
 # In[ ]:
 
@@ -204,7 +204,7 @@ for ts in tokenized_string:
 
 
 # ## Training the model
-# 
+#
 # You will now train your model using this pre-tokenized dataset. Since these are already saved as sequences, you can jump straight to making uniform sized arrays for the train and test sets. These are also saved as `tf.data.Dataset` type so you can use the [`padded_batch()`](https://www.tensorflow.org/api_docs/python/tf/data/Dataset#padded_batch) method to create batches and pad the arrays into a uniform size for training.
 
 # In[ ]:
@@ -214,7 +214,7 @@ BUFFER_SIZE = 10000
 BATCH_SIZE = 64
 
 # Get the train and test splits
-train_data, test_data = imdb_subwords['train'], imdb_subwords['test'], 
+train_data, test_data = imdb_subwords['train'], imdb_subwords['test'],
 
 # Shuffle the training data
 train_dataset = train_data.shuffle(BUFFER_SIZE)
@@ -224,7 +224,7 @@ train_dataset = train_dataset.padded_batch(BATCH_SIZE)
 test_dataset = test_data.padded_batch(BATCH_SIZE)
 
 
-# Next, you will build the model. You can just use the architecture from the previous lab. 
+# Next, you will build the model. You can just use the architecture from the previous lab.
 
 # In[ ]:
 
@@ -261,7 +261,7 @@ history = model.fit(train_dataset, epochs=num_epochs, validation_data=test_datas
 
 
 # ## Visualize the results
-# 
+#
 # You can use the cell below to plot the training results. See if you can improve it by tweaking the parameters such as the size of the embedding and number of epochs.
 
 # In[ ]:
@@ -278,11 +278,11 @@ def plot_graphs(history, string):
   plt.legend([string, 'val_'+string])
   plt.show()
 
-# Plot the accuracy and results 
+# Plot the accuracy and results
 plot_graphs(history, "accuracy")
 plot_graphs(history, "loss")
 
 
 # ## Wrap Up
-# 
+#
 # In this lab, you saw how subword text encoding can be a robust technique to avoid out-of-vocabulary tokens. It can decode uncommon words it hasn't seen before even with a relatively small vocab size. Consequently, it results in longer token sequences when compared to full word tokenization. Next week, you will look at other architectures that you can use when building your classifier. These will be recurrent neural networks and convolutional neural networks.

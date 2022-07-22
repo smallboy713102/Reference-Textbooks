@@ -2,7 +2,7 @@
 
 # Ungraded Lab: Statistical Forecasting on Synthetic Data
 
-In this lab, you will be doing some statistical forecasting so you can compare it with the machine learning models you will build later on. 
+In this lab, you will be doing some statistical forecasting so you can compare it with the machine learning models you will build later on.
 
 ## Imports
 
@@ -39,7 +39,7 @@ def plot_series(time, series, format="-", start=0, end=None):
 
     # Setup dimensions of the graph figure
     plt.figure(figsize=(10, 6))
-    
+
     if type(series) is tuple:
 
       for series_num in series:
@@ -87,12 +87,12 @@ def trend(time, slope=0):
 def seasonal_pattern(season_time):
     """
     Just an arbitrary pattern, you can change it if you wish
-    
+
     Args:
       season_time (array of float) - contains the measurements per time step
 
     Returns:
-      data_pattern (array of float) -  contains revised measurement values according 
+      data_pattern (array of float) -  contains revised measurement values according
                                   to the defined pattern
     """
 
@@ -100,7 +100,7 @@ def seasonal_pattern(season_time):
     data_pattern = np.where(season_time < 0.4,
                     np.cos(season_time * 2 * np.pi),
                     1 / np.exp(3 * season_time))
-    
+
     return data_pattern
 
 def seasonality(time, period, amplitude=1, phase=0):
@@ -116,7 +116,7 @@ def seasonality(time, period, amplitude=1, phase=0):
     Returns:
       data_pattern (array of float) - seasonal data scaled by the defined amplitude
     """
-    
+
     # Define the measured values per period
     season_time = ((time + phase) % period) / period
 
@@ -142,7 +142,7 @@ def noise(time, noise_level=1, seed=None):
 
     # Generate a random number for each time step and scale by the noise level
     noise = rnd.randn(len(time)) * noise_level
-    
+
     return noise
 ```
 
@@ -178,7 +178,7 @@ Next up, you will split the data above into training and validation sets. You wi
 # Define the split time
 split_time = 1000
 
-# Get the train set 
+# Get the train set
 time_train = time[:split_time]
 x_train = series[:split_time]
 
@@ -237,7 +237,7 @@ plot_series(time_valid, (x_valid, naive_forecast), start=0, end=150)
 
 ### Computing Metrics
 
-Now you will compute the [mean squared error](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/mean_squared_error) and the [mean absolute error](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/mean_absolute_error) between the forecasts and the predictions in the validation period. These are available via the [`tf.keras.metrics`](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/) API. 
+Now you will compute the [mean squared error](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/mean_squared_error) and the [mean absolute error](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/mean_absolute_error) between the forecasts and the predictions in the validation period. These are available via the [`tf.keras.metrics`](https://www.tensorflow.org/api_docs/python/tf/keras/metrics/) API.
 
 
 ```python
@@ -268,11 +268,11 @@ def moving_average_forecast(series, window_size):
 
     # Initialize a list
     forecast = []
-    
+
     # Compute the moving average based on the window size
     for time in range(len(series) - window_size):
       forecast.append(series[time:time + window_size].mean())
-    
+
     # Convert to a numpy array
     forecast = np.array(forecast)
 
@@ -301,7 +301,7 @@ That's worse than naive forecast! The moving average does not anticipate trend o
 
 ## Differencing
 
-Since the seasonality period is 365 days, you will subtract the value at time *t* – 365 from the value at time *t*. That is done with the code below. 
+Since the seasonality period is 365 days, you will subtract the value at time *t* – 365 from the value at time *t*. That is done with the code below.
 
 In addition, you will need to align the result with the `time` array. Since you can only do time differencing for `t >= 365`, you will need to truncate the first 365 time steps of the `time` array.
 

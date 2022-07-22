@@ -4,18 +4,18 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C3/W4/ungraded_labs/C3_W4_Lab_1.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Generating Text with Neural Networks
-# 
+#
 # For this week, you will look at techniques to prepare data and build models for text generation. You will train a neural network with lyrics from an Irish song then let it make a new song for you. Though this might sound like a more complex application, you'll soon see that the process is very similar to the ones you've been using in the previous weeks. Only minor modifications are needed. Let's see what these are in the next sections.
 
 # ## Imports
-# 
+#
 # First, you will import the required libraries. You've used all of these already in the previous labs.
 
 # In[ ]:
 
 
 import tensorflow as tf
-import numpy as np 
+import numpy as np
 from tensorflow.keras.layers import Embedding, LSTM, Dense, Bidirectional
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.preprocessing.text import Tokenizer
@@ -23,7 +23,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
 # ## Building the Word Vocabulary
-# 
+#
 # The dataset is the lyrics of [*Lanigan's Ball*](https://en.wikipedia.org/wiki/Lanigan%27s_Ball), a traditional Irish song. You will split it per line then use the `Tokenizer` class to build the word index dictionary.
 
 # In[ ]:
@@ -56,9 +56,9 @@ print(f'total words: {total_words}')
 
 
 # ## Preprocessing the Dataset
-# 
+#
 # Next, you will be generating the training sequences and their labels. As discussed in the lectures, you will take each line of the song and generate inputs and labels from it. For example, if you only have one sentence: "I am using Tensorflow", you want the model to learn the next word given any subphrase of this sentence:
-# 
+#
 # ```
 # INPUT              LABEL
 # -----------------------------
@@ -66,7 +66,7 @@ print(f'total words: {total_words}')
 # I am          ---> using
 # I am using    ---> Tensorflow
 # ```
-# 
+#
 # The next cell shows how to implement this concept in code. The result would be inputs as padded sequences, and labels as one-hot encoded arrays.
 
 # In[ ]:
@@ -78,17 +78,17 @@ input_sequences = []
 # Loop over every line
 for line in corpus:
 
-	# Tokenize the current line
-	token_list = tokenizer.texts_to_sequences([line])[0]
+    # Tokenize the current line
+    token_list = tokenizer.texts_to_sequences([line])[0]
 
-	# Loop over the line several times to generate the subphrases
-	for i in range(1, len(token_list)):
-		
-		# Generate the subphrase
-		n_gram_sequence = token_list[:i+1]
+    # Loop over the line several times to generate the subphrases
+    for i in range(1, len(token_list)):
 
-		# Append the subphrase to the sequences list
-		input_sequences.append(n_gram_sequence)
+        # Generate the subphrase
+        n_gram_sequence = token_list[:i+1]
+
+        # Append the subphrase to the sequences list
+        input_sequences.append(n_gram_sequence)
 
 # Get the length of the longest line
 max_sequence_len = max([len(x) for x in input_sequences])
@@ -116,7 +116,7 @@ print(f'sample sentence: {sentence}')
 token_list = []
 
 # Look up the indices of each word and append to the list
-for word in sentence: 
+for word in sentence:
   token_list.append(tokenizer.word_index[word])
 
 # Print the token list
@@ -164,7 +164,7 @@ print(f'index of label: {np.argmax(ys[elem_number])}')
 
 
 # ## Build the Model
-# 
+#
 # Next, you will build the model with basically the same layers as before. The main difference is you will remove the sigmoid output and use a softmax activated `Dense` layer instead. This output layer will have one neuron for each word in the vocabulary. So given an input token list, the output array of the final layer will have the probabilities for each word.
 
 # In[ ]:
@@ -185,7 +185,7 @@ model.summary()
 
 
 # ## Train the model
-# 
+#
 # You can now train the model. We have a relatively small vocabulary so it will only take a couple of minutes to complete 500 epochs.
 
 # In[ ]:
@@ -214,15 +214,15 @@ plot_graphs(history, 'accuracy')
 
 
 # ## Generating Text
-# 
+#
 # With the model trained, you can now use it to make its own song! The process would look like:
-# 
+#
 # 1. Feed a seed text to initiate the process.
 # 2. Model predicts the index of the most probable next word.
 # 3. Look up the index in the reverse word index dictionary
 # 4. Append the next word to the seed text.
 # 5. Feed the result to the model again.
-# 
+#
 # Steps 2 to 5 will repeat until the desired length of the song is reached. See how it is implemented in the code below:
 
 # In[ ]:
@@ -237,28 +237,28 @@ next_words = 100
 # Loop until desired length is reached
 for _ in range(next_words):
 
-	# Convert the seed text to a token sequence
-	token_list = tokenizer.texts_to_sequences([seed_text])[0]
+    # Convert the seed text to a token sequence
+    token_list = tokenizer.texts_to_sequences([seed_text])[0]
 
-	# Pad the sequence
-	token_list = pad_sequences([token_list], maxlen=max_sequence_len-1, padding='pre')
-	
-	# Feed to the model and get the probabilities for each index
-	probabilities = model.predict(token_list)
+    # Pad the sequence
+    token_list = pad_sequences([token_list], maxlen=max_sequence_len-1, padding='pre')
 
-	# Get the index with the highest probability
-	predicted = np.argmax(probabilities, axis=-1)[0]
+    # Feed to the model and get the probabilities for each index
+    probabilities = model.predict(token_list)
 
-	# Ignore if index is 0 because that is just the padding.
-	if predicted != 0:
-		
-		# Look up the word associated with the index. 
-		output_word = tokenizer.index_word[predicted]
+    # Get the index with the highest probability
+    predicted = np.argmax(probabilities, axis=-1)[0]
 
-		# Combine with the seed text
-		seed_text += " " + output_word
+    # Ignore if index is 0 because that is just the padding.
+    if predicted != 0:
 
-# Print the result	
+        # Look up the word associated with the index.
+        output_word = tokenizer.index_word[predicted]
+
+        # Combine with the seed text
+        seed_text += " " + output_word
+
+# Print the result
 print(seed_text)
 
 
@@ -276,35 +276,35 @@ next_words = 100
 # Loop until desired length is reached
 for _ in range(next_words):
 
-	# Convert the seed text to a token sequence
+    # Convert the seed text to a token sequence
   token_list = tokenizer.texts_to_sequences([seed_text])[0]
 
-	# Pad the sequence
+    # Pad the sequence
   token_list = pad_sequences([token_list], maxlen=max_sequence_len-1, padding='pre')
-	
-	# Feed to the model and get the probabilities for each index
+
+    # Feed to the model and get the probabilities for each index
   probabilities = model.predict(token_list)
 
   # Pick a random number from [1,2,3]
   choice = np.random.choice([1,2,3])
-	
-  # Sort the probabilities in ascending order 
+
+  # Sort the probabilities in ascending order
   # and get the random choice from the end of the array
   predicted = np.argsort(probabilities)[0][-choice]
 
-	# Ignore if index is 0 because that is just the padding.
+    # Ignore if index is 0 because that is just the padding.
   if predicted != 0:
-		
-		# Look up the word associated with the index. 
-	  output_word = tokenizer.index_word[predicted]
 
-		# Combine with the seed text
-	  seed_text += " " + output_word
+        # Look up the word associated with the index.
+      output_word = tokenizer.index_word[predicted]
 
-# Print the result	
+        # Combine with the seed text
+      seed_text += " " + output_word
+
+# Print the result
 print(seed_text)
 
 
 # ## Wrap Up
-# 
+#
 # In this lab, you got a first look at preparing data and building a model for text generation. The corpus is fairly small in this particular exercise and in the next lessons, you will be building one from a larger body of text. See you there!

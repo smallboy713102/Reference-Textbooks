@@ -4,7 +4,7 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C1/W4/ungraded_labs/C1_W4_Lab_3_compacted_images.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: Effect of Compacted Images in Training
-# 
+#
 # In this notebook, you will see how reducing the target size of the generator images will affect the architecture and performance of your model. This is a useful technique in case you need to speed up your training or save compute resources. Let's begin!
 
 # **IMPORTANT NOTE:** This notebook is designed to run as a Colab. Running it on your local machine might result in some of the code blocks throwing errors.
@@ -93,7 +93,7 @@ print(f'total validation human images: {len(os.listdir(validation_human_dir))}')
 
 
 # ## Build the Model
-# 
+#
 # The model will follow the same architecture as before but they key difference is in the `input_shape` parameter of the first `Conv2D` layer. Since you will be compacting the images later in the generator, you need to specify the expected image size here. So instead of 300x300 as in the previous two labs, you specify a smaller 150x150 array.
 
 # In[ ]:
@@ -148,7 +148,7 @@ model.compile(loss='binary_crossentropy',
 
 
 # ### Data Preprocessing
-# 
+#
 # Now you will instantiate the data generators. As mentioned before, you will be compacting the image by specifying the `target_size` parameter. See the simple change below:
 
 # In[ ]:
@@ -178,7 +178,7 @@ validation_generator = validation_datagen.flow_from_directory(
 
 
 # ### Training
-# 
+#
 # Now you're ready to train and see the results. Note your observations about how fast the model trains and the accuracies you're getting in the train and validation sets.
 
 # In[ ]:
@@ -186,7 +186,7 @@ validation_generator = validation_datagen.flow_from_directory(
 
 history = model.fit(
       train_generator,
-      steps_per_epoch=8,  
+      steps_per_epoch=8,
       epochs=15,
       verbose=1,
       validation_data = validation_generator,
@@ -194,11 +194,11 @@ history = model.fit(
 
 
 # ### Model Prediction
-# 
+#
 # As usual, it is also good practice to try running your model over some handpicked images. See if you got better, worse, or the same performance as the previous lab.
-# 
+#
 # **Important Note:** Due to some compatibility issues, the following code block will result in an error after you select the images(s) to upload if you are running this notebook as a `Colab` on the `Safari` browser. For all other browsers, continue with the next code block and ignore the next one after it.
-# 
+#
 # _For Safari users: please comment out or skip the code block below, uncomment the next code block and run it._
 
 # In[ ]:
@@ -214,7 +214,7 @@ from keras.preprocessing import image
 uploaded = files.upload()
 
 for fn in uploaded.keys():
- 
+
   # predicting images
   path = '/content/' + fn
   img = image.load_img(path, target_size=(150, 150))
@@ -229,19 +229,19 @@ for fn in uploaded.keys():
     print(fn + " is a human")
   else:
     print(fn + " is a horse")
- 
+
 
 
 # `Safari` users will need to upload the images(s) manually in their workspace. Please follow the instructions, uncomment the code block below and run it.
-# 
+#
 # Instructions on how to upload image(s) manually in a Colab:
-# 
+#
 # 1. Select the `folder` icon on the left `menu bar`.
 # 2. Click on the `folder with an arrow pointing upwards` named `..`
 # 3. Click on the `folder` named `tmp`.
 # 4. Inside of the `tmp` folder, `create a new folder` called `images`. You'll see the `New folder` option by clicking the `3 vertical dots` menu button next to the `tmp` folder.
 # 5. Inside of the new `images` folder, upload an image(s) of your choice, preferably of either a horse or a human. Drag and drop the images(s) on top of the `images` folder.
-# 6. Uncomment and run the code block below. 
+# 6. Uncomment and run the code block below.
 
 # In[ ]:
 
@@ -275,7 +275,7 @@ for fn in uploaded.keys():
 
 
 # ### Visualizing Intermediate Representations
-# 
+#
 # You can also look again at the intermediate representations. You will notice that the output at the last convolution layer is even more abstract because it contains fewer pixels than before.
 
 # In[ ]:
@@ -321,7 +321,7 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
 
     # The feature map has shape (1, size, size, n_features)
     size = feature_map.shape[1]
-    
+
     # Tile the images in this matrix
     display_grid = np.zeros((size, size * n_features))
     for i in range(n_features):
@@ -331,10 +331,10 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
       x *= 64
       x += 128
       x = np.clip(x, 0, 255).astype('uint8')
-    
+
       # Tile each filter into this big horizontal grid
       display_grid[:, i * size : (i + 1) * size] = x
-    
+
     # Display the grid
     scale = 20. / n_features
     plt.figure(figsize=(scale * n_features, scale))
@@ -344,7 +344,7 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
 
 
 # ## Clean Up
-# 
+#
 # Please run the following cell to terminate the kernel and free memory resources:
 
 # In[ ]:
@@ -355,5 +355,5 @@ os.kill(os.getpid(), signal.SIGKILL)
 
 
 # ## Wrap Up
-# 
+#
 # In this lab, you saw how compacting images affected your previous model. This is one technique to keep in mind especially when you are still in the exploratory phase of your own projects. You can see if a smaller model behaves just as well as a large model so you can have faster training. You also saw how easy it is to customize your images for this adjustment in size by simply changing a parameter in the `ImageDataGenerator` class.

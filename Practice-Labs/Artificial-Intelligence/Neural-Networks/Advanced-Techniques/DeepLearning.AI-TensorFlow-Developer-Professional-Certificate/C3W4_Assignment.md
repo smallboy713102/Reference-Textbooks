@@ -7,10 +7,10 @@ Let's get started!
 
 
 ```python
-import numpy as np 
+import numpy as np
 import matplotlib.pyplot as plt
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.utils import to_categorical 
+from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.layers import Embedding, LSTM, Dense, Bidirectional
@@ -97,20 +97,20 @@ Now complete the `n_gram_seqs` function below. This function receives the fitted
 def n_gram_seqs(corpus, tokenizer):
     """
     Generates a list of n-gram sequences
-    
+
     Args:
         corpus (list of string): lines of texts to generate n-grams for
         tokenizer (object): an instance of the Tokenizer class containing the word-index dictionary
-    
+
     Returns:
         input_sequences (list of int): the n-gram sequences for each line in the corpus
     """
     input_sequences = []
-    
+
     ### START CODE HERE
-    
+
     ### END CODE HERE
-    
+
     return input_sequences
 ```
 
@@ -177,7 +177,7 @@ Apply the `n_gram_seqs` transformation to the whole corpus and save the maximum 
 # Apply the n_gram_seqs transformation to the whole corpus
 input_sequences = n_gram_seqs(corpus, tokenizer)
 
-# Save max length 
+# Save max length
 max_sequence_len = max([len(x) for x in input_sequences])
 
 print(f"n_grams of input_sequences have length: {len(input_sequences)}")
@@ -193,7 +193,7 @@ maximum length of sequences is: 11
 
 ## Add padding to the sequences
 
-Now code the `pad_seqs` function which will pad any given sequences to the desired maximum length. Notice that this function receives a list of sequences and should return a numpy array with the padded sequences: 
+Now code the `pad_seqs` function which will pad any given sequences to the desired maximum length. Notice that this function receives a list of sequences and should return a numpy array with the padded sequences:
 
 
 ```python
@@ -201,17 +201,17 @@ Now code the `pad_seqs` function which will pad any given sequences to the desir
 def pad_seqs(input_sequences, maxlen):
     """
     Pads tokenized sequences to the same length
-    
+
     Args:
         input_sequences (list of int): tokenized sequences to pad
         maxlen (int): maximum length of the token sequences
-    
+
     Returns:
         padded_sequences (array of int): tokenized sequences padded to the same length
     """
     ### START CODE HERE
     padded_sequences = None
-    
+
     return padded_sequences
     ### END CODE HERE
 ```
@@ -292,11 +292,11 @@ Notice that the function also receives the total of words in the corpus, this pa
 def features_and_labels(input_sequences, total_words):
     """
     Generates features and labels from n-grams
-    
+
     Args:
         input_sequences (list of int): sequences to split features and labels from
         total_words (int): vocabulary size
-    
+
     Returns:
         features, one_hot_labels (array of int, array of int): arrays of features and one-hot encoded labels
     """
@@ -366,11 +366,11 @@ Some hints to help you in this task:
 def create_model(total_words, max_sequence_len):
     """
     Creates a text generator model
-    
+
     Args:
         total_words (int): size of the vocabulary for the Embedding layer input
         max_sequence_len (int): length of the input sequences
-    
+
     Returns:
         model (tf.keras Model): the text generator model
     """
@@ -383,7 +383,7 @@ def create_model(total_words, max_sequence_len):
     model.compile(loss=None,
                   optimizer=None,
                   metrics=['accuracy'])
-    
+
     ### END CODE HERE
 
     return model
@@ -439,7 +439,7 @@ download_history()
 
 ## See your model in action
 
-After all your work it is finally time to see your model generating text. 
+After all your work it is finally time to see your model generating text.
 
 Run the cell below to generate the next 100 words of a seed text.
 
@@ -449,20 +449,20 @@ After submitting your assignment you are encouraged to try out training for diff
 ```python
 seed_text = "Help me Obi Wan Kenobi, you're my only hope"
 next_words = 100
-  
+
 for _ in range(next_words):
-	# Convert the text into sequences
-	token_list = tokenizer.texts_to_sequences([seed_text])[0]
-	# Pad the sequences
-	token_list = pad_sequences([token_list], maxlen=max_sequence_len-1, padding='pre')
-	# Get the probabilities of predicting a word
-	predicted = model.predict(token_list, verbose=0)
-	# Choose the next word based on the maximum probability
-	predicted = np.argmax(predicted, axis=-1).item()
-	# Get the actual word from the word index
-	output_word = tokenizer.index_word[predicted]
-	# Append to the current text
-	seed_text += " " + output_word
+    # Convert the text into sequences
+    token_list = tokenizer.texts_to_sequences([seed_text])[0]
+    # Pad the sequences
+    token_list = pad_sequences([token_list], maxlen=max_sequence_len-1, padding='pre')
+    # Get the probabilities of predicting a word
+    predicted = model.predict(token_list, verbose=0)
+    # Choose the next word based on the maximum probability
+    predicted = np.argmax(predicted, axis=-1).item()
+    # Get the actual word from the word index
+    output_word = tokenizer.index_word[predicted]
+    # Append to the current text
+    seed_text += " " + output_word
 
 print(seed_text)
 ```

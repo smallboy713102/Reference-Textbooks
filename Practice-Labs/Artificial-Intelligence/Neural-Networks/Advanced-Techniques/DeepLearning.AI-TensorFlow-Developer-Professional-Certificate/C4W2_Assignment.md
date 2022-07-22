@@ -31,7 +31,7 @@ def trend(time, slope=0):
 def seasonal_pattern(season_time):
     """Just an arbitrary pattern, you can change it if you wish"""
     return np.where(season_time < 0.1,
-                    np.cos(season_time * 6 * np.pi), 
+                    np.cos(season_time * 6 * np.pi),
                     2 / np.exp(9 * season_time))
 
 def seasonality(time, period, amplitude=1, phase=0):
@@ -48,7 +48,7 @@ You will be generating time series data that greatly resembles the one from last
 
 **Notice that this time all the generation is done within a function and global variables are saved within a dataclass. This is done to avoid using global scope as it was done in during the previous week.**
 
-If you haven't used dataclasses before, they are just Python classes that provide a convenient syntax for storing data. You can read more about them in the [docs](https://docs.python.org/3/library/dataclasses.html). 
+If you haven't used dataclasses before, they are just Python classes that provide a convenient syntax for storing data. You can read more about them in the [docs](https://docs.python.org/3/library/dataclasses.html).
 
 
 ```python
@@ -68,7 +68,7 @@ def generate_time_series():
     # Adding some noise
     noise_level = 3
     series += noise(time, noise_level, seed=51)
-    
+
     return time, series
 
 
@@ -80,7 +80,7 @@ class G:
     WINDOW_SIZE = 20
     BATCH_SIZE = 32
     SHUFFLE_BUFFER_SIZE = 1000
-    
+
 
 # Plot the generated series
 plt.figure(figsize=(10, 6))
@@ -119,29 +119,29 @@ Be sure to check out the [docs](https://www.tensorflow.org/api_docs/python/tf/da
 
 ```python
 def windowed_dataset(series, window_size=G.WINDOW_SIZE, batch_size=G.BATCH_SIZE, shuffle_buffer=G.SHUFFLE_BUFFER_SIZE):
-    
+
     ### START CODE HERE
-    
+
     # Create dataset from the series
     dataset = None
-    
+
     # Slice the dataset into the appropriate windows
     dataset = None
-    
+
     # Flatten the dataset
     dataset = None
-    
+
     # Shuffle it
     dataset = None
-    
+
     # Split it into the features and labels
     dataset = None
-    
+
     # Batch it
     dataset = None
-    
+
     ### END CODE HERE
-    
+
     return dataset
 ```
 
@@ -197,13 +197,13 @@ def create_model(window_size=G.WINDOW_SIZE):
 
     ### START CODE HERE
 
-    model = tf.keras.models.Sequential([ 
-        
-    ]) 
+    model = tf.keras.models.Sequential([
+
+    ])
 
     model.compile(loss=None,
                   optimizer=None)
-    
+
     ### END CODE HERE
 
     return model
@@ -228,14 +228,14 @@ Now it is time to evaluate the performance of the forecast. For this you can use
 
 ```python
 def compute_metrics(true_series, forecast):
-    
+
     mse = tf.keras.metrics.mean_squared_error(true_series, forecast).numpy()
     mae = tf.keras.metrics.mean_absolute_error(true_series, forecast).numpy()
 
     return mse, mae
 ```
 
-At this point only the model that will perform the forecast is ready but you still need to compute the actual forecast. 
+At this point only the model that will perform the forecast is ready but you still need to compute the actual forecast.
 
 For this, run the cell below which uses the `generate_forecast` function to compute the forecast. This function generates the next value given a set of the previous `window_size` points for every point in the validation set.
 

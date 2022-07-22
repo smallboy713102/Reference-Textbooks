@@ -4,7 +4,7 @@
 # <a href="https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-public/blob/master/C1/W4/ungraded_labs/C1_W4_Lab_2_image_generator_with_validation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # # Ungraded Lab: ImageDataGenerator with a Validation Set
-# 
+#
 # In this lab, you will continue using the `ImageDataGenerator` class to prepare the `Horses or Humans` dataset. This time, you will add a validation set so you can also measure how well the model performs on data it hasn't seen.
 
 # **IMPORTANT NOTE:** This notebook is designed to run as a Colab. Running it on your local machine might result in some of the code blocks throwing errors.
@@ -122,9 +122,9 @@ fig = plt.gcf()
 fig.set_size_inches(ncols * 4, nrows * 4)
 
 pic_index += 8
-next_horse_pix = [os.path.join(train_horse_dir, fname) 
+next_horse_pix = [os.path.join(train_horse_dir, fname)
                 for fname in train_horse_names[pic_index-8:pic_index]]
-next_human_pix = [os.path.join(train_human_dir, fname) 
+next_human_pix = [os.path.join(train_human_dir, fname)
                 for fname in train_human_names[pic_index-8:pic_index]]
 
 for i, img_path in enumerate(next_horse_pix+next_human_pix):
@@ -139,7 +139,7 @@ plt.show()
 
 
 # ## Building a Small Model from Scratch
-# 
+#
 # You will define the same model architecture as before:
 
 # In[ ]:
@@ -194,7 +194,7 @@ model.compile(loss='binary_crossentropy',
 
 
 # ### Data Preprocessing
-# 
+#
 # Now you will setup the data generators. It will mostly be the same as last time but notice the additional code to also prepare the validation data. It will need to be instantiated separately and also scaled to have `[0,1]` range of pixel values.
 
 # In[ ]:
@@ -231,7 +231,7 @@ validation_generator = validation_datagen.flow_from_directory(
 
 history = model.fit(
       train_generator,
-      steps_per_epoch=8,  
+      steps_per_epoch=8,
       epochs=15,
       verbose=1,
       validation_data = validation_generator,
@@ -239,11 +239,11 @@ history = model.fit(
 
 
 # ### Model Prediction
-# 
+#
 # Now take a look at actually running a prediction using the model. This code will allow you to choose 1 or more files from your file system, upload them, and run them through the model, giving an indication of whether the object is a horse or a human.
-# 
+#
 # **Important Note:** Due to some compatibility issues, the following code block will result in an error after you select the images(s) to upload if you are running this notebook as a `Colab` on the `Safari` browser. For all other browsers, continue with the next code block and ignore the next one after it.
-# 
+#
 # _For Safari users: please comment out or skip the code block below, uncomment the next code block and run it._
 
 # In[ ]:
@@ -259,7 +259,7 @@ from keras.preprocessing import image
 uploaded = files.upload()
 
 for fn in uploaded.keys():
- 
+
   # predicting images
   path = '/content/' + fn
   img = image.load_img(path, target_size=(300, 300))
@@ -274,19 +274,19 @@ for fn in uploaded.keys():
     print(fn + " is a human")
   else:
     print(fn + " is a horse")
- 
+
 
 
 # `Safari` users will need to upload the images(s) manually in their workspace. Please follow the instructions, uncomment the code block below and run it.
-# 
+#
 # Instructions on how to upload image(s) manually in a Colab:
-# 
+#
 # 1. Select the `folder` icon on the left `menu bar`.
 # 2. Click on the `folder with an arrow pointing upwards` named `..`
 # 3. Click on the `folder` named `tmp`.
 # 4. Inside of the `tmp` folder, `create a new folder` called `images`. You'll see the `New folder` option by clicking the `3 vertical dots` menu button next to the `tmp` folder.
 # 5. Inside of the new `images` folder, upload an image(s) of your choice, preferably of either a horse or a human. Drag and drop the images(s) on top of the `images` folder.
-# 6. Uncomment and run the code block below. 
+# 6. Uncomment and run the code block below.
 
 # In[ ]:
 
@@ -320,7 +320,7 @@ for fn in uploaded.keys():
 
 
 # ### Visualizing Intermediate Representations
-# 
+#
 # As before, you can plot how the features are transformed as it goes through each layer.
 
 # In[ ]:
@@ -364,7 +364,7 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
 
     # The feature map has shape (1, size, size, n_features)
     size = feature_map.shape[1]
-    
+
     # Tile the images in this matrix
     display_grid = np.zeros((size, size * n_features))
     for i in range(n_features):
@@ -374,10 +374,10 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
       x *= 64
       x += 128
       x = np.clip(x, 0, 255).astype('uint8')
-    
+
       # Tile each filter into this big horizontal grid
       display_grid[:, i * size : (i + 1) * size] = x
-    
+
     # Display the grid
     scale = 20. / n_features
     plt.figure(figsize=(scale * n_features, scale))
@@ -387,7 +387,7 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
 
 
 # ## Clean Up
-# 
+#
 # Before running the next exercise, run the following cell to terminate the kernel and free memory resources:
 
 # In[ ]:

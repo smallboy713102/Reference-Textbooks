@@ -57,7 +57,7 @@ def plot_series(time, series, format="-", start=0, end=None, label=None):
 
 ## Trend
 
-The *trend* describes the general tendency of the values to go up or down as time progresses. Given a certain time period, you can see if the graph is following an upward/positive trend, downward/negative trend, or just flat. For instance, the housing prices in a good location can see a general increase in valuation as time passes. 
+The *trend* describes the general tendency of the values to go up or down as time progresses. Given a certain time period, you can see if the graph is following an upward/positive trend, downward/negative trend, or just flat. For instance, the housing prices in a good location can see a general increase in valuation as time passes.
 
 The simplest example to visualize is data that follows a straight line. You will use the function below to generate that. The `slope` argument will determine what the trend is. If you're coming from a mathematics background, you might recognize this as the [slope-intercept form](https://en.wikipedia.org/wiki/Linear_equation#Slope%E2%80%93intercept_form_or_Gradient-intercept_form) with the y-intercept being `0`.
 
@@ -102,7 +102,7 @@ As you can tell, you don't need machine learning to model this behavior. You can
 
 ## Seasonality
 
-Another attribute you may want to look for is seasonality. This refers to a recurring pattern at regular time intervals. For instance, the hourly temperature might oscillate similarly for 10 consecutive days and you can use that to predict the behavior on the next day. 
+Another attribute you may want to look for is seasonality. This refers to a recurring pattern at regular time intervals. For instance, the hourly temperature might oscillate similarly for 10 consecutive days and you can use that to predict the behavior on the next day.
 
 You can use the functions below to generate a time series with a seasonal pattern:
 
@@ -111,12 +111,12 @@ You can use the functions below to generate a time series with a seasonal patter
 def seasonal_pattern(season_time):
     """
     Just an arbitrary pattern, you can change it if you wish
-    
+
     Args:
       season_time (array of float) - contains the measurements per time step
 
     Returns:
-      data_pattern (array of float) -  contains revised measurement values according 
+      data_pattern (array of float) -  contains revised measurement values according
                                   to the defined pattern
     """
 
@@ -124,7 +124,7 @@ def seasonal_pattern(season_time):
     data_pattern = np.where(season_time < 0.4,
                     np.cos(season_time * 2 * np.pi),
                     1 / np.exp(3 * season_time))
-    
+
     return data_pattern
 
 def seasonality(time, period, amplitude=1, phase=0):
@@ -140,7 +140,7 @@ def seasonality(time, period, amplitude=1, phase=0):
     Returns:
       data_pattern (array of float) - seasonal data scaled by the defined amplitude
     """
-    
+
     # Define the measured values per period
     season_time = ((time + phase) % period) / period
 
@@ -210,7 +210,7 @@ def noise(time, noise_level=1, seed=None):
 
     # Generate a random number for each time step and scale by the noise level
     noise = rnd.randn(len(time)) * noise_level
-    
+
     return noise
 
 ```
@@ -259,26 +259,26 @@ def autocorrelation(time, amplitude, seed=None):
       ar (array of float) - autocorrelated data
     """
 
-    # Initialize random number generator 
+    # Initialize random number generator
     rnd = np.random.RandomState(seed)
-    
-    # Initialize array of random numbers equal to the length 
+
+    # Initialize array of random numbers equal to the length
     # of the given time steps plus 50
     ar = rnd.randn(len(time) + 50)
-    
+
     # Set first 50 elements to a constant
     ar[:50] = 100
-    
+
     # Define scaling factors
     phi1 = 0.5
     phi2 = -0.1
 
-    # Autocorrelate element 51 onwards with the measurement at 
+    # Autocorrelate element 51 onwards with the measurement at
     # (t-50) and (t-30), where t is the current time step
     for step in range(50, len(time) + 50):
         ar[step] += phi1 * ar[step - 50]
         ar[step] += phi2 * ar[step - 33]
-    
+
     # Get the autocorrelated data and scale with the given amplitude.
     # The first 50 elements of the original array is truncated because
     # those are just constant and not autocorrelated.
@@ -313,24 +313,24 @@ def autocorrelation(time, amplitude, seed=None):
       ar (array of float) - generated autocorrelated data
     """
 
-    # Initialize random number generator 
+    # Initialize random number generator
     rnd = np.random.RandomState(seed)
 
-    # Initialize array of random numbers equal to the length 
+    # Initialize array of random numbers equal to the length
     # of the given time steps plus an additional step
     ar = rnd.randn(len(time) + 1)
 
     # Define scaling factor
     phi = 0.8
 
-    # Autocorrelate element 11 onwards with the measurement at 
+    # Autocorrelate element 11 onwards with the measurement at
     # (t-1), where t is the current time step
     for step in range(1, len(time) + 1):
         ar[step] += phi * ar[step - 1]
-    
+
     # Get the autocorrelated data and scale with the given amplitude.
     ar = ar[1:] * amplitude
-    
+
     return ar
 ```
 
@@ -361,7 +361,7 @@ def impulses(time, num_impulses, amplitude=1, seed=None):
       series (array of float) - array containing the impulses
     """
 
-    # Initialize random number generator 
+    # Initialize random number generator
     rnd = np.random.RandomState(seed)
 
     # Generate random numbers
@@ -374,7 +374,7 @@ def impulses(time, num_impulses, amplitude=1, seed=None):
     for index in impulse_indices:
         series[index] += rnd.rand() * amplitude
 
-    return series    
+    return series
 ```
 
 You will use the function above to generate a series with 10 random impulses.

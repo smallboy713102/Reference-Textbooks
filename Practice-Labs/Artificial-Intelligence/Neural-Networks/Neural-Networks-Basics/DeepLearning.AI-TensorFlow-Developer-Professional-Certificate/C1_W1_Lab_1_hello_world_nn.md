@@ -2,7 +2,7 @@
 
 # Ungraded Lab: The Hello World of Deep Learning with Neural Networks
 
-Like every first app, you should start with something super simple that shows the overall scaffolding for how your code works. In the case of creating neural networks, one simple case is where it learns the relationship between two numbers. So, for example, if you were writing code for a function like this, you already know the 'rules': 
+Like every first app, you should start with something super simple that shows the overall scaffolding for how your code works. In the case of creating neural networks, one simple case is where it learns the relationship between two numbers. So, for example, if you were writing code for a function like this, you already know the 'rules':
 
 
 ```
@@ -11,7 +11,7 @@ def hw_function(x):
     return y
 ```
 
-So how would you train a neural network to do the equivalent task? By using data! By feeding it with a set of x's and y's, it should be able to figure out the relationship between them. 
+So how would you train a neural network to do the equivalent task? By using data! By feeding it with a set of x's and y's, it should be able to figure out the relationship between them.
 
 This is obviously a very different paradigm from what you might be used to. So let's step through it piece by piece.
 
@@ -54,7 +54,7 @@ It then uses the `optimizer` function to make another guess. Based on how the lo
 
 It will repeat this for the number of _epochs_ which you will see shortly. But first, here's how you will tell it to use [mean squared error](https://keras.io/api/losses/regression_losses/#meansquarederror-function) for the loss and [stochastic gradient descent](https://keras.io/api/optimizers/sgd/) for the optimizer. You don't need to understand the math for these yet, but you can see that they work!
 
-Over time, you will learn the different and appropriate loss and optimizer functions for different scenarios. 
+Over time, you will learn the different and appropriate loss and optimizer functions for different scenarios.
 
 
 
@@ -65,7 +65,7 @@ model.compile(optimizer='sgd', loss='mean_squared_error')
 
 ## Providing the Data
 
-Next up, you will feed in some data. In this case, you are taking 6 X's and 6 Y's. You can see that the relationship between these is `y=2x-1`, so where `x = -1`, `y=-3` etc. 
+Next up, you will feed in some data. In this case, you are taking 6 X's and 6 Y's. You can see that the relationship between these is `y=2x-1`, so where `x = -1`, `y=-3` etc.
 
 The de facto standard way of declaring model inputs and outputs is to use `numpy`, a Python library that provides lots of array type data structures. You can specify these values by building numpy arrays with [`np.array()`](https://numpy.org/doc/stable/reference/generated/numpy.array.html).
 
@@ -94,7 +94,7 @@ Ok, now you have a model that has been trained to learn the relationship between
 print(model.predict([10.0]))
 ```
 
-You might have thought `19`, right? But it ended up being a little under. Why do you think that is? 
+You might have thought `19`, right? But it ended up being a little under. Why do you think that is?
 
 Remember that neural networks deal with probabilities. So given the data that we fed the model with, it calculated that there is a very high probability that the relationship between `x` and `y` is `y=2x-1`, but with only 6 data points we can't know for sure. As a result, the result for 10 is very close to 19, but not necessarily 19.
 

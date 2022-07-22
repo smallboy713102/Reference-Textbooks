@@ -2,7 +2,7 @@
 
 # Ungraded Lab: Training a Sarcasm Detection Model using a Convolution Layer
 
-You will be doing the same steps here as the previous lab but will be using a convolution layer instead. As usual, try tweaking the parameters and observe how it affects the results. 
+You will be doing the same steps here as the previous lab but will be using a convolution layer instead. As usual, try tweaking the parameters and observe how it affects the results.
 
 
 ## Download the Dataset

@@ -23,7 +23,7 @@ def plt_prob_1d(ax,fwb):
                    norm=cm.colors.Normalize(vmin=0, vmax=1),
                    cmap=new_cmap, shading='nearest', alpha = 0.9)
     ax.figure.colorbar(pcm, ax=ax)
-    
+
 def truncate_colormap(cmap, minval=0.0, maxval=1.0, n=100):
     """ truncates color map """
     new_cmap = colors.LinearSegmentedColormap.from_list(
@@ -69,8 +69,8 @@ def plt_linear(X_train, Y_train, prediction_tf, prediction_np):
     ax[1].set_xlabel('Size (1000 sqft)', fontsize='xx-large')
     ax[1].set_title("Numpy prediction",fontsize='xx-large')
     plt.show()
-    
-    
+
+
 def plt_logistic(X_train, Y_train, model, set_w, set_b, pos, neg):
     fig,ax = plt.subplots(1,2,figsize=(16,4))
 
@@ -78,7 +78,7 @@ def plt_logistic(X_train, Y_train, model, set_w, set_b, pos, neg):
     plt_prob_1d(ax[0], layerf)
 
     ax[0].scatter(X_train[pos], Y_train[pos], marker='x', s=80, c = 'red', label="y=1")
-    ax[0].scatter(X_train[neg], Y_train[neg], marker='o', s=100, label="y=0", facecolors='none', 
+    ax[0].scatter(X_train[neg], Y_train[neg], marker='o', s=100, label="y=0", facecolors='none',
                   edgecolors=dlc["dlblue"],lw=3)
 
     ax[0].set_ylim(-0.08,1.1)
@@ -92,7 +92,7 @@ def plt_logistic(X_train, Y_train, model, set_w, set_b, pos, neg):
     plt_prob_1d(ax[1], layerf)
 
     ax[1].scatter(X_train[pos], Y_train[pos], marker='x', s=80, c = 'red', label="y=1")
-    ax[1].scatter(X_train[neg], Y_train[neg], marker='o', s=100, label="y=0", facecolors='none', 
+    ax[1].scatter(X_train[neg], Y_train[neg], marker='o', s=100, label="y=0", facecolors='none',
                   edgecolors=dlc["dlblue"],lw=3)
 
     ax[1].set_ylim(-0.08,1.1)

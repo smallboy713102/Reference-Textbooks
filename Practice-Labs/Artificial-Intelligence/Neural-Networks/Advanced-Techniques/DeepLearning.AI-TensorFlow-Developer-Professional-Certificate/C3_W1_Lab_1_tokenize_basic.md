@@ -29,7 +29,7 @@ word_index = tokenizer.word_index
 print(word_index)
 ```
 
-The `num_words` parameter used in the initializer specifies the maximum number of words minus one (based on frequency) to keep when generating sequences. You will see this in a later exercise. For now, the important thing to note is it does not affect how the `word_index` dictionary is generated. You can try passing `1` instead of `100` as shown on the next cell and you will arrive at the same `word_index`. 
+The `num_words` parameter used in the initializer specifies the maximum number of words minus one (based on frequency) to keep when generating sequences. You will see this in a later exercise. For now, the important thing to note is it does not affect how the `word_index` dictionary is generated. You can try passing `1` instead of `100` as shown on the next cell and you will arrive at the same `word_index`.
 
 Also notice that by default, all punctuation is ignored and words are converted to lower case. You can override these behaviors by modifying the `filters` and `lower` arguments of the `Tokenizer` class as described [here](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/text/Tokenizer#arguments). You can try modifying these in the next cell below and compare the output to the one generated above.
 

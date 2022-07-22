@@ -17,9 +17,9 @@ plt.style.use('./deeplearning.mplstyle')
 ## Squared error for logistic regression?
 <img align="left" src="./images/C1_W3_SqErrorVsLogistic.png"     style=" width:400px; padding: 10px; " > Recall for **Linear** Regression we have used the **squared error cost function**:
 The equation for the squared error cost with one variable is:
-  $$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2 \tag{1}$$ 
- 
-where 
+  $$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2 \tag{1}$$
+
+where
   $$f_{w,b}(x^{(i)}) = wx^{(i)} + b \tag{2}$$
 
 
@@ -50,9 +50,9 @@ plt_simple_example(x_train, y_train)
 
 
 Now, let's get a surface plot of the cost using a *squared error cost*:
-  $$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2 $$ 
- 
-where 
+  $$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2 $$
+
+where
   $$f_{w,b}(x^{(i)}) = sigmoid(wx^{(i)} + b )$$
 
 
@@ -67,23 +67,23 @@ plt.show()
     Canvas(toolbar=Toolbar(toolitems=[('Home', 'Reset original view', 'home', 'home'), ('Back', 'Back to previous …
 
 
-While this produces a pretty interesting plot, the surface above not nearly as smooth as the 'soup bowl' from linear regression!    
+While this produces a pretty interesting plot, the surface above not nearly as smooth as the 'soup bowl' from linear regression!
 
 Logistic regression requires a cost function more suitable to its non-linear nature. This starts with a Loss function. This is described below.
 
 ## Logistic Loss Function
 <img align="left" src="./images/C1_W3_LogisticLoss_a.png"     style=" width:250px; padding: 2px; " >
 <img align="left" src="./images/C1_W3_LogisticLoss_b.png"     style=" width:250px; padding: 2px; " >
-<img align="left" src="./images/C1_W3_LogisticLoss_c.png"     style=" width:250px; padding: 2px; " > 
+<img align="left" src="./images/C1_W3_LogisticLoss_c.png"     style=" width:250px; padding: 2px; " >
 
-Logistic Regression uses a loss function more suited to the task of categorization where the target is 0 or 1 rather than any number. 
+Logistic Regression uses a loss function more suited to the task of categorization where the target is 0 or 1 rather than any number.
 
->**Definition Note:**   In this course, these definitions are used:  
-**Loss** is a measure of the difference of a single example to its target value while the  
+>**Definition Note:**   In this course, these definitions are used:
+**Loss** is a measure of the difference of a single example to its target value while the
 **Cost** is a measure of the losses over the training set
 
 
-This is defined: 
+This is defined:
 * $loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)})$ is the cost for a single data point, which is:
 
 \begin{equation}
@@ -113,8 +113,8 @@ Combined, the curves are similar to the quadratic curve of the squared error los
 
 The loss function above can be rewritten to be easier to implement.
     $$loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) = (-y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right)$$
-  
-This is a rather formidable-looking equation. It is less daunting when you consider $y^{(i)}$ can have only two values, 0 and 1. One can then consider the equation in two pieces:  
+
+This is a rather formidable-looking equation. It is less daunting when you consider $y^{(i)}$ can have only two values, 0 and 1. One can then consider the equation in two pieces:
 when $ y^{(i)} = 0$, the left-hand term is eliminated:
 $$
 \begin{align}
@@ -144,7 +144,7 @@ cst = plt_logistic_cost(x_train,y_train)
 
 This curve is well suited to gradient descent! It does not have plateaus, local minima, or discontinuities. Note, it is not a bowl as in the case of squared error. Both the cost and the log of the cost are plotted to illuminate the fact that the curve, when the cost is small, has a slope and continues to decline. Reminder: you can rotate the above plots using your mouse.
 
-## Congratulation!  
+## Congratulation!
 You have:
  - determined a squared error loss function is not suitable for classification tasks
  - developed and examined the logistic loss function which **is** suitable for classification tasks.

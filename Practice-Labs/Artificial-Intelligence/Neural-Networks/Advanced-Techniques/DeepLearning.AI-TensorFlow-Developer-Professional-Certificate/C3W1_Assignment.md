@@ -17,7 +17,7 @@ Begin by looking at the structure of the csv that contains the data:
 ```python
 with open("./data/bbc-text.csv", 'r') as csvfile:
     print(f"First line (header) looks like this:\n\n{csvfile.readline()}")
-    print(f"Each data point looks like this:\n\n{csvfile.readline()}")     
+    print(f"Each data point looks like this:\n\n{csvfile.readline()}")
 ```
 
 As you can see, each data point is composed of the category of the news article followed by a comma and then the actual text of the article.
@@ -34,19 +34,19 @@ Complete the `remove_stopwords` below. This function should receive a string and
 def remove_stopwords(sentence):
     """
     Removes a list of stopwords
-    
+
     Args:
         sentence (string): sentence to remove the stopwords from
-    
+
     Returns:
         sentence (string): lowercase sentence without the stopwords
     """
     # List of stopwords
     stopwords = ["a", "about", "above", "after", "again", "against", "all", "am", "an", "and", "any", "are", "as", "at", "be", "because", "been", "before", "being", "below", "between", "both", "but", "by", "could", "did", "do", "does", "doing", "down", "during", "each", "few", "for", "from", "further", "had", "has", "have", "having", "he", "he'd", "he'll", "he's", "her", "here", "here's", "hers", "herself", "him", "himself", "his", "how", "how's", "i", "i'd", "i'll", "i'm", "i've", "if", "in", "into", "is", "it", "it's", "its", "itself", "let's", "me", "more", "most", "my", "myself", "nor", "of", "on", "once", "only", "or", "other", "ought", "our", "ours", "ourselves", "out", "over", "own", "same", "she", "she'd", "she'll", "she's", "should", "so", "some", "such", "than", "that", "that's", "the", "their", "theirs", "them", "themselves", "then", "there", "there's", "these", "they", "they'd", "they'll", "they're", "they've", "this", "those", "through", "to", "too", "under", "until", "up", "very", "was", "we", "we'd", "we'll", "we're", "we've", "were", "what", "what's", "when", "when's", "where", "where's", "which", "while", "who", "who's", "whom", "why", "why's", "with", "would", "you", "you'd", "you'll", "you're", "you've", "your", "yours", "yourself", "yourselves" ]
-    
+
     # Sentence converted to lowercase-only
     sentence = sentence.lower()
-    
+
     ### START CODE HERE
     ### END CODE HERE
     return sentence
@@ -81,10 +81,10 @@ A couple of things to note:
 def parse_data_from_file(filename):
     """
     Extracts sentences and labels from a CSV file
-    
+
     Args:
         filename (string): path to the CSV file
-    
+
     Returns:
         sentences, labels (list of string, list of string): tuple containing lists of sentences and labels
     """
@@ -147,9 +147,9 @@ The first 5 labels are ['tech', 'business', 'sport', 'sport', 'entertainment']
 
 ## Using the Tokenizer
 
-Now it is time to tokenize the sentences of the dataset. 
+Now it is time to tokenize the sentences of the dataset.
 
-Complete the `fit_tokenizer` below. 
+Complete the `fit_tokenizer` below.
 
 This function should receive the list of sentences as input and return a [Tokenizer](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/text/Tokenizer) that has been fitted to those sentences. You should also define the "Out of Vocabulary" token as `<OOV>`.
 
@@ -159,10 +159,10 @@ This function should receive the list of sentences as input and return a [Tokeni
 def fit_tokenizer(sentences):
     """
     Instantiates the Tokenizer class
-    
+
     Args:
         sentences (list): lower-cased sentences without stopwords
-    
+
     Returns:
         tokenizer (object): an instance of the Tokenizer class containing the word-index dictionary
     """
@@ -170,7 +170,7 @@ def fit_tokenizer(sentences):
     # Instantiate the Tokenizer class by passing in the oov_token argument
     tokenizer = None
     # Fit on the sentences
-    
+
     ### END CODE HERE
     return tokenizer
 ```
@@ -198,23 +198,23 @@ Vocabulary contains 29714 words
 def get_padded_sequences(tokenizer, sentences):
     """
     Generates an array of token sequences and pads them to the same length
-    
+
     Args:
         tokenizer (object): Tokenizer instance containing the word-index dictionary
         sentences (list of string): list of sentences to tokenize and pad
-    
+
     Returns:
         padded_sequences (array of int): tokenized sentences padded to the same length
     """
-    
+
     ### START CODE HERE
     # Convert sentences to sequences
     sequences = None
-    
+
     # Pad the sequences using the post padding strategy
     padded_sequences = None
     ### END CODE HERE
-    
+
     return padded_sequences
 ```
 
@@ -228,7 +228,7 @@ print(f"This means there are {padded_sequences.shape[0]} sequences in total and 
 
 ***Expected Output:***
 ```
-First padded sequence looks like this: 
+First padded sequence looks like this:
 
 [  96  176 1157 ...    0    0    0]
 
@@ -244,30 +244,30 @@ This means there are 2225 sequences in total and each one has a size of 2438
 def tokenize_labels(labels):
     """
     Tokenizes the labels
-    
+
     Args:
         labels (list of string): labels to tokenize
-    
+
     Returns:
         label_sequences, label_word_index (list of string, dictionary): tokenized labels and the word-index
     """
     ### START CODE HERE
-    
+
     # Instantiate the Tokenizer class
     # No need to pass additional arguments since you will be tokenizing the labels
     label_tokenizer = None
-    
+
     # Fit the tokenizer to the labels
-    
-    
+
+
     # Save the word index
     label_word_index = None
-    
+
     # Save the sequences
     label_sequences = None
 
     ### END CODE HERE
-    
+
     return label_sequences, label_word_index
 ```
 

@@ -1,6 +1,6 @@
 # Week 3: Improve MNIST with Convolutions
 
-In the videos you looked at how you would improve Fashion MNIST using Convolutions. For this exercise see if you can improve MNIST to 99.5% accuracy or more by adding only a single convolutional layer and a single MaxPooling 2D layer to the model from the  assignment of the previous week. 
+In the videos you looked at how you would improve Fashion MNIST using Convolutions. For this exercise see if you can improve MNIST to 99.5% accuracy or more by adding only a single convolutional layer and a single MaxPooling 2D layer to the model from the  assignment of the previous week.
 
 You should stop training once the accuracy goes above this amount. It should happen in less than 10 epochs, so it's ok to hard code the number of epochs for training, but your training must end once it hits the above metric. If it doesn't, then you'll need to redesign your callback.
 
@@ -28,13 +28,13 @@ Begin by loading the data. A couple of things to notice:
 # Load the data
 
 # Get current working directory
-current_dir = os.getcwd() 
+current_dir = os.getcwd()
 
 # Append data/mnist.npz to the previous path to get the full path
-data_path = os.path.join(current_dir, "data/mnist.npz") 
+data_path = os.path.join(current_dir, "data/mnist.npz")
 
 # Get only training set
-(training_images, training_labels), _ = tf.keras.datasets.mnist.load_data(path=data_path) 
+(training_images, training_labels), _ = tf.keras.datasets.mnist.load_data(path=data_path)
 ```
 
 ## Pre-processing the data
@@ -42,7 +42,7 @@ data_path = os.path.join(current_dir, "data/mnist.npz")
 One important step when dealing with image data is to preprocess the data. During the preprocess step you can apply transformations to the dataset that will be fed into your convolutional neural network.
 
 Here you will apply two transformations to the data:
-- Reshape the data so that it has an extra dimension. The reason for this 
+- Reshape the data so that it has an extra dimension. The reason for this
 is that commonly you will use 3-dimensional arrays (without counting the batch dimension) to represent image data. The third dimension represents the color using RGB values. This data might be in black and white format so the third dimension doesn't really add any additional information for the classification process but it is a good practice regardless.
 
 
@@ -55,15 +55,15 @@ Remember that these tensors are of type `numpy.ndarray` so you can use functions
 # GRADED FUNCTION: reshape_and_normalize
 
 def reshape_and_normalize(images):
-    
+
     ### START CODE HERE
 
     # Reshape the images to add an extra dimension
     images = None
-    
+
     # Normalize pixel values
     images = None
-    
+
     ### END CODE HERE
 
     return images
@@ -74,7 +74,7 @@ Test your function with the next cell:
 
 ```python
 # Reload the images in case you run this cell multiple times
-(training_images, _), _ = tf.keras.datasets.mnist.load_data(path=data_path) 
+(training_images, _), _ = tf.keras.datasets.mnist.load_data(path=data_path)
 
 # Apply your function
 training_images = reshape_and_normalize(training_images)
@@ -119,7 +119,7 @@ Finally, complete the `convolutional_model` function below. This function should
 **Your model should achieve an accuracy of 99.5% or more before 10 epochs to pass this assignment.**
 
 **Hints:**
-- You can try any architecture for the network but try to keep in mind you don't need a complex one. For instance, only one convolutional layer is needed. 
+- You can try any architecture for the network but try to keep in mind you don't need a complex one. For instance, only one convolutional layer is needed.
 
 - In case you need extra help you can check out an architecture that works pretty well at the end of this notebook.
 
@@ -130,17 +130,17 @@ def convolutional_model():
     ### START CODE HERE
 
     # Define the model
-    model = tf.keras.models.Sequential([ 
+    model = tf.keras.models.Sequential([
       None,
-    ]) 
+    ])
 
     ### END CODE HERE
 
     # Compile the model
-    model.compile(optimizer='adam', 
-                  loss='sparse_categorical_crossentropy', 
-                  metrics=['accuracy']) 
-        
+    model.compile(optimizer='adam',
+                  loss='sparse_categorical_crossentropy',
+                  metrics=['accuracy'])
+
     return model
 ```
 

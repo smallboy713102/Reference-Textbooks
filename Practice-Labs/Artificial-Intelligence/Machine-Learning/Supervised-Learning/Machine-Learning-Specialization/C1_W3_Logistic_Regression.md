@@ -1,6 +1,6 @@
 # Logistic Regression
 
-In this exercise, you will implement logistic regression and apply it to two different datasets. 
+In this exercise, you will implement logistic regression and apply it to two different datasets.
 
 
 # Outline
@@ -26,7 +26,7 @@ In this exercise, you will implement logistic regression and apply it to two dif
 
 
 <a name="1"></a>
-## 1 - Packages 
+## 1 - Packages
 
 First, let's run the cell below to import all the packages that you will need during this assignment.
 - [numpy](www.numpy.org) is the fundamental package for scientific computing with Python.
@@ -52,20 +52,20 @@ In this part of the exercise, you will build a logistic regression model to pred
 <a name="2.1"></a>
 ### 2.1 Problem Statement
 
-Suppose that you are the administrator of a university department and you want to determine each applicant’s chance of admission based on their results on two exams. 
-* You have historical data from previous applicants that you can use as a training set for logistic regression. 
-* For each training example, you have the applicant’s scores on two exams and the admissions decision. 
-* Your task is to build a classification model that estimates an applicant’s probability of admission based on the scores from those two exams. 
+Suppose that you are the administrator of a university department and you want to determine each applicant’s chance of admission based on their results on two exams.
+* You have historical data from previous applicants that you can use as a training set for logistic regression.
+* For each training example, you have the applicant’s scores on two exams and the admissions decision.
+* Your task is to build a classification model that estimates an applicant’s probability of admission based on the scores from those two exams.
 
 <a name="2.2"></a>
 ### 2.2 Loading and visualizing the data
 
-You will start by loading the dataset for this task. 
+You will start by loading the dataset for this task.
 - The `load_dataset()` function shown below loads the data into variables `X_train` and `y_train`
   - `X_train` contains exam scores on two exams for a student
-  - `y_train` is the admission decision 
-      - `y_train = 1` if the student was admitted 
-      - `y_train = 0` if the student was not admitted 
+  - `y_train` is the admission decision
+      - `y_train = 1` if the student was admitted
+      - `y_train = 0` if the student was not admitted
   - Both `X_train` and `y_train` are numpy arrays.
 
 
@@ -76,7 +76,7 @@ X_train, y_train = load_data("data/ex2data1.txt")
 ```
 
 #### View the variables
-Let's get more familiar with your dataset.  
+Let's get more familiar with your dataset.
 - A good place to start is to just print out each variable and see what it contains.
 
 The code below prints the first five values of `X_train` and the type of the variable.
@@ -129,7 +129,7 @@ print ('We have m = %d training examples' % (len(y_train)))
 
 Before starting to implement any learning algorithm, it is always good to visualize the data if possible.
 - The code below displays the data on a 2D plot (as shown below), where the axes are the two exam scores, and the positive and negative examples are shown with different markers.
-- We use a helper function in the ``utils.py`` file to generate this plot. 
+- We use a helper function in the ``utils.py`` file to generate this plot.
 
 <img src="images/figure 1.png" width="450" height="450">
 
@@ -141,9 +141,9 @@ Before starting to implement any learning algorithm, it is always good to visual
 plot_data(X_train, y_train[:], pos_label="Admitted", neg_label="Not admitted")
 
 # Set the y-axis label
-plt.ylabel('Exam 2 score') 
+plt.ylabel('Exam 2 score')
 # Set the x-axis label
-plt.xlabel('Exam 1 score') 
+plt.xlabel('Exam 1 score')
 plt.legend(loc="upper right")
 plt.show()
 ```
@@ -173,8 +173,8 @@ Please complete  the `sigmoid` function to calculate
 
 $$g(z) = \frac{1}{1+e^{-z}}$$
 
-Note that 
-- `z` is not always a single number, but can also be an array of numbers. 
+Note that
+- `z` is not always a single number, but can also be an array of numbers.
 - If the input is an array of numbers, we'd like to apply the sigmoid function to each value in the input array.
 
 If you get stuck, you can check out the hints presented after the cell below to help you with the implementation.
@@ -193,30 +193,30 @@ def sigmoid(z):
 
     Returns:
         g (ndarray): sigmoid(z), with the same shape as z
-         
+
     """
-          
-    ### START CODE HERE ### 
+
+    ### START CODE HERE ###
     g = 1.0/(1.0+np.exp(-z))
-    ### END SOLUTION ###  
-    
+    ### END SOLUTION ###
+
     return g
 ```
 
 <details>
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-       
+
 `numpy` has a function called [`np.exp()`](https://numpy.org/doc/stable/reference/generated/numpy.exp.html), which offers a convinient way to calculate the exponential ( $e^{z}$) of all elements in the input array (`z`).
- 
+
 <details>
           <summary><font size="2" color="darkblue"><b> Click for more hints</b></font></summary>
-        
-  - You can translate $e^{-z}$ into code as `np.exp(-z)` 
-    
-  - You can translate $1/e^{-z}$ into code as `1/np.exp(-z)` 
-    
-    If you're still stuck, you can check the hints presented below to figure out how to calculate `g` 
-    
+
+  - You can translate $e^{-z}$ into code as `np.exp(-z)`
+
+  - You can translate $1/e^{-z}$ into code as `1/np.exp(-z)`
+
+    If you're still stuck, you can check the hints presented below to figure out how to calculate `g`
+
     <details>
           <summary><font size="2" color="darkblue"><b>Hint to calculate g</b></font></summary>
         <code>g = 1 / (1 + np.exp(-z))</code>
@@ -225,9 +225,9 @@ def sigmoid(z):
 
 </details>
 
-When you are finished, try testing a few values by calling `sigmoid(x)` in the cell below. 
-- For large positive values of x, the sigmoid should be close to 1, while for large negative values, the sigmoid should be close to 0. 
-- Evaluating `sigmoid(0)` should give you exactly 0.5. 
+When you are finished, try testing a few values by calling `sigmoid(x)` in the cell below.
+- For large positive values of x, the sigmoid should be close to 1, while for large negative values, the sigmoid should be close to 0.
+- Evaluating `sigmoid(0)` should give you exactly 0.5.
 
 
 
@@ -242,10 +242,10 @@ print ("sigmoid(0) = " + str(sigmoid(0)))
 <table>
   <tr>
     <td> <b>sigmoid(0)<b></td>
-    <td> 0.5 </td> 
+    <td> 0.5 </td>
   </tr>
 </table>
-    
+
 - As mentioned before, your code should also work with vectors and matrices. For a matrix, your function should perform the sigmoid function on every element.
 
 
@@ -264,10 +264,10 @@ sigmoid_test(sigmoid)
 **Expected Output**:
 <table>
   <tr>
-    <td><b>sigmoid([-1, 0, 1, 2])<b></td> 
-    <td>[0.26894142        0.5           0.73105858        0.88079708]</td> 
-  </tr>    
-  
+    <td><b>sigmoid([-1, 0, 1, 2])<b></td>
+    <td>[0.26894142        0.5           0.73105858        0.88079708]</td>
+  </tr>
+
 </table>
 
 <a name="2.4"></a>
@@ -280,7 +280,7 @@ In this section, you will implement the cost function for logistic regression.
 
 Please complete the `compute_cost` function using the equations below.
 
-Recall that for logistic regression, the cost function is of the form 
+Recall that for logistic regression, the cost function is of the form
 
 $$ J(\mathbf{w},b) = \frac{1}{m}\sum_{i=0}^{m-1} \left[ loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) \right] \tag{1}$$
 
@@ -288,11 +288,11 @@ where
 * m is the number of training examples in the dataset
 
 
-* $loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)})$ is the cost for a single data point, which is - 
+* $loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)})$ is the cost for a single data point, which is -
 
     $$loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) = (-y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) \tag{2}$$
-    
-    
+
+
 *  $f_{\mathbf{w},b}(\mathbf{x}^{(i)})$ is the model's prediction, while $y^{(i)}$, which is the actual label
 
 *  $f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = g(\mathbf{w} \cdot \mathbf{x^{(i)}} + b)$ where function $g$ is the sigmoid function.
@@ -307,7 +307,7 @@ If you get stuck, you can check out the hints presented after the cell below to 
 
 ```python
 def model_equation(x, w, b):
-    return np.dot(x,w) + b 
+    return np.dot(x,w) + b
 ```
 
 
@@ -325,79 +325,79 @@ def compute_cost(X, y, w, b, lambda_= 1):
     Computes the cost over all examples
     Args:
       X : (ndarray Shape (m,n)) data, m examples by n features
-      y : (array_like Shape (m,)) target value 
-      w : (array_like Shape (n,)) Values of parameters of the model      
+      y : (array_like Shape (m,)) target value
+      w : (array_like Shape (n,)) Values of parameters of the model
       b : scalar Values of bias parameter of the model
       lambda_: unused placeholder
     Returns:
-      total_cost: (scalar)         cost 
+      total_cost: (scalar)         cost
     """
 
     m, n = X.shape
 
     ### START CODE HERE ###
     total_cost  = sum(calc_error(sigmoid(model_equation(X[i], w, b)), y[i]) for i in range(m)) / m
-    ### END CODE HERE ### 
+    ### END CODE HERE ###
 
     return total_cost
 ```
 
 <details>
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-    
-    
+
+
    * You can represent a summation operator eg: $h = \sum\limits_{i = 0}^{m-1} 2i$ in code as follows:
-    ```python 
+    ```python
         h = 0
         for i in range(m):
             h = h + 2*i
     ```
-  
+
    * In this case, you can iterate over all the examples in `X` using a for loop and add the `loss` from each iteration to a variable (`loss_sum`) initialized outside the loop.
 
    * Then, you can return the `total_cost` as `loss_sum` divided by `m`.
-     
+
     <details>
           <summary><font size="2" color="darkblue"><b> Click for more hints</b></font></summary>
-        
+
     * Here's how you can structure the overall implementation for this function
-    ```python 
+    ```python
     def compute_cost(X, y, w, b, lambda_= 1):
         m, n = X.shape
-    
+
         ### START CODE HERE ###
-        loss_sum = 0 
-        
+        loss_sum = 0
+
         # Loop over each training example
-        for i in range(m): 
-            
+        for i in range(m):
+
             # First calculate z_wb = w[0]*X[i][0]+...+w[n-1]*X[i][n-1]+b
-            z_wb = 0 
+            z_wb = 0
             # Loop over each feature
-            for j in range(n): 
+            for j in range(n):
                 # Add the corresponding term to z_wb
                 z_wb_ij = # Your code here to calculate w[j] * X[i][j]
                 z_wb += z_wb_ij # equivalent to z_wb = z_wb + z_wb_ij
             # Add the bias term to z_wb
             z_wb += b # equivalent to z_wb = z_wb + b
-        
+
             f_wb = # Your code here to calculate prediction f_wb for a training example
             loss =  # Your code here to calculate loss for a training example
-            
+
             loss_sum += loss # equivalent to loss_sum = loss_sum + loss
-        
-        total_cost = (1 / m) * loss_sum  
-        ### END CODE HERE ### 
-        
+
+        total_cost = (1 / m) * loss_sum
+        ### END CODE HERE ###
+
         return total_cost
     ```
-    
+
     If you're still stuck, you can check the hints presented below to figure out how to calculate `z_wb_ij`, `f_wb` and `cost`.
     <details>
           <summary><font size="2" color="darkblue"><b>Hint to calculate z_wb_ij</b></font></summary>
            &emsp; &emsp; <code>z_wb_ij = w[j]*X[i][j] </code>
     </details>
-        
+
     <details>
           <summary><font size="2" color="darkblue"><b>Hint to calculate f_wb</b></font></summary>
            &emsp; &emsp; $f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = g(z_{\mathbf{w},b}(\mathbf{x}^{(i)}))$ where $g$ is the sigmoid function. You can simply call the `sigmoid` function implemented above.
@@ -415,7 +415,7 @@ def compute_cost(X, y, w, b, lambda_= 1):
               &emsp; &emsp; You can compute loss as <code>loss =  -y[i] * np.log(f_wb) - (1 - y[i]) * np.log(1 - f_wb)</code>
           </details>
     </details>
-        
+
     </details>
 
 </details>
@@ -440,7 +440,7 @@ print('Cost at initial w (zeros): {:.3f}'.format(cost))
 <table>
   <tr>
     <td> <b>Cost at initial w (zeros)<b></td>
-    <td> 0.693 </td> 
+    <td> 0.693 </td>
   </tr>
 </table>
 
@@ -467,7 +467,7 @@ compute_cost_test(compute_cost)
 <table>
   <tr>
     <td> <b>Cost at test w,b<b></td>
-    <td> 0.218 </td> 
+    <td> 0.218 </td>
   </tr>
 </table>
 
@@ -496,7 +496,7 @@ $$
 $$
 * m is the number of training examples in the dataset
 
-    
+
 *  $f_{\mathbf{w},b}(x^{(i)})$ is the model's prediction, while $y^{(i)}$ is the actual label
 
 
@@ -508,25 +508,25 @@ As before, you can use the sigmoid function that you implemented above and if yo
 ```python
 # UNQ_C3
 # GRADED FUNCTION: compute_gradient
-def compute_gradient(X, y, w, b, lambda_=None): 
+def compute_gradient(X, y, w, b, lambda_=None):
     """
-    Computes the gradient for logistic regression 
- 
+    Computes the gradient for logistic regression
+
     Args:
-      X : (ndarray Shape (m,n)) variable such as house size 
-      y : (array_like Shape (m,1)) actual value 
-      w : (array_like Shape (n,1)) values of parameters of the model      
-      b : (scalar)                 value of parameter of the model 
+      X : (ndarray Shape (m,n)) variable such as house size
+      y : (array_like Shape (m,1)) actual value
+      w : (array_like Shape (n,1)) values of parameters of the model
+      b : (scalar)                 value of parameter of the model
       lambda_: unused placeholder.
     Returns
-      dj_dw: (array_like Shape (n,1)) The gradient of the cost w.r.t. the parameters w. 
-      dj_db: (scalar)                The gradient of the cost w.r.t. the parameter b. 
+      dj_dw: (array_like Shape (n,1)) The gradient of the cost w.r.t. the parameters w.
+      dj_db: (scalar)                The gradient of the cost w.r.t. the parameter b.
     """
     m, n = X.shape
     dj_dw = np.zeros(w.shape)
     dj_db = 0.
 
-    ### START CODE HERE ### 
+    ### START CODE HERE ###
     for i in range(m):
         f_wb_i = sigmoid(np.dot(X[i],w) + b)          #(n,)(n,)=scalar
         err_i  = f_wb_i  - y[i]                       #scalar
@@ -535,51 +535,51 @@ def compute_gradient(X, y, w, b, lambda_=None):
         dj_db = dj_db + err_i
     dj_dw = dj_dw/m                                   #(n,)
     dj_db = dj_db/m                                   #scalar
-        
-    return dj_db, dj_dw 
+
+    return dj_db, dj_dw
     ### END CODE HERE ###
-        
+
     return dj_db, dj_dw
 ```
 
  <details>
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-    
-    
+
+
 * Here's how you can structure the overall implementation for this function
-    ```python 
-       def compute_gradient(X, y, w, b, lambda_=None): 
+    ```python
+       def compute_gradient(X, y, w, b, lambda_=None):
             m, n = X.shape
             dj_dw = np.zeros(w.shape)
             dj_db = 0.
-        
-            ### START CODE HERE ### 
+
+            ### START CODE HERE ###
             for i in range(m):
                 # Calculate f_wb (exactly as you did in the compute_cost function above)
-                f_wb = 
-        
+                f_wb =
+
                 # Calculate the  gradient for b from this example
                 dj_db_i = # Your code here to calculate the error
-        
+
                 # add that to dj_db
                 dj_db += dj_db_i
-        
+
                 # get dj_dw for each attribute
                 for j in range(n):
                     # You code here to calculate the gradient from the i-th example for j-th attribute
-                    dj_dw_ij =  
+                    dj_dw_ij =
                     dj_dw[j] += dj_dw_ij
-        
+
             # divide dj_db and dj_dw by total number of examples
             dj_dw = dj_dw / m
             dj_db = dj_db / m
             ### END CODE HERE ###
-       
+
             return dj_db, dj_dw
     ```
-  
-    If you're still stuck, you can check the hints presented below to figure out how to calculate `f_wb`, `dj_db_i` and `dj_dw_ij` 
-    
+
+    If you're still stuck, you can check the hints presented below to figure out how to calculate `f_wb`, `dj_db_i` and `dj_dw_ij`
+
     <details>
           <summary><font size="2" color="darkblue"><b>Hint to calculate f_wb</b></font></summary>
            &emsp; &emsp; Recall that you calculated f_wb in <code>compute_cost</code> above — for detailed hints on how to calculate each intermediate term, check out the hints section below that exercise
@@ -587,28 +587,28 @@ def compute_gradient(X, y, w, b, lambda_=None):
               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate f_wb</b></font></summary>
               &emsp; &emsp; You can calculate f_wb as
                <pre>
-               for i in range(m):   
+               for i in range(m):
                    # Calculate f_wb (exactly how you did it in the compute_cost function above)
                    z_wb = 0
                    # Loop over each feature
-                   for j in range(n): 
+                   for j in range(n):
                        # Add the corresponding term to z_wb
                        z_wb_ij = X[i, j] * w[j]
                        z_wb += z_wb_ij
-            
-                   # Add bias term 
+
+                   # Add bias term
                    z_wb += b
-        
+
                    # Calculate the prediction from the model
                    f_wb = sigmoid(z_wb)
     </details>
-        
+
     </details>
     <details>
           <summary><font size="2" color="darkblue"><b>Hint to calculate dj_db_i</b></font></summary>
            &emsp; &emsp; You can calculate dj_db_i as <code>dj_db_i = f_wb - y[i]</code>
     </details>
-        
+
     <details>
           <summary><font size="2" color="darkblue"><b>Hint to calculate dj_dw_ij</b></font></summary>
         &emsp; &emsp; You can calculate dj_dw_ij as <code>dj_dw_ij = (f_wb - y[i])* X[i][j]</code>
@@ -637,11 +637,11 @@ print(f'dj_dw at initial w (zeros):{dj_dw.tolist()}' )
 <table>
   <tr>
     <td> <b>dj_db at initial w (zeros)<b></td>
-    <td> -0.1 </td> 
+    <td> -0.1 </td>
   </tr>
   <tr>
     <td> <b>ddj_dw at initial w (zeros):<b></td>
-    <td> [-12.00921658929115, -11.262842205513591] </td> 
+    <td> [-12.00921658929115, -11.262842205513591] </td>
   </tr>
 </table>
 
@@ -655,7 +655,7 @@ dj_db, dj_dw  = compute_gradient(X_train, y_train, test_w, test_b)
 print('dj_db at test_w:', dj_db)
 print('dj_dw at test_w:', dj_dw.tolist())
 
-# UNIT TESTS    
+# UNIT TESTS
 compute_gradient_test(compute_gradient)
 
 ```
@@ -669,32 +669,32 @@ compute_gradient_test(compute_gradient)
 <table>
   <tr>
     <td> <b>dj_db at initial w (zeros)<b></td>
-    <td> -0.5999999999991071 </td> 
+    <td> -0.5999999999991071 </td>
   </tr>
   <tr>
     <td> <b>ddj_dw at initial w (zeros):<b></td>
-    <td>  [-44.8313536178737957, -44.37384124953978] </td> 
+    <td>  [-44.8313536178737957, -44.37384124953978] </td>
   </tr>
 </table>
 
 <a name="2.6"></a>
-### 2.6 Learning parameters using gradient descent 
+### 2.6 Learning parameters using gradient descent
 
-Similar to the previous assignment, you will now find the optimal parameters of a logistic regression model by using gradient descent. 
-- You don't need to implement anything for this part. Simply run the cells below. 
+Similar to the previous assignment, you will now find the optimal parameters of a logistic regression model by using gradient descent.
+- You don't need to implement anything for this part. Simply run the cells below.
 
 - A good way to verify that gradient descent is working correctly is to look
-at the value of $J(\mathbf{w},b)$ and check that it is decreasing with each step. 
+at the value of $J(\mathbf{w},b)$ and check that it is decreasing with each step.
 
 - Assuming you have implemented the gradient and computed the cost correctly, your value of $J(\mathbf{w},b)$ should never increase, and should converge to a steady value by the end of the algorithm.
 
 
 ```python
-def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters, lambda_): 
+def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters, lambda_):
     """
-    Performs batch gradient descent to learn theta. Updates theta by taking 
+    Performs batch gradient descent to learn theta. Updates theta by taking
     num_iters gradient steps with learning rate alpha
-    
+
     Args:
       X :    (array_like Shape (m, n)
       y :    (array_like Shape (m,))
@@ -704,32 +704,32 @@ def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, 
       alpha : (float)                 Learning rate
       num_iters : (int)               number of iterations to run gradient descent
       lambda_ (scalar, float)         regularization constant
-      
+
     Returns:
       w : (array_like Shape (n,)) Updated values of parameters of the model after
           running gradient descent
       b : (scalar)                Updated value of parameter of the model after
           running gradient descent
     """
-    
+
     # number of training examples
     m = len(X)
-    
+
     # An array to store cost J and w's at each iteration primarily for graphing later
     J_history = []
     w_history = []
-    
+
     for i in range(num_iters):
 
         # Calculate the gradient and update the parameters
-        dj_db, dj_dw = gradient_function(X, y, w_in, b_in, lambda_)   
+        dj_db, dj_dw = gradient_function(X, y, w_in, b_in, lambda_)
 
         # Update Parameters using w, b, alpha and gradient
-        w_in = w_in - alpha * dj_dw               
-        b_in = b_in - alpha * dj_db              
-       
+        w_in = w_in - alpha * dj_dw
+        b_in = b_in - alpha * dj_db
+
         # Save cost J at each iteration
-        if i<100000:      # prevent resource exhaustion 
+        if i<100000:      # prevent resource exhaustion
             cost =  cost_function(X, y, w_in, b_in, lambda_)
             J_history.append(cost)
 
@@ -737,7 +737,7 @@ def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, 
         if i% math.ceil(num_iters/10) == 0 or i == (num_iters-1):
             w_history.append(w_in)
             print(f"Iteration {i:4}: Cost {float(J_history[-1]):8.2f}   ")
-        
+
     return w_in, b_in, J_history, w_history #return w and J,w history for graphing
 ```
 
@@ -758,21 +758,21 @@ initial_b = -8
 iterations = 10000
 alpha = 0.001
 
-w,b, J_history,_ = gradient_descent(X_train ,y_train, initial_w, initial_b, 
+w,b, J_history,_ = gradient_descent(X_train ,y_train, initial_w, initial_b,
                                    compute_cost, compute_gradient, alpha, iterations, 0)
 ```
 
-    Iteration    0: Cost     1.01   
-    Iteration 1000: Cost     0.31   
-    Iteration 2000: Cost     0.30   
-    Iteration 3000: Cost     0.30   
-    Iteration 4000: Cost     0.30   
-    Iteration 5000: Cost     0.30   
-    Iteration 6000: Cost     0.30   
-    Iteration 7000: Cost     0.30   
-    Iteration 8000: Cost     0.30   
-    Iteration 9000: Cost     0.30   
-    Iteration 9999: Cost     0.30   
+    Iteration    0: Cost     1.01
+    Iteration 1000: Cost     0.31
+    Iteration 2000: Cost     0.30
+    Iteration 3000: Cost     0.30
+    Iteration 4000: Cost     0.30
+    Iteration 5000: Cost     0.30
+    Iteration 6000: Cost     0.30
+    Iteration 7000: Cost     0.30
+    Iteration 8000: Cost     0.30
+    Iteration 9000: Cost     0.30
+    Iteration 9999: Cost     0.30
 
 
 <details>
@@ -789,23 +789,23 @@ w,b, J_history,_ = gradient_descent(X_train ,y_train, initial_w, initial_b,
     #
 
 ```
-Iteration    0: Cost     1.01   
-Iteration 1000: Cost     0.31   
-Iteration 2000: Cost     0.30   
-Iteration 3000: Cost     0.30   
-Iteration 4000: Cost     0.30   
-Iteration 5000: Cost     0.30   
-Iteration 6000: Cost     0.30   
-Iteration 7000: Cost     0.30   
-Iteration 8000: Cost     0.30   
-Iteration 9000: Cost     0.30   
-Iteration 9999: Cost     0.30   
+Iteration    0: Cost     1.01
+Iteration 1000: Cost     0.31
+Iteration 2000: Cost     0.30
+Iteration 3000: Cost     0.30
+Iteration 4000: Cost     0.30
+Iteration 5000: Cost     0.30
+Iteration 6000: Cost     0.30
+Iteration 7000: Cost     0.30
+Iteration 8000: Cost     0.30
+Iteration 9000: Cost     0.30
+Iteration 9999: Cost     0.30
 ```
 
 <a name="2.7"></a>
 ### 2.7 Plotting the decision boundary
 
-We will now use the final parameters from gradient descent to plot the linear fit. If you implemented the previous parts correctly, you should see the following plot:   
+We will now use the final parameters from gradient descent to plot the linear fit. If you implemented the previous parts correctly, you should see the following plot:
 <img src="images/figure 2.png"  width="450" height="450">
 
 We will use a helper function in the `utils.py` file to create this plot.
@@ -822,7 +822,7 @@ plot_decision_boundary(w, b, X_train, y_train)
 <a name="2.8"></a>
 ### 2.8 Evaluating logistic regression
 
-We can evaluate the quality of the parameters we have found by seeing how well the learned model predicts on our training set. 
+We can evaluate the quality of the parameters we have found by seeing how well the learned model predicts on our training set.
 
 You will implement the `predict` function below to do this.
 
@@ -831,15 +831,15 @@ You will implement the `predict` function below to do this.
 ### Exercise 4
 
 Please complete the `predict` function to produce `1` or `0` predictions given a dataset and a learned parameter vector $w$ and $b$.
-- First you need to compute the prediction from the model $f(x^{(i)}) = g(w \cdot x^{(i)})$ for every example 
+- First you need to compute the prediction from the model $f(x^{(i)}) = g(w \cdot x^{(i)})$ for every example
     - You've implemented this before in the parts above
 - We interpret the output of the model ($f(x^{(i)})$) as the probability that $y^{(i)}=1$ given $x^{(i)}$ and parameterized by $w$.
 - Therefore, to get a final prediction ($y^{(i)}=0$ or $y^{(i)}=1$) from the logistic regression model, you can use the following heuristic -
 
   if $f(x^{(i)}) >= 0.5$, predict $y^{(i)}=1$
-  
+
   if $f(x^{(i)}) < 0.5$, predict $y^{(i)}=0$
-    
+
 If you get stuck, you can check out the hints presented after the cell below to help you with the implementation.
 
 
@@ -847,11 +847,11 @@ If you get stuck, you can check out the hints presented after the cell below to 
 # UNQ_C4
 # GRADED FUNCTION: predict
 
-def predict(X, w, b): 
+def predict(X, w, b):
     """
     Predict whether the label is 0 or 1 using learned logistic
     regression parameters w
-    
+
     Args:
     X : (ndarray Shape (m, n))
     w : (array_like Shape (n,))      Parameters of the model
@@ -862,48 +862,48 @@ def predict(X, w, b):
         The predictions for X using a threshold at 0.5
     """
     # number of training examples
-    m, n = X.shape   
+    m, n = X.shape
     p = np.zeros(m)
-   
-    ### START CODE HERE ### 
+
+    ### START CODE HERE ###
     # Loop over each example
-    for i in range(m):   
+    for i in range(m):
         z_wb = sigmoid(np.dot(X[i],w) + b)
         # Apply the threshold
         p[i] = 0 if z_wb < 0.5 else 1
-        
-    ### END CODE HERE ### 
+
+    ### END CODE HERE ###
     return p
 ```
 
 <details>
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-    
-    
-* Here's how you can structure the overall implementation for this function
-    ```python 
-       def predict(X, w, b): 
-            # number of training examples
-            m, n = X.shape   
-            p = np.zeros(m)
-   
-            ### START CODE HERE ### 
-            # Loop over each example
-            for i in range(m):   
-                
-                # Calculate f_wb (exactly how you did it in the compute_cost function above) 
-                # using a couple of lines of code
-                f_wb = 
 
-                # Calculate the prediction for that training example 
+
+* Here's how you can structure the overall implementation for this function
+    ```python
+       def predict(X, w, b):
+            # number of training examples
+            m, n = X.shape
+            p = np.zeros(m)
+
+            ### START CODE HERE ###
+            # Loop over each example
+            for i in range(m):
+
+                # Calculate f_wb (exactly how you did it in the compute_cost function above)
+                # using a couple of lines of code
+                f_wb =
+
+                # Calculate the prediction for that training example
                 p[i] = # Your code here to calculate the prediction based on f_wb
-        
-            ### END CODE HERE ### 
+
+            ### END CODE HERE ###
             return p
     ```
-  
-    If you're still stuck, you can check the hints presented below to figure out how to calculate `f_wb` and `p[i]` 
-    
+
+    If you're still stuck, you can check the hints presented below to figure out how to calculate `f_wb` and `p[i]`
+
     <details>
           <summary><font size="2" color="darkblue"><b>Hint to calculate f_wb</b></font></summary>
            &emsp; &emsp; Recall that you calculated f_wb in <code>compute_cost</code> above — for detailed hints on how to calculate each intermediate term, check out the hints section below that exercise
@@ -911,26 +911,26 @@ def predict(X, w, b):
               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate f_wb</b></font></summary>
               &emsp; &emsp; You can calculate f_wb as
                <pre>
-               for i in range(m):   
+               for i in range(m):
                    # Calculate f_wb (exactly how you did it in the compute_cost function above)
                    z_wb = 0
                    # Loop over each feature
-                   for j in range(n): 
+                   for j in range(n):
                        # Add the corresponding term to z_wb
                        z_wb_ij = X[i, j] * w[j]
                        z_wb += z_wb_ij
-            
-                   # Add bias term 
+
+                   # Add bias term
                    z_wb += b
-        
+
                    # Calculate the prediction from the model
                    f_wb = sigmoid(z_wb)
     </details>
-        
+
     </details>
     <details>
           <summary><font size="2" color="darkblue"><b>Hint to calculate p[i]</b></font></summary>
-           &emsp; &emsp; As an example, if you'd like to say x = 1 if y is less than 3 and 0 otherwise, you can express it in code as <code>x = y < 3 </code>. Now do the same for p[i] = 1 if f_wb >= 0.5 and 0 otherwise. 
+           &emsp; &emsp; As an example, if you'd like to say x = 1 if y is less than 3 and 0 otherwise, you can express it in code as <code>x = y < 3 </code>. Now do the same for p[i] = 1 if f_wb >= 0.5 and 0 otherwise.
            <details>
               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate p[i]</b></font></summary>
               &emsp; &emsp; You can compute p[i] as <code>p[i] = f_wb >= 0.5</code>
@@ -946,13 +946,13 @@ Once you have completed the function `predict`, let's run the code below to repo
 # Test your predict code
 np.random.seed(1)
 tmp_w = np.random.randn(2)
-tmp_b = 0.3    
+tmp_b = 0.3
 tmp_X = np.random.randn(4, 2) - 0.5
 
 tmp_p = predict(tmp_X, tmp_w, tmp_b)
 print(f'Output of predict: shape {tmp_p.shape}, value {tmp_p}')
 
-# UNIT TESTS        
+# UNIT TESTS
 predict_test(predict)
 ```
 
@@ -960,7 +960,7 @@ predict_test(predict)
     [92mAll tests passed!
 
 
-**Expected output** 
+**Expected output**
 
 <table>
   <tr>
@@ -983,32 +983,32 @@ print('Train Accuracy: %f'%(np.mean(p == y_train) * 100))
 <table>
   <tr>
     <td> <b>Train Accuracy (approx):<b></td>
-    <td> 92.00 </td> 
+    <td> 92.00 </td>
   </tr>
 </table>
 
 <a name="3"></a>
 ## 3 - Regularized Logistic Regression
 
-In this part of the exercise, you will implement regularized logistic regression to predict whether microchips from a fabrication plant passes quality assurance (QA). During QA, each microchip goes through various tests to ensure it is functioning correctly. 
+In this part of the exercise, you will implement regularized logistic regression to predict whether microchips from a fabrication plant passes quality assurance (QA). During QA, each microchip goes through various tests to ensure it is functioning correctly.
 
 <a name="3.1"></a>
 ### 3.1 Problem Statement
 
-Suppose you are the product manager of the factory and you have the test results for some microchips on two different tests. 
-- From these two tests, you would like to determine whether the microchips should be accepted or rejected. 
+Suppose you are the product manager of the factory and you have the test results for some microchips on two different tests.
+- From these two tests, you would like to determine whether the microchips should be accepted or rejected.
 - To help you make the decision, you have a dataset of test results on past microchips, from which you can build a logistic regression model.
 
 <a name="3.2"></a>
 ### 3.2 Loading and visualizing the data
 
-Similar to previous parts of this exercise, let's start by loading the dataset for this task and visualizing it. 
+Similar to previous parts of this exercise, let's start by loading the dataset for this task and visualizing it.
 
 - The `load_dataset()` function shown below loads the data into variables `X_train` and `y_train`
   - `X_train` contains the test results for the microchips from two tests
-  - `y_train` contains the results of the QA  
-      - `y_train = 1` if the microchip was accepted 
-      - `y_train = 0` if the microchip was rejected 
+  - `y_train` contains the results of the QA
+      - `y_train = 1` if the microchip was accepted
+      - `y_train = 0` if the microchip was rejected
   - Both `X_train` and `y_train` are numpy arrays.
 
 
@@ -1071,9 +1071,9 @@ The helper function `plot_data` (from `utils.py`) is used to generate a figure l
 plot_data(X_train, y_train[:], pos_label="Accepted", neg_label="Rejected")
 
 # Set the y-axis label
-plt.ylabel('Microchip Test 2') 
+plt.ylabel('Microchip Test 2')
 # Set the x-axis label
-plt.xlabel('Microchip Test 1') 
+plt.xlabel('Microchip Test 1')
 plt.legend(loc="upper right")
 plt.show()
 ```
@@ -1090,7 +1090,7 @@ Figure 3 shows that our dataset cannot be separated into positive and negative e
 
 One way to fit the data better is to create more features from each data point. In the provided function `map_feature`, we will map the features into all polynomial terms of $x_1$ and $x_2$ up to the sixth power.
 
-$$\mathrm{map\_feature}(x) = 
+$$\mathrm{map\_feature}(x) =
 \left[\begin{array}{c}
 x_1\\
 x_2\\
@@ -1102,10 +1102,10 @@ x_1^3\\
 x_1 x_2^5\\
 x_2^6\end{array}\right]$$
 
-As a result of this mapping, our vector of two features (the scores on two QA tests) has been transformed into a 27-dimensional vector. 
+As a result of this mapping, our vector of two features (the scores on two QA tests) has been transformed into a 27-dimensional vector.
 
-- A logistic regression classifier trained on this higher-dimension feature vector will have a more complex decision boundary and will be nonlinear when drawn in our 2-dimensional plot. 
-- We have provided the `map_feature` function for you in utils.py. 
+- A logistic regression classifier trained on this higher-dimension feature vector will have a more complex decision boundary and will be nonlinear when drawn in our 2-dimensional plot.
+- We have provided the `map_feature` function for you in utils.py.
 
 
 ```python
@@ -1147,17 +1147,17 @@ In this part, you will implement the cost function for regularized logistic regr
 Recall that for regularized logistic regression, the cost function is of the form
 $$J(\mathbf{w},b) = \frac{1}{m}  \sum_{i=0}^{m-1} \left[ -y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) \right] + \frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2$$
 
-Compare this to the cost function without regularization (which you implemented above), which is of the form 
+Compare this to the cost function without regularization (which you implemented above), which is of the form
 
 $$ J(\mathbf{w}.b) = \frac{1}{m}\sum_{i=0}^{m-1} \left[ (-y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right)\right]$$
 
-The difference is the regularization term, which is $$\frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2$$ 
+The difference is the regularization term, which is $$\frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2$$
 Note that the $b$ parameter is not regularized.
 
 <a name='ex-05'></a>
 ### Exercise 5
 
-Please complete the `compute_cost_reg` function below to calculate the following term for each element in $w$ 
+Please complete the `compute_cost_reg` function below to calculate the following term for each element in $w$
 $$\frac{\lambda}{2m}  \sum_{j=0}^{n-1} w_j^2$$
 
 The starter code then adds this to the cost without regularization (which you computed above in `compute_cost`) to calculate the cost with regulatization.
@@ -1172,26 +1172,26 @@ def compute_cost_reg(X, y, w, b, lambda_ = 1):
     Computes the cost over all examples
     Args:
       X : (array_like Shape (m,n)) data, m examples by n features
-      y : (array_like Shape (m,)) target value 
-      w : (array_like Shape (n,)) Values of parameters of the model      
+      y : (array_like Shape (m,)) target value
+      w : (array_like Shape (n,)) Values of parameters of the model
       b : (array_like Shape (n,)) Values of bias parameter of the model
       lambda_ : (scalar, float)    Controls amount of regularization
     Returns:
-      total_cost: (scalar)         cost 
+      total_cost: (scalar)         cost
     """
 
     m, n = X.shape
-    
+
     # Calls the compute_cost function that you implemented above
-    cost_without_reg = compute_cost(X, y, w, b) 
-    
+    cost_without_reg = compute_cost(X, y, w, b)
+
     # You need to calculate this value
     reg_cost = 0.
-    
+
     ### START CODE HERE ###
     reg_cost = sum((w[j]**2) for j in range(n))
-    ### END CODE HERE ### 
-    
+    ### END CODE HERE ###
+
     # Add the regularization cost to get the total cost
     total_cost = cost_without_reg + (lambda_/(2 * m)) * reg_cost
 
@@ -1200,45 +1200,45 @@ def compute_cost_reg(X, y, w, b, lambda_ = 1):
 
 <details>
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-    
-    
+
+
 * Here's how you can structure the overall implementation for this function
-    ```python 
+    ```python
        def compute_cost_reg(X, y, w, b, lambda_ = 1):
-   
+
            m, n = X.shape
-    
+
             # Calls the compute_cost function that you implemented above
-            cost_without_reg = compute_cost(X, y, w, b) 
-    
+            cost_without_reg = compute_cost(X, y, w, b)
+
             # You need to calculate this value
             reg_cost = 0.
-    
+
             ### START CODE HERE ###
             for j in range(n):
                 reg_cost_j = # Your code here to calculate the cost from w[j]
                 reg_cost = reg_cost + reg_cost_j
 
-            ### END CODE HERE ### 
-    
+            ### END CODE HERE ###
+
             # Add the regularization cost to get the total cost
             total_cost = cost_without_reg + (lambda_/(2 * m)) * reg_cost
 
         return total_cost
     ```
-  
-    If you're still stuck, you can check the hints presented below to figure out how to calculate `reg_cost_j` 
-    
+
+    If you're still stuck, you can check the hints presented below to figure out how to calculate `reg_cost_j`
+
     <details>
           <summary><font size="2" color="darkblue"><b>Hint to calculate reg_cost_j</b></font></summary>
-           &emsp; &emsp; You can use calculate reg_cost_j as <code>reg_cost_j = w[j]**2 </code> 
+           &emsp; &emsp; You can use calculate reg_cost_j as <code>reg_cost_j = w[j]**2 </code>
     </details>
-        
+
     </details>
 
 </details>
 
-    
+
 
 Run the cell below to check your implementation of the `compute_cost_reg` function.
 
@@ -1253,7 +1253,7 @@ cost = compute_cost_reg(X_mapped, y_train, initial_w, initial_b, lambda_)
 
 print("Regularized cost :", cost)
 
-# UNIT TEST    
+# UNIT TEST
 compute_cost_reg_test(compute_cost_reg)
 
 ```
@@ -1266,7 +1266,7 @@ compute_cost_reg_test(compute_cost_reg)
 <table>
   <tr>
     <td> <b>Regularized cost : <b></td>
-    <td> 0.6618252552483948 </td> 
+    <td> 0.6618252552483948 </td>
   </tr>
 </table>
 
@@ -1282,7 +1282,7 @@ $$\frac{\partial J(\mathbf{w},b)}{\partial b} = \frac{1}{m}  \sum_{i=0}^{m-1} (f
 
 $$\frac{\partial J(\mathbf{w},b)}{\partial w_j} = \left( \frac{1}{m}  \sum_{i=0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)}) x_j^{(i)} \right) + \frac{\lambda}{m} w_j  \quad\, \mbox{for $j=0...(n-1)$}$$
 
-Compare this to the gradient of the cost function without regularization (which you implemented above), which is of the form 
+Compare this to the gradient of the cost function without regularization (which you implemented above), which is of the form
 $$
 \frac{\partial J(\mathbf{w},b)}{\partial b}  = \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - \mathbf{y}^{(i)}) \tag{2}
 $$
@@ -1291,7 +1291,7 @@ $$
 $$
 
 
-As you can see,$\frac{\partial J(\mathbf{w},b)}{\partial b}$ is the same, the difference is the following term in $\frac{\partial J(\mathbf{w},b)}{\partial w}$, which is $$\frac{\lambda}{m} w_j  \quad\, \mbox{for $j=0...(n-1)$}$$ 
+As you can see,$\frac{\partial J(\mathbf{w},b)}{\partial b}$ is the same, the difference is the following term in $\frac{\partial J(\mathbf{w},b)}{\partial w}$, which is $$\frac{\lambda}{m} w_j  \quad\, \mbox{for $j=0...(n-1)$}$$
 
 
 
@@ -1312,70 +1312,70 @@ If you get stuck, you can check out the hints presented after the cell below to 
 
 ```python
 # UNQ_C6
-def compute_gradient_reg(X, y, w, b, lambda_ = 1): 
+def compute_gradient_reg(X, y, w, b, lambda_ = 1):
     """
-    Computes the gradient for linear regression 
- 
+    Computes the gradient for linear regression
+
     Args:
-      X : (ndarray Shape (m,n))   variable such as house size 
-      y : (ndarray Shape (m,))    actual value 
-      w : (ndarray Shape (n,))    values of parameters of the model      
-      b : (scalar)                value of parameter of the model  
+      X : (ndarray Shape (m,n))   variable such as house size
+      y : (ndarray Shape (m,))    actual value
+      w : (ndarray Shape (n,))    values of parameters of the model
+      b : (scalar)                value of parameter of the model
       lambda_ : (scalar,float)    regularization constant
     Returns
-      dj_db: (scalar)             The gradient of the cost w.r.t. the parameter b. 
-      dj_dw: (ndarray Shape (n,)) The gradient of the cost w.r.t. the parameters w. 
+      dj_db: (scalar)             The gradient of the cost w.r.t. the parameter b.
+      dj_dw: (ndarray Shape (n,)) The gradient of the cost w.r.t. the parameters w.
 
     """
     m, n = X.shape
-    
+
     dj_db, dj_dw = compute_gradient(X, y, w, b)
 
-    ### START CODE HERE ###     
+    ### START CODE HERE ###
     for j in range(n):
         dj_dw[j] = dj_dw[j] + (lambda_/m) * w[j]
-    ### END CODE HERE ###         
-        
+    ### END CODE HERE ###
+
     return dj_db, dj_dw
 ```
 
 <details>
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-    
-    
+
+
 * Here's how you can structure the overall implementation for this function
-    ```python 
-    def compute_gradient_reg(X, y, w, b, lambda_ = 1): 
+    ```python
+    def compute_gradient_reg(X, y, w, b, lambda_ = 1):
         m, n = X.shape
-    
+
         dj_db, dj_dw = compute_gradient(X, y, w, b)
 
-        ### START CODE HERE ###     
+        ### START CODE HERE ###
         # Loop over the elements of w
-        for j in range(n): 
-            
+        for j in range(n):
+
             dj_dw_j_reg = # Your code here to calculate the regularization term for dj_dw[j]
-            
+
             # Add the regularization term  to the correspoding element of dj_dw
             dj_dw[j] = dj_dw[j] + dj_dw_j_reg
-        
-        ### END CODE HERE ###         
-        
+
+        ### END CODE HERE ###
+
         return dj_db, dj_dw
     ```
-  
-    If you're still stuck, you can check the hints presented below to figure out how to calculate `dj_dw_j_reg` 
-    
+
+    If you're still stuck, you can check the hints presented below to figure out how to calculate `dj_dw_j_reg`
+
     <details>
           <summary><font size="2" color="darkblue"><b>Hint to calculate dj_dw_j_reg</b></font></summary>
-           &emsp; &emsp; You can use calculate dj_dw_j_reg as <code>dj_dw_j_reg = (lambda_ / m) * w[j] </code> 
+           &emsp; &emsp; You can use calculate dj_dw_j_reg as <code>dj_dw_j_reg = (lambda_ / m) * w[j] </code>
     </details>
-        
+
     </details>
 
 </details>
 
-    
+
 
 
 Run the cell below to check your implementation of the `compute_gradient_reg` function.
@@ -1383,17 +1383,17 @@ Run the cell below to check your implementation of the `compute_gradient_reg` fu
 
 ```python
 X_mapped = map_feature(X_train[:, 0], X_train[:, 1])
-np.random.seed(1) 
-initial_w  = np.random.rand(X_mapped.shape[1]) - 0.5 
+np.random.seed(1)
+initial_w  = np.random.rand(X_mapped.shape[1]) - 0.5
 initial_b = 0.5
- 
+
 lambda_ = 0.5
 dj_db, dj_dw = compute_gradient_reg(X_mapped, y_train, initial_w, initial_b, lambda_)
 
 print(f"dj_db: {dj_db}", )
 print(f"First few elements of regularized dj_dw:\n {dj_dw[:4].tolist()}", )
 
-# UNIT TESTS    
+# UNIT TESTS
 compute_gradient_reg_test(compute_gradient_reg)
 
 ```
@@ -1411,16 +1411,16 @@ compute_gradient_reg_test(compute_gradient_reg)
   <tr>
       <td> <b> First few elements of regularized dj_dw:</b> </td> </tr>
    <tr>
-   <td> [[-0.010386028450548701], [0.01140985288328012], [0.0536273463274574], [0.003140278267313462]] </td> 
+   <td> [[-0.010386028450548701], [0.01140985288328012], [0.0536273463274574], [0.003140278267313462]] </td>
   </tr>
 </table>
 
 <a name="3.6"></a>
 ### 3.6 Learning parameters using gradient descent
 
-Similar to the previous parts, you will use your gradient descent function implemented above to learn the optimal parameters $w$,$b$. 
-- If you have completed the cost and gradient for regularized logistic regression correctly, you should be able to step through the next cell to learn the parameters $w$. 
-- After training our parameters, we will use it to plot the decision boundary. 
+Similar to the previous parts, you will use your gradient descent function implemented above to learn the optimal parameters $w$,$b$.
+- If you have completed the cost and gradient for regularized logistic regression correctly, you should be able to step through the next cell to learn the parameters $w$.
+- After training our parameters, we will use it to plot the decision boundary.
 
 **Note**
 
@@ -1434,27 +1434,27 @@ initial_w = np.random.rand(X_mapped.shape[1])-0.5
 initial_b = 1.
 
 # Set regularization parameter lambda_ to 1 (you can try varying this)
-lambda_ = 0.01;                                          
+lambda_ = 0.01;
 # Some gradient descent settings
 iterations = 10000
 alpha = 0.01
 
-w,b, J_history,_ = gradient_descent(X_mapped, y_train, initial_w, initial_b, 
-                                    compute_cost_reg, compute_gradient_reg, 
+w,b, J_history,_ = gradient_descent(X_mapped, y_train, initial_w, initial_b,
+                                    compute_cost_reg, compute_gradient_reg,
                                     alpha, iterations, lambda_)
 ```
 
-    Iteration    0: Cost     0.72   
-    Iteration 1000: Cost     0.59   
-    Iteration 2000: Cost     0.56   
-    Iteration 3000: Cost     0.53   
-    Iteration 4000: Cost     0.51   
-    Iteration 5000: Cost     0.50   
-    Iteration 6000: Cost     0.48   
-    Iteration 7000: Cost     0.47   
-    Iteration 8000: Cost     0.46   
-    Iteration 9000: Cost     0.45   
-    Iteration 9999: Cost     0.45   
+    Iteration    0: Cost     0.72
+    Iteration 1000: Cost     0.59
+    Iteration 2000: Cost     0.56
+    Iteration 3000: Cost     0.53
+    Iteration 4000: Cost     0.51
+    Iteration 5000: Cost     0.50
+    Iteration 6000: Cost     0.48
+    Iteration 7000: Cost     0.47
+    Iteration 8000: Cost     0.46
+    Iteration 9000: Cost     0.45
+    Iteration 9999: Cost     0.45
 
 
 <details>
@@ -1467,26 +1467,26 @@ w,b, J_history,_ = gradient_descent(X_mapped, y_train, initial_w, initial_b,
 #np.random.seed(1)
 #initial_w = np.random.rand(X_mapped.shape[1])-0.5
 #initial_b = 1.
-#lambda_ = 0.01;                                          
+#lambda_ = 0.01;
 #iterations = 10000
 #alpha = 0.01
-Iteration    0: Cost     0.72   
-Iteration 1000: Cost     0.59   
-Iteration 2000: Cost     0.56   
-Iteration 3000: Cost     0.53   
-Iteration 4000: Cost     0.51   
-Iteration 5000: Cost     0.50   
-Iteration 6000: Cost     0.48   
-Iteration 7000: Cost     0.47   
-Iteration 8000: Cost     0.46   
-Iteration 9000: Cost     0.45   
-Iteration 9999: Cost     0.45       
-    
+Iteration    0: Cost     0.72
+Iteration 1000: Cost     0.59
+Iteration 2000: Cost     0.56
+Iteration 3000: Cost     0.53
+Iteration 4000: Cost     0.51
+Iteration 5000: Cost     0.50
+Iteration 6000: Cost     0.48
+Iteration 7000: Cost     0.47
+Iteration 8000: Cost     0.46
+Iteration 9000: Cost     0.45
+Iteration 9999: Cost     0.45
+
 ```
 
 <a name="3.7"></a>
 ### 3.7 Plotting the decision boundary
-To help you visualize the model learned by this classifier, we will use our `plot_decision_boundary` function which plots the (non-linear) decision boundary that separates the positive and negative examples. 
+To help you visualize the model learned by this classifier, we will use our `plot_decision_boundary` function which plots the (non-linear) decision boundary that separates the positive and negative examples.
 
 - In the function, we plotted the non-linear decision boundary by computing the classifier’s predictions on an evenly spaced grid and then drew a contour plot of where the predictions change from y = 0 to y = 1.
 

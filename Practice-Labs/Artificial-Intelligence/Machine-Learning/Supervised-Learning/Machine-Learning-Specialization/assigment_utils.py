@@ -1,6 +1,6 @@
 """
 assignment_utils.py
-contains routines used by C2_W3 Assignments 
+contains routines used by C2_W3 Assignments
 """
 import copy
 import math
@@ -51,7 +51,7 @@ class lin_model:
             self.linear_model = LinearRegression()
         self.poly = PolynomialFeatures(degree, include_bias=False)
         self.scaler = StandardScaler()
-        
+
     def fit(self, X_train,y_train):
         ''' just fits the data. mapping and scaling are not repeated '''
         X_train_mapped = self.poly.fit_transform(X_train.reshape(-1,1))
@@ -63,11 +63,11 @@ class lin_model:
         X_mapped_scaled = self.scaler.transform(X_mapped)
         yhat = self.linear_model.predict(X_mapped_scaled)
         return(yhat)
-    
+
     def mse(self, y, yhat):
         err = mean_squared_error(y,yhat)/2   #sklean doesn't have div by 2
         return (err)
-     
+
 def plt_train_test(X_train, y_train, X_test, y_test, x, y_pred, x_ideal, y_ideal, degree):
     fig, ax = plt.subplots(1,1, figsize=(4,4))
     fig.canvas.toolbar_visible = False
@@ -115,7 +115,7 @@ def plt_optimal_degree(X_train, y_train, X_cv, y_cv, x, y_pred, x_ideal, y_ideal
     ax[1].axvline(optimal_degree, lw=1, color = dlc["dlmagenta"])
     ax[1].annotate("optimal degree", xy=(optimal_degree,80000),xycoords='data',
                 xytext=(0.3, 0.8), textcoords='axes fraction', fontsize=10,
-                   arrowprops=dict(arrowstyle="->", connectionstyle="arc3", 
+                   arrowprops=dict(arrowstyle="->", connectionstyle="arc3",
                                    color=dlc['dldarkred'], lw=1))
     ax[1].set_xlabel("degree")
     ax[1].set_ylabel("error")
@@ -124,7 +124,7 @@ def plt_optimal_degree(X_train, y_train, X_cv, y_cv, x, y_pred, x_ideal, y_ideal
     plt.tight_layout()
 
     plt.show()
-    
+
 def plt_tune_regularization(X_train, y_train, X_cv, y_cv, x, y_pred, err_train, err_cv, optimal_reg_idx, lambda_range):
     fig, ax = plt.subplots(1,2,figsize=(8,4))
     fig.canvas.toolbar_visible = False
@@ -168,13 +168,13 @@ def tune_m():
     m_range = np.array(m*np.arange(1,16))
     num_steps = m_range.shape[0]
     degree = 16
-    err_train = np.zeros(num_steps)     
-    err_cv = np.zeros(num_steps)        
-    y_pred = np.zeros((100,num_steps))     
-    
+    err_train = np.zeros(num_steps)
+    err_cv = np.zeros(num_steps)
+    y_pred = np.zeros((100,num_steps))
+
     for i in range(num_steps):
         X, y, y_ideal, x_ideal = gen_data(m_range[i],5,0.7)
-        x = np.linspace(0,int(X.max()),100)  
+        x = np.linspace(0,int(X.max()),100)
         X_train, X_, y_train, y_ = train_test_split(X,y,test_size=0.40, random_state=1)
         X_cv, X_test, y_cv, y_test = train_test_split(X_,y_,test_size=0.50, random_state=1)
 
@@ -188,7 +188,7 @@ def tune_m():
     return(X_train, y_train, X_cv, y_cv, x, y_pred, err_train, err_cv, m_range,degree)
 
 def plt_tune_m(X_train, y_train, X_cv, y_cv, x, y_pred, err_train, err_cv, m_range, degree):
-    
+
     fig, ax = plt.subplots(1,2,figsize=(8,4))
     fig.canvas.toolbar_visible = False
     fig.canvas.header_visible = False
@@ -217,8 +217,8 @@ def plt_tune_m(X_train, y_train, X_cv, y_cv, x, y_pred, err_train, err_cv, m_ran
     ax[1].text(0.95,0.5,"Good \nGeneralization", fontsize=12, ha='right',transform=ax[1].transAxes,color = dlc["dlblue"])
     ax[1].legend()
     plt.tight_layout()
-    plt.show()  
-    
+    plt.show()
+
 dkcolors = plt.cm.Paired((1,3,7,9,5,11))
 ltcolors = plt.cm.Paired((0,2,6,8,4,10))
 dkcolors_map = mpl.colors.ListedColormap(dkcolors)
@@ -259,7 +259,7 @@ def plot_cat_decision_boundary(ax, X,predict , class_labels=None, legend=False, 
     Z = Z.reshape(xx.shape)
 
     #contour plot highlights boundaries between values - classes in this case
-    ax.contour(xx, yy, Z, colors=color, linewidths=lw) 
+    ax.contour(xx, yy, Z, colors=color, linewidths=lw)
     ax.axis('tight')
 
 def recat(pt, origins):
@@ -299,8 +299,8 @@ def plt_train_eq_dist(X_train,y_train,classes, X_cv,   y_cv, centers, std):
     plt_mc_data(ax[1], X_train,y_train, classes, map=dkcolors_map, legend=True, size=50)
     ax[1].set_xlabel('x0') ; ax[1].set_ylabel("x1");
     plt.show()
-    
-    
+
+
 def plt_nn(model_predict,X_train,y_train, classes, X_cv, y_cv, suptitle=""):
     #plot the decison boundary.
     fig,ax = plt.subplots(1,2, figsize=(8,4))
@@ -316,21 +316,21 @@ def plt_nn(model_predict,X_train,y_train, classes, X_cv, y_cv, suptitle=""):
 
     plot_cat_decision_boundary(ax[1], X_train, model_predict,  vector=True)
     ax[1].set_title("cross-validation data", fontsize=14)
-    plt_mc_data(ax[1], X_cv,y_cv, classes, 
+    plt_mc_data(ax[1], X_cv,y_cv, classes,
                 map=ltcolors_map, legend=True, size=100, m='<')
-    ax[1].set_xlabel('x0') ; ax[1].set_ylabel("x1"); 
+    ax[1].set_xlabel('x0') ; ax[1].set_ylabel("x1");
     fig.suptitle(suptitle,fontsize = 12)
     plt.show()
 
 
 def eval_cat_err(y, yhat):
-    """ 
+    """
     Calculate the categorization error
     Args:
       y    : (ndarray  Shape (m,) or (m,1))  target value of each example
       yhat : (ndarray  Shape (m,) or (m,1))  predicted value of each example
     Returns:|
-      err: (scalar)             
+      err: (scalar)
     """
     m = len(y)
     incorrect = 0
@@ -363,7 +363,7 @@ def plot_iterate(lambdas, models, X_train, y_train, X_cv, y_cv):
     ax.text(0.05,0.14,"Training Error\nlower than CV",fontsize=12, ha='left',transform=ax.transAxes,color = dlc["dlblue"])
     ax.text(0.95,0.14,"Similar\nTraining, CV",    fontsize=12, ha='right',transform=ax.transAxes,color = dlc["dlblue"])
     plt.show()
- 
+
 # not used but will calculate the erro assuming an equal distance
 def err_all_equal(X_train,X_cv,X_test, y_train,y_cv,y_test, centers):
     X_all = np.concatenate((X_train,X_cv,X_test), axis=0)
@@ -382,13 +382,13 @@ def plt_compare(X,y, classes, simple, regularized, centers):
     fig.canvas.header_visible = False
     fig.canvas.footer_visible = False
 
-  #plt simple   
+  #plt simple
     plot_cat_decision_boundary(ax[0], X, simple,  vector=True)
     ax[0].set_title("Simple Model", fontsize=14)
     plt_mc_data(ax[0], X,y, classes, map=dkcolors_map, legend=True, size=75)
     ax[0].set_xlabel('x0') ; ax[0].set_ylabel("x1");
 
-  #plt regularized   
+  #plt regularized
     plot_cat_decision_boundary(ax[1], X, regularized,  vector=True)
     ax[1].set_title("Regularized Model", fontsize=14)
     plt_mc_data(ax[1], X,y, classes, map=dkcolors_map, legend=True, size=75)

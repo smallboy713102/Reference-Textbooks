@@ -9,7 +9,7 @@ In this lab you will:
 
 
 ## Tools
-You will utilize the function developed in previous labs as well as matplotlib and NumPy. 
+You will utilize the function developed in previous labs as well as matplotlib and NumPy.
 
 
 ```python
@@ -23,7 +23,7 @@ np.set_printoptions(precision=2)  # reduced display precision on numpy arrays
 # Feature Engineering and Polynomial Regression Overview
 
 Out of the box, linear regression provides a means of building models of the form:
-$$f_{\mathbf{w},b} = w_0x_0 + w_1x_1+ ... + w_{n-1}x_{n-1} + b \tag{1}$$ 
+$$f_{\mathbf{w},b} = w_0x_0 + w_1x_1+ ... + w_{n-1}x_{n-1} + b \tag{1}$$
 What if your features/data are non-linear or are combinations of features? For example,  Housing prices do not tend to be linear with living area but penalize very small or very large houses resulting in the curves shown in the graphic above. How can we use the machinery of linear regression to fit this curve? Recall, the 'machinery' we have is the ability to modify the parameters $\mathbf{w}$, $\mathbf{b}$ in (1) to 'fit' the equation to the training data. However, no amount of adjusting of $\mathbf{w}$,$\mathbf{b}$ in (1) will achieve a fit to a non-linear curve.
 
 
@@ -56,7 +56,7 @@ To accomplish this, you can modify the *input data* to *engineer* the needed fea
 x = np.arange(0, 20, 1)
 y = 1 + x**2
 
-# Engineer features 
+# Engineer features
 X = x**2      #<-- added engineered feature
 ```
 
@@ -69,13 +69,13 @@ plt.scatter(x, y, marker='x', c='r', label="Actual Value"); plt.title("Added x**
 plt.plot(x, np.dot(X,model_w) + model_b, label="Predicted Value"); plt.xlabel("x"); plt.ylabel("y"); plt.legend(); plt.show()
 ```
 
-Great! near perfect fit. Notice the values of $\mathbf{w}$ and b printed right above the graph: `w,b found by gradient descent: w: [1.], b: 0.0490`. Gradient descent modified our initial values of $\mathbf{w},b $ to be (1.0,0.049) or a model of $y=1*x_0^2+0.049$, very close to our target of $y=1*x_0^2+1$. If you ran it longer, it could be a better match. 
+Great! near perfect fit. Notice the values of $\mathbf{w}$ and b printed right above the graph: `w,b found by gradient descent: w: [1.], b: 0.0490`. Gradient descent modified our initial values of $\mathbf{w},b $ to be (1.0,0.049) or a model of $y=1*x_0^2+0.049$, very close to our target of $y=1*x_0^2+1$. If you ran it longer, it could be a better match.
 
 ### Selecting Features
 <a name='GDF'></a>
-Above, we knew that an $x^2$ term was required. It may not always be obvious which features are required. One could add a variety of potential features to try and find the most useful. For example, what if we had instead tried : $y=w_0x_0 + w_1x_1^2 + w_2x_2^3+b$ ? 
+Above, we knew that an $x^2$ term was required. It may not always be obvious which features are required. One could add a variety of potential features to try and find the most useful. For example, what if we had instead tried : $y=w_0x_0 + w_1x_1^2 + w_2x_2^3+b$ ?
 
-Run the next cells. 
+Run the next cells.
 
 
 ```python
@@ -97,16 +97,16 @@ plt.plot(x, X@model_w + model_b, label="Predicted Value"); plt.xlabel("x"); plt.
 
 Note the value of $\mathbf{w}$, `[0.08 0.54 0.03]` and b is `0.0106`.This implies the model after fitting/training is:
 $$ 0.08x + 0.54x^2 + 0.03x^3 + 0.0106 $$
-Gradient descent has emphasized the data that is the best fit to the $x^2$ data by increasing the $w_1$ term relative to the others.  If you were to run for a very long time, it would continue to reduce the impact of the other terms. 
+Gradient descent has emphasized the data that is the best fit to the $x^2$ data by increasing the $w_1$ term relative to the others.  If you were to run for a very long time, it would continue to reduce the impact of the other terms.
 >Gradient descent is picking the 'correct' features for us by emphasizing its associated parameter
 
 Let's review this idea:
 - Intially, the features were re-scaled so they are comparable to each other
 - less weight value implies less important/correct feature, and in extreme, when the weight becomes zero or very close to zero, the associated feature useful in fitting the model to the data.
-- above, after fitting, the weight associated with the $x^2$ feature is much larger than the weights for $x$ or $x^3$ as it is the most useful in fitting the data. 
+- above, after fitting, the weight associated with the $x^2$ feature is much larger than the weights for $x$ or $x^3$ as it is the most useful in fitting the data.
 
 ### An Alternate View
-Above, polynomial features were chosen based on how well they matched the target data. Another way to think about this is to note that we are still using linear regression once we have created new features. Given that, the best features will be linear relative to the target. This is best understood with an example. 
+Above, polynomial features were chosen based on how well they matched the target data. Another way to think about this is to note that we are still using linear regression once we have created new features. Given that, the best features will be linear relative to the target. This is best understood with an example.
 
 
 ```python
@@ -141,8 +141,8 @@ x = np.arange(0,20,1)
 X = np.c_[x, x**2, x**3]
 print(f"Peak to Peak range by column in Raw        X:{np.ptp(X,axis=0)}")
 
-# add mean_normalization 
-X = zscore_normalize_features(X)     
+# add mean_normalization
+X = zscore_normalize_features(X)
 print(f"Peak to Peak range by column in Normalized X:{np.ptp(X,axis=0)}")
 ```
 
@@ -154,7 +154,7 @@ x = np.arange(0,20,1)
 y = x**2
 
 X = np.c_[x, x**2, x**3]
-X = zscore_normalize_features(X) 
+X = zscore_normalize_features(X)
 
 model_w, model_b = run_gradient_descent_feng(X, y, iterations=100000, alpha=1e-1)
 
@@ -162,7 +162,7 @@ plt.scatter(x, y, marker='x', c='r', label="Actual Value"); plt.title("Normalize
 plt.plot(x,X@model_w + model_b, label="Predicted Value"); plt.xlabel("x"); plt.ylabel("y"); plt.legend(); plt.show()
 ```
 
-Feature scaling allows this to converge much faster.   
+Feature scaling allows this to converge much faster.
 Note again the values of $\mathbf{w}$. The $w_1$ term, which is the $x^2$ term is the most emphasized. Gradient descent has all but eliminated the $x^3$ term.
 
 ### Complex Functions
@@ -174,7 +174,7 @@ x = np.arange(0,20,1)
 y = np.cos(x/2)
 
 X = np.c_[x, x**2, x**3,x**4, x**5, x**6, x**7, x**8, x**9, x**10, x**11, x**12, x**13]
-X = zscore_normalize_features(X) 
+X = zscore_normalize_features(X)
 
 model_w,model_b = run_gradient_descent_feng(X, y, iterations=1000000, alpha = 1e-1)
 

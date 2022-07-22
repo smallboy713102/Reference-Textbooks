@@ -1,4 +1,4 @@
-# Ungraded Lab:  Overfitting 
+# Ungraded Lab:  Overfitting
 
 <img align="left" src="./images/C1_W3_Overfitting_a.png"     style=" width:250px; padding: 10px; " >
 <img align="left" src="./images/C1_W3_Overfitting_b.png"     style=" width:250px; padding: 10px; " >
@@ -40,7 +40,7 @@ In the plot above you can:
 - switch between Regression and Categorization examples
 - add data
 - select the degree of the model
-- fit the model to the data  
+- fit the model to the data
 
 Here are some things you should try:
 - Fit the data with degree = 1; Note 'underfitting'.
@@ -55,7 +55,7 @@ To reset the plot, re-run the cell. Click slowly to allow the plot to update bef
 
 Notes on implementations:
 - the 'ideal' curves represent the generator model to which noise was added to achieve the data set
-- 'fit' does not use pure gradient descent to improve speed. These methods can be used on smaller data sets. 
+- 'fit' does not use pure gradient descent to improve speed. These methods can be used on smaller data sets.
 
 ## Congratulations!
 You have developed some intuition about the causes and solutions to overfitting. In the next lab, you will explore a commonly used solution, Regularization.

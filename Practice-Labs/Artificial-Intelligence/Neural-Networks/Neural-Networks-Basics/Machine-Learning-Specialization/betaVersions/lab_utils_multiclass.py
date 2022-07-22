@@ -15,7 +15,7 @@ def plot_mc_data(X, y, class_labels=None, legend=False,size=40):
         plt.scatter(X[idx, 0], X[idx, 1],  cmap=plt.cm.Paired,
                     edgecolor='black', s=size, label=label)
     if legend: plt.legend()
-        
+
 
 #Plot a multi-class categorical decision boundary
 # This version handles a non-vector prediction (adds a for-loop over points)
@@ -42,5 +42,5 @@ def plot_cat_decision_boundary(X,predict , class_labels=None, legend=False, vect
 
     #contour plot highlights boundaries between values - classes in this case
     plt.figure()
-    plt.contour(xx, yy, Z, colors='g') 
+    plt.contour(xx, yy, Z, colors='g')
     plt.axis('tight')

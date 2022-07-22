@@ -172,7 +172,7 @@ Now you're ready to train and see the results. Note your observations about how 
 ```python
 history = model.fit(
       train_generator,
-      steps_per_epoch=8,  
+      steps_per_epoch=8,
       epochs=15,
       verbose=1,
       validation_data = validation_generator,
@@ -199,7 +199,7 @@ from keras.preprocessing import image
 uploaded = files.upload()
 
 for fn in uploaded.keys():
- 
+
   # predicting images
   path = '/content/' + fn
   img = image.load_img(path, target_size=(150, 150))
@@ -214,7 +214,7 @@ for fn in uploaded.keys():
     print(fn + " is a human")
   else:
     print(fn + " is a horse")
- 
+
 ```
 
 `Safari` users will need to upload the images(s) manually in their workspace. Please follow the instructions, uncomment the code block below and run it.
@@ -226,7 +226,7 @@ Instructions on how to upload image(s) manually in a Colab:
 3. Click on the `folder` named `tmp`.
 4. Inside of the `tmp` folder, `create a new folder` called `images`. You'll see the `New folder` option by clicking the `3 vertical dots` menu button next to the `tmp` folder.
 5. Inside of the new `images` folder, upload an image(s) of your choice, preferably of either a horse or a human. Drag and drop the images(s) on top of the `images` folder.
-6. Uncomment and run the code block below. 
+6. Uncomment and run the code block below.
 
 
 ```python
@@ -304,7 +304,7 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
 
     # The feature map has shape (1, size, size, n_features)
     size = feature_map.shape[1]
-    
+
     # Tile the images in this matrix
     display_grid = np.zeros((size, size * n_features))
     for i in range(n_features):
@@ -314,10 +314,10 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
       x *= 64
       x += 128
       x = np.clip(x, 0, 255).astype('uint8')
-    
+
       # Tile each filter into this big horizontal grid
       display_grid[:, i * size : (i + 1) * size] = x
-    
+
     # Display the grid
     scale = 20. / n_features
     plt.figure(figsize=(scale * n_features, scale))

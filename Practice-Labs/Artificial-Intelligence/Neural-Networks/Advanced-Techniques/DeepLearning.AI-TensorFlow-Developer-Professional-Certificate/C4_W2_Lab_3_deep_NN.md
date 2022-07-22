@@ -34,7 +34,7 @@ def plot_series(time, series, format="-", start=0, end=None):
 
     # Setup dimensions of the graph figure
     plt.figure(figsize=(10, 6))
-    
+
     if type(series) is tuple:
 
       for series_num in series:
@@ -77,12 +77,12 @@ def trend(time, slope=0):
 def seasonal_pattern(season_time):
     """
     Just an arbitrary pattern, you can change it if you wish
-    
+
     Args:
       season_time (array of float) - contains the measurements per time step
 
     Returns:
-      data_pattern (array of float) -  contains revised measurement values according 
+      data_pattern (array of float) -  contains revised measurement values according
                                   to the defined pattern
     """
 
@@ -90,7 +90,7 @@ def seasonal_pattern(season_time):
     data_pattern = np.where(season_time < 0.4,
                     np.cos(season_time * 2 * np.pi),
                     1 / np.exp(3 * season_time))
-    
+
     return data_pattern
 
 def seasonality(time, period, amplitude=1, phase=0):
@@ -106,7 +106,7 @@ def seasonality(time, period, amplitude=1, phase=0):
     Returns:
       data_pattern (array of float) - seasonal data scaled by the defined amplitude
     """
-    
+
     # Define the measured values per period
     season_time = ((time + phase) % period) / period
 
@@ -132,7 +132,7 @@ def noise(time, noise_level=1, seed=None):
 
     # Generate a random number for each time step and scale by the noise level
     noise = rnd.randn(len(time)) * noise_level
-    
+
     return noise
 ```
 
@@ -164,7 +164,7 @@ plot_series(time, series)
 # Define the split time
 split_time = 1000
 
-# Get the train set 
+# Get the train set
 time_train = time[:split_time]
 x_train = series[:split_time]
 
@@ -197,25 +197,25 @@ def windowed_dataset(series, window_size, batch_size, shuffle_buffer):
     Returns:
       dataset (TF Dataset) - TF Dataset containing time windows
     """
-  
+
     # Generate a TF Dataset from the series values
     dataset = tf.data.Dataset.from_tensor_slices(series)
-    
+
     # Window the data but only take those with the specified size
     dataset = dataset.window(window_size + 1, shift=1, drop_remainder=True)
-    
+
     # Flatten the windows by putting its elements in a single batch
     dataset = dataset.flat_map(lambda window: window.batch(window_size + 1))
 
-    # Create tuples with features and labels 
+    # Create tuples with features and labels
     dataset = dataset.map(lambda window: (window[:-1], window[-1]))
 
     # Shuffle the windows
     dataset = dataset.shuffle(shuffle_buffer)
-    
+
     # Create batches of windows
     dataset = dataset.batch(batch_size).prefetch(1)
-    
+
     return dataset
 ```
 
@@ -233,8 +233,8 @@ You will use three dense layers in this exercise as shown below. As expected, th
 ```python
 # Build the model
 model_baseline = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(10, input_shape=[window_size], activation="relu"), 
-    tf.keras.layers.Dense(10, activation="relu"), 
+    tf.keras.layers.Dense(10, input_shape=[window_size], activation="relu"),
+    tf.keras.layers.Dense(10, activation="relu"),
     tf.keras.layers.Dense(1)
 ])
 
@@ -258,11 +258,11 @@ model_baseline.compile(loss="mse", optimizer=tf.keras.optimizers.SGD(learning_ra
 model_baseline.fit(dataset,epochs=100)
 ```
 
-You can then get some predictions and visualize it as before. Since the network is deeper, the predictions might go slower so you may want to minimize unnecessary computations. 
+You can then get some predictions and visualize it as before. Since the network is deeper, the predictions might go slower so you may want to minimize unnecessary computations.
 
-In the previous lab, you might remember the model generating predictions using the entire `series` data. That resulted in 1,441 points in the `forecast` list then you sliced the 461 points that aligns with the validation set using `forecast = forecast[split_time - window_size:]`. 
+In the previous lab, you might remember the model generating predictions using the entire `series` data. That resulted in 1,441 points in the `forecast` list then you sliced the 461 points that aligns with the validation set using `forecast = forecast[split_time - window_size:]`.
 
-You can make this process faster by just generating 461 points right from the start. That way, you don't waste time predicting points that will just be thrown away later. The code below will do just that. It will just get the points needed from the original `series` before calling the `predict()` method. With that, all predictions will align with the validation set already and the for-loop will run for only 461 times instead of 1,441. 
+You can make this process faster by just generating 461 points right from the start. That way, you don't waste time predicting points that will just be thrown away later. The code below will do just that. It will just get the points needed from the original `series` before calling the `predict()` method. With that, all predictions will align with the validation set already and the for-loop will run for only 461 times instead of 1,441.
 
 In the next lab, you'll see an even faster way to generate these predictions.
 
@@ -304,8 +304,8 @@ First, you will build the same model architecture you just used.
 ```python
 # Build the Model
 model_tune = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(10, input_shape=[window_size], activation="relu"), 
-    tf.keras.layers.Dense(10, activation="relu"), 
+    tf.keras.layers.Dense(10, input_shape=[window_size], activation="relu"),
+    tf.keras.layers.Dense(10, activation="relu"),
     tf.keras.layers.Dense(1)
 ])
 ```

@@ -6,7 +6,7 @@ In this lab, you will revisit the [News Headlines Dataset for Sarcasm Detection]
 
 ## Download the dataset
 
-You will first download the JSON file, load it into your workspace and put the sentences and labels into lists. 
+You will first download the JSON file, load it into your workspace and put the sentences and labels into lists.
 
 
 ```python
@@ -181,7 +181,7 @@ def plot_graphs(history, string):
   plt.ylabel(string)
   plt.legend([string, 'val_'+string])
   plt.show()
-  
+
 # Plot the accuracy and loss
 plot_graphs(history, "accuracy")
 plot_graphs(history, "loss")
@@ -203,7 +203,7 @@ embedding_layer = model.layers[0]
 embedding_weights = embedding_layer.get_weights()[0]
 
 # Print the shape. Expected is (vocab_size, embedding_dim)
-print(embedding_weights.shape) 
+print(embedding_weights.shape)
 
 ```
 

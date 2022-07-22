@@ -37,7 +37,7 @@ zip_ref.extractall()
 zip_ref.close()
 ```
 
-The contents of the .zip are extracted to the base directory `./cats_and_dogs_filtered`, which contains `train` and `validation` subdirectories for the training and validation datasets (you can ignore `vectorize.py` in the output in the next cell). 
+The contents of the .zip are extracted to the base directory `./cats_and_dogs_filtered`, which contains `train` and `validation` subdirectories for the training and validation datasets (you can ignore `vectorize.py` in the output in the next cell).
 
 If you recall, the **training set** is the data that is used to tell the neural network model that 'this is what a cat looks like' and 'this is what a dog looks like'. The **validation set** is images of cats and dogs that the neural network will not see as part of the training. You can use this to test how well or how badly it does in evaluating if an image contains a cat or a dog. (See the [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/validation/check-your-intuition) if you want a refresher on training, validation, and test sets.)
 
@@ -128,11 +128,11 @@ fig.set_size_inches(ncols*4, nrows*4)
 
 pic_index+=8
 
-next_cat_pix = [os.path.join(train_cats_dir, fname) 
-                for fname in train_cat_fnames[ pic_index-8:pic_index] 
+next_cat_pix = [os.path.join(train_cats_dir, fname)
+                for fname in train_cat_fnames[ pic_index-8:pic_index]
                ]
 
-next_dog_pix = [os.path.join(train_dogs_dir, fname) 
+next_dog_pix = [os.path.join(train_dogs_dir, fname)
                 for fname in train_dog_fnames[ pic_index-8:pic_index]
                ]
 
@@ -152,7 +152,7 @@ It may not be obvious from looking at the images in this grid but an important n
 
 ## Building a Small Model from Scratch to get to ~72% Accuracy
 
-To train a neural network to handle the images, you'll need them to be in a uniform size. You will choose 150x150 pixels for this, and you'll see the code that preprocesses the images to that shape shortly. 
+To train a neural network to handle the images, you'll need them to be in a uniform size. You will choose 150x150 pixels for this, and you'll see the code that preprocesses the images to that shape shortly.
 
 You can define the model by importing Tensorflow and using the Keras API. Here is the entire code first then the discussion comes after. This is very similar to the models you have built in Course 1.
 
@@ -166,15 +166,15 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Conv2D(16, (3,3), activation='relu', input_shape=(150, 150, 3)),
     tf.keras.layers.MaxPooling2D(2,2),
     tf.keras.layers.Conv2D(32, (3,3), activation='relu'),
-    tf.keras.layers.MaxPooling2D(2,2), 
-    tf.keras.layers.Conv2D(64, (3,3), activation='relu'), 
+    tf.keras.layers.MaxPooling2D(2,2),
+    tf.keras.layers.Conv2D(64, (3,3), activation='relu'),
     tf.keras.layers.MaxPooling2D(2,2),
     # Flatten the results to feed into a DNN
-    tf.keras.layers.Flatten(), 
+    tf.keras.layers.Flatten(),
     # 512 neuron hidden layer
-    tf.keras.layers.Dense(512, activation='relu'), 
+    tf.keras.layers.Dense(512, activation='relu'),
     # Only 1 output neuron. It will contain a value from 0-1 where 0 for 1 class ('cats') and 1 for the other ('dogs')
-    tf.keras.layers.Dense(1, activation='sigmoid')  
+    tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 ```
 
@@ -182,7 +182,7 @@ You defined a `Sequential` layer as before, adding some convolutional layers fir
 
 Note that because you are facing a two-class classification problem, i.e. a *binary classification problem*, you will end the network with a [*sigmoid* activation](https://wikipedia.org/wiki/Sigmoid_function). The output of the network will be a single scalar between `0` and `1`, encoding the probability that the current image is class `1` (as opposed to class `0`).
 
-You can review the architecture of the network with the `model.summary()` method: 
+You can review the architecture of the network with the `model.summary()` method:
 
 
 ```python
@@ -226,7 +226,7 @@ test_datagen  = ImageDataGenerator( rescale = 1.0/255. )
 train_generator = train_datagen.flow_from_directory(train_dir,
                                                     batch_size=20,
                                                     class_mode='binary',
-                                                    target_size=(150, 150))     
+                                                    target_size=(150, 150))
 # --------------------
 # Flow validation images in batches of 20 using test_datagen generator
 # --------------------
@@ -242,9 +242,9 @@ You will now train on all 2,000 images available, for 15 epochs, and monitor the
 
 Do note the values per epoch.
 
-You'll see 4 values per epoch -- Loss, Accuracy, Validation Loss and Validation Accuracy. 
+You'll see 4 values per epoch -- Loss, Accuracy, Validation Loss and Validation Accuracy.
 
-The `loss` and `accuracy` are great indicators of progress in training. `loss` measures the current model prediction against the known labels, calculating the result. `accuracy`, on the other hand, is the portion of correct guesses. 
+The `loss` and `accuracy` are great indicators of progress in training. `loss` measures the current model prediction against the known labels, calculating the result. `accuracy`, on the other hand, is the portion of correct guesses.
 
 
 
@@ -278,25 +278,25 @@ from keras.preprocessing import image
 uploaded=files.upload()
 
 for fn in uploaded.keys():
- 
+
   # predicting images
   path='/content/' + fn
   img=image.load_img(path, target_size=(150, 150))
-  
+
   x=image.img_to_array(img)
   x /= 255
   x=np.expand_dims(x, axis=0)
   images = np.vstack([x])
-  
+
   classes = model.predict(images, batch_size=10)
-  
+
   print(classes[0])
-  
+
   if classes[0]>0.5:
     print(fn + " is a dog")
   else:
     print(fn + " is a cat")
- 
+
 ```
 
 `Safari` users will need to upload the images(s) manually in their workspace. Please follow the instructions, uncomment the code block below and run it.
@@ -308,7 +308,7 @@ Instructions on how to upload image(s) manually in a Colab:
 3. Click on the `folder` named `tmp`.
 4. Inside of the `tmp` folder, `create a new folder` called `images`. You'll see the `New folder` option by clicking the `3 vertical dots` menu button next to the `tmp` folder.
 5. Inside of the new `images` folder, upload an image(s) of your choice, preferably of either a cat or a dog. Drag and drop the images(s) on top of the `images` folder.
-6. Uncomment and run the code block below. 
+6. Uncomment and run the code block below.
 
 
 ```python
@@ -377,18 +377,18 @@ layer_names = [layer.name for layer in model.layers]
 
 # Display the representations
 for layer_name, feature_map in zip(layer_names, successive_feature_maps):
-  
+
   if len(feature_map.shape) == 4:
-    
+
     #-------------------------------------------
     # Just do this for the conv / maxpool layers, not the fully-connected layers
     #-------------------------------------------
     n_features = feature_map.shape[-1]  # number of features in the feature map
     size       = feature_map.shape[ 1]  # feature map shape (1, size, size, n_features)
-    
+
     # Tile the images in this matrix
     display_grid = np.zeros((size, size * n_features))
-    
+
     #-------------------------------------------------
     # Postprocess the feature to be visually palatable
     #-------------------------------------------------
@@ -408,10 +408,10 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
     plt.figure( figsize=(scale * n_features, scale) )
     plt.title ( layer_name )
     plt.grid  ( False )
-    plt.imshow( display_grid, aspect='auto', cmap='viridis' ) 
+    plt.imshow( display_grid, aspect='auto', cmap='viridis' )
 ```
 
-You can see above how the pixels highlighted turn to increasingly abstract and compact representations, especially at the bottom grid. 
+You can see above how the pixels highlighted turn to increasingly abstract and compact representations, especially at the bottom grid.
 
 The representations downstream start highlighting what the network pays attention to, and they show fewer and fewer features being "activated"; most are set to zero. This is called _representation sparsity_ and is a key feature of deep learning. These representations carry increasingly less information about the original pixels of the image, but increasingly refined information about the class of the image. You can think of a convnet (or a deep network in general) as an information distillation pipeline wherein each layer filters out the most useful features.
 
@@ -464,7 +464,7 @@ Before running the next exercise, run the following cell to terminate the kernel
 ```python
 import os, signal
 
-os.kill(     os.getpid() , 
+os.kill(     os.getpid() ,
          signal.SIGKILL
        )
 ```
