@@ -13,9 +13,9 @@ plt.style.use('./deeplearning.mplstyle')
 ```
 
 ## Classification Problems
-<img align="left" src="./images/C1_W3_Classification.png"     style=" width:380px; padding: 10px; " > Examples of classification problems are things like: identifying email as Spam or Not Spam or determining if a tumor is malignant or benign. In particular, these are examples of *binary* classification where there are two possible outcomes.  Outcomes can be  described in pairs of 'positive'/'negative' such as 'yes'/'no, 'true'/'false' or '1'/'0'. 
+<img align="left" src="./images/C1_W3_Classification.png"     style=" width:380px; padding: 10px; " > Examples of classification problems are things like: identifying email as Spam or Not Spam or determining if a tumor is malignant or benign. In particular, these are examples of *binary* classification where there are two possible outcomes.  Outcomes can be  described in pairs of 'positive'/'negative' such as 'yes'/'no, 'true'/'false' or '1'/'0'.
 
-Plots of classification data sets often use symbols to indicate the outcome of an example. In the plots below, 'X' is used to represent the positive values while 'O' represents negative outcomes. 
+Plots of classification data sets often use symbols to indicate the outcome of an example. In the plots below, 'X' is used to represent the positive values while 'O' represents negative outcomes.
 
 
 ```python
@@ -33,7 +33,7 @@ neg = y_train == 0
 fig,ax = plt.subplots(1,2,figsize=(8,3))
 #plot 1, single variable
 ax[0].scatter(x_train[pos], y_train[pos], marker='x', s=80, c = 'red', label="y=1")
-ax[0].scatter(x_train[neg], y_train[neg], marker='o', s=100, label="y=0", facecolors='none', 
+ax[0].scatter(x_train[neg], y_train[neg], marker='o', s=100, label="y=0", facecolors='none',
               edgecolors=dlc["dlblue"],lw=3)
 
 ax[0].set_ylim(-0.08,1.1)
@@ -74,8 +74,8 @@ Note in the plots above:
 ## Linear Regression approach
 In the previous week, you applied linear regression to build a prediction model. Let's try that approach here using the simple example that was described in the lecture. The model will predict if a tumor is benign or malignant based on tumor size.  Try the following:
 - Click on 'Run Linear Regression' to find the best linear regression model for the given data.
-    - Note the resulting linear model does **not** match the data well. 
-One option to improve the results is to apply a *threshold*. 
+    - Note the resulting linear model does **not** match the data well.
+One option to improve the results is to apply a *threshold*.
 - Tick the box on the 'Toggle 0.5 threshold' to show the predictions if a threshold is applied.
     - These predictions look good, the predictions match the data
 - *Important*: Now, add further 'malignant' data points on the far right, in the large tumor size range (near 10), and re-run linear regression.
@@ -86,7 +86,7 @@ One option to improve the results is to apply a *threshold*.
 ```python
 w_in = np.zeros((1))
 b_in = 0
-plt.close('all') 
+plt.close('all')
 addpt = plt_one_addpt_onclick( x_train,y_train, w_in, b_in, logistic=False)
 ```
 

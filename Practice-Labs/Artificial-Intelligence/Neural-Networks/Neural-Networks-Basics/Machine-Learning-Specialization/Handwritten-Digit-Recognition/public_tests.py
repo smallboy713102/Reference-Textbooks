@@ -24,80 +24,80 @@ def test_c1(target):
         i = i + 1
 
     print("\033[92mAll tests passed!")
-    
+
 def test_c2(target):
-    
+
     def linear(a):
         return a
-    
+
     def linear_times3(a):
         return a * 3
-    
+
     x_tst = np.array([1., 2., 3., 4.])  # (1 examples, 3 features)
     W_tst = np.array([[1., 2.], [1., 2.], [1., 2.], [1., 2.]]) # (3 input features, 2 output features)
     b_tst = np.array([0., 0.])  # (2 features)
-    
+
     A_tst = target(x_tst, W_tst, b_tst, linear)
     assert A_tst.shape[0] == len(b_tst)
     assert np.allclose(A_tst, [10., 20.]), \
         "Wrong output. Check the dot product"
-    
+
     b_tst = np.array([3., 5.])  # (2 features)
-    
+
     A_tst = target(x_tst, W_tst, b_tst, linear)
     assert np.allclose(A_tst, [13., 25.]), \
         "Wrong output. Check the bias term in the formula"
-    
+
     A_tst = target(x_tst, W_tst, b_tst, linear_times3)
     assert np.allclose(A_tst, [39., 75.]), \
         "Wrong output. Did you apply the activation function at the end?"
-    
-    print("\033[92mAll tests passed!")  
-    
+
+    print("\033[92mAll tests passed!")
+
 def test_c3(target):
-    
+
     def linear(a):
         return a
-    
+
     def linear_times3(a):
         return a * 3
-    
+
     x_tst = np.array([1., 2., 3., 4.])  # (1 examples, 3 features)
     W_tst = np.array([[1., 2.], [1., 2.], [1., 2.], [1., 2.]]) # (3 input features, 2 output features)
     b_tst = np.array([0., 0.])  # (2 features)
-    
+
     A_tst = target(x_tst, W_tst, b_tst, linear)
     assert A_tst.shape[0] == len(b_tst)
     assert np.allclose(A_tst, [10., 20.]), \
         "Wrong output. Check the dot product"
-    
+
     b_tst = np.array([3., 5.])  # (2 features)
-    
+
     A_tst = target(x_tst, W_tst, b_tst, linear)
     assert np.allclose(A_tst, [13., 25.]), \
         "Wrong output. Check the bias term in the formula"
-    
+
     A_tst = target(x_tst, W_tst, b_tst, linear_times3)
     assert np.allclose(A_tst, [39., 75.]), \
         "Wrong output. Did you apply the activation function at the end?"
-    
+
     x_tst = np.array([[1., 2., 3., 4.], [5., 6., 7., 8.]])  # (2 examples, 4 features)
     W_tst = np.array([[1., 2., 3.], [4., 5., 6.], [7., 8., 9.], [10., 11., 12]]) # (3 input features, 2 output features)
     b_tst = np.array([0., 0., 0.])  # (2 features)
-    
+
     A_tst = target(x_tst, W_tst, b_tst, linear)
     assert A_tst.shape == (2, 3)
     assert np.allclose(A_tst, [[ 70.,  80.,  90.], [158., 184., 210.]]), \
         "Wrong output. Check the dot product"
-    
+
     b_tst = np.array([3., 5., 6])  # (3 features)
-    
+
     A_tst = target(x_tst, W_tst, b_tst, linear)
     assert np.allclose(A_tst, [[ 73.,  85.,  96.], [161., 189., 216.]]), \
         "Wrong output. Check the bias term in the formula"
-    
+
     A_tst = target(x_tst, W_tst, b_tst, linear_times3)
     assert np.allclose(A_tst, [[ 219.,  255.,  288.], [483., 567., 648.]]), \
         "Wrong output. Did you apply the activation function at the end?"
-    
-    print("\033[92mAll tests passed!")  
+
+    print("\033[92mAll tests passed!")

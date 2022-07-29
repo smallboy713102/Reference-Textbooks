@@ -8,7 +8,7 @@ In this lab you will:
 -  Train a logistic regression model using scikit-learn.
 
 
-## Dataset 
+## Dataset
 Let's start with the same dataset as before.
 
 

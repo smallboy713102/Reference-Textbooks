@@ -21,21 +21,21 @@ def load_data():
     with open('./data/content_user_train_header.txt', newline='') as f:
         user_features = list(csv.reader(f))[0]
     item_vecs = genfromtxt('./data/content_item_vecs.csv', delimiter=',')
-       
+
     movie_dict = defaultdict(dict)
     count = 0
 #    with open('./data/movies.csv', newline='') as csvfile:
     with open('./data/content_movie_list.csv', newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='"')
         for line in reader:
-            if count == 0: 
+            if count == 0:
                 count +=1  #skip header
-                #print(line) 
+                #print(line)
             else:
                 count +=1
-                movie_id = int(line[0])  
-                movie_dict[movie_id]["title"] = line[1]  
-                movie_dict[movie_id]["genres"] =line[2]  
+                movie_id = int(line[0])
+                movie_dict[movie_id]["title"] = line[1]
+                movie_dict[movie_id]["genres"] =line[2]
 
     with open('./data/content_user_to_genre.pickle', 'rb') as f:
         user_to_genre = pickle.load(f)
@@ -46,10 +46,10 @@ def load_data():
 def pprint_train(x_train, features,  vs, u_s, maxcount = 5, user=True):
     """ Prints user_train or item_train nicely """
     if user:
-        flist = [".0f",".0f",".1f", 
+        flist = [".0f",".0f",".1f",
                  ".1f", ".1f", ".1f", ".1f",".1f",".1f", ".1f",".1f",".1f", ".1f",".1f",".1f",".1f",".1f"]
     else:
-        flist = [".0f",".0f",".1f", 
+        flist = [".0f",".0f",".1f",
                  ".0f",".0f",".0f", ".0f",".0f",".0f", ".0f",".0f",".0f", ".0f",".0f",".0f",".0f",".0f"]
 
     head = features[:vs]
@@ -63,10 +63,10 @@ def pprint_train(x_train, features,  vs, u_s, maxcount = 5, user=True):
     for i in range(0,x_train.shape[0]):
         if count == maxcount: break
         count += 1
-        disp.append( [ 
-                      x_train[i,0].astype(int),  
-                      x_train[i,1].astype(int),   
-                      x_train[i,2].astype(float), 
+        disp.append( [
+                      x_train[i,0].astype(int),
+                      x_train[i,1].astype(int),
+                      x_train[i,2].astype(float),
                       *x_train[i,3:].astype(float)
                     ])
     table = tabulate.tabulate(disp, tablefmt='html',headers="firstrow", floatfmt=flist, numalign='center')
@@ -78,13 +78,13 @@ def pprint_data(y_p, user_train, item_train, printfull=False):
 
     for i in range(0,1000):
         #print(f"{y_p[i,0]: 0.2f}, {ynorm_train.numpy()[i].item(): 0.2f}")
-        print(f"{y_pu[i,0]: 0.2f}, {y_train[i]: 0.2f}, ", end='') 
+        print(f"{y_pu[i,0]: 0.2f}, {y_train[i]: 0.2f}, ", end='')
         print(f"{user_train[i,0].astype(int):d}, ",  end='')   # userid
         print(f"{user_train[i,1].astype(int):d}, ", end=''),  #  rating cnt
         print(f"{user_train[i,2].astype(float): 0.2f}, ",  end='')       # rating ave
         print(": ", end = '')
         print(f"{item_train[i,0].astype(int):d}, ",  end='')   # movie id
-        print(f"{item_train[i,2].astype(float):0.1f}, ", end='')   # ave movie rating    
+        print(f"{item_train[i,2].astype(float):0.1f}, ", end='')   # ave movie rating
         if printfull:
           for j in range(8, user_train.shape[1]):
             print(f"{user_train[i,j].astype(float):0.1f}, ", end='')   # rating
@@ -101,13 +101,13 @@ def pprint_data(y_p, user_train, item_train, printfull=False):
 def split_str(ifeatures, smax):
     ofeatures = []
     for s in ifeatures:
-        if ' ' not in s:  # skip string that already have a space            
+        if ' ' not in s:  # skip string that already have a space
             if len(s) > smax:
                 mid = int(len(s)/2)
                 s = s[:mid] + " " + s[mid:]
         ofeatures.append(s)
     return(ofeatures)
-    
+
 def pprint_data_tab(y_p, user_train, item_train, uvs, ivs, user_features, item_features, maxcount = 20, printfull=False):
     flist = [".1f", ".1f", ".0f", ".1f", ".0f", ".0f", ".0f",
              ".1f",".1f",".1f",".1f",".1f",".1f",".1f",".1f",".1f",".1f",".1f",".1f",".1f",".1f"]
@@ -124,13 +124,13 @@ def pprint_data_tab(y_p, user_train, item_train, uvs, ivs, user_features, item_f
         b = item_train[i, ivs:item_train.shape[1]]
         c = np.multiply(a,b)
 
-        disp.append( [ y_p[i,0], y_train[i], 
+        disp.append( [ y_p[i,0], y_train[i],
                       user_train[i,0].astype(int),   # user id
                       user_train[i,1].astype(int),   # rating cnt
                       user_train[i,2].astype(float), # user rating ave
                       item_train[i,0].astype(int),   # movie id
                       item_train[i,1].astype(int),   # year
-                      item_train[i,2].astype(float),  # ave movie rating 
+                      item_train[i,2].astype(float),  # ave movie rating
                       *c
                      ])
     table = tabulate.tabulate(disp, tablefmt='html',headers="firstrow", floatfmt=flist, numalign='center')
@@ -180,7 +180,7 @@ def predict_uservec(user_vecs, item_vecs, model, u_s, i_s, scaler, ScalerUser, S
         y_p = model.predict([user_vecs[:, u_s:], item_vecs[:, i_s:]])
     y_pu = scaler.inverse_transform(y_p)
 
-    if np.any(y_pu < 0) : 
+    if np.any(y_pu < 0) :
         print("Error, expected all positive predictions")
     sorted_index = np.argsort(-y_pu,axis=0).reshape(-1).tolist()  #negate to get largest rating first
     sorted_ypu   = y_pu[sorted_index]
@@ -196,13 +196,13 @@ def print_pred_debug(y_p, y, user, item, maxcount=10, onlyrating=False,  printfu
         if onlyrating == False or (onlyrating == True and y[i,0] != 0):
             if count == maxcount: break
             count += 1
-            print(f"{y_p[i, 0]: 0.2f}, {y[i,0]: 0.2f}, ", end='') 
+            print(f"{y_p[i, 0]: 0.2f}, {y[i,0]: 0.2f}, ", end='')
             print(f"{user[i, 0].astype(int):d}, ",  end='')       # userid
             print(f"{user[i, 1].astype(int):d}, ", end=''),       #  rating cnt
             print(f"{user[i, 2].astype(float):0.1f}, ", end=''),       #  rating ave
             print(": ", end = '')
             print(f"{item[i, 0].astype(int):d}, ",  end='')       # movie id
-            print(f"{item[i, 2].astype(float):0.1f}, ", end='')   # ave movie rating    
+            print(f"{item[i, 2].astype(float):0.1f}, ", end='')   # ave movie rating
             print(": ", end = '')
             if printfull:
                 for j in range(uvs, user.shape[1]):
@@ -215,9 +215,9 @@ def print_pred_debug(y_p, y, user, item, maxcount=10, onlyrating=False,  printfu
                 a = user[i, uvs:user.shape[1]]
                 b = item[i, ivs:item.shape[1]]
                 c = np.multiply(a,b)
-                print(c)    
-                
-                
+                print(c)
+
+
 def get_user_vecs(user_id, user_train, item_vecs, user_to_genre):
     """ given a user_id, return:
         user train/predict matrix to match the size of item_vecs

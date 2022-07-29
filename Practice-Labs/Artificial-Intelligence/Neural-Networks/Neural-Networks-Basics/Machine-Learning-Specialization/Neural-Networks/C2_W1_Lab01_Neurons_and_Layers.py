@@ -6,11 +6,11 @@
 # <figure>
 #    <img src="./images/C2_W1_NeuronsAndLayers.png"  style="width:540px;height:200px;" >
 # </figure>
-# 
+#
 
 # ## Packages
-# **Tensorflow and Keras**  
-# Tensorflow is a machine learning package developed by Google. In 2019, Google integrated Keras into Tensorflow and released Tensorflow 2.0. Keras is a framework developed independently by François Chollet that creates a simple, layer-centric interface to Tensorflow. This course will be using the Keras interface. 
+# **Tensorflow and Keras**
+# Tensorflow is a machine learning package developed by Google. In 2019, Google integrated Keras into Tensorflow and released Tensorflow 2.0. Keras is a framework developed independently by François Chollet that creates a simple, layer-centric interface to Tensorflow. This course will be using the Keras interface.
 
 # In[1]:
 
@@ -49,11 +49,11 @@ ax.set_xlabel('Size (1000 sqft)', fontsize='xx-large')
 plt.show()
 
 
-# ### Regression/Linear Model 
+# ### Regression/Linear Model
 # The function implemented by a neuron with no activation is the same as in Course 1, linear regression:
 # $$ f_{\mathbf{w},b}(x^{(i)}) = \mathbf{w}\cdot x^{(i)} + b \tag{1}$$
-# 
-# 
+#
+#
 
 # We can define a layer with one neuron or unit and compare it to the familiar linear regression function.
 
@@ -80,7 +80,7 @@ a1 = linear_layer(X_train[0].reshape(1,1))
 print(a1)
 
 
-# The result is a tensor (another name for an array) with a shape of (1,1) or one entry.   
+# The result is a tensor (another name for an array) with a shape of (1,1) or one entry.
 # Now let's look at the weights and bias. These weights are randomly initialized to small numbers and the bias defaults to being initialized to zero.
 
 # In[6]:
@@ -90,8 +90,8 @@ w, b= linear_layer.get_weights()
 print(f"w = {w}, b={b}")
 
 
-# A linear regression model (1) with a single input feature will have a single weight and bias. This matches the dimensions of our `linear_layer` above.   
-# 
+# A linear regression model (1) with a single input feature will have a single weight and bias. This matches the dimensions of our `linear_layer` above.
+#
 # The weights are initialized to random values so let's set them to some known values.
 
 # In[7]:
@@ -135,10 +135,10 @@ plt_linear(X_train, Y_train, prediction_tf, prediction_np)
 # ## Neuron with Sigmoid activation
 # The function implemented by a neuron/unit with a sigmoid activation is the same as in Course 1, logistic  regression:
 # $$ f_{\mathbf{w},b}(x^{(i)}) = g(\mathbf{w}x^{(i)} + b) \tag{2}$$
-# where $$g(x) = sigmoid(x)$$ 
-# 
+# where $$g(x) = sigmoid(x)$$
+#
 # Let's set $w$ and $b$ to some known values and check the model.
-# 
+#
 
 # ### DataSet
 # We'll use an example from Course 1, logistic regression.
@@ -166,7 +166,7 @@ neg = Y_train == 0
 
 fig,ax = plt.subplots(1,1,figsize=(4,3))
 ax.scatter(X_train[pos], Y_train[pos], marker='x', s=80, c = 'red', label="y=1")
-ax.scatter(X_train[neg], Y_train[neg], marker='o', s=100, label="y=0", facecolors='none', 
+ax.scatter(X_train[neg], Y_train[neg], marker='o', s=100, label="y=0", facecolors='none',
               edgecolors=dlc["dlblue"],lw=3)
 
 ax.set_ylim(-0.08,1.1)
@@ -178,7 +178,7 @@ plt.show()
 
 
 # ### Logistic Neuron
-# We can implement a 'logistic neuron' by adding a sigmoid activation. The function of the neuron is then described by (2) above.   
+# We can implement a 'logistic neuron' by adding a sigmoid activation. The function of the neuron is then described by (2) above.
 # This section will create a Tensorflow Model that contains our logistic layer to demonstrate an alternate method of creating models. Tensorflow is most often used to create multi-layer models. The [Sequential](https://keras.io/guides/sequential_model/) model is a convenient means of constructing these models.
 
 # In[14]:

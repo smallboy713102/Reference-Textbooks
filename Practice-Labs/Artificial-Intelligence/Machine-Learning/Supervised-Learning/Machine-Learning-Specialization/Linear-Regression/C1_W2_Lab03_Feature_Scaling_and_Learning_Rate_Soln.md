@@ -8,13 +8,13 @@ In this lab you will:
 - improve performance of gradient descent by *feature scaling* using z-score normalization
 
 ## Tools
-You will utilize the functions developed in the last lab as well as matplotlib and NumPy. 
+You will utilize the functions developed in the last lab as well as matplotlib and NumPy.
 
 
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
-from lab_utils_multi import  load_house_data, run_gradient_descent 
+from lab_utils_multi import  load_house_data, run_gradient_descent
 from lab_utils_multi import  norm_plot, plt_equal_scale, plot_cost_i_w
 from lab_utils_common import dlc
 np.set_printoptions(precision=2)
@@ -29,29 +29,29 @@ plt.style.use('./deeplearning.mplstyle')
 | $\mathbf{a}$ | vector, bold                                                 ||
 | $\mathbf{A}$ | matrix, bold capital                                         ||
 | **Regression** |         |    |     |
-|  $\mathbf{X}$ | training example maxtrix                  | `X_train` |   
-|  $\mathbf{y}$  | training example  targets                | `y_train` 
+|  $\mathbf{X}$ | training example maxtrix                  | `X_train` |
+|  $\mathbf{y}$  | training example  targets                | `y_train`
 |  $\mathbf{x}^{(i)}$, $y^{(i)}$ | $i_{th}$Training Example | `X[i]`, `y[i]`|
 | m | number of training examples | `m`|
 | n | number of features in each example | `n`|
 |  $\mathbf{w}$  |  parameter: weight,                       | `w`    |
-|  $b$           |  parameter: bias                                           | `b`    |     
-| $f_{\mathbf{w},b}(\mathbf{x}^{(i)})$ | The result of the model evaluation at  $\mathbf{x}^{(i)}$ parameterized by $\mathbf{w},b$: $f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = \mathbf{w} \cdot \mathbf{x}^{(i)}+b$  | `f_wb` | 
-|$\frac{\partial J(\mathbf{w},b)}{\partial w_j}$| the gradient or partial derivative of cost with respect to a parameter $w_j$ |`dj_dw[j]`| 
+|  $b$           |  parameter: bias                                           | `b`    |
+| $f_{\mathbf{w},b}(\mathbf{x}^{(i)})$ | The result of the model evaluation at  $\mathbf{x}^{(i)}$ parameterized by $\mathbf{w},b$: $f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = \mathbf{w} \cdot \mathbf{x}^{(i)}+b$  | `f_wb` |
+|$\frac{\partial J(\mathbf{w},b)}{\partial w_j}$| the gradient or partial derivative of cost with respect to a parameter $w_j$ |`dj_dw[j]`|
 |$\frac{\partial J(\mathbf{w},b)}{\partial b}$| the gradient or partial derivative of cost with respect to a parameter $b$| `dj_db`|
 
 #  Problem Statement
 
 As in the previous labs, you will use the motivating example of housing price prediction. The training data set contains many examples with 4 features (size, bedrooms, floors and age) shown in the table below. Note, in this lab, the Size feature is in sqft while earlier labs utilized 1000 sqft.  This data set is larger than the previous lab.
 
-We would like to build a linear regression model using these values so we can then predict the price for other houses - say, a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old. 
+We would like to build a linear regression model using these values so we can then predict the price for other houses - say, a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old.
 
-##  Dataset: 
-| Size (sqft) | Number of Bedrooms  | Number of floors | Age of  Home | Price (1000s dollars)  |   
-| ----------------| ------------------- |----------------- |--------------|----------------------- |  
-| 952             | 2                   | 1                | 65           | 271.5                  |  
-| 1244            | 3                   | 2                | 64           | 232                    |  
-| 1947            | 3                   | 2                | 17           | 509.8                  |  
+##  Dataset:
+| Size (sqft) | Number of Bedrooms  | Number of floors | Age of  Home | Price (1000s dollars)  |
+| ----------------| ------------------- |----------------- |--------------|----------------------- |
+| 952             | 2                   | 1                | 65           | 271.5                  |
+| 1244            | 3                   | 2                | 64           | 232                    |
+| 1947            | 3                   | 2                | 17           | 509.8                  |
 | ...             | ...                 | ...              | ...          | ...                    |
 
 
@@ -89,7 +89,7 @@ $$\begin{align*} \text{repeat}&\text{ until convergence:} \; \lbrace \newline\;
 &b\ \ := b -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial b}  \newline \rbrace
 \end{align*}$$
 
-where, n is the number of features, parameters $w_j$,  $b$, are updated simultaneously and where  
+where, n is the number of features, parameters $w_j$,  $b$, are updated simultaneously and where
 
 $$
 \begin{align}
@@ -99,7 +99,7 @@ $$
 $$
 * m is the number of training examples in the data set
 
-    
+
 *  $f_{\mathbf{w},b}(\mathbf{x}^{(i)})$ is the model's prediction, while $y^{(i)}$ is the target value
 
 
@@ -107,7 +107,7 @@ $$
 <figure>
     <img src="./images/C1_W2_Lab06_learningrate.PNG" style="width:1200px;" >
 </figure>
-The lectures discussed some of the issues related to setting the learning rate $\alpha$. The learning rate controls the size of the update to the parameters. See equation (1) above. It is shared by all the parameters.  
+The lectures discussed some of the issues related to setting the learning rate $\alpha$. The learning rate controls the size of the update to the parameters. See equation (1) above. It is shared by all the parameters.
 
 Let's run gradient descent and try a few settings of $\alpha$ on our data set
 
@@ -119,7 +119,7 @@ Let's run gradient descent and try a few settings of $\alpha$ on our data set
 _, _, hist = run_gradient_descent(X_train, y_train, 10, alpha = 9.9e-7)
 ```
 
-    Iteration Cost          w0       w1       w2       w3       b       djdw0    djdw1    djdw2    djdw3    djdb  
+    Iteration Cost          w0       w1       w2       w3       b       djdw0    djdw1    djdw2    djdw3    djdb
     ---------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
             0 9.55884e+04  5.5e-01  1.0e-03  5.1e-04  1.2e-02  3.6e-04 -5.5e+05 -1.0e+03 -5.2e+02 -1.2e+04 -3.6e+02
             1 1.28213e+05 -8.8e-02 -1.7e-04 -1.0e-04 -3.4e-03 -4.8e-05  6.4e+05  1.2e+03  6.2e+02  1.6e+04  4.1e+02
@@ -157,7 +157,7 @@ Let's try a bit smaller value and see what happens.
 _,_,hist = run_gradient_descent(X_train, y_train, 10, alpha = 9e-7)
 ```
 
-    Iteration Cost          w0       w1       w2       w3       b       djdw0    djdw1    djdw2    djdw3    djdb  
+    Iteration Cost          w0       w1       w2       w3       b       djdw0    djdw1    djdw2    djdw3    djdb
     ---------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
             0 6.64616e+04  5.0e-01  9.1e-04  4.7e-04  1.1e-02  3.3e-04 -5.5e+05 -1.0e+03 -5.2e+02 -1.2e+04 -3.6e+02
             1 6.18990e+04  1.8e-02  2.1e-05  2.0e-06 -7.9e-04  1.9e-05  5.3e+05  9.8e+02  5.2e+02  1.3e+04  3.4e+02
@@ -172,7 +172,7 @@ _,_,hist = run_gradient_descent(X_train, y_train, 10, alpha = 9e-7)
     w,b found by gradient descent: w: [ 7.74e-02  8.27e-05 -1.06e-06 -4.20e-03], b: 0.00
 
 
-Cost is decreasing throughout the run showing that alpha is not too large. 
+Cost is decreasing throughout the run showing that alpha is not too large.
 
 
 ```python
@@ -195,7 +195,7 @@ Let's try a bit smaller value for $\alpha$ and see what happens.
 _,_,hist = run_gradient_descent(X_train, y_train, 10, alpha = 1e-7)
 ```
 
-    Iteration Cost          w0       w1       w2       w3       b       djdw0    djdw1    djdw2    djdw3    djdb  
+    Iteration Cost          w0       w1       w2       w3       b       djdw0    djdw1    djdw2    djdw3    djdb
     ---------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
             0 4.42313e+04  5.5e-02  1.0e-04  5.2e-05  1.2e-03  3.6e-05 -5.5e+05 -1.0e+03 -5.2e+02 -1.2e+04 -3.6e+02
             1 2.76461e+04  9.8e-02  1.8e-04  9.2e-05  2.2e-03  6.5e-05 -4.3e+05 -7.9e+02 -4.0e+02 -9.5e+03 -2.8e+02
@@ -210,7 +210,7 @@ _,_,hist = run_gradient_descent(X_train, y_train, 10, alpha = 1e-7)
     w,b found by gradient descent: w: [2.31e-01 4.18e-04 2.12e-04 4.81e-03], b: 0.00
 
 
-Cost is decreasing throughout the run showing that $\alpha$ is not too large. 
+Cost is decreasing throughout the run showing that $\alpha$ is not too large.
 
 
 ```python
@@ -223,7 +223,7 @@ plot_cost_i_w(X_train,y_train,hist)
 
 On the left, you see that cost is decreasing as it should. On the right you can see that $w_0$ is decreasing without crossing the minimum. Note above that `dj_w0` is negative throughout the run. This solution will also converge, though not quite as quickly as the previous example.
 
-## Feature Scaling 
+## Feature Scaling
 <figure>
     <img src="./images/C1_W2_Lab06_featurescalingheader.PNG" style="width:1200px;" >
 </figure>
@@ -248,32 +248,32 @@ The graphic below shows the result of a very long run with $\alpha$ = 9e-7. This
 <figure>
     <img src="./images/C1_W2_Lab06_LongRun.PNG" style="width:1200px;" >
 </figure>
-    
+
 Above, you can see cost decreased slowly after its initial reduction. Notice the difference between `w0` and `w1`,`w2`,`w3` as well as  `dj_dw0` and `dj_dw1-3`. `w0` reaches its near final value very quickly and `dj_dw0` has quickly decreased to a small value showing that `w0` is near the final value. The other parameters were reduced much more slowly.
 
 Why is this?  Is there something we can improve? See below:
 <figure>
     <center> <img src="./images/C1_W2_Lab06_scale.PNG"   ></center>
-</figure>   
+</figure>
 
-The figure above shows why $w$'s are updated unevenly. 
+The figure above shows why $w$'s are updated unevenly.
 - $\alpha$ is shared by all parameter updates ($w$'s and $b$).
 - the common error term is multiplied by the features for the $w$'s. (not $b$).
-- the features vary significantly in magnitude making some features update much faster than others. In this case, $w_0$ is multiplied by 'size(sqft)', which is generally > 1000,  while $w_1$ is multiplied by 'number of bedrooms', which is generally 2-4. 
-    
+- the features vary significantly in magnitude making some features update much faster than others. In this case, $w_0$ is multiplied by 'size(sqft)', which is generally > 1000,  while $w_1$ is multiplied by 'number of bedrooms', which is generally 2-4.
+
 The solution is Feature Scaling.
 
-The lectures discussed three different techniques: 
+The lectures discussed three different techniques:
 - Feature scaling, essentially dividing each positive feature by its maximum value, or more generally, rescale each feature by both its minimum and maximum values using (x-min)/(max-min). Both ways normalizes features to the range of -1 and 1, where the former method works for positive features which is simple and serves well for the lecture's example, and the latter method works for any features.
-- Mean normalization: $x_i := \dfrac{x_i - \mu_i}{max - min} $ 
-- Z-score normalization which we will explore below. 
+- Mean normalization: $x_i := \dfrac{x_i - \mu_i}{max - min} $
+- Z-score normalization which we will explore below.
 
 
-### z-score normalization 
+### z-score normalization
 After z-score normalization, all features will have a mean of 0 and a standard deviation of 1.
 
 To implement z-score normalization, adjust your input values as shown in this formula:
-$$x^{(i)}_j = \dfrac{x^{(i)}_j - \mu_j}{\sigma_j} \tag{4}$$ 
+$$x^{(i)}_j = \dfrac{x^{(i)}_j - \mu_j}{\sigma_j} \tag{4}$$
 where $j$ selects a feature or a column in the $\mathbf{X}$ matrix. $µ_j$ is the mean of all the values for feature (j) and $\sigma_j$ is the standard deviation of feature (j).
 $$
 \begin{align}
@@ -296,10 +296,10 @@ that we had previously computed from the training set.
 def zscore_normalize_features(X):
     """
     computes  X, zcore normalized by column
-    
+
     Args:
       X (ndarray (m,n))     : input data, m examples, n features
-      
+
     Returns:
       X_norm (ndarray (m,n)): input normalized by column
       mu (ndarray (n,))     : mean of each feature
@@ -310,10 +310,10 @@ def zscore_normalize_features(X):
     # find the standard deviation of each column/feature
     sigma  = np.std(X, axis=0)                  # sigma will have shape (n,)
     # element-wise, subtract mu for that column from each example, divide by std for that column
-    X_norm = (X - mu) / sigma      
+    X_norm = (X - mu) / sigma
 
     return (X_norm, mu, sigma)
- 
+
 #check our work
 #from sklearn.preprocessing import scale
 #scale(X_orig, axis=0, with_mean=True, with_std=True, copy=True)
@@ -323,10 +323,10 @@ Let's look at the steps involved in Z-score normalization. The plot below shows 
 
 
 ```python
-mu     = np.mean(X_train,axis=0)   
-sigma  = np.std(X_train,axis=0) 
+mu     = np.mean(X_train,axis=0)
+sigma  = np.std(X_train,axis=0)
 X_mean = (X_train - mu)
-X_norm = (X_train - mu)/sigma      
+X_norm = (X_train - mu)/sigma
 
 fig,ax=plt.subplots(1, 3, figsize=(12, 3))
 ax[0].scatter(X_train[:,0], X_train[:,3])
@@ -352,7 +352,7 @@ plt.show()
 ![png](output_33_0.png)
 
 
-The plot above shows the relationship between two of the training set parameters, "age" and "size(sqft)". *These are plotted with equal scale*. 
+The plot above shows the relationship between two of the training set parameters, "age" and "size(sqft)". *These are plotted with equal scale*.
 - Left: Unnormalized: The range of values or the variance of the 'size(sqft)' feature is much larger than that of age
 - Middle: The first step removes the mean or average value from each feature. This leaves features that are centered around zero. It's difficult to see the difference for the 'age' feature, but 'size(sqft)' is clearly around zero.
 - Right: The second step divides by the variance. This leaves both features centered at zero with a similar scale.
@@ -364,11 +364,11 @@ Let's normalize the data and compare it to the original data.
 # normalize the original features
 X_norm, X_mu, X_sigma = zscore_normalize_features(X_train)
 print(f"X_mu = {X_mu}, \nX_sigma = {X_sigma}")
-print(f"Peak to Peak range by column in Raw        X:{np.ptp(X_train,axis=0)}")   
+print(f"Peak to Peak range by column in Raw        X:{np.ptp(X_train,axis=0)}")
 print(f"Peak to Peak range by column in Normalized X:{np.ptp(X_norm,axis=0)}")
 ```
 
-    X_mu = [1.42e+03 2.72e+00 1.38e+00 3.84e+01], 
+    X_mu = [1.42e+03 2.72e+00 1.38e+00 3.84e+01],
     X_sigma = [411.62   0.65   0.49  25.78]
     Peak to Peak range by column in Raw        X:[2.41e+03 4.00e+00 1.00e+00 9.50e+01]
     Peak to Peak range by column in Normalized X:[5.85 6.14 2.06 3.69]
@@ -389,7 +389,7 @@ fig,ax=plt.subplots(1,4,figsize=(12,3))
 for i in range(len(ax)):
     norm_plot(ax[i],X_norm[:,i],)
     ax[i].set_xlabel(X_features[i])
-ax[0].set_ylabel("count"); 
+ax[0].set_ylabel("count");
 fig.suptitle("distribution of features after normalization")
 
 plt.show()
@@ -413,7 +413,7 @@ Note the **vastly larger value of alpha**. This will speed up gradient descent.
 w_norm, b_norm, hist = run_gradient_descent(X_norm, y_train, 1000, 1.0e-1, )
 ```
 
-    Iteration Cost          w0       w1       w2       w3       b       djdw0    djdw1    djdw2    djdw3    djdb  
+    Iteration Cost          w0       w1       w2       w3       b       djdw0    djdw1    djdw2    djdw3    djdb
     ---------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
             0 5.76170e+04  8.9e+00  3.0e+00  3.3e+00 -6.0e+00  3.6e+01 -8.9e+01 -3.0e+01 -3.3e+01  6.0e+01 -3.6e+02
           100 2.21086e+02  1.1e+02 -2.0e+01 -3.1e+01 -3.8e+01  3.6e+02 -9.2e-01  4.5e-01  5.3e-01 -1.7e-01 -9.6e-03
@@ -439,7 +439,7 @@ yp = np.zeros(m)
 for i in range(m):
     yp[i] = np.dot(X_norm[i], w_norm) + b_norm
 
-    # plot predictions and targets versus original features    
+    # plot predictions and targets versus original features
 fig,ax=plt.subplots(1,4,figsize=(12, 3),sharey=True)
 for i in range(len(ax)):
     ax[i].scatter(X_train[:,i],y_train, label = 'target')
@@ -459,7 +459,7 @@ The results look good. A few points to note:
 - when generating the plot, the normalized features were used. Any predictions using the parameters learned from a normalized training set must also be normalized.
 
 **Prediction**
-The point of generating our model is to use it to predict housing prices that are not in the data set. Let's predict the price of a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old. Recall, that you must normalize the data with the mean and standard deviation derived when the training data was normalized. 
+The point of generating our model is to use it to predict housing prices that are not in the data set. Let's predict the price of a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old. Recall, that you must normalize the data with the mean and standard deviation derived when the training data was normalized.
 
 
 ```python
@@ -475,10 +475,10 @@ print(f" predicted price of a house with 1200 sqft, 3 bedrooms, 1 floor, 40 year
      predicted price of a house with 1200 sqft, 3 bedrooms, 1 floor, 40 years old = $318709
 
 
-**Cost Contours**  
-<img align="left" src="./images/C1_W2_Lab06_contours.PNG"   style="width:240px;" >Another way to view feature scaling is in terms of the cost contours. When feature scales do not match, the plot of cost versus parameters in a contour plot is asymmetric. 
+**Cost Contours**
+<img align="left" src="./images/C1_W2_Lab06_contours.PNG"   style="width:240px;" >Another way to view feature scaling is in terms of the cost contours. When feature scales do not match, the plot of cost versus parameters in a contour plot is asymmetric.
 
-In the plot below, the scale of the parameters is matched. The left plot is the cost contour plot of w[0], the square feet versus w[1], the number of bedrooms before normalizing the features. The plot is so asymmetric, the curves completing the contours are not visible. In contrast, when the features are normalized, the cost contour is much more symmetric. The result is that updates to parameters during gradient descent can make equal progress for each parameter. 
+In the plot below, the scale of the parameters is matched. The left plot is the cost contour plot of w[0], the square feet versus w[1], the number of bedrooms before normalizing the features. The plot is so asymmetric, the curves completing the contours are not visible. In contrast, when the features are normalized, the cost contour is much more symmetric. The result is that updates to parameters during gradient descent can make equal progress for each parameter.
 
 
 
@@ -494,7 +494,7 @@ plt_equal_scale(X_train, X_norm, y_train)
 ## Congratulations!
 In this lab you:
 - utilized the routines for linear regression with multiple features you developed in previous labs
-- explored the impact of the learning rate  $\alpha$ on convergence 
+- explored the impact of the learning rate  $\alpha$ on convergence
 - discovered the value of feature scaling using z-score normalization in speeding convergence
 
 ## Acknowledgments

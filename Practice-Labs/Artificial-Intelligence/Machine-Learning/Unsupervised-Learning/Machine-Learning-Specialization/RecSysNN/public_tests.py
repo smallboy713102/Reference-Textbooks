@@ -32,10 +32,10 @@ def test_sq_dist(target):
     c3 = target(a3, b3)
     a4 = np.array([1, 1, 1, 1, 1]); b4 = np.array([0, 0, 0, 0, 0])
     c4 = target(a4, b4)
-    
+
     assert np.isclose(c1, 0), f"Wrong value. Expected {0}, got {c1}"
-    assert np.isclose(c2, 0.03), f"Wrong value. Expected {0.03}, got {c2}" 
-    assert np.isclose(c3, 2), f"Wrong value. Expected {2}, got {c3}" 
-    assert np.isclose(c4, 5), f"Wrong value. Expected {5}, got {c4}" 
-    
+    assert np.isclose(c2, 0.03), f"Wrong value. Expected {0.03}, got {c2}"
+    assert np.isclose(c3, 2), f"Wrong value. Expected {2}, got {c3}"
+    assert np.isclose(c4, 5), f"Wrong value. Expected {5}, got {c4}"
+
     print('\033[92mAll tests passed!')

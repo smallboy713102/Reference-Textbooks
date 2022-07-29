@@ -53,4 +53,3 @@ def plt_softmax(my_softmax):
     z3.on_changed(update)
 
     plt.show()
- 

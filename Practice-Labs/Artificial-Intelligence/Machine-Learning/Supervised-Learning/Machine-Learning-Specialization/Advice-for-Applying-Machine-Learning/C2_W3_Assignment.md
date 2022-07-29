@@ -28,7 +28,7 @@ In this lab, you will explore techniques to evaluate and improve your machine le
 
 
 <a name="1"></a>
-## 1 - Packages 
+## 1 - Packages
 
 First, let's run the cell below to import all the packages that you will need during this assignment.
 - [numpy](https://numpy.org/) is the fundamental package for scientific computing Python.
@@ -55,7 +55,7 @@ from tensorflow.keras.optimizers import Adam
 import logging
 logging.getLogger("tensorflow").setLevel(logging.ERROR)
 
-from public_tests_a1 import * 
+from public_tests_a1 import *
 
 tf.keras.backend.set_floatx('float64')
 from assigment_utils import *
@@ -66,11 +66,11 @@ tf.autograph.set_verbosity(0)
 <a name="2"></a>
 ## 2 - Evaluating a Learning Algorithm (Polynomial Regression)
 
-<img align="Right" src="./images/C2_W3_TrainingVsNew.png"  style=" width:350px; padding: 10px 20px ; "> Let's say you have created a machine learning model and you find it *fits* your training data very well. You're done? Not quite. The goal of creating the model was to be able to predict values for <span style="color:blue">*new* </span> examples. 
+<img align="Right" src="./images/C2_W3_TrainingVsNew.png"  style=" width:350px; padding: 10px 20px ; "> Let's say you have created a machine learning model and you find it *fits* your training data very well. You're done? Not quite. The goal of creating the model was to be able to predict values for <span style="color:blue">*new* </span> examples.
 
-How can you test your model's performance on new data before deploying it?   
+How can you test your model's performance on new data before deploying it?
 The answer has two parts:
-* Split your original data set into "Training" and "Test" sets. 
+* Split your original data set into "Training" and "Test" sets.
     * Use the training data to fit the parameters of the model
     * Use the test data to evaluate the model on *new* data
 * Develop an error function to evaluate your model.
@@ -85,7 +85,7 @@ Lectures advised reserving 20-40% of your data set for testing. Let's use an `sk
 X,y,x_ideal,y_ideal = gen_data(18, 2, 0.7)
 print("X.shape", X.shape, "y.shape", y.shape)
 
-#split the data using sklearn routine 
+#split the data using sklearn routine
 X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.33, random_state=1)
 print("X_train.shape", X_train.shape, "y_train.shape", y_train.shape)
 print("X_test.shape", X_test.shape, "y_test.shape", y_test.shape)
@@ -121,8 +121,8 @@ plt.show()
 ### 2.2 Error calculation for model evaluation, linear regression
 When *evaluating* a linear regression model, you average the squared error difference of the predicted values and the target values.
 
-$$ J_\text{test}(\mathbf{w},b) = 
-            \frac{1}{2m_\text{test}}\sum_{i=0}^{m_\text{test}-1} ( f_{\mathbf{w},b}(\mathbf{x}^{(i)}_\text{test}) - y^{(i)}_\text{test} )^2 
+$$ J_\text{test}(\mathbf{w},b) =
+            \frac{1}{2m_\text{test}}\sum_{i=0}^{m_\text{test}-1} ( f_{\mathbf{w},b}(\mathbf{x}^{(i)}_\text{test}) - y^{(i)}_\text{test} )^2
             \tag{1}
 $$
 
@@ -136,20 +136,20 @@ Below, create a function to evaluate the error on a data set for a linear regres
 # UNQ_C1
 # GRADED CELL: eval_mse
 def eval_mse(y, yhat):
-    """ 
+    """
     Calculate the mean squared error on a data set.
     Args:
       y    : (ndarray  Shape (m,) or (m,1))  target value of each example
       yhat : (ndarray  Shape (m,) or (m,1))  predicted value of each example
     Returns:
-      err: (scalar)             
+      err: (scalar)
     """
     m = len(y)
     err = 0.0
-    ### START CODE HERE ### 
-    err = sum((yhat - y)**2) / (2*m) 
-    ### END CODE HERE ### 
-    
+    ### START CODE HERE ###
+    err = sum((yhat - y)**2) / (2*m)
+    ### END CODE HERE ###
+
     return(err)
 ```
 
@@ -160,7 +160,7 @@ y_tmp = np.array([2.3, 4.1])
 eval_mse(y_hat, y_tmp)
 
 # BEGIN UNIT TEST
-test_eval_mse(eval_mse)   
+test_eval_mse(eval_mse)
 # END UNIT TEST
 ```
 
@@ -170,25 +170,25 @@ test_eval_mse(eval_mse)
 <details>
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 
-    
+
 ```python
 def eval_mse(y, yhat):
-    """ 
+    """
     Calculate the mean squared error on a data set.
     Args:
       y    : (ndarray  Shape (m,) or (m,1))  target value of each example
       yhat : (ndarray  Shape (m,) or (m,1))  predicted value of each example
     Returns:
-      err: (scalar)             
+      err: (scalar)
     """
     m = len(y)
     err = 0.0
     for i in range(m):
-        err_i  = ( (yhat[i] - y[i])**2 ) 
-        err   += err_i                                                                
-    err = err / (2*m)                    
+        err_i  = ( (yhat[i] - y[i])**2 )
+        err   += err_i
+    err = err / (2*m)
     return(err)
-``` 
+```
 
 <a name="2.3"></a>
 ### 2.3 Compare performance on training and test data
@@ -213,7 +213,7 @@ yhat = lmodel.predict(X_test)
 err_test = lmodel.mse(y_test, yhat)
 ```
 
-The computed error on the training set is substantially less than that of the test set. 
+The computed error on the training set is substantially less than that of the test set.
 
 
 ```python
@@ -223,12 +223,12 @@ print(f"training err {err_train:0.2f}, test err {err_test:0.2f}")
     training err 58.01, test err 171215.01
 
 
-The following plot shows why this is. The model fits the training data very well. To do so, it has created a complex function. The test data was not part of the training and the model does a poor job of predicting on this data.  
+The following plot shows why this is. The model fits the training data very well. To do so, it has created a complex function. The test data was not part of the training and the model does a poor job of predicting on this data.
 This model would be described as 1) is overfitting, 2) has high variance 3) 'generalizes' poorly.
 
 
 ```python
-# plot predictions over data range 
+# plot predictions over data range
 x = np.linspace(0,int(X.max()),100)  # predict values for plot
 y_pred = lmodel.predict(x).reshape(-1,1)
 
@@ -259,7 +259,7 @@ Let's generate three data sets below. We'll once again use `train_test_split` fr
 X,y, x_ideal,y_ideal = gen_data(40, 5, 0.7)
 print("X.shape", X.shape, "y.shape", y.shape)
 
-#split the data using sklearn routine 
+#split the data using sklearn routine
 X_train, X_, y_train, y_ = train_test_split(X,y,test_size=0.40, random_state=1)
 X_cv, X_test, y_cv, y_test = train_test_split(X_,y_,test_size=0.50, random_state=1)
 print("X_train.shape", X_train.shape, "y_train.shape", y_train.shape)
@@ -274,7 +274,7 @@ print("X_test.shape", X_test.shape, "y_test.shape", y_test.shape)
 
 
 <a name="3"></a>
-## 3 - Bias and Variance<img align="Right" src="./images/C2_W3_BiasVarianceDegree.png"  style=" width:500px; padding: 10px 20px ; "> 
+## 3 - Bias and Variance<img align="Right" src="./images/C2_W3_BiasVarianceDegree.png"  style=" width:500px; padding: 10px 20px ; ">
  Above, it was clear the degree of the polynomial model was too high. How can you choose a good value? It turns out, as shown in the diagram, the training and cross-validation performance can provide guidance. By trying a range of degree values, the training and cross-validation performance can be evaluated. As the degree becomes too large, the cross-validation performance will start to degrade relative to the training performance. Let's try this on our example.
 
 <a name="3.1"></a>
@@ -309,9 +309,9 @@ Let's train the model repeatedly, increasing the degree of the polynomial each i
 
 ```python
 max_degree = 9
-err_train = np.zeros(max_degree)    
-err_cv = np.zeros(max_degree)      
-x = np.linspace(0,int(X.max()),100)  
+err_train = np.zeros(max_degree)
+err_cv = np.zeros(max_degree)
+x = np.linspace(0,int(X.max()),100)
 y_pred = np.zeros((100,max_degree))  #columns are lines to plot
 
 for degree in range(max_degree):
@@ -322,7 +322,7 @@ for degree in range(max_degree):
     yhat = lmodel.predict(X_cv)
     err_cv[degree] = lmodel.mse(y_cv, yhat)
     y_pred[:,degree] = lmodel.predict(x)
-    
+
 optimal_degree = np.argmin(err_cv)+1
 ```
 
@@ -331,7 +331,7 @@ optimal_degree = np.argmin(err_cv)+1
 
 ```python
 plt.close("all")
-plt_optimal_degree(X_train, y_train, X_cv, y_cv, x, y_pred, x_ideal, y_ideal, 
+plt_optimal_degree(X_train, y_train, X_cv, y_cv, x, y_pred, x_ideal, y_ideal,
                    err_train, err_cv, optimal_degree, max_degree)
 ```
 
@@ -339,12 +339,12 @@ plt_optimal_degree(X_train, y_train, X_cv, y_cv, x, y_pred, x_ideal, y_ideal,
     Canvas(toolbar=Toolbar(toolitems=[('Home', 'Reset original view', 'home', 'home'), ('Back', 'Back to previous …
 
 
-The plot above demonstrates that separating data into two groups, data the model is trained on and data the model has not been trained on, can be used to determine if the model is underfitting or overfitting. In our example, we created a variety of models varying from underfitting to overfitting by increasing the degree of the polynomial used. 
-- On the left plot, the solid lines represent the predictions from these models. A polynomial model with degree 1 produces a straight line that intersects very few data points, while the maximum degree hews very closely to every data point. 
+The plot above demonstrates that separating data into two groups, data the model is trained on and data the model has not been trained on, can be used to determine if the model is underfitting or overfitting. In our example, we created a variety of models varying from underfitting to overfitting by increasing the degree of the polynomial used.
+- On the left plot, the solid lines represent the predictions from these models. A polynomial model with degree 1 produces a straight line that intersects very few data points, while the maximum degree hews very closely to every data point.
 - on the right:
     - the error on the trained data (blue) decreases as the model complexity increases as expected
-    - the error of the cross-validation data decreases initially as the model starts to conform to the data, but then increases as the model starts to over-fit on the training data (fails to *generalize*).     
-    
+    - the error of the cross-validation data decreases initially as the model starts to conform to the data, but then increases as the model starts to over-fit on the training data (fails to *generalize*).
+
 It's worth noting that the curves in these examples as not as smooth as one might draw for a lecture. It's clear the specific data points assigned to each group can change your results significantly. The general trend is what is important.
 
 <a name="3.3"></a>
@@ -358,9 +358,9 @@ Let's demonstrate this by starting with a high degree polynomial and varying the
 lambda_range = np.array([0.0, 1e-6, 1e-5, 1e-4,1e-3,1e-2, 1e-1,1,10,100])
 num_steps = len(lambda_range)
 degree = 10
-err_train = np.zeros(num_steps)    
-err_cv = np.zeros(num_steps)       
-x = np.linspace(0,int(X.max()),100) 
+err_train = np.zeros(num_steps)
+err_cv = np.zeros(num_steps)
+x = np.linspace(0,int(X.max()),100)
 y_pred = np.zeros((100,num_steps))  #columns are lines to plot
 
 for i in range(num_steps):
@@ -372,8 +372,8 @@ for i in range(num_steps):
     yhat = lmodel.predict(X_cv)
     err_cv[i] = lmodel.mse(y_cv, yhat)
     y_pred[:,i] = lmodel.predict(x)
-    
-optimal_reg_idx = np.argmin(err_cv) 
+
+optimal_reg_idx = np.argmin(err_cv)
 ```
 
 
@@ -386,7 +386,7 @@ plt_tune_regularization(X_train, y_train, X_cv, y_cv, x, y_pred, err_train, err_
     Canvas(toolbar=Toolbar(toolitems=[('Home', 'Reset original view', 'home', 'home'), ('Back', 'Back to previous …
 
 
-Above, the plots show that as regularization increases, the model moves from a high variance (overfitting) model to a high bias (underfitting) model. The vertical line in the right plot shows the optimal value of lambda. In this example, the polynomial degree was set to 10. 
+Above, the plots show that as regularization increases, the model moves from a high variance (overfitting) model to a high bias (underfitting) model. The vertical line in the right plot shows the optimal value of lambda. In this example, the polynomial degree was set to 10.
 
 <a name="3.4"></a>
 ### 3.4 Getting more data: Increasing Training Set Size (m)
@@ -402,18 +402,18 @@ plt_tune_m(X_train, y_train, X_cv, y_cv, x, y_pred, err_train, err_cv, m_range, 
     Canvas(toolbar=Toolbar(toolitems=[('Home', 'Reset original view', 'home', 'home'), ('Back', 'Back to previous …
 
 
-The above plots show that when a model has high variance and is overfitting, adding more examples improves performance. Note the curves on the left plot. The final curve with the highest value of $m$ is a smooth curve that is in the center of the data. On the right, as the number of examples increases, the performance of the training set and cross-validation set converge to similar values. Note that the curves are not as smooth as one might see in a lecture. That is to be expected. The trend remains clear: more data improves generalization. 
+The above plots show that when a model has high variance and is overfitting, adding more examples improves performance. Note the curves on the left plot. The final curve with the highest value of $m$ is a smooth curve that is in the center of the data. On the right, as the number of examples increases, the performance of the training set and cross-validation set converge to similar values. Note that the curves are not as smooth as one might see in a lecture. That is to be expected. The trend remains clear: more data improves generalization.
 
 > Note that adding more examples when the model has high bias (underfitting) does not improve performance.
 
 
 <a name="4"></a>
 ## 4 - Evaluating a Learning Algorithm (Neural Network)
-Above, you tuned aspects of a polynomial regression model. Here, you will work with a neural network model. Let's start by creating a classification data set. 
+Above, you tuned aspects of a polynomial regression model. Here, you will work with a neural network model. Let's start by creating a classification data set.
 
 <a name="4.1"></a>
 ### 4.1 Data Set
-Run the cell below to generate a data set and split it into training, cross-validation (CV) and test sets. In this example, we're increasing the percentage of cross-validation data points for emphasis.  
+Run the cell below to generate a data set and split it into training, cross-validation (CV) and test sets. In this example, we're increasing the percentage of cross-validation data points for emphasis.
 
 
 ```python
@@ -438,13 +438,13 @@ plt_train_eq_dist(X_train, y_train,classes, X_cv, y_cv, centers, std)
     Canvas(toolbar=Toolbar(toolitems=[('Home', 'Reset original view', 'home', 'home'), ('Back', 'Back to previous …
 
 
-Above, you can see the data on the left. There are six clusters identified by color. Both training points (dots) and cross-validataion points (triangles) are shown. The interesting points are those that fall in ambiguous locations where either cluster might consider them members. What would you expect a neural network model to do? What would be an example of overfitting? underfitting?  
+Above, you can see the data on the left. There are six clusters identified by color. Both training points (dots) and cross-validataion points (triangles) are shown. The interesting points are those that fall in ambiguous locations where either cluster might consider them members. What would you expect a neural network model to do? What would be an example of overfitting? underfitting?
 On the right is an example of an 'ideal' model, or a model one might create knowing the source of the data. The lines represent 'equal distance' boundaries where the distance between center points is equal. It's worth noting that this model would "misclassify" roughly 8% of the total data set.
 
 <a name="4.2"></a>
 ### 4.2 Evaluating categorical model by calculating classification error
-The evaluation function for categorical models used here is simply the fraction of incorrect predictions:  
-$$ J_{cv} =\frac{1}{m}\sum_{i=0}^{m-1} 
+The evaluation function for categorical models used here is simply the fraction of incorrect predictions:
+$$ J_{cv} =\frac{1}{m}\sum_{i=0}^{m-1}
 \begin{cases}
     1, & \text{if $\hat{y}^{(i)} \neq y^{(i)}$}\\
     0, & \text{otherwise}
@@ -461,20 +461,20 @@ Below, complete the routine to calculate classification error. Note, in this lab
 # UNQ_C2
 # GRADED CELL: eval_cat_err
 def eval_cat_err(y, yhat):
-    """ 
+    """
     Calculate the categorization error
     Args:
       y    : (ndarray  Shape (m,) or (m,1))  target value of each example
       yhat : (ndarray  Shape (m,) or (m,1))  predicted value of each example
     Returns:|
-      cerr: (scalar)             
+      cerr: (scalar)
     """
     m = len(y)
     incorrect = 0
-    ### START CODE HERE ### 
+    ### START CODE HERE ###
     cerr = sum(int(i) for i in (yhat != y)) / m
-    ### END CODE HERE ### 
-    
+    ### END CODE HERE ###
+
     return(cerr)
 ```
 
@@ -487,10 +487,10 @@ y_hat = np.array([[1], [2], [0], [3]])
 y_tmp = np.array([[1], [2], [1], [3]])
 print(f"categorization error {np.squeeze(eval_cat_err(y_hat, y_tmp)):0.3f}, expected:0.250" )
 
-# BEGIN UNIT TEST  
+# BEGIN UNIT TEST
 test_eval_cat_err(eval_cat_err)
 # END UNIT TEST
-# BEGIN UNIT TEST  
+# BEGIN UNIT TEST
 test_eval_cat_err(eval_cat_err)
 # END UNIT TEST
 ```
@@ -503,16 +503,16 @@ test_eval_cat_err(eval_cat_err)
 
 <details>
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-    
+
 ```python
 def eval_cat_err(y, yhat):
-    """ 
+    """
     Calculate the categorization error
     Args:
       y    : (ndarray  Shape (m,) or (m,1))  target value of each example
       yhat : (ndarray  Shape (m,) or (m,1))  predicted value of each example
     Returns:|
-      cerr: (scalar)             
+      cerr: (scalar)
     """
     m = len(y)
     incorrect = 0
@@ -520,8 +520,8 @@ def eval_cat_err(y, yhat):
         if yhat[i] != y[i]:    # @REPLACE
             incorrect += 1     # @REPLACE
     cerr = incorrect/m         # @REPLACE
-    return(cerr)                                    
-``` 
+    return(cerr)
+```
 
 <a name="5"></a>
 ## 5 - Model Complexity
@@ -534,7 +534,7 @@ Below, you will build two models. A complex model and a simple model. You will e
 Below, compose a three-layer model:
 * Dense layer with 120 units, relu activation
 * Dense layer with 40 units, relu activation
-* Dense layer with 6 units and a linear activation (not softmax)  
+* Dense layer with 6 units and a linear activation (not softmax)
 Compile using
 * loss with `SparseCategoricalCrossentropy`, remember to use  `from_logits=True`
 * Adam optimizer with learning rate of 0.01.
@@ -549,19 +549,19 @@ logging.getLogger("tensorflow").setLevel(logging.ERROR)
 tf.random.set_seed(1234)
 model = Sequential(
     [
-        ### START CODE HERE ### 
-        Dense(120, activation = 'relu', name = "L1"),      
-        Dense(40, activation = 'relu', name = "L2"),         
-        Dense(classes, activation = 'linear', name = "L3") 
-        ### END CODE HERE ### 
+        ### START CODE HERE ###
+        Dense(120, activation = 'relu', name = "L1"),
+        Dense(40, activation = 'relu', name = "L2"),
+        Dense(classes, activation = 'linear', name = "L3")
+        ### END CODE HERE ###
 
     ], name="Complex"
 )
 model.compile(
-    ### START CODE HERE ### 
+    ### START CODE HERE ###
     loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
     optimizer=tf.keras.optimizers.Adam(0.01),
-    ### END CODE HERE ### 
+    ### END CODE HERE ###
 )
 ```
 
@@ -2589,20 +2589,20 @@ model.fit(
 # BEGIN UNIT TEST
 model.summary()
 
-model_test(model, classes, X_train.shape[1]) 
+model_test(model, classes, X_train.shape[1])
 # END UNIT TEST
 ```
 
     Model: "Complex"
     _________________________________________________________________
-     Layer (type)                Output Shape              Param #   
+     Layer (type)                Output Shape              Param #
     =================================================================
-     L1 (Dense)                  (None, 120)               360       
-                                                                     
-     L2 (Dense)                  (None, 40)                4840      
-                                                                     
-     L3 (Dense)                  (None, 6)                 246       
-                                                                     
+     L1 (Dense)                  (None, 120)               360
+
+     L2 (Dense)                  (None, 40)                4840
+
+     L3 (Dense)                  (None, 6)                 246
+
     =================================================================
     Total params: 5,446
     Trainable params: 5,446
@@ -2613,18 +2613,18 @@ model_test(model, classes, X_train.shape[1])
 
 <details>
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-    
+
 Summary should match this (layer instance names may increment )
 ```
 Model: "Complex"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param #
 =================================================================
-L1 (Dense)                   (None, 120)               360       
+L1 (Dense)                   (None, 120)               360
 _________________________________________________________________
-L2 (Dense)                   (None, 40)                4840      
+L2 (Dense)                   (None, 40)                4840
 _________________________________________________________________
-L3 (Dense)                   (None, 6)                 246       
+L3 (Dense)                   (None, 6)                 246
 =================================================================
 Total params: 5,446
 Trainable params: 5,446
@@ -2633,26 +2633,26 @@ _________________________________________________________________
 ```
   <details>
   <summary><font size="3" color="darkgreen"><b>Click for more hints</b></font></summary>
-  
+
 ```python
 tf.random.set_seed(1234)
 model = Sequential(
     [
-        Dense(120, activation = 'relu', name = "L1"),      
-        Dense(40, activation = 'relu', name = "L2"),         
-        Dense(classes, activation = 'linear', name = "L3")  
+        Dense(120, activation = 'relu', name = "L1"),
+        Dense(40, activation = 'relu', name = "L2"),
+        Dense(classes, activation = 'linear', name = "L3")
     ], name="Complex"
 )
 model.compile(
-    loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),          
-    optimizer=tf.keras.optimizers.Adam(0.01),   
+    loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+    optimizer=tf.keras.optimizers.Adam(0.01),
 )
 
 model.fit(
     X_train,y_train,
     epochs=1000
-)                                  
-``` 
+)
+```
 
 
 ```python
@@ -2688,7 +2688,7 @@ Now, let's try a simple model
 
 Below, compose a two-layer model:
 * Dense layer with 6 units, relu activation
-* Dense layer with 6 units and a linear activation. 
+* Dense layer with 6 units and a linear activation.
 Compile using
 * loss with `SparseCategoricalCrossentropy`, remember to use  `from_logits=True`
 * Adam optimizer with learning rate of 0.01.
@@ -2701,17 +2701,17 @@ Compile using
 tf.random.set_seed(1234)
 model_s = Sequential(
     [
-        ### START CODE HERE ### 
+        ### START CODE HERE ###
         Dense(6, activation = 'relu', name="L1"),
         Dense(classes, activation = 'linear', name="L2")
-        ### END CODE HERE ### 
+        ### END CODE HERE ###
     ], name = "Simple"
 )
 model_s.compile(
-    ### START CODE HERE ### 
+    ### START CODE HERE ###
     loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
     optimizer=tf.keras.optimizers.Adam(0.01),
-    ### START CODE HERE ### 
+    ### START CODE HERE ###
 )
 
 ```
@@ -4749,12 +4749,12 @@ model_s_test(model_s, classes, X_train.shape[1])
 
     Model: "Simple"
     _________________________________________________________________
-     Layer (type)                Output Shape              Param #   
+     Layer (type)                Output Shape              Param #
     =================================================================
-     L1 (Dense)                  (None, 6)                 18        
-                                                                     
-     L2 (Dense)                  (None, 6)                 42        
-                                                                     
+     L1 (Dense)                  (None, 6)                 18
+
+     L2 (Dense)                  (None, 6)                 42
+
     =================================================================
     Total params: 60
     Trainable params: 60
@@ -4765,16 +4765,16 @@ model_s_test(model_s, classes, X_train.shape[1])
 
 <details>
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-    
+
 Summary should match this (layer instance names may increment )
 ```
 Model: "Simple"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param #
 =================================================================
-L1 (Dense)                   (None, 6)                 18        
+L1 (Dense)                   (None, 6)                 18
 _________________________________________________________________
-L2 (Dense)                   (None, 6)                 42        
+L2 (Dense)                   (None, 6)                 42
 =================================================================
 Total params: 60
 Trainable params: 60
@@ -4783,7 +4783,7 @@ _________________________________________________________________
 ```
   <details>
   <summary><font size="3" color="darkgreen"><b>Click for more hints</b></font></summary>
-  
+
 ```python
 tf.random.set_seed(1234)
 model_s = Sequential(
@@ -4800,8 +4800,8 @@ model_s.compile(
 model_s.fit(
     X_train,y_train,
     epochs=1000
-)                                   
-``` 
+)
+```
 
 
 ```python
@@ -4841,7 +4841,7 @@ Reconstruct your complex model, but this time include regularization.
 Below, compose a three-layer model:
 * Dense layer with 120 units, relu activation, `kernel_regularizer=tf.keras.regularizers.l2(0.1)`
 * Dense layer with 40 units, relu activation, `kernel_regularizer=tf.keras.regularizers.l2(0.1)`
-* Dense layer with 6 units and a linear activation. 
+* Dense layer with 6 units and a linear activation.
 Compile using
 * loss with `SparseCategoricalCrossentropy`, remember to use  `from_logits=True`
 * Adam optimizer with learning rate of 0.01.
@@ -4854,18 +4854,18 @@ Compile using
 tf.random.set_seed(1234)
 model_r = Sequential(
     [
-        ### START CODE HERE ### 
-        Dense(120, activation = 'relu', kernel_regularizer=tf.keras.regularizers.l2(0.1), name="L1"), 
-        Dense(40, activation = 'relu', kernel_regularizer=tf.keras.regularizers.l2(0.1), name="L2"),  
-        Dense(classes, activation = 'linear', name="L3") 
-        ### START CODE HERE ### 
+        ### START CODE HERE ###
+        Dense(120, activation = 'relu', kernel_regularizer=tf.keras.regularizers.l2(0.1), name="L1"),
+        Dense(40, activation = 'relu', kernel_regularizer=tf.keras.regularizers.l2(0.1), name="L2"),
+        Dense(classes, activation = 'linear', name="L3")
+        ### START CODE HERE ###
     ], name= "ComplexRegularized"
 )
 model_r.compile(
-    ### START CODE HERE ### 
+    ### START CODE HERE ###
     loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
     optimizer=tf.keras.optimizers.Adam(0.01),
-    ### START CODE HERE ### 
+    ### START CODE HERE ###
 )
 
 ```
@@ -6894,20 +6894,20 @@ model_r.fit(
 # BEGIN UNIT TEST
 model_r.summary()
 
-model_r_test(model_r, classes, X_train.shape[1]) 
+model_r_test(model_r, classes, X_train.shape[1])
 # END UNIT TEST
 ```
 
     Model: "ComplexRegularized"
     _________________________________________________________________
-     Layer (type)                Output Shape              Param #   
+     Layer (type)                Output Shape              Param #
     =================================================================
-     L1 (Dense)                  (None, 120)               360       
-                                                                     
-     L2 (Dense)                  (None, 40)                4840      
-                                                                     
-     L3 (Dense)                  (None, 6)                 246       
-                                                                     
+     L1 (Dense)                  (None, 120)               360
+
+     L2 (Dense)                  (None, 40)                4840
+
+     L3 (Dense)                  (None, 6)                 246
+
     =================================================================
     Total params: 5,446
     Trainable params: 5,446
@@ -6919,18 +6919,18 @@ model_r_test(model_r, classes, X_train.shape[1])
 
 <details>
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-    
+
 Summary should match this (layer instance names may increment )
 ```
 Model: "ComplexRegularized"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)                 Output Shape              Param #
 =================================================================
-L1 (Dense)                   (None, 120)               360       
+L1 (Dense)                   (None, 120)               360
 _________________________________________________________________
-L2 (Dense)                   (None, 40)                4840      
+L2 (Dense)                   (None, 40)                4840
 _________________________________________________________________
-L3 (Dense)                   (None, 6)                 246       
+L3 (Dense)                   (None, 6)                 246
 =================================================================
 Total params: 5,446
 Trainable params: 5,446
@@ -6939,32 +6939,32 @@ _________________________________________________________________
 ```
   <details>
   <summary><font size="3" color="darkgreen"><b>Click for more hints</b></font></summary>
-  
+
 ```python
 tf.random.set_seed(1234)
 model_r = Sequential(
     [
-        Dense(120, activation = 'relu', kernel_regularizer=tf.keras.regularizers.l2(0.1), name="L1"), 
-        Dense(40, activation = 'relu', kernel_regularizer=tf.keras.regularizers.l2(0.1), name="L2"),  
-        Dense(classes, activation = 'linear', name="L3")  
+        Dense(120, activation = 'relu', kernel_regularizer=tf.keras.regularizers.l2(0.1), name="L1"),
+        Dense(40, activation = 'relu', kernel_regularizer=tf.keras.regularizers.l2(0.1), name="L2"),
+        Dense(classes, activation = 'linear', name="L3")
     ], name="ComplexRegularized"
 )
 model_r.compile(
-    loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True), 
-    optimizer=tf.keras.optimizers.Adam(0.01),                             
+    loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+    optimizer=tf.keras.optimizers.Adam(0.01),
 )
 
 model_r.fit(
     X_train,y_train,
     epochs=1000
-)                                   
-``` 
+)
+```
 
 
 ```python
 #make a model for plotting routines to call
 model_predict_r = lambda Xl: np.argmax(tf.nn.softmax(model_r.predict(Xl)).numpy(),axis=1)
- 
+
 plt_nn(model_predict_r, X_train,y_train, classes, X_cv, y_cv, suptitle="Regularized")
 ```
 
@@ -21042,7 +21042,7 @@ As regularization is increased, the performance of the model on the training and
 
 <a name="7.1"></a>
 ### 7.1 Test
-Let's try our optimized models on the test set and compare them to 'ideal' performance. 
+Let's try our optimized models on the test set and compare them to 'ideal' performance.
 
 
 ```python
@@ -21055,8 +21055,8 @@ plt_compare(X_test,y_test, classes, model_predict_s, model_predict_r, centers)
 
 Our test set is small and seems to have a number of outliers so classification error is high. However, the performance of our optimized models is comparable to ideal performance.
 
-## Congratulations! 
-You have become familiar with important tools to apply when evaluating your machine learning models. Namely:  
+## Congratulations!
+You have become familiar with important tools to apply when evaluating your machine learning models. Namely:
 * splitting data into trained and untrained sets allows you to differentiate between underfitting and overfitting
 * creating three data sets, Training, Cross-Validation and Test allows you to
     * train your parameters $W,B$ with the training set

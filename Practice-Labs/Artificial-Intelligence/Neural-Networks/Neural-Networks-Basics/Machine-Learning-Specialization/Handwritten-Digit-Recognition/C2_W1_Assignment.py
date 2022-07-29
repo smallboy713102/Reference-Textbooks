@@ -2,10 +2,10 @@
 # coding: utf-8
 
 # # Neural Networks for Handwritten Digit Recognition, Binary
-# 
+#
 # In this exercise, you will use a neural network to recognize the hand-written digits zero and one.
-# 
-# 
+#
+#
 # # Outline
 # - [ 1 - Packages ](#1)
 # - [ 2 - Neural Networks](#2)
@@ -20,11 +20,11 @@
 #     - [ Exercise 3](#ex03)
 #   - [ 2.7 Congratulations!](#2.7)
 #   - [ 2.8 NumPy Broadcasting Tutorial (Optional)](#2.8)
-# 
+#
 
 # <a name="1"></a>
-# ## 1 - Packages 
-# 
+# ## 1 - Packages
+#
 # First, let's run the cell below to import all the packages that you will need during this assignment.
 # - [numpy](https://numpy.org/) is the fundamental package for scientific computing with Python.
 # - [matplotlib](http://matplotlib.org) is a popular library to plot graphs in Python.
@@ -46,47 +46,47 @@ logging.getLogger("tensorflow").setLevel(logging.ERROR)
 tf.autograph.set_verbosity(0)
 
 
-# **Tensorflow and Keras**  
-# Tensorflow is a machine learning package developed by Google. In 2019, Google integrated Keras into Tensorflow and released Tensorflow 2.0. Keras is a framework developed independently by François Chollet that creates a simple, layer-centric interface to Tensorflow. This course will be using the Keras interface. 
+# **Tensorflow and Keras**
+# Tensorflow is a machine learning package developed by Google. In 2019, Google integrated Keras into Tensorflow and released Tensorflow 2.0. Keras is a framework developed independently by François Chollet that creates a simple, layer-centric interface to Tensorflow. This course will be using the Keras interface.
 
 # <a name="2"></a>
 # ## 2 - Neural Networks
-# 
+#
 # In Course 1, you implemented logistic regression. This was extended to handle non-linear boundaries using polynomial regression. For even more complex scenarios such as image recognition, neural networks are preferred.
-# 
+#
 # <a name="2.1"></a>
 # ### 2.1 Problem Statement
-# 
-# In this exercise, you will use a neural network to recognize two handwritten digits, zero and one. This is a binary classification task. Automated handwritten digit recognition is widely used today - from recognizing zip codes (postal codes) on mail envelopes to recognizing amounts written on bank checks. You will extend this network to recognize all 10 digits (0-9) in a future assignment. 
-# 
+#
+# In this exercise, you will use a neural network to recognize two handwritten digits, zero and one. This is a binary classification task. Automated handwritten digit recognition is widely used today - from recognizing zip codes (postal codes) on mail envelopes to recognizing amounts written on bank checks. You will extend this network to recognize all 10 digits (0-9) in a future assignment.
+#
 # This exercise will show you how the methods you have learned can be used for this classification task.
-# 
+#
 # <a name="2.2"></a>
 # ### 2.2 Dataset
-# 
-# You will start by loading the dataset for this task. 
+#
+# You will start by loading the dataset for this task.
 # - The `load_data()` function shown below loads the data into variables `X` and `y`
-# 
-# 
-# - The data set contains 1000 training examples of handwritten digits $^1$, here limited to zero and one.  
-# 
-#     - Each training example is a 20-pixel x 20-pixel grayscale image of the digit. 
-#         - Each pixel is represented by a floating-point number indicating the grayscale intensity at that location. 
-#         - The 20 by 20 grid of pixels is “unrolled” into a 400-dimensional vector. 
-#         - Each training example becomes a single row in our data matrix `X`. 
+#
+#
+# - The data set contains 1000 training examples of handwritten digits $^1$, here limited to zero and one.
+#
+#     - Each training example is a 20-pixel x 20-pixel grayscale image of the digit.
+#         - Each pixel is represented by a floating-point number indicating the grayscale intensity at that location.
+#         - The 20 by 20 grid of pixels is “unrolled” into a 400-dimensional vector.
+#         - Each training example becomes a single row in our data matrix `X`.
 #         - This gives us a 1000 x 400 matrix `X` where every row is a training example of a handwritten digit image.
-# 
-# $$X = 
-# \left(\begin{array}{cc} 
+#
+# $$X =
+# \left(\begin{array}{cc}
 # --- (x^{(1)}) --- \\
 # --- (x^{(2)}) --- \\
-# \vdots \\ 
-# --- (x^{(m)}) --- 
-# \end{array}\right)$$ 
-# 
+# \vdots \\
+# --- (x^{(m)}) ---
+# \end{array}\right)$$
+#
 # - The second part of the training set is a 1000 x 1 dimensional vector `y` that contains labels for the training set
 #     - `y = 0` if the image is of the digit `0`, `y = 1` if the image is of the digit `1`.
-# 
+#
 # $^1$<sub> This is a subset of the MNIST handwritten digit dataset (http://yann.lecun.com/exdb/mnist/)</sub>
 
 # In[2]:
@@ -98,10 +98,10 @@ X, y = load_data()
 
 # <a name="toc_89367_2.2.1"></a>
 # #### 2.2.1 View the variables
-# Let's get more familiar with your dataset.  
+# Let's get more familiar with your dataset.
 # - A good place to start is to print out each variable and see what it contains.
-# 
-# The code below prints elements of the variables `X` and `y`.  
+#
+# The code below prints elements of the variables `X` and `y`.
 
 # In[3]:
 
@@ -118,7 +118,7 @@ print ('The last element of y is: ', y[-1,0])
 
 # <a name="toc_89367_2.2.2"></a>
 # #### 2.2.2 Check the dimensions of your variables
-# 
+#
 # Another way to get familiar with your data is to view its dimensions. Please print the shape of `X` and `y` and see how many training examples you have in your dataset.
 
 # In[5]:
@@ -130,10 +130,10 @@ print ('The shape of y is: ' + str(y.shape))
 
 # <a name="toc_89367_2.2.3"></a>
 # #### 2.2.3 Visualizing the Data
-# 
-# You will begin by visualizing a subset of the training set. 
-# - In the cell below, the code randomly selects 64 rows from `X`, maps each row back to a 20 pixel by 20 pixel grayscale image and displays the images together. 
-# - The label for each image is displayed above the image 
+#
+# You will begin by visualizing a subset of the training set.
+# - In the cell below, the code randomly selects 64 rows from `X`, maps each row back to a 20 pixel by 20 pixel grayscale image and displays the images together.
+# - The label for each image is displayed above the image
 
 # In[6]:
 
@@ -150,14 +150,14 @@ fig.tight_layout(pad=0.1)
 for i,ax in enumerate(axes.flat):
     # Select random indices
     random_index = np.random.randint(m)
-    
+
     # Select rows corresponding to the random indices and
     # reshape the image
     X_random_reshaped = X[random_index].reshape((20,20)).T
-    
+
     # Display the image
     ax.imshow(X_random_reshaped, cmap='gray')
-    
+
     # Display the label above the image
     ax.set_title(y[random_index,0])
     ax.set_axis_off()
@@ -165,40 +165,40 @@ for i,ax in enumerate(axes.flat):
 
 # <a name="2.3"></a>
 # ### 2.3 Model representation
-# 
-# The neural network you will use in this assignment is shown in the figure below. 
+#
+# The neural network you will use in this assignment is shown in the figure below.
 # - This has three dense layers with sigmoid activations.
 #     - Recall that our inputs are pixel values of digit images.
-#     - Since the images are of size $20\times20$, this gives us $400$ inputs  
-#     
+#     - Since the images are of size $20\times20$, this gives us $400$ inputs
+#
 # <img src="images/C2_W1_Assign1.PNG" width="500" height="400">
 
-# - The parameters have dimensions that are sized for a neural network with $25$ units in layer 1, $15$ units in layer 2 and $1$ output unit in layer 3. 
-# 
+# - The parameters have dimensions that are sized for a neural network with $25$ units in layer 1, $15$ units in layer 2 and $1$ output unit in layer 3.
+#
 #     - Recall that the dimensions of these parameters are determined as follows:
-#         - If network has $s_{in}$ units in a layer and $s_{out}$ units in the next layer, then 
+#         - If network has $s_{in}$ units in a layer and $s_{out}$ units in the next layer, then
 #             - $W$ will be of dimension $s_{in} \times s_{out}$.
 #             - $b$ will a vector with $s_{out}$ elements
-#   
-#     - Therefore, the shapes of `W`, and `b`,  are 
+#
+#     - Therefore, the shapes of `W`, and `b`,  are
 #         - layer1: The shape of `W1` is (400, 25) and the shape of `b1` is (25,)
 #         - layer2: The shape of `W2` is (25, 15) and the shape of `b2` is: (15,)
 #         - layer3: The shape of `W3` is (15, 1) and the shape of `b3` is: (1,)
-# >**Note:** The bias vector `b` could be represented as a 1-D (n,) or 2-D (n,1) array. Tensorflow utilizes a 1-D representation and this lab will maintain that convention. 
-#                
+# >**Note:** The bias vector `b` could be represented as a 1-D (n,) or 2-D (n,1) array. Tensorflow utilizes a 1-D representation and this lab will maintain that convention.
+#
 
 # <a name="2.4"></a>
 # ### 2.4 Tensorflow Model Implementation
-# 
+#
 
-# Tensorflow models are built layer by layer. A layer's input dimensions ($s_{in}$ above) are calculated for you. You specify a layer's *output dimensions* and this determines the next layer's input dimension. The input dimension of the first layer is derived from the size of the input data specified in the `model.fit` statment below. 
-# >**Note:** It is also possible to add an input layer that specifies the input dimension of the first layer. For example:  
-# `tf.keras.Input(shape=(400,)),    #specify input shape`  
+# Tensorflow models are built layer by layer. A layer's input dimensions ($s_{in}$ above) are calculated for you. You specify a layer's *output dimensions* and this determines the next layer's input dimension. The input dimension of the first layer is derived from the size of the input data specified in the `model.fit` statment below.
+# >**Note:** It is also possible to add an input layer that specifies the input dimension of the first layer. For example:
+# `tf.keras.Input(shape=(400,)),    #specify input shape`
 # We will include that here to illuminate some model sizing.
 
 # <a name="ex01"></a>
 # ### Exercise 1
-# 
+#
 # Below, using Keras [Sequential model](https://keras.io/guides/sequential_model/) and [Dense Layer](https://keras.io/api/layers/core_layers/dense/) with a sigmoid activation to construct the network described above.
 
 # In[7]:
@@ -208,14 +208,14 @@ for i,ax in enumerate(axes.flat):
 # GRADED CELL: Sequential model
 
 model = Sequential(
-    [               
+    [
         tf.keras.Input(shape=(400,)),    #specify input size
-        ### START CODE HERE ### 
+        ### START CODE HERE ###
         Dense(25, activation='sigmoid', name = 'layer1'),
         Dense(15, activation='sigmoid', name = 'layer2'),
         Dense(1,  activation='sigmoid', name = 'layer3'),
-        ### END CODE HERE ### 
-    ], name = "my_model" 
+        ### END CODE HERE ###
+    ], name = "my_model"
 )
 
 
@@ -227,19 +227,19 @@ model.summary()
 
 # <details>
 #   <summary><font size="3" color="darkgreen"><b>Expected Output (Click to Expand) </b></font></summary>
-# The `model.summary()` function displays a useful summary of the model. Because we have specified an input layer size, the shape of the weight and bias arrays are determined and the total number of parameters per layer can be shown. Note, the names of the layers may vary as they are auto-generated.  
-#     
-#     
+# The `model.summary()` function displays a useful summary of the model. Because we have specified an input layer size, the shape of the weight and bias arrays are determined and the total number of parameters per layer can be shown. Note, the names of the layers may vary as they are auto-generated.
+#
+#
 # ```
 # Model: "my_model"
 # _________________________________________________________________
-# Layer (type)                 Output Shape              Param #   
+# Layer (type)                 Output Shape              Param #
 # =================================================================
-# dense (Dense)                (None, 25)                10025     
+# dense (Dense)                (None, 25)                10025
 # _________________________________________________________________
-# dense_1 (Dense)              (None, 15)                390       
+# dense_1 (Dense)              (None, 15)                390
 # _________________________________________________________________
-# dense_2 (Dense)              (None, 1)                 16        
+# dense_2 (Dense)              (None, 1)                 16
 # =================================================================
 # Total params: 10,431
 # Trainable params: 10,431
@@ -250,23 +250,23 @@ model.summary()
 # <details>
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 # As described in the lecture:
-#     
+#
 # ```python
-# model = Sequential(                      
-#     [                                   
+# model = Sequential(
+#     [
 #         tf.keras.Input(shape=(400,)),    # specify input size (optional)
-#         Dense(25, activation='sigmoid'), 
-#         Dense(15, activation='sigmoid'), 
-#         Dense(1,  activation='sigmoid')  
-#     ], name = "my_model"                                    
-# )                                       
-# ``` 
+#         Dense(25, activation='sigmoid'),
+#         Dense(15, activation='sigmoid'),
+#         Dense(1,  activation='sigmoid')
+#     ], name = "my_model"
+# )
+# ```
 
 # In[9]:
 
 
 # UNIT TESTS
-from public_tests import * 
+from public_tests import *
 
 test_c1(model)
 
@@ -304,8 +304,8 @@ print(f"W3 shape = {W3.shape}, b3 shape = {b3.shape}")
 
 # **Expected Output**
 # ```
-# W1 shape = (400, 25), b1 shape = (25,)  
-# W2 shape = (25, 15), b2 shape = (15,)  
+# W1 shape = (400, 25), b1 shape = (25,)
+# W2 shape = (25, 15), b2 shape = (15,)
 # W3 shape = (15, 1), b3 shape = (1,)
 # ```
 
@@ -344,7 +344,7 @@ prediction = model.predict(X[500].reshape(1,400))  # a one
 print(f" predicting a one:  {prediction}")
 
 
-# The output of the model is interpreted as a probability. In the first example above, the input is a zero. The model predicts the probability that the input is a one is nearly zero. 
+# The output of the model is interpreted as a probability. In the first example above, the input is a zero. The model predicts the probability that the input is a one is nearly zero.
 # In the second example, the input is a one. The model predicts the probability that the input is a one is nearly one.
 # As in the case of logistic regression, the probability is compared to a threshold to make a final prediction.
 
@@ -375,21 +375,21 @@ fig.tight_layout(pad=0.1,rect=[0, 0.03, 1, 0.92]) #[left, bottom, right, top]
 for i,ax in enumerate(axes.flat):
     # Select random indices
     random_index = np.random.randint(m)
-    
+
     # Select rows corresponding to the random indices and
     # reshape the image
     X_random_reshaped = X[random_index].reshape((20,20)).T
-    
+
     # Display the image
     ax.imshow(X_random_reshaped, cmap='gray')
-    
+
     # Predict using the Neural Network
     prediction = model.predict(X[random_index].reshape(1,400))
     if prediction >= 0.5:
         yhat = 1
     else:
         yhat = 0
-    
+
     # Display the label above the image
     ax.set_title(f"{y[random_index,0]},{yhat}")
     ax.set_axis_off()
@@ -399,14 +399,14 @@ plt.show()
 
 # <a name="2.5"></a>
 # ### 2.5 NumPy Model Implementation (Forward Prop in NumPy)
-# As described in lecture, it is possible to build your own dense layer using NumPy. This can then be utilized to build a multi-layer neural network. 
-# 
+# As described in lecture, it is possible to build your own dense layer using NumPy. This can then be utilized to build a multi-layer neural network.
+#
 # <img src="images/C2_W1_dense2.PNG" width="600" height="450">
-# 
+#
 
 # <a name="ex02"></a>
 # ### Exercise 2
-# 
+#
 # Below, build a dense layer subroutine. The example in lecture utilized a for loop to visit each unit (`j`) in the layer and perform the dot product of the weights for that unit (`W[:,j]`) and sum the bias for the unit (`b[j]`) to form `z`. An activation function `g(z)` is then applied to that result. This section will not utilize some of the matrix operations described in the optional lectures. These will be explored in a later section.
 
 # In[30]:
@@ -419,21 +419,21 @@ def my_dense(a_in, W, b, g):
     """
     Computes dense layer
     Args:
-      a_in (ndarray (n, )) : Data, 1 example 
+      a_in (ndarray (n, )) : Data, 1 example
       W    (ndarray (n,j)) : Weight matrix, n features per unit, j units
-      b    (ndarray (j, )) : bias vector, j units  
+      b    (ndarray (j, )) : bias vector, j units
       g    activation function (e.g. sigmoid, relu..)
     Returns
       a_out (ndarray (j,))  : j units
     """
     units = W.shape[1]
     a_out = np.zeros(units)
-### START CODE HERE ### 
-    for j in range(units):               
-        w = W[:,j]                                    
-        z = np.dot(w, a_in) + b[j]         
-        a_out[j] = g(z)               
-### END CODE HERE ### 
+### START CODE HERE ###
+    for j in range(units):
+        w = W[:,j]
+        z = np.dot(w, a_in) + b[j]
+        a_out[j] = g(z)
+### END CODE HERE ###
     return(a_out)
 
 
@@ -456,53 +456,53 @@ print(A_tst)
 # <details>
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 # As described in the lecture:
-#     
+#
 # ```python
 # def my_dense(a_in, W, b, g):
 #     """
 #     Computes dense layer
 #     Args:
-#       a_in (ndarray (n, )) : Data, 1 example 
+#       a_in (ndarray (n, )) : Data, 1 example
 #       W    (ndarray (n,j)) : Weight matrix, n features per unit, j units
-#       b    (ndarray (j, )) : bias vector, j units  
+#       b    (ndarray (j, )) : bias vector, j units
 #       g    activation function (e.g. sigmoid, relu..)
 #     Returns
 #       a_out (ndarray (j,))  : j units
 #     """
 #     units = W.shape[1]
 #     a_out = np.zeros(units)
-#     for j in range(units):             
+#     for j in range(units):
 #         w =                            # Select weights for unit j. These are in column j of W
 #         z =                            # dot product of w and a_in + b
 #         a_out[j] =                     # apply activation to z
 #     return(a_out)
 # ```
-#    
-#     
+#
+#
 # <details>
 #   <summary><font size="3" color="darkgreen"><b>Click for more hints</b></font></summary>
-# 
-#     
+#
+#
 # ```python
 # def my_dense(a_in, W, b, g):
 #     """
 #     Computes dense layer
 #     Args:
-#       a_in (ndarray (n, )) : Data, 1 example 
+#       a_in (ndarray (n, )) : Data, 1 example
 #       W    (ndarray (n,j)) : Weight matrix, n features per unit, j units
-#       b    (ndarray (j, )) : bias vector, j units  
+#       b    (ndarray (j, )) : bias vector, j units
 #       g    activation function (e.g. sigmoid, relu..)
 #     Returns
 #       a_out (ndarray (j,))  : j units
 #     """
 #     units = W.shape[1]
 #     a_out = np.zeros(units)
-#     for j in range(units):             
-#         w = W[:,j]                     
-#         z = np.dot(w, a_in) + b[j]     
-#         a_out[j] = g(z)                
+#     for j in range(units):
+#         w = W[:,j]
+#         z = np.dot(w, a_in) + b[j]
+#         a_out[j] = g(z)
 #     return(a_out)
-# ``` 
+# ```
 
 # In[32]:
 
@@ -568,11 +568,11 @@ fig.tight_layout(pad=0.1,rect=[0, 0.03, 1, 0.92]) #[left, bottom, right, top]
 for i,ax in enumerate(axes.flat):
     # Select random indices
     random_index = np.random.randint(m)
-    
+
     # Select rows corresponding to the random indices and
     # reshape the image
     X_random_reshaped = X[random_index].reshape((20,20)).T
-    
+
     # Display the image
     ax.imshow(X_random_reshaped, cmap='gray')
 
@@ -583,10 +583,10 @@ for i,ax in enumerate(axes.flat):
     # Predict using the Neural Network implemented in Tensorflow
     tf_prediction = model.predict(X[random_index].reshape(1,400))
     tf_yhat = int(tf_prediction >= 0.5)
-    
+
     # Display the label above the image
     ax.set_title(f"{y[random_index,0]},{tf_yhat},{my_yhat}")
-    ax.set_axis_off() 
+    ax.set_axis_off()
 fig.suptitle("Label, yhat Tensorflow, yhat Numpy", fontsize=16)
 plt.show()
 
@@ -595,9 +595,9 @@ plt.show()
 # ### 2.6 Vectorized NumPy Model Implementation (Optional)
 # The optional lectures described vector and matrix operations that can be used to speed the calculations.
 # Below describes a layer operation that computes the output for all units in a layer on a given input example:
-# 
+#
 # <img src="images/C2_W1_VectorMatrix.PNG" width="600" height="450">
-# 
+#
 # We can demonstrate this using the examples `X` and the `W1`,`b1` parameters above. We use `np.matmul` to perform the matrix multiply. Note, the dimensions of x and W must be compatible as shown in the diagram above.
 
 # In[37]:
@@ -610,14 +610,14 @@ print(a1.shape)
 
 
 # You can take this a step further and compute all the units for all examples in one Matrix-Matrix operation.
-# 
+#
 # <img src="images/C2_W1_MatrixMatrix.PNG" width="600" height="450">
 # The full operation is $\mathbf{Z}=\mathbf{XW}+\mathbf{b}$. This will utilize NumPy broadcasting to expand $\mathbf{b}$ to $m$ rows. If this is unfamiliar, a short tutorial is provided at the end of the notebook.
 
 # <a name="ex03"></a>
 # ### Exercise 3
-# 
-# Below, compose a new `my_dense_v` subroutine that performs the layer calculations for a matrix of examples. This will utilize `np.matmul()`. 
+#
+# Below, compose a new `my_dense_v` subroutine that performs the layer calculations for a matrix of examples. This will utilize `np.matmul()`.
 
 # In[51]:
 
@@ -631,15 +631,15 @@ def my_dense_v(A_in, W, b, g):
     Args:
       A_in (ndarray (m,n)) : Data, m examples, n features each
       W    (ndarray (n,j)) : Weight matrix, n features per unit, j units
-      b    (ndarray (1,j)) : bias vector, j units  
+      b    (ndarray (1,j)) : bias vector, j units
       g    activation function (e.g. sigmoid, relu..)
     Returns
       A_out (ndarray (m,j)) : m examples, j units
     """
-### START CODE HERE ### 
+### START CODE HERE ###
     Z = np.matmul(A_in, W) + b
     A_out = g(Z)
-### END CODE HERE ### 
+### END CODE HERE ###
     return(A_out)
 
 
@@ -654,7 +654,7 @@ print(A_tst)
 
 
 # **Expected Output**
-# 
+#
 # ```
 # [[0.54735762 0.57932425 0.61063923]
 #  [0.57199613 0.61301418 0.65248946]
@@ -664,13 +664,13 @@ print(A_tst)
 
 # <details>
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-#     In matrix form, this can be written in one or two lines. 
-#     
-#        Z = np.matmul of A_in and W plus b    
-#        A_out is g(Z)  
+#     In matrix form, this can be written in one or two lines.
+#
+#        Z = np.matmul of A_in and W plus b
+#        A_out is g(Z)
 # <details>
 #   <summary><font size="3" color="darkgreen"><b>Click for code</b></font></summary>
-# 
+#
 # ```python
 # def my_dense_v(A_in, W, b, g):
 #     """
@@ -678,16 +678,16 @@ print(A_tst)
 #     Args:
 #       A_in (ndarray (m,n)) : Data, m examples, n features each
 #       W    (ndarray (n,j)) : Weight matrix, n features per unit, j units
-#       b    (ndarray (j,1)) : bias vector, j units  
+#       b    (ndarray (j,1)) : bias vector, j units
 #       g    activation function (e.g. sigmoid, relu..)
 #     Returns
 #       A_out (ndarray (m,j)) : m examples, j units
 #     """
-#     Z = np.matmul(A_in,W) + b    
-#     A_out = g(Z)                 
+#     Z = np.matmul(A_in,W) + b
+#     A_out = g(Z)
 #     return(A_out)
 # ```
-# 
+#
 
 # In[53]:
 
@@ -753,17 +753,17 @@ fig.tight_layout(pad=0.1, rect=[0, 0.03, 1, 0.92]) #[left, bottom, right, top]
 for i, ax in enumerate(axes.flat):
     # Select random indices
     random_index = np.random.randint(m)
-    
+
     # Select rows corresponding to the random indices and
     # reshape the image
     X_random_reshaped = X[random_index].reshape((20, 20)).T
-    
+
     # Display the image
     ax.imshow(X_random_reshaped, cmap='gray')
-   
+
     # Display the label above the image
     ax.set_title(f"{y[random_index,0]}, {Yhat[random_index, 0]}")
-    ax.set_axis_off() 
+    ax.set_axis_off()
 fig.suptitle("Label, Yhat", fontsize=16)
 plt.show()
 
@@ -789,22 +789,22 @@ plt.show()
 
 # <a name="2.8"></a>
 # ### 2.8 NumPy Broadcasting Tutorial (Optional)
-# 
+#
 
 # In the last example,  $\mathbf{Z}=\mathbf{XW} + \mathbf{b}$ utilized NumPy broadcasting to expand the vector $\mathbf{b}$. If you are not familiar with NumPy Broadcasting, this short tutorial is provided.
-# 
+#
 # $\mathbf{XW}$  is a matrix-matrix operation with dimensions $(m,j_1)(j_1,j_2)$ which results in a matrix with dimension  $(m,j_2)$. To that, we add a vector $\mathbf{b}$ with dimension $(1,j_2)$.  $\mathbf{b}$ must be expanded to be a $(m,j_2)$ matrix for this element-wise operation to make sense. This expansion is accomplished for you by NumPy broadcasting.
 
-# Broadcasting applies to element-wise operations.  
+# Broadcasting applies to element-wise operations.
 # Its basic operation is to 'stretch' a smaller dimension by replicating elements to match a larger dimension.
-# 
-# More [specifically](https://NumPy.org/doc/stable/user/basics.broadcasting.html): 
+#
+# More [specifically](https://NumPy.org/doc/stable/user/basics.broadcasting.html):
 # When operating on two arrays, NumPy compares their shapes element-wise. It starts with the trailing (i.e. rightmost) dimensions and works its way left. Two dimensions are compatible when
 # - they are equal, or
-# - one of them is 1   
-# 
+# - one of them is 1
+#
 # If these conditions are not met, a ValueError: operands could not be broadcast together exception is thrown, indicating that the arrays have incompatible shapes. The size of the resulting array is the size that is not 1 along each axis of the inputs.
-# 
+#
 # Here are some examples:
 
 # <figure>
@@ -820,7 +820,7 @@ plt.show()
 # <figure/>
 
 # The graphic above shows NumPy expanding the arguments to match before the final operation. Note that this is a notional description. The actual mechanics of NumPy operation choose the most efficient implementation.
-# 
+#
 # For each of the following examples, try to guess the size of the result before running the example.
 
 # In[60]:

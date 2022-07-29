@@ -2,9 +2,9 @@
 # coding: utf-8
 
 # # <img align="left" src="./images/film_strip_vertical.png"     style=" width:40px;  " > Practice lab: Deep Learning for Content-Based Filtering
-# 
-# In this exercise, you will implement content-based filtering using a neural network to build a recommender system for movies. 
-# 
+#
+# In this exercise, you will implement content-based filtering using a neural network to build a recommender system for movies.
+#
 # # Outline <img align="left" src="./images/film_reel.png"     style=" width:40px;  " >
 # - [ 1 - Packages](#1)
 # - [ 2 - Movie ratings dataset](#2)
@@ -14,7 +14,7 @@
 #   - [ 3.1 Predictions](#3.1)
 #     - [ Exercise 1](#ex01)
 # - [ 4 - Congratulations!](#4)
-# 
+#
 
 # <a name="1"></a>
 # ## 1 - Packages <img align="left" src="./images/movie_camera.png"     style=" width:40px;  ">
@@ -39,27 +39,27 @@ pd.set_option("display.precision", 1)
 
 # <a name="2"></a>
 # ## 2 - Movie ratings dataset <img align="left" src="./images/film_rating.png" style=" width:40px;" >
-# The data set is derived from the [MovieLens ml-latest-small](https://grouplens.org/datasets/movielens/latest/) dataset. 
-# 
+# The data set is derived from the [MovieLens ml-latest-small](https://grouplens.org/datasets/movielens/latest/) dataset.
+#
 # [F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19. <https://doi.org/10.1145/2827872>]
-# 
-# The original dataset has 9000 movies rated by 600 users with ratings on a scale of 0.5 to 5 in 0.5 step increments. The dataset has been reduced in size to focus on movies from the years since 2000 and popular genres. The reduced dataset has $n_u = 395$ users and $n_m= 694$ movies. For each movie, the dataset provides a movie title, release date, and one or more genres. For example "Toy Story 3" was released in 2010 and has several genres: "Adventure|Animation|Children|Comedy|Fantasy|IMAX".  This dataset contains little information about users other than their ratings. This dataset is used to create training vectors for the neural networks described below. 
+#
+# The original dataset has 9000 movies rated by 600 users with ratings on a scale of 0.5 to 5 in 0.5 step increments. The dataset has been reduced in size to focus on movies from the years since 2000 and popular genres. The reduced dataset has $n_u = 395$ users and $n_m= 694$ movies. For each movie, the dataset provides a movie title, release date, and one or more genres. For example "Toy Story 3" was released in 2010 and has several genres: "Adventure|Animation|Children|Comedy|Fantasy|IMAX".  This dataset contains little information about users other than their ratings. This dataset is used to create training vectors for the neural networks described below.
 
 # <a name="2.1"></a>
 # ### 2.1 Content-based filtering with a neural network
-# 
-# In the collaborative filtering lab, you generated two vectors, a user vector and an item/movie vector whose dot product would predict a rating. The vectors were derived solely from the ratings.   
-# 
+#
+# In the collaborative filtering lab, you generated two vectors, a user vector and an item/movie vector whose dot product would predict a rating. The vectors were derived solely from the ratings.
+#
 # Content-based filtering also generates a user and movie feature vector but recognizes there may be other information available about the user and/or movie that may improve the prediction. The additional information is provided to a neural network which then generates the user and movie vector as shown below.
 # <figure>
 #     <center> <img src="./images/RecSysNN.png"   style="width:500px;height:280px;" ></center>
 # </figure>
-# The movie content provided to the network is a combination of the original data and some 'engineered features'. Recall the feature engineering discussion and lab from Course 1, Week 2, lab 4. The original features are the year the movie was released and the movie's genre presented as a one-hot vector. There are 14 genres. The engineered feature is an average rating derived from the user ratings. Movies with multiple genre have a training vector per genre. 
-# 
+# The movie content provided to the network is a combination of the original data and some 'engineered features'. Recall the feature engineering discussion and lab from Course 1, Week 2, lab 4. The original features are the year the movie was released and the movie's genre presented as a one-hot vector. There are 14 genres. The engineered feature is an average rating derived from the user ratings. Movies with multiple genre have a training vector per genre.
+#
 # The user content is composed of only engineered features. A per genre average rating is computed per user. Additionally, a user id, rating count and rating average are available, but are not included in the training or prediction content. They are useful in interpreting data.
-# 
-# The training set consists of all the ratings made by the users in the data set. The user and movie/item vectors are presented to the above network together as a training set. The user vector is the same for all the movies rated by the user. 
-# 
+#
+# The training set consists of all the ratings made by the users in the data set. The user and movie/item vectors are presented to the above network together as a training set. The user vector is the same for all the movies rated by the user.
+#
 # Below, let's load and display some of the data.
 
 # In[2]:
@@ -159,14 +159,14 @@ print(ynorm_train.shape, ynorm_test.shape)
 # <a name="3"></a>
 # ## 3 - Neural Network for content-based filtering
 # Now, let's construct a neural network as described in the figure above. It will have two networks that are combined by a dot product. You will construct the two networks. In this example, they will be identical. Note that these networks do not need to be the same. If the user content was substantially larger than the movie content, you might elect to increase the complexity of the user network relative to the movie network. In this case, the content is similar, so the networks are the same.
-# 
+#
 # - Use a Keras sequential model
 #     - The first layer is a dense layer with 256 units and a relu activation.
 #     - The second layer is a dense layer with 128 units and a relu activation.
-#     - The third layer is a dense layer with `num_outputs` units and a linear or no activation.   
-#     
+#     - The third layer is a dense layer with `num_outputs` units and a linear or no activation.
+#
 # The remainder of the network will be provided. The provided code does not use the Keras sequential model but instead uses the Keras [functional api](https://keras.io/guides/functional_api/). This format allows for more flexibility in how components are interconnected.
-# 
+#
 
 # In[10]:
 
@@ -177,19 +177,19 @@ print(ynorm_train.shape, ynorm_test.shape)
 num_outputs = 32
 tf.random.set_seed(1)
 user_NN = tf.keras.models.Sequential([
-    ### START CODE HERE ###   
+    ### START CODE HERE ###
     tf.keras.layers.Dense(256,activation='relu'),
     tf.keras.layers.Dense(128,activation='relu'),
     tf.keras.layers.Dense(num_outputs)
-    ### END CODE HERE ###  
+    ### END CODE HERE ###
 ])
 
 item_NN = tf.keras.models.Sequential([
-    ### START CODE HERE ###     
+    ### START CODE HERE ###
     tf.keras.layers.Dense(256,activation='relu'),
     tf.keras.layers.Dense(128,activation='relu'),
     tf.keras.layers.Dense(num_outputs)
-    ### END CODE HERE ###  
+    ### END CODE HERE ###
 ])
 
 # create the user input and point to the base network
@@ -222,51 +222,51 @@ test_tower(item_NN)
 
 # <details>
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-#     
+#
 #   You can create a dense layer with a relu activation as shown.
-#     
-# ```python     
+#
+# ```python
 # user_NN = tf.keras.models.Sequential([
-#     ### START CODE HERE ###     
+#     ### START CODE HERE ###
 #   tf.keras.layers.Dense(256, activation='relu'),
-# 
-#     
-#     ### END CODE HERE ###  
+#
+#
+#     ### END CODE HERE ###
 # ])
-# 
+#
 # item_NN = tf.keras.models.Sequential([
-#     ### START CODE HERE ###     
+#     ### START CODE HERE ###
 #   tf.keras.layers.Dense(256, activation='relu'),
-# 
-#     
-#     ### END CODE HERE ###  
+#
+#
+#     ### END CODE HERE ###
 # ])
-# ```    
+# ```
 # <details>
 #     <summary><font size="2" color="darkblue"><b> Click for solution</b></font></summary>
-#     
-# ```python 
+#
+# ```python
 # user_NN = tf.keras.models.Sequential([
-#     ### START CODE HERE ###     
+#     ### START CODE HERE ###
 #   tf.keras.layers.Dense(256, activation='relu'),
 #   tf.keras.layers.Dense(128, activation='relu'),
 #   tf.keras.layers.Dense(num_outputs),
-#     ### END CODE HERE ###  
+#     ### END CODE HERE ###
 # ])
-# 
+#
 # item_NN = tf.keras.models.Sequential([
-#     ### START CODE HERE ###     
+#     ### START CODE HERE ###
 #   tf.keras.layers.Dense(256, activation='relu'),
 #   tf.keras.layers.Dense(128, activation='relu'),
 #   tf.keras.layers.Dense(num_outputs),
-#     ### END CODE HERE ###  
+#     ### END CODE HERE ###
 # ])
 # ```
 # </details>
 # </details>
-# 
-#     
-# 
+#
+#
+#
 
 # We'll use a mean squared error loss and an Adam optimizer.
 
@@ -297,7 +297,7 @@ model.evaluate([user_test[:, u_s:], item_test[:, i_s:]], ynorm_test)
 
 # <a name="3.1"></a>
 # ### 3.1 Predictions
-# Below, you'll use your model to make predictions in a number of circumstances. 
+# Below, you'll use your model to make predictions in a number of circumstances.
 # #### Predictions for a new user
 # First, we'll create a new user and have the model suggest movies for that user. After you have tried this example on the example user content, feel free to change the user content to match your own preferences and see what the model suggests. Note that ratings are between 0.5 and 5.0, inclusive, in half-step increments.
 
@@ -329,7 +329,7 @@ user_vec = np.array([[new_user_id, new_rating_count, new_rating_ave,
                       new_romance, new_scifi, new_thriller]])
 
 
-# 
+#
 # Let's look at the top-rated movies for the new user. Recall, the user vector had genres that favored Comedy and Romance.
 # Below, we'll use a set of movie/item vectors, `item_vecs` that have a vector for each movie in the training/test set. This is matched with the user vector above and the scaled vectors are used to predict ratings for all the movies for our new user above.
 
@@ -340,7 +340,7 @@ user_vec = np.array([[new_user_id, new_rating_count, new_rating_ave,
 user_vecs = gen_user_vecs(user_vec,len(item_vecs))
 
 # scale the vectors and make predictions for all movies. Return results sorted by rating.
-sorted_index, sorted_ypu, sorted_items, sorted_user = predict_uservec(user_vecs,  item_vecs, model, u_s, i_s, 
+sorted_index, sorted_ypu, sorted_items, sorted_user = predict_uservec(user_vecs,  item_vecs, model, u_s, i_s,
                                                                        scaler, scalerUser, scalerItem, scaledata=scaledata)
 
 print_pred_movies(sorted_ypu, sorted_user, sorted_items, movie_dict, maxcount = 10)
@@ -354,12 +354,12 @@ print_pred_movies(sorted_ypu, sorted_user, sorted_items, movie_dict, maxcount = 
 # In[17]:
 
 
-uid =  36 
+uid =  36
 # form a set of user vectors. This is the same vector, transformed and repeated.
 user_vecs, y_vecs = get_user_vecs(uid, scalerUser.inverse_transform(user_train), item_vecs, user_to_genre)
 
 # scale the vectors and make predictions for all movies. Return results sorted by rating.
-sorted_index, sorted_ypu, sorted_items, sorted_user = predict_uservec(user_vecs, item_vecs, model, u_s, i_s, scaler, 
+sorted_index, sorted_ypu, sorted_items, sorted_user = predict_uservec(user_vecs, item_vecs, model, u_s, i_s, scaler,
                                                                       scalerUser, scalerItem, scaledata=scaledata)
 sorted_y = y_vecs[sorted_index]
 
@@ -369,13 +369,13 @@ print_existing_user(sorted_ypu, sorted_y.reshape(-1,1), sorted_user, sorted_item
 
 # #### Finding Similar Items
 # The neural network above produces two feature vectors, a user feature vector $v_u$, and a movie feature vector, $v_m$. These are 32 entry vectors whose values are difficult to interpret. However, similar items will have similar vectors. This information can be used to make recommendations. For example, if a user has rated "Toy Story 3" highly, one could recommend similar movies by selecting movies with similar movie feature vectors.
-# 
+#
 # A similarity measure is the squared distance between the two vectors $ \mathbf{v_m^{(k)}}$ and $\mathbf{v_m^{(i)}}$ :
 # $$\left\Vert \mathbf{v_m^{(k)}} - \mathbf{v_m^{(i)}}  \right\Vert^2 = \sum_{l=1}^{n}(v_{m_l}^{(k)} - v_{m_l}^{(i)})^2\tag{1}$$
 
 # <a name="ex01"></a>
 # ### Exercise 1
-# 
+#
 # Write a function to compute the square distance.
 
 # In[18]:
@@ -392,9 +392,9 @@ def sq_dist(a,b):
     Returns:
       d (float) : distance
     """
-    ### START CODE HERE ###     
+    ### START CODE HERE ###
     d = np.sum((a-b)**2)
-    ### END CODE HERE ###     
+    ### END CODE HERE ###
     return (d)
 
 
@@ -418,13 +418,13 @@ print(f"squared distance between a3 and b3: {sq_dist(a3, b3)}")
 
 # <details>
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-#     
+#
 #   While a summation is often an indication a for loop should be used, here the subtraction can be element-wise in one statement. Further, you can utilized np.square to square, element-wise, the result of the subtraction. np.sum can be used to sum the squared elements.
-#     
+#
 # </details>
-# 
-#     
-# 
+#
+#
+#
 
 # A matrix of distances between movies can be computed once when the model is trained and then reused for new recommendations without retraining. The first step, once a model is trained, is to obtain the movie feature vector, $v_m$, for each of the movies. To do this, we will use the trained `item_NN` and build a small model to allow us to run the movie vectors through it to generate $v_m$.
 
@@ -434,7 +434,7 @@ print(f"squared distance between a3 and b3: {sq_dist(a3, b3)}")
 input_item_m = tf.keras.layers.Input(shape=(num_item_features))    # input layer
 vm_m = item_NN(input_item_m)                                       # use the trained item_NN
 vm_m = tf.linalg.l2_normalize(vm_m, axis=1)                        # incorporate normalization as was done in the original model
-model_m = Model(input_item_m, vm_m)                                
+model_m = Model(input_item_m, vm_m)
 model_m.summary()
 
 
@@ -465,7 +465,7 @@ dist = np.zeros((dim,dim))
 for i in range(dim):
     for j in range(dim):
         dist[i,j] = sq_dist(vms[i, :], vms[j, :])
-        
+
 m_dist = ma.masked_array(dist, mask=np.identity(dist.shape[0]))  # mask the diagonal
 
 disp = [["movie1", "genres", "movie2", "genres"]]
@@ -487,6 +487,6 @@ table
 
 # <a name="4"></a>
 # ## 4 - Congratulations! <img align="left" src="./images/film_award.png" style=" width:40px;">
-# You have completed a content-based recommender system.    
-# 
+# You have completed a content-based recommender system.
+#
 # This structure is the basis of many commercial recommender systems. The user content can be greatly expanded to incorporate more information about the user if it is available.  Items are not limited to movies. This can be used to recommend any item, books, cars or items that are similar to an item in your 'shopping cart'.

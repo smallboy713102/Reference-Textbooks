@@ -11,7 +11,7 @@ def normalizeRatings(Y, R):
     Returns the mean rating in Ymean.
     """
     Ymean = (np.sum(Y*R,axis=1)/(np.sum(R, axis=1)+1e-12)).reshape(-1,1)
-    Ynorm = Y - np.multiply(Ymean, R) 
+    Ynorm = Y - np.multiply(Ymean, R)
     return(Ynorm, Ymean)
 
 def load_precalc_params_small():
@@ -28,7 +28,7 @@ def load_precalc_params_small():
     num_movies, num_features = X.shape
     num_users,_ = W.shape
     return(X, W, b, num_movies, num_features, num_users)
-    
+
 def load_ratings_small():
     file = open('./data/small_movies_Y.csv', 'rb')
     Y = loadtxt(file,delimiter = ",")

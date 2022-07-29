@@ -1,6 +1,6 @@
-""" 
+"""
 lab_utils_common.py
-    functions common to all optional labs, Course 1, Week 2 
+    functions common to all optional labs, Course 1, Week 2
 """
 
 import numpy as np
@@ -23,7 +23,7 @@ def compute_cost_matrix(X, y, w, b, verbose=False):
      Args:
       X (ndarray (m,n)): Data, m examples with n features
       y (ndarray (m,)) : target values
-      w (ndarray (n,)) : model parameters  
+      w (ndarray (n,)) : model parameters
       b (scalar)       : model parameter
       verbose : (Boolean) If true, print out intermediate value f_wb
     Returns
@@ -48,7 +48,7 @@ def compute_gradient_matrix(X, y, w, b):
     Args:
       X (ndarray (m,n)): Data, m examples with n features
       y (ndarray (m,)) : target values
-      w (ndarray (n,)) : model parameters  
+      w (ndarray (n,)) : model parameters
       b (scalar)       : model parameter
     Returns
       dj_dw (ndarray (n,1)): The gradient of the cost w.r.t. the parameters w.
@@ -71,7 +71,7 @@ def compute_cost(X, y, w, b):
     Args:
       X (ndarray (m,n)): Data, m examples with n features
       y (ndarray (m,)) : target values
-      w (ndarray (n,)) : model parameters  
+      w (ndarray (n,)) : model parameters
       b (scalar)       : model parameter
     Returns
       cost (scalar)    : cost
@@ -82,7 +82,7 @@ def compute_cost(X, y, w, b):
         f_wb_i = np.dot(X[i],w) + b           #(n,)(n,)=scalar
         cost = cost + (f_wb_i - y[i])**2
     cost = cost/(2*m)
-    return cost 
+    return cost
 
 def compute_gradient(X, y, w, b):
     """
@@ -90,7 +90,7 @@ def compute_gradient(X, y, w, b):
     Args:
       X (ndarray (m,n)): Data, m examples with n features
       y (ndarray (m,)) : target values
-      w (ndarray (n,)) : model parameters  
+      w (ndarray (n,)) : model parameters
       b (scalar)       : model parameter
     Returns
       dj_dw (ndarray Shape (n,)): The gradient of the cost w.r.t. the parameters w.

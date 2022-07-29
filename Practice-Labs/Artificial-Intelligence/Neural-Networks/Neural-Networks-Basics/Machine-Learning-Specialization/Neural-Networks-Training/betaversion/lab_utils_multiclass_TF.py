@@ -45,7 +45,7 @@ def plot_cat_decision_boundary_mc(ax, X, predict , class_labels=None, legend=Fal
     Z = Z.reshape(xx.shape)
 
     #contour plot highlights boundaries between values - classes in this case
-    ax.contour(xx, yy, Z, linewidths=1) 
+    ax.contour(xx, yy, Z, linewidths=1)
     #ax.axis('tight')
 
 # Plot  multi-class training points
@@ -57,8 +57,8 @@ def plot_mc_data(X, y, class_labels=None, legend=False,size=40):
         plt.scatter(X[idx, 0], X[idx, 1],  cmap=plt.cm.Paired,
                     edgecolor='black', s=size, label=label)
     if legend: plt.legend()
-        
-def plt_mc_data(ax, X, y, classes,  class_labels=None, map=plt.cm.Paired, 
+
+def plt_mc_data(ax, X, y, classes,  class_labels=None, map=plt.cm.Paired,
                 legend=False, size=50, m='o', equal_xy = False):
     """ Plot multiclass data. Note, if equal_xy is True, setting ylim on the plot may not work """
     for i in range(classes):
@@ -69,7 +69,7 @@ def plt_mc_data(ax, X, y, classes,  class_labels=None, map=plt.cm.Paired,
         #            c=col, vmin=0, vmax=map.N, cmap=map,
         #            s=size, label=label)
         ax.scatter(X[idx, 0], X[idx, 1],  marker=m,
-                    color=map(col), vmin=0, vmax=map.N, 
+                    color=map(col), vmin=0, vmax=map.N,
                     s=size, label=label)
     if legend: ax.legend()
     if equal_xy: ax.axis("equal")
@@ -97,18 +97,18 @@ def plt_cat_mc(X_train, y_train, model, classes):
     fig.canvas.toolbar_visible = False
     fig.canvas.header_visible = False
     fig.canvas.footer_visible = False
- 
+
     #add the original data to the decison boundary
     plt_mc_data(ax, X_train,y_train, classes, map=dkcolors_map, legend=True)
-    #plot the decison boundary. 
+    #plot the decison boundary.
     plot_cat_decision_boundary_mc(ax, X_train, model_predict, vector=True)
     ax.set_title("model decision boundary")
 
     plt.xlabel(r'$x_0$');
-    plt.ylabel(r"$x_1$"); 
+    plt.ylabel(r"$x_1$");
     plt.show()
 
-    
+
 def plt_prob_z(ax,fwb, x0_rng=(-8,8), x1_rng=(-5,4)):
     """ plots a decision boundary but include shading to indicate the probability
         and adds a conouter to show where z=0
@@ -128,8 +128,8 @@ def plt_prob_z(ax,fwb, x0_rng=(-8,8), x1_rng=(-5,4)):
             c[i,j] = 0. if z[i,j] == 0 else 1.
     with warnings.catch_warnings():  # suppress no contour warning
         warnings.simplefilter("ignore")
-        #ax.contour(tmp_x0, tmp_x1, c, colors='b', linewidths=1) 
-        ax.contour(tmp_x0, tmp_x1, c, linewidths=1) 
+        #ax.contour(tmp_x0, tmp_x1, c, colors='b', linewidths=1)
+        ax.contour(tmp_x0, tmp_x1, c, linewidths=1)
 
     cmap = plt.get_cmap('Blues')
     new_cmap = truncate_colormap(cmap, 0.0, 0.7)

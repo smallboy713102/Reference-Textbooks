@@ -9,8 +9,8 @@ def widgvis(fig):
     fig.canvas.toolbar_visible = False
     fig.canvas.header_visible = False
     fig.canvas.footer_visible = False
-    
-    
+
+
 def plt_base(ax):
     X = np.linspace(0, 3, 3*100)
     y = np.r_[ -2*X[0:100]+2, 1*X[100:200]-3+2, 3*X[200:300]-7+2 ]
@@ -59,7 +59,7 @@ def plt_relu_ex():
     ax3 = fig.add_subplot(gs[1,1])
     ax4 = fig.add_subplot(gs[2,1])
     ax = [ax1,ax2,ax3,ax4]
-    
+
     widgvis(fig)
     #plt.subplots_adjust(bottom=0.35)
 
@@ -72,10 +72,10 @@ def plt_relu_ex():
     sb1 = Slider(axb1, 'b1', -4.0, 4.0, valinit=0, valstep=0.1)
     sw2 = Slider(axw2, 'w2', -4.0, 4.0, valinit=0, valstep=0.1)
     sb2 = Slider(axb2, 'b2', -4.0, 4.0, valinit=0, valstep=0.1)
-    
+
     X,lp = plt_base(ax)
     artists.extend( lp )
-    
+
     #@output.capture()
     def update(val):
         #print("-----------")
@@ -96,7 +96,7 @@ def plt_relu_ex():
         artists.extend(plt_unit(ax[2], X, w01, b01) )
         artists.extend(plt_unit(ax[3], X, w02, b02) )
         #fig.canvas.draw_idle()
-        
+
     sw1.on_changed(update)
     sb1.on_changed(update)
     sw2.on_changed(update)
@@ -108,7 +108,7 @@ def plt_relu_ex():
     ax[1].set_title("Unit 0 (fixed) ")
     ax[1].legend()
     ax[2].set_title("Unit 1")
-    ax[2].legend() 
+    ax[2].legend()
     ax[3].set_title("Unit 2")
     ax[3].legend()
     plt.tight_layout()

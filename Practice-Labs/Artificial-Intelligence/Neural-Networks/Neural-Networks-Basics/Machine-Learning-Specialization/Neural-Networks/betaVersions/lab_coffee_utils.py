@@ -17,7 +17,7 @@ def load_coffee_data():
     X[:,1] = X[:,1] * 4 + 11.5          # 12-15 min is best
     X[:,0] = X[:,0] * (285-150) + 150  # 350-500 F (175-260 C) is best
     Y = np.zeros(len(X))
-    
+
     i=0
     for t,d in X:
         y = -3/(260-175)*t + 21
@@ -34,7 +34,7 @@ def plt_roast(X,Y):
     colormap = np.array(['r', 'b'])
     fig, ax = plt.subplots(1,1,)
     ax.scatter(X[Y==1,0],X[Y==1,1], s=70, marker='x', c='red', label="Good Roast" )
-    ax.scatter(X[Y==0,0],X[Y==0,1], s=100, marker='o', facecolors='none', 
+    ax.scatter(X[Y==0,0],X[Y==0,1], s=100, marker='o', facecolors='none',
                edgecolors=dlc["dldarkblue"],linewidth=1,  label="Bad Roast")
     tr = np.linspace(175,260,50)
     ax.plot(tr, (-3/85) * tr + 21, color=dlc["dlpurple"],linewidth=1)
@@ -82,7 +82,7 @@ def plt_layer(X,Y,W1,b1,norm_l):
         layerf= lambda x : sigmoid(np.dot(norm_l(x),W1[:,i]) + b1[i])
         plt_prob(ax[i], layerf)
         ax[i].scatter(X[Y==1,0],X[Y==1,1], s=70, marker='x', c='red', label="Good Roast" )
-        ax[i].scatter(X[Y==0,0],X[Y==0,1], s=100, marker='o', facecolors='none', 
+        ax[i].scatter(X[Y==0,0],X[Y==0,1], s=100, marker='o', facecolors='none',
                    edgecolors=dlc["dldarkblue"],linewidth=1,  label="Bad Roast")
         tr = np.linspace(175,260,50)
         ax[i].plot(tr, (-3/85) * tr + 21, color=dlc["dlpurple"],linewidth=2)
@@ -92,13 +92,13 @@ def plt_layer(X,Y,W1,b1,norm_l):
         ax[i].set_xlabel("Temperature \n(Celsius)",size=12)
     ax[0].set_ylabel("Duration \n(minutes)",size=12)
     plt.show()
-        
+
 def plt_network(X,Y,netf):
     fig, ax = plt.subplots(1,2,figsize=(16,4))
     Y = Y.reshape(-1,)
     plt_prob(ax[0], netf)
     ax[0].scatter(X[Y==1,0],X[Y==1,1], s=70, marker='x', c='red', label="Good Roast" )
-    ax[0].scatter(X[Y==0,0],X[Y==0,1], s=100, marker='o', facecolors='none', 
+    ax[0].scatter(X[Y==0,0],X[Y==0,1], s=100, marker='o', facecolors='none',
                    edgecolors=dlc["dldarkblue"],linewidth=1,  label="Bad Roast")
     ax[0].plot(X[:,0], (-3/85) * X[:,0] + 21, color=dlc["dlpurple"],linewidth=1)
     ax[0].axhline(y= 12, color=dlc["dlpurple"], linewidth=1)
@@ -114,7 +114,7 @@ def plt_network(X,Y,netf):
     fwb = netf(X)
     yhat = (fwb > 0.5).astype(int)
     ax[1].scatter(X[yhat[:,0]==1,0],X[yhat[:,0]==1,1], s=70, marker='x', c='orange', label="Predicted Good Roast" )
-    ax[1].scatter(X[yhat[:,0]==0,0],X[yhat[:,0]==0,1], s=100, marker='o', facecolors='none', 
+    ax[1].scatter(X[yhat[:,0]==0,0],X[yhat[:,0]==0,1], s=100, marker='o', facecolors='none',
                    edgecolors=dlc["dldarkblue"],linewidth=1,  label="Bad Roast")
     ax[1].set_title(f"network decision")
     ax[1].set_xlabel("Temperature \n(Celsius)",size=12)
@@ -139,9 +139,9 @@ def plt_output_unit(W,b):
                 v = np.array([x[i,j,k],y[i,j,k],z[i,j,k]])
                 d[i,j,k] = tf.keras.activations.sigmoid(np.dot(v,W[:,0])+b).numpy()
     pcm = ax.scatter(x, y, z, c=d, cmap=cmap, alpha = 1 )
-    ax.set_xlabel("unit 0"); 
-    ax.set_ylabel("unit 1"); 
-    ax.set_zlabel("unit 2"); 
+    ax.set_xlabel("unit 0");
+    ax.set_ylabel("unit 1");
+    ax.set_zlabel("unit 2");
     ax.view_init(30, -120)
     ax.figure.colorbar(pcm, ax=ax)
     ax.set_title(f"Layer 2, output unit")
