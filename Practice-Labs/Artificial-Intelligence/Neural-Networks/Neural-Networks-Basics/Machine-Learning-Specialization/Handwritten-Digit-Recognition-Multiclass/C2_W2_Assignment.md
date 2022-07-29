@@ -116,7 +116,7 @@ test_my_softmax(my_softmax)
     [92m All tests passed.
 
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
     One implementation uses for loop to first build the denominator and then a second loop to calculate each output.
 
@@ -131,7 +131,7 @@ def my_softmax(z):
         a[j] =              # divide each the exp of each output by the denominator
     return(a)
 ```
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for code</b></font></summary>
 
 ```python
@@ -437,7 +437,7 @@ model.summary()
     _________________________________________________________________
 
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Expected Output (Click to expand)</b></font></summary>
 The `model.summary()` function displays a useful summary of the model. Note, the names of the layers may vary as they are auto-generated unless the name is specified.
 
@@ -458,7 +458,7 @@ Non-trainable params: 0
 _________________________________________________________________
 ```
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 
 ```python

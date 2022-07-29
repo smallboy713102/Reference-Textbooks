@@ -241,7 +241,7 @@ def compute_entropy(y):
     return entropy
 ```
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 
 
@@ -252,7 +252,7 @@ def compute_entropy(y):
        * <a href="https://numpy.org/doc/stable/reference/generated/numpy.log2.html">np.log2</a> let's you calculate the logarithm to base 2 for a numpy array
        * If the value of `p1` is 0 or 1, make sure to set the entropy to `0`
 
-    <details>
+
           <summary><font size="2" color="darkblue"><b> Click for more hints</b></font></summary>
 
     * Here's how you can structure the overall implementation for this function
@@ -280,19 +280,19 @@ def compute_entropy(y):
 
     If you're still stuck, you can check the hints presented below to figure out how to calculate `p1` and `entropy`.
 
-    <details>
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate p1</b></font></summary>
            &emsp; &emsp; You can compute p1 as <code>p1 = len(y[y == 1]) / len(y) </code>
-    </details>
 
-     <details>
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate entropy</b></font></summary>
           &emsp; &emsp; You can compute entropy as <code>entropy = -p1 * np.log2(p1) - (1 - p1) * np.log2(1 - p1)</code>
-    </details>
 
-    </details>
 
-</details>
+
+
+
 
 
 
@@ -390,7 +390,7 @@ def split_dataset(X, node_indices, feature):
     return left_indices, right_indices
 ```
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 
 
@@ -413,14 +413,14 @@ def split_dataset(X, node_indices, feature):
 
     return left_indices, right_indices
     ```
-    <details>
+
           <summary><font size="2" color="darkblue"><b> Click for more hints</b></font></summary>
 
     The condition is <code> if X[i][feature] == 1:</code>.
 
-    </details>
 
-</details>
+
+
 
 
 
@@ -533,7 +533,7 @@ def compute_information_gain(X, y, node_indices, feature):
     return information_gain
 ```
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 
 
@@ -578,33 +578,33 @@ def compute_information_gain(X, y, node_indices, feature):
     ```
     If you're still stuck, check out the hints below.
 
-    <details>
+
           <summary><font size="2" color="darkblue"><b> Hint to calculate the entropies</b></font></summary>
 
     <code>node_entropy = compute_entropy(y_node)</code><br>
     <code>left_entropy = compute_entropy(y_left)</code><br>
     <code>right_entropy = compute_entropy(y_right)</code>
 
-    </details>
 
-    <details>
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate w_left and w_right</b></font></summary>
            <code>w_left = len(X_left) / len(X_node)</code><br>
            <code>w_right = len(X_right) / len(X_node)</code>
-    </details>
 
-    <details>
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate weighted_entropy</b></font></summary>
            <code>weighted_entropy = w_left * left_entropy + w_right * right_entropy</code>
-    </details>
 
-    <details>
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate information_gain</b></font></summary>
            <code> information_gain = node_entropy - weighted_entropy</code>
-    </details>
 
 
-</details>
+
+
 
 
 You can now check your implementation using the cell below and calculate what the information gain would be from splitting on each of the featues
@@ -694,7 +694,7 @@ def get_best_split(X, y, node_indices):
     return best_feature
 ```
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 
 
@@ -729,18 +729,18 @@ def get_best_split(X, y, node_indices):
     ```
     If you're still stuck, check out the hints below.
 
-    <details>
+
           <summary><font size="2" color="darkblue"><b> Hint to calculate info_gain</b></font></summary>
 
     <code>info_gain = compute_information_gain(X, y, node_indices, feature)</code>
-    </details>
 
-    <details>
+
+
           <summary><font size="2" color="darkblue"><b>Hint to update the max_info_gain and best_feature</b></font></summary>
            <code>max_info_gain = info_gain</code><br>
            <code>best_feature = feature</code>
-    </details>
-</details>
+
+
 
 
 Now, let's check the implementation of your function using the cell below.

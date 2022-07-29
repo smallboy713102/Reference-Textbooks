@@ -226,7 +226,7 @@ def estimate_gaussian(X):
     return mu, var
 ```
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 
    * You can implement this function in two ways:
@@ -249,25 +249,25 @@ def estimate_gaussian(X):
 
     If you're still stuck, you can check the hints presented below to figure out how to calculate `mu` and `var`.
 
-    <details>
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate mu</b></font></summary>
            &emsp; &emsp; You can use <a href="https://numpy.org/doc/stable/reference/generated/numpy.sum.html">np.sum</a> to with `axis = 0` parameter to get the sum for each column of an array
-          <details>
+
               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate mu</b></font></summary>
                &emsp; &emsp; You can compute mu as <code>mu = 1 / m * np.sum(X, axis = 0)</code>
-           </details>
-    </details>
 
-    <details>
+
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate var</b></font></summary>
            &emsp; &emsp; You can use <a href="https://numpy.org/doc/stable/reference/generated/numpy.sum.html">np.sum</a> to with `axis = 0` parameter to get the sum for each column of an array and <code>**2</code> to get the square.
-          <details>
+
               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate var</b></font></summary>
                &emsp; &emsp; You can compute var as <code> var = 1 / m * np.sum((X - mu) ** 2, axis = 0)</code>
-           </details>
-    </details>
 
-</details>
+
+
+
 
 You can check if your implementation is correct by running the following test code:
 
@@ -410,7 +410,7 @@ def select_threshold(y_val, p_val):
     return best_epsilon, best_F1
 ```
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 
    * Here's how you can structure the overall implementation of this function for the vectorized implementation:
@@ -446,12 +446,12 @@ def select_threshold(y_val, p_val):
 
     If you're still stuck, you can check the hints presented below to figure out how to calculate each variable.
 
-    <details>
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate predictions</b></font></summary>
            &emsp; &emsp; If an example  𝑥  has a low probability  $p(x) < \epsilon$ , then it is classified as an anomaly. To get predictions for each example (0/ False for normal and 1/True for anomaly), you can use <code>predictions = (p_val < epsilon)</code>
-    </details>
 
-    <details>
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate tp, fp, fn</b></font></summary>
            &emsp; &emsp;
         <ul>
@@ -461,32 +461,32 @@ binary vector, you can find out how many values in this vector are 0 by using:  
           <li>You can then, for example, compute the number of false positives using:
 <code>fp = sum((predictions == 1) & (y_val == 0))</code>.</li>
         </ul>
-         <details>
+
               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate tp, fn</b></font></summary>
                &emsp; &emsp;
              <ul>
               <li>You can compute tp as <code> tp = np.sum((predictions == 1) & (y_val == 1))</code></li>
               <li>You can compute tn as <code> fn = np.sum((predictions == 0) & (y_val == 1))</code></li>
               </ul>
-          </details>
-    </details>
 
-    <details>
+
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate precision</b></font></summary>
            &emsp; &emsp; You can calculate precision as <code>prec = tp / (tp + fp)</code>
-    </details>
 
-    <details>
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate recall</b></font></summary>
            &emsp; &emsp; You can calculate recall as <code>rec = tp / (tp + fn)</code>
-    </details>
 
-    <details>
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate F1</b></font></summary>
            &emsp; &emsp; You can calculate F1 as <code>F1 = 2 * prec * rec / (prec + rec)</code>
-    </details>
 
-</details>
+
+
 
 You can check your implementation using the code below
 

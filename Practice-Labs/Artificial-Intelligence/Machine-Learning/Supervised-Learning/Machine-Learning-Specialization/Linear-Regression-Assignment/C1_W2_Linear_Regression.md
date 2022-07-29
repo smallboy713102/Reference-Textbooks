@@ -261,7 +261,7 @@ def compute_cost(x, y, w, b):
     return total_cost
 ```
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 
 
@@ -276,7 +276,7 @@ def compute_cost(x, y, w, b):
 
    * Then, you can return the `total_cost` as `cost_sum` divided by `2m`.
 
-    <details>
+
           <summary><font size="2" color="darkblue"><b> Click for more hints</b></font></summary>
 
     * Here's how you can structure the overall implementation for this function
@@ -311,27 +311,27 @@ def compute_cost(x, y, w, b):
 
     If you're still stuck, you can check the hints presented below to figure out how to calculate `f_wb` and `cost`.
 
-    <details>
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate f_wb</b></font></summary>
            &emsp; &emsp; For scalars $a$, $b$ and $c$ (<code>x[i]</code>, <code>w</code> and <code>b</code> are all scalars), you can calculate the equation $h = ab + c$ in code as <code>h = a * b + c</code>
-          <details>
+
               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate f</b></font></summary>
                &emsp; &emsp; You can compute f_wb as <code>f_wb = w * x[i] + b </code>
-           </details>
-    </details>
 
-     <details>
+
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate cost</b></font></summary>
           &emsp; &emsp; You can calculate the square of a variable z as z**2
-          <details>
+
               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate cost</b></font></summary>
               &emsp; &emsp; You can compute cost as <code>cost = (f_wb - y[i]) ** 2</code>
-          </details>
-    </details>
 
-    </details>
 
-</details>
+
+
+
+
 
 
 
@@ -457,7 +457,7 @@ def compute_gradient(x, y, w, b):
     return dj_dw, dj_db
 ```
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 
     * You can represent a summation operator eg: $h = \sum\limits_{i = 0}^{m-1} 2i$ in code as follows:
@@ -470,7 +470,7 @@ def compute_gradient(x, y, w, b):
     * In this case, you can iterate over all the examples in `x` using a for loop and for each example, keep adding the gradient from that example to the variables `dj_dw` and `dj_db` which are initialized outside the loop.
 
    * Then, you can return `dj_dw` and `dj_db` both divided by `m`.
-    <details>
+
           <summary><font size="2" color="darkblue"><b> Click for more hints</b></font></summary>
 
     * Here's how you can structure the overall implementation for this function
@@ -522,32 +522,32 @@ def compute_gradient(x, y, w, b):
 
     If you're still stuck, you can check the hints presented below to figure out how to calculate `f_wb` and `cost`.
 
-    <details>
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate f_wb</b></font></summary>
            &emsp; &emsp; You did this in the previous exercise! For scalars $a$, $b$ and $c$ (<code>x[i]</code>, <code>w</code> and <code>b</code> are all scalars), you can calculate the equation $h = ab + c$ in code as <code>h = a * b + c</code>
-          <details>
+
               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate f</b></font></summary>
                &emsp; &emsp; You can compute f_wb as <code>f_wb = w * x[i] + b </code>
-           </details>
-    </details>
 
-    <details>
+
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate dj_dw_i</b></font></summary>
            &emsp; &emsp; For scalars $a$, $b$ and $c$ (<code>f_wb</code>, <code>y[i]</code> and <code>x[i]</code> are all scalars), you can calculate the equation $h = (a - b)c$ in code as <code>h = (a-b)*c</code>
-          <details>
+
               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate f</b></font></summary>
                &emsp; &emsp; You can compute dj_dw_i as <code>dj_dw_i = (f_wb - y[i]) * x[i] </code>
-           </details>
-    </details>
 
-    <details>
+
+
+
           <summary><font size="2" color="darkblue"><b>Hint to calculate dj_db_i</b></font></summary>
              &emsp; &emsp; You can compute dj_db_i as <code> dj_db_i = f_wb - y[i] </code>
-    </details>
 
-    </details>
 
-</details>
+
+
+
 
 
 
