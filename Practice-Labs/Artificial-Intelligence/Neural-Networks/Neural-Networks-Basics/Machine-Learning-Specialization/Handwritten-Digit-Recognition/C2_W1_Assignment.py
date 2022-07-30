@@ -225,7 +225,7 @@ model = Sequential(
 model.summary()
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Expected Output (Click to Expand) </b></font></summary>
 # The `model.summary()` function displays a useful summary of the model. Because we have specified an input layer size, the shape of the weight and bias arrays are determined and the total number of parameters per layer can be shown. Note, the names of the layers may vary as they are auto-generated.
 #
@@ -247,7 +247,7 @@ model.summary()
 # _________________________________________________________________
 # ```
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 # As described in the lecture:
 #
@@ -453,7 +453,7 @@ print(A_tst)
 # [0.54735762 0.57932425 0.61063923]
 # ```
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 # As described in the lecture:
 #
@@ -479,7 +479,7 @@ print(A_tst)
 # ```
 #
 #
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for more hints</b></font></summary>
 #
 #
@@ -662,13 +662,13 @@ print(A_tst)
 #  [0.62010643 0.67699586 0.72908792]]
 #  ```
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #     In matrix form, this can be written in one or two lines.
 #
 #        Z = np.matmul of A_in and W plus b
 #        A_out is g(Z)
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for code</b></font></summary>
 #
 # ```python

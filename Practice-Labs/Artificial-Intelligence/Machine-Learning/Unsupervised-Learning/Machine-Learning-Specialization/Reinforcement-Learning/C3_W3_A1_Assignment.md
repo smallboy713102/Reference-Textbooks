@@ -77,7 +77,7 @@ Run the cell below to set the hyperparameters.
 ```python
 MEMORY_SIZE = 100_000     # size of memory buffer
 GAMMA = 0.995             # discount factor
-ALPHA = 1e-3              # learning rate  
+ALPHA = 1e-3              # learning rate
 NUM_STEPS_FOR_UPDATE = 4  # perform a learning update every C time steps
 ```
 
@@ -86,7 +86,7 @@ NUM_STEPS_FOR_UPDATE = 4  # perform a learning update every C time steps
 
 In this notebook we will be using [OpenAI's Gym Library](https://www.gymlibrary.ml/). The Gym library provides a wide variety of environments for reinforcement learning. To put it simply, an environment represents a problem or task to be solved. In this notebook, we will try to solve the Lunar Lander environment using reinforcement learning.
 
-The goal of the Lunar Lander environment is to land the lunar lander safely on the landing pad on the surface of the moon. The landing pad is designated by two flag poles and it is always at coordinates `(0,0)` but the lander is also allowed to land outside of the landing pad. The lander starts at the top center of the environment with a random initial force applied to its center of mass and has infinite fuel. The environment is considered solved if you get `200` points. 
+The goal of the Lunar Lander environment is to land the lunar lander safely on the landing pad on the surface of the moon. The landing pad is designated by two flag poles and it is always at coordinates `(0,0)` but the lander is also allowed to land outside of the landing pad. The lander starts at the top center of the environment with a random initial force applied to its center of mass and has infinite fuel. The environment is considered solved if you get `200` points.
 
 <br>
 <br>
@@ -133,7 +133,7 @@ The agent's observation space consists of a state vector with 8 variables:
 The Lunar Lander environment has the following reward system:
 
 * Landing on the landing pad and coming to rest is about 100-140 points.
-* If the lander moves away from the landing pad, it loses reward. 
+* If the lander moves away from the landing pad, it loses reward.
 * If the lander crashes, it receives -100 points.
 * If the lander comes to rest, it receives +100 points.
 * Each leg with ground contact is +10 points.
@@ -149,7 +149,7 @@ An episode ends (i.e the environment enters a terminal state) if:
 
 * The lander's $x$-coordinate is greater than 1.
 
-You can check out the [Open AI Gym documentation](https://www.gymlibrary.ml/environments/box2d/lunar_lander/) for a full description of the environment. 
+You can check out the [Open AI Gym documentation](https://www.gymlibrary.ml/environments/box2d/lunar_lander/) for a full description of the environment.
 
 <a name="4"></a>
 ## 4 - Load the Environment
@@ -216,12 +216,12 @@ In Open AI's Gym environments, we use the `.step()` method to run a single time 
 * `reward` (**float**): amount of reward returned as a result of taking the given action. In the Lunar Lander environment this corresponds to a float of type `numpy.float64` as described in section [3.3 Rewards](#3.3).
 
 
-* `done` (**boolean**): When done is `True`, it indicates the episode has terminated and it’s time to reset the environment. 
+* `done` (**boolean**): When done is `True`, it indicates the episode has terminated and it’s time to reset the environment.
 
 
 * `info` (**dictionary**): diagnostic information useful for debugging. We won't be using this variable in this notebook but it is shown here for completeness.
 
-To begin an episode, we need to reset the environment to an initial state. We do this by using the `.reset()` method. 
+To begin an episode, we need to reset the environment to an initial state. We do this by using the `.reset()` method.
 
 
 ```python
@@ -229,7 +229,7 @@ To begin an episode, we need to reset the environment to an initial state. We do
 initial_state = env.reset()
 ```
 
-Once the environment is reset, the agent can start taking actions in the environment by using the `.step()` method. Note that the agent can only take one action per time step. 
+Once the environment is reset, the agent can start taking actions in the environment by using the `.step()` method. Note that the agent can only take one action per time step.
 
 In the cell below you can select different actions and see how the returned values change depending on the action taken. Remember that in this environment the agent has four discrete actions available and we specify them in code by using their corresponding numerical value:
 
@@ -307,7 +307,7 @@ $$
 where $w^-$ and $w$ are the weights the target $\hat Q$-Network and $Q$-Network, respectively.
 
 In practice, we will use the following algorithm: every $C$ time steps we will use the $\hat Q$-Network to generate the $y$ targets and update the weights of the target $\hat Q$-Network using the weights of the $Q$-Network. We will update the weights $w^-$ of the the target $\hat Q$-Network using a **soft update**. This means that we will update the weights $w^-$ using the following rule:
- 
+
 $$
 w^-\leftarrow \tau w + (1 - \tau) w^-
 $$
@@ -345,21 +345,21 @@ from tensorflow.keras.optimizers import Adam
 
 # Create the Q-Network
 q_network = Sequential([
-    Input(shape=state_size),                      
-    Dense(units=64, activation='relu'),            
-    Dense(units=64, activation='relu'),            
+    Input(shape=state_size),
+    Dense(units=64, activation='relu'),
+    Dense(units=64, activation='relu'),
     Dense(units=num_actions, activation='linear'),
     ])
 
 # Create the target Q^-Network
 target_q_network = Sequential([
-    Input(shape=state_size),                       
-    Dense(units=64, activation='relu'),            
-    Dense(units=64, activation='relu'),            
-    Dense(units=num_actions, activation='linear'), 
+    Input(shape=state_size),
+    Dense(units=64, activation='relu'),
+    Dense(units=64, activation='relu'),
+    Dense(units=num_actions, activation='linear'),
     ])
 
-optimizer = Adam(learning_rate=ALPHA) 
+optimizer = Adam(learning_rate=ALPHA)
 ```
 
 
@@ -369,7 +369,7 @@ from public_tests import *
 
 test_network(q_network)
 test_network(target_q_network)
-test_optimizer(optimizer, ALPHA) 
+test_optimizer(optimizer, ALPHA)
 ```
 
     [92mAll tests passed!
@@ -377,28 +377,28 @@ test_optimizer(optimizer, ALPHA)
     [92mAll tests passed!
 
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-    
+
 ```python
 # Create the Q-Network
 q_network = Sequential([
-    Input(shape=state_size),                      
-    Dense(units=64, activation='relu'),            
-    Dense(units=64, activation='relu'),            
+    Input(shape=state_size),
+    Dense(units=64, activation='relu'),
+    Dense(units=64, activation='relu'),
     Dense(units=num_actions, activation='linear'),
     ])
 
 # Create the target Q^-Network
 target_q_network = Sequential([
-    Input(shape=state_size),                       
-    Dense(units=64, activation='relu'),            
-    Dense(units=64, activation='relu'),            
-    Dense(units=num_actions, activation='linear'), 
+    Input(shape=state_size),
+    Dense(units=64, activation='relu'),
+    Dense(units=64, activation='relu'),
+    Dense(units=num_actions, activation='linear'),
     ])
 
-optimizer = Adam(learning_rate=ALPHA)                                  
-``` 
+optimizer = Adam(learning_rate=ALPHA)
+```
 
 <a name="6.2"></a>
 ### 6.2 Experience Replay
@@ -437,7 +437,7 @@ $$
     \begin{cases}
       R_j & \text{if episode terminates at step  } j+1\\
       R_j + \gamma \max_{a'}\hat{Q}(s_{j+1},a') & \text{otherwise}\\
-    \end{cases}       
+    \end{cases}
 \end{equation}
 $$
 
@@ -446,7 +446,7 @@ Here are a couple of things to note:
 * The `compute_loss` function takes in a mini-batch of experience tuples. This mini-batch of experience tuples is unpacked to extract the `states`, `actions`, `rewards`, `next_states`, and `done_vals`. You should keep in mind that these variables are *TensorFlow Tensors* whose size will depend on the mini-batch size. For example, if the mini-batch size is `64` then both `rewards` and `done_vals` will be TensorFlow Tensors with `64` elements.
 
 
-* Using `if/else` statements to set the $y$ targets will not work when the variables are tensors with many elements. However, notice that you can use the `done_vals` to implement the above in a single line of code. To do this, recall that the `done` variable is a Boolean variable that takes the value `True` when an episode terminates at step $j+1$ and it is `False` otherwise. Taking into account that a Boolean value of `True` has the numerical value of `1` and a Boolean value of `False` has the numerical value of `0`, you can use the factor `(1 - done_vals)` to implement the above in a single line of code. Here's a hint: notice that `(1 - done_vals)` has a value of `0` when `done_vals` is `True` and a value of `1` when `done_vals` is `False`. 
+* Using `if/else` statements to set the $y$ targets will not work when the variables are tensors with many elements. However, notice that you can use the `done_vals` to implement the above in a single line of code. To do this, recall that the `done` variable is a Boolean variable that takes the value `True` when an episode terminates at step $j+1$ and it is `False` otherwise. Taking into account that a Boolean value of `True` has the numerical value of `1` and a Boolean value of `False` has the numerical value of `0`, you can use the factor `(1 - done_vals)` to implement the above in a single line of code. Here's a hint: notice that `(1 - done_vals)` has a value of `0` when `done_vals` is `True` and a value of `1` when `done_vals` is `False`.
 
 Lastly, compute the loss by calculating the Mean-Squared Error (`MSE`) between the `y_targets` and the `q_values`. To calculate the mean-squared error you should use the already imported package `MSE`:
 ```python
@@ -459,94 +459,94 @@ from tensorflow.keras.losses import MSE
 # GRADED FUNCTION: calculate_loss
 
 def compute_loss(experiences, gamma, q_network, target_q_network):
-    """ 
+    """
     Calculates the loss.
-    
+
     Args:
       experiences: (tuple) tuple of ["state", "action", "reward", "next_state", "done"] namedtuples
       gamma: (float) The discount factor.
       q_network: (tf.keras.Sequential) Keras model for predicting the q_values
       target_q_network: (tf.keras.Sequential) Karas model for predicting the targets
-          
+
     Returns:
       loss: (TensorFlow Tensor(shape=(0,), dtype=int32)) the Mean-Squared Error between
             the y targets and the Q(s,a) values.
     """
-    
+
     # Unpack the mini-batch of experience tuples
     states, actions, rewards, next_states, done_vals = experiences
-    
+
     # Compute max Q^(s,a)
     max_qsa = tf.reduce_max(target_q_network(next_states), axis=-1)
-    
+
     # Set y = R if episode terminates, otherwise set y = R + γ max Q^(s,a).
-    ### START CODE HERE ### 
+    ### START CODE HERE ###
     y_targets = rewards + (gamma * max_qsa * (1 - done_vals))
     ### END CODE HERE ###
-    
+
     # Get the q_values
     q_values = q_network(states)
     q_values = tf.gather_nd(q_values, tf.stack([tf.range(q_values.shape[0]),
                                                 tf.cast(actions, tf.int32)], axis=1))
-        
+
     # Compute the loss
-    ### START CODE HERE ### 
-    loss = MSE(y_targets, q_values) 
-    ### END CODE HERE ### 
-    
+    ### START CODE HERE ###
+    loss = MSE(y_targets, q_values)
+    ### END CODE HERE ###
+
     return loss
 ```
 
 
 ```python
-# UNIT TEST    
+# UNIT TEST
 test_compute_loss(compute_loss)
 ```
 
     [92mAll tests passed!
 
 
-<details>
+
   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
-    
+
 ```python
 def compute_loss(experiences, gamma, q_network, target_q_network):
-    """ 
+    """
     Calculates the loss.
-    
+
     Args:
       experiences: (tuple) tuple of ["state", "action", "reward", "next_state", "done"] namedtuples
       gamma: (float) The discount factor.
       q_network: (tf.keras.Sequential) Keras model for predicting the q_values
       target_q_network: (tf.keras.Sequential) Karas model for predicting the targets
-          
+
     Returns:
       loss: (TensorFlow Tensor(shape=(0,), dtype=int32)) the Mean-Squared Error between
             the y targets and the Q(s,a) values.
     """
 
-    
+
     # Unpack the mini-batch of experience tuples
     states, actions, rewards, next_states, done_vals = experiences
-    
+
     # Compute max Q^(s,a)
     max_qsa = tf.reduce_max(target_q_network(next_states), axis=-1)
-    
+
     # Set y = R if episode terminates, otherwise set y = R + γ max Q^(s,a).
     y_targets = rewards + (gamma * max_qsa * (1 - done_vals))
-    
+
     # Get the q_values
     q_values = q_network(states)
     q_values = tf.gather_nd(q_values, tf.stack([tf.range(q_values.shape[0]),
                                                 tf.cast(actions, tf.int32)], axis=1))
-    
+
     # Calculate the loss
     loss = MSE(y_targets, q_values)
-    
+
     return loss
 
-``` 
-    
+```
+
 
 <a name="8"></a>
 ## 8 - Update the Network Weights
@@ -561,20 +561,20 @@ The last line of this function updates the weights of the target $\hat Q$-Networ
 def agent_learn(experiences, gamma):
     """
     Updates the weights of the Q networks.
-    
+
     Args:
       experiences: (tuple) tuple of ["state", "action", "reward", "next_state", "done"] namedtuples
       gamma: (float) The discount factor.
-    
+
     """
-    
+
     # Calculate the loss
     with tf.GradientTape() as tape:
         loss = compute_loss(experiences, gamma, q_network, target_q_network)
 
     # Get the gradients of the loss with respect to the weights.
     gradients = tape.gradient(loss, q_network.trainable_variables)
-    
+
     # Update the weights of the q_network.
     optimizer.apply_gradients(zip(gradients, q_network.trainable_variables))
 
@@ -608,7 +608,7 @@ We are now ready to train our agent to solve the Lunar Lander environment. In th
 * **Line 7**: The agent observes the current `state` and chooses an `action` using an $\epsilon$-greedy policy. Our agent starts out using a value of $\epsilon =$ `epsilon = 1` which yields an $\epsilon$-greedy policy that is equivalent to the equiprobable random policy. This means that at the beginning of our training, the agent is just going to take random actions regardless of the observed `state`. As training progresses we will decrease the value of $\epsilon$ slowly towards a minimum value using a given $\epsilon$-decay rate. We want this minimum value to be close to zero because a value of $\epsilon = 0$ will yield an $\epsilon$-greedy policy that is equivalent to the greedy policy. This means that towards the end of training, the agent will lean towards selecting the `action` that it believes (based on its past experiences) will maximize $Q(s,a)$. We will set the minimum $\epsilon$ value to be `0.01` and not exactly 0 because we always want to keep a little bit of exploration during training. If you want to know how this is implemented in code we encourage you to take a look at the `utils.get_action` function in the `utils` module.
 
 
-* **Line 8**: We use the `.step()` method to take the given `action` in the environment and get the `reward` and the `next_state`. 
+* **Line 8**: We use the `.step()` method to take the given `action` in the environment and get the `reward` and the `next_state`.
 
 
 * **Line 9**: We store the `experience(state, action, reward, next_state, done)` tuple in our `memory_buffer`. Notice that we also store the `done` variable so that we can keep track of when an episode terminates. This allowed us to set the $y$ targets in [Exercise 2](#ex02).
@@ -625,7 +625,7 @@ We are now ready to train our agent to solve the Lunar Lander environment. In th
 
 * **Line 16**: At the end of each iteration of the outer loop we update the value of $\epsilon$, and check if the environment has been solved. We consider that the environment has been solved if the agent receives an average of `200` points in the last `100` episodes. If the environment has not been solved we continue the outer loop and start a new episode.
 
-Finally, we wanted to note that we have included some extra variables to keep track of the total number of points the agent received in each episode. This will help us determine if the agent has solved the environment and it will also allow us to see how our agent performed during training. We also use the `time` module to measure how long the training takes. 
+Finally, we wanted to note that we have included some extra variables to keep track of the total number of points the agent received in each episode. This will help us determine if the agent has solved the environment and it will also allow us to see how our agent performed during training. We also use the `time` module to measure how long the training takes.
 
 <br>
 <br>
@@ -635,7 +635,7 @@ Finally, we wanted to note that we have included some extra variables to keep tr
 </figure>
 <br>
 
-**Note:** With this notebook's default parameters, the following cell takes between 10 to 15 minutes to run. 
+**Note:** With this notebook's default parameters, the following cell takes between 10 to 15 minutes to run.
 
 
 ```python
@@ -656,45 +656,45 @@ memory_buffer = deque(maxlen=MEMORY_SIZE)
 target_q_network.set_weights(q_network.get_weights())
 
 for i in range(num_episodes):
-    
+
     # Reset the environment to the initial state and get the initial state
     state = env.reset()
     total_points = 0
-    
+
     for t in range(max_num_timesteps):
-        
+
         # From the current state S choose an action A using an ε-greedy policy
         state_qn = np.expand_dims(state, axis=0)  # state needs to be the right shape for the q_network
         q_values = q_network(state_qn)
         action = utils.get_action(q_values, epsilon)
-        
+
         # Take action A and receive reward R and the next state S'
         next_state, reward, done, _ = env.step(action)
-        
+
         # Store experience tuple (S,A,R,S') in the memory buffer.
         # We store the done variable as well for convenience.
         memory_buffer.append(experience(state, action, reward, next_state, done))
-        
+
         # Only update the network every NUM_STEPS_FOR_UPDATE time steps.
         update = utils.check_update_conditions(t, NUM_STEPS_FOR_UPDATE, memory_buffer)
-        
+
         if update:
             # Sample random mini-batch of experience tuples (S,A,R,S') from D
             experiences = utils.get_experiences(memory_buffer)
-            
+
             # Set the y targets, perform a gradient descent step,
             # and update the network weights.
             agent_learn(experiences, GAMMA)
-        
+
         state = next_state.copy()
         total_points += reward
-        
+
         if done:
             break
-            
+
     total_point_history.append(total_points)
     av_latest_points = np.mean(total_point_history[-num_p_av:])
-    
+
     # Update the ε value
     epsilon = utils.get_new_eps(epsilon)
 
@@ -709,7 +709,7 @@ for i in range(num_episodes):
         print(f"\n\nEnvironment solved in {i+1} episodes!")
         q_network.save('lunar_lander_model.h5')
         break
-        
+
 tot_time = time.time() - start
 
 print(f"\nTotal Runtime: {tot_time:.2f} s ({(tot_time/60):.2f} min)")
@@ -721,9 +721,9 @@ print(f"\nTotal Runtime: {tot_time:.2f} s ({(tot_time/60):.2f} min)")
     Episode 400 | Total point average of the last 100 episodes: -25.01
     Episode 500 | Total point average of the last 100 episodes: 159.91
     Episode 534 | Total point average of the last 100 episodes: 201.37
-    
+
     Environment solved in 534 episodes!
-    
+
     Total Runtime: 715.21 s (11.92 min)
 
 

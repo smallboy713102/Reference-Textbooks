@@ -213,7 +213,7 @@ plt.show()
 # #### Tip:
 # You can use your mouse to click on the triangle to the left of the green "Hints" below to reveal some hints for choosing b and w.
 
-# <details>
+#
 # <summary>
 #     <font size='3', color='darkgreen'><b>Hints</b></font>
 # </summary>

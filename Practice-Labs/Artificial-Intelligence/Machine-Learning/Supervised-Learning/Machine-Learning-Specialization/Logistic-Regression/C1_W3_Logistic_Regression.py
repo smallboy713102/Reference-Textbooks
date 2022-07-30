@@ -190,12 +190,12 @@ def sigmoid(z):
     return g
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 # `numpy` has a function called [`np.exp()`](https://numpy.org/doc/stable/reference/generated/numpy.exp.html), which offers a convinient way to calculate the exponential ( $e^{z}$) of all elements in the input array (`z`).
 #
-# <details>
+#
 #           <summary><font size="2" color="darkblue"><b> Click for more hints</b></font></summary>
 #
 #   - You can translate $e^{-z}$ into code as `np.exp(-z)`
@@ -204,13 +204,13 @@ def sigmoid(z):
 #
 #     If you're still stuck, you can check the hints presented below to figure out how to calculate `g`
 #
-#     <details>
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate g</b></font></summary>
 #         <code>g = 1 / (1 + np.exp(-z))</code>
-#     </details>
 #
 #
-# </details>
+#
+#
 
 # When you are finished, try testing a few values by calling `sigmoid(x)` in the cell below.
 # - For large positive values of x, the sigmoid should be close to 1, while for large negative values, the sigmoid should be close to 0.
@@ -327,7 +327,7 @@ def compute_cost(X, y, w, b, lambda_= 1):
     return total_cost
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 #
@@ -342,7 +342,7 @@ def compute_cost(X, y, w, b, lambda_= 1):
 #
 #    * Then, you can return the `total_cost` as `loss_sum` divided by `m`.
 #
-#     <details>
+#
 #           <summary><font size="2" color="darkblue"><b> Click for more hints</b></font></summary>
 #
 #     * Here's how you can structure the overall implementation for this function
@@ -378,32 +378,32 @@ def compute_cost(X, y, w, b, lambda_= 1):
 #     ```
 #
 #     If you're still stuck, you can check the hints presented below to figure out how to calculate `z_wb_ij`, `f_wb` and `cost`.
-#     <details>
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate z_wb_ij</b></font></summary>
 #            &emsp; &emsp; <code>z_wb_ij = w[j]*X[i][j] </code>
-#     </details>
 #
-#     <details>
+#
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate f_wb</b></font></summary>
 #            &emsp; &emsp; $f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = g(z_{\mathbf{w},b}(\mathbf{x}^{(i)}))$ where $g$ is the sigmoid function. You can simply call the `sigmoid` function implemented above.
-#           <details>
+#
 #               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate f</b></font></summary>
 #                &emsp; &emsp; You can compute f_wb as <code>f_wb = sigmoid(z_wb) </code>
-#            </details>
-#     </details>
 #
-#      <details>
+#
+#
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate loss</b></font></summary>
 #           &emsp; &emsp; You can use the <a href="https://numpy.org/doc/stable/reference/generated/numpy.log.html">np.log</a> function to calculate the log
-#           <details>
+#
 #               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate loss</b></font></summary>
 #               &emsp; &emsp; You can compute loss as <code>loss =  -y[i] * np.log(f_wb) - (1 - y[i]) * np.log(1 - f_wb)</code>
-#           </details>
-#     </details>
 #
-#     </details>
 #
-# </details>
+#
+#
+#
+#
 
 # Run the cells below to check your implementation of the `compute_cost` function with two different initializations of the parameters $w$
 
@@ -522,7 +522,7 @@ def compute_gradient(X, y, w, b, lambda_=None):
     return dj_db, dj_dw
 
 
-#  <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 #
@@ -560,10 +560,10 @@ def compute_gradient(X, y, w, b, lambda_=None):
 #
 #     If you're still stuck, you can check the hints presented below to figure out how to calculate `f_wb`, `dj_db_i` and `dj_dw_ij`
 #
-#     <details>
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate f_wb</b></font></summary>
 #            &emsp; &emsp; Recall that you calculated f_wb in <code>compute_cost</code> above — for detailed hints on how to calculate each intermediate term, check out the hints section below that exercise
-#            <details>
+#
 #               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate f_wb</b></font></summary>
 #               &emsp; &emsp; You can calculate f_wb as
 #                <pre>
@@ -581,20 +581,20 @@ def compute_gradient(X, y, w, b, lambda_=None):
 #
 #                    # Calculate the prediction from the model
 #                    f_wb = sigmoid(z_wb)
-#     </details>
 #
-#     </details>
-#     <details>
+#
+#
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate dj_db_i</b></font></summary>
 #            &emsp; &emsp; You can calculate dj_db_i as <code>dj_db_i = f_wb - y[i]</code>
-#     </details>
 #
-#     <details>
+#
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate dj_dw_ij</b></font></summary>
 #         &emsp; &emsp; You can calculate dj_dw_ij as <code>dj_dw_ij = (f_wb - y[i])* X[i][j]</code>
-#     </details>
 #
-# </details>
+#
+#
 
 # Run the cells below to check your implementation of the `compute_gradient` function with two different initializations of the parameters $w$
 
@@ -736,7 +736,7 @@ w,b, J_history,_ = gradient_descent(X_train ,y_train, initial_w, initial_b,
                                    compute_cost, compute_gradient, alpha, iterations, 0)
 
 
-# <details>
+#
 # <summary>
 #     <b>Expected Output: Cost     0.30, (Click to see details):</b>
 # </summary>
@@ -835,7 +835,7 @@ def predict(X, w, b):
     return p
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 #
@@ -863,10 +863,10 @@ def predict(X, w, b):
 #
 #     If you're still stuck, you can check the hints presented below to figure out how to calculate `f_wb` and `p[i]`
 #
-#     <details>
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate f_wb</b></font></summary>
 #            &emsp; &emsp; Recall that you calculated f_wb in <code>compute_cost</code> above — for detailed hints on how to calculate each intermediate term, check out the hints section below that exercise
-#            <details>
+#
 #               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate f_wb</b></font></summary>
 #               &emsp; &emsp; You can calculate f_wb as
 #                <pre>
@@ -884,19 +884,19 @@ def predict(X, w, b):
 #
 #                    # Calculate the prediction from the model
 #                    f_wb = sigmoid(z_wb)
-#     </details>
 #
-#     </details>
-#     <details>
+#
+#
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate p[i]</b></font></summary>
 #            &emsp; &emsp; As an example, if you'd like to say x = 1 if y is less than 3 and 0 otherwise, you can express it in code as <code>x = y < 3 </code>. Now do the same for p[i] = 1 if f_wb >= 0.5 and 0 otherwise.
-#            <details>
+#
 #               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate p[i]</b></font></summary>
 #               &emsp; &emsp; You can compute p[i] as <code>p[i] = f_wb >= 0.5</code>
-#           </details>
-#     </details>
 #
-# </details>
+#
+#
+#
 
 # Once you have completed the function `predict`, let's run the code below to report the training accuracy of your classifier by computing the percentage of examples it got correct.
 
@@ -1126,7 +1126,7 @@ def compute_cost_reg(X, y, w, b, lambda_ = 1):
     return total_cost
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 #
@@ -1157,14 +1157,14 @@ def compute_cost_reg(X, y, w, b, lambda_ = 1):
 #
 #     If you're still stuck, you can check the hints presented below to figure out how to calculate `reg_cost_j`
 #
-#     <details>
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate reg_cost_j</b></font></summary>
 #            &emsp; &emsp; You can use calculate reg_cost_j as <code>reg_cost_j = w[j]**2 </code>
-#     </details>
 #
-#     </details>
 #
-# </details>
+#
+#
+#
 #
 #
 
@@ -1264,7 +1264,7 @@ def compute_gradient_reg(X, y, w, b, lambda_ = 1):
     return dj_db, dj_dw
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 #
@@ -1291,14 +1291,14 @@ def compute_gradient_reg(X, y, w, b, lambda_ = 1):
 #
 #     If you're still stuck, you can check the hints presented below to figure out how to calculate `dj_dw_j_reg`
 #
-#     <details>
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate dj_dw_j_reg</b></font></summary>
 #            &emsp; &emsp; You can use calculate dj_dw_j_reg as <code>dj_dw_j_reg = (lambda_ / m) * w[j] </code>
-#     </details>
 #
-#     </details>
 #
-# </details>
+#
+#
+#
 #
 #
 #
@@ -1364,7 +1364,7 @@ w,b, J_history,_ = gradient_descent(X_mapped, y_train, initial_w, initial_b,
                                     alpha, iterations, lambda_)
 
 
-# <details>
+#
 # <summary>
 #     <b>Expected Output: Cost < 0.5  (Click for details)</b>
 # </summary>

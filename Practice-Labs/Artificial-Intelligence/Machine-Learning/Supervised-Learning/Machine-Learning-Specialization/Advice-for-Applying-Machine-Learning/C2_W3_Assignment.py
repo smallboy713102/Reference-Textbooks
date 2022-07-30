@@ -163,7 +163,7 @@ test_eval_mse(eval_mse)
 # END UNIT TEST
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 #
@@ -469,7 +469,7 @@ test_eval_cat_err(eval_cat_err)
 # END UNIT TEST
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 # ```python
@@ -555,7 +555,7 @@ model_test(model, classes, X_train.shape[1])
 # END UNIT TEST
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 # Summary should match this (layer instance names may increment )
@@ -575,7 +575,7 @@ model_test(model, classes, X_train.shape[1])
 # Non-trainable params: 0
 # _________________________________________________________________
 # ```
-#   <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for more hints</b></font></summary>
 #
 # ```python
@@ -678,7 +678,7 @@ model_s_test(model_s, classes, X_train.shape[1])
 # END UNIT TEST
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 # Summary should match this (layer instance names may increment )
@@ -696,7 +696,7 @@ model_s_test(model_s, classes, X_train.shape[1])
 # Non-trainable params: 0
 # _________________________________________________________________
 # ```
-#   <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for more hints</b></font></summary>
 #
 # ```python
@@ -800,7 +800,7 @@ model_r_test(model_r, classes, X_train.shape[1])
 # END UNIT TEST
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 # Summary should match this (layer instance names may increment )
@@ -820,7 +820,7 @@ model_r_test(model_r, classes, X_train.shape[1])
 # Non-trainable params: 0
 # _________________________________________________________________
 # ```
-#   <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for more hints</b></font></summary>
 #
 # ```python

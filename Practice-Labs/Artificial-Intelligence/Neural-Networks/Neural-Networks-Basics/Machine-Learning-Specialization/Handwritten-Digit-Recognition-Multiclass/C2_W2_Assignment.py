@@ -114,7 +114,7 @@ test_my_softmax(my_softmax)
 # END UNIT TEST
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #     One implementation uses for loop to first build the denominator and then a second loop to calculate each output.
 #
@@ -129,7 +129,7 @@ test_my_softmax(my_softmax)
 #         a[j] =              # divide each the exp of each output by the denominator
 #     return(a)
 # ```
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for code</b></font></summary>
 #
 # ```python
@@ -350,7 +350,7 @@ model = Sequential(
 model.summary()
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Expected Output (Click to expand)</b></font></summary>
 # The `model.summary()` function displays a useful summary of the model. Note, the names of the layers may vary as they are auto-generated unless the name is specified.
 #
@@ -371,7 +371,7 @@ model.summary()
 # _________________________________________________________________
 # ```
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 # ```python

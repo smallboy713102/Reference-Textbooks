@@ -220,7 +220,7 @@ test_tower(user_NN)
 test_tower(item_NN)
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 #   You can create a dense layer with a relu activation as shown.
@@ -242,7 +242,7 @@ test_tower(item_NN)
 #     ### END CODE HERE ###
 # ])
 # ```
-# <details>
+#
 #     <summary><font size="2" color="darkblue"><b> Click for solution</b></font></summary>
 #
 # ```python
@@ -262,8 +262,8 @@ test_tower(item_NN)
 #     ### END CODE HERE ###
 # ])
 # ```
-# </details>
-# </details>
+#
+#
 #
 #
 #
@@ -416,12 +416,12 @@ print(f"squared distance between a2 and b2: {sq_dist(a2, b2)}")
 print(f"squared distance between a3 and b3: {sq_dist(a3, b3)}")
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 #   While a summation is often an indication a for loop should be used, here the subtraction can be element-wise in one statement. Further, you can utilized np.square to square, element-wise, the result of the subtraction. np.sum can be used to sum the squared elements.
 #
-# </details>
+#
 #
 #
 #

@@ -181,7 +181,7 @@ plot_cost_i_w(X_train,y_train,hist)
 # The lectures described the importance of rescaling the dataset so the features have a similar range.
 # If you are interested in the details of why this is the case, click on the 'details' header below. If not, the section below will walk through an implementation of how to do feature scaling.
 
-# <details>
+#
 # <summary>
 #     <font size='3', color='darkgreen'><b>Details</b></font>
 # </summary>

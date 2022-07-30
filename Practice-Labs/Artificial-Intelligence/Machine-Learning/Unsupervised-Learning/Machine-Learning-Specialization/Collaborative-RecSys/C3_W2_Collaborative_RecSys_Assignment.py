@@ -238,7 +238,7 @@ from public_tests import *
 test_cofi_cost_func(cofi_cost_func)
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #     You can structure the code in two for loops similar to the summation in (1).
 #     Implement the code without regularization first.
@@ -255,7 +255,7 @@ test_cofi_cost_func(cofi_cost_func)
 #
 #     ### END CODE HERE ###
 # ```
-# <details>
+#
 #     <summary><font size="2" color="darkblue"><b> Click for more hints</b></font></summary>
 #
 #     Here is some more details. The code below pulls out each element from the matrix before using it.
@@ -279,7 +279,7 @@ test_cofi_cost_func(cofi_cost_func)
 #
 # ```
 #
-# <details>
+#
 #     <summary><font size="2" color="darkblue"><b>Last Resort (full non-regularized implementation)</b></font></summary>
 #
 # ```python
@@ -298,22 +298,22 @@ test_cofi_cost_func(cofi_cost_func)
 #     ### END CODE HERE ###
 # ```
 #
-# <details>
+#
 #     <summary><font size="2" color="darkblue"><b>regularization</b></font></summary>
 #      Regularization just squares each element of the W array and X array and them sums all the squared elements.
 #      You can utilize np.square() and np.sum().
 #
-# <details>
+#
 #     <summary><font size="2" color="darkblue"><b>regularization details</b></font></summary>
 #
 # ```python
 #     J += lambda_* (np.sum(np.square(W)) + np.sum(np.square(X)))
 # ```
 #
-# </details>
-# </details>
-# </details>
-# </details>
+#
+#
+#
+#
 #
 #
 #

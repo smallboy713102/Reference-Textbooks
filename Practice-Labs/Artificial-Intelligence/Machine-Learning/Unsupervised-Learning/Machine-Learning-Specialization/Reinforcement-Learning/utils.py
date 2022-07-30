@@ -38,8 +38,8 @@ def check_update_conditions(t, num_steps_upd, memory_buffer):
         return True
     else:
         return False
-    
-    
+
+
 def get_new_eps(epsilon):
     return max(E_MIN, E_DECAY*epsilon)
 
@@ -49,35 +49,35 @@ def get_action(q_values, epsilon=0):
         return np.argmax(q_values.numpy()[0])
     else:
         return random.choice(np.arange(4))
-    
-    
+
+
 def update_target_network(q_network, target_q_network):
     for target_weights, q_net_weights in zip(target_q_network.weights, q_network.weights):
         target_weights.assign(TAU * q_net_weights + (1.0 - TAU) * target_weights)
-    
+
 
 def plot_history(reward_history, rolling_window=20, lower_limit=None,
                  upper_limit=None, plot_rw=True, plot_rm=True):
-    
+
     if lower_limit is None or upper_limit is None:
         rh = reward_history
         xs = [x for x in range(len(reward_history))]
     else:
         rh = reward_history[lower_limit:upper_limit]
         xs = [x for x in range(lower_limit,upper_limit)]
-    
+
     df = pd.DataFrame(rh)
     rollingMean = df.rolling(rolling_window).mean()
 
     plt.figure(figsize=(10,7), facecolor='white')
-    
+
     if plot_rw:
         plt.plot(xs, rh, linewidth=1, color='cyan')
     if plot_rm:
         plt.plot(xs, rollingMean, linewidth=2, color='magenta')
 
     text_color = 'black'
-        
+
     ax = plt.gca()
     ax.set_facecolor('black')
     plt.grid()
@@ -89,12 +89,12 @@ def plot_history(reward_history, rolling_window=20, lower_limit=None,
     ax.tick_params(axis='x', colors=text_color)
     ax.tick_params(axis='y', colors=text_color)
     plt.show()
-    
-    
+
+
 def display_table(initial_state, action, next_state, reward, done):
 
     action_labels = ["Do nothing", "Fire right engine", "Fire main engine", "Fire left engine"]
-    
+
     # Do not use column headers
     column_headers = None
 
@@ -105,7 +105,7 @@ def display_table(initial_state, action, next_state, reward, done):
                       ("Reward Received:", [f"{reward:.3f}"]),
                       ("Episode Terminated:", [f"{done}"])]
 
-    # Generate table  
+    # Generate table
     row_labels, data = zip_longest(*table_info)
     table = SimpleTable(data, column_headers, row_labels)
 
@@ -122,15 +122,15 @@ def embed_mp4(filename):
     Your browser does not support the video tag.
     </video>'''.format(b64.decode())
     return IPython.display.HTML(tag)
-        
-        
+
+
 def create_video(filename, env, q_network, fps=30):
     with imageio.get_writer(filename, fps=fps) as video:
         done = False
         state = env.reset()
         frame = env.render(mode="rgb_array")
         video.append_data(frame)
-        while not done:    
+        while not done:
             state = np.expand_dims(state, axis=0)
             q_values = q_network(state)
             action = np.argmax(q_values.numpy()[0])

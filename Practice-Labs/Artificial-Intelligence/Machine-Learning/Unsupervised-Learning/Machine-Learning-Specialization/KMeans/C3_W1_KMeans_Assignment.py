@@ -142,7 +142,7 @@ def find_closest_centroids(X, centroids):
     return idx
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 #
@@ -171,27 +171,27 @@ def find_closest_centroids(X, centroids):
 #
 #     If you're still stuck, you can check the hints presented below to figure out how to calculate `norm_ij` and `idx[i]`.
 #
-#     <details>
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate norm_ij</b></font></summary>
 #            &emsp; &emsp; You can use <a href="https://numpy.org/doc/stable/reference/generated/numpy.linalg.norm.html">np.linalg.norm</a> to calculate the norm
-#           <details>
+#
 #               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate norm_ij</b></font></summary>
 #                &emsp; &emsp; You can compute norm_ij as <code>norm_ij = np.linalg.norm(X[i] - centroids[j]) </code>
-#            </details>
-#     </details>
 #
-#      <details>
+#
+#
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate idx[i]</b></font></summary>
 #           &emsp; &emsp; You can use <a href="https://numpy.org/doc/stable/reference/generated/numpy.argmin.html">np.argmin</a> to find the index of the minimum value
-#           <details>
+#
 #               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate idx[i]</b></font></summary>
 #               &emsp; &emsp; You can compute idx[i] as <code>idx[i] = np.argmin(distance)</code>
-#           </details>
-#     </details>
 #
-#     </details>
 #
-# </details>
+#
+#
+#
+#
 #
 #
 #
@@ -304,7 +304,7 @@ def compute_centroids(X, idx, K):
     return centroids
 
 
-# <details>
+#
 #   <summary><font size="3" color="darkgreen"><b>Click for hints</b></font></summary>
 #
 #
@@ -328,27 +328,27 @@ def compute_centroids(X, idx, K):
 #
 #     If you're still stuck, you can check the hints presented below to figure out how to calculate `points` and `centroids[k]`.
 #
-#     <details>
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate points</b></font></summary>
 #            &emsp; &emsp; Say we wanted to find all the values in X that were assigned to cluster <code>k=0</code>. That is, the corresponding value in idx for these examples is 0. In Python, we can do it as <code>X[idx == 0]</code>. Similarly, the points assigned to centroid <code>k=1</code> are <code>X[idx == 1]</code>
-#           <details>
+#
 #               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate points</b></font></summary>
 #                &emsp; &emsp; You can compute points as <code>points = X[idx == k] </code>
-#            </details>
-#     </details>
 #
-#      <details>
+#
+#
+#
 #           <summary><font size="2" color="darkblue"><b>Hint to calculate centroids[k]</b></font></summary>
 #           &emsp; &emsp; You can use <a href="https://numpy.org/doc/stable/reference/generated/numpy.mean.html">np.mean</a> to find the mean. Make sure to set the parameter <code>axis=0</code>
-#           <details>
+#
 #               <summary><font size="2" color="blue"><b>&emsp; &emsp; More hints to calculate centroids[k]</b></font></summary>
 #               &emsp; &emsp; You can compute centroids[k] as <code>centroids[k] = np.mean(points, axis = 0)</code>
-#           </details>
-#     </details>
 #
-#     </details>
 #
-# </details>
+#
+#
+#
+#
 #
 #
 #
