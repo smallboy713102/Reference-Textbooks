@@ -52,27 +52,3 @@ Data Science Textbooks for computer science students, which including the follow
 #### - [Business Intelligence and Data Management](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
 #### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
 #### - [Data Engineering and Big Data](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
-
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
-
-## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
-Bioinformatics Textbooks for computer science students, which including the following main topics:
-
-#### - [Fundamentals of Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
-#### - [Computational Drug Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
-#### - [Software Engineering in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
-#### - [Database Systems and Warehousing in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
-#### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
-#### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Bioinformatics/README.md) Textbooks
-
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
-
-## [`Operation Research`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Operation-Research/README.md) Textbooks
-Operation Research Textbooks for computer science students, which including the following main topics:
-
-#### - [Linear and Nonlinear Programming](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Operation-Research/README.md) Textbooks
-#### - [Operation Research and Decision Theory](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Operation-Research/README.md) Textbooks
-#### - [Dynamic Programming and Stochastic Models](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Operation-Research/README.md) Textbooks
-#### - [Reinforcement Learning and Game Theory](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Operation-Research/README.md) Textbooks
-#### - [Advanced Simulations](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Operation-Research/README.md) Textbooks
-#### - [Systems Project Management](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Operation-Research/README.md) Textbooks

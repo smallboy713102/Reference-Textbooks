@@ -52,27 +52,3 @@ Data Science Assignments for computer science students, which including the foll
 #### - [Business Intelligence and Data Management](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Data-Science/README.md) Assignments
 #### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Data-Science/README.md) Assignments
 #### - [Data Engineering and Big Data](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Data-Science/README.md) Assignments
-
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
-
-## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
-Bioinformatics Assignments for computer science students, which including the following main topics:
-
-#### - [Fundamentals of Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
-#### - [Computational Drug Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
-#### - [Software Engineering in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
-#### - [Database Systems and Warehousing in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
-#### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
-#### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Bioinformatics/README.md) Assignments
-
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
-
-## [`Operation Research`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Operation-Research/README.md) Assignments
-Operation Research Assignments for computer science students, which including the following main topics:
-
-#### - [Linear and Nonlinear Programming](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Operation-Research/README.md) Assignments
-#### - [Operation Research and Decision Theory](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Operation-Research/README.md) Assignments
-#### - [Dynamic Programming and Stochastic Models](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Operation-Research/README.md) Assignments
-#### - [Reinforcement Learning and Game Theory](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Operation-Research/README.md) Assignments
-#### - [Advanced Simulations](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Operation-Research/README.md) Assignments
-#### - [Systems Project Management](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/Operation-Research/README.md) Assignments

@@ -14,8 +14,6 @@ Hands-On Experience for computer science students.
 ### - [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/README.md) Textbooks
 ### - [Artificial Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/README.md) Textbooks
 ### - [Data Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/README.md) Textbooks
-### - [Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/README.md) Textbooks
-### - [Operation Research](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/README.md) Textbooks
 
 <br><br>
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/practice-labs.jpg"></img>
@@ -26,8 +24,6 @@ Hands-On Experience for computer science students.
 ### - [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/README.md) Labs
 ### - [Artificial Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/README.md) Labs
 ### - [Data Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/README.md) Labs
-### - [Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/README.md) Labs
-### - [Operation Research](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/README.md) Labs
 
 <br><br>
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/mini-assignments.jpg"></img>
@@ -38,8 +34,6 @@ Hands-On Experience for computer science students.
 ### - [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/README.md) Assignments
 ### - [Artificial Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/README.md) Assignments
 ### - [Data Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/README.md) Assignments
-### - [Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/README.md) Assignments
-### - [Operation Research](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/README.md) Assignments
 
 <br><br>
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/lecture-notes.jpg"></img>
@@ -50,5 +44,3 @@ Hands-On Experience for computer science students.
 ### - [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/README.md) Lectures
 ### - [Artificial Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/README.md) Lectures
 ### - [Data Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/README.md) Lectures
-### - [Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/README.md) Lectures
-### - [Operation Research](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/README.md) Lectures

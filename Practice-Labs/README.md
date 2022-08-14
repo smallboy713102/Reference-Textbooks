@@ -52,27 +52,3 @@ Data Science Labs for computer science students, which including the following m
 #### - [Business Intelligence and Data Management](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Data-Science/README.md) Labs
 #### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Data-Science/README.md) Labs
 #### - [Data Engineering and Big Data](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Data-Science/README.md) Labs
-
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
-
-## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
-Bioinformatics Labs for computer science students, which including the following main topics:
-
-#### - [Fundamentals of Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
-#### - [Computational Drug Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
-#### - [Software Engineering in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
-#### - [Database Systems and Warehousing in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
-#### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
-#### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Bioinformatics/README.md) Labs
-
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
-
-## [`Operation Research`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Operation-Research/README.md) Labs
-Operation Research Labs for computer science students, which including the following main topics:
-
-#### - [Linear and Nonlinear Programming](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Operation-Research/README.md) Labs
-#### - [Operation Research and Decision Theory](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Operation-Research/README.md) Labs
-#### - [Dynamic Programming and Stochastic Models](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Operation-Research/README.md) Labs
-#### - [Reinforcement Learning and Game Theory](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Operation-Research/README.md) Labs
-#### - [Advanced Simulations](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Operation-Research/README.md) Labs
-#### - [Systems Project Management](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/Operation-Research/README.md) Labs

@@ -52,27 +52,3 @@ Data Science Lectures for computer science students, which including the followi
 #### - [Business Intelligence and Data Management](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/README.md) Lectures
 #### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/README.md) Lectures
 #### - [Data Engineering and Big Data](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Data-Science/README.md) Lectures
-
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/bioinformatics-department.jpg">
-
-## [`Bioinformatics`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-Bioinformatics Lectures for computer science students, which including the following main topics:
-
-#### - [Fundamentals of Bioinformatics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-#### - [Computational Drug Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-#### - [Software Engineering in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-#### - [Database Systems and Warehousing in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-#### - [Artificial Intelligence in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-#### - [Data Science in Healthcare](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Bioinformatics/README.md) Lectures
-
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/operation-research-department.jpg">
-
-## [`Operation Research`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Operation-Research/README.md) Lectures
-Operation Research Lectures for computer science students, which including the following main topics:
-
-#### - [Linear and Nonlinear Programming](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Operation-Research/README.md) Lectures
-#### - [Operation Research and Decision Theory](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Operation-Research/README.md) Lectures
-#### - [Dynamic Programming and Stochastic Models](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Operation-Research/README.md) Lectures
-#### - [Reinforcement Learning and Game Theory](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Operation-Research/README.md) Lectures
-#### - [Advanced Simulations](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Operation-Research/README.md) Lectures
-#### - [Systems Project Management](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/Operation-Research/README.md) Lectures
