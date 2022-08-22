@@ -1,46 +1,54 @@
-<img align="right" width="200" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/hands-on-experience.jpg"></img>
+<img align="right" width="200" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/reference-textbooks.jpg"></img>
 
-# Hands-On Experience
-Hands-On Experience for computer science students.
+# Reference Textbooks
+Reference Textbooks for computer science students.
 
-<br><br><br><br><br>
+<br><br><br>
 
-<br><br>
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/reference-textbooks.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
 
-## [`Reference Textbooks`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/README.md)
+## [`Computer Science`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/README.md) Textbooks
+Computer Science Textbooks for computer science students, which including the following main topics:
 
-### - [Computer Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/README.md) Textbooks
-### - [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/README.md) Textbooks
-### - [Artificial Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/README.md) Textbooks
-### - [Data Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/README.md) Textbooks
+#### - [Programming Languages and Object Oriented](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/README.md) Textbooks
+#### - [Mathematics and Probability](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/README.md) Textbooks
+#### - [Data Structures and Algorithms](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/README.md) Textbooks
+#### - [Advanced Data Structures and Algorithms](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/README.md) Textbooks
+#### - [Operating Systems and Parallel Computing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/README.md) Textbooks
+#### - [Theory of Computation and Compiler Design](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Computer-Science/README.md) Textbooks
 
-<br><br>
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/practice-labs.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering-department.jpg">
 
-## [`Practice Labs`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/README.md)
+## [`Software Engineering`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
+Software Engineering Textbooks for computer science students, which including the following main topics:
 
-### - [Computer Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/README.md) Labs
-### - [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/README.md) Labs
-### - [Artificial Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/README.md) Labs
-### - [Data Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Practice-Labs/README.md) Labs
+#### - [Fundamentals of Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
+#### - [Distributed Systems and Cloud Computing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
+#### - [Database Systems and Warehousing](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
+#### - [Continuous Delivery and DevOps](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
+#### - [Web/Mobile Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
+#### - [Game Development](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Software-Engineering/README.md) Textbooks
 
-<br><br>
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/mini-assignments.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence-department.jpg">
 
-## [`Mini Assignments`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/README.md)
+## [`Artificial Intelligence`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
+Artificial Intelligence Textbooks for computer science students, which including the following main topics:
 
-### - [Computer Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/README.md) Assignments
-### - [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/README.md) Assignments
-### - [Artificial Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/README.md) Assignments
-### - [Data Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Mini-Assignments/README.md) Assignments
+#### - [Artificial Intelligence Algorithms](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
+#### - [Machine Learning and Data Mining](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
+#### - [Neural Networks and Deep Learning](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
+#### - [Signal Processing and Data Compression](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
+#### - [Image Processing and Computer Vision](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
+#### - [Machine Learning Engineering for Production](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Artificial-Intelligence/README.md) Textbooks
 
-<br><br>
-<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/lecture-notes.jpg"></img>
+<img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
 
-## [`Lecture Notes`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/README.md)
+## [`Data Science`](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
+Data Science Textbooks for computer science students, which including the following main topics:
 
-### - [Computer Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/README.md) Lectures
-### - [Software Engineering](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/README.md) Lectures
-### - [Artificial Intelligence](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/README.md) Lectures
-### - [Data Science](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Lecture-Notes/README.md) Lectures
+#### - [Data Science and Business Analytics](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
+#### - [Data Analysis and Visualization](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
+#### - [Natural Language Processing and Text Mining](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
+#### - [Business Intelligence and Data Management](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
+#### - [Data Storage and Retrieval](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
+#### - [Data Engineering and Big Data](https://github.com/cs-MohamedAyman/Hands-On-Experience/blob/master/Reference-Textbooks/Data-Science/README.md) Textbooks
