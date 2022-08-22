@@ -8,7 +8,7 @@ Reference Textbooks for computer science students.
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/computer-science-department.jpg">
 
 ## [`Computer Science`](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Computer-Science/README.md) Textbooks
-Computer Science Textbooks for computer science students, which including the following main topics:
+Computer Science Textbooks, which including the following main topics:
 
 #### - [Programming Languages and Object Oriented](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Computer-Science/README.md) Textbooks
 #### - [Mathematics and Probability](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Computer-Science/README.md) Textbooks
@@ -20,7 +20,7 @@ Computer Science Textbooks for computer science students, which including the fo
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/software-engineering-department.jpg">
 
 ## [`Software Engineering`](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Software-Engineering/README.md) Textbooks
-Software Engineering Textbooks for computer science students, which including the following main topics:
+Software Engineering Textbooks, which including the following main topics:
 
 #### - [Fundamentals of Software Engineering](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Software-Engineering/README.md) Textbooks
 #### - [Distributed Systems and Cloud Computing](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Software-Engineering/README.md) Textbooks
@@ -32,7 +32,7 @@ Software Engineering Textbooks for computer science students, which including th
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/artificial-intelligence-department.jpg">
 
 ## [`Artificial Intelligence`](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Artificial-Intelligence/README.md) Textbooks
-Artificial Intelligence Textbooks for computer science students, which including the following main topics:
+Artificial Intelligence Textbooks, which including the following main topics:
 
 #### - [Artificial Intelligence Algorithms](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Artificial-Intelligence/README.md) Textbooks
 #### - [Machine Learning and Data Mining](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Artificial-Intelligence/README.md) Textbooks
@@ -44,7 +44,7 @@ Artificial Intelligence Textbooks for computer science students, which including
 <img align="right" width="100" src="https://github.com/cs-MohamedAyman/cs-MohamedAyman/blob/main/repos-logos/data-science-department.jpg">
 
 ## [`Data Science`](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/README.md) Textbooks
-Data Science Textbooks for computer science students, which including the following main topics:
+Data Science Textbooks, which including the following main topics:
 
 #### - [Data Science and Business Analytics](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/README.md) Textbooks
 #### - [Data Analysis and Visualization](https://github.com/cs-MohamedAyman/Reference-Textbooks/blob/master/Data-Science/README.md) Textbooks
